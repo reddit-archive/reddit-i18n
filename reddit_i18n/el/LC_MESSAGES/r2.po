@@ -18,43 +18,56 @@ msgstr ""
 "Generated-By: Babel 0.9.1\n"
 "Plural-Forms:nplurals=2; plural=(n != 1);\n"
 
-#: r2/controllers/api.py:67
+#: r2/controllers/admin.py:20 r2/lib/menus.py:95
+msgid "reporters"
+msgstr "αναφέροντες"
+
+#: r2/controllers/admin.py:24 r2/lib/menus.py:106
+#: r2/templates/printable.html:96
+msgid "reported"
+msgstr "αναφερμένα"
+
+#: r2/controllers/admin.py:41 r2/lib/menus.py:96
+msgid "reports"
+msgstr ""
+
+#: r2/controllers/api.py:78
 msgid "API"
 msgstr ""
 
-#: r2/controllers/api.py:110 r2/controllers/feedback.py:14
+#: r2/controllers/api.py:121 r2/controllers/feedback.py:14
 msgid ""
 "thanks for your message! you should hear back from us shortly."
 msgstr ""
 "ευχαριστούμε για το μήνυμά σας! θα σας απαντήσουμε σύντομα."
 
-#: r2/controllers/api.py:143 r2/templates/messagecompose.html:5
+#: r2/controllers/api.py:154 r2/templates/messagecompose.html:5
 msgid "your message has been delivered"
 msgstr "το μήνυμά σας παραδόθηκε"
 
-#: r2/controllers/api.py:173 r2/controllers/front.py:450
+#: r2/controllers/api.py:184 r2/controllers/front.py:458
 msgid "seen it"
 msgstr ""
 
-#: r2/controllers/api.py:184 r2/controllers/front.py:461 r2/lib/menus.py:64
+#: r2/controllers/api.py:195 r2/controllers/front.py:469 r2/lib/menus.py:56
 #: r2/templates/newlink.html:4 r2/templates/newlink.html:64
 msgid "submit"
 msgstr "υποβολή"
 
-#: r2/controllers/api.py:433
+#: r2/controllers/api.py:436
 msgid "your email has been updated"
 msgstr "η διεύθυνση email σας ενημερώθηκε"
 
-#: r2/controllers/api.py:446
+#: r2/controllers/api.py:449
 msgid "your email and password have been updated"
 msgstr ""
 "η διεύθυνση email και ο κωδικός σας ενημερώθηκαν"
 
-#: r2/controllers/api.py:449
+#: r2/controllers/api.py:452
 msgid "your password has been updated"
 msgstr "ο κωδικός σας ενημερώθηκε"
 
-#: r2/controllers/api.py:464
+#: r2/controllers/api.py:467
 msgid "see? you don't really want to leave"
 msgstr ""
 "βλεπετε; δεν θέλετε στ'αλήθεια να φύγετε"
@@ -67,25 +80,25 @@ msgstr "κουμπιά του reddit"
 msgid "reddit widget"
 msgstr "widget του reddit"
 
-#: r2/controllers/buttons.py:88 r2/lib/menus.py:71
+#: r2/controllers/buttons.py:88 r2/lib/menus.py:63
 msgid "bookmarklets"
 msgstr "σελιδοδεικτοειδή"
 
-#: r2/controllers/embed.py:18 r2/lib/menus.py:65
+#: r2/controllers/embed.py:19 r2/lib/menus.py:57
 #: r2/templates/commentreplybox.html:41
 msgid "help"
 msgstr "βοήθεια"
 
-#: r2/controllers/error.py:87
+#: r2/controllers/error.py:79
 #, python-format
 msgid "forbidden (%(domain)s)"
 msgstr ""
 
-#: r2/controllers/error.py:96
+#: r2/controllers/error.py:88
 msgid "this reddit has been banned."
 msgstr ""
 
-#: r2/controllers/error.py:104
+#: r2/controllers/error.py:96
 msgid "page not found"
 msgstr ""
 
@@ -184,34 +197,34 @@ msgid "that link has already been submitted"
 msgstr ""
 "αυτός ο σύνδεσμος έχει ήδη υποβληθεί"
 
-#: r2/controllers/errors.py:32
+#: r2/controllers/errors.py:34
 msgid "that subreddit already exists"
 msgstr "αυτό το υποreddit υπάρχει ήδη"
 
-#: r2/controllers/errors.py:33
+#: r2/controllers/errors.py:35
 msgid "that name isn't going to work"
 msgstr "αυτό το όνομα δε μας κάνει"
 
-#: r2/controllers/errors.py:34
+#: r2/controllers/errors.py:36
 #, python-format
 msgid "you are trying to submit too fast. try again in %(time)s."
 msgstr ""
 "προσπαθείτε να υποβάλετε πολύ γρήγορα. δοκιμάστε ξανά σε %(time)s."
 
-#: r2/controllers/errors.py:35
+#: r2/controllers/errors.py:37
 msgid "your session has expired"
 msgstr "η σύνοδός σας έχει λήξει"
 
-#: r2/controllers/errors.py:36
+#: r2/controllers/errors.py:38
 msgid "you must accept the terms first"
 msgstr ""
 "πρέπει να αποδεχθείτε τους όρους πρώτα"
 
-#: r2/controllers/errors.py:39
+#: r2/controllers/errors.py:41
 msgid "that option is not valid"
 msgstr "αυτή η επιλογή είναι άκυρη"
 
-#: r2/controllers/errors.py:40
+#: r2/controllers/errors.py:42
 msgid "description is too long"
 msgstr "η περιγραφή είναι πολύ μεγάλη"
 
@@ -219,683 +232,659 @@ msgstr "η περιγραφή είναι πολύ μεγάλη"
 msgid "inquire about advertising on reddit"
 msgstr "ερωτήση για διαφήμιση στο reddit"
 
-#: r2/controllers/feedback.py:17 r2/lib/menus.py:75
+#: r2/controllers/feedback.py:17 r2/lib/menus.py:67
 msgid "advertise"
 msgstr "διαφημιστείτε"
 
-#: r2/controllers/feedback.py:18 r2/lib/menus.py:70
+#: r2/controllers/feedback.py:18 r2/lib/menus.py:62
 msgid "feedback"
 msgstr "προτάσεις"
 
-#: r2/controllers/front.py:43 r2/templates/login.html:45
+#: r2/controllers/front.py:38 r2/templates/login.html:45
 msgid "password"
 msgstr "κωδικός"
 
-#: r2/controllers/front.py:57
+#: r2/controllers/front.py:49
 msgid "reset password"
 msgstr ""
 
-#: r2/controllers/front.py:226
+#: r2/controllers/front.py:272 r2/controllers/front.py:274
+#: r2/templates/createsubreddit.html:40
+msgid "create a reddit"
+msgstr "δημιουργία ενός reddit"
+
+#: r2/controllers/front.py:316 r2/lib/menus.py:55
+msgid "stats"
+msgstr "στατιστικά"
+
+#: r2/controllers/front.py:355 r2/controllers/front.py:379
+msgid "search results"
+msgstr "αποτελέσματα αναζήτησης"
+
+#: r2/controllers/listingcontroller.py:161 r2/lib/menus.py:20
+#: r2/templates/frametoolbar.html:61 r2/templates/link.html:123
+msgid "saved"
+msgstr "αποθηκευμένα"
+
+#: r2/controllers/listingcontroller.py:176
+#: r2/controllers/listingcontroller.py:243
+msgid "top scoring links"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:190
+msgid "newest submissions"
+msgstr "πρόσφατες αποστολές"
+
+#: r2/controllers/listingcontroller.py:245
+msgid "most controversial links"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:253
+msgid "recommended for you"
+msgstr "προτεινόμενα για εσάς"
+
+#: r2/controllers/listingcontroller.py:273 r2/templates/redditheader.html:31
+msgid "messages"
+msgstr "μηνύματα"
+
+#: r2/controllers/listingcontroller.py:332 r2/templates/pagenamenav.html:9
+msgid "reddits"
+msgstr "reddit"
+
+#: r2/controllers/listingcontroller.py:367
+msgid "reddits: "
+msgstr "reddit:"
+
+#: r2/controllers/post.py:80
+msgid "over 18?"
+msgstr ""
+
+#: r2/lib/menus.py:16
+msgid "what's hot"
+msgstr ""
+
+#: r2/lib/menus.py:17
+msgid "what's new"
+msgstr ""
+
+#: r2/lib/menus.py:18
+msgid "top scoring"
+msgstr ""
+
+#: r2/lib/menus.py:19
+msgid "most controversial"
+msgstr ""
+
+#: r2/lib/menus.py:21 r2/lib/menus.py:35
+msgid "recommended"
+msgstr "προτεινόμενα"
+
+#: r2/lib/menus.py:25
+msgid "hot"
+msgstr "τρέχοντα"
+
+#: r2/lib/menus.py:26
+msgid "new"
+msgstr "νέα"
+
+#: r2/lib/menus.py:27
+msgid "old"
+msgstr "παλιά"
+
+#: r2/lib/menus.py:28
+msgid "ups"
+msgstr "πάνω"
+
+#: r2/lib/menus.py:29
+msgid "downs"
+msgstr "κάτω"
+
+#: r2/lib/menus.py:30 r2/templates/widgetdemopanel.html:73
+#: r2/templates/widgetdemopanel.html:94
+msgid "top"
+msgstr "κορυφαία"
+
+#: r2/lib/menus.py:31
+msgid "rank"
+msgstr "κατάταξη"
+
+#: r2/lib/menus.py:32
+msgid "relevance"
+msgstr "συνάφεια"
+
+#: r2/lib/menus.py:33
+msgid "controversial"
+msgstr ""
+
+#: r2/lib/menus.py:34
+msgid "saved {toolbar}"
+msgstr "αποθηκευμένα"
+
+#: r2/lib/menus.py:36
+msgid "rising"
+msgstr "ανοδικά"
+
+#: r2/lib/menus.py:37
+msgid "admin"
+msgstr "διαχείριση"
+
+#: r2/lib/menus.py:40 r2/templates/widgetdemopanel.html:78
+msgid "this hour"
+msgstr "αυτή την ώρα"
+
+#: r2/lib/menus.py:41 r2/templates/userstats.html:14
+#: r2/templates/widgetdemopanel.html:79
+msgid "today"
+msgstr "σήμερα"
+
+#: r2/lib/menus.py:42 r2/templates/userstats.html:24
+#: r2/templates/widgetdemopanel.html:80
+msgid "this week"
+msgstr "αυτή τη βδομάδα"
+
+#: r2/lib/menus.py:43 r2/templates/widgetdemopanel.html:81
+msgid "this month"
+msgstr "αυτό το μήνα"
+
+#: r2/lib/menus.py:44
+msgid "this year"
+msgstr "φέτος"
+
+#: r2/lib/menus.py:45
+msgid "all time"
+msgstr "πάντα"
+
+#: r2/lib/menus.py:48
+msgid "spam"
+msgstr "ανεπιθύμητα"
+
+#: r2/lib/menus.py:49
+msgid "autobanned"
+msgstr ""
+
+#: r2/lib/menus.py:52
+msgid "turn admin on"
+msgstr "ενεργοποίηση διαχείρισης"
+
+#: r2/lib/menus.py:53
+msgid "turn admin off"
+msgstr "απενεργοποίηση διαχείρισης"
+
+#: r2/lib/menus.py:54 r2/lib/pages.py:196 r2/lib/pages.py:203
+msgid "preferences"
+msgstr "προτιμήσεις"
+
+#: r2/lib/menus.py:58
+msgid "blog"
+msgstr "ιστολόγιο"
+
+#: r2/lib/menus.py:59 r2/templates/frametoolbar.html:107
+msgid "logout"
+msgstr "έξοδος"
+
+#: r2/lib/menus.py:64
+msgid "buttons"
+msgstr "κουμπιά"
+
+#: r2/lib/menus.py:65
+msgid "widget"
+msgstr "widget"
+
+#: r2/lib/menus.py:66
+msgid "store"
+msgstr "κατάστημα"
+
+#: r2/lib/menus.py:70
+msgid "options"
+msgstr "επιλογές"
+
+#: r2/lib/menus.py:71
+msgid "friends"
+msgstr "φίλοι"
+
+#: r2/lib/menus.py:72
+msgid "password/email"
+msgstr "κωδικός/email"
+
+#: r2/lib/menus.py:73 r2/templates/prefdelete.html:24
+#: r2/templates/printable.html:101
+msgid "delete"
+msgstr "διαγραφή"
+
+#: r2/lib/menus.py:76
+msgid "compose"
+msgstr "σύνταξη"
+
+#: r2/lib/menus.py:77
+msgid "inbox"
+msgstr "εισερχόμενα"
+
+#: r2/lib/menus.py:78
+msgid "sent"
+msgstr "απεσταλμένα"
+
+#: r2/lib/menus.py:81
+msgid "related"
+msgstr "σχετικά"
+
+#: r2/lib/menus.py:82
+msgid "details"
+msgstr "λεπτομέρειες"
+
+#: r2/lib/menus.py:85
+msgid "about"
+msgstr "περί"
+
+#: r2/lib/menus.py:86 r2/templates/comment.html:104
+#: r2/templates/commentreplybox.html:29 r2/templates/profilebar.html:26
+#: r2/templates/profilebar.html:54
+msgid "edit"
+msgstr "επεξεργασία"
+
+#: r2/lib/menus.py:87 r2/templates/printable.html:67
+#: r2/templates/printable.html:83
+msgid "banned"
+msgstr "απαγορευμένα"
+
+#: r2/lib/menus.py:88 r2/lib/pages.py:890
+msgid "ban users"
+msgstr "απαγόρευση χρηστών"
+
+#: r2/lib/menus.py:90
+msgid "popular"
+msgstr "δημοφιλή"
+
+#: r2/lib/menus.py:91 r2/lib/pages.py:534
+#: r2/templates/admintranslations.html:11 r2/templates/createsubreddit.html:226
+msgid "create"
+msgstr "δημιουργία"
+
+#: r2/lib/menus.py:92
+msgid "my reddits"
+msgstr "τα reddit μου"
+
+#: r2/lib/menus.py:94
+msgid "translate site"
+msgstr ""
+
+#: r2/lib/menus.py:97
+msgid "reported authors"
+msgstr ""
+
+#: r2/lib/menus.py:98
+msgid "info"
+msgstr "πληροφορίες"
+
+#: r2/lib/menus.py:100
+msgid "overview"
+msgstr "περίληψη"
+
+#: r2/lib/menus.py:101
+msgid "submitted"
+msgstr "υποβεβλημένα"
+
+#: r2/lib/menus.py:102
+msgid "liked"
+msgstr "άρεσαν"
+
+#: r2/lib/menus.py:103
+msgid "disliked"
+msgstr "δεν άρεσαν"
+
+#: r2/lib/menus.py:104
+msgid "hidden {toolbar}"
+msgstr "κρυμμένα"
+
+#: r2/lib/menus.py:105 r2/templates/printable.html:103
+msgid "deleted"
+msgstr "διαγραμμένα"
+
+#: r2/lib/menus.py:276 r2/lib/menus.py:314
+msgid "sort by"
+msgstr "ταξινόμηση κατά"
+
+#: r2/lib/menus.py:329
+msgid "kind"
+msgstr ""
+
+#: r2/lib/menus.py:333 r2/lib/menus.py:385
+msgid "all"
+msgstr "όλα"
+
+#: r2/lib/menus.py:347
+msgid "links from"
+msgstr "σύνδεσμοι από"
+
+#: r2/lib/pages.py:78
+msgid "Submit a link"
+msgstr ""
+
+#: r2/lib/pages.py:80
+msgid ""
+"to anything interesting: news article, blog entry, video, picture..."
+msgstr ""
+
+#: r2/lib/pages.py:84
+msgid "Create your own reddit"
+msgstr ""
+
+#: r2/lib/pages.py:221 r2/templates/feedback.html:69
+#: r2/templates/messagecompose.html:32
+msgid "message"
+msgstr "μήνυμα"
+
+#: r2/lib/pages.py:245
+msgid "login or register"
+msgstr ""
+
+#: r2/lib/pages.py:335 r2/templates/createsubreddit.html:34
+msgid "manage your reddit"
+msgstr "διαχείριση του reddit σας"
+
+#: r2/lib/pages.py:336
+#, python-format
+msgid "about %(site)s"
+msgstr "περί του %(site)s"
+
+#: r2/lib/pages.py:372
+msgid "search reddits"
+msgstr ""
+
+#: r2/lib/pages.py:432
 #, python-format
 msgid "overview for %(user)s on %(site)s"
 msgstr ""
 "περίληψη για το χρήστη %(user)s στο %(site)s"
 
-#: r2/controllers/front.py:227
+#: r2/lib/pages.py:433
 #, python-format
 msgid "comments by %(user)s on %(site)s"
 msgstr "σχόλια του χρήστη %(user)s στο %(site)s"
 
-#: r2/controllers/front.py:228
+#: r2/lib/pages.py:434
 #, python-format
 msgid "submitted by %(user)s on %(site)s"
 msgstr ""
 "υποβεβλημένα από το χρήστη %(user)s στο %(site)s"
 
-#: r2/controllers/front.py:229
+#: r2/lib/pages.py:435
 #, python-format
 msgid "liked by %(user)s on %(site)s"
 msgstr "άρεσαν στο χρήστη %(user)s στο %(site)s"
 
-#: r2/controllers/front.py:230
+#: r2/lib/pages.py:436
 #, python-format
 msgid "disliked by %(user)s on %(site)s"
 msgstr ""
 "δεν άρεσαν στο χρήστη %(user)s στο %(site)s"
 
-#: r2/controllers/front.py:231
+#: r2/lib/pages.py:437
 #, python-format
 msgid "hidden by %(user)s on %(site)s"
 msgstr ""
 "κρυμμένα από το χρήστη %(user)s στο %(site)s"
 
-#: r2/controllers/front.py:232
+#: r2/lib/pages.py:438
 #, python-format
 msgid "profile for %(user)s"
 msgstr ""
 
-#: r2/controllers/front.py:261 r2/controllers/front.py:263
-#: r2/templates/createsubreddit.html:40
-msgid "create a reddit"
-msgstr "δημιουργία ενός reddit"
+#: r2/lib/pages.py:503
+msgid "you aren't allowed to do that."
+msgstr "δε σας επιτρέπεται αυτό"
 
-#: r2/controllers/front.py:303 r2/lib/menus.py:63
-msgid "stats"
-msgstr "στατιστικά"
-
-#: r2/controllers/front.py:340 r2/controllers/front.py:364
-msgid "search results"
-msgstr "αποτελέσματα αναζήτησης"
-
-#: r2/controllers/listingcontroller.py:195 r2/lib/menus.py:27
-#: r2/templates/frametoolbar.html:61 r2/templates/link.html:128
-msgid "saved"
-msgstr "αποθηκευμένα"
-
-#: r2/controllers/listingcontroller.py:210 r2/controllers/listingcontroller.py:277
-msgid "top scoring links"
+#: r2/lib/pages.py:528
+msgid "Customize your reddit"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:224
-msgid "newest submissions"
-msgstr "πρόσφατες αποστολές"
-
-#: r2/controllers/listingcontroller.py:279
-msgid "most controversial links"
+#: r2/lib/pages.py:529
+msgid "Select which communities you want to see"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:287
-msgid "recommended for you"
-msgstr "προτεινόμενα για εσάς"
-
-#: r2/controllers/listingcontroller.py:307 r2/templates/redditheader.html:31
-msgid "messages"
-msgstr "μηνύματα"
-
-#: r2/controllers/listingcontroller.py:366 r2/templates/pagenamenav.html:9
-msgid "reddits"
-msgstr "reddit"
-
-#: r2/controllers/listingcontroller.py:401
-msgid "reddits: "
-msgstr "reddit:"
-
-#: r2/controllers/post.py:81
-msgid "over 18?"
+#: r2/lib/pages.py:531
+msgid "Other reddit communities"
 msgstr ""
 
-#: r2/lib/menus.py:23
-msgid "what's hot"
-msgstr ""
-
-#: r2/lib/menus.py:24
-msgid "what's new"
-msgstr ""
-
-#: r2/lib/menus.py:25
-msgid "top scoring"
-msgstr ""
-
-#: r2/lib/menus.py:26
-msgid "most controversial"
-msgstr ""
-
-#: r2/lib/menus.py:28 r2/lib/menus.py:43
-msgid "recommended"
-msgstr "προτεινόμενα"
-
-#: r2/lib/menus.py:32
-msgid "hot"
-msgstr "τρέχοντα"
-
-#: r2/lib/menus.py:33
-msgid "new"
-msgstr "νέα"
-
-#: r2/lib/menus.py:34
-msgid "old"
-msgstr "παλιά"
-
-#: r2/lib/menus.py:35
-msgid "ups"
-msgstr "πάνω"
-
-#: r2/lib/menus.py:36
-msgid "downs"
-msgstr "κάτω"
-
-#: r2/lib/menus.py:37 r2/templates/widgetdemopanel.html:73
-#: r2/templates/widgetdemopanel.html:94
-msgid "top"
-msgstr "κορυφαία"
-
-#: r2/lib/menus.py:38
-msgid "rank"
-msgstr "κατάταξη"
-
-#: r2/lib/menus.py:39 r2/templates/subredditbox.html:40
+#: r2/lib/pages.py:533 r2/templates/subredditbox.html:40
 msgid "more"
 msgstr "περισσότερα"
 
-#: r2/lib/menus.py:40
-msgid "relevance"
-msgstr "συνάφεια"
+#: r2/lib/pages.py:632
+msgid "previous search"
+msgstr "προηγούμενη αναζήτηση"
 
-#: r2/lib/menus.py:41
-msgid "controversial"
-msgstr ""
+#: r2/lib/pages.py:844
+msgid "add a friend"
+msgstr "προσθήκη φίλου"
 
-#: r2/lib/menus.py:42
-msgid "saved {toolbar}"
-msgstr "αποθηκευμένα"
+#: r2/lib/pages.py:848
+msgid "your friends"
+msgstr "οι φίλοι σας"
 
-#: r2/lib/menus.py:44
-msgid "rising"
-msgstr "ανοδικά"
+#: r2/lib/pages.py:862
+msgid "add contributor"
+msgstr "προσθήκη συνεισφέροντα"
 
-#: r2/lib/menus.py:45
-msgid "admin"
-msgstr "διαχείριση"
+#: r2/lib/pages.py:866
+msgid "contributor"
+msgid_plural "contributors"
+msgstr[0] "συνεισφέρων"
+msgstr[1] "συνεισφέροντες"
 
-#: r2/lib/menus.py:48 r2/templates/widgetdemopanel.html:78
-msgid "this hour"
-msgstr "αυτή την ώρα"
+#: r2/lib/pages.py:876
+msgid "add moderator"
+msgstr "προσθήκη επιβλέποντα"
 
-#: r2/lib/menus.py:49 r2/templates/userstats.html:14
-#: r2/templates/widgetdemopanel.html:79
-msgid "today"
-msgstr "σήμερα"
+#: r2/lib/pages.py:880
+msgid "moderator"
+msgid_plural "moderators"
+msgstr[0] "διαχειριστής"
+msgstr[1] "διαχειριστές"
 
-#: r2/lib/menus.py:50 r2/templates/userstats.html:24
-#: r2/templates/widgetdemopanel.html:80
-msgid "this week"
-msgstr "αυτή τη βδομάδα"
+#: r2/lib/pages.py:894
+msgid "banned users"
+msgstr "απαγορευμένοι χρήστες"
 
-#: r2/lib/menus.py:51 r2/templates/widgetdemopanel.html:81
-msgid "this month"
-msgstr "αυτό το μήνα"
-
-#: r2/lib/menus.py:52
-msgid "this year"
-msgstr "φέτος"
-
-#: r2/lib/menus.py:53
-msgid "all time"
-msgstr "πάντα"
-
-#: r2/lib/menus.py:56
-msgid "spam"
-msgstr "ανεπιθύμητα"
-
-#: r2/lib/menus.py:57
-msgid "autobanned"
-msgstr ""
-
-#: r2/lib/menus.py:60
-msgid "turn admin on"
-msgstr "ενεργοποίηση διαχείρισης"
-
-#: r2/lib/menus.py:61
-msgid "turn admin off"
-msgstr "απενεργοποίηση διαχείρισης"
-
-#: r2/lib/menus.py:62 r2/lib/pages/pages.py:234 r2/lib/pages/pages.py:242
-msgid "preferences"
-msgstr "προτιμήσεις"
-
-#: r2/lib/menus.py:66
-msgid "blog"
-msgstr "ιστολόγιο"
-
-#: r2/lib/menus.py:67 r2/templates/frametoolbar.html:107
-msgid "logout"
-msgstr "έξοδος"
-
-#: r2/lib/menus.py:72
-msgid "buttons"
-msgstr "κουμπιά"
-
-#: r2/lib/menus.py:73
-msgid "widget"
-msgstr "widget"
-
-#: r2/lib/menus.py:74
-msgid "store"
-msgstr "κατάστημα"
-
-#: r2/lib/menus.py:78
-msgid "options"
-msgstr "επιλογές"
-
-#: r2/lib/menus.py:79
-msgid "friends"
-msgstr "φίλοι"
-
-#: r2/lib/menus.py:80
-msgid "password/email"
-msgstr "κωδικός/email"
-
-#: r2/lib/menus.py:81 r2/templates/prefdelete.html:24
-#: r2/templates/printable.html:87
-msgid "delete"
-msgstr "διαγραφή"
-
-#: r2/lib/menus.py:84
-msgid "compose"
-msgstr "σύνταξη"
-
-#: r2/lib/menus.py:85
-msgid "inbox"
-msgstr "εισερχόμενα"
-
-#: r2/lib/menus.py:86
-msgid "sent"
-msgstr "απεσταλμένα"
-
-#: r2/lib/menus.py:89
-msgid "related"
-msgstr "σχετικά"
-
-#: r2/lib/menus.py:90
-msgid "details"
-msgstr "λεπτομέρειες"
-
-#: r2/lib/menus.py:93
-msgid "about"
-msgstr "περί"
-
-#: r2/lib/menus.py:94 r2/templates/comment.html:104
-#: r2/templates/commentreplybox.html:29
-msgid "edit"
-msgstr "επεξεργασία"
-
-#: r2/lib/menus.py:95 r2/templates/printable.html:16 r2/templates/printable.html:63
-msgid "banned"
-msgstr "απαγορευμένα"
-
-#: r2/lib/menus.py:96 r2/lib/pages/pages.py:953
-msgid "ban users"
-msgstr "απαγόρευση χρηστών"
-
-#: r2/lib/menus.py:98
-msgid "popular"
-msgstr "δημοφιλή"
-
-#: r2/lib/menus.py:99 r2/lib/pages/pages.py:566
-#: r2/templates/admintranslations.html:11 r2/templates/createsubreddit.html:226
-msgid "create"
-msgstr "δημιουργία"
-
-#: r2/lib/menus.py:100
-msgid "my reddits"
-msgstr "τα reddit μου"
-
-#: r2/lib/menus.py:102
-msgid "translate site"
-msgstr ""
-
-#: r2/lib/menus.py:103
-msgid "reporters"
-msgstr "αναφέροντες"
-
-#: r2/lib/menus.py:104
-msgid "reports"
-msgstr ""
-
-#: r2/lib/menus.py:105
-msgid "reported authors"
-msgstr ""
-
-#: r2/lib/menus.py:106
-msgid "info"
-msgstr "πληροφορίες"
-
-#: r2/lib/menus.py:108
-msgid "overview"
-msgstr "περίληψη"
-
-#: r2/lib/menus.py:109
-msgid "submitted"
-msgstr "υποβεβλημένα"
-
-#: r2/lib/menus.py:110
-msgid "liked"
-msgstr "άρεσαν"
-
-#: r2/lib/menus.py:111
-msgid "disliked"
-msgstr "δεν άρεσαν"
-
-#: r2/lib/menus.py:112
-msgid "hidden {toolbar}"
-msgstr "κρυμμένα"
-
-#: r2/lib/menus.py:113 r2/templates/printable.html:89
-msgid "deleted"
-msgstr "διαγραμμένα"
-
-#: r2/lib/menus.py:114 r2/templates/printable.html:82
-msgid "reported"
-msgstr "αναφερμένα"
-
-#: r2/lib/menus.py:341 r2/lib/menus.py:378
-msgid "sort by"
-msgstr "ταξινόμηση κατά"
-
-#: r2/lib/menus.py:393
-msgid "kind"
-msgstr ""
-
-#: r2/lib/menus.py:398 r2/lib/menus.py:447
-msgid "all"
-msgstr "όλα"
-
-#: r2/lib/menus.py:408
-msgid "links from"
-msgstr "σύνδεσμοι από"
-
-#: r2/lib/strings.py:27
+#: r2/lib/strings.py:9
 #, python-format
 msgid "%d %s"
 msgstr ""
 
-#: r2/lib/strings.py:30
+#: r2/lib/strings.py:12
 #, python-format
 msgid "%5.3f %s"
 msgstr ""
 
-#: r2/lib/strings.py:33
+#: r2/lib/strings.py:15
 #, python-format
 msgid "%(num)d %(persons)s"
 msgstr ""
 
-#: r2/lib/strings.py:35
+#: r2/lib/strings.py:17
 msgid ""
 "reddit is a source for what's new and popular online. vote on links that you like or dislike and help decide what's popular, or submit your own!"
 msgstr ""
 "το reddit είναι μία πηγή ειδήσεων για τον παγκόσμιο ιστό. ψηφίστε συνδέσμους που σας αρέσουν και βοηθήστε να αποφασιστεί ποιοί είναι δημοφιλείς, ή υποβάλετε τους δικούς σας!"
 
-#: r2/lib/strings.py:37
+#: r2/lib/strings.py:19
 #, python-format
 msgid ""
 "that link has already been submitted, but you can try to [submit it again](%s)."
 msgstr ""
 "αυτός ο σύνδεσμος έχει ήδη υποβληθεί, αλλά αν θέλετε μπορείτε να προσπαθήσετε να τον [ξαναϋποβάλετε]( %s )."
 
-#: r2/lib/strings.py:39
+#: r2/lib/strings.py:21
 #, python-format
 msgid ""
 "that link has been submitted to multiple reddits. you can try to [submit it again](%s)."
 msgstr ""
 "αυτός ο σύνδεσμος έχει υποβληθεί σε πολλαπλά reddit. μπορείτε να προσπαθήσετε να τον [ξαναϋποβάλετε]( %s )."
 
-#: r2/lib/strings.py:41
+#: r2/lib/strings.py:23
 msgid ""
 "your account has been deleted, but we won't judge you for it."
 msgstr ""
 "ο λογαριασμός σας έχει διαγραφεί, αλλά δε θα σας κρίνουμε"
 
-#: r2/lib/strings.py:43
+#: r2/lib/strings.py:25
 msgid "you'll need to login or register to do that"
 msgstr ""
 
-#: r2/lib/strings.py:44
+#: r2/lib/strings.py:26
 msgid "(don't worry, it only takes a few seconds)"
 msgstr ""
 
-#: r2/lib/strings.py:46
+#: r2/lib/strings.py:28
 #, python-format
 msgid ""
 "I understand and agree that registration on or use of this site constitutes agreement to its %(user_agreement)s and %(privacy_policy)s."
 msgstr ""
 "Κατανοώ και συμφωνώ ότι η εγγραφή ή η χρήση αυτού του ιστοχώρου αποτελεί συμφωνία με την %(user_agreement)s και την %(privacy_policy)s."
 
-#: r2/lib/strings.py:48
+#: r2/lib/strings.py:30
 #, python-format
 msgid ""
 "to view reddit with only submissions from your friends, use [reddit.com/r/friends](%s)"
 msgstr ""
 
-#: r2/lib/strings.py:52
+#: r2/lib/strings.py:34
 #, python-format
 msgid "you have been added as a moderator to [%(title)s](%(url)s)."
 msgstr ""
 "προστεθήκατε σαν επιβλέπων στο [%(title)s](%(url)s)"
 
-#: r2/lib/strings.py:53
+#: r2/lib/strings.py:35
 #, python-format
 msgid ""
 "you have been added as a contributor to [%(title)s](%(url)s)."
 msgstr ""
 "προστεθήκατε σαν συνεισφέρων στο [%(title)s](%(url)s)"
 
-#: r2/lib/strings.py:54
+#: r2/lib/strings.py:36
 #, python-format
 msgid "you have been banned from posting to [%(title)s](%(url)s)."
 msgstr ""
 "σας απαγόρευθηκε η αποστολή στο [%(title)s](%(url)s)"
 
-#: r2/lib/strings.py:59
+#: r2/lib/strings.py:41
 msgid "you are a moderator"
 msgstr "είστε επιβλέπων"
 
-#: r2/lib/strings.py:60
+#: r2/lib/strings.py:42
 msgid "you are a contributor"
 msgstr "είστε συνεισφέρων"
 
-#: r2/lib/strings.py:61
+#: r2/lib/strings.py:43
 msgid "you've been banned"
 msgstr "έχετε απαγορευθεί"
 
-#: r2/lib/strings.py:65
+#: r2/lib/strings.py:47
 msgid "you have not subscribed to any reddits."
 msgstr "δεν έχετε γραφτεί σε κανένα reddit"
 
-#: r2/lib/strings.py:66
+#: r2/lib/strings.py:48
 msgid "below are the reddits you have subscribed to"
 msgstr ""
 "παρακάτω υπάρχουν τα reddit στα οποία έχετε γραφτεί"
 
-#: r2/lib/strings.py:67
+#: r2/lib/strings.py:49
 msgid "below are the reddits that you have contributor access to."
 msgstr ""
 "παρακάτω υπάρχουν τα reddit στα οποία έχετε πρόσβαση συνεισφέροντα"
 
-#: r2/lib/strings.py:68
+#: r2/lib/strings.py:50
 msgid "below are the reddits that you have moderator access to."
 msgstr ""
 "παρακάτω υπάρχουν τα reddit στα οποία έχετε πρόσβαση επιβλέποντα"
 
-#: r2/lib/strings.py:71
+#: r2/lib/strings.py:53
 msgid "click the checkbox next to a reddit to subscribe"
 msgstr ""
 "επιλέξτε το κουτάκι δίπλα σε ένα reddit για να εγγραφείτε"
 
-#: r2/lib/strings.py:131 r2/lib/strings.py:136 r2/templates/frametoolbar.html:71
-#: r2/templates/link.html:114 r2/templates/link.htmllite:12
-#: r2/templates/link.htmllite:15
-msgid "comment"
-msgid_plural "comments"
-msgstr[0] "σχόλιο"
-msgstr[1] "σχόλια"
+#: r2/lib/translation.py:40
+msgid ""
+"a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z"
+msgstr ""
 
-#: r2/lib/strings.py:132 r2/templates/comment.htmllite:18
-#: r2/templates/link.htmllite:20 r2/templates/linkinfobar.html:9
-msgid "point"
-msgid_plural "points"
-msgstr[0] "βαθμός"
-msgstr[1] "βαθμοί"
+#: r2/lib/translation.py:41
+msgid ""
+"A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z"
+msgstr ""
 
-#: r2/lib/strings.py:135
-msgid "link"
-msgid_plural "links"
-msgstr[0] ""
-msgstr[1] ""
+#: r2/lib/translation.py:42
+msgid "1  2  3  4  5  6  7  8  9  0"
+msgstr ""
 
-#: r2/lib/strings.py:137 r2/lib/pages/pages.py:273 r2/templates/feedback.html:69
-#: r2/templates/messagecompose.html:32
-msgid "message"
-msgid_plural "messages"
-msgstr[0] ""
-msgstr[1] ""
+#: r2/lib/translation.py:43
+msgid "$  ^"
+msgstr ""
 
-#: r2/lib/strings.py:138 r2/templates/newlink.html:40
-msgid "subreddit"
-msgid_plural "subreddits"
-msgstr[0] ""
-msgstr[1] ""
-
-#: r2/lib/strings.py:141 r2/templates/subredditinfobar.html:34
-msgid "subscriber"
-msgid_plural "subscribers"
-msgstr[0] "συνδρομητής"
-msgstr[1] "συνδρομητές"
-
-#: r2/lib/strings.py:142
-msgid "contributor"
-msgid_plural "contributors"
-msgstr[0] "συνεισφέρων"
-msgstr[1] "συνεισφέροντες"
-
-#: r2/lib/strings.py:143
-msgid "moderator"
-msgid_plural "moderators"
-msgstr[0] "διαχειριστής"
-msgstr[1] "διαχειριστές"
-
-#: r2/lib/strings.py:146
-msgid "milliseconds"
-msgid_plural "milliseconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: r2/lib/strings.py:147 r2/lib/utils/utils.py:365 r2/templates/searchbar.html:19
-msgid "second"
-msgid_plural "seconds"
-msgstr[0] "δευτερόλεπτο"
-msgstr[1] "δευτερόλεπτα"
-
-#: r2/lib/strings.py:148 r2/lib/utils/utils.py:364
-msgid "minute"
-msgid_plural "minutes"
-msgstr[0] "λεπτό"
-msgstr[1] "λεπτά"
-
-#: r2/lib/strings.py:149 r2/lib/utils/utils.py:363
-msgid "hour"
-msgid_plural "hours"
-msgstr[0] "ώρα"
-msgstr[1] "ώρες"
-
-#: r2/lib/strings.py:150 r2/lib/utils/utils.py:362
-msgid "day"
-msgid_plural "days"
-msgstr[0] "μέρα"
-msgstr[1] "μέρες"
-
-#: r2/lib/strings.py:151 r2/lib/utils/utils.py:361
-msgid "month"
-msgid_plural "months"
-msgstr[0] "μήνας"
-msgstr[1] "μήνες"
-
-#: r2/lib/strings.py:152 r2/lib/utils/utils.py:360
+#: r2/lib/utils.py:335
 msgid "year"
 msgid_plural "years"
 msgstr[0] "χρόνος"
 msgstr[1] "χρόνια"
 
-#: r2/lib/pages/pages.py:91
-msgid "Submit a link"
-msgstr ""
+#: r2/lib/utils.py:336
+msgid "month"
+msgid_plural "months"
+msgstr[0] "μήνας"
+msgstr[1] "μήνες"
 
-#: r2/lib/pages/pages.py:93
-msgid ""
-"to anything interesting: news article, blog entry, video, picture..."
-msgstr ""
+#: r2/lib/utils.py:337
+msgid "day"
+msgid_plural "days"
+msgstr[0] "μέρα"
+msgstr[1] "μέρες"
 
-#: r2/lib/pages/pages.py:97
-msgid "Create your own reddit"
-msgstr ""
+#: r2/lib/utils.py:338
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ώρα"
+msgstr[1] "ώρες"
 
-#: r2/lib/pages/pages.py:312
-msgid "login or register"
-msgstr ""
+#: r2/lib/utils.py:339
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "λεπτό"
+msgstr[1] "λεπτά"
 
-#: r2/lib/pages/pages.py:405 r2/templates/createsubreddit.html:34
-msgid "manage your reddit"
-msgstr "διαχείριση του reddit σας"
+#: r2/lib/utils.py:340 r2/templates/searchbar.html:19
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "δευτερόλεπτο"
+msgstr[1] "δευτερόλεπτα"
 
-#: r2/lib/pages/pages.py:406
-#, python-format
-msgid "about %(site)s"
-msgstr "περί του %(site)s"
-
-#: r2/lib/pages/pages.py:430
-msgid "search reddits"
-msgstr ""
-
-#: r2/lib/pages/pages.py:538
-msgid "you aren't allowed to do that."
-msgstr "δε σας επιτρέπεται αυτό"
-
-#: r2/lib/pages/pages.py:560
-msgid "Customize your reddit"
-msgstr ""
-
-#: r2/lib/pages/pages.py:561
-msgid "Select which communities you want to see"
-msgstr ""
-
-#: r2/lib/pages/pages.py:563
-msgid "Other reddit communities"
-msgstr ""
-
-#: r2/lib/pages/pages.py:630
-msgid "try entering those letters again"
-msgstr ""
-
-#: r2/lib/pages/pages.py:688
-msgid "previous search"
-msgstr "προηγούμενη αναζήτηση"
-
-#: r2/lib/pages/pages.py:802
-msgid "This feature is currently unavailable. Sorry"
-msgstr ""
-
-#: r2/lib/pages/pages.py:904
-msgid "add a friend"
-msgstr "προσθήκη φίλου"
-
-#: r2/lib/pages/pages.py:908
-msgid "your friends"
-msgstr "οι φίλοι σας"
-
-#: r2/lib/pages/pages.py:923
-msgid "add contributor"
-msgstr "προσθήκη συνεισφέροντα"
-
-#: r2/lib/pages/pages.py:938
-msgid "add moderator"
-msgstr "προσθήκη επιβλέποντα"
-
-#: r2/lib/pages/pages.py:957
-msgid "banned users"
-msgstr "απαγορευμένοι χρήστες"
-
-#: r2/lib/utils/utils.py:377
+#: r2/lib/utils.py:352
 msgid "millisecond"
 msgid_plural "milliseconds"
 msgstr[0] "millisecond"
 msgstr[1] "milliseconds"
 
-#: r2/lib/utils/utils.py:388 r2/templates/comment.html:48
+#: r2/lib/utils.py:363 r2/templates/comment.html:48
 msgid "ago"
 msgstr "πριν"
 
-#: r2/models/subreddit.py:333
+#: r2/models/subreddit.py:319
 msgid "reddit.com: what's new online!"
 msgstr "reddit.com: τα νέα του ιστού"
+
+#: r2/templates/admin_sidebar.html:46 r2/templates/adminsidebar.html:46
+msgid "submissions:"
+msgstr ""
+
+#: r2/templates/admin_sidebar.html:47 r2/templates/adminsidebar.html:47
+msgid "domains:"
+msgstr "περιοχές:"
+
+#: r2/templates/admin_sidebar.html:56 r2/templates/adminsidebar.html:56
+msgid "IPs:"
+msgstr ""
+
+#: r2/templates/adminpane.html:3
+msgid "site administration"
+msgstr ""
 
 #: r2/templates/admintranslations.html:40
 msgid "disable"
@@ -974,33 +963,33 @@ msgid ""
 msgstr ""
 "τώρα έχετε όλη τη λειτουργικότητα του %(site)s στη γραμμή εργαλείων σας"
 
-#: r2/templates/buttondemopanel.html:18
+#: r2/templates/buttondemopanel.html:16
 #, python-format
 msgid "put %(site)s buttons on your site"
 msgstr ""
 "βάλτε κουμπία του %(site)s στον ιστοχώρο σας"
 
-#: r2/templates/buttondemopanel.html:19
+#: r2/templates/buttondemopanel.html:17
 msgid ""
 "copy and paste the code for the style of button you would like      into your site.  The green lines are      optional."
 msgstr ""
 
-#: r2/templates/buttondemopanel.html:23
+#: r2/templates/buttondemopanel.html:21
 msgid ""
 "if the site has not been submitted yet, clicking on the button      will take the user to a reddit submit page, otherwise it takes      them to the comments page."
 msgstr ""
 
-#: r2/templates/buttondemopanel.html:27
+#: r2/templates/buttondemopanel.html:25
 msgid ""
 "if you want to specify the URL that should be submitted to      reddit, include the reddit_url line.  if you don't include that      line, then the current page's URL will be used."
 msgstr ""
 
-#: r2/templates/buttondemopanel.html:31
+#: r2/templates/buttondemopanel.html:29
 msgid ""
 "if you want to specify the title that should be submitted to      reddit, include the reddit_title line.  if you don't include that      line, then the user will have to specify a title when they      submit."
 msgstr ""
 
-#: r2/templates/buttondemopanel.html:42
+#: r2/templates/buttondemopanel.html:40
 #, python-format
 msgid "style %(number)s"
 msgstr "ύφος %(number)s"
@@ -1048,12 +1037,19 @@ msgstr "γονέας"
 msgid "reply {verb}"
 msgstr "απαντήστε"
 
+#: r2/templates/comment.htmllite:18 r2/templates/link.htmllite:20
+#: r2/templates/linkinfobar.html:12
+msgid "point"
+msgid_plural "points"
+msgstr[0] "βαθμός"
+msgstr[1] "βαθμοί"
+
 #: r2/templates/comment.xml:6
 msgid "on"
 msgstr ""
 
 #: r2/templates/commentreplybox.html:26 r2/templates/frametoolbar.html:68
-#: r2/templates/link.html:111
+#: r2/templates/link.html:106
 msgid "comment {verb}"
 msgstr "σχολιάστε"
 
@@ -1226,18 +1222,25 @@ msgstr "μου αρέσει"
 msgid "dislike"
 msgstr "δε μου αρέσει"
 
-#: r2/templates/frametoolbar.html:57 r2/templates/link.html:124
+#: r2/templates/frametoolbar.html:57 r2/templates/link.html:119
 msgid "unsave"
 msgstr "αφαίρεση"
 
-#: r2/templates/frametoolbar.html:58 r2/templates/link.html:125
+#: r2/templates/frametoolbar.html:58 r2/templates/link.html:120
 msgid "unsaved"
 msgstr "αφαιρέθηκε"
 
-#: r2/templates/frametoolbar.html:60 r2/templates/link.html:127
+#: r2/templates/frametoolbar.html:60 r2/templates/link.html:122
 #: r2/templates/prefupdate.html:28
 msgid "save"
 msgstr "αποθήκευση"
+
+#: r2/templates/frametoolbar.html:71 r2/templates/link.html:109
+#: r2/templates/link.htmllite:12 r2/templates/link.htmllite:15
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "σχόλιο"
+msgstr[1] "σχόλια"
 
 #: r2/templates/frametoolbar.html:111 r2/templates/login.html:81
 #: r2/templates/login.html:104 r2/templates/loginformwide.html:18
@@ -1248,67 +1251,29 @@ msgstr "είσοδος"
 msgid "register"
 msgstr "γραφτείτε"
 
-#: r2/templates/help.html:6
-msgid "what's this?"
-msgstr ""
-
-#: r2/templates/help.html:13 r2/templates/help.html:19
-msgid "here"
-msgstr ""
-
-#: r2/templates/help.html:15
-#, python-format
-msgid "Click %(here)s to disable this feature."
-msgstr ""
-
-#: r2/templates/help.html:17 r2/templates/prefdelete.html:4
-#: r2/templates/printable.html:225
-msgid "are you sure?"
-msgstr "είστε σίγουροι;"
-
-#: r2/templates/help.html:18 r2/templates/prefdelete.html:5
-#: r2/templates/printable.html:225 r2/templates/subredditinfobar.html:69
-msgid "yes"
-msgstr "ναι"
-
-#: r2/templates/help.html:18 r2/templates/prefdelete.html:5
-#: r2/templates/printable.html:225 r2/templates/subredditinfobar.html:69
-msgid "no"
-msgstr "όχι"
-
-#: r2/templates/help.html:21
-#, python-format
-msgid "Click %(here)s to close help."
-msgstr ""
-
-#: r2/templates/help.html:26
-msgid ""
-"The new link area will no longer appear for you. To re-enable it, visit your preferences."
-msgstr ""
-
-#: r2/templates/link.html:92
+#: r2/templates/link.html:87
 #, python-format
 msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
 msgstr ""
 
-#: r2/templates/link.html:94
+#: r2/templates/link.html:89
 #, python-format
 msgid "submitted %(when)s ago by %(author)s"
 msgstr ""
 
-#: r2/templates/link.html:132
+#: r2/templates/link.html:127
 msgid "unhide"
 msgstr "εμφάνιση"
 
-#: r2/templates/link.html:133
+#: r2/templates/link.html:128
 msgid "unhidden"
 msgstr "εμφανίστηκε"
 
-#: r2/templates/link.html:135
+#: r2/templates/link.html:130
 msgid "hide"
 msgstr "απόκρυψη"
 
-#: r2/templates/link.html:136
+#: r2/templates/link.html:131
 msgid "hidden"
 msgstr "κρυμμένα"
 
@@ -1323,20 +1288,20 @@ msgstr ""
 msgid "posted %(when)s ago by %(author)s"
 msgstr "δημοσιεύθηκε πριν %(when)s από %(author)s"
 
-#: r2/templates/linkinfobar.html:5
+#: r2/templates/linkinfobar.html:7
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d/%m/%Y"
 
-#: r2/templates/linkinfobar.html:7
+#: r2/templates/linkinfobar.html:9
 msgid "submitted on"
 msgstr "υποβλήθηκε"
 
-#: r2/templates/linkinfobar.html:11
+#: r2/templates/linkinfobar.html:14
 msgid "up votes"
 msgstr "ψήφοι υπέρ"
 
-#: r2/templates/linkinfobar.html:13
+#: r2/templates/linkinfobar.html:16
 msgid "down votes"
 msgstr "ψήφοι κατά"
 
@@ -1463,6 +1428,10 @@ msgstr ""
 msgid "url"
 msgstr "διεύθυνση"
 
+#: r2/templates/newlink.html:40
+msgid "subreddit"
+msgstr "υποreddit"
+
 #: r2/templates/newlink.html:55
 msgid "add to my saved sites"
 msgstr "προσθήκη στα αποθηκευμένα μου"
@@ -1487,11 +1456,6 @@ msgstr ""
 msgid "reddit bookmarklets"
 msgstr "σελιδοδεικτοειδή του reddit"
 
-#: r2/templates/organiclisting.html:23
-msgid ""
-"This area shows new and upcoming links. Vote on links here to help them become popular, and click the forwards and backwards buttons to view more. "
-msgstr ""
-
 #: r2/templates/over18.html:3
 msgid "you must be at least eighteen to view this reddit"
 msgstr ""
@@ -1513,10 +1477,6 @@ msgstr ""
 msgid "you should receive an email shortly"
 msgstr "θα λάβετε ένα email σύντομα"
 
-#: r2/templates/password.html:22
-msgid "email me"
-msgstr ""
-
 #: r2/templates/permalinkmessage.html:4
 msgid "you are viewing a single comment's thread"
 msgstr ""
@@ -1525,6 +1485,20 @@ msgstr ""
 #: r2/templates/permalinkmessage.html:6
 msgid "see the above comments"
 msgstr ""
+
+#: r2/templates/prefdelete.html:4 r2/templates/printable.html:234
+msgid "are you sure?"
+msgstr "είστε σίγουροι;"
+
+#: r2/templates/prefdelete.html:5 r2/templates/printable.html:234
+#: r2/templates/subredditinfobar.html:69
+msgid "yes"
+msgstr "ναι"
+
+#: r2/templates/prefdelete.html:5 r2/templates/printable.html:234
+#: r2/templates/subredditinfobar.html:69
+msgid "no"
+msgstr "όχι"
 
 #: r2/templates/prefdelete.html:15
 msgid "delete your reddit account? hope you have a good reason."
@@ -1574,96 +1548,92 @@ msgid "link options"
 msgstr "επιλογές συνδέσμων"
 
 #: r2/templates/prefoptions.html:62
-msgid "show me new links on the front page"
-msgstr ""
-
-#: r2/templates/prefoptions.html:64
 msgid "compress the link display"
 msgstr ""
 
-#: r2/templates/prefoptions.html:66
+#: r2/templates/prefoptions.html:64
 msgid "don't show links after i've liked them"
 msgstr ""
 "να μην εμφανίζονται σύνδεσμοι αν μου άρεσαν"
 
-#: r2/templates/prefoptions.html:68
+#: r2/templates/prefoptions.html:66
 msgid "don't show links after i've disliked them"
 msgstr ""
 "να μην εμφανίζονται σύνδεσμοι αν δε μου άρεσαν"
 
-#: r2/templates/prefoptions.html:72
+#: r2/templates/prefoptions.html:70
 msgid "display"
 msgstr "να εμφανίζονται"
 
-#: r2/templates/prefoptions.html:73
+#: r2/templates/prefoptions.html:71
 msgid "links at once"
 msgstr "σύνδεσμοι τη φορά"
 
-#: r2/templates/prefoptions.html:74
+#: r2/templates/prefoptions.html:72
 msgid "don't show me sites with a score less than"
 msgstr ""
 "να μην εμφανίζονται σύνδεσμοι με βαθμολογία μικρότερη από"
 
-#: r2/templates/prefoptions.html:75
+#: r2/templates/prefoptions.html:73
 msgid "don't show me comments with a score less than"
 msgstr ""
 "να μην εμφανίζονται σχόλια με βαθμολογία μικρότερη από"
 
-#: r2/templates/prefoptions.html:76
+#: r2/templates/prefoptions.html:74
 msgid "comments by default"
 msgstr "σχόλια κατά προεπιλογή"
 
-#: r2/templates/prefoptions.html:78
+#: r2/templates/prefoptions.html:76
 #, python-format
 msgid "display %(num)s links at once"
 msgstr ""
 "να εμφανίζονται %(num)s σύνδεσμοι τη φορά"
 
-#: r2/templates/prefoptions.html:85
+#: r2/templates/prefoptions.html:83
 #, python-format
 msgid "don't show me sites with a score less than %(num)s"
 msgstr ""
 "να μην εμφανίζονται σύνδεσμοι με βαθμολογία μικρότερη από %(num)s"
 
-#: r2/templates/prefoptions.html:86 r2/templates/prefoptions.html:97
+#: r2/templates/prefoptions.html:84 r2/templates/prefoptions.html:95
 msgid "(blank for none)"
 msgstr "(κενό για κανένα)"
 
-#: r2/templates/prefoptions.html:90
+#: r2/templates/prefoptions.html:88
 msgid "comment options"
 msgstr "επιλογές σχολίων"
 
-#: r2/templates/prefoptions.html:96
+#: r2/templates/prefoptions.html:94
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr ""
 "να μην εμφανίζονται σχόλια με βαθμολογία μικρότερη από %(num)s"
 
-#: r2/templates/prefoptions.html:104
+#: r2/templates/prefoptions.html:102
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr ""
 "να εμφανίζονται %(num)s σχόλια κατά προεπιλογή"
 
-#: r2/templates/prefoptions.html:111
+#: r2/templates/prefoptions.html:109
 msgid "privacy options"
 msgstr "επιλογές ιδιωτικότητας"
 
-#: r2/templates/prefoptions.html:113
+#: r2/templates/prefoptions.html:111
 msgid "make my votes public"
 msgstr "να δημοσιεύονται οι ψήφοι μου"
 
-#: r2/templates/prefoptions.html:115
+#: r2/templates/prefoptions.html:113
 msgid ""
 "i am over eighteen years old and willing to view adult content"
 msgstr ""
 
-#: r2/templates/prefoptions.html:116
+#: r2/templates/prefoptions.html:114
 msgid "required to view some reddits"
 msgstr ""
 "υποχρεωτικό για να δείτε μερικά reddit"
 
-#: r2/templates/prefoptions.html:122
+#: r2/templates/prefoptions.html:120
 msgid "save options"
 msgstr "αποθήκευση επιλογών"
 
@@ -1675,93 +1645,93 @@ msgstr "τρέχων κωδικός (υποχρεωτικά)"
 msgid "new password"
 msgstr "νέος κωδικός"
 
-#: r2/templates/printable.html:57
+#: r2/templates/printable.html:63 r2/templates/printable.html:79
 msgid "unban"
 msgstr "άρση απαγόρευσης"
 
-#: r2/templates/printable.html:58
+#: r2/templates/printable.html:64 r2/templates/printable.html:80
 msgid "unbanned"
 msgstr "άρθηκε"
 
-#: r2/templates/printable.html:62
+#: r2/templates/printable.html:66 r2/templates/printable.html:82
 msgid "ban"
 msgstr "αποκλεισμός"
 
-#: r2/templates/printable.html:68
+#: r2/templates/printable.html:72
 msgid "ignore"
 msgstr "αγνόησε"
 
-#: r2/templates/printable.html:69
+#: r2/templates/printable.html:73
 msgid "ignored"
 msgstr "αγνοήθηκε"
 
-#: r2/templates/printable.html:80
+#: r2/templates/printable.html:94
 msgid "report"
 msgstr "αναφορά"
 
-#: r2/templates/profilebar.html:34
+#: r2/templates/profilebar.html:102
 msgid "karma:"
 msgstr "karma"
 
-#: r2/templates/profilebar.html:37
+#: r2/templates/profilebar.html:105
 msgid "comment karma:"
 msgstr ""
 
-#: r2/templates/profilebar.html:41
+#: r2/templates/profilebar.html:109
 #, python-format
 msgid "user for %(time)s"
 msgstr ""
 
-#: r2/templates/profilebar.html:47 r2/templates/usertableitem.html:20
+#: r2/templates/profilebar.html:123 r2/templates/usertableitem.html:20
 msgid "send message"
 msgstr "αποστολή μηνύματος"
 
-#: r2/templates/profilebar.html:58 r2/templates/profilebar.html:64
+#: r2/templates/profilebar.html:134 r2/templates/profilebar.html:140
 msgid "add to friends"
 msgstr "προσθήκη στους φίλους"
 
-#: r2/templates/profilebar.html:59 r2/templates/profilebar.html:63
+#: r2/templates/profilebar.html:135 r2/templates/profilebar.html:139
 msgid "remove from friends"
 msgstr "διαγραφή από τους φίλους"
 
-#: r2/templates/reddit.html:72
+#: r2/templates/reddit.html:71
 msgid "fetching title..."
 msgstr "εξαγωγή τίτλου..."
 
-#: r2/templates/reddit.html:73
+#: r2/templates/reddit.html:72
 msgid "submitting..."
 msgstr "υποβολή..."
 
-#: r2/templates/reddit.html:74
+#: r2/templates/reddit.html:73
 msgid "loading..."
 msgstr "φόρτωση..."
 
-#: r2/templates/redditfooter.html:19
+#: r2/templates/redditfooter.html:18
 #, python-format
 msgid ""
 "Use of this site constitutes acceptance of our %(user_agreement)s and %(privacy_policy)s"
 msgstr ""
 "Η χρήση του ιστοχώρου αποτελεί αποδοχή της %(user_agreement)s και της %(privacy_policy)s"
 
-#: r2/templates/redditfooter.html:19
+#: r2/templates/redditfooter.html:18
 msgid "User Agreement {Genitive}"
 msgstr "συμφωνία χρήστη"
 
-#: r2/templates/redditfooter.html:19
+#: r2/templates/redditfooter.html:18
 msgid "Privacy Policy {Genitive}"
 msgstr "πολιτική ιδιωτικότητας"
 
-#: r2/templates/redditfooter.html:20
+#: r2/templates/redditfooter.html:19
 msgid "(c) 2008 CondeNet, Inc. All rights reserved."
 msgstr ""
 "(c) 2008 CondeNet, Inc. Με επιφύλαξη παντός δικαιώματος."
 
-#: r2/templates/redditfooter.html:21
+#: r2/templates/redditfooter.html:20
 #, python-format
 msgid "(c) %(year)d CondeNet, Inc. All rights reserved."
 msgstr ""
 
-#: r2/templates/redditfooter.html:39 r2/templates/redditfooter.html:51
+#: r2/templates/redditfooter.html:35 r2/templates/redditfooter.html:47
 msgid "close this window"
 msgstr "κλείσιμο αυτού του παραθύρου"
 
@@ -1799,6 +1769,12 @@ msgstr "εγγραφή"
 #: r2/templates/subredditinfobar.html:20 r2/templates/subredditinfobar.html:26
 msgid "unsubscribe"
 msgstr "διαγραφή"
+
+#: r2/templates/subredditinfobar.html:34
+msgid "subscriber"
+msgid_plural "subscribers"
+msgstr[0] "συνδρομητής"
+msgstr[1] "συνδρομητές"
 
 #: r2/templates/subredditinfobar.html:37
 #, python-format
