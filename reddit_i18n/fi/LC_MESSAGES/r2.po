@@ -17,253 +17,265 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.1\n"
 
-#: r2/controllers/api.py:111 r2/controllers/listingcontroller.py:335
+#: r2/controllers/api.py:102 r2/controllers/listingcontroller.py:336
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:134 r2/controllers/feedback.py:35
+#: r2/controllers/api.py:125 r2/controllers/feedback.py:35
 msgid ""
 "thanks for your message! you should hear back from us shortly."
 msgstr "kiitos viestistä! kuulet meistä piakkoin."
 
-#: r2/controllers/api.py:162 r2/templates/messagecompose.html:32
+#: r2/controllers/api.py:153 r2/templates/messagecompose.html:32
 msgid "your message has been delivered"
 msgstr "viestisi on toimitettu"
 
-#: r2/controllers/api.py:415
+#: r2/controllers/api.py:412
 msgid "added"
 msgstr "lisätty"
 
-#: r2/controllers/api.py:455
+#: r2/controllers/api.py:452
 msgid "your email has been updated"
 msgstr "sähköpostiosoitteesi on päivitetty"
 
-#: r2/controllers/api.py:465
+#: r2/controllers/api.py:462
 msgid "your email and password have been updated"
 msgstr "sähköpostiosoitteesi ja salasanasi on päivitetty"
 
-#: r2/controllers/api.py:468
+#: r2/controllers/api.py:465
 msgid "your password has been updated"
 msgstr "salasanasi on päivitetty"
 
-#: r2/controllers/api.py:487
+#: r2/controllers/api.py:484
 msgid "see? you don't really want to leave"
 msgstr "näetkö? ethän sinä oikeasti edes halua lähteä"
 
-#: r2/controllers/api.py:611
+#: r2/controllers/api.py:612
 msgid "replied"
 msgstr "vastattu"
 
-#: r2/controllers/api.py:677
+#: r2/controllers/api.py:678
 msgid "shared"
 msgstr "jaettu"
 
-#: r2/controllers/api.py:680
+#: r2/controllers/api.py:681
 msgid "your link has been shared."
 msgstr "linkkisi on jaettu."
 
-#: r2/controllers/api.py:745
+#: r2/controllers/api.py:751
 msgid "validation errors"
 msgstr "validointivirheitä"
 
-#: r2/controllers/api.py:766 r2/controllers/api.py:902 r2/controllers/api.py:981
-#: r2/controllers/api.py:1329 r2/controllers/listingcontroller.py:254
+#: r2/controllers/api.py:772 r2/controllers/api.py:908 r2/controllers/api.py:995
+#: r2/controllers/api.py:1366 r2/controllers/listingcontroller.py:255
 #: r2/lib/menus.py:49 r2/templates/frametoolbar.html:90 r2/templates/link.html:169
 msgid "saved"
 msgstr "tallennettu"
 
-#: r2/controllers/api.py:832 r2/lib/menus.py:141 r2/templates/printable.html:118
+#: r2/controllers/api.py:838 r2/lib/menus.py:143 r2/templates/printable.html:120
 #: r2/templates/subredditstylesheet.html:236
 msgid "deleted"
 msgstr "poistettu"
 
-#: r2/controllers/api.py:878 r2/templates/subredditstylesheet.html:195
+#: r2/controllers/api.py:884 r2/templates/subredditstylesheet.html:195
 msgid "bad image name"
 msgstr "kuvan nimi ei kelpaa"
 
-#: r2/controllers/api.py:885 r2/controllers/api.py:1324
+#: r2/controllers/api.py:891 r2/controllers/api.py:1361
 msgid "bad image"
 msgstr "huono kuva"
 
-#: r2/controllers/api.py:889
+#: r2/controllers/api.py:895
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "liikaa kuvia (saat vain %d)"
 
-#: r2/controllers/buttons.py:168
+#: r2/controllers/api.py:1153
+msgid "an email will be sent to that account's address shortly"
+msgstr "sähköposti lähetetään tuotapikaa antamaasi osoitteeseen"
+
+#: r2/controllers/buttons.py:180
 msgid "reddit buttons"
 msgstr "reddit-napit"
 
-#: r2/controllers/buttons.py:174
+#: r2/controllers/buttons.py:186
 msgid "reddit widget"
 msgstr "reddit-mokkula"
 
-#: r2/controllers/buttons.py:179
+#: r2/controllers/buttons.py:191
 msgid "socialite toolbar"
-msgstr "socialite-työkalupalkki"
+msgstr "socialite-lisäosa"
 
-#: r2/controllers/buttons.py:185 r2/lib/menus.py:93
+#: r2/controllers/buttons.py:197 r2/lib/menus.py:93
 msgid "bookmarklets"
 msgstr "kirjanmerkit"
 
-#: r2/controllers/embed.py:39 r2/lib/menus.py:87
+#: r2/controllers/embed.py:46
+msgid "edit this page"
+msgstr "muokkaa tätä sivua"
+
+#: r2/controllers/embed.py:47
+msgid "read this first"
+msgstr "lue tämä ensin"
+
+#: r2/controllers/embed.py:62 r2/lib/menus.py:87
 #: r2/templates/commentreplybox.html:58
 msgid "help"
 msgstr "ohjeita"
 
-#: r2/controllers/error.py:109
+#: r2/controllers/error.py:110
 #, python-format
 msgid "forbidden (%(domain)s)"
 msgstr "*kielletyt ( %(domain)s )*"
 
-#: r2/controllers/error.py:117
-msgid "this reddit has been banned."
-msgstr "tämä reddit on laitettu jäähylle."
-
-#: r2/controllers/error.py:124
-msgid "page not found"
-msgstr "sivua ei löytynyt"
+#: r2/controllers/error.py:119
+msgid "this reddit has been banned"
+msgstr "tämä reddit on jäähyllä"
 
 #: r2/controllers/errors.py:27
+msgid "please login to do that"
+msgstr "***kirjaudu ensin sisään***"
+
+#: r2/controllers/errors.py:28
 msgid "url required"
 msgstr "urli on pakollinen"
 
-#: r2/controllers/errors.py:28
+#: r2/controllers/errors.py:29
 msgid "you should check that url"
 msgstr "tuo urli kannattaa tarkistaa"
 
-#: r2/controllers/errors.py:29
+#: r2/controllers/errors.py:30
 msgid "title required"
 msgstr "otsikko on pakollinen"
 
-#: r2/controllers/errors.py:30 r2/controllers/errors.py:31
+#: r2/controllers/errors.py:31 r2/controllers/errors.py:32
 msgid "you can be more succinct than that"
 msgstr "osaat kyllä ilmaista itsesi lyhyemminkin"
 
-#: r2/controllers/errors.py:32
+#: r2/controllers/errors.py:33
 msgid "your letters stink"
 msgstr "kirjaimesi haisee"
 
-#: r2/controllers/errors.py:33
+#: r2/controllers/errors.py:34
 msgid "invalid user name"
 msgstr "käyttäjänimi ei kelpaa"
 
-#: r2/controllers/errors.py:34
+#: r2/controllers/errors.py:35
 msgid "that username is already taken"
 msgstr "tuo käyttäjänimi on jo varattu"
 
-#: r2/controllers/errors.py:35
+#: r2/controllers/errors.py:36
 msgid "id not specified"
 msgstr "id:tä ei annettu"
 
-#: r2/controllers/errors.py:36
+#: r2/controllers/errors.py:37
 msgid "you can't do that"
 msgstr "et voi tehdä tuota"
 
-#: r2/controllers/errors.py:37
+#: r2/controllers/errors.py:38
 msgid "please enter a comment"
 msgstr "ole hyvä ja syötä kommentti"
 
-#: r2/controllers/errors.py:38
+#: r2/controllers/errors.py:39
 msgid "that comment has been deleted"
 msgstr "tuo kommentti on poistettu"
 
-#: r2/controllers/errors.py:39
+#: r2/controllers/errors.py:40
 msgid "that element has been deleted."
 msgstr "tuo elementti on poistettu"
 
-#: r2/controllers/errors.py:40 r2/controllers/errors.py:41
+#: r2/controllers/errors.py:41 r2/controllers/errors.py:42
 msgid "invalid password"
 msgstr "salasana ei kelpaa"
 
-#: r2/controllers/errors.py:42
+#: r2/controllers/errors.py:43
 msgid "passwords do not match"
 msgstr "salasanat eivät ole samoja"
 
-#: r2/controllers/errors.py:43
+#: r2/controllers/errors.py:44
 msgid "please enter a name"
 msgstr "ole hyvä ja syötä nimi"
 
-#: r2/controllers/errors.py:44
+#: r2/controllers/errors.py:45
 msgid "please enter an email address"
 msgstr "ole hyvä ja syötä sähköpostiosoite"
 
-#: r2/controllers/errors.py:45
+#: r2/controllers/errors.py:46
 msgid "no email address for that user"
 msgstr "tuolle käyttäjälle ei ole sähköpostiosoitetta"
 
-#: r2/controllers/errors.py:46 r2/controllers/errors.py:48
+#: r2/controllers/errors.py:47 r2/controllers/errors.py:49
 msgid "please enter a message"
 msgstr "ole hyvä ja syötä viesti"
 
-#: r2/controllers/errors.py:47
+#: r2/controllers/errors.py:48
 msgid "send it to whom?"
 msgstr "lähetä kenelle?"
 
-#: r2/controllers/errors.py:49
+#: r2/controllers/errors.py:50
 msgid "please enter a subject"
 msgstr "ole hyvä ja syötä aihe"
 
-#: r2/controllers/errors.py:50
+#: r2/controllers/errors.py:51
 msgid "that user doesn't exist"
 msgstr "tuota käyttäjää ei löydy"
 
-#: r2/controllers/errors.py:51
+#: r2/controllers/errors.py:52
 msgid "please enter a username"
 msgstr "syötä käyttäjätunnus"
 
-#: r2/controllers/errors.py:53
+#: r2/controllers/errors.py:54
 msgid "that number isn't in the right range"
 msgstr "tuo numero ei ole sopivalta väliltä"
 
-#: r2/controllers/errors.py:54
+#: r2/controllers/errors.py:55
 msgid "that link has already been submitted"
 msgstr "tuo linkki on jo lisätty"
 
-#: r2/controllers/errors.py:55
+#: r2/controllers/errors.py:56
 msgid "that reddit already exists"
 msgstr "tuo reddit on jo olemassa"
 
-#: r2/controllers/errors.py:56
+#: r2/controllers/errors.py:57
 msgid "that reddit doesn't exist"
 msgstr "ko. reddittiä ei ole olemassa"
 
-#: r2/controllers/errors.py:57
+#: r2/controllers/errors.py:58
 msgid "that name isn't going to work"
 msgstr "tuo nimi ei tule toimimaan"
 
-#: r2/controllers/errors.py:58
+#: r2/controllers/errors.py:59
 #, python-format
 msgid "you are trying to submit too fast. try again in %(time)s."
 msgstr ""
 "yrität lähettää liian nopeasti. yritä uudelleen kun %(time)s on kulunut."
 
-#: r2/controllers/errors.py:59
+#: r2/controllers/errors.py:60
 msgid "your session has expired"
 msgstr "istuntosi on vanhentunut"
 
-#: r2/controllers/errors.py:60
+#: r2/controllers/errors.py:61
 msgid "you must accept the terms first"
 msgstr "säännöt täytyy ensin hyväksyä"
 
-#: r2/controllers/errors.py:65
+#: r2/controllers/errors.py:66
 msgid "that option is not valid"
 msgstr "tuo valinta ei sovi"
 
-#: r2/controllers/errors.py:66
+#: r2/controllers/errors.py:67
 msgid "description is too long"
 msgstr "kuvaus on liian pitkä"
 
-#: r2/controllers/errors.py:68
+#: r2/controllers/errors.py:69
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
 msgstr "seuraavat sähköpostiosoitteet eivät kelpaa: %(emails)s"
 
-#: r2/controllers/errors.py:69
+#: r2/controllers/errors.py:70
 msgid "please enter at least one email address"
 msgstr "anna ainakin yksi sähköpostiosoite"
 
-#: r2/controllers/errors.py:70
+#: r2/controllers/errors.py:71
 #, python-format
 msgid "please only share to %(num)s emails at a time."
 msgstr "Jaa jooko vain %(num)s sähköpostiosoitetta kerralla"
@@ -272,7 +284,7 @@ msgstr "Jaa jooko vain %(num)s sähköpostiosoitetta kerralla"
 msgid "inquire about advertising on reddit"
 msgstr "tiedustele mainostamisesta redditissä "
 
-#: r2/controllers/feedback.py:38 r2/lib/menus.py:100
+#: r2/controllers/feedback.py:38
 msgid "advertise"
 msgstr "mainosta"
 
@@ -280,112 +292,116 @@ msgstr "mainosta"
 msgid "feedback"
 msgstr "palaute"
 
-#: r2/controllers/front.py:94 r2/templates/login.html:85
+#: r2/controllers/front.py:96 r2/templates/login.html:87
 msgid "password"
 msgstr "salasana"
 
-#: r2/controllers/front.py:108
+#: r2/controllers/front.py:110
 msgid "reset password"
 msgstr "*nollaa salasana*"
 
-#: r2/controllers/front.py:211 r2/controllers/front.py:213
+#: r2/controllers/front.py:213 r2/controllers/front.py:215
 #: r2/templates/createsubreddit.html:63
 msgid "create a reddit"
 msgstr "luo uusi reddit"
 
-#: r2/controllers/front.py:293 r2/lib/menus.py:85
+#: r2/controllers/front.py:244
+msgid "your reddit has been created"
+msgstr "redditisi on luotu"
+
+#: r2/controllers/front.py:302 r2/lib/menus.py:85
 msgid "stats"
 msgstr "tilastot"
 
-#: r2/controllers/front.py:334 r2/controllers/front.py:381
+#: r2/controllers/front.py:343 r2/controllers/front.py:390
 msgid "search results"
 msgstr "hakutulokset"
 
-#: r2/controllers/front.py:482
+#: r2/controllers/front.py:500
 msgid "seen it"
 msgstr "*nähty*"
 
-#: r2/controllers/front.py:494 r2/lib/menus.py:86 r2/templates/newlink.html:29
+#: r2/controllers/front.py:512 r2/lib/menus.py:86 r2/templates/newlink.html:29
 #: r2/templates/newlink.html:87
 msgid "submit"
 msgstr "lisää uusi"
 
-#: r2/controllers/front.py:506 r2/controllers/post.py:141
+#: r2/controllers/front.py:524 r2/controllers/post.py:141
 msgid "opt out"
-msgstr ""
+msgstr "***jättäydy pois***"
 
-#: r2/controllers/front.py:506 r2/controllers/post.py:151
+#: r2/controllers/front.py:524 r2/controllers/post.py:151
 msgid "welcome back"
 msgstr "tervetuloa takaisin"
 
-#: r2/controllers/listingcontroller.py:265 r2/controllers/listingcontroller.py:308
+#: r2/controllers/listingcontroller.py:266 r2/controllers/listingcontroller.py:309
 msgid "top scoring links"
 msgstr "eniten pisteitä saaneet linkit"
 
-#: r2/controllers/listingcontroller.py:275
+#: r2/controllers/listingcontroller.py:276
 msgid "newest submissions"
 msgstr "uusimmat lisäykset"
 
-#: r2/controllers/listingcontroller.py:310
+#: r2/controllers/listingcontroller.py:311
 msgid "most controversial links"
 msgstr "kiistanalaisimmat linkit"
 
-#: r2/controllers/listingcontroller.py:317
+#: r2/controllers/listingcontroller.py:318
 msgid "you're really bored now, eh?"
 msgstr "sulla taitaa olla oikeasti tylsää?"
 
-#: r2/controllers/listingcontroller.py:350
+#: r2/controllers/listingcontroller.py:352
 msgid "recommended for you"
 msgstr "sinulle suositellut"
 
-#: r2/controllers/listingcontroller.py:371
+#: r2/controllers/listingcontroller.py:373
 #, python-format
 msgid "overview for %(user)s"
 msgstr "yleiskatsaus käyttäjälle %(user)s"
 
-#: r2/controllers/listingcontroller.py:372
+#: r2/controllers/listingcontroller.py:374
 #, python-format
 msgid "comments by %(user)s"
 msgstr "käyttäjän %(user)s kommentit"
 
-#: r2/controllers/listingcontroller.py:373
+#: r2/controllers/listingcontroller.py:375
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "käyttäjän %(user)s lisäämät"
 
-#: r2/controllers/listingcontroller.py:374
+#: r2/controllers/listingcontroller.py:376
 #, python-format
 msgid "liked by %(user)s"
 msgstr "käyttäjän %(user)s pitämät"
 
-#: r2/controllers/listingcontroller.py:375
+#: r2/controllers/listingcontroller.py:377
 #, python-format
 msgid "disliked by %(user)s"
 msgstr "käyttäjän %(user)s inhoamat"
 
-#: r2/controllers/listingcontroller.py:376
+#: r2/controllers/listingcontroller.py:378
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "käyttäjän %(user)s piilottamat"
 
-#: r2/controllers/listingcontroller.py:377
+#: r2/controllers/listingcontroller.py:379
 #, python-format
 msgid "profile for %(user)s"
 msgstr "%(user)s:n profiili"
 
-#: r2/controllers/listingcontroller.py:445 r2/templates/redditheader.html:79
+#: r2/controllers/listingcontroller.py:450 r2/templates/redditheader.html:79
 msgid "messages"
 msgstr "viestit"
 
-#: r2/controllers/listingcontroller.py:499 r2/templates/pagenamenav.html:33
+#: r2/controllers/listingcontroller.py:506 r2/templates/pagenamenav.html:33
 msgid "reddits"
 msgstr "redditit"
 
-#: r2/controllers/listingcontroller.py:533
+#: r2/controllers/listingcontroller.py:540
 msgid "reddits: "
 msgstr "redditit:"
 
-#: r2/controllers/listingcontroller.py:569
+#: r2/controllers/listingcontroller.py:576
 msgid "comments"
 msgstr "kommentit"
 
@@ -393,14 +409,18 @@ msgstr "kommentit"
 msgid "over 18?"
 msgstr "yli 18?"
 
+#: r2/lib/cssfilter.py:252
+msgid "if you need backslashes, you're doing it wrong"
+msgstr "jos tarvitset kenoviivoja, et oikein osaa"
+
 #: r2/lib/emailer.py:127
 #, python-format
 msgid "[reddit] %(user)s has shared a link with you"
-msgstr "[reddit] %(user) on jakanut linkin sinulle"
+msgstr "[reddit] %(user) on lähettänyt linkin sinulle"
 
 #: r2/lib/emailer.py:130
 msgid "[reddit] a user has shared a link with you"
-msgstr "[reddit] käyttäjä on jakanut linkin sinulle"
+msgstr "[reddit] käyttäjä on lähettänyt linkin sinulle"
 
 #: r2/lib/emailer.py:135
 msgid "[reddit] email removal notice"
@@ -430,7 +450,7 @@ msgstr "kiistanalaisimmat"
 msgid "recommended"
 msgstr "suositellut"
 
-#: r2/lib/menus.py:51 r2/lib/menus.py:144
+#: r2/lib/menus.py:51 r2/lib/menus.py:146
 msgid "promote"
 msgstr ""
 
@@ -515,7 +535,7 @@ msgstr "spam"
 
 #: r2/lib/menus.py:79
 msgid "autobanned"
-msgstr ""
+msgstr "automaattisella jäähyllä"
 
 #: r2/lib/menus.py:82
 msgid "turn admin on"
@@ -525,21 +545,21 @@ msgstr "laita pääkäyttäjä päälle"
 msgid "turn admin off"
 msgstr "laita pääkäyttäjä pois"
 
-#: r2/lib/menus.py:84 r2/lib/pages/pages.py:284 r2/lib/pages/pages.py:292
+#: r2/lib/menus.py:84 r2/lib/pages/pages.py:340 r2/lib/pages/pages.py:348
 msgid "preferences"
 msgstr "omat asetukset"
 
 #: r2/lib/menus.py:88
-msgid "blog"
-msgstr "blogi"
+msgid "the reddit blog"
+msgstr "reddit-blogi"
 
-#: r2/lib/menus.py:89 r2/templates/utils.html:372
+#: r2/lib/menus.py:89 r2/templates/utils.html:374
 msgid "logout"
 msgstr "kirjaudu ulos"
 
 #: r2/lib/menus.py:94
-msgid "socialite"
-msgstr "socialite"
+msgid "socialite firefox extension"
+msgstr "firefoxin socialite-lisäosa"
 
 #: r2/lib/menus.py:95
 msgid "buttons"
@@ -550,8 +570,8 @@ msgid "widget"
 msgstr "mokkula"
 
 #: r2/lib/menus.py:97
-msgid "code"
-msgstr "koodi"
+msgid "source code"
+msgstr "lähdekoodi"
 
 #: r2/lib/menus.py:98
 msgid "mobile"
@@ -561,336 +581,367 @@ msgstr "mobiili"
 msgid "store"
 msgstr "kauppa"
 
-#: r2/lib/menus.py:103
+#: r2/lib/menus.py:100
+msgid "advertise on reddit"
+msgstr "mainosta redditissä"
+
+#: r2/lib/menus.py:101
+msgid "top links"
+msgstr "parhaat linkit"
+
+#: r2/lib/menus.py:104
 msgid "options"
 msgstr "valinnat"
 
-#: r2/lib/menus.py:104
+#: r2/lib/menus.py:105
 msgid "friends"
 msgstr "kaverit"
 
-#: r2/lib/menus.py:105
+#: r2/lib/menus.py:106
 msgid "password/email"
 msgstr "salasana/sähköpostiosoite"
 
-#: r2/lib/menus.py:106 r2/templates/prefdelete.html:46
-#: r2/templates/printable.html:118
+#: r2/lib/menus.py:107 r2/templates/prefdelete.html:46
+#: r2/templates/printable.html:120
 msgid "delete"
 msgstr "poista"
 
-#: r2/lib/menus.py:109
+#: r2/lib/menus.py:110
 msgid "compose"
 msgstr "luo uusi viesti"
 
-#: r2/lib/menus.py:110
+#: r2/lib/menus.py:111
 msgid "inbox"
 msgstr "saapuneet"
 
-#: r2/lib/menus.py:111
+#: r2/lib/menus.py:112
 msgid "sent"
 msgstr "lähetetyt"
 
-#: r2/lib/menus.py:114
+#: r2/lib/menus.py:115
 msgid "related"
 msgstr "aiheeseen liittyvät"
 
-#: r2/lib/menus.py:115
+#: r2/lib/menus.py:116
 msgid "details"
 msgstr "yksityiskohdat"
 
-#: r2/lib/menus.py:118
+#: r2/lib/menus.py:117
+msgid "traffic"
+msgstr "liikenne"
+
+#: r2/lib/menus.py:120
 msgid "home"
 msgstr "koti"
 
-#: r2/lib/menus.py:119
+#: r2/lib/menus.py:121
 msgid "about"
 msgstr "tietoja"
 
-#: r2/lib/menus.py:120 r2/templates/comment.html:145
+#: r2/lib/menus.py:122 r2/templates/comment.html:144
 #: r2/templates/commentreplybox.html:49 r2/templates/promotedlink.html:35
 msgid "edit"
 msgstr "muokkaa"
 
-#: r2/lib/menus.py:121 r2/templates/printable.html:40
-#: r2/templates/printable.html:97
+#: r2/lib/menus.py:123 r2/templates/printable.html:40
+#: r2/templates/printable.html:99 r2/templates/subredditinfobar.html:75
 msgid "banned"
 msgstr "jäähyllä"
 
-#: r2/lib/menus.py:122 r2/lib/pages/pages.py:1105
+#: r2/lib/menus.py:124 r2/lib/pages/pages.py:1186
 msgid "ban users"
 msgstr "laita käyttäjiä jäähylle"
 
-#: r2/lib/menus.py:124
+#: r2/lib/menus.py:126
 msgid "popular"
 msgstr "suositut"
 
-#: r2/lib/menus.py:125 r2/lib/pages/pages.py:688
+#: r2/lib/menus.py:127 r2/lib/pages/pages.py:770
 #: r2/templates/admintranslations.html:33 r2/templates/createsubreddit.html:261
 #: r2/templates/promotelinkform.html:144
 msgid "create"
 msgstr "luo"
 
-#: r2/lib/menus.py:126 r2/lib/pages/pages.py:666
+#: r2/lib/menus.py:128 r2/lib/pages/pages.py:748
 msgid "my reddits"
 msgstr "omat redditit"
 
-#: r2/lib/menus.py:128
+#: r2/lib/menus.py:130
 msgid "translate site"
-msgstr ""
+msgstr "käännä sivustoa"
 
-#: r2/lib/menus.py:129
+#: r2/lib/menus.py:131
 msgid "promoted"
 msgstr ""
 
-#: r2/lib/menus.py:130 r2admin/controllers/admin.py:77
+#: r2/lib/menus.py:132 r2admin/controllers/admin.py:77
 msgid "reporters"
 msgstr "raportoijat"
 
-#: r2/lib/menus.py:131 r2admin/controllers/admin.py:98
+#: r2/lib/menus.py:133 r2admin/controllers/admin.py:98
 msgid "reports"
 msgstr "raportit"
 
-#: r2/lib/menus.py:132
+#: r2/lib/menus.py:134
 msgid "reported authors"
 msgstr "ilmiannetut käyttäjät"
 
-#: r2/lib/menus.py:133
+#: r2/lib/menus.py:135
 msgid "info"
 msgstr "tietoja"
 
-#: r2/lib/menus.py:134 r2/templates/link.html:159 r2/templates/sharelink.html:96
+#: r2/lib/menus.py:136 r2/templates/link.html:159 r2/templates/sharelink.html:96
 msgid "share"
 msgstr "jaa"
 
-#: r2/lib/menus.py:136
+#: r2/lib/menus.py:138
 msgid "overview"
 msgstr "yleiskatsaus"
 
-#: r2/lib/menus.py:137
+#: r2/lib/menus.py:139
 msgid "submitted"
 msgstr "lisätyt"
 
-#: r2/lib/menus.py:138
+#: r2/lib/menus.py:140
 msgid "liked"
 msgstr "tykätyt"
 
-#: r2/lib/menus.py:139
+#: r2/lib/menus.py:141
 msgid "disliked"
 msgstr "inhotut"
 
-#: r2/lib/menus.py:140
+#: r2/lib/menus.py:142
 msgid "hidden {toolbar}"
 msgstr "piilotetut"
 
-#: r2/lib/menus.py:142 r2/templates/printable.html:113
+#: r2/lib/menus.py:144 r2/templates/printable.html:115
 #: r2admin/controllers/admin.py:81
 msgid "reported"
 msgstr "ilmoitettu"
 
-#: r2/lib/menus.py:145
+#: r2/lib/menus.py:147
 msgid "new promoted link"
 msgstr ""
 
-#: r2/lib/menus.py:146
+#: r2/lib/menus.py:148
 msgid "promoted links"
 msgstr ""
 
-#: r2/lib/menus.py:384
+#: r2/lib/menus.py:392
 msgid "sort by"
 msgstr "lajittele"
 
-#: r2/lib/menus.py:445
+#: r2/lib/menus.py:453
 msgid "kind"
 msgstr "tyypin"
 
-#: r2/lib/menus.py:450 r2/lib/menus.py:499
+#: r2/lib/menus.py:458 r2/lib/menus.py:507
 msgid "all"
 msgstr "kaikki"
 
-#: r2/lib/menus.py:460
+#: r2/lib/menus.py:468
 msgid "links from"
 msgstr "linkkejä"
 
 #: r2/lib/strings.py:48
 #, python-format
-msgid "%d %s"
-msgstr ""
+msgid "%(num)d %(thing)s"
+msgstr "%(num)d%(thing)s"
 
 #: r2/lib/strings.py:51
 #, python-format
-msgid "%5.3f %s"
-msgstr ""
+msgid "%(num)d %(point)s"
+msgstr "%(num)d%(point)s"
 
 #: r2/lib/strings.py:54
 #, python-format
-msgid "%(num)d %(persons)s"
-msgstr ""
+msgid "%(num)d %(time)s"
+msgstr "%(num)d%(time)s"
 
-#: r2/lib/strings.py:56
+#: r2/lib/strings.py:57
+#, python-format
+msgid "%(num)5.3f %(thing)s"
+msgstr "%(num)5.3f%(thing)s"
+
+#: r2/lib/strings.py:60
+#, python-format
+msgid "%(num)d %(persons)s"
+msgstr "%(num)d%(persons)s"
+
+#: r2/lib/strings.py:62
 msgid ""
 "reddit is a source for what's new and popular online. vote on links that you like or dislike and help decide what's popular, or submit your own!"
 msgstr ""
 "reddit on netin uusimpien ja suosituimpien juttujen lähde. äänestä linkkejä mistä tykkäät tai mistä et. auta päättämään mikä on suosittua, tai lisää itse omasi!"
 
-#: r2/lib/strings.py:58
+#: r2/lib/strings.py:64
 #, python-format
 msgid ""
 "that link has already been submitted, but you can try to [submit it again](%s)."
 msgstr ""
 "tuo linkki on jo lisätty, mutta voit yrittää [lisätä sen uudestaan] ( %s )"
 
-#: r2/lib/strings.py:60
+#: r2/lib/strings.py:66
 #, python-format
 msgid ""
 "that link has been submitted to multiple reddits. you can try to [submit it again](%s)."
 msgstr ""
 "tuo linkki on jo lisätty useisiin redditeihin. voit yrittää [lisätä sen uudestaan] ( %s )"
 
-#: r2/lib/strings.py:62
+#: r2/lib/strings.py:68
 msgid ""
 "your account has been deleted, but we won't judge you for it."
 msgstr ""
 "käyttäjätilisi on poistettu, mutta emme tuomitse sinua sen takia."
 
-#: r2/lib/strings.py:64
+#: r2/lib/strings.py:70
 msgid "you'll need to login or register to do that"
 msgstr "sinun tarvitsee kirjautua tai rekisteröityä tuota varten"
 
-#: r2/lib/strings.py:65
+#: r2/lib/strings.py:71
 msgid "(don't worry, it only takes a few seconds)"
 msgstr "(älä huoli, siihen menee vain pari sekuntia)"
 
-#: r2/lib/strings.py:67
+#: r2/lib/strings.py:73
 #, python-format
 msgid ""
 "I understand and agree that registration on or use of this site constitutes agreement to its %(user_agreement)s and %(privacy_policy)s."
 msgstr ""
 "ymmärrän ja hyväksyn että kirjautuminen tai sivuston käyttö pitää sisällään %(user_agreement)s ja %(privacy_policy)s hyväksymisen."
 
-#: r2/lib/strings.py:69
+#: r2/lib/strings.py:75
 #, python-format
 msgid ""
 "to view reddit with only submissions from your friends, use [reddit.com/r/friends](%s)"
 msgstr ""
 "nähdäksesi redditin, jossa näkyy vain kavereidesi lisäykset, käytä [reddit.com/r/friends] ( %s )"
 
-#: r2/lib/strings.py:73
+#: r2/lib/strings.py:79
 #, python-format
 msgid "you have been added as a moderator to [%(title)s](%(url)s)."
 msgstr ""
 "sinut on lisätty moderaattoriksi [ %(title)s ]( %(url)s ):hen"
 
-#: r2/lib/strings.py:74
+#: r2/lib/strings.py:80
 #, python-format
 msgid ""
 "you have been added as a contributor to [%(title)s](%(url)s)."
 msgstr "sinut on lisätty avustajaksi [ %(title)s ]( %(url)s ):hen"
 
-#: r2/lib/strings.py:75
+#: r2/lib/strings.py:81
 #, python-format
 msgid "you have been banned from posting to [%(title)s](%(url)s)."
 msgstr ""
 "sinulta on estetty kirjoittaminen [ %(title)s ]( %(url)s ):hen"
 
-#: r2/lib/strings.py:80
+#: r2/lib/strings.py:86
 msgid "you are a moderator"
 msgstr "olet moderaattori"
 
-#: r2/lib/strings.py:81
+#: r2/lib/strings.py:87
 msgid "you are a contributor"
 msgstr "olet avustaja"
 
-#: r2/lib/strings.py:82
+#: r2/lib/strings.py:88
 msgid "you've been banned"
 msgstr "sinut on laitettu jäähylle."
 
-#: r2/lib/strings.py:86
+#: r2/lib/strings.py:92
 msgid "you have not subscribed to any reddits."
 msgstr "et ole tilannut yhtään redditiä."
 
-#: r2/lib/strings.py:87
+#: r2/lib/strings.py:93
 msgid "below are the reddits you have subscribed to"
 msgstr "alla redditit jotka olet tilannut"
 
-#: r2/lib/strings.py:88
+#: r2/lib/strings.py:94
 msgid "below are the reddits that you have contributor access to."
 msgstr "alla redditit, joihin sinulla on avustajan oikeudet."
 
-#: r2/lib/strings.py:89
+#: r2/lib/strings.py:95
 msgid "below are the reddits that you have moderator access to."
 msgstr "alla redditit, joihin sinulla on moderaattorin oikeudet."
 
-#: r2/lib/strings.py:92
+#: r2/lib/strings.py:98
 msgid ""
-"click the ![add](/static/sr-add-button.png) or ![remove](/static/sr-remove-button.png) buttons to choose which reddits appear on your front page."
+"click the `add` or `remove` buttons to choose which reddits appear on your front page."
 msgstr ""
-"klikkaa ![add](/static/sr-add-button.png) tai ![remove](/static/sr-remove-button.png) -nappeja määritelläksesi mitkä redditit näkyvät etusivullasi."
+"klikkaa 'lisää' tai 'poista' -nappeja päättääksesi mitkä redditit näkyvät etusivullasi."
 
-#: r2/lib/strings.py:94
+#: r2/lib/strings.py:100
 #, python-format
 msgid ""
 "you're searching within the [%(reddit_name)s](%(reddit_link)s) reddit. you can also search within [all reddits](%(all_reddits_link)s)"
 msgstr ""
 "etsit redditistä [%(reddit_name)s](%(reddit_link)s). voit myös etsiä [kaikista redditeistä](%(all_reddits_link)s)	"
 
-#: r2/lib/strings.py:98
+#: r2/lib/strings.py:104
 #, python-format
 msgid "\"%(brokenurl)s\" is not a valid URL"
 msgstr "\"%(brokenurl)s\" ei ole toimiva URL"
 
-#: r2/lib/strings.py:99
+#: r2/lib/strings.py:105
 #, python-format
 msgid "\"%(cssprop)s\" is not a valid CSS property"
 msgstr "\"%(cssprop)s\" ei ole laillinen CSS-ominaisuus"
 
-#: r2/lib/strings.py:100
+#: r2/lib/strings.py:106
 #, python-format
 msgid ""
 "\"%(cssvalue)s\" is not a valid value for CSS property \"%(cssprop)s\""
 msgstr ""
 "\"%(cssvalue)s\" ei ole sopiva arvo \"%(cssprop)s\"-ominaisuudelle"
 
-#: r2/lib/strings.py:101
+#: r2/lib/strings.py:107
 #, python-format
 msgid "too big. keep it under %(max_size)dkb"
 msgstr "liian iso. pidä se alle %(max_size)dkb		"
 
-#: r2/lib/strings.py:102
+#: r2/lib/strings.py:108
 #, python-format
 msgid "syntax error: \"%(syntaxerror)s\""
 msgstr "tulkkausvirhe: \"%(syntaxerror)s\""
 
-#: r2/lib/strings.py:103
+#: r2/lib/strings.py:109
 msgid "@imports are not allowed"
 msgstr "@import-määrittelyt eivät kelpaa"
 
-#: r2/lib/strings.py:104
+#: r2/lib/strings.py:110
 #, python-format
 msgid "invalid CSS property list \"%(proplist)s\""
 msgstr "epäkelpo CSS-ominaisuuslista \"%(proplist)s\""
 
-#: r2/lib/strings.py:105
+#: r2/lib/strings.py:111
 #, python-format
 msgid "unknown CSS rule type \"%(ruletype)s\""
 msgstr "tuntematon css-sääntö  \"%(ruletype)s\""
 
-#: r2/lib/strings.py:107
+#: r2/lib/strings.py:113
 msgid ""
 "to anything interesting: news article, blog entry, video, picture..."
 msgstr ""
 "mihin tahansa kiinnostavaan: uutiseen, blogimerkintään, videoon, kuvaan..."
 
-#: r2/lib/strings.py:108
+#: r2/lib/strings.py:114
 #, python-format
 msgid "%(author)s comments on %(title)s"
 msgstr "%(author)s:n kommentit %(title)s:sta"
 
-#: r2/lib/strings.py:109
+#: r2/lib/strings.py:115
 #, python-format
 msgid "%(title)s : %(site)s"
-msgstr ""
+msgstr "%(title)s:%(site)s"
 
-#: r2/lib/strings.py:169 r2/lib/strings.py:174 r2/templates/frametoolbar.html:99
+#: r2/lib/strings.py:116
+#, python-format
+msgid ""
+"**this reddit has been banned**.\n"
+"please send a message to [feedback](%(link)s) if you feel that this is an error, but your mileage may vary if you are the target of a well-coordinated international conspiracy to silence you and your kind.\n"
+msgstr ""
+"**tämä reddit on jäähyllä**.\n"
+"ole hyvä ja lähetä viesti [palautteeseen]( %(link)s ) jos koet tämän aiheettomaksi. Jokainen tilanne on erilainen, mutta saatat olla hyvin järjestäytyneen kansainvälisen salaliiton kohteena jonka tarkoitus on hiljentää sinut ja kaltaisesi.\n"
+
+#: r2/lib/strings.py:176 r2/lib/strings.py:181 r2/templates/frametoolbar.html:99
 #: r2/templates/link.html:150 r2/templates/link.htmllite:38
 #: r2/templates/link.htmllite:41 r2/templates/link.xml:29
 #: r2/templates/subredditstylesheet.html:270
@@ -899,218 +950,228 @@ msgid_plural "comments"
 msgstr[0] "kommentti"
 msgstr[1] "kommenttia"
 
-#: r2/lib/strings.py:170 r2/templates/comment.htmllite:50
+#: r2/lib/strings.py:177 r2/templates/comment.htmllite:50
 #: r2/templates/linkinfobar.html:28
 msgid "point"
 msgid_plural "points"
 msgstr[0] "piste"
 msgstr[1] "pistettä"
 
-#: r2/lib/strings.py:173
+#: r2/lib/strings.py:180
 msgid "link"
 msgid_plural "links"
 msgstr[0] "linkki"
 msgstr[1] "linkkiä"
 
-#: r2/lib/strings.py:175 r2/lib/pages/pages.py:325 r2/templates/feedback.html:94
-#: r2/templates/messagecompose.html:54 r2/templates/sharelink.html:70
+#: r2/lib/strings.py:182 r2/lib/pages/pages.py:381 r2/templates/feedback.html:94
+#: r2/templates/messagecompose.html:54
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "viesti"
 msgstr[1] "viestiä"
 
-#: r2/lib/strings.py:176 r2/templates/newlink.html:63
+#: r2/lib/strings.py:183 r2/templates/newlink.html:63
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "alireddit"
 msgstr[1] "aliredditiä"
 
-#: r2/lib/strings.py:179 r2/templates/subredditinfobar.html:41
+#: r2/lib/strings.py:186 r2/templates/subredditinfobar.html:43
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "tilaaja"
 msgstr[1] "tilaajaa"
 
-#: r2/lib/strings.py:180 r2/templates/subreddit.html:78
-#: r2/templates/subreddit.html:79
+#: r2/lib/strings.py:187 r2/templates/subreddit.html:80
+#: r2/templates/subreddit.html:81
 msgid "contributor"
 msgid_plural "contributors"
 msgstr[0] "avustaja"
 msgstr[1] "avustajat"
 
-#: r2/lib/strings.py:181 r2/templates/subreddit.html:72
+#: r2/lib/strings.py:188 r2/templates/subreddit.html:74
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "moderaattori"
 msgstr[1] "moderaattorit"
 
-#: r2/lib/strings.py:184
+#: r2/lib/strings.py:191
 msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] "millisekunti"
 msgstr[1] "millisekuntia"
 
-#: r2/lib/strings.py:185 r2/lib/utils/utils.py:385 r2/templates/searchbar.html:41
+#: r2/lib/strings.py:192 r2/lib/utils/utils.py:397 r2/templates/searchbar.html:42
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekunti"
 msgstr[1] "sekuntia"
 
-#: r2/lib/strings.py:186 r2/lib/utils/utils.py:384
+#: r2/lib/strings.py:193 r2/lib/utils/utils.py:396
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minuutti"
 msgstr[1] "minuuttia"
 
-#: r2/lib/strings.py:187 r2/lib/utils/utils.py:383
+#: r2/lib/strings.py:194 r2/lib/utils/utils.py:395
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "tunti"
 msgstr[1] "tuntia"
 
-#: r2/lib/strings.py:188 r2/lib/utils/utils.py:382
+#: r2/lib/strings.py:195 r2/lib/utils/utils.py:394
 msgid "day"
 msgid_plural "days"
 msgstr[0] "päivä"
 msgstr[1] "päivää"
 
-#: r2/lib/strings.py:189 r2/lib/utils/utils.py:381
+#: r2/lib/strings.py:196 r2/lib/utils/utils.py:393
 msgid "month"
 msgid_plural "months"
 msgstr[0] "kuukausi"
 msgstr[1] "kuukautta"
 
-#: r2/lib/strings.py:190 r2/lib/utils/utils.py:380
+#: r2/lib/strings.py:197 r2/lib/utils/utils.py:392
 msgid "year"
 msgid_plural "years"
 msgstr[0] "vuosi"
 msgstr[1] "vuotta"
 
-#: r2/lib/pages/pages.py:40
+#: r2/lib/pages/pages.py:42
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d.%m.%Y"
 
-#: r2/lib/pages/pages.py:123
+#: r2/lib/pages/pages.py:127
 msgid "Submit a link"
 msgstr "lisää linkki"
 
-#: r2/lib/pages/pages.py:130
+#: r2/lib/pages/pages.py:134
 msgid "Create your own reddit"
 msgstr "Luo oma reddit"
 
-#: r2/lib/pages/pages.py:368
+#: r2/lib/pages/pages.py:429
 msgid "login or register"
 msgstr "kirjaudu tai rekisteröidy"
 
-#: r2/lib/pages/pages.py:426 r2/templates/comment.html:70
+#: r2/lib/pages/pages.py:487 r2/templates/comment.html:70
 #: r2/templates/comment.html:108 r2/templates/comment.htmllite:42
 #: r2/templates/comment.xml:30 r2/templates/comment.xml:31
 msgid "[deleted]"
 msgstr "[poistettu]"
 
-#: r2/lib/pages/pages.py:484 r2/templates/createsubreddit.html:57
+#: r2/lib/pages/pages.py:548 r2/templates/createsubreddit.html:57
 msgid "manage your reddit"
 msgstr "hallinnoi omaa redditiä"
 
-#: r2/lib/pages/pages.py:485
+#: r2/lib/pages/pages.py:549
 #, python-format
 msgid "about %(site)s"
 msgstr "lisää %(site)s"
 
-#: r2/lib/pages/pages.py:512
+#: r2/lib/pages/pages.py:576
 msgid "search reddits"
 msgstr "etsi redditeistä"
 
-#: r2/lib/pages/pages.py:627
+#: r2/lib/pages/pages.py:698
+msgid "page not found"
+msgstr "sivua ei löytynyt"
+
+#: r2/lib/pages/pages.py:709
 msgid "you aren't allowed to do that."
 msgstr "tuo on kielletty sinulta."
 
-#: r2/lib/pages/pages.py:685
+#: r2/lib/pages/pages.py:767
 msgid "Other reddit communities"
 msgstr "Muut reddit-yhteisöt"
 
-#: r2/lib/pages/pages.py:779
+#: r2/lib/pages/pages.py:861
 msgid "try entering those letters again"
 msgstr "koita syöttää kirjaimet uudelleen"
 
-#: r2/lib/pages/pages.py:836
+#: r2/lib/pages/pages.py:918
 msgid "previous search"
 msgstr "edellinen haku"
 
-#: r2/lib/pages/pages.py:989
+#: r2/lib/pages/pages.py:1070
 msgid "This feature is currently unavailable. Sorry"
 msgstr ""
 "Tämä ominaisuus ei ole tällä hetkellä käytettävissä. Pahoittelumme."
 
-#: r2/lib/pages/pages.py:1056
+#: r2/lib/pages/pages.py:1137
 msgid "add a friend"
 msgstr "lisää kaveri"
 
-#: r2/lib/pages/pages.py:1060
+#: r2/lib/pages/pages.py:1141
 msgid "your friends"
 msgstr "kaverisi"
 
-#: r2/lib/pages/pages.py:1075
+#: r2/lib/pages/pages.py:1156
 msgid "add contributor"
 msgstr "lisää avustaja"
 
-#: r2/lib/pages/pages.py:1079
+#: r2/lib/pages/pages.py:1160
 #, python-format
 msgid "contributors to %(reddit)s"
 msgstr "avustaja redditiin %(reddit)s"
 
-#: r2/lib/pages/pages.py:1090
+#: r2/lib/pages/pages.py:1171
 msgid "add moderator"
 msgstr "lisää moderaattori"
 
-#: r2/lib/pages/pages.py:1094
+#: r2/lib/pages/pages.py:1175
 #, python-format
 msgid "moderators to %(reddit)s"
 msgstr "moderaattori redditiin %(reddit)s"
 
-#: r2/lib/pages/pages.py:1109
+#: r2/lib/pages/pages.py:1190
 msgid "banned users"
 msgstr "jäähyllä olevat käyttäjät"
 
-#: r2/lib/utils/utils.py:397
+#: r2/lib/utils/utils.py:410
 msgid "millisecond"
 msgid_plural "milliseconds"
 msgstr[0] "millisekunti"
 msgstr[1] "millisekuntia"
 
-#: r2/lib/utils/utils.py:408 r2/templates/comment.html:79
+#: r2/lib/utils/utils.py:421 r2/templates/comment.html:79
 #: r2/templates/comment.htmllite:42
 msgid "ago"
 msgstr "sitten"
 
-#: r2/models/subreddit.py:511
+#: r2/models/subreddit.py:522
 msgid "reddit.com: what's new online!"
 msgstr "reddit.com: netin uusimmat!"
 
-#: r2/models/subreddit.py:555
+#: r2/models/subreddit.py:566
 msgid "on reddit.com"
 msgstr "reddit.com:ssa"
 
 #: r2/templates/admintranslations.html:62
 msgid "disable"
-msgstr ""
+msgstr "poista käytöstä"
 
 #: r2/templates/admintranslations.html:63
 msgid "disabled"
-msgstr ""
+msgstr "poistettu käytöstä"
 
 #: r2/templates/admintranslations.html:66
 msgid "enable"
-msgstr ""
+msgstr "ota käyttöön"
 
 #: r2/templates/admintranslations.html:67
 msgid "enabled"
-msgstr ""
+msgstr "otettu käyttöön"
 
 #: r2/templates/admintranslations.html:106
 msgid "add authors"
+msgstr "***lisää tekijöitä***"
+
+#: r2/templates/base.html:54
+msgid ""
+"/* Custom css: use this block to insert special translation-dependent css in the page header */"
 msgstr ""
+"/* Räätälöidyt tyylit: käytä tätä kenttää lisätäksesi käännöstä tukevaa css:ää sivun ylätunnisteeseen */"
 
 #: r2/templates/base.htmllite:53
 #, python-format
@@ -1130,7 +1191,7 @@ msgstr "asenna %(site)s -kirjanmerkkinapit"
 msgid ""
 "once added to your toolbar, these buttons will let you \"reddit this\" (submit the link, or if it's already been submitted, share it and/or comment on it), like, dislike, and save links while you surf."
 msgstr ""
-"***työkalupalkkiin lisäämisen jälkeen, nämä napit antavat sinun \"redditoida tämän\" (lisätä sen tai jos se on jo lisätty, kommentoida sitä ja/tai lähettää sen kaverillesi), tykätä, inhota tai tallentaa linkkejä samalla kuin surffailet.***"
+"Kun olet lisännyt nämä nappulat työkalupalkkiisi, voit \"lisätä tämän\" (lisätä ko. sivun redditiin, tai jos se on jo lisätty, kommentoida sitä ja/tai lähettää sen kaverillesi), tykätä, inhota tai tallentaa sivustoja muistiin samalla kuin surffailet."
 
 #: r2/templates/bookmarklets.html:33
 msgid "in Firefox"
@@ -1343,15 +1404,15 @@ msgstr[1] "lasta"
 msgid "permalink"
 msgstr "pysyväislinkki"
 
-#: r2/templates/comment.html:133 r2/templates/comment.html:140
+#: r2/templates/comment.html:132 r2/templates/comment.html:139
 msgid "parent"
 msgstr "isäntä"
 
-#: r2/templates/comment.html:153 r2/templates/message.html:85
+#: r2/templates/comment.html:152 r2/templates/message.html:84
 msgid "reply {verb}"
 msgstr "vastaa"
 
-#: r2/templates/comment.html:154 r2/templates/commentreplybox.html:52
+#: r2/templates/comment.html:153 r2/templates/commentreplybox.html:52
 #: r2/templates/link.html:159 r2/templates/link.html:191
 #: r2/templates/sharelink.html:100
 msgid "cancel"
@@ -1452,7 +1513,7 @@ msgid "anyone can view, but only contributors can submit links"
 msgstr ""
 "kaikki voivat katsoa, mutta vain avustajat voivat lisätä linkkejä"
 
-#: r2/templates/createsubreddit.html:158 r2/templates/subreddit.html:90
+#: r2/templates/createsubreddit.html:158 r2/templates/subreddit.html:92
 msgid "private"
 msgstr "yksityinen"
 
@@ -1466,7 +1527,7 @@ msgstr "ikä"
 
 #: r2/templates/createsubreddit.html:169
 msgid "viewers must be over eighteen years old"
-msgstr "katsojilta vaaditaan kahdekstantoista vuoden ikä"
+msgstr "katsojilta vaaditaan kahdeksantoista vuoden ikä"
 
 #: r2/templates/createsubreddit.html:174 r2/templates/prefoptions.html:105
 msgid "media"
@@ -1515,7 +1576,7 @@ msgstr "tallenna asetukset"
 msgid "your name"
 msgstr "nimesi"
 
-#: r2/templates/feedback.html:57 r2/templates/login.html:75
+#: r2/templates/feedback.html:57 r2/templates/login.html:77
 #: r2/templates/prefupdate.html:34
 msgid "email"
 msgstr "sähköpostiosoite"
@@ -1524,7 +1585,7 @@ msgstr "sähköpostiosoite"
 msgid "reply to"
 msgstr "vastausosoite"
 
-#: r2/templates/feedback.html:75 r2/templates/login.html:75
+#: r2/templates/feedback.html:75 r2/templates/login.html:77
 msgid "optional"
 msgstr "valinnainen"
 
@@ -1561,12 +1622,12 @@ msgstr "tallentamatta"
 msgid "save"
 msgstr "tallenna"
 
-#: r2/templates/frametoolbar.html:115 r2/templates/login.html:116
-#: r2/templates/login.html:139 r2/templates/loginformwide.html:49
+#: r2/templates/frametoolbar.html:115 r2/templates/login.html:118
+#: r2/templates/login.html:141 r2/templates/loginformwide.html:51
 msgid "login"
 msgstr "kirjaudu"
 
-#: r2/templates/frametoolbar.html:116 r2/templates/redditheader.html:61
+#: r2/templates/frametoolbar.html:116 r2/templates/redditheader.html:59
 msgid "register"
 msgstr "rekisteröidy"
 
@@ -1663,42 +1724,42 @@ msgstr "täällä ei näytä olevan mitään."
 msgid "you are logged in. go use the site!"
 msgstr "olet nyt kirjautunut. mene käyttämään sivustoa!"
 
-#: r2/templates/login.html:64 r2/templates/password.html:35
+#: r2/templates/login.html:66 r2/templates/password.html:35
 #: r2/templates/resetpassword.html:38
 msgid "username"
 msgstr "käyttäjänimi"
 
-#: r2/templates/login.html:96 r2/templates/prefupdate.html:46
+#: r2/templates/login.html:98 r2/templates/prefupdate.html:46
 #: r2/templates/resetpassword.html:59
 msgid "verify password"
 msgstr "vahvista salasana"
 
-#: r2/templates/login.html:110 r2/templates/loginformwide.html:51
+#: r2/templates/login.html:112 r2/templates/loginformwide.html:53
 msgid "remember me"
 msgstr "muista minut"
 
-#: r2/templates/login.html:116
+#: r2/templates/login.html:118
 msgid "create account"
 msgstr "luo tili"
 
-#: r2/templates/login.html:127
+#: r2/templates/login.html:129
 msgid "create a new account"
 msgstr "luo uusi tili"
 
-#: r2/templates/login.html:129
+#: r2/templates/login.html:131
 msgid "all it takes is a username and password"
 msgstr "tarvitset vain käyttäjänimen ja salasanan"
 
-#: r2/templates/login.html:134
+#: r2/templates/login.html:136
 msgid "is it really that easy? only one way to find out..."
 msgstr ""
 "onko se oikeasti näin helppoa? vain yksi tapa selvittää..."
 
-#: r2/templates/login.html:141
+#: r2/templates/login.html:143
 msgid "already have an account and just want to login?"
 msgstr "sinulla on jo tili ja haluat vain kirjautua sisään?"
 
-#: r2/templates/loginformwide.html:52
+#: r2/templates/loginformwide.html:54
 msgid "recover password"
 msgstr "palauta salasana"
 
@@ -1710,7 +1771,7 @@ msgstr "käyttäjältä %(author)s %(when)s sitten"
 #: r2/templates/message.html:44 r2/templates/message.xml:34
 #, python-format
 msgid "to %(dest)s sent %(when)s ago"
-msgstr "käyttäjälle %(dest)s %(when)s sitten***"
+msgstr "***käyttäjälle %(dest)s %(when)s sitten***"
 
 #: r2/templates/message.html:46
 #, python-format
@@ -1747,7 +1808,7 @@ msgstr "jatka samasta viestiketjusta"
 #: r2/templates/newlink.html:31
 #, python-format
 msgid "submit to %(site)s"
-msgstr "***lisää redditeihin %(site)s***"
+msgstr "lisää redditiin %(site)s"
 
 #: r2/templates/newlink.html:42 r2/templates/promotelinkform.html:53
 msgid "url"
@@ -1764,7 +1825,7 @@ msgstr "kirjoita \"self\" laittaaksesi viestin viittaamaan itseensä."
 #: r2/templates/newlink.html:100
 msgid "enter a title, or click submit to find one automatically."
 msgstr ""
-"anna otsikko, tai paina 'lisää uusi' automaattista otsikkoa varten."
+"anna otsikko, tai paina 'lisää uusi' hakeaksesi otsikon automaattisesti."
 
 #: r2/templates/newlink.html:105
 #, python-format
@@ -1795,12 +1856,12 @@ msgstr ""
 "Haluaisitko, ettei osoitteeseen %(email)s enää lähetetä postia?"
 
 #: r2/templates/optout.html:36 r2/templates/optout.html:52
-#: r2/templates/prefdelete.html:27 r2/templates/printable.html:278
+#: r2/templates/prefdelete.html:27 r2/templates/printable.html:280
 msgid "yes"
 msgstr "kyllä"
 
 #: r2/templates/optout.html:39 r2/templates/optout.html:55
-#: r2/templates/prefdelete.html:27 r2/templates/printable.html:281
+#: r2/templates/prefdelete.html:27 r2/templates/printable.html:283
 msgid "no"
 msgstr "en"
 
@@ -1822,7 +1883,7 @@ msgstr "mikä tämä on?"
 msgid ""
 "This area shows new and upcoming links. Vote on links here to help them become popular, and click the forwards and backwards buttons to view more. "
 msgstr ""
-"Tällä alueella näytetään uudet ja tulevat linkit. Äänestämällä tällä alueella autat niitä tulemaan suosituiksi. Klikkaa eteen- ja taaksenappeja nähdäksesi lisää."
+"Tällä alueella näytetään uudet ja tulevat linkit. Äänestämällä autat niitä tulemaan suosituiksi. Klikkaa eteen ja taakse -nappeja nähdäksesi lisää."
 
 #: r2/templates/organiclisting.html:72 r2/templates/organiclisting.html:82
 msgid "here"
@@ -1836,12 +1897,12 @@ msgstr "Tämä kohta on poistettu käytöstä."
 #, python-format
 msgid "Click %(here)s to disable this feature."
 msgstr ""
-"Klikkaa %(here)s poistaaksesi tämän ominaisuuden käytöstä"
+"Klikkaa %(here)s poistaaksesi tämän ominaisuuden käytöstä."
 
 #: r2/templates/organiclisting.html:81
 #, python-format
 msgid "Click %(here)s to close help."
-msgstr "Klikkaa %(here)s sulkeaksesi apuikkunan."
+msgstr "Klikkaa %(here)s sulkeaksesi tämän apuikkunan."
 
 #: r2/templates/organiclisting.html:95
 msgid ""
@@ -1882,9 +1943,9 @@ msgstr "katsot viestiketjun yksittäistä kommenttia"
 
 #: r2/templates/permalinkmessage.html:28
 msgid "see the above comments"
-msgstr "***katso ylempänä olevat kommentit***"
+msgstr "katso ylempänä olevat kommentit"
 
-#: r2/templates/prefdelete.html:26 r2/templates/printable.html:260
+#: r2/templates/prefdelete.html:26 r2/templates/printable.html:262
 msgid "are you sure?"
 msgstr "oletko aivan varma?"
 
@@ -2044,27 +2105,27 @@ msgstr "nykyinen salasana (vaaditaan)"
 msgid "new password"
 msgstr "uusi salasana"
 
-#: r2/templates/printable.html:93
+#: r2/templates/printable.html:93 r2/templates/subredditinfobar.html:68
 msgid "unban"
 msgstr "poista jäähy"
 
-#: r2/templates/printable.html:93
+#: r2/templates/printable.html:94 r2/templates/subredditinfobar.html:69
 msgid "unbanned"
 msgstr "jäähy poistettu"
 
-#: r2/templates/printable.html:97
+#: r2/templates/printable.html:98 r2/templates/subredditinfobar.html:74
 msgid "ban"
 msgstr "laita jäähylle"
 
-#: r2/templates/printable.html:102
+#: r2/templates/printable.html:104
 msgid "ignore"
 msgstr "poista näkyvistä"
 
-#: r2/templates/printable.html:103
+#: r2/templates/printable.html:105
 msgid "ignored"
 msgstr "poistettu näkyvistä"
 
-#: r2/templates/printable.html:113
+#: r2/templates/printable.html:115
 msgid "report"
 msgstr "ilmoita"
 
@@ -2113,6 +2174,10 @@ msgstr ""
 #, python-format
 msgid "(until %(until)s)"
 msgstr "(%(until)s asti)"
+
+#: r2/templates/promotedlinks.html:52
+msgid "promotions this month"
+msgstr ""
 
 #: r2/templates/promotelinkform.html:65
 msgid "reddit"
@@ -2168,34 +2233,76 @@ msgstr "ei vanhene"
 msgid "thumbnail"
 msgstr "pikkukuva"
 
-#: r2/templates/redditfooter.html:42
+#: r2/templates/redditfooter.html:41
 #, python-format
 msgid ""
 "Use of this site constitutes acceptance of our %(user_agreement)s and %(privacy_policy)s"
 msgstr ""
 "Tämän sivun käyttö tulkitaan %(user_agreement)s ja %(privacy_policy)s hyväksymiseksi"
 
-#: r2/templates/redditfooter.html:42
+#: r2/templates/redditfooter.html:41
 msgid "User Agreement {Genitive}"
 msgstr "käyttäjäsopimuksen"
 
-#: r2/templates/redditfooter.html:42
+#: r2/templates/redditfooter.html:41
 msgid "Privacy Policy {Genitive}"
 msgstr "yksityisyyskäytänteen"
 
-#: r2/templates/redditfooter.html:43
+#: r2/templates/redditfooter.html:42
 #, python-format
 msgid "(c) %(year)d CondeNet, Inc. All rights reserved."
 msgstr "(c) %(year)d CondeNet, Inc. Kaikki oikeudet pidätetään."
 
-#: r2/templates/redditfooter.html:64 r2/templates/redditfooter.html:79
+#: r2/templates/redditfooter.html:65 r2/templates/redditfooter.html:80
 msgid "close this window"
 msgstr "sulje tämä ikkuna"
 
-#: r2/templates/redditheader.html:60
+#: r2/templates/redditheader.html:58
 #, python-format
 msgid "want to join? %(register)s in seconds"
 msgstr "haluatko liittyä? %(register)s parissa sekunnissa"
+
+#: r2/templates/reddittraffic.html:44 r2/templates/reddittraffic.html:51
+#: r2/templates/reddittraffic.html:82 r2/templates/reddittraffic.html:153
+#: r2/templates/reddittraffic.html:172
+msgid "date"
+msgstr "päivämäärä"
+
+#: r2/templates/reddittraffic.html:45 r2/templates/reddittraffic.html:47
+#: r2/templates/reddittraffic.html:52 r2/templates/reddittraffic.html:83
+#: r2/templates/reddittraffic.html:154 r2/templates/reddittraffic.html:173
+#: r2/templates/reddittraffic.html:175
+msgid "uniques"
+msgstr "uniikit"
+
+#: r2/templates/reddittraffic.html:46 r2/templates/reddittraffic.html:48
+#: r2/templates/reddittraffic.html:53 r2/templates/reddittraffic.html:84
+#: r2/templates/reddittraffic.html:155 r2/templates/reddittraffic.html:174
+#: r2/templates/reddittraffic.html:176
+msgid "impressions"
+msgstr "***jälkiä***"
+
+#: r2/templates/reddittraffic.html:49 r2/templates/reddittraffic.html:55
+msgid "subscriptions"
+msgstr "tilaukset"
+
+#: r2/templates/reddittraffic.html:99
+msgid "Daily Mean"
+msgstr "***Päivän keskiarvo***"
+
+#: r2/templates/reddittraffic.html:110
+msgid ""
+"There doesn't seem to be any traffic data at the moment.  Please check back later."
+msgstr ""
+"Liikennetilastot eivät ole saatavilla juuri nyt. Yritä myöhemmin uudelleen."
+
+#: r2/templates/reddittraffic.html:169
+msgid "cnamed"
+msgstr ""
+
+#: r2/templates/reddittraffic.html:177
+msgid "cname"
+msgstr ""
 
 #: r2/templates/searchbar.html:39
 #, python-format
@@ -2219,11 +2326,26 @@ msgstr "(valinnainen)"
 msgid "your email"
 msgstr "sähköpostisi"
 
-#: r2/templates/subreddit.html:82 r2/templates/subreddit.html:83
+#: r2/templates/sharelink.html:70
+msgid "message {share form}"
+msgstr "viesti"
+
+#: r2/templates/sharelink.html:79
+#, python-format
+msgid "%(user)s from http://%(site)s/ has shared a link with you."
+msgstr ""
+"%(user)s sivustolta http://%(site)s/ on lähettänyt sinulle linkin."
+
+#: r2/templates/subreddit.html:59 r2/templates/subredditinfobar.html:46
+#, python-format
+msgid "a community for %(time)s"
+msgstr "%(time)s yhteisönä"
+
+#: r2/templates/subreddit.html:84 r2/templates/subreddit.html:85
 msgid "not contributor"
 msgstr "ei avustaja"
 
-#: r2/templates/subreddit.html:94
+#: r2/templates/subreddit.html:96
 msgid "over18"
 msgstr "yli 18"
 
@@ -2231,46 +2353,41 @@ msgstr "yli 18"
 msgid "save edits"
 msgstr "tallenna muutokset"
 
-#: r2/templates/subredditinfobar.html:34
+#: r2/templates/subredditinfobar.html:36
 msgid "subscribe"
 msgstr "tilaa"
 
-#: r2/templates/subredditinfobar.html:34
+#: r2/templates/subredditinfobar.html:36
 msgid "unsubscribe"
 msgstr "poista tilaus"
 
-#: r2/templates/subredditinfobar.html:44
-#, python-format
-msgid "a community for %(time)s"
-msgstr "%(time)s yhteisönä"
-
-#: r2/templates/subredditinfobar.html:51
+#: r2/templates/subredditinfobar.html:53
 #, python-format
 msgid "you are a contributor of this reddit. (%(leave)s)"
 msgstr "olet tämän redditin avustaja. (%(leave)s)"
 
-#: r2/templates/subredditinfobar.html:52
+#: r2/templates/subredditinfobar.html:54
 msgid "stop being a contributor?"
 msgstr "lopeta avustajana oleminen?"
 
-#: r2/templates/subredditinfobar.html:53
+#: r2/templates/subredditinfobar.html:55
 msgid "you are no longer a contributor"
 msgstr "et ole enää avustaja"
 
-#: r2/templates/subredditinfobar.html:58
+#: r2/templates/subredditinfobar.html:60
 #, python-format
 msgid "you are a moderator of this reddit. (%(leave)s)"
 msgstr "olet tämän redditin valvoja. (%(leave)s)"
 
-#: r2/templates/subredditinfobar.html:59
+#: r2/templates/subredditinfobar.html:61
 msgid "stop being a moderator?"
 msgstr "lopeta valvojana oleminen?"
 
-#: r2/templates/subredditinfobar.html:60
+#: r2/templates/subredditinfobar.html:62
 msgid "you are no longer a moderator"
 msgstr "et ole enää valvoja"
 
-#: r2/templates/subredditinfobar.html:74
+#: r2/templates/subredditinfobar.html:88
 msgid "leave"
 msgstr "poistu"
 
@@ -2378,15 +2495,15 @@ msgstr "lähetetään"
 msgid "upload"
 msgstr "lähetä"
 
-#: r2/templates/utils.html:359
+#: r2/templates/utils.html:361
 msgid "fetching title..."
 msgstr "haetaan otsikkoa..."
 
-#: r2/templates/utils.html:360
+#: r2/templates/utils.html:362
 msgid "submitting..."
 msgstr "lähetetään..."
 
-#: r2/templates/utils.html:361
+#: r2/templates/utils.html:363
 msgid "loading..."
 msgstr "ladataan..."
 
@@ -2536,23 +2653,24 @@ msgstr "Metsästämme juuri tulikärpäsiä takaisin purkkiin."
 
 #: randomstring:sadmessages
 msgid "Funny 500 page message 6"
-msgstr ""
+msgstr "Tyyppi rikkoo ihan pokkana!"
 
 #: randomstring:sadmessages
 msgid "Funny 500 page message 7"
-msgstr ""
+msgstr "Aina ei voi voittaa"
 
 #: randomstring:sadmessages
 msgid "Funny 500 page message 8"
-msgstr ""
+msgstr "Vanha konsti on parempi kuin pussillinen rikkinäisiä"
 
 #: randomstring:sadmessages
 msgid "Funny 500 page message 9"
-msgstr ""
+msgstr "Miksi teit sen? Miksiiiiii?"
 
 #: randomstring:sadmessages
 msgid "Funny 500 page message 10"
 msgstr ""
+"Òminaisuus, mitä kaipasit on lomalla. Rikki, mutta myös lomalla."
 
 #: randomstring:create_reddit
 msgid "Reason to create a reddit 1"
@@ -2600,7 +2718,7 @@ msgstr "...Counter-Strike-klaanillesi"
 
 #: randomstring:create_reddit
 msgid "Reason to create a reddit 12"
-msgstr "...koska finnchan kaatuu salasanalistan postauksen jälkeen"
+msgstr "...koska finnchan kaatui salasanalistan postauksen jälkeen"
 
 #: randomstring:create_reddit
 msgid "Reason to create a reddit 13"
