@@ -313,7 +313,7 @@ msgstr "problem z adresem: %(message)s"
 #: r2/controllers/errors.py:73
 #, python-format
 msgid "card problem: %(message)s"
-msgstr ""
+msgstr "problem z kartą: %(message)s"
 
 #: r2/controllers/errors.py:74
 #, python-format
@@ -1024,6 +1024,7 @@ msgid ""
 "**this reddit has been banned**\n"
 "most likely this was done automatically by our spam filtering program. the program is still learning, and may even have some bugs, so if you feel the ban was a mistake, please send a message to [feedback](%(link)s) and be sure to include the exact name of the reddit.\n"
 msgstr ""
+"**ten reddit został zbanowany** to pewnie przez nasze zabezpieczenia antyspamowe. program ciąglę się uczy więc mogą znaleźć się w nim błędy. jeśli uważasz że ban został nałożony przez pomyłkę, [skontaktuj się z nami](%(link)s) i pamiętaj żeby napisać w wiadomości dokładną nazwę reddita."
 
 #: r2/lib/strings.py:118
 #, python-format
@@ -1034,11 +1035,13 @@ msgid ""
 "    (in the middle of the toolbar, to the right of the comments button).\n"
 "    \n"
 msgstr ""
+"Oto przykładowa dyskusja użytkowników Reddita na temat tej strony. Pełna dyskusja jest dostępna [tu](%(fd_link)s); możesz też się tam dostać klikając tytuł linka (po środku toolbara, po prawej od guzika z komentarzami)"
 
 #: r2/lib/strings.py:125
 msgid ""
 "You are submitting a link. The key to a successful submission is interesting content and a descriptive title."
 msgstr ""
+"Dodajesz link. Kluczami do sukcesu są ciekawa treść i dobry opis."
 
 #: r2/lib/strings.py:126
 msgid ""
@@ -1981,8 +1984,7 @@ msgstr "zobacz resztę komentarzy"
 
 #: r2/templates/prefdelete.html:45
 msgid "delete your reddit account? hope you have a good reason."
-msgstr ""
-"usunąć twoje konto? mam nadzieję, że masz ku temu dobry powód."
+msgstr "chcesz usunąć konto? musisz mieć jakiś dobry powód."
 
 #: r2/templates/prefdelete.html:48
 msgid "deleting..."
@@ -2301,12 +2303,12 @@ msgstr "promocje w tym miesiącu"
 #: r2/templates/promotedlink.html:35
 #, python-format
 msgid "to be promoted by %(author)s"
-msgstr ""
+msgstr "zostanie promowane przez %(author)s"
 
 #: r2/templates/promotedlink.html:37
 #, python-format
 msgid "promoted %(when)s ago by %(author)s"
-msgstr ""
+msgstr "promowane %(when)s temu przez %(author)s"
 
 #: r2/templates/promotedlink.html:57
 msgid "unverified sponsored link"
@@ -2352,38 +2354,43 @@ msgstr "UWAGA:"
 msgid ""
 "you have not set up payment for this promotion.  Please click \"set up payment\" to authorize payment."
 msgstr ""
+"nie ustawiłeś sposobu płatności za tą promocję. Kliknij \"set up payment\" żeby zaautoryzować płatność."
 
 #: r2/templates/promotelinkform.html:75
 msgid ""
 "once you set up payment, you will not be charged until the link is approved and scheduled for display"
 msgstr ""
+"kiedy ustawisz sposób płatności, nie będziesz obciążony dopóki link zostanie zaakceptowany i zapisany do pokazywania"
 
 #: r2/templates/promotelinkform.html:83
 msgid "This promotion has been rejected.  Please edit and resubmit."
 msgstr ""
+"Ta promocja została odrzucona. Proszę edytować i wstawić ponownie."
 
 #: r2/templates/promotelinkform.html:89
 msgid ""
 "NOTE: changes to this promotion will result in its status being reverted to 'unapproved'"
 msgstr ""
+"UWAGA: zmiany tej promocji skutkują w zmiany statusu na 'niezweryfikowany'"
 
 #: r2/templates/promotelinkform.html:95
 msgid ""
 "This promotion is finished.  Edits would be a little pointless."
-msgstr ""
+msgstr "Ta promocja dobiegła końca. Nie ma sensu jej edytować."
 
 #: r2/templates/promotelinkform.html:131
 msgid ""
 "You'll be able to submit an image for the thumbnail once the promotion is submitted."
 msgstr ""
+"Będziesz mógł wstawić obrazek do miniaturki gdy promocja zostanie wysłana."
 
 #: r2/templates/promotelinkform.html:354
 msgid "next ->"
-msgstr ""
+msgstr "następny ->"
 
 #: r2/templates/promotelinkform.html:371
 msgid "make this a freebie"
-msgstr ""
+msgstr "uczyń to darmowym"
 
 #: r2/templates/reddit.html:137 r2/templates/reddit.html:149
 msgid "close this window"
@@ -2898,11 +2905,11 @@ msgstr "dlaczego? dlaczego teraz?"
 
 #: randomstring:sadmessages
 msgid "Funny 500 page message 9"
-msgstr ""
+msgstr "och nie."
 
 #: randomstring:sadmessages
 msgid "Funny 500 page message 10"
-msgstr ""
+msgstr ":-("
 
 #: randomstring:create_reddit
 msgid "Reason to create a reddit 1"
