@@ -27,11 +27,11 @@ msgstr "API"
 msgid ""
 "thanks for your message! you should hear back from us shortly."
 msgstr ""
-"thanks for your message! you should hear back from one of us shortly."
+"thanks for your mail! you should hear back from one of us shortly."
 
 #: r2/controllers/api.py:138
 msgid "your message has been delivered"
-msgstr "your message has been delivered"
+msgstr "your mail has been delivered"
 
 #: r2/controllers/api.py:259
 msgid "no title found"
@@ -47,11 +47,11 @@ msgstr "you should be getting a verification email shortly."
 
 #: r2/controllers/api.py:481
 msgid "your email has been updated"
-msgstr "your e-mail has been updated"
+msgstr "your email has been updated"
 
 #: r2/controllers/api.py:490
 msgid "your email and password have been updated"
-msgstr "your e-mail and password have been updated"
+msgstr "your email and password have been updated"
 
 #: r2/controllers/api.py:493
 msgid "your password has been updated"
@@ -155,7 +155,7 @@ msgstr "this reddit has been banned"
 
 #: r2/controllers/errors.py:27
 msgid "please login to do that"
-msgstr "please login to do that"
+msgstr "please log in to do that"
 
 #: r2/controllers/errors.py:28
 msgid "you need to set a valid email address to do that."
@@ -212,11 +212,11 @@ msgstr "please enter a name"
 
 #: r2/controllers/errors.py:42
 msgid "please enter an email address"
-msgstr "please enter an e-mail address"
+msgstr "please enter an email address"
 
 #: r2/controllers/errors.py:43
 msgid "no email address for that user"
-msgstr "no e-mail address for that user"
+msgstr "no email address for that user"
 
 #: r2/controllers/errors.py:44
 msgid "send it to whom?"
@@ -244,7 +244,7 @@ msgstr "that number isn't in the right range (%(min)d to %(max)d)"
 msgid ""
 "your bid must be at least $%(min)d per day and no more than to $%(max)d in total."
 msgstr ""
-"your bid must be at least $%(min)d per day and no more than to $%(max)d in total."
+"your bid must be at least %(min)d (USD ) per day and no more than to %(max)d (USD) in total."
 
 #: r2/controllers/errors.py:51
 msgid "that link has already been submitted"
@@ -540,11 +540,11 @@ msgstr "please provide your city"
 
 #: r2/controllers/validator/validator.py:1175
 msgid "please provide your state"
-msgstr "please provide your state"
+msgstr "please provide your county"
 
 #: r2/controllers/validator/validator.py:1177
 msgid "please provide your zip or post code"
-msgstr "please provide your zip or post code"
+msgstr "please provide your post code"
 
 #: r2/controllers/validator/validator.py:1180
 msgid "please pick a country"
@@ -1016,8 +1016,7 @@ msgstr ""
 #: r2/lib/strings.py:82
 #, python-format
 msgid "you have been banned from posting to [%(title)s](%(url)s)."
-msgstr ""
-"you have been banned from posting to [%(title)s](%(url)s). ostracised by your peers, what can you do?"
+msgstr "you have been banned from posting to [%(title)s](%(url)s)."
 
 #: r2/lib/strings.py:83
 #, python-format
@@ -1179,9 +1178,9 @@ msgstr "Verification failed.  Please try that again"
 #: r2/lib/strings.py:128
 #, python-format
 msgid ""
-"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
+"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. [Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
 msgstr ""
-"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
+"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. [Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
 
 #: r2/lib/strings.py:188 r2/lib/strings.py:193 r2/lib/template_helpers.py:132
 #: r2/templates/subredditstylesheet.html:264
@@ -2295,7 +2294,7 @@ msgstr "Private RSS feeds"
 msgid ""
 "On this page are links to private RSS feeds so that you can get listings of your content (personalized front page, message panel, saved listing, etc.) without having to deal with cookies or other auth."
 msgstr ""
-"On this page are links to private RSS feeds so that you can get listings of your content (personalized front page, message panel, saved listing, etc.) without having to deal with cookies or other auth."
+"On this page are links to private RSS feeds so that you can get listings of your content (personalised front page; message panel, saved listing; etcetera) without having to deal with cookies or other authentication."
 
 #: r2/templates/preffeeds.html:32
 msgid ""
@@ -2695,11 +2694,11 @@ msgstr "toggle"
 
 #: r2/templates/profilebar.html:54
 msgid "+ friends"
-msgstr "+ friends"
+msgstr "+ mates"
 
 #: r2/templates/profilebar.html:54
 msgid "- friends"
-msgstr "- friends"
+msgstr "- mates"
 
 #: r2/templates/profilebar.html:92
 msgid "link karma"

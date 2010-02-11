@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.1\n"
 
-#: r2/controllers/api.py:77 r2/controllers/listingcontroller.py:383
+#: r2/controllers/api.py:91 r2/controllers/listingcontroller.py:383
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:97
+#: r2/controllers/api.py:111
 msgid ""
 "thanks for your message! you should hear back from us shortly."
 msgstr "dankon je via mesaĝo! vi baldaŭ ricevos konfirmon el ni."
 
-#: r2/controllers/api.py:124
+#: r2/controllers/api.py:138
 msgid "your message has been delivered"
 msgstr "via mesaĝo liveriĝis"
 
-#: r2/controllers/api.py:245
+#: r2/controllers/api.py:259
 msgid "no title found"
 msgstr "titolo ne trovita"
 
@@ -70,45 +70,45 @@ msgstr "kundividita"
 msgid "your link has been shared."
 msgstr "via ligo afiŝiĝis."
 
-#: r2/controllers/api.py:803
+#: r2/controllers/api.py:801
 msgid "validation errors"
 msgstr "eraroj dum validigo"
 
-#: r2/controllers/api.py:824 r2/controllers/api.py:972 r2/controllers/api.py:1082
-#: r2/controllers/api.py:1438 r2/controllers/api.py:1476
+#: r2/controllers/api.py:822 r2/controllers/api.py:970 r2/controllers/api.py:1080
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1474
 #: r2/controllers/listingcontroller.py:280 r2/controllers/promotecontroller.py:444
 #: r2/lib/menus.py:49 r2/templates/frametoolbar.html:199
 #: r2/templates/printablebuttons.html:122
 msgid "saved"
 msgstr "savitaj"
 
-#: r2/controllers/api.py:894 r2/lib/menus.py:152
+#: r2/controllers/api.py:892 r2/lib/menus.py:152
 #: r2/templates/printablebuttons.html:36 r2/templates/subredditstylesheet.html:230
 msgid "deleted"
 msgstr "forviŝita"
 
-#: r2/controllers/api.py:945 r2/templates/subredditstylesheet.html:189
+#: r2/controllers/api.py:943 r2/templates/subredditstylesheet.html:189
 msgid "bad image name"
 msgstr "maltaŭga bildonomo"
 
-#: r2/controllers/api.py:952 r2/controllers/promotecontroller.py:437
+#: r2/controllers/api.py:950 r2/controllers/promotecontroller.py:437
 msgid "bad image"
 msgstr "maltaŭga bildo"
 
-#: r2/controllers/api.py:956
+#: r2/controllers/api.py:954
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "tro multaj bildoj (vi nur rajtas doni %d)"
 
-#: r2/controllers/api.py:1314
+#: r2/controllers/api.py:1312
 msgid "an email will be sent to that account's address shortly"
 msgstr "retpoŝto baldaŭ sendiĝos al la adreso de tiu konto"
 
-#: r2/controllers/api.py:1598
+#: r2/controllers/api.py:1596
 msgid "redirecting..."
 msgstr "plusendado..."
 
-#: r2/controllers/api.py:1601
+#: r2/controllers/api.py:1599
 msgid "error (sorry)"
 msgstr "eraro (pardonu)"
 
@@ -367,39 +367,39 @@ msgstr "kreu reddit:on"
 msgid "your reddit has been created"
 msgstr "via reddit kreiĝis"
 
-#: r2/controllers/front.py:368 r2/lib/menus.py:139
+#: r2/controllers/front.py:378 r2/lib/menus.py:139
 msgid "awards"
 msgstr "premioj"
 
-#: r2/controllers/front.py:398 r2/lib/menus.py:119
+#: r2/controllers/front.py:408 r2/lib/menus.py:119
 msgid "related"
 msgstr "rilata"
 
-#: r2/controllers/front.py:416
+#: r2/controllers/front.py:426
 msgid "other discussions"
 msgstr "aliaj debatoj"
 
-#: r2/controllers/front.py:435 r2/controllers/front.py:482
+#: r2/controllers/front.py:445 r2/controllers/front.py:492
 msgid "search results"
 msgstr "serĉorezultoj"
 
-#: r2/controllers/front.py:519 r2/controllers/listingcontroller.py:167
+#: r2/controllers/front.py:529 r2/controllers/listingcontroller.py:167
 msgid "search failed"
 msgstr "serĉo malsukcesis"
 
-#: r2/controllers/front.py:610
+#: r2/controllers/front.py:620
 msgid "seen it"
 msgstr "legita"
 
-#: r2/controllers/front.py:620 r2/lib/menus.py:86
+#: r2/controllers/front.py:630 r2/lib/menus.py:86
 msgid "submit"
 msgstr "sendu"
 
-#: r2/controllers/front.py:633 r2/controllers/post.py:145
+#: r2/controllers/front.py:643 r2/controllers/post.py:145
 msgid "opt out"
 msgstr "malaliĝu"
 
-#: r2/controllers/front.py:633 r2/controllers/post.py:155
+#: r2/controllers/front.py:643 r2/controllers/post.py:155
 msgid "welcome back"
 msgstr "rebonvenon"
 
@@ -1014,7 +1014,7 @@ msgstr "vi elpeliĝis de [%(title)s](%(url)s)."
 #: r2/lib/strings.py:83
 #, python-format
 msgid ""
-"you have been added to the list of users able to see [traffic for the sponsoted link \"%(title)s\"](%(traffic_url)s)."
+"you have been added to the list of users able to see [traffic for the sponsored link \"%(title)s\"](%(traffic_url)s)."
 msgstr ""
 
 #: r2/lib/strings.py:88
@@ -1165,7 +1165,7 @@ msgstr "Konfirmo ne sukcesis. Bonvole reprovu"
 #: r2/lib/strings.py:128
 #, python-format
 msgid ""
-"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
+"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. [Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
 msgstr ""
 
 #: r2/lib/strings.py:188 r2/lib/strings.py:193 r2/lib/template_helpers.py:132
@@ -1231,38 +1231,38 @@ msgid_plural "milliseconds"
 msgstr[0] "milisekundo"
 msgstr[1] "milisekundoj"
 
-#: r2/lib/strings.py:205 r2/lib/utils/utils.py:411 r2/templates/searchbar.html:43
+#: r2/lib/strings.py:205 r2/lib/utils/utils.py:419 r2/templates/searchbar.html:43
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekundo"
 msgstr[1] "sekundoj"
 
-#: r2/lib/strings.py:206 r2/lib/utils/utils.py:410
+#: r2/lib/strings.py:206 r2/lib/utils/utils.py:418
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minuto"
 msgstr[1] "minutoj"
 
-#: r2/lib/strings.py:207 r2/lib/utils/utils.py:409
+#: r2/lib/strings.py:207 r2/lib/utils/utils.py:417
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "horo"
 msgstr[1] "horoj"
 
-#: r2/lib/strings.py:208 r2/lib/utils/utils.py:408 r2/templates/paymentform.html:46
+#: r2/lib/strings.py:208 r2/lib/utils/utils.py:416 r2/templates/paymentform.html:46
 #: r2/templates/promotedlink.html:74
 msgid "day"
 msgid_plural "days"
 msgstr[0] "tago"
 msgstr[1] "tagoj"
 
-#: r2/lib/strings.py:209 r2/lib/utils/utils.py:407
+#: r2/lib/strings.py:209 r2/lib/utils/utils.py:415
 msgid "month"
 msgid_plural "months"
 msgstr[0] "monato"
 msgstr[1] "monatoj"
 
-#: r2/lib/strings.py:210 r2/lib/utils/utils.py:406
+#: r2/lib/strings.py:210 r2/lib/utils/utils.py:414
 msgid "year"
 msgid_plural "years"
 msgstr[0] "jaro"
@@ -1447,13 +1447,13 @@ msgstr ""
 msgid "current viewers"
 msgstr "nunaj rigardantoj"
 
-#: r2/lib/utils/utils.py:424
+#: r2/lib/utils/utils.py:432
 msgid "millisecond"
 msgid_plural "milliseconds"
 msgstr[0] "milisekundo"
 msgstr[1] "milisekundoj"
 
-#: r2/lib/utils/utils.py:435 r2/templates/comment.htmllite:46
+#: r2/lib/utils/utils.py:443 r2/templates/comment.htmllite:46
 msgid "ago"
 msgstr "antaŭe"
 
@@ -1466,11 +1466,11 @@ msgstr "administranto de /r/%(reddit)s, oficiala parolo"
 msgid "label_template"
 msgstr "etikedo_ŝablono"
 
-#: r2/models/link.py:846
+#: r2/models/link.py:851
 msgid "comment reply"
 msgstr "komentrespondo"
 
-#: r2/models/link.py:852
+#: r2/models/link.py:857
 msgid "post reply"
 msgstr "afiŝorespondo"
 
@@ -2973,7 +2973,7 @@ msgstr "foriru"
 #: r2/templates/subredditinfobar.html:47
 #, python-format
 msgid "you are a moderator of this reddit. (%(leave)s)"
-msgstr "vi estas debatestro de ĉi tiu reddit."
+msgstr "vi estas debatestro de ĉi tiu reddit. (%(leave)s)"
 
 #: r2/templates/subredditinfobar.html:48
 msgid "stop being a moderator?"

@@ -17,21 +17,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.1\n"
 
-#: r2/controllers/api.py:77 r2/controllers/listingcontroller.py:383
+#: r2/controllers/api.py:91 r2/controllers/listingcontroller.py:383
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:97
+#: r2/controllers/api.py:111
 msgid ""
 "thanks for your message! you should hear back from us shortly."
 msgstr ""
 "благодарим за съобщението! ще ви отговорим възможно най-бързо."
 
-#: r2/controllers/api.py:124
+#: r2/controllers/api.py:138
 msgid "your message has been delivered"
 msgstr "съобщението ви е доставено"
 
-#: r2/controllers/api.py:245
+#: r2/controllers/api.py:259
 msgid "no title found"
 msgstr "не е намерено заглавие"
 
@@ -71,45 +71,45 @@ msgstr ""
 msgid "your link has been shared."
 msgstr ""
 
-#: r2/controllers/api.py:803
+#: r2/controllers/api.py:801
 msgid "validation errors"
 msgstr ""
 
-#: r2/controllers/api.py:824 r2/controllers/api.py:972 r2/controllers/api.py:1082
-#: r2/controllers/api.py:1438 r2/controllers/api.py:1476
+#: r2/controllers/api.py:822 r2/controllers/api.py:970 r2/controllers/api.py:1080
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1474
 #: r2/controllers/listingcontroller.py:280 r2/controllers/promotecontroller.py:444
 #: r2/lib/menus.py:49 r2/templates/frametoolbar.html:199
 #: r2/templates/printablebuttons.html:122
 msgid "saved"
 msgstr "запазени"
 
-#: r2/controllers/api.py:894 r2/lib/menus.py:152
+#: r2/controllers/api.py:892 r2/lib/menus.py:152
 #: r2/templates/printablebuttons.html:36 r2/templates/subredditstylesheet.html:230
 msgid "deleted"
 msgstr "изтрито"
 
-#: r2/controllers/api.py:945 r2/templates/subredditstylesheet.html:189
+#: r2/controllers/api.py:943 r2/templates/subredditstylesheet.html:189
 msgid "bad image name"
 msgstr ""
 
-#: r2/controllers/api.py:952 r2/controllers/promotecontroller.py:437
+#: r2/controllers/api.py:950 r2/controllers/promotecontroller.py:437
 msgid "bad image"
 msgstr ""
 
-#: r2/controllers/api.py:956
+#: r2/controllers/api.py:954
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr ""
 
-#: r2/controllers/api.py:1314
+#: r2/controllers/api.py:1312
 msgid "an email will be sent to that account's address shortly"
 msgstr ""
 
-#: r2/controllers/api.py:1598
+#: r2/controllers/api.py:1596
 msgid "redirecting..."
 msgstr "пренасочване..."
 
-#: r2/controllers/api.py:1601
+#: r2/controllers/api.py:1599
 msgid "error (sorry)"
 msgstr "грешка (съжаляваме)"
 
@@ -365,41 +365,41 @@ msgstr "създаване на reddit"
 
 #: r2/controllers/front.py:321
 msgid "your reddit has been created"
-msgstr ""
+msgstr "вашият reddit бе създаден успешно"
 
-#: r2/controllers/front.py:368 r2/lib/menus.py:139
+#: r2/controllers/front.py:378 r2/lib/menus.py:139
 msgid "awards"
 msgstr "награди"
 
-#: r2/controllers/front.py:398 r2/lib/menus.py:119
+#: r2/controllers/front.py:408 r2/lib/menus.py:119
 msgid "related"
 msgstr "подобни"
 
-#: r2/controllers/front.py:416
+#: r2/controllers/front.py:426
 msgid "other discussions"
-msgstr ""
+msgstr "други дискусии"
 
-#: r2/controllers/front.py:435 r2/controllers/front.py:482
+#: r2/controllers/front.py:445 r2/controllers/front.py:492
 msgid "search results"
-msgstr ""
+msgstr "резултати от търсенето"
 
-#: r2/controllers/front.py:519 r2/controllers/listingcontroller.py:167
+#: r2/controllers/front.py:529 r2/controllers/listingcontroller.py:167
 msgid "search failed"
 msgstr ""
 
-#: r2/controllers/front.py:610
+#: r2/controllers/front.py:620
 msgid "seen it"
 msgstr ""
 
-#: r2/controllers/front.py:620 r2/lib/menus.py:86
+#: r2/controllers/front.py:630 r2/lib/menus.py:86
 msgid "submit"
 msgstr ""
 
-#: r2/controllers/front.py:633 r2/controllers/post.py:145
+#: r2/controllers/front.py:643 r2/controllers/post.py:145
 msgid "opt out"
 msgstr ""
 
-#: r2/controllers/front.py:633 r2/controllers/post.py:155
+#: r2/controllers/front.py:643 r2/controllers/post.py:155
 msgid "welcome back"
 msgstr ""
 
@@ -1010,7 +1010,7 @@ msgstr ""
 #: r2/lib/strings.py:83
 #, python-format
 msgid ""
-"you have been added to the list of users able to see [traffic for the sponsoted link \"%(title)s\"](%(traffic_url)s)."
+"you have been added to the list of users able to see [traffic for the sponsored link \"%(title)s\"](%(traffic_url)s)."
 msgstr ""
 
 #: r2/lib/strings.py:88
@@ -1158,9 +1158,8 @@ msgstr ""
 #: r2/lib/strings.py:128
 #, python-format
 msgid ""
-"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
+"Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. [Try again](%(link)s) in a little bit -- but please don't mash reload; that only makes the problem worse."
 msgstr ""
-"Търсачката ни е претоварена в момента. :( Съжаляваме за неудобството. Опитайте отново](%(link)s) след малко -- но моля, не презареждайте страницата постоянно; това само влошава проблема."
 
 #: r2/lib/strings.py:188 r2/lib/strings.py:193 r2/lib/template_helpers.py:132
 #: r2/templates/subredditstylesheet.html:264
@@ -1225,38 +1224,38 @@ msgid_plural "milliseconds"
 msgstr[0] "милисекунда"
 msgstr[1] "милисекунди"
 
-#: r2/lib/strings.py:205 r2/lib/utils/utils.py:411 r2/templates/searchbar.html:43
+#: r2/lib/strings.py:205 r2/lib/utils/utils.py:419 r2/templates/searchbar.html:43
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунди"
 
-#: r2/lib/strings.py:206 r2/lib/utils/utils.py:410
+#: r2/lib/strings.py:206 r2/lib/utils/utils.py:418
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "минута"
 msgstr[1] "минути"
 
-#: r2/lib/strings.py:207 r2/lib/utils/utils.py:409
+#: r2/lib/strings.py:207 r2/lib/utils/utils.py:417
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "час"
 msgstr[1] "часа"
 
-#: r2/lib/strings.py:208 r2/lib/utils/utils.py:408 r2/templates/paymentform.html:46
+#: r2/lib/strings.py:208 r2/lib/utils/utils.py:416 r2/templates/paymentform.html:46
 #: r2/templates/promotedlink.html:74
 msgid "day"
 msgid_plural "days"
 msgstr[0] "ден"
 msgstr[1] "дни"
 
-#: r2/lib/strings.py:209 r2/lib/utils/utils.py:407
+#: r2/lib/strings.py:209 r2/lib/utils/utils.py:415
 msgid "month"
 msgid_plural "months"
 msgstr[0] "месец"
 msgstr[1] "месеца"
 
-#: r2/lib/strings.py:210 r2/lib/utils/utils.py:406
+#: r2/lib/strings.py:210 r2/lib/utils/utils.py:414
 msgid "year"
 msgid_plural "years"
 msgstr[0] "година"
@@ -1445,13 +1444,13 @@ msgstr ""
 msgid "current viewers"
 msgstr ""
 
-#: r2/lib/utils/utils.py:424
+#: r2/lib/utils/utils.py:432
 msgid "millisecond"
 msgid_plural "milliseconds"
 msgstr[0] "милисекунда"
 msgstr[1] "милисекунди"
 
-#: r2/lib/utils/utils.py:435 r2/templates/comment.htmllite:46
+#: r2/lib/utils/utils.py:443 r2/templates/comment.htmllite:46
 msgid "ago"
 msgstr ""
 
@@ -1464,11 +1463,11 @@ msgstr ""
 msgid "label_template"
 msgstr ""
 
-#: r2/models/link.py:846
+#: r2/models/link.py:851
 msgid "comment reply"
 msgstr ""
 
-#: r2/models/link.py:852
+#: r2/models/link.py:857
 msgid "post reply"
 msgstr ""
 
@@ -1983,11 +1982,11 @@ msgstr ""
 #: r2/templates/login.html:118 r2/templates/login.html:141
 #: r2/templates/loginformwide.html:51
 msgid "login"
-msgstr ""
+msgstr "вход"
 
 #: r2/templates/login.html:129
 msgid "create a new account"
-msgstr ""
+msgstr "създаване на нов потребител"
 
 #: r2/templates/login.html:131
 msgid "all it takes is a username and password"
@@ -2003,7 +2002,7 @@ msgstr ""
 
 #: r2/templates/loginformwide.html:54
 msgid "recover password"
-msgstr ""
+msgstr "възстанови парола"
 
 #: r2/templates/message.html:56 r2/templates/message.xml:33
 #, python-format
@@ -2243,7 +2242,7 @@ msgstr ""
 #: r2/templates/paymentform.html:196 r2/templates/printablebuttons.html:108
 #: r2/templates/printablebuttons.html:139 r2/templates/printablebuttons.html:206
 msgid "edit"
-msgstr ""
+msgstr "редактиране"
 
 #: r2/templates/permalinkmessage.html:24
 msgid "you are viewing a single comment's thread."
@@ -2844,10 +2843,11 @@ msgstr ""
 #, python-format
 msgid "want to join? %(register)s in seconds"
 msgstr ""
+"искате да се присъедините? %(register)s отнема секунди"
 
 #: r2/templates/redditheader.html:56
 msgid "register"
-msgstr ""
+msgstr "регистрацията"
 
 #: r2/templates/reddittraffic.html:44 r2/templates/reddittraffic.html:51
 #: r2/templates/reddittraffic.html:82 r2/templates/reddittraffic.html:153
@@ -3324,7 +3324,6 @@ msgstr "кодът"
 msgid ""
 "add this into your HTML where you want the %(site)s links displayed"
 msgstr ""
-"добавете следното в HTML кода на сайта, където искате да се показва уиджета."
 
 #: r2admin/controllers/admin.py:67
 msgid "reports"
