@@ -27,3 +27,6 @@ all: $(MO_FILES)
 
 $(MO_FILES): %.mo : %.po
 	msgfmt $< -o $@
+
+clean:
+	rm -f $(MO_FILES)
