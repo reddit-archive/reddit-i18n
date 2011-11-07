@@ -28,5 +28,8 @@ all: $(MO_FILES)
 $(MO_FILES): %.mo : %.po
 	msgfmt $< -o $@
 
+update:
+	python setup.py update_catalog -D r2 -i reddit_i18n/r2.pot -N -d reddit_i18n
+
 clean:
 	rm -f $(MO_FILES)
