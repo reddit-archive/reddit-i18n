@@ -22,14 +22,20 @@
 
 PO_FILES = $(wildcard reddit_i18n/*/LC_MESSAGES/r2.po)
 MO_FILES = $(PO_FILES:.po=.mo)
+ZO_FILES = $(PO_FILES:.po=.zo)
 
 all: $(MO_FILES)
 
 $(MO_FILES): %.mo : %.po
 	msgfmt $< -o $@
 
-update:
-	python setup.py update_catalog -D r2 -i reddit_i18n/r2.pot -N -d reddit_i18n
+$(ZO_FILES): %.zo : %.po
+	@echo -n "Updating $<..."
+	@msgmerge -UN $< reddit_i18n/r2.pot 2>/dev/null && echo "done"
+
+update: $(ZO_FILES)
 
 clean:
 	rm -f $(MO_FILES)
+
+.PHONY: all clean update $(ZO_FILES)
