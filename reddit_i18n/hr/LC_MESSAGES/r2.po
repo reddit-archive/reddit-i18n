@@ -201,7 +201,7 @@ msgstr "provjerite taj url"
 
 #: r2/controllers/errors.py:31
 msgid "care to try these again?"
-msgstr "možete li pokušati ponovno?"
+msgstr "želite li pokušati ponovno?"
 
 #: r2/controllers/errors.py:32
 msgid "invalid user name"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:74
 msgid "please provide a date of the form mm/dd/yyyy"
-msgstr "molimo vas unesite datum formata mm/dd/yyyy"
+msgstr "molimo vas unesite datum formata mm/dd/gggg"
 
 #: r2/controllers/errors.py:75
 msgid "the dates need to be in order and not identical"
@@ -404,7 +404,7 @@ msgstr "taj kȏd nismo nikad prije vidjeli"
 
 #: r2/controllers/errors.py:83
 msgid "that code has already been claimed -- perhaps by you?"
-msgstr "taj kȏd već ima vlasnika -- pripada li možda vama?"
+msgstr "taj kȏd već ima vlasnika -- da li je vaš?"
 
 #: r2/controllers/errors.py:84
 msgid "that reddit doesn't allow text posts"
@@ -432,7 +432,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:90
 msgid "access denied by the user"
-msgstr "pristup zabranjen od strane korisnika"
+msgstr "korisnik je zabranio pristup"
 
 #: r2/controllers/errors.py:91
 msgid "please confirm the form"
@@ -513,11 +513,11 @@ msgstr "potvrdite email"
 
 #: r2/controllers/front.py:864 r2/templates/loginformwide.html:51
 msgid "reset password"
-msgstr "vraćanje lozinke"
+msgstr "povratak lozinke"
 
 #: r2/controllers/front.py:1012 r2/controllers/post.py:161
 msgid "opt out"
-msgstr "ne želim"
+msgstr ""
 
 #: r2/controllers/front.py:1012 r2/controllers/post.py:171
 msgid "welcome back"
@@ -713,7 +713,7 @@ msgstr "brojevi kreditnih kartica moraju sadržavati 13 do 16 znamenaka"
 
 #: r2/controllers/validator/validator.py:1514
 msgid "dates should be YYYY-MM"
-msgstr "datumi moraju biti YYYY-MM formata"
+msgstr "datumi moraju biti GGGG-MM formata"
 
 #: r2/controllers/validator/validator.py:1516
 msgid "card verification codes should be 3 or 4 digits"
@@ -729,7 +729,7 @@ msgstr "[uklonjeno]"
 
 #: r2/lib/menus.py:46
 msgid "what's hot"
-msgstr "što je vruće"
+msgstr "što je popularno"
 
 #: r2/lib/menus.py:47
 msgid "what's new"
@@ -857,7 +857,7 @@ msgstr "odjava"
 
 #: r2/lib/menus.py:93
 msgid "contact us"
-msgstr "kontakt"
+msgstr "kontaktirajte nas"
 
 #: r2/lib/menus.py:94
 msgid "firefox extension"
@@ -918,7 +918,7 @@ msgstr "nova poruka"
 
 #: r2/lib/menus.py:113
 msgid "inbox"
-msgstr "pristiglo"
+msgstr "primljeno"
 
 #: r2/lib/menus.py:114
 msgid "sent"
@@ -1063,7 +1063,7 @@ msgstr "oglašavanje"
 
 #: r2/lib/menus.py:161
 msgid "create promotion"
-msgstr "napravi promociju"
+msgstr "stvori promociju"
 
 #: r2/lib/menus.py:162
 msgid "my promoted links"
@@ -1107,7 +1107,7 @@ msgstr "popis dopuštenog"
 
 #: r2/lib/menus.py:414
 msgid "sorted by"
-msgstr "način prikaza"
+msgstr "poredano po"
 
 #: r2/lib/menus.py:480
 msgid "kind"
@@ -1718,20 +1718,20 @@ msgstr[2] "bodova"
 msgid "link"
 msgid_plural "links"
 msgstr[0] "link"
-msgstr[1] "linkova"
+msgstr[1] "linkovi
 
 #: r2/lib/strings.py:233 r2/lib/pages/pages.py:625
 #: r2/templates/messagecompose.html:70
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "poruka"
-msgstr[1] "poruka"
+msgstr[1] "poruke"
 
 #: r2/lib/strings.py:234
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "subreddit"
-msgstr[1] "subreddita"
+msgstr[1] "subredditi"
 
 #: r2/lib/strings.py:235
 msgid "creddit"
@@ -1811,7 +1811,7 @@ msgstr[2] "godina"
 
 #: r2/lib/template_helpers.py:103
 msgid "fetching title..."
-msgstr "grabim naslov..."
+msgstr "dostavljam naslov..."
 
 #: r2/lib/template_helpers.py:105
 msgid "loading..."
@@ -1917,7 +1917,7 @@ msgstr "šteta"
 
 #: r2/lib/pages/pages.py:767
 msgid "this page is no longer available due to a copyright claim."
-msgstr "ova stranica nije više dostupna zbog copyright zahtjeva"
+msgstr "ova stranica nije više dostupna zbog autorskih prava"
 
 #: r2/lib/pages/pages.py:1033
 #, python-format
@@ -1926,7 +1926,7 @@ msgstr "o %(site)s"
 
 #: r2/lib/pages/pages.py:1059
 msgid "search reddits"
-msgstr "pretraži reddite"
+msgstr "pretražite reddite"
 
 #: r2/lib/pages/pages.py:1090
 #, python-format
@@ -2001,7 +2001,7 @@ msgstr "%(site_title)s putem %(domain)s"
 
 #: r2/lib/pages/pages.py:2285
 msgid "This feature is currently unavailable. Sorry"
-msgstr "Ova značajka je trenutno nedostupna. Žao nam je"
+msgstr "Ova usluga je trenutno nedostupna. Žao nam je"
 
 #: r2/lib/pages/pages.py:2457
 msgid "grant flair"
@@ -2101,7 +2101,7 @@ msgstr "odgovor na komentar"
 
 #: r2/models/link.py:1131
 msgid "post reply"
-msgstr "odgovor na link"
+msgstr "odgovor na post"
 
 #: r2/models/link.py:1150
 msgid "[message from blocked user]"
@@ -2109,7 +2109,7 @@ msgstr "[poruka od blokiranog korisnika]"
 
 #: r2/models/link.py:1151
 msgid "[unblock user to see this message]"
-msgstr "[prestanite blokirati korisnika za prikaz poruke]"
+msgstr "[odblokirajte korisnika za prikaz poruke]"
 
 #: r2/models/mail_queue.py:308
 #, python-format
@@ -2136,7 +2136,7 @@ msgstr ""
 
 #: r2/models/mail_queue.py:313
 msgid "[reddit] reset your password"
-msgstr "[reddit] vraćanje lozinke"
+msgstr "[reddit] povratak lozinke"
 
 #: r2/models/mail_queue.py:314
 msgid "[reddit] verify your email address"
@@ -2260,7 +2260,7 @@ msgstr "u Safariju"
 #: r2/templates/bookmarklets.html:76
 #, python-format
 msgid "voila! now you have all the functionality of %(site)s in your toolbar."
-msgstr "eto! sada imate svu funkcionalnost %(site)s u vašoj alatnoj traci"
+msgstr "voila! sada imate svu funkcionalnost %(site)s u vašoj alatnoj traci"
 
 #: r2/templates/buttondemopanel.html:29
 #, python-format
@@ -3528,7 +3528,7 @@ msgstr "jezik sadržaja"
 
 #: r2/templates/prefoptions.html:105
 msgid "clicking options"
-msgstr "postavke učitavanja"
+msgstr "postavke klikanja"
 
 #: r2/templates/prefoptions.html:107
 msgid "display links with a reddit toolbar"
@@ -3564,11 +3564,11 @@ msgstr "za uključivanje sličica morate isključiti sažeti prikaz linkova"
 
 #: r2/templates/prefoptions.html:132
 msgid "link options"
-msgstr "linkovi"
+msgstr "postavke linkova"
 
 #: r2/templates/prefoptions.html:136
 msgid "show the spotlight box on the front page"
-msgstr "prikaz trake sa novim sadržajem"
+msgstr "prikaži 'linkove pod reflektorom' na naslovnoj stranici"
 
 #: r2/templates/prefoptions.html:139
 msgid ""
@@ -3579,11 +3579,11 @@ msgstr "(prikazuje nove i promovirane poveznice te vam daju priliku da odredite 
 
 #: r2/templates/prefoptions.html:143
 msgid "show me new links on the front page"
-msgstr "prikaz novih linkova na naslovnoj stranici"
+msgstr "prikaži najnovije linkove na naslovnoj stranici"
 
 #: r2/templates/prefoptions.html:146
 msgid "show me links I've recently viewed"
-msgstr "prikaz prethodno posjećenih linkova"
+msgstr "prikaći prethodno posjećene linkove"
 
 #: r2/templates/prefoptions.html:147
 msgid "compress the link display"
@@ -3699,7 +3699,7 @@ msgstr "prikaži karticu za promoviranje na naslovnoj stranici"
 
 #: r2/templates/prefoptions.html:245
 msgid "i am over eighteen years old and willing to view adult content"
-msgstr "punoljetan sam"
+msgstr "punoljetan sam i želim vidjeti sadržaj za odrasle"
 
 #: r2/templates/prefoptions.html:246
 msgid "required to view some reddits"
@@ -3707,7 +3707,7 @@ msgstr "neophodno za prikaz nekih reddita"
 
 #: r2/templates/prefoptions.html:248
 msgid "label posts that are not safe for work (NSFW)"
-msgstr "označi neprimjerene linkove kao NSFW"
+msgstr "označi postove koji nisu za pregled pri radu kao NSFW"
 
 #: r2/templates/prefoptions.html:250
 msgid "enable private RSS feeds"
@@ -3715,7 +3715,7 @@ msgstr "uključi privatni RSS"
 
 #: r2/templates/prefoptions.html:252
 msgid "(available from the 'RSS feed' tab in prefs)"
-msgstr "(dostupno putem 'RSS' kartice)"
+msgstr "(dostupno putem 'RSS' kartice u postavkama)"
 
 #: r2/templates/prefoptions.html:255
 msgid "privacy options"
@@ -3723,7 +3723,7 @@ msgstr "postavke privatnosti"
 
 #: r2/templates/prefoptions.html:257
 msgid "make my votes public"
-msgstr "prikaži moje glasove svima"
+msgstr "prikaži moje glasove drugim korisnicima"
 
 #: r2/templates/prefoptions.html:264
 #, python-format
