@@ -23,8 +23,12 @@
 PO_FILES = $(wildcard reddit_i18n/*/LC_MESSAGES/r2.po)
 MO_FILES = $(PO_FILES:.po=.mo)
 ZO_FILES = $(PO_FILES:.po=.zo)
+DATA_FILES = $(PO_FILES:.po=.data)
 
-all: $(MO_FILES)
+all: $(DATA_FILES) $(MO_FILES)
+
+$(DATA_FILES): reddit_i18n/%/LC_MESSAGES/r2.data: reddit_i18n/%/LC_MESSAGES/r2.mo
+	python gendata.py $@
 
 $(MO_FILES): %.mo : %.po
 	msgfmt $< -o $@
@@ -36,6 +40,6 @@ $(ZO_FILES): %.zo : %.po
 update: $(ZO_FILES)
 
 clean:
-	rm -f $(MO_FILES)
+	rm -f $(MO_FILES) $(DATA_FILES)
 
 .PHONY: all clean update $(ZO_FILES)
