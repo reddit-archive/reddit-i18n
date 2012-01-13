@@ -34,8 +34,7 @@ $(MO_FILES): %.mo : %.po
 	msgfmt $< -o $@
 
 $(ZO_FILES): %.zo : %.po
-	@echo -n "Updating $<..."
-	@msgmerge -UN $< reddit_i18n/r2.pot 2>/dev/null && echo "done"
+	msgmerge -UN $< reddit_i18n/r2.pot
 
 update: $(ZO_FILES)
 
