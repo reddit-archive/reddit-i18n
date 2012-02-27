@@ -575,7 +575,7 @@ msgstr "hvala na davanju reddit zlata"
 #: r2/controllers/ipn.py:474
 #, python-format
 msgid "Your gift to %s has been delivered."
-msgstr "Korisnik %d je primio tvoj dar."
+msgstr "Korisnik %s je primio tvoj dar."
 
 #: r2/controllers/listingcontroller.py:348
 msgid "newest submissions"
@@ -1835,6 +1835,7 @@ msgid "link"
 msgid_plural "links"
 msgstr[0] "link"
 msgstr[1] "linkovi"
+msgstr[2] "linkovi"
 
 #: r2/lib/strings.py:235 r2/lib/pages/pages.py:634
 #: r2/templates/messagecompose.html:71
@@ -1842,12 +1843,14 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "poruka"
 msgstr[1] "poruke"
+msgstr[2] "poruke"
 
 #: r2/lib/strings.py:236
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "subreddit"
 msgstr[1] "subredditi"
+msgstr[2] "subredditi"
 
 #: r2/lib/strings.py:237
 msgid "creddit"
@@ -1861,6 +1864,7 @@ msgid "reader"
 msgid_plural "readers"
 msgstr[0] "čitatelj"
 msgstr[1] "čitatelja"
+msgstr[2] "čitatelja"
 
 #: r2/lib/strings.py:241
 msgid "subscriber"
@@ -1889,6 +1893,7 @@ msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] "milisekunda"
 msgstr[1] "milisekunda"
+msgstr[2] "milisekunda"
 
 #: r2/lib/strings.py:247 r2/templates/searchbar.html:45
 msgid "second"
@@ -3298,12 +3303,14 @@ msgid "up vote"
 msgid_plural "up votes"
 msgstr[0] "upvote"
 msgstr[1] "upvotea"
+msgstr[2] "upvotea"
 
 #: r2/templates/linkinfobar.html:58
 msgid "down vote"
 msgid_plural "down votes"
 msgstr[0] "downvote"
 msgstr[1] "downvotea"
+msgstr[2] "downvotea"
 
 #: r2/templates/linkinfopage.htmllite:28
 #, python-format
@@ -4599,9 +4606,10 @@ msgid ""
 msgid_plural ""
 "There are currently %(num_comments)s on this link.  You can view them here:"
 msgstr[0] ""
-"Trenutno ima %(num_comments) na ovome linku. Možeš ga pogledati ovdje:"
+"Trenutno ima %(num_comments)s na ovome linku. Možeš ga pogledati ovdje:"
 msgstr[1] ""
-"Trenutno ima %(num_comments) na ovome linku. Možeš ih pogledati ovdje:"
+"Trenutno ima %(num_comments)s na ovome linku. Možeš ih pogledati ovdje:"
+msgstr[2] "Trenutno ima %(num_comments)s na ovome linku. Možeš ih pogledati ovdje:"
 
 #: r2/templates/sharelink.html:15
 msgid "send this link to"
