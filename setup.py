@@ -9,8 +9,7 @@ except ImportError:
 setup(
     name='reddit_i18n',
     version="",
-    install_requires=["Pylons==0.9.6.2",
-                      "transifex-client"],
+    install_requires=["Pylons==0.9.6.2"],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
     test_suite='nose.collector',
