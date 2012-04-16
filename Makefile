@@ -22,8 +22,9 @@
 
 PO_FILES = $(wildcard reddit_i18n/*/LC_MESSAGES/r2.po)
 MO_FILES = $(PO_FILES:.po=.mo)
-ZO_FILES = $(PO_FILES:.po=.zo)
 DATA_FILES = $(PO_FILES:.po=.data)
+
+# Commands to build the r2.mo files
 
 all: $(DATA_FILES) $(MO_FILES)
 
@@ -33,12 +34,17 @@ $(DATA_FILES): reddit_i18n/%/LC_MESSAGES/r2.data: reddit_i18n/%/LC_MESSAGES/r2.m
 $(MO_FILES): %.mo : %.po
 	msgfmt $< -o $@
 
-$(ZO_FILES): %.zo : %.po
-	msgmerge -UN $< reddit_i18n/r2.pot
-
-update: $(ZO_FILES)
-
 clean:
 	rm -f $(MO_FILES) $(DATA_FILES)
 
-.PHONY: all clean update $(ZO_FILES)
+# Utility commands
+
+tx_pull:
+	tx pull --minimum-perc=10 --mode=reviewed
+
+fix_metadata:
+	for lang in $(PO_FILES); do \
+	python revert_display_name.py `dirname $$lang`; \
+	done
+
+.PHONY: all
