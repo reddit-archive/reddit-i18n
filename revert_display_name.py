@@ -24,6 +24,12 @@ def read_display_name_lines(filename, backup_suffix=".bak"):
 
 def write_display_name_lines(filename, lines):
     written = False
+    try:
+        read_display_name_lines(filename, backup_suffix="")
+    except ValueError:
+        pass
+    else:
+        raise ValueError("%s already has Display-Name lines" % filename)
     for line in fileinput.input(filename, inplace=1, backup=".dn.bak"):
         if not written and line.startswith('"Content-Transfer-Encoding'):
             for l in lines:
