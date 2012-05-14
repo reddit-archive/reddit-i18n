@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: http://github.com/reddit/reddit-i18n/issues\n"
-"POT-Creation-Date: 2012-03-28 12:10-0700\n"
-"PO-Revision-Date: 2012-03-28 19:20+0000\n"
-"Last-Translator: Keith Mitchell <kemitche@reddit.com>\n"
+"POT-Creation-Date: 2012-04-17 11:12-0700\n"
+"PO-Revision-Date: 2012-05-05 12:48+0000\n"
+"Last-Translator: ilbunilcho <ilbunilcho@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.net/projects/p/reddit/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,8 +23,8 @@ msgstr ""
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
-#: r2/controllers/api.py:118 r2/controllers/api.py:2249
-#: r2/controllers/api.py:2291 r2/controllers/listingcontroller.py:476
+#: r2/controllers/api.py:118 r2/controllers/api.py:2278
+#: r2/controllers/api.py:2325 r2/controllers/listingcontroller.py:480
 msgid "API"
 msgstr "에이피아이"
 
@@ -40,146 +40,146 @@ msgstr "메시지가 전송되었습니다"
 msgid "no title found"
 msgstr ""
 
-#: r2/controllers/api.py:574 r2/controllers/promotecontroller.py:373
+#: r2/controllers/api.py:584 r2/controllers/promotecontroller.py:374
 msgid "added"
 msgstr "추가했습니다"
 
-#: r2/controllers/api.py:612 r2/controllers/api.py:1183
-#: r2/controllers/api.py:1344 r2/controllers/api.py:1460
-#: r2/controllers/api.py:1984 r2/controllers/api.py:2019
-#: r2/controllers/api.py:2060 r2/controllers/api.py:2108
-#: r2/controllers/api.py:2159 r2/controllers/api.py:2341
-#: r2/controllers/api.py:2345 r2/controllers/api.py:2464
-#: r2/controllers/listingcontroller.py:353
-#: r2/controllers/promotecontroller.py:494 r2/lib/menus.py:50
-#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:180
+#: r2/controllers/api.py:622 r2/controllers/api.py:1196
+#: r2/controllers/api.py:1357 r2/controllers/api.py:1473
+#: r2/controllers/api.py:1997 r2/controllers/api.py:2032
+#: r2/controllers/api.py:2073 r2/controllers/api.py:2121
+#: r2/controllers/api.py:2190 r2/controllers/api.py:2385
+#: r2/controllers/api.py:2390 r2/controllers/api.py:2566
+#: r2/controllers/listingcontroller.py:357
+#: r2/controllers/promotecontroller.py:495 r2/lib/menus.py:50
+#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:189
 msgid "saved"
 msgstr "보관했습니다"
 
-#: r2/controllers/api.py:630
+#: r2/controllers/api.py:640
 msgid "all other sessions have been logged out"
 msgstr ""
 
-#: r2/controllers/api.py:673
+#: r2/controllers/api.py:683
 msgid "you should be getting a verification email shortly."
 msgstr ""
 
-#: r2/controllers/api.py:675 r2/controllers/api.py:685
+#: r2/controllers/api.py:685 r2/controllers/api.py:695
 msgid "your email has been updated"
 msgstr "메일 주소 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:694
+#: r2/controllers/api.py:704
 msgid "your email and password have been updated"
 msgstr "메일 주소 및 비밀번호 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:697
+#: r2/controllers/api.py:707
 msgid "your password has been updated"
 msgstr "비밀번호 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:993
+#: r2/controllers/api.py:1006
 msgid "replied"
 msgstr "답변한 메세지"
 
-#: r2/controllers/api.py:1054
+#: r2/controllers/api.py:1067
 msgid "shared"
 msgstr "다른 분께 추천했던 링크"
 
-#: r2/controllers/api.py:1057
+#: r2/controllers/api.py:1070
 msgid "your link has been shared."
 msgstr "링크를 올렸습니다"
 
-#: r2/controllers/api.py:1159
+#: r2/controllers/api.py:1172
 msgid "validation errors"
 msgstr "링크를 검증하는 과정에 오류가 발생했습니다 ??? validating what? links? emails?"
 
-#: r2/controllers/api.py:1261 r2/controllers/api.py:2068 r2/lib/menus.py:157
+#: r2/controllers/api.py:1274 r2/controllers/api.py:2081 r2/lib/menus.py:158
 #: r2/templates/printablebuttons.html:32
 #: r2/templates/subredditstylesheet.html:268
 msgid "deleted"
 msgstr "삭제되었습니다"
 
-#: r2/controllers/api.py:1312 r2/templates/subredditstylesheet.html:221
+#: r2/controllers/api.py:1325 r2/templates/subredditstylesheet.html:221
 msgid "bad image name"
 msgstr "그림파일 이름 관련 오류가 발생했습니다. 그림파일 이름을 확인하십시오"
 
-#: r2/controllers/api.py:1316
+#: r2/controllers/api.py:1329
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "그림이 너무 많습니다 (한 번에 그림 %d 개 만 올릴 수 있습니다)"
 
-#: r2/controllers/api.py:1324
+#: r2/controllers/api.py:1337
 msgid "Invalid image or general image error"
 msgstr ""
 
-#: r2/controllers/api.py:1870
+#: r2/controllers/api.py:1883
 msgid "claimed! now go to someone's userpage and give them a present!"
 msgstr ""
 
-#: r2/controllers/api.py:1875
+#: r2/controllers/api.py:1888
 msgid "claimed!"
 msgstr ""
 
-#: r2/controllers/api.py:1891
+#: r2/controllers/api.py:1904
 msgid "an email will be sent to that account's address shortly"
 msgstr "잠시 후에 입력하신 주소로 메일을 보내드리도록 하겠습니다"
 
-#: r2/controllers/api.py:1893
+#: r2/controllers/api.py:1906
 msgid "try again tomorrow"
 msgstr ""
 
-#: r2/controllers/api.py:2122 r2/controllers/api.py:2309
+#: r2/controllers/api.py:2144 r2/controllers/api.py:2345
 msgid "invalid css class"
 msgstr ""
 
-#: r2/controllers/api.py:2125 r2/controllers/api.py:2312
+#: r2/controllers/api.py:2147 r2/controllers/api.py:2348
 msgid "too many css classes"
 msgstr ""
 
-#: r2/controllers/api.py:2328
+#: r2/controllers/api.py:2365
 msgid "max flair templates reached"
 msgstr ""
 
-#: r2/controllers/api_docs.py:15
+#: r2/controllers/api_docs.py:17
 msgid "account"
 msgstr ""
 
-#: r2/controllers/api_docs.py:18
+#: r2/controllers/api_docs.py:20 r2/templates/printablebuttons.html:71
 msgid "flair"
 msgstr ""
 
-#: r2/controllers/api_docs.py:21
+#: r2/controllers/api_docs.py:23
 msgid "links & comments"
 msgstr ""
 
-#: r2/controllers/api_docs.py:24
+#: r2/controllers/api_docs.py:26
 msgid "private messages"
 msgstr ""
 
-#: r2/controllers/api_docs.py:27
+#: r2/controllers/api_docs.py:29
 msgid "moderation"
 msgstr ""
 
-#: r2/controllers/api_docs.py:30
+#: r2/controllers/api_docs.py:32
 msgid "misc"
 msgstr ""
 
-#: r2/controllers/api_docs.py:33
+#: r2/controllers/api_docs.py:35
 msgid "listings"
 msgstr ""
 
-#: r2/controllers/api_docs.py:36
+#: r2/controllers/api_docs.py:38
 msgid "search"
 msgstr ""
 
-#: r2/controllers/api_docs.py:39 r2/lib/menus.py:102
+#: r2/controllers/api_docs.py:41 r2/lib/menus.py:102
 msgid "subreddits"
 msgstr "하위 레딧"
 
-#: r2/controllers/api_docs.py:42
+#: r2/controllers/api_docs.py:44
 msgid "users"
 msgstr ""
 
-#: r2/controllers/api_docs.py:135
+#: r2/controllers/api_docs.py:144
 msgid "api documentation"
 msgstr ""
 
@@ -195,7 +195,7 @@ msgstr "레딧 위짓"
 msgid "bookmarklets"
 msgstr "부크마크렛"
 
-#: r2/controllers/buttons.py:224 r2/controllers/front.py:808
+#: r2/controllers/buttons.py:224 r2/controllers/front.py:813
 #: r2/lib/menus.py:87 r2/templates/newlink.html:110
 msgid "submit"
 msgstr "올리기"
@@ -212,7 +212,7 @@ msgstr ""
 msgid "just read this first."
 msgstr ""
 
-#: r2/controllers/embed.py:83 r2/lib/menus.py:88 r2/lib/pages/pages.py:450
+#: r2/controllers/embed.py:83 r2/lib/menus.py:88 r2/lib/pages/pages.py:452
 #: r2/templates/frametoolbar.html:107
 msgid "help"
 msgstr "도움말"
@@ -375,7 +375,7 @@ msgstr "사용 하실 수 없는 이름입니다"
 msgid "you are doing that too much. try again in %(time)s."
 msgstr ""
 
-#: r2/controllers/errors.py:64 r2/lib/strings.py:144
+#: r2/controllers/errors.py:64 r2/lib/strings.py:145
 msgid "You've submitted too many links recently. Please try again in an hour."
 msgstr ""
 
@@ -478,18 +478,22 @@ msgid "too many flair css classes"
 msgstr ""
 
 #: r2/controllers/errors.py:91
-msgid "invalid client id"
+msgid "not a valid flair target"
 msgstr ""
 
 #: r2/controllers/errors.py:92
-msgid "access denied by the user"
+msgid "invalid client id"
 msgstr ""
 
 #: r2/controllers/errors.py:93
-msgid "please confirm the form"
+msgid "access denied by the user"
 msgstr ""
 
 #: r2/controllers/errors.py:94
+msgid "please confirm the form"
+msgstr ""
+
+#: r2/controllers/errors.py:95
 msgid "cannot perform this action via the API"
 msgstr ""
 
@@ -529,68 +533,68 @@ msgstr "레딧 만들기"
 msgid "create a community"
 msgstr ""
 
-#: r2/controllers/front.py:433 r2/controllers/front.py:437
-#: r2/controllers/listingcontroller.py:649
-#: r2/controllers/listingcontroller.py:658 r2/lib/menus.py:491
+#: r2/controllers/front.py:430 r2/controllers/front.py:434
+#: r2/controllers/listingcontroller.py:653
+#: r2/controllers/listingcontroller.py:662 r2/lib/menus.py:501
 msgid "all"
 msgstr "모두"
 
-#: r2/controllers/front.py:443
+#: r2/controllers/front.py:440
 msgid "filter by action"
 msgstr ""
 
-#: r2/controllers/front.py:445
+#: r2/controllers/front.py:442
 msgid "filter by moderator"
 msgstr ""
 
-#: r2/controllers/front.py:628 r2/lib/menus.py:142
+#: r2/controllers/front.py:625 r2/lib/menus.py:143
 msgid "awards"
 msgstr ""
 
-#: r2/controllers/front.py:658 r2/lib/menus.py:118
+#: r2/controllers/front.py:655 r2/lib/menus.py:118
 msgid "related"
 msgstr "관련된 링크"
 
-#: r2/controllers/front.py:676
+#: r2/controllers/front.py:673
 msgid "other discussions"
 msgstr ""
 
-#: r2/controllers/front.py:696 r2/controllers/front.py:741
+#: r2/controllers/front.py:693 r2/controllers/front.py:743
 msgid "search results"
 msgstr "검색 결과"
 
-#: r2/controllers/front.py:793
+#: r2/controllers/front.py:798
 msgid "seen it"
 msgstr "본 링크입니다 ???"
 
-#: r2/controllers/front.py:902 r2/templates/login.html:88
+#: r2/controllers/front.py:907 r2/templates/login.html:88
 #: r2/templates/loginformwide.html:44
 #: r2/templates/passwordverificationform.html:16
 #: r2/templates/prefdelete.html:56 r2/templates/register.html:88
 msgid "password"
 msgstr "비밀번호"
 
-#: r2/controllers/front.py:922 r2/controllers/front.py:938
+#: r2/controllers/front.py:927 r2/controllers/front.py:943
 msgid "verify email"
 msgstr ""
 
-#: r2/controllers/front.py:968 r2/templates/loginformwide.html:51
+#: r2/controllers/front.py:973 r2/templates/loginformwide.html:51
 msgid "reset password"
 msgstr "비밀번호 초기화하기"
 
-#: r2/controllers/front.py:1117 r2/controllers/post.py:161
+#: r2/controllers/front.py:1122 r2/controllers/post.py:161
 msgid "opt out"
 msgstr "이메일을 받고 싶지 않다 ??? what is this"
 
-#: r2/controllers/front.py:1117 r2/controllers/post.py:171
+#: r2/controllers/front.py:1122 r2/controllers/post.py:171
 msgid "welcome back"
 msgstr "안녕하십니까?"
 
-#: r2/controllers/front.py:1147
+#: r2/controllers/front.py:1152
 msgid "thanks"
 msgstr ""
 
-#: r2/controllers/front.py:1180 r2/controllers/front.py:1202
+#: r2/controllers/front.py:1185 r2/controllers/front.py:1207
 #: r2/lib/menus.py:101 r2/templates/gold.html:84
 msgid "reddit gold"
 msgstr ""
@@ -625,84 +629,84 @@ msgstr ""
 msgid "Your gift to %s has been delivered."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:365
+#: r2/controllers/listingcontroller.py:369
 msgid "newest submissions"
 msgstr "최신 링크"
 
-#: r2/controllers/listingcontroller.py:448
+#: r2/controllers/listingcontroller.py:452
 msgid "top scoring links"
 msgstr "고득점 링크"
 
-#: r2/controllers/listingcontroller.py:450
+#: r2/controllers/listingcontroller.py:454
 msgid "most controversial links"
 msgstr "화제가 되는 링크"
 
-#: r2/controllers/listingcontroller.py:457
+#: r2/controllers/listingcontroller.py:461
 msgid "you're really bored now, eh?"
 msgstr "많이 심심한가 보시내요?"
 
-#: r2/controllers/listingcontroller.py:521
+#: r2/controllers/listingcontroller.py:525
 #, python-format
 msgid "overview for %(user)s"
 msgstr "%(user)s님의 활동 한 눈에 보기"
 
-#: r2/controllers/listingcontroller.py:522
+#: r2/controllers/listingcontroller.py:526
 #, python-format
 msgid "comments by %(user)s"
 msgstr "%(user)s님께서 남기신 댓글"
 
-#: r2/controllers/listingcontroller.py:523
+#: r2/controllers/listingcontroller.py:527
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "%(user)s님께서 올리신 링크"
 
-#: r2/controllers/listingcontroller.py:524
+#: r2/controllers/listingcontroller.py:528
 #, python-format
 msgid "liked by %(user)s"
 msgstr "%(user)s님께서 좋아하셨던 링크"
 
-#: r2/controllers/listingcontroller.py:525
+#: r2/controllers/listingcontroller.py:529
 #, python-format
 msgid "disliked by %(user)s"
 msgstr "%(user)s님께서 싫어하셨던 링크"
 
-#: r2/controllers/listingcontroller.py:526
+#: r2/controllers/listingcontroller.py:530
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "%(user)s님께서 숨긴 링크"
 
-#: r2/controllers/listingcontroller.py:527
+#: r2/controllers/listingcontroller.py:531
 #, python-format
 msgid "profile for %(user)s"
 msgstr "%(user)s님의 프로필"
 
-#: r2/controllers/listingcontroller.py:650
-#: r2/controllers/listingcontroller.py:659
-#: r2/templates/printablebuttons.html:337
+#: r2/controllers/listingcontroller.py:654
+#: r2/controllers/listingcontroller.py:663
+#: r2/templates/printablebuttons.html:346
 msgid "unread"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:652
+#: r2/controllers/listingcontroller.py:656
 msgid "comment replies"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:653
+#: r2/controllers/listingcontroller.py:657
 msgid "post replies"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:666 r2/templates/redditheader.html:94
+#: r2/controllers/listingcontroller.py:670 r2/templates/redditheader.html:94
 msgid "messages"
 msgstr "메세지"
 
-#: r2/controllers/listingcontroller.py:823 r2/templates/pagenamenav.html:36
+#: r2/controllers/listingcontroller.py:827 r2/templates/pagenamenav.html:36
 msgid "reddits"
 msgstr "레딧"
 
-#: r2/controllers/listingcontroller.py:877
+#: r2/controllers/listingcontroller.py:881
 msgid "reddits: "
 msgstr "레딧"
 
-#: r2/controllers/listingcontroller.py:916
+#: r2/controllers/listingcontroller.py:929
 msgid "comments"
 msgstr "댓글"
 
@@ -718,101 +722,101 @@ msgstr ""
 msgid "over 18?"
 msgstr "만 19세 이상의 성인이십니까?"
 
-#: r2/controllers/promotecontroller.py:48
+#: r2/controllers/promotecontroller.py:49
 msgid "promoted by you"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:443
+#: r2/controllers/promotecontroller.py:444
 msgid "failed to authenticate card.  sorry."
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:488
+#: r2/controllers/promotecontroller.py:489
 msgid "bad image"
 msgstr "그림파일 오류가 발생했습니다. 그림파일을 확인하십시오"
 
-#: r2/controllers/reddit_base.py:922
+#: r2/controllers/reddit_base.py:925
 msgid "search failed"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:606
+#: r2/controllers/validator/validator.py:611
 msgid "an existing thing id"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:647
+#: r2/controllers/validator/validator.py:652
 msgid "a modhash"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:832
+#: r2/controllers/validator/validator.py:837
 msgid "id of parent thing"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1019
+#: r2/controllers/validator/validator.py:1024
 msgid "a valid URL"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1020
+#: r2/controllers/validator/validator.py:1025
 msgid "a subreddit"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1021
-#: r2/controllers/validator/validator.py:1116
+#: r2/controllers/validator/validator.py:1026
+#: r2/controllers/validator/validator.py:1103
 msgid "boolean value"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1068
+#: r2/controllers/validator/validator.py:1055
 msgid "the name of an existing user"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1401
+#: r2/controllers/validator/validator.py:1394
 #, python-format
 msgid "one of (%s)"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1591
+#: r2/controllers/validator/validator.py:1584
 msgid "destination url (must be same-domain)"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1606
+#: r2/controllers/validator/validator.py:1599
 msgid "please provide a first name"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1608
+#: r2/controllers/validator/validator.py:1601
 msgid "please provide a last name"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1610
+#: r2/controllers/validator/validator.py:1603
 msgid "please provide an address"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1612
+#: r2/controllers/validator/validator.py:1605
 msgid "please provide your city"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1614
+#: r2/controllers/validator/validator.py:1607
 msgid "please provide your state"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1616
+#: r2/controllers/validator/validator.py:1609
 msgid "please provide your zip or post code"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1618
+#: r2/controllers/validator/validator.py:1611
 msgid "please pick a country"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1622
+#: r2/controllers/validator/validator.py:1615
 msgid "Our ToS don't cover your country (yet). Sorry."
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1641
+#: r2/controllers/validator/validator.py:1634
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1644
+#: r2/controllers/validator/validator.py:1637
 msgid "dates should be YYYY-MM"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1646
+#: r2/controllers/validator/validator.py:1639
 msgid "card verification codes should be 3 or 4 digits"
 msgstr ""
 
@@ -925,7 +929,7 @@ msgid "all time"
 msgstr "시간과 상관 없이"
 
 #: r2/lib/menus.py:80 r2/templates/printablebuttons.html:44
-#: r2/templates/printablebuttons.html:128
+#: r2/templates/printablebuttons.html:137
 msgid "spam"
 msgstr "스팸"
 
@@ -933,7 +937,7 @@ msgstr "스팸"
 msgid "autobanned"
 msgstr ""
 
-#: r2/lib/menus.py:84 r2/lib/pages/pages.py:754
+#: r2/lib/menus.py:84 r2/lib/pages/pages.py:756
 #: r2/templates/passwordverificationform.html:24
 msgid "turn admin on"
 msgstr ""
@@ -942,7 +946,7 @@ msgstr ""
 msgid "turn admin off"
 msgstr ""
 
-#: r2/lib/menus.py:86 r2/lib/pages/pages.py:584 r2/lib/pages/pages.py:599
+#: r2/lib/menus.py:86 r2/lib/pages/pages.py:586 r2/lib/pages/pages.py:601
 msgid "preferences"
 msgstr "사용자설정"
 
@@ -1041,7 +1045,7 @@ msgstr ""
 msgid "home"
 msgstr "홈"
 
-#: r2/lib/menus.py:125 r2/lib/pages/pages.py:440
+#: r2/lib/menus.py:125 r2/lib/pages/pages.py:442
 msgid "about"
 msgstr "에 대해"
 
@@ -1049,7 +1053,7 @@ msgstr "에 대해"
 msgid "edit subscriptions"
 msgstr ""
 
-#: r2/lib/menus.py:127 r2/lib/pages/pages.py:1089
+#: r2/lib/menus.py:127 r2/lib/pages/pages.py:1092
 #: r2/templates/createsubreddit.html:39
 msgid "community settings"
 msgstr ""
@@ -1066,156 +1070,170 @@ msgstr ""
 msgid "edit approved submitters"
 msgstr ""
 
-#: r2/lib/menus.py:131 r2/lib/menus.py:132 r2/lib/pages/pages.py:2802
+#: r2/lib/menus.py:131 r2/lib/menus.py:132 r2/lib/pages/pages.py:2851
 msgid "ban users"
 msgstr "사용자 탈퇴 시키기"
 
 #: r2/lib/menus.py:133 r2/models/modaction.py:42
-msgid "edit user flair"
+msgid "edit flair"
 msgstr ""
 
 #: r2/lib/menus.py:134
 msgid "moderation log"
 msgstr ""
 
-#: r2/lib/menus.py:136
+#: r2/lib/menus.py:135
+msgid "moderation queue"
+msgstr ""
+
+#: r2/lib/menus.py:137
 msgid "popular"
 msgstr "인기 레딧"
 
-#: r2/lib/menus.py:137 r2/templates/createsubreddit.html:312
+#: r2/lib/menus.py:138 r2/templates/createsubreddit.html:312
 msgid "create"
 msgstr "만들기"
 
-#: r2/lib/menus.py:138 r2/lib/pages/pages.py:1386
+#: r2/lib/menus.py:139 r2/lib/pages/pages.py:1391
 msgid "my reddits"
 msgstr "내가 구독 중인 레딧"
 
-#: r2/lib/menus.py:140
+#: r2/lib/menus.py:141
 msgid "help translate"
 msgstr ""
 
-#: r2/lib/menus.py:141 r2/templates/subredditstylesheet.html:88
+#: r2/lib/menus.py:142 r2/templates/subredditstylesheet.html:88
 msgid "errors"
 msgstr "에러"
 
-#: r2/lib/menus.py:143
+#: r2/lib/menus.py:144
 msgid "ads"
 msgstr ""
 
-#: r2/lib/menus.py:144
+#: r2/lib/menus.py:145
 msgid "usage"
 msgstr ""
 
-#: r2/lib/menus.py:145
+#: r2/lib/menus.py:146
 msgid "promoted"
 msgstr "프로모션"
 
-#: r2/lib/menus.py:146
+#: r2/lib/menus.py:147
 msgid "reporters"
 msgstr "신고한 사용자"
 
-#: r2/lib/menus.py:147
+#: r2/lib/menus.py:148
 msgid "reported links"
 msgstr ""
 
-#: r2/lib/menus.py:148
+#: r2/lib/menus.py:149
 msgid "reported authors"
 msgstr "신고 당한 사용자"
 
-#: r2/lib/menus.py:149
+#: r2/lib/menus.py:150
 msgid "info"
 msgstr "정보"
 
-#: r2/lib/menus.py:150 r2/templates/printablebuttons.html:169
+#: r2/lib/menus.py:151 r2/templates/printablebuttons.html:178
 #: r2/templates/sharelink.html:94
 msgid "share"
 msgstr "추천하기"
 
-#: r2/lib/menus.py:152
+#: r2/lib/menus.py:153
 msgid "overview"
 msgstr "활동 한 눈에 보기"
 
-#: r2/lib/menus.py:153
+#: r2/lib/menus.py:154
 msgid "submitted"
 msgstr "올린 링크"
 
-#: r2/lib/menus.py:154
+#: r2/lib/menus.py:155
 msgid "liked"
 msgstr "가점 준 링크"
 
-#: r2/lib/menus.py:155
+#: r2/lib/menus.py:156
 msgid "disliked"
 msgstr "감점 준 링크"
 
-#: r2/lib/menus.py:156
+#: r2/lib/menus.py:157
 msgid "hidden {toolbar}"
 msgstr "숨긴 링크"
 
-#: r2/lib/menus.py:158 r2/templates/printablebuttons.html:60
+#: r2/lib/menus.py:159 r2/templates/printablebuttons.html:60
 msgid "reported"
 msgstr "신고가 접수 됐습니다"
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:161
 msgid "self-serve advertising"
 msgstr ""
 
-#: r2/lib/menus.py:161
+#: r2/lib/menus.py:162
 msgid "create promotion"
 msgstr ""
 
-#: r2/lib/menus.py:162
+#: r2/lib/menus.py:163
 msgid "my promoted links"
 msgstr ""
 
-#: r2/lib/menus.py:163
+#: r2/lib/menus.py:164
 msgid "all promoted links"
 msgstr ""
 
-#: r2/lib/menus.py:164
+#: r2/lib/menus.py:165
 msgid "unseen"
 msgstr ""
 
-#: r2/lib/menus.py:165
+#: r2/lib/menus.py:166
 msgid "roadblock"
 msgstr ""
 
-#: r2/lib/menus.py:166
+#: r2/lib/menus.py:167
 msgid "analytics"
 msgstr ""
 
-#: r2/lib/menus.py:167
+#: r2/lib/menus.py:168
 msgid "live"
 msgstr ""
 
-#: r2/lib/menus.py:168
+#: r2/lib/menus.py:169
 msgid "unpaid"
 msgstr ""
 
-#: r2/lib/menus.py:169
+#: r2/lib/menus.py:170
 msgid "pending"
 msgstr ""
 
-#: r2/lib/menus.py:170
+#: r2/lib/menus.py:171
 msgid "rejected"
 msgstr ""
 
-#: r2/lib/menus.py:172
+#: r2/lib/menus.py:173
 msgid "whitelist"
 msgstr ""
 
-#: r2/lib/menus.py:420
+#. TRANSLATORS: This refers to /r/mod
+#: r2/lib/menus.py:329
+msgid "mod"
+msgstr ""
+
+#. TRANSLATORS: This refers to the user's front page
+#: r2/lib/menus.py:331
+msgid "front"
+msgstr ""
+
+#: r2/lib/menus.py:430
 msgid "sorted by"
 msgstr ""
 
-#: r2/lib/menus.py:486
+#: r2/lib/menus.py:496
 msgid "kind"
 msgstr "종류"
 
-#: r2/lib/menus.py:501
+#: r2/lib/menus.py:511
 msgid "links from"
 msgstr "다음 기간 중에 올라온 링크만 보기:"
 
-#: r2/lib/promote.py:221 r2/lib/strings.py:250
+#: r2/lib/promote.py:221 r2/lib/strings.py:251
 msgid "day"
 msgid_plural "days"
 msgstr[0] "일"
@@ -1733,7 +1751,14 @@ msgstr ""
 msgid "I couldn't understand your search query. Please try again."
 msgstr ""
 
-#: r2/lib/strings.py:145
+#: r2/lib/strings.py:144
+#, python-format
+msgid ""
+"You may also want to check the [search help page](%(search_help)s) for more "
+"information."
+msgstr ""
+
+#: r2/lib/strings.py:146
 #, python-format
 msgid ""
 "Looks like you're either a brand new user or your posts have not been doing "
@@ -1742,7 +1767,7 @@ msgid ""
 "conversation in a different thread."
 msgstr ""
 
-#: r2/lib/strings.py:146
+#: r2/lib/strings.py:147
 #, python-format
 msgid ""
 "Looks like you're either a brand new user or your posts have not been doing "
@@ -1752,46 +1777,46 @@ msgid ""
 "address](%(verify)s)."
 msgstr ""
 
-#: r2/lib/strings.py:147
+#: r2/lib/strings.py:148
 msgid ""
 "reddit is in \"emergency read-only mode\" right now. :( you won't be able to"
 " log in. we're sorry, and are working frantically to fix the problem."
 msgstr ""
 
-#: r2/lib/strings.py:148
+#: r2/lib/strings.py:149
 msgid "this page is temporarily in read-only mode due to heavy traffic."
 msgstr ""
 
-#: r2/lib/strings.py:149
+#: r2/lib/strings.py:150
 #, python-format
 msgid "Please grab a drink and join us in [the lounge](%(link)s)."
 msgstr ""
 
-#: r2/lib/strings.py:150
+#: r2/lib/strings.py:151
 msgid ""
 "You sent us a postcard! (Or something similar.) When we run out of room on "
 "our refrigerator, we might one day auction off the stuff that people sent "
 "in. Is it okay if we include your thing?"
 msgstr ""
 
-#: r2/lib/strings.py:151
+#: r2/lib/strings.py:152
 #, python-format
 msgid ""
 "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe"
 " to reddit gold, it goes up to %(goldmax)d.)"
 msgstr ""
 
-#: r2/lib/strings.py:152
+#: r2/lib/strings.py:153
 #, python-format
 msgid "Sorry, the maximum number of comments is %d."
 msgstr ""
 
-#: r2/lib/strings.py:153
+#: r2/lib/strings.py:154
 #, python-format
 msgid "%(sender)s just sent you %(amount)s of reddit gold! Wasn't that nice?"
 msgstr ""
 
-#: r2/lib/strings.py:154
+#: r2/lib/strings.py:155
 msgid ""
 "Here's a note that was included:\n"
 "\n"
@@ -1799,21 +1824,21 @@ msgid ""
 "\n"
 msgstr ""
 
-#: r2/lib/strings.py:155
+#: r2/lib/strings.py:156
 #, python-format
 msgid ""
 "You're about to set up an ongoing, autorenewing subscription to reddit gold "
 "for yourself (%(user)s)."
 msgstr ""
 
-#: r2/lib/strings.py:156
+#: r2/lib/strings.py:157
 #, python-format
 msgid ""
 "You're about to make a one-time purchase of %(amount)s of reddit gold for "
 "yourself (%(user)s)."
 msgstr ""
 
-#: r2/lib/strings.py:157
+#: r2/lib/strings.py:158
 #, python-format
 msgid ""
 "You're about to purchase %(amount)s of reddit gold creddits. They work like "
@@ -1821,25 +1846,25 @@ msgid ""
 " reddit gold to someone else."
 msgstr ""
 
-#: r2/lib/strings.py:158
+#: r2/lib/strings.py:159
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s, who will be"
 " told that it came from you."
 msgstr ""
 
-#: r2/lib/strings.py:159
+#: r2/lib/strings.py:160
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s. It will be "
 "an anonymous gift."
 msgstr ""
 
-#: r2/lib/strings.py:160
+#: r2/lib/strings.py:161
 msgid "sorry, this has been archived and can no longer be voted on"
 msgstr ""
 
-#: r2/lib/strings.py:161
+#: r2/lib/strings.py:162
 msgid ""
 "This page shows a history of recent activity on your account. If you notice "
 "unusual activity, you should change your password immediately. Location "
@@ -1847,91 +1872,91 @@ msgid ""
 "wrong, especially for visits from mobile devices."
 msgstr ""
 
-#: r2/lib/strings.py:162
+#: r2/lib/strings.py:163
 #, python-format
 msgid "You are currently accessing reddit from this IP address: %(address)s."
 msgstr ""
 
-#: r2/lib/strings.py:229 r2/lib/strings.py:234 r2/lib/template_helpers.py:237
-#: r2/models/modaction.py:252 r2/templates/subredditstylesheet.html:112
+#: r2/lib/strings.py:230 r2/lib/strings.py:235 r2/lib/template_helpers.py:237
+#: r2/models/modaction.py:253 r2/templates/subredditstylesheet.html:112
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "댓글"
 
-#: r2/lib/strings.py:230 r2/templates/comment.htmllite:55
+#: r2/lib/strings.py:231 r2/templates/comment.htmllite:55
 #: r2/templates/linkinfobar.html:46
 msgid "point"
 msgid_plural "points"
 msgstr[0] "점"
 
-#: r2/lib/strings.py:233 r2/models/modaction.py:237
+#: r2/lib/strings.py:234 r2/models/modaction.py:238
 msgid "link"
 msgid_plural "links"
 msgstr[0] "링크"
 
-#: r2/lib/strings.py:235 r2/lib/pages/pages.py:659
+#: r2/lib/strings.py:236 r2/lib/pages/pages.py:661
 #: r2/templates/messagecompose.html:71
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "메세지"
 
-#: r2/lib/strings.py:236
+#: r2/lib/strings.py:237
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "하위 레딧"
 
-#: r2/lib/strings.py:237
+#: r2/lib/strings.py:238
 msgid "creddit"
 msgid_plural "creddits"
 msgstr[0] ""
 
-#: r2/lib/strings.py:240
+#: r2/lib/strings.py:241
 msgid "reader"
 msgid_plural "readers"
 msgstr[0] ""
 
-#: r2/lib/strings.py:241
+#: r2/lib/strings.py:242
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "구독자"
 
-#: r2/lib/strings.py:242 r2/templates/subreddit.html:82
+#: r2/lib/strings.py:243 r2/templates/subreddit.html:82
 #: r2/templates/subreddit.html:83
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] ""
 
-#: r2/lib/strings.py:243 r2/templates/subreddit.html:76
+#: r2/lib/strings.py:244 r2/templates/subreddit.html:76
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "운영자"
 
-#: r2/lib/strings.py:246
+#: r2/lib/strings.py:247
 msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] "천분의 일 초"
 
-#: r2/lib/strings.py:247 r2/templates/searchbar.html:45
+#: r2/lib/strings.py:248 r2/templates/searchbar.html:39
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "초"
 
-#: r2/lib/strings.py:248
+#: r2/lib/strings.py:249
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "분"
 
-#: r2/lib/strings.py:249
+#: r2/lib/strings.py:250
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "시간"
 
-#: r2/lib/strings.py:251
+#: r2/lib/strings.py:252
 msgid "month"
 msgid_plural "months"
 msgstr[0] "달"
 
-#: r2/lib/strings.py:252
+#: r2/lib/strings.py:253
 msgid "year"
 msgid_plural "years"
 msgstr[0] "년"
@@ -1960,248 +1985,252 @@ msgstr ""
 msgid "reddit admin, speaking officially"
 msgstr ""
 
-#: r2/lib/pages/pages.py:74
+#: r2/lib/pages/pages.py:75
 #, python-format
 msgid "%d %b %Y"
 msgstr "%Y년 %m월 %d일"
 
-#: r2/lib/pages/pages.py:241
+#: r2/lib/pages/pages.py:243
 msgid "these reddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:253
+#: r2/lib/pages/pages.py:255
 msgid "Submit a link"
 msgstr "링크 올리기"
 
-#: r2/lib/pages/pages.py:272
+#: r2/lib/pages/pages.py:274
 msgid "Create your own community"
 msgstr ""
 
-#: r2/lib/pages/pages.py:287
+#: r2/lib/pages/pages.py:289
 msgid "moderators"
 msgstr "운영자"
 
-#: r2/lib/pages/pages.py:294
+#: r2/lib/pages/pages.py:296
 msgid "admin box"
 msgstr ""
 
-#: r2/lib/pages/pages.py:302
+#: r2/lib/pages/pages.py:304
 msgid "Recently viewed links"
 msgstr ""
 
-#: r2/lib/pages/pages.py:446
+#: r2/lib/pages/pages.py:448
 msgid "FAQ"
 msgstr ""
 
-#: r2/lib/pages/pages.py:447
+#: r2/lib/pages/pages.py:449
 msgid "reddiquette"
 msgstr ""
 
-#: r2/lib/pages/pages.py:457
+#: r2/lib/pages/pages.py:459
 msgid "chrome extension"
 msgstr ""
 
-#: r2/lib/pages/pages.py:461
+#: r2/lib/pages/pages.py:463
 msgid "tools"
 msgstr ""
 
-#: r2/lib/pages/pages.py:468
+#: r2/lib/pages/pages.py:470
 msgid "redditgifts"
 msgstr ""
 
-#: r2/lib/pages/pages.py:469
+#: r2/lib/pages/pages.py:471
 msgid "reddit.tv"
 msgstr ""
 
-#: r2/lib/pages/pages.py:470
+#: r2/lib/pages/pages.py:472
 msgid "radio reddit"
 msgstr ""
 
-#: r2/lib/pages/pages.py:472
+#: r2/lib/pages/pages.py:474
 msgid "<3"
 msgstr ""
 
-#: r2/lib/pages/pages.py:656
+#: r2/lib/pages/pages.py:658
 #, python-format
 msgid "%(site)s mail"
 msgstr ""
 
-#: r2/lib/pages/pages.py:723 r2/templates/redditheader.html:72
+#: r2/lib/pages/pages.py:725 r2/templates/redditheader.html:72
 msgid "login or register"
 msgstr "새계정 만들기 또는 로그인하기"
 
-#: r2/lib/pages/pages.py:781
+#: r2/lib/pages/pages.py:783
 msgid "request for permission"
 msgstr ""
 
-#: r2/lib/pages/pages.py:810
+#: r2/lib/pages/pages.py:813
 msgid "bummer"
 msgstr ""
 
-#: r2/lib/pages/pages.py:822
+#: r2/lib/pages/pages.py:825
 msgid "this page is no longer available due to a copyright claim."
 msgstr ""
 
-#: r2/lib/pages/pages.py:1090
+#: r2/lib/pages/pages.py:1093
 #, python-format
 msgid "about %(site)s"
 msgstr "%(site)s에 대하여"
 
-#: r2/lib/pages/pages.py:1116
+#: r2/lib/pages/pages.py:1119
 msgid "search reddits"
 msgstr "레딧 검색하기"
 
-#: r2/lib/pages/pages.py:1147
+#: r2/lib/pages/pages.py:1150
 #, python-format
 msgid "your front page reddits (%s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1209 r2/templates/createsubreddit.html:196
+#: r2/lib/pages/pages.py:1212 r2/templates/createsubreddit.html:196
 #: r2/templates/spotlightlisting.html:54
 msgid "what's this?"
 msgstr "이건 뭐죠?"
 
-#: r2/lib/pages/pages.py:1210
+#: r2/lib/pages/pages.py:1213
 msgid "trophy case"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1258
+#: r2/lib/pages/pages.py:1261
 msgid "an unknown amount"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1266
+#: r2/lib/pages/pages.py:1269
 msgid "less than a day"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1275
+#: r2/lib/pages/pages.py:1280
 #, python-format
 msgid "buy %(user)s a month of reddit gold"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1278
+#: r2/lib/pages/pages.py:1283
 msgid "renew your reddit gold"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1281
+#: r2/lib/pages/pages.py:1286
 msgid "treat yourself to reddit gold"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1316
+#: r2/lib/pages/pages.py:1321
 msgid "page not found"
 msgstr "페이지를 찾을 수 없습니다"
 
-#: r2/lib/pages/pages.py:1327
+#: r2/lib/pages/pages.py:1332
 msgid "you aren't allowed to do that."
 msgstr "사용하실 수 없는 기능을 선택하셨습니다"
 
-#: r2/lib/pages/pages.py:1462
+#: r2/lib/pages/pages.py:1467
 #, python-format
 msgid "raise it to %s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1464 r2/lib/pages/pages.py:1473
+#: r2/lib/pages/pages.py:1469 r2/lib/pages/pages.py:1478
 #, python-format
 msgid "%s visible"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1471
+#: r2/lib/pages/pages.py:1476
 #, python-format
 msgid "%(bonus)s bonus reddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1658
+#: r2/lib/pages/pages.py:1663
 msgid "try entering those letters again"
 msgstr "글씨를 다시 입력해 주십시요."
 
-#: r2/lib/pages/pages.py:1718
+#: r2/lib/pages/pages.py:1723
 msgid "previous search"
 msgstr "검색 결과 ??? this search?"
 
-#: r2/lib/pages/pages.py:1748
+#: r2/lib/pages/pages.py:1754
 #, python-format
 msgid "%(site_title)s via %(domain)s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2497
+#: r2/lib/pages/pages.py:2503
 msgid "grant flair"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2499
-msgid "edit flair templates"
+#: r2/lib/pages/pages.py:2505
+msgid "user flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2698
+#: r2/lib/pages/pages.py:2507
+msgid "link flair templates"
+msgstr ""
+
+#: r2/lib/pages/pages.py:2747
 msgid "user"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2698
+#: r2/lib/pages/pages.py:2747
 msgid "note"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2698
+#: r2/lib/pages/pages.py:2747
 msgid "friendship"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2704
+#: r2/lib/pages/pages.py:2753
 msgid "add a friend"
 msgstr "친구 추가하기"
 
-#: r2/lib/pages/pages.py:2708
+#: r2/lib/pages/pages.py:2757
 msgid "your friends"
 msgstr "친구 목록"
 
-#: r2/lib/pages/pages.py:2736
+#: r2/lib/pages/pages.py:2785
 msgid "blocked users"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2752
+#: r2/lib/pages/pages.py:2801
 msgid "add approved submitter"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2756
+#: r2/lib/pages/pages.py:2805
 #, python-format
 msgid "approved submitters for %(reddit)s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2769 r2/templates/subredditinfobar.html:54
+#: r2/lib/pages/pages.py:2818 r2/templates/subredditinfobar.html:54
 msgid "leave"
 msgstr "탈퇴하기"
 
-#: r2/lib/pages/pages.py:2770
+#: r2/lib/pages/pages.py:2819
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2771
+#: r2/lib/pages/pages.py:2820
 msgid "stop being a moderator?"
 msgstr "운영자자격 기권하기"
 
-#: r2/lib/pages/pages.py:2772
+#: r2/lib/pages/pages.py:2821
 msgid "you are no longer a moderator"
 msgstr "더이상 이 레딧의 운영자가 아니십니다"
 
-#: r2/lib/pages/pages.py:2776 r2/models/modaction.py:37
+#: r2/lib/pages/pages.py:2825 r2/models/modaction.py:37
 msgid "add moderator"
 msgstr "레딧 운영자 추가하기"
 
-#: r2/lib/pages/pages.py:2780
+#: r2/lib/pages/pages.py:2829
 #, python-format
 msgid "moderators of %(reddit)s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2806
+#: r2/lib/pages/pages.py:2855
 msgid "banned users"
 msgstr "탈퇴당한 사용자"
 
-#: r2/lib/pages/pages.py:2823
+#: r2/lib/pages/pages.py:2872
 msgid "share traffic"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2827
+#: r2/lib/pages/pages.py:2876
 msgid "current viewers"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3779 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:3829 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr ""
 
@@ -2222,65 +2251,65 @@ msgstr ""
 msgid "label_template"
 msgstr ""
 
-#: r2/models/link.py:510
+#: r2/models/link.py:524
 #, python-format
 msgid "approved by %s"
 msgstr ""
 
-#: r2/models/link.py:512
+#: r2/models/link.py:526
 msgid "approved by a moderator"
 msgstr ""
 
-#: r2/models/link.py:789
+#: r2/models/link.py:803
 msgid "comment score below threshold"
 msgstr "설정하신 최소 댓글 점수에 못 미쳐 숨긴 글"
 
-#: r2/models/link.py:794
+#: r2/models/link.py:808
 msgid "blocked user"
 msgstr ""
 
-#: r2/models/link.py:1117
+#: r2/models/link.py:1131
 msgid "comment reply"
 msgstr ""
 
-#: r2/models/link.py:1123
+#: r2/models/link.py:1137
 msgid "post reply"
 msgstr ""
 
-#: r2/models/link.py:1146
+#: r2/models/link.py:1160
 msgid "[message from blocked user]"
 msgstr ""
 
-#: r2/models/link.py:1147
+#: r2/models/link.py:1161
 msgid "[unblock user to see this message]"
 msgstr ""
 
-#: r2/models/link.py:1150
+#: r2/models/link.py:1164
 #, python-format
 msgid "subreddit message %(author)s sent %(when)s ago"
 msgstr ""
 
-#: r2/models/link.py:1152
+#: r2/models/link.py:1166
 #, python-format
 msgid "to %(dest)s sent %(when)s ago"
 msgstr "%(dest)s님에게 %(when)s 전에 보낸 글"
 
-#: r2/models/link.py:1154
+#: r2/models/link.py:1168
 #, python-format
 msgid "from %(author)s sent %(when)s ago"
 msgstr "%(author)s님께서 %(when)s 전에 보낸 글"
 
-#: r2/models/link.py:1156
+#: r2/models/link.py:1170
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s ago"
 msgstr "%(author)s님께서 %(dest)s님에게 %(when)s 전에 보낸 글"
 
-#: r2/models/link.py:1161
+#: r2/models/link.py:1175
 #, python-format
 msgid "via %(subreddit)s"
 msgstr ""
 
-#: r2/models/link.py:1163
+#: r2/models/link.py:1177
 #, python-format
 msgid "%(author)s via %(subreddit)s"
 msgstr ""
@@ -2397,7 +2426,7 @@ msgstr ""
 msgid "edit settings"
 msgstr ""
 
-#: r2/models/modaction.py:43 r2/templates/printablebuttons.html:82
+#: r2/models/modaction.py:43 r2/templates/printablebuttons.html:91
 msgid "distinguish"
 msgstr ""
 
@@ -2416,14 +2445,14 @@ msgstr "탈퇴목록에서 뺐습니다"
 
 #: r2/models/modaction.py:48 r2/models/modaction.py:50
 #: r2/templates/printablebuttons.html:47
-#: r2/templates/printablebuttons.html:145 r2/templates/trophycase.html:47
+#: r2/templates/printablebuttons.html:154 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67
 msgid "removed"
 msgstr ""
 
 #: r2/models/modaction.py:49 r2/models/modaction.py:51
 #: r2/templates/printablebuttons.html:54
-#: r2/templates/printablebuttons.html:148
+#: r2/templates/printablebuttons.html:157
 #: r2/templates/subredditinfobar.html:84
 msgid "approved"
 msgstr ""
@@ -2449,7 +2478,7 @@ msgid "edited settings"
 msgstr ""
 
 #: r2/models/modaction.py:57
-msgid "edited user flair"
+msgid "edited flair"
 msgstr ""
 
 #: r2/models/modaction.py:58
@@ -2570,41 +2599,45 @@ msgid "toggle flair enabled"
 msgstr ""
 
 #: r2/models/modaction.py:93
-msgid "toggle flair position"
+msgid "toggle user flair position"
 msgstr ""
 
 #: r2/models/modaction.py:94
-msgid "toggle user assigned flair enabled"
+msgid "toggle link flair position"
 msgstr ""
 
 #: r2/models/modaction.py:95
-msgid "add/edit flair templates"
+msgid "toggle user assigned flair enabled"
 msgstr ""
 
 #: r2/models/modaction.py:96
-msgid "delete flair template"
+msgid "add/edit flair templates"
 msgstr ""
 
 #: r2/models/modaction.py:97
+msgid "delete flair template"
+msgstr ""
+
+#: r2/models/modaction.py:98
 msgid "clear flair templates"
 msgstr ""
 
-#: r2/models/modaction.py:99 r2/templates/printablebuttons.html:47
-#: r2/templates/printablebuttons.html:129 r2/templates/trophycase.html:47
+#: r2/models/modaction.py:100 r2/templates/printablebuttons.html:47
+#: r2/templates/printablebuttons.html:138 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67 r2/templates/usertableitem.html:55
 msgid "remove"
 msgstr "제거하기"
 
-#: r2/models/modaction.py:239 r2/models/modaction.py:253
-#: r2/templates/comment.html:58
+#: r2/models/modaction.py:240 r2/models/modaction.py:254
+#: r2/templates/comment.html:62
 msgid "by"
 msgstr ""
 
-#: r2/models/modaction.py:255 r2/templates/comment.xml:42
+#: r2/models/modaction.py:256 r2/templates/comment.xml:42
 msgid "on"
 msgstr ""
 
-#: r2/models/subreddit.py:977
+#: r2/models/subreddit.py:983
 msgid "on reddit.com"
 msgstr "레딧 닷 컴에  ???"
 
@@ -2826,25 +2859,25 @@ msgstr "***사람 맞으시죠?*** (스팸차단 차원에서 묻는 질문입�
 msgid "clear"
 msgstr ""
 
-#: r2/templates/comment.html:61
+#: r2/templates/comment.html:65
 msgid "in"
 msgstr ""
 
-#: r2/templates/comment.html:92
+#: r2/templates/comment.html:96
 msgid "deleted comment from"
 msgstr "님께서 보낸 댓글 지우기 ??? word order problem"
 
-#: r2/templates/comment.html:98 r2/templates/comment.htmllite:46
+#: r2/templates/comment.html:102 r2/templates/comment.htmllite:46
 #: r2/templates/comment.xml:31 r2/templates/comment.xml:32
 msgid "[deleted]"
 msgstr "[삭제된 글] "
 
-#: r2/templates/comment.html:107 r2/templates/comment.htmllite:46
+#: r2/templates/comment.html:111 r2/templates/comment.htmllite:46
 #: r2/templates/commentvisitsbox.html:38 r2/templates/useriphistory.html:51
 msgid "ago"
 msgstr "전"
 
-#: r2/templates/comment.html:116
+#: r2/templates/comment.html:120
 msgid "child"
 msgid_plural "children"
 msgstr[0] "개 답글"
@@ -3014,7 +3047,7 @@ msgstr ""
 msgid "upload sponsorship image"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:309 r2/templates/flairpane.html:64
+#: r2/templates/createsubreddit.html:309 r2/templates/flairpane.html:77
 #: r2/templates/prefoptions.html:321 r2/templates/promotelinkform.html:395
 msgid "save options"
 msgstr "설정 저장하기"
@@ -3068,9 +3101,9 @@ msgstr ""
 msgid "css class"
 msgstr ""
 
-#: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:48
+#: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:52
 #: r2/templates/frametoolbar.html:199 r2/templates/prefupdate.html:98
-#: r2/templates/printablebuttons.html:179
+#: r2/templates/printablebuttons.html:188
 #: r2/templates/subredditstylesheet.html:78
 msgid "save"
 msgstr "보관하기"
@@ -3102,10 +3135,10 @@ msgid "allow users to assign their own flair"
 msgstr ""
 
 #: r2/templates/flairpane.html:53
-msgid "flair position"
+msgid "user flair position"
 msgstr ""
 
-#: r2/templates/flairpane.html:55
+#: r2/templates/flairpane.html:55 r2/templates/flairpane.html:68
 msgid "left"
 msgstr ""
 
@@ -3113,12 +3146,32 @@ msgstr ""
 msgid "position flair to the left of the username"
 msgstr ""
 
-#: r2/templates/flairpane.html:58
+#: r2/templates/flairpane.html:58 r2/templates/flairpane.html:71
 msgid "right"
 msgstr ""
 
 #: r2/templates/flairpane.html:59
 msgid "position flair to the right of the username"
+msgstr ""
+
+#: r2/templates/flairpane.html:63
+msgid "link flair position"
+msgstr ""
+
+#: r2/templates/flairpane.html:65
+msgid "none"
+msgstr ""
+
+#: r2/templates/flairpane.html:66
+msgid "don't show link flair"
+msgstr ""
+
+#: r2/templates/flairpane.html:69
+msgid "position flair to the left of the link"
+msgstr ""
+
+#: r2/templates/flairpane.html:72
+msgid "position flair to the right of the link"
 msgstr ""
 
 #: r2/templates/flairprefs.html:30
@@ -3129,7 +3182,11 @@ msgstr ""
 msgid "select flair"
 msgstr ""
 
-#: r2/templates/flairselector.html:52
+#: r2/templates/flairselector.html:44
+msgid "remove flair"
+msgstr ""
+
+#: r2/templates/flairselector.html:56
 msgid "flair selection unavailable"
 msgstr ""
 
@@ -3137,7 +3194,7 @@ msgstr ""
 msgid "user can edit?"
 msgstr ""
 
-#: r2/templates/flairtemplatelist.html:49
+#: r2/templates/flairtemplatelist.html:57
 msgid "clear all flair templates"
 msgstr ""
 
@@ -3194,24 +3251,24 @@ msgstr "좋아하는 글"
 msgid "dislike"
 msgstr "싫어하는 글"
 
-#: r2/templates/frametoolbar.html:195 r2/templates/printablebuttons.html:176
+#: r2/templates/frametoolbar.html:195 r2/templates/printablebuttons.html:185
 msgid "unsave"
 msgstr "보관목록에서 빼기"
 
-#: r2/templates/frametoolbar.html:196 r2/templates/printablebuttons.html:177
+#: r2/templates/frametoolbar.html:196 r2/templates/printablebuttons.html:186
 msgid "unsaved"
 msgstr "보관목록에서 뺐습니다"
 
-#: r2/templates/frametoolbar.html:205 r2/templates/printablebuttons.html:184
+#: r2/templates/frametoolbar.html:205 r2/templates/printablebuttons.html:193
 msgid "unhide"
 msgstr "숨김 풀기"
 
-#: r2/templates/frametoolbar.html:206 r2/templates/printablebuttons.html:185
+#: r2/templates/frametoolbar.html:206 r2/templates/printablebuttons.html:194
 msgid "unhidden"
 msgstr "숨김 풀림"
 
 #: r2/templates/frametoolbar.html:209 r2/templates/frametoolbar.html:210
-#: r2/templates/printablebuttons.html:187
+#: r2/templates/printablebuttons.html:196
 msgid "hide"
 msgstr "숨기기"
 
@@ -3325,32 +3382,32 @@ msgstr ""
 msgid "NSFW"
 msgstr ""
 
-#: r2/templates/link.html:90
+#: r2/templates/link.html:105
 msgid ""
 "(no need to click for this info; just hover over the checkmark next time)"
 msgstr ""
 
-#: r2/templates/link.html:206
+#: r2/templates/link.html:225
 #, python-format
 msgid "%(score)s submitted %(when)s ago"
 msgstr ""
 
-#: r2/templates/link.html:208
+#: r2/templates/link.html:227
 #, python-format
 msgid "by %(author)s to %(reddit)s"
 msgstr ""
 
-#: r2/templates/link.html:210
+#: r2/templates/link.html:229
 #, python-format
 msgid "by %(author)s"
 msgstr ""
 
-#: r2/templates/link.html:212
+#: r2/templates/link.html:231
 #, python-format
 msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
 msgstr "%(when)s 전 %(author)s님께서 %(reddit)s 레딧에 올린 글"
 
-#: r2/templates/link.html:214
+#: r2/templates/link.html:233
 #, python-format
 msgid "submitted %(when)s ago by %(author)s"
 msgstr "%(when)s 전 %(author)s님께서 올린 글"
@@ -3469,15 +3526,15 @@ msgstr "계정 만들기 정말 이렇게 쉬울까요? 한 번 해보면 알게
 msgid "already have an account and just want to login?"
 msgstr "아이디가 있으시면 바로 로그인하십시오"
 
-#: r2/templates/message.html:98
+#: r2/templates/message.html:99
 msgid "expand all"
 msgstr ""
 
-#: r2/templates/message.html:101
+#: r2/templates/message.html:102
 msgid "collapse all"
 msgstr ""
 
-#: r2/templates/message.html:116
+#: r2/templates/message.html:117
 msgid "show parent"
 msgstr ""
 
@@ -3588,12 +3645,12 @@ msgid ""
 msgstr "' %(email)s '에서 더 이상 레딧에서 오는 메일을 받기 희망하지 않으십니까?"
 
 #: r2/templates/optout.html:36 r2/templates/optout.html:52
-#: r2/templates/printablebuttons.html:408
+#: r2/templates/printablebuttons.html:417
 msgid "yes"
 msgstr "예"
 
 #: r2/templates/optout.html:39 r2/templates/optout.html:55
-#: r2/templates/printablebuttons.html:411
+#: r2/templates/printablebuttons.html:420
 msgid "no"
 msgstr "아니요"
 
@@ -3731,9 +3788,9 @@ msgstr ""
 msgid "authorize payment"
 msgstr ""
 
-#: r2/templates/paymentform.html:184 r2/templates/printablebuttons.html:164
-#: r2/templates/printablebuttons.html:198
-#: r2/templates/printablebuttons.html:294 r2/templates/wrappeduser.html:57
+#: r2/templates/paymentform.html:184 r2/templates/printablebuttons.html:173
+#: r2/templates/printablebuttons.html:207
+#: r2/templates/printablebuttons.html:303 r2/templates/wrappeduser.html:57
 msgid "edit"
 msgstr "편집"
 
@@ -4182,7 +4239,7 @@ msgid "indicted"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:44
-#: r2/templates/printablebuttons.html:142
+#: r2/templates/printablebuttons.html:151
 msgid "spammed"
 msgstr ""
 
@@ -4210,116 +4267,116 @@ msgstr ""
 msgid "unmarked"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:80
+#: r2/templates/printablebuttons.html:89
 msgid "distinguishing..."
 msgstr ""
 
-#: r2/templates/printablebuttons.html:84
+#: r2/templates/printablebuttons.html:93
 msgid "distinguish this?"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:125
+#: r2/templates/printablebuttons.html:134
 msgid "confirm spam"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:126
+#: r2/templates/printablebuttons.html:135
 msgid "remove ham"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:133
+#: r2/templates/printablebuttons.html:142
 #, python-format
 msgid "reapprove %(obj)s"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:136
+#: r2/templates/printablebuttons.html:145
 #, python-format
 msgid "approve %(obj)s"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:169
-#: r2/templates/printablebuttons.html:217 r2/templates/sharelink.html:98
+#: r2/templates/printablebuttons.html:178
+#: r2/templates/printablebuttons.html:226 r2/templates/sharelink.html:98
 msgid "cancel"
 msgstr "닫기"
 
-#: r2/templates/printablebuttons.html:188
+#: r2/templates/printablebuttons.html:197
 msgid "hidden"
 msgstr "숨김"
 
-#: r2/templates/printablebuttons.html:217
+#: r2/templates/printablebuttons.html:226
 msgid "reject"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:222
+#: r2/templates/printablebuttons.html:231
 msgid "accept"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:222
+#: r2/templates/printablebuttons.html:231
 msgid "accepted"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:228
+#: r2/templates/printablebuttons.html:237
 msgid "traffic"
 msgstr "페이지 이용량???"
 
-#: r2/templates/printablebuttons.html:235
+#: r2/templates/printablebuttons.html:244
 msgid "questionable submission; you should remove it or approve it"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:237
+#: r2/templates/printablebuttons.html:246
 msgid "deputy opinion:"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:240
+#: r2/templates/printablebuttons.html:249
 #, python-format
 msgid "%d spam"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:246
+#: r2/templates/printablebuttons.html:255
 #, python-format
 msgid "%d kosher"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:265
-#: r2/templates/printablebuttons.html:324
+#: r2/templates/printablebuttons.html:274
+#: r2/templates/printablebuttons.html:333
 msgid "permalink"
 msgstr "댓글 주소로 가기"
 
-#: r2/templates/printablebuttons.html:269
-#: r2/templates/printablebuttons.html:320 r2/templates/starkcomment.html:33
+#: r2/templates/printablebuttons.html:278
+#: r2/templates/printablebuttons.html:329 r2/templates/starkcomment.html:33
 msgid "context"
 msgstr "문맥으로 가기"
 
-#: r2/templates/printablebuttons.html:272
+#: r2/templates/printablebuttons.html:281
 msgid "full comments"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:282
-#: r2/templates/printablebuttons.html:289
+#: r2/templates/printablebuttons.html:291
+#: r2/templates/printablebuttons.html:298
 msgid "parent"
 msgstr "윗글 보기"
 
-#: r2/templates/printablebuttons.html:302
-#: r2/templates/printablebuttons.html:342
+#: r2/templates/printablebuttons.html:311
+#: r2/templates/printablebuttons.html:351
 msgid "reply {verb}"
 msgstr "댓글 달기"
 
-#: r2/templates/printablebuttons.html:331
+#: r2/templates/printablebuttons.html:340
 msgid "block user"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:331
+#: r2/templates/printablebuttons.html:340
 msgid "blocked"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:335
+#: r2/templates/printablebuttons.html:344
 msgid "mark unread"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:390
+#: r2/templates/printablebuttons.html:399
 msgid "are you sure?"
 msgstr "정말 신고하시겠습니까?"
 
-#: r2/templates/printablebuttons.html:486
+#: r2/templates/printablebuttons.html:495
 msgid "toggle"
 msgstr ""
 
@@ -4536,17 +4593,21 @@ msgstr ""
 msgid "existing roadblocks"
 msgstr ""
 
-#: r2/templates/searchbar.html:42
+#: r2/templates/searchbar.html:36
 #, python-format
 msgid "about %(num)d results in %(second)s"
 msgstr ""
 
-#: r2/templates/searchbar.html:52
+#: r2/templates/searchbar.html:46
 msgid "satisfied?"
 msgstr ""
 
-#: r2/templates/searchbar.html:56
+#: r2/templates/searchbar.html:50
 msgid "thanks for your feedback!"
+msgstr ""
+
+#: r2/templates/searchform.html:30
+msgid "use the following search parameters to narrow your results:"
 msgstr ""
 
 #: r2/templates/searchform.html:34
@@ -4570,11 +4631,11 @@ msgid "search for {text} in self post contents"
 msgstr ""
 
 #: r2/templates/searchform.html:44
-msgid "include or exclude self posts"
+msgid "include (1) or exclude (0) self posts"
 msgstr ""
 
 #: r2/templates/searchform.html:46
-msgid "include or exclude results from nsfw reddits"
+msgid "include (1) or exclude (0) results tagged NSFW"
 msgstr ""
 
 #: r2/templates/searchform.html:50
