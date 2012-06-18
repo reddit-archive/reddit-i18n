@@ -46,5 +46,6 @@ fix_metadata:
 	for lang in $(PO_FILES); do \
 	python revert_display_name.py `dirname $$lang`; \
 	done
+	./check_disp_name.sh
 
 .PHONY: all
