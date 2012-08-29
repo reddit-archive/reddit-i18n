@@ -4,13 +4,14 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# Jan Tojnar <jtojnar@gmail.com>, 2012.
 # Zbyněk Schwarz <zbynek.schwarz@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: http://github.com/reddit/reddit-i18n/issues\n"
-"POT-Creation-Date: 2012-08-08 10:35-0700\n"
-"PO-Revision-Date: 2012-08-17 10:41+0000\n"
+"POT-Creation-Date: 2012-08-24 10:11-0700\n"
+"PO-Revision-Date: 2012-08-29 19:17+0000\n"
 "Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/reddit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -22,162 +23,198 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
-#: r2/controllers/api.py:122 r2/controllers/api.py:2326
-#: r2/controllers/api.py:2381 r2/controllers/listingcontroller.py:482
+#: r2/controllers/api.py:129 r2/controllers/api.py:2337
+#: r2/controllers/api.py:2395 r2/controllers/listingcontroller.py:500
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:156
+#: r2/controllers/api.py:163
 msgid "thanks for your message! you should hear back from us shortly."
 msgstr "děkujeme za vaši zprávu! měli byste od nás slyšet co nevidět."
 
-#: r2/controllers/api.py:185
+#: r2/controllers/api.py:192
 msgid "your message has been delivered"
 msgstr "vaše zpráva byla doručena"
 
-#: r2/controllers/api.py:382
+#: r2/controllers/api.py:389
 msgid "no title found"
 msgstr "název nenalezen"
 
-#: r2/controllers/api.py:605 r2/controllers/promotecontroller.py:376
+#: r2/controllers/api.py:612 r2/controllers/promotecontroller.py:386
 msgid "added"
 msgstr "přidáno"
 
-#: r2/controllers/api.py:644 r2/controllers/api.py:1223
-#: r2/controllers/api.py:1382 r2/controllers/api.py:1500
-#: r2/controllers/api.py:2041 r2/controllers/api.py:2076
-#: r2/controllers/api.py:2117 r2/controllers/api.py:2165
-#: r2/controllers/api.py:2238 r2/controllers/api.py:2441
-#: r2/controllers/api.py:2446 r2/controllers/api.py:2625
-#: r2/controllers/promotecontroller.py:497 r2/lib/menus.py:51
+#: r2/controllers/api.py:651 r2/controllers/api.py:1231
+#: r2/controllers/api.py:1390 r2/controllers/api.py:1508
+#: r2/controllers/api.py:2049 r2/controllers/api.py:2084
+#: r2/controllers/api.py:2125 r2/controllers/api.py:2173
+#: r2/controllers/api.py:2247 r2/controllers/api.py:2456
+#: r2/controllers/api.py:2461 r2/controllers/api.py:2642
+#: r2/controllers/promotecontroller.py:507 r2/lib/menus.py:51
 #: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:190
 msgid "saved"
 msgstr "uložené"
 
-#: r2/controllers/api.py:662
+#: r2/controllers/api.py:669
 msgid "all other sessions have been logged out"
 msgstr "všechna jiná sezení byla odhlášena"
 
-#: r2/controllers/api.py:705
+#: r2/controllers/api.py:712
 msgid "you should be getting a verification email shortly."
 msgstr "za chvíli byste měli dostat email pro ověření."
 
-#: r2/controllers/api.py:707 r2/controllers/api.py:717
+#: r2/controllers/api.py:714 r2/controllers/api.py:724
 msgid "your email has been updated"
 msgstr "váš email byl změněn"
 
-#: r2/controllers/api.py:726
+#: r2/controllers/api.py:733
 msgid "your email and password have been updated"
 msgstr "váš email a heslo byly změněny"
 
-#: r2/controllers/api.py:729
+#: r2/controllers/api.py:736
 msgid "your password has been updated"
 msgstr "vaše heslo bylo změněno"
 
-#: r2/controllers/api.py:1032
+#: r2/controllers/api.py:1040
 msgid "replied"
 msgstr "odpovězeno"
 
-#: r2/controllers/api.py:1093
+#: r2/controllers/api.py:1101
 msgid "shared"
 msgstr "sdíleno"
 
-#: r2/controllers/api.py:1096
+#: r2/controllers/api.py:1104
 msgid "your link has been shared."
 msgstr "váš odkaz byl sdílen."
 
-#: r2/controllers/api.py:1198
+#: r2/controllers/api.py:1206
 msgid "validation errors"
 msgstr "chyby ověření"
 
-#: r2/controllers/api.py:1299 r2/controllers/api.py:2125 r2/lib/menus.py:162
+#: r2/controllers/api.py:1307 r2/controllers/api.py:2133 r2/lib/menus.py:163
 #: r2/templates/printablebuttons.html:33
 #: r2/templates/subredditstylesheet.html:269
 msgid "deleted"
 msgstr "smazané"
 
-#: r2/controllers/api.py:1350 r2/templates/subredditstylesheet.html:222
+#: r2/controllers/api.py:1358 r2/templates/subredditstylesheet.html:222
 msgid "bad image name"
 msgstr "špatný název obrázku"
 
-#: r2/controllers/api.py:1354
+#: r2/controllers/api.py:1362
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "příliš mnoho obrázků (můžete mít pouze %d)"
 
-#: r2/controllers/api.py:1362
+#: r2/controllers/api.py:1370
 msgid "Invalid image or general image error"
 msgstr "Neplatný obrázek nebo obecná chyba obrázku"
 
-#: r2/controllers/api.py:1915
+#: r2/controllers/api.py:1923
 msgid "claimed! now go to someone's userpage and give them a present!"
 msgstr "získáno! a teď jděte na stránku nějakého uživatele a dejte jim dárek!"
 
-#: r2/controllers/api.py:1920
+#: r2/controllers/api.py:1928
 msgid "claimed!"
 msgstr "získáno!"
 
-#: r2/controllers/api.py:1936
+#: r2/controllers/api.py:1944
 msgid "an email will be sent to that account's address shortly"
 msgstr "za chvíli bude na adresu účtu odeslán email"
 
-#: r2/controllers/api.py:1938
+#: r2/controllers/api.py:1946
 msgid "try again tomorrow"
 msgstr "zkuste znovu zítra"
 
-#: r2/controllers/api.py:2191 r2/controllers/api.py:2401
+#: r2/controllers/api.py:2200 r2/controllers/api.py:2416
 msgid "invalid css class"
 msgstr "neplatná třída css"
 
-#: r2/controllers/api.py:2194 r2/controllers/api.py:2404
+#: r2/controllers/api.py:2203 r2/controllers/api.py:2419
 msgid "too many css classes"
 msgstr "příliš mnoho tříd css"
 
-#: r2/controllers/api.py:2421
+#: r2/controllers/api.py:2436
 msgid "max flair templates reached"
 msgstr "dosaženo maxima šablon stylu"
+
+#: r2/controllers/api.py:2841
+msgid "a name for the app"
+msgstr "název aplikace"
+
+#: r2/controllers/api.py:2858 r2/controllers/errors.py:96
+msgid "invalid client id"
+msgstr "neplatné id klienta"
+
+#: r2/controllers/api.py:2861
+msgid "cannot update deleted app"
+msgstr "nelze aktualizovat smazanou aplikaci"
+
+#: r2/controllers/api.py:2864
+msgid "app does not belong to you"
+msgstr "aplikace vám nepatří"
+
+#: r2/controllers/api.py:2872
+msgid "application updated"
+msgstr "aplikace aktualizována"
+
+#: r2/controllers/api.py:2884
+msgid "application created"
+msgstr "aplikace vytvořena"
+
+#: r2/controllers/api.py:2911
+msgid "developer added"
+msgstr "vývojář přidán"
+
+#: r2/controllers/api.py:2944
+msgid "an icon (72x72)"
+msgstr "ikona (72×72)"
 
 #: r2/controllers/api_docs.py:39
 msgid "account"
 msgstr "účet"
 
-#: r2/controllers/api_docs.py:42 r2/templates/printablebuttons.html:72
+#: r2/controllers/api_docs.py:42 r2/lib/menus.py:108
+msgid "apps"
+msgstr "aplikace"
+
+#: r2/controllers/api_docs.py:45 r2/templates/printablebuttons.html:72
 msgid "flair"
 msgstr "styl"
 
-#: r2/controllers/api_docs.py:45
+#: r2/controllers/api_docs.py:48
 msgid "links & comments"
 msgstr "odkazy a komentáře"
 
-#: r2/controllers/api_docs.py:48
+#: r2/controllers/api_docs.py:51
 msgid "private messages"
 msgstr "soukromé zprávy"
 
-#: r2/controllers/api_docs.py:51
+#: r2/controllers/api_docs.py:54
 msgid "moderation"
 msgstr "moderování"
 
-#: r2/controllers/api_docs.py:54
+#: r2/controllers/api_docs.py:57
 msgid "misc"
 msgstr "ostatní"
 
-#: r2/controllers/api_docs.py:57
+#: r2/controllers/api_docs.py:60
 msgid "listings"
 msgstr "výpisy"
 
-#: r2/controllers/api_docs.py:60
+#: r2/controllers/api_docs.py:63
 msgid "search"
 msgstr "hledání"
 
-#: r2/controllers/api_docs.py:63 r2/lib/menus.py:102
+#: r2/controllers/api_docs.py:66 r2/lib/menus.py:102
 msgid "subreddits"
 msgstr "podreddity"
 
-#: r2/controllers/api_docs.py:66
+#: r2/controllers/api_docs.py:69
 msgid "users"
 msgstr "uživatelé"
 
-#: r2/controllers/api_docs.py:166
+#: r2/controllers/api_docs.py:169
 msgid "api documentation"
 msgstr "dokumentace api"
 
@@ -210,7 +247,7 @@ msgstr "ano, je to v pořádku!"
 msgid "just read this first."
 msgstr "nejdříve si přečtěte toto."
 
-#: r2/controllers/embed.py:84 r2/lib/menus.py:89 r2/lib/pages/pages.py:482
+#: r2/controllers/embed.py:84 r2/lib/menus.py:89 r2/lib/pages/pages.py:483
 #: r2/templates/frametoolbar.html:108
 msgid "help"
 msgstr "nápověda"
@@ -224,301 +261,321 @@ msgstr "zákázané (%(domain)s)"
 msgid "you are not allowed to do that"
 msgstr "nejste oprávněni toto provést."
 
-#: r2/controllers/error.py:126
+#: r2/controllers/error.py:127
 msgid "page not found"
 msgstr "stránka nenalezena"
 
-#: r2/controllers/error.py:127
+#: r2/controllers/error.py:128
 msgid "the page you requested does not exist"
 msgstr "požadovaná stránka neexistuje"
 
-#: r2/controllers/errors.py:28
+#: r2/controllers/errors.py:29
 msgid "please login to do that"
 msgstr "pro provedení se prosím přihlaste"
 
-#: r2/controllers/errors.py:29
+#: r2/controllers/errors.py:30
+msgid "this page must be accessed using https"
+msgstr "na tuto stránku musí být přistupováno pomocí https"
+
+#: r2/controllers/errors.py:31
 msgid "you need to set a valid email address to do that."
 msgstr "pro provedení potřebujete nastavit platnou emailovou adresu."
 
-#: r2/controllers/errors.py:30
+#: r2/controllers/errors.py:32
 msgid "a url is required"
 msgstr "je požadována url"
 
-#: r2/controllers/errors.py:31
+#: r2/controllers/errors.py:33
 msgid "you should check that url"
 msgstr "měli byste url zkontrolovat"
 
-#: r2/controllers/errors.py:32
+#: r2/controllers/errors.py:34
 msgid "care to try these again?"
 msgstr "chcete to zkusit znovu?"
 
-#: r2/controllers/errors.py:33
+#: r2/controllers/errors.py:35
 msgid "invalid user name"
 msgstr "nesprávné uživatelské jméno"
 
-#: r2/controllers/errors.py:34
+#: r2/controllers/errors.py:36
 msgid "that username is already taken"
 msgstr "toto uživatelské jméno je již obsazené"
 
-#: r2/controllers/errors.py:35
+#: r2/controllers/errors.py:37
 msgid "that username is taken by a deleted account"
 msgstr "toto uživatelské jméno je používáno ve smazaném účtě"
 
-#: r2/controllers/errors.py:36
+#: r2/controllers/errors.py:38
 msgid "you can't send to a user that you have blocked"
 msgstr "nemůžete odesílat uživateli, kterého jste zablokovali"
 
-#: r2/controllers/errors.py:37
+#: r2/controllers/errors.py:39
 msgid "id not specified"
 msgstr "žádné id"
 
-#: r2/controllers/errors.py:38
+#: r2/controllers/errors.py:40
 msgid "you provided too many ids"
 msgstr "zadali jste příliš mnoho id"
 
-#: r2/controllers/errors.py:39
+#: r2/controllers/errors.py:41
 msgid "you can't do that"
 msgstr "tohle nemůžete udělat"
 
-#: r2/controllers/errors.py:40
+#: r2/controllers/errors.py:42
 msgid "you are not logged in as that user"
 msgstr "nejste přihlášeni jako tento uživatel"
 
-#: r2/controllers/errors.py:41
+#: r2/controllers/errors.py:43
 msgid "the link you are commenting on has been deleted"
 msgstr "odkaz, který komentujete byl smazán"
 
-#: r2/controllers/errors.py:42
+#: r2/controllers/errors.py:44
 msgid "that comment has been deleted"
 msgstr "tento komentář byl smazán"
 
-#: r2/controllers/errors.py:43
+#: r2/controllers/errors.py:45
 msgid "that element has been deleted"
 msgstr "tento prvek byl smazán"
 
-#: r2/controllers/errors.py:44
+#: r2/controllers/errors.py:46
 msgid "that password is unacceptable"
 msgstr "toto heslo je nepřípustné"
 
-#: r2/controllers/errors.py:45
+#: r2/controllers/errors.py:47
 msgid "invalid password"
 msgstr "nesprávné heslo"
 
-#: r2/controllers/errors.py:46
+#: r2/controllers/errors.py:48
 msgid "passwords do not match"
 msgstr "hesla se neshodují"
 
-#: r2/controllers/errors.py:47
+#: r2/controllers/errors.py:49
 msgid "please enter a name"
 msgstr "zadejte prosím jméno"
 
-#: r2/controllers/errors.py:48
+#: r2/controllers/errors.py:50
 msgid "please enter an email address"
 msgstr "prosím zadejte emailovou adresu"
 
-#: r2/controllers/errors.py:49
+#: r2/controllers/errors.py:51
 msgid "no email address for that user"
 msgstr "u tohoto uživatele není emailová adresu"
 
-#: r2/controllers/errors.py:50
+#: r2/controllers/errors.py:52
 msgid "send it to whom?"
 msgstr "poslat komu?"
 
-#: r2/controllers/errors.py:51
+#: r2/controllers/errors.py:53
 msgid "please enter a subject"
 msgstr "prosím zadejte předmět"
 
-#: r2/controllers/errors.py:52 r2/templates/gold.html:144
+#: r2/controllers/errors.py:54 r2/templates/gold.html:144
 msgid "that user doesn't exist"
 msgstr "takový uživatel neexistuje"
 
-#: r2/controllers/errors.py:53
+#: r2/controllers/errors.py:55
 msgid "please enter a username"
 msgstr "prosím zadejte jméno uživatele"
 
-#: r2/controllers/errors.py:55
+#: r2/controllers/errors.py:57
 #, python-format
 msgid "that number isn't in the right range (%(min)d to %(max)d)"
 msgstr "toto číslo není ve správném rozsahu (%(min)d až %(max)d)"
 
-#: r2/controllers/errors.py:56
+#: r2/controllers/errors.py:58
 msgid "you used a character here that we can't handle"
 msgstr "použili jste znak, který zde neznáme"
 
-#: r2/controllers/errors.py:57
+#: r2/controllers/errors.py:59
 #, python-format
 msgid ""
 "your bid must be at least $%(min)d per day and no more than to $%(max)d in "
 "total."
 msgstr "vaše nabídka musí být alespoň $%(min)d za den a ne více než $%(max)d celkem."
 
-#: r2/controllers/errors.py:58
+#: r2/controllers/errors.py:60
 msgid "that link has already been submitted"
 msgstr "tento odkaz již byl odeslán"
 
-#: r2/controllers/errors.py:59
+#: r2/controllers/errors.py:61
 msgid "that reddit already exists"
 msgstr "tento reddit již existuje"
 
-#: r2/controllers/errors.py:60
+#: r2/controllers/errors.py:62
 msgid "that reddit doesn't exist"
 msgstr "tento reddit neexistuje"
 
-#: r2/controllers/errors.py:61
+#: r2/controllers/errors.py:63
 msgid "you aren't allowed to post there."
 msgstr "tam nemáte oprávnění psát."
 
-#: r2/controllers/errors.py:62
+#: r2/controllers/errors.py:64
 msgid "you must specify a subreddit"
 msgstr "musíte zadat podreddit"
 
-#: r2/controllers/errors.py:63
+#: r2/controllers/errors.py:65
 msgid "that name isn't going to work"
 msgstr "takové jméno nebude fungovat"
 
-#: r2/controllers/errors.py:64
+#: r2/controllers/errors.py:66
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
 msgstr "děláte toho moc najednou. zkuste znovu za %(time)s."
 
-#: r2/controllers/errors.py:65 r2/lib/strings.py:154
+#: r2/controllers/errors.py:67 r2/lib/strings.py:154
 msgid "You've submitted too many links recently. Please try again in an hour."
 msgstr "V poslední době jste poslali příliš mnoho odkazů. Zkuste to prosím za hodinu."
 
-#: r2/controllers/errors.py:66
+#: r2/controllers/errors.py:68
 msgid "you are doing that too much. try again later."
 msgstr "děláte toho moc najednou. zkuste to znovu později."
 
-#: r2/controllers/errors.py:67
+#: r2/controllers/errors.py:69
 msgid "your session has expired"
 msgstr "vaše sezení vypršelo"
 
-#: r2/controllers/errors.py:68
+#: r2/controllers/errors.py:70
 msgid "you must accept the terms first"
 msgstr "nejdříve musíte souhlasit s podmínkami"
 
-#: r2/controllers/errors.py:72
+#: r2/controllers/errors.py:74
 msgid "that option is not valid"
 msgstr "tato volba není platná"
 
-#: r2/controllers/errors.py:74
+#: r2/controllers/errors.py:76
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
 msgstr "následující emaily jsou neplatné: %(emails)s"
 
-#: r2/controllers/errors.py:75
+#: r2/controllers/errors.py:77
 msgid "please enter at least one email address"
 msgstr "prosíme zadejte alespoň jednu emailovou adresu"
 
-#: r2/controllers/errors.py:76
+#: r2/controllers/errors.py:78
 #, python-format
 msgid "please only share to %(num)s emails at a time."
 msgstr "prosím sdílejte pouze s %(num)s emaily najednou."
 
-#: r2/controllers/errors.py:77
+#: r2/controllers/errors.py:79
 #, python-format
 msgid ""
 "that reddit has already been oversold on %(start)s to %(end)s. Please pick "
 "another reddit or date."
 msgstr "tento reddit již byl přeprodán od %(start)s do %(end)s. Prosím vyberte si jiný reddit nebo datum."
 
-#: r2/controllers/errors.py:78
+#: r2/controllers/errors.py:80
 msgid "please provide a date of the form mm/dd/yyyy"
 msgstr "data prosím zadávejte ve formátu mm/dd/rrrr"
 
-#: r2/controllers/errors.py:79
+#: r2/controllers/errors.py:81
 msgid "the dates need to be in order and not identical"
 msgstr "data musí být seřazena a jedinečná"
 
-#: r2/controllers/errors.py:80
+#: r2/controllers/errors.py:82
 #, python-format
 msgid "please enter a date at least %(day)s days in the future"
 msgstr "zadejte prosím datum, které je alespoň %(day)s dní v budoucnu"
 
-#: r2/controllers/errors.py:81
+#: r2/controllers/errors.py:83
 #, python-format
 msgid "please enter a date at least %(day)s days in the past"
 msgstr "zadejte prosím datum, které je alespoň %(day)s dní v minulosti"
 
-#: r2/controllers/errors.py:82
+#: r2/controllers/errors.py:84
 #, python-format
 msgid "address problem: %(message)s"
 msgstr "problém s adresou: %(message)s"
 
-#: r2/controllers/errors.py:83
+#: r2/controllers/errors.py:85
 #, python-format
 msgid "card problem: %(message)s"
 msgstr "problém s kartou: %(message)s"
 
-#: r2/controllers/errors.py:84
+#: r2/controllers/errors.py:86
 #, python-format
 msgid "this is too long (max: %(max_length)s)"
 msgstr "toto je příliš dlouhé (max: %(max_length)s)"
 
-#: r2/controllers/errors.py:85
+#: r2/controllers/errors.py:87
 msgid "we need something here"
 msgstr "zde něco potřebujeme"
 
-#: r2/controllers/errors.py:86
+#: r2/controllers/errors.py:88
 msgid "we've never seen that code before"
 msgstr "tento kód jsme nikdy předtím neviděli"
 
-#: r2/controllers/errors.py:87
+#: r2/controllers/errors.py:89
 msgid "that code has already been claimed -- perhaps by you?"
 msgstr "tento kód již někdo získal -- třeby Vy?"
 
-#: r2/controllers/errors.py:88
+#: r2/controllers/errors.py:90
 msgid "that reddit doesn't allow text posts"
 msgstr "tento reddit neumožňuje textové příspěvky"
 
-#: r2/controllers/errors.py:89
+#: r2/controllers/errors.py:91
 msgid "that reddit only allows text posts"
 msgstr "tento reddit umožňuje pouze textové příspěvky"
 
-#: r2/controllers/errors.py:90
+#: r2/controllers/errors.py:92
 msgid "that's a piece of history now; it's too late to reply to it"
 msgstr "to už je součást historie; na odpověď je příliš pozdě"
 
-#: r2/controllers/errors.py:91
+#: r2/controllers/errors.py:93
 msgid "invalid css name"
 msgstr "neplatný název css"
 
-#: r2/controllers/errors.py:92
+#: r2/controllers/errors.py:94
 msgid "too many flair css classes"
 msgstr "příliš mnoho css tříd stylu"
 
-#: r2/controllers/errors.py:93
+#: r2/controllers/errors.py:95
 msgid "not a valid flair target"
 msgstr "není platný cíl stylu"
 
-#: r2/controllers/errors.py:94
-msgid "invalid client id"
-msgstr "neplatné id klienta"
-
-#: r2/controllers/errors.py:95
+#: r2/controllers/errors.py:97
 msgid "invalid redirect_uri parameter"
 msgstr "neplatný parametr "
 
-#: r2/controllers/errors.py:96
+#: r2/controllers/errors.py:98
+msgid "invalid scope requested"
+msgstr "požadován neplatný rozsah"
+
+#: r2/controllers/errors.py:99
 msgid "access denied by the user"
 msgstr "uživatel zamítl přístup"
 
-#: r2/controllers/errors.py:97
+#: r2/controllers/errors.py:100
 msgid "please confirm the form"
 msgstr "formulář prosím potvrďte"
 
-#: r2/controllers/errors.py:98
+#: r2/controllers/errors.py:101
 msgid "cannot perform this action via the API"
 msgstr "tuto činnost nelze přes API provést"
 
-#: r2/controllers/errors.py:99
+#: r2/controllers/errors.py:102
 #, python-format
 msgid "%(domain)s is not allowed on reddit: %(reason)s"
 msgstr "%(domain)s není na reddit povoleno: %(reason)s"
 
-#: r2/controllers/errors.py:100
+#: r2/controllers/errors.py:103
 msgid "you must enable two-factor authentication"
 msgstr "musíte povolit dvoufaktorové ověření"
+
+#: r2/controllers/errors.py:104
+msgid "this feature is not supported"
+msgstr "tato funkce není podporována"
+
+#: r2/controllers/errors.py:105
+msgid "image problem"
+msgstr "problém s obrázkem"
+
+#: r2/controllers/errors.py:106
+msgid "already added"
+msgstr "už bylo přidáno"
+
+#: r2/controllers/errors.py:107
+msgid "too many developers"
+msgstr "příliš mnoho vývojářů"
 
 #: r2/controllers/front.py:145
 msgid "self service help"
@@ -557,8 +614,8 @@ msgid "create a community"
 msgstr "vytvořit komunitu"
 
 #: r2/controllers/front.py:455 r2/controllers/front.py:459
-#: r2/controllers/listingcontroller.py:691
-#: r2/controllers/listingcontroller.py:700 r2/lib/menus.py:509
+#: r2/controllers/listingcontroller.py:709
+#: r2/controllers/listingcontroller.py:718 r2/lib/menus.py:510
 msgid "all"
 msgstr "všechny"
 
@@ -570,11 +627,11 @@ msgstr "filtrovat podle činnosti"
 msgid "filter by moderator"
 msgstr "filtrovat podle moderátora"
 
-#: r2/controllers/front.py:666 r2/lib/menus.py:147
+#: r2/controllers/front.py:666 r2/lib/menus.py:148
 msgid "awards"
 msgstr "ocenění"
 
-#: r2/controllers/front.py:699 r2/lib/menus.py:121
+#: r2/controllers/front.py:699 r2/lib/menus.py:122
 msgid "related"
 msgstr "související"
 
@@ -610,19 +667,19 @@ msgstr "ověřit email"
 msgid "reset password"
 msgstr "resetovat heslo"
 
-#: r2/controllers/front.py:1203 r2/controllers/post.py:163
+#: r2/controllers/front.py:1206 r2/controllers/post.py:163
 msgid "opt out"
 msgstr "vyvázat se z účasti"
 
-#: r2/controllers/front.py:1203 r2/controllers/post.py:173
+#: r2/controllers/front.py:1206 r2/controllers/post.py:173
 msgid "welcome back"
 msgstr "vítejte zpět"
 
-#: r2/controllers/front.py:1233
+#: r2/controllers/front.py:1236
 msgid "thanks"
 msgstr "děkujeme"
 
-#: r2/controllers/front.py:1266 r2/controllers/front.py:1288
+#: r2/controllers/front.py:1269 r2/controllers/front.py:1291
 #: r2/lib/menus.py:101 r2/templates/gold.html:84
 msgid "reddit gold"
 msgstr "zlatý reddit"
@@ -657,98 +714,98 @@ msgstr "děkujeme za darování zlatého reddita!"
 msgid "Your gift to %s has been delivered."
 msgstr "Váš dárek pro %s byl doručen."
 
-#: r2/controllers/listingcontroller.py:243
+#: r2/controllers/listingcontroller.py:244
 msgid "requested campaign not eligible for display"
 msgstr "požadovaná kampaň nemá oprávnění k zobrazení"
 
-#: r2/controllers/listingcontroller.py:371
+#: r2/controllers/listingcontroller.py:389
 msgid "newest submissions"
 msgstr "nejnovější příspěvky"
 
-#: r2/controllers/listingcontroller.py:450
+#: r2/controllers/listingcontroller.py:468
 msgid "top scoring links"
 msgstr "odkazy s nejvyšším skóre"
 
-#: r2/controllers/listingcontroller.py:452
+#: r2/controllers/listingcontroller.py:470
 msgid "most controversial links"
 msgstr "nejspornější odkazy"
 
-#: r2/controllers/listingcontroller.py:463
+#: r2/controllers/listingcontroller.py:481
 msgid "you're really bored now, eh?"
 msgstr "teď se opravdu nudíte, co?"
 
-#: r2/controllers/listingcontroller.py:527
+#: r2/controllers/listingcontroller.py:545
 #, python-format
 msgid "overview for %(user)s"
 msgstr "přehled pro %(user)s"
 
-#: r2/controllers/listingcontroller.py:528
+#: r2/controllers/listingcontroller.py:546
 #, python-format
 msgid "comments by %(user)s"
 msgstr "komentáře od %(user)s"
 
-#: r2/controllers/listingcontroller.py:529
+#: r2/controllers/listingcontroller.py:547
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "předložil %(user)s"
 
-#: r2/controllers/listingcontroller.py:530
+#: r2/controllers/listingcontroller.py:548
 #, python-format
 msgid "liked by %(user)s"
 msgstr "líbí se %(user)s"
 
-#: r2/controllers/listingcontroller.py:531
+#: r2/controllers/listingcontroller.py:549
 #, python-format
 msgid "disliked by %(user)s"
 msgstr "nelíbí se %(user)s"
 
-#: r2/controllers/listingcontroller.py:532
+#: r2/controllers/listingcontroller.py:550
 #, python-format
 msgid "saved by %(user)s"
 msgstr "uložil %(user)s"
 
-#: r2/controllers/listingcontroller.py:533
+#: r2/controllers/listingcontroller.py:551
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "skryl %(user)s"
 
-#: r2/controllers/listingcontroller.py:534
+#: r2/controllers/listingcontroller.py:552
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "propagováno %(user)s"
 
-#: r2/controllers/listingcontroller.py:535
+#: r2/controllers/listingcontroller.py:553
 #, python-format
 msgid "profile for %(user)s"
 msgstr "profil pro %(user)s"
 
-#: r2/controllers/listingcontroller.py:692
-#: r2/controllers/listingcontroller.py:701
+#: r2/controllers/listingcontroller.py:710
+#: r2/controllers/listingcontroller.py:719
 #: r2/templates/printablebuttons.html:347
 msgid "unread"
 msgstr "nepřečteno"
 
-#: r2/controllers/listingcontroller.py:694
+#: r2/controllers/listingcontroller.py:712
 msgid "comment replies"
 msgstr "odpovědi komentáře"
 
-#: r2/controllers/listingcontroller.py:695
+#: r2/controllers/listingcontroller.py:713
 msgid "post replies"
 msgstr "odpovědi příspěvku"
 
-#: r2/controllers/listingcontroller.py:708 r2/templates/redditheader.html:94
+#: r2/controllers/listingcontroller.py:726 r2/templates/redditheader.html:94
 msgid "messages"
 msgstr "zprávy"
 
-#: r2/controllers/listingcontroller.py:874 r2/templates/pagenamenav.html:36
+#: r2/controllers/listingcontroller.py:892 r2/templates/pagenamenav.html:36
 msgid "reddits"
 msgstr "reddity"
 
-#: r2/controllers/listingcontroller.py:928
+#: r2/controllers/listingcontroller.py:953
 msgid "reddits: "
 msgstr "reddity: "
 
-#: r2/controllers/listingcontroller.py:976
+#: r2/controllers/listingcontroller.py:1002
 msgid "comments"
 msgstr "komentáře"
 
@@ -760,6 +817,30 @@ msgstr "Moje identita"
 msgid "Access my reddit username and signup date."
 msgstr "Mít přístup k mému uživatelskému jménu reddit a datu přihlášení."
 
+#: r2/controllers/oauth2.py:48
+msgid "Commenting"
+msgstr "Komentující"
+
+#: r2/controllers/oauth2.py:49
+msgid "Submit comments from my account."
+msgstr "Odesílat komentáře z mého účtu."
+
+#: r2/controllers/oauth2.py:53
+msgid "Moderating Flair"
+msgstr "Moderování stylu"
+
+#: r2/controllers/oauth2.py:54
+msgid "Manage flair in subreddits I moderate."
+msgstr "Spravovat styl v podredditech kde jsem moderátorem."
+
+#: r2/controllers/oauth2.py:58
+msgid "My Subscriptions"
+msgstr "Mé odběry"
+
+#: r2/controllers/oauth2.py:59
+msgid "Access my list of subreddits."
+msgstr "Přistupovat k seznamu mých podredditů."
+
 #: r2/controllers/post.py:137
 msgid "over 18?"
 msgstr "je vám nad 18?"
@@ -768,112 +849,121 @@ msgstr "je vám nad 18?"
 msgid "promoted by you"
 msgstr "propagováno vámi"
 
-#: r2/controllers/promotecontroller.py:447
+#: r2/controllers/promotecontroller.py:457
 msgid "failed to authenticate card.  sorry."
 msgstr "nelze ověřit kartu.  je nám líto"
 
-#: r2/controllers/promotecontroller.py:491
+#: r2/controllers/promotecontroller.py:501
 msgid "bad image"
 msgstr "špatný obrázek"
 
-#: r2/controllers/reddit_base.py:968
+#: r2/controllers/reddit_base.py:981
 msgid "search failed"
 msgstr "hledání selhalo"
 
-#: r2/controllers/validator/validator.py:616
+#: r2/controllers/validator/validator.py:642
 msgid "an existing thing id"
 msgstr "id existující věci"
 
-#: r2/controllers/validator/validator.py:657
+#: r2/controllers/validator/validator.py:683
 msgid "a modhash"
 msgstr "modhash"
 
-#: r2/controllers/validator/validator.py:842
+#: r2/controllers/validator/validator.py:868
 msgid "id of parent thing"
 msgstr "id nadřazené věci"
 
-#: r2/controllers/validator/validator.py:1029
+#: r2/controllers/validator/validator.py:1015
+#: r2/controllers/validator/validator.py:1062
 msgid "a valid URL"
 msgstr "platná URL"
 
-#: r2/controllers/validator/validator.py:1030
+#: r2/controllers/validator/validator.py:1063
 msgid "a subreddit"
 msgstr "podreddit"
 
-#: r2/controllers/validator/validator.py:1031
-#: r2/controllers/validator/validator.py:1119
+#: r2/controllers/validator/validator.py:1064
+#: r2/controllers/validator/validator.py:1153
 msgid "boolean value"
 msgstr "hodnota boolean"
 
-#: r2/controllers/validator/validator.py:1071
+#: r2/controllers/validator/validator.py:1105
 msgid "the name of an existing user"
 msgstr "jméno existujícího uživatele"
 
-#: r2/controllers/validator/validator.py:1400
+#: r2/controllers/validator/validator.py:1437
 #, python-format
 msgid "one of (%s)"
 msgstr "jedno z (%s)"
 
-#: r2/controllers/validator/validator.py:1590
+#: r2/controllers/validator/validator.py:1627
 msgid "destination url (must be same-domain)"
 msgstr "cílová url (musí být ve stejné doméně)"
 
-#: r2/controllers/validator/validator.py:1605
+#: r2/controllers/validator/validator.py:1642
 msgid "please provide a first name"
 msgstr "zadejte prosím jméno"
 
-#: r2/controllers/validator/validator.py:1607
+#: r2/controllers/validator/validator.py:1644
 msgid "please provide a last name"
 msgstr "zadejte prosím příjmení"
 
-#: r2/controllers/validator/validator.py:1609
+#: r2/controllers/validator/validator.py:1646
 msgid "please provide an address"
 msgstr "zadejte prosím adresu"
 
-#: r2/controllers/validator/validator.py:1611
+#: r2/controllers/validator/validator.py:1648
 msgid "please provide your city"
 msgstr "zadejte prosím své město"
 
-#: r2/controllers/validator/validator.py:1613
+#: r2/controllers/validator/validator.py:1650
 msgid "please provide your state"
 msgstr "zadejte prosím svůj stát"
 
-#: r2/controllers/validator/validator.py:1615
+#: r2/controllers/validator/validator.py:1652
 msgid "please provide your zip or post code"
 msgstr "zadejte prosím svoje psč"
 
-#: r2/controllers/validator/validator.py:1617
+#: r2/controllers/validator/validator.py:1654
 msgid "please pick a country"
 msgstr "vyberte prosím zemi"
 
-#: r2/controllers/validator/validator.py:1621
+#: r2/controllers/validator/validator.py:1658
 msgid "Our ToS don't cover your country (yet). Sorry."
 msgstr "Naše podmínky nepokrývají Vaši zemi (zatím). Je nám líto."
 
-#: r2/controllers/validator/validator.py:1637
+#: r2/controllers/validator/validator.py:1674
 #, python-format
 msgid "max length %d characters"
 msgstr "max délka %d znaků"
 
-#: r2/controllers/validator/validator.py:1660
+#: r2/controllers/validator/validator.py:1697
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "čísla kreditních karet by měla mít 13 až 16 číslic"
 
-#: r2/controllers/validator/validator.py:1665
+#: r2/controllers/validator/validator.py:1702
 msgid "dates should be YYYY-MM"
 msgstr "data by měla mít formát RRRR-MM"
 
-#: r2/controllers/validator/validator.py:1673
+#: r2/controllers/validator/validator.py:1710
 msgid "month must be in the range 01..12"
 msgstr "měsíc musí být v rozsahu 01..12"
 
-#: r2/controllers/validator/validator.py:1676
+#: r2/controllers/validator/validator.py:1713
 msgid "expiration date must be in the future"
 msgstr "datum konce platnosti musí být v budoucnosti"
 
-#: r2/controllers/validator/validator.py:1680
+#: r2/controllers/validator/validator.py:1717
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "ověřovací kód karty by měl mít 3 nebo 4 číslice"
+
+#: r2/controllers/validator/validator.py:1860
+msgid "an app"
+msgstr "aplikace"
+
+#: r2/controllers/validator/validator.py:1877
+msgid "an app developed by the user"
+msgstr "aplikace vyvinutá uživatelem"
 
 #: r2/lib/cssfilter.py:306
 msgid "if you need backslashes, you're doing it wrong"
@@ -1149,7 +1239,7 @@ msgstr "zobrazení za měsíc"
 msgid "clicks by month"
 msgstr "kliknutí za měsíc"
 
-#: r2/lib/jsontemplates.py:321 r2/templates/usertext.html:56
+#: r2/lib/jsontemplates.py:323 r2/templates/usertext.html:56
 msgid "[removed]"
 msgstr "[odstraněno]"
 
@@ -1262,7 +1352,7 @@ msgstr "spam"
 msgid "autobanned"
 msgstr "automaticky zakázán"
 
-#: r2/lib/menus.py:85 r2/lib/pages/pages.py:793
+#: r2/lib/menus.py:85 r2/lib/pages/pages.py:807
 #: r2/templates/passwordverificationform.html:67
 msgid "turn admin on"
 msgstr "zapnout správce"
@@ -1271,7 +1361,7 @@ msgstr "zapnout správce"
 msgid "turn admin off"
 msgstr "vypnout správce"
 
-#: r2/lib/menus.py:87 r2/lib/pages/pages.py:616 r2/lib/pages/pages.py:635
+#: r2/lib/menus.py:87 r2/lib/pages/pages.py:619 r2/lib/pages/pages.py:639
 msgid "preferences"
 msgstr "nastavení"
 
@@ -1279,7 +1369,7 @@ msgstr "nastavení"
 msgid "blog"
 msgstr "blog"
 
-#: r2/lib/menus.py:91 r2/templates/utils.html:419
+#: r2/lib/menus.py:91 r2/templates/utils.html:457
 msgid "logout"
 msgstr "odhlásit"
 
@@ -1319,269 +1409,269 @@ msgstr "tým"
 msgid "rules"
 msgstr "pravidla"
 
-#: r2/lib/menus.py:107 r2/templates/promotelinkform.html:318
+#: r2/lib/menus.py:107 r2/templates/promotelinkform.html:319
 msgid "options"
 msgstr "volby"
 
-#: r2/lib/menus.py:108
+#: r2/lib/menus.py:109
 msgid "RSS feeds"
 msgstr "kanály RSS"
 
-#: r2/lib/menus.py:109
+#: r2/lib/menus.py:110
 msgid "friends"
 msgstr "přátelé"
 
-#: r2/lib/menus.py:110
+#: r2/lib/menus.py:111
 msgid "password/email"
 msgstr "heslo/email"
 
-#: r2/lib/menus.py:111 r2/templates/createsubreddit.html:286
+#: r2/lib/menus.py:112 r2/templates/createsubreddit.html:286
 #: r2/templates/printablebuttons.html:33
 msgid "delete"
 msgstr "smazat"
 
-#: r2/lib/menus.py:112 r2/templates/prefotp.html:31
+#: r2/lib/menus.py:113 r2/templates/prefotp.html:31
 msgid "two-factor authentication"
-msgstr ""
+msgstr "dvoufaktorové ověření"
 
-#: r2/lib/menus.py:115
+#: r2/lib/menus.py:116
 msgid "compose"
 msgstr "napsat"
 
-#: r2/lib/menus.py:116
+#: r2/lib/menus.py:117
 msgid "inbox"
 msgstr "příchozí pošta"
 
-#: r2/lib/menus.py:117
+#: r2/lib/menus.py:118
 msgid "sent"
 msgstr "odeslané"
 
-#: r2/lib/menus.py:120
+#: r2/lib/menus.py:121
 msgid "comments {toolbar}"
 msgstr "komentáře"
 
-#: r2/lib/menus.py:122 r2/templates/prefoptions.html:275
+#: r2/lib/menus.py:123 r2/templates/prefoptions.html:275
 #: r2/templates/prefoptions.html:284 r2/templates/prefoptions.html:293
 msgid "details"
 msgstr "podrobnosti"
 
-#: r2/lib/menus.py:123
+#: r2/lib/menus.py:124
 #, python-format
 msgid "other discussions (%(num)s)"
 msgstr "další diskuze (%(num)s)"
 
-#: r2/lib/menus.py:124 r2/lib/pages/trafficpages.py:50
+#: r2/lib/menus.py:125 r2/lib/pages/trafficpages.py:50
 msgid "traffic stats"
 msgstr "statistiky přenosů"
 
-#: r2/lib/menus.py:127
+#: r2/lib/menus.py:128
 msgid "home"
 msgstr "domů"
 
-#: r2/lib/menus.py:128 r2/lib/pages/pages.py:471
+#: r2/lib/menus.py:129 r2/lib/pages/pages.py:472
 msgid "about"
 msgstr "o čem je.."
 
-#: r2/lib/menus.py:129
+#: r2/lib/menus.py:130
 msgid "edit subscriptions"
 msgstr "upravit odběry"
 
-#: r2/lib/menus.py:130
+#: r2/lib/menus.py:131
 msgid "community settings"
 msgstr "nastavení komunity"
 
-#: r2/lib/menus.py:131
+#: r2/lib/menus.py:132
 msgid "edit moderators"
 msgstr "upravit moderátory"
 
-#: r2/lib/menus.py:132
+#: r2/lib/menus.py:133
 msgid "moderator mail"
 msgstr "email moderátora"
 
-#: r2/lib/menus.py:133
+#: r2/lib/menus.py:134
 msgid "edit approved submitters"
 msgstr "upravit schválené předkladatele"
 
-#: r2/lib/menus.py:134 r2/lib/menus.py:135 r2/lib/pages/pages.py:2904
+#: r2/lib/menus.py:135 r2/lib/menus.py:136 r2/lib/pages/pages.py:2929
 msgid "ban users"
 msgstr "zakázat uživatele"
 
-#: r2/lib/menus.py:136 r2/models/modaction.py:65
+#: r2/lib/menus.py:137 r2/models/modaction.py:65
 msgid "edit flair"
 msgstr "upravit styl"
 
-#: r2/lib/menus.py:137
+#: r2/lib/menus.py:138
 msgid "moderation log"
 msgstr "záznam moderace"
 
-#: r2/lib/menus.py:138
+#: r2/lib/menus.py:139
 msgid "moderation queue"
 msgstr "fronta moderace"
 
-#: r2/lib/menus.py:139
+#: r2/lib/menus.py:140
 msgid "unmoderated links"
 msgstr "nekontrolované odkazy"
 
-#: r2/lib/menus.py:141
+#: r2/lib/menus.py:142
 msgid "popular"
 msgstr "oblíbené"
 
-#: r2/lib/menus.py:142 r2/templates/createsubreddit.html:310
+#: r2/lib/menus.py:143 r2/templates/createsubreddit.html:310
 msgid "create"
 msgstr "vytvořit"
 
-#: r2/lib/menus.py:143 r2/lib/pages/pages.py:1433
+#: r2/lib/menus.py:144 r2/lib/pages/pages.py:1458
 msgid "my reddits"
 msgstr "moje reddity"
 
-#: r2/lib/menus.py:145
+#: r2/lib/menus.py:146
 msgid "help translate"
 msgstr "pomozte překládat"
 
-#: r2/lib/menus.py:146 r2/templates/subredditstylesheet.html:89
+#: r2/lib/menus.py:147 r2/templates/subredditstylesheet.html:89
 msgid "errors"
 msgstr "chyby"
 
-#: r2/lib/menus.py:148
+#: r2/lib/menus.py:149
 msgid "ads"
 msgstr "reklamy"
 
-#: r2/lib/menus.py:149
+#: r2/lib/menus.py:150
 msgid "usage"
 msgstr "použití"
 
-#: r2/lib/menus.py:150
+#: r2/lib/menus.py:151
 msgid "promoted"
 msgstr "propagováno"
 
-#: r2/lib/menus.py:151
+#: r2/lib/menus.py:152
 msgid "reporters"
 msgstr "ohlašovatelé"
 
-#: r2/lib/menus.py:152
+#: r2/lib/menus.py:153
 msgid "reported links"
 msgstr "nahlášené odkazy"
 
-#: r2/lib/menus.py:153
+#: r2/lib/menus.py:154
 msgid "reported authors"
 msgstr "ohlášení autoři"
 
-#: r2/lib/menus.py:154
+#: r2/lib/menus.py:155
 msgid "info"
 msgstr "info"
 
-#: r2/lib/menus.py:155 r2/templates/printablebuttons.html:179
+#: r2/lib/menus.py:156 r2/templates/printablebuttons.html:179
 #: r2/templates/sharelink.html:116
 msgid "share"
 msgstr "sdílet"
 
-#: r2/lib/menus.py:157
+#: r2/lib/menus.py:158
 msgid "overview"
 msgstr "přehled"
 
-#: r2/lib/menus.py:158
+#: r2/lib/menus.py:159
 msgid "submitted"
 msgstr "poslané"
 
-#: r2/lib/menus.py:159
+#: r2/lib/menus.py:160
 msgid "liked"
 msgstr "oblíbené"
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:161
 msgid "disliked"
 msgstr "neoblíbené"
 
-#: r2/lib/menus.py:161
+#: r2/lib/menus.py:162
 msgid "hidden {toolbar}"
 msgstr "skrytý"
 
-#: r2/lib/menus.py:163 r2/templates/printablebuttons.html:61
+#: r2/lib/menus.py:164 r2/templates/printablebuttons.html:61
 msgid "reported"
 msgstr "nahlášené"
 
-#: r2/lib/menus.py:165
+#: r2/lib/menus.py:166
 msgid "self-serve advertising"
 msgstr "samoobslužná reklama"
 
-#: r2/lib/menus.py:166
+#: r2/lib/menus.py:167
 msgid "create promotion"
 msgstr "vytvořit propagaci"
 
-#: r2/lib/menus.py:167
+#: r2/lib/menus.py:168
 msgid "my promoted links"
 msgstr "moje propagované odkazy"
 
-#: r2/lib/menus.py:168
+#: r2/lib/menus.py:169
 msgid "all promoted links"
 msgstr "všechny propagované odkazy"
 
-#: r2/lib/menus.py:169
+#: r2/lib/menus.py:170
 msgid "unseen"
 msgstr "neviděno"
 
-#: r2/lib/menus.py:170
+#: r2/lib/menus.py:171
 msgid "roadblock"
 msgstr "zátaras"
 
-#: r2/lib/menus.py:171
+#: r2/lib/menus.py:172
 msgid "analytics"
 msgstr "analytika"
 
-#: r2/lib/menus.py:172
+#: r2/lib/menus.py:173
 msgid "live"
 msgstr "živě"
 
-#: r2/lib/menus.py:173
+#: r2/lib/menus.py:174
 msgid "unpaid"
 msgstr "nezaplacené"
 
-#: r2/lib/menus.py:174
+#: r2/lib/menus.py:175
 msgid "pending"
 msgstr "nevyřízené"
 
-#: r2/lib/menus.py:175
+#: r2/lib/menus.py:176
 msgid "rejected"
 msgstr "zamítnuto"
 
-#: r2/lib/menus.py:177
+#: r2/lib/menus.py:178
 msgid "sitewide"
 msgstr "po celé stránce"
 
-#: r2/lib/menus.py:178
+#: r2/lib/menus.py:179
 msgid "languages"
 msgstr "jazyky"
 
-#: r2/lib/menus.py:179 r2/lib/pages/trafficpages.py:207
+#: r2/lib/menus.py:180 r2/lib/pages/trafficpages.py:207
 msgid "adverts"
 msgstr "reklamy"
 
-#: r2/lib/menus.py:181
+#: r2/lib/menus.py:182
 msgid "whitelist"
 msgstr "seznam povolených"
 
 #. TRANSLATORS: This refers to /r/mod
-#: r2/lib/menus.py:337
+#: r2/lib/menus.py:338
 msgid "mod"
 msgstr "mod"
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:339
+#: r2/lib/menus.py:340
 msgid "front"
 msgstr "hlavní"
 
-#: r2/lib/menus.py:438
+#: r2/lib/menus.py:439
 msgid "sorted by"
 msgstr "seřazeno podle"
 
-#: r2/lib/menus.py:504
+#: r2/lib/menus.py:505
 msgid "kind"
 msgstr "druh"
 
-#: r2/lib/menus.py:519
+#: r2/lib/menus.py:520
 msgid "links from"
 msgstr "odkazy od"
 
-#: r2/lib/promote.py:260 r2/lib/strings.py:277
+#: r2/lib/promote.py:260 r2/lib/strings.py:285
 #: r2/templates/reddittraffic.html:82
 msgid "day"
 msgid_plural "days"
@@ -1589,7 +1679,7 @@ msgstr[0] "den"
 msgstr[1] "dny"
 msgstr[2] "dnů"
 
-#: r2/lib/strings.py:51 r2/lib/template_helpers.py:141
+#: r2/lib/strings.py:51 r2/lib/template_helpers.py:139
 msgid "submitting..."
 msgstr "posílání..."
 
@@ -2089,7 +2179,15 @@ msgstr "přejít"
 msgid "view subreddit traffic"
 msgstr "zobrazit přenosy podredditu"
 
-#: r2/lib/strings.py:256 r2/lib/strings.py:261 r2/lib/template_helpers.py:190
+#: r2/lib/strings.py:191
+msgid "an error occurred"
+msgstr "nastala chyba"
+
+#: r2/lib/strings.py:192
+msgid "an error occurred. please try again later!"
+msgstr "nastala chyba. zkuste to prosím později."
+
+#: r2/lib/strings.py:263 r2/lib/strings.py:268 r2/lib/template_helpers.py:188
 #: r2/models/modaction.py:281 r2/templates/subredditstylesheet.html:113
 msgid "comment"
 msgid_plural "comments"
@@ -2097,7 +2195,7 @@ msgstr[0] "komentář"
 msgstr[1] "komentáře"
 msgstr[2] "komentářů"
 
-#: r2/lib/strings.py:257 r2/templates/comment.htmllite:55
+#: r2/lib/strings.py:264 r2/templates/comment.htmllite:55
 #: r2/templates/linkinfobar.html:47
 msgid "point"
 msgid_plural "points"
@@ -2105,14 +2203,14 @@ msgstr[0] "bod"
 msgstr[1] "body"
 msgstr[2] "bodů"
 
-#: r2/lib/strings.py:260 r2/models/modaction.py:266
+#: r2/lib/strings.py:267 r2/models/modaction.py:266
 msgid "link"
 msgid_plural "links"
 msgstr[0] "odkaz"
 msgstr[1] "odkazy"
 msgstr[2] "odkazů"
 
-#: r2/lib/strings.py:262 r2/lib/pages/pages.py:698
+#: r2/lib/strings.py:269 r2/lib/pages/pages.py:712
 #: r2/templates/messagecompose.html:71
 msgid "message"
 msgid_plural "messages"
@@ -2120,35 +2218,35 @@ msgstr[0] "zpráva"
 msgstr[1] "zprávy"
 msgstr[2] "zpráv"
 
-#: r2/lib/strings.py:263 r2/templates/sitewidetraffic.html:36
+#: r2/lib/strings.py:270 r2/templates/sitewidetraffic.html:36
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "podreddit"
 msgstr[1] "podreddity"
 msgstr[2] "podredditů"
 
-#: r2/lib/strings.py:264
+#: r2/lib/strings.py:271
 msgid "creddit"
 msgid_plural "creddits"
 msgstr[0] "kreddit"
 msgstr[1] "kreddity"
 msgstr[2] "kredditů"
 
-#: r2/lib/strings.py:267
+#: r2/lib/strings.py:274
 msgid "reader"
 msgid_plural "readers"
 msgstr[0] "čtenář"
 msgstr[1] "čtenáři"
 msgstr[2] "čtenářů"
 
-#: r2/lib/strings.py:268
+#: r2/lib/strings.py:275
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "odběratel"
 msgstr[1] "odběratelé"
 msgstr[2] "odběratelů"
 
-#: r2/lib/strings.py:269 r2/templates/subreddit.html:81
+#: r2/lib/strings.py:276 r2/templates/subreddit.html:81
 #: r2/templates/subreddit.html:82
 msgid "approved submitter"
 msgid_plural "approved submitters"
@@ -2156,339 +2254,346 @@ msgstr[0] "schválený předkladatel"
 msgstr[1] "schválení předkladatelé"
 msgstr[2] "schválených předkladatelů"
 
-#: r2/lib/strings.py:270 r2/templates/subreddit.html:75
+#: r2/lib/strings.py:277 r2/templates/subreddit.html:75
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "moderátor"
 msgstr[1] "moderátoři"
 msgstr[2] "moderátorů"
 
-#: r2/lib/strings.py:273
+#: r2/lib/strings.py:278
+msgid "user here now"
+msgid_plural "users here now"
+msgstr[0] "uživatel přítomen"
+msgstr[1] "uživatelé přítomni"
+msgstr[2] "uživatelů přítomno"
+
+#: r2/lib/strings.py:281
 msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] "milisekunda"
 msgstr[1] "milisekundy"
 msgstr[2] "milisekund"
 
-#: r2/lib/strings.py:274 r2/templates/searchbar.html:39
+#: r2/lib/strings.py:282 r2/templates/searchbar.html:39
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "vteřinu"
 msgstr[1] "vteřiny"
 msgstr[2] "vteřin"
 
-#: r2/lib/strings.py:275
+#: r2/lib/strings.py:283
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minutou"
 msgstr[1] "minutami"
 msgstr[2] "minutami"
 
-#: r2/lib/strings.py:276
+#: r2/lib/strings.py:284
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "hodinou"
 msgstr[1] "hodinami"
 msgstr[2] "hodinami"
 
-#: r2/lib/strings.py:278
+#: r2/lib/strings.py:286
 msgid "month"
 msgid_plural "months"
 msgstr[0] "měsíc"
 msgstr[1] "měsíce"
 msgstr[2] "měsíců"
 
-#: r2/lib/strings.py:279
+#: r2/lib/strings.py:287
 msgid "year"
 msgid_plural "years"
 msgstr[0] "rok"
 msgstr[1] "roky"
 msgstr[2] "roky"
 
-#: r2/lib/template_helpers.py:140
+#: r2/lib/template_helpers.py:138
 msgid "fetching title..."
 msgstr "získávání názvu..."
 
-#: r2/lib/template_helpers.py:142
+#: r2/lib/template_helpers.py:140
 msgid "loading..."
 msgstr "načítání..."
 
-#: r2/lib/template_helpers.py:186
+#: r2/lib/template_helpers.py:184
 msgid "comment {verb}"
 msgstr "komentovat"
 
-#: r2/lib/template_helpers.py:463 r2/models/builder.py:147
+#: r2/lib/template_helpers.py:461 r2/models/builder.py:147
 msgid "friend"
 msgstr "přítel"
 
-#: r2/lib/template_helpers.py:470
+#: r2/lib/template_helpers.py:468
 msgid "submitter"
 msgstr "předkladatel"
 
-#: r2/lib/template_helpers.py:484
+#: r2/lib/template_helpers.py:482
 msgid "reddit admin, speaking officially"
 msgstr "správce redditu, oficiální výrok"
 
-#: r2/lib/pages/pages.py:77
+#: r2/lib/pages/pages.py:78
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:232
+#: r2/lib/pages/pages.py:233
 msgid "moderation tools"
 msgstr "nástroje moderátora"
 
-#: r2/lib/pages/pages.py:270
+#: r2/lib/pages/pages.py:271
 msgid "these subreddits"
 msgstr "tyto podredity"
 
-#: r2/lib/pages/pages.py:285
+#: r2/lib/pages/pages.py:286
 msgid "Submit a link"
 msgstr "Předložit odkaz"
 
-#: r2/lib/pages/pages.py:304
+#: r2/lib/pages/pages.py:305
 msgid "Create your own community"
 msgstr "Vytvořte si svoji komunitu"
 
-#: r2/lib/pages/pages.py:319
+#: r2/lib/pages/pages.py:320
 msgid "moderators"
 msgstr "moderátoři"
 
-#: r2/lib/pages/pages.py:330
+#: r2/lib/pages/pages.py:331
 msgid "Recently viewed links"
 msgstr "Nedávno zobrazené odkazy"
 
-#: r2/lib/pages/pages.py:477
+#: r2/lib/pages/pages.py:478
 msgid "FAQ"
 msgstr "dotazy"
 
-#: r2/lib/pages/pages.py:478
+#: r2/lib/pages/pages.py:479
 msgid "reddiquette"
 msgstr "reddiketa"
 
-#: r2/lib/pages/pages.py:488
+#: r2/lib/pages/pages.py:489
 msgid "firefox extension"
 msgstr "rozšíření firefox"
 
-#: r2/lib/pages/pages.py:489
+#: r2/lib/pages/pages.py:490
 msgid "chrome extension"
 msgstr "rozšíření chrome"
 
-#: r2/lib/pages/pages.py:493
+#: r2/lib/pages/pages.py:494
 msgid "tools"
 msgstr "nástroje"
 
-#: r2/lib/pages/pages.py:500
+#: r2/lib/pages/pages.py:501
 msgid "redditgifts"
 msgstr "redditdárky"
 
-#: r2/lib/pages/pages.py:501
+#: r2/lib/pages/pages.py:502
 msgid "reddit.tv"
 msgstr "reddit.tv"
 
-#: r2/lib/pages/pages.py:502
+#: r2/lib/pages/pages.py:503
 msgid "radio reddit"
 msgstr "rádio reddit"
 
-#: r2/lib/pages/pages.py:504
+#: r2/lib/pages/pages.py:505
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:695
+#: r2/lib/pages/pages.py:709
 #, python-format
 msgid "%(site)s mail"
 msgstr "pošta %(site)s"
 
-#: r2/lib/pages/pages.py:762 r2/templates/redditheader.html:72
+#: r2/lib/pages/pages.py:776 r2/templates/redditheader.html:72
 msgid "login or register"
 msgstr "přihlašte se nebo zaregistrujte"
 
-#: r2/lib/pages/pages.py:820
+#: r2/lib/pages/pages.py:836
 msgid "request for permission"
 msgstr "zažádat o oprávnění"
 
-#: r2/lib/pages/pages.py:852
+#: r2/lib/pages/pages.py:868
 msgid "bummer"
 msgstr "smůla"
 
-#: r2/lib/pages/pages.py:864
+#: r2/lib/pages/pages.py:880
 msgid "this page is no longer available due to a copyright claim."
 msgstr "tato stránka již není dostupná z důvodu nároku autorských práv."
 
-#: r2/lib/pages/pages.py:1139
+#: r2/lib/pages/pages.py:1155
 msgid "subreddit settings"
 msgstr "nastavení podredditu"
 
-#: r2/lib/pages/pages.py:1140
+#: r2/lib/pages/pages.py:1156
 #, python-format
 msgid "about %(site)s"
 msgstr "o %(site)s"
 
-#: r2/lib/pages/pages.py:1166
-msgid "search reddits"
-msgstr "hledat v redditech"
+#: r2/lib/pages/pages.py:1182
+msgid "search subreddits by name"
+msgstr "hledat podreddity podle názvu"
 
-#: r2/lib/pages/pages.py:1197
+#: r2/lib/pages/pages.py:1216
 #, python-format
 msgid "your front page reddits (%s)"
 msgstr "reddity na vaší hlavní stránce (%s)"
 
-#: r2/lib/pages/pages.py:1266 r2/templates/createsubreddit.html:193
-#: r2/templates/spotlightlisting.html:51
+#: r2/lib/pages/pages.py:1285 r2/templates/createsubreddit.html:193
+#: r2/templates/spotlightlisting.html:55
 msgid "what's this?"
 msgstr "co je to?"
 
-#: r2/lib/pages/pages.py:1267
+#: r2/lib/pages/pages.py:1286
 msgid "trophy case"
 msgstr "vitrína s trofejemi"
 
-#: r2/lib/pages/pages.py:1315
+#: r2/lib/pages/pages.py:1334
 msgid "an unknown amount"
 msgstr "neznámé množství"
 
-#: r2/lib/pages/pages.py:1323
+#: r2/lib/pages/pages.py:1342
 msgid "less than a day"
 msgstr "méně než den"
 
-#: r2/lib/pages/pages.py:1334
+#: r2/lib/pages/pages.py:1353
 #, python-format
 msgid "buy %(user)s a month of reddit gold"
 msgstr "koupit %(user)s zlatého reddita na měsíc"
 
-#: r2/lib/pages/pages.py:1337
+#: r2/lib/pages/pages.py:1356
 msgid "renew your reddit gold"
 msgstr "obnovit vašeho zlatého reddita"
 
-#: r2/lib/pages/pages.py:1340
+#: r2/lib/pages/pages.py:1359
 msgid "treat yourself to reddit gold"
 msgstr "dopřejte si zlatého reddita"
 
-#: r2/lib/pages/pages.py:1511
+#: r2/lib/pages/pages.py:1536
 #, python-format
 msgid "raise it to %s"
 msgstr "zvýšit na %s"
 
-#: r2/lib/pages/pages.py:1513 r2/lib/pages/pages.py:1522
+#: r2/lib/pages/pages.py:1538 r2/lib/pages/pages.py:1547
 #, python-format
 msgid "%s visible"
 msgstr "%s viditelné"
 
-#: r2/lib/pages/pages.py:1520
+#: r2/lib/pages/pages.py:1545
 #, python-format
 msgid "%(bonus)s bonus reddits"
 msgstr "%(bonus)s bonusových redditů"
 
-#: r2/lib/pages/pages.py:1707
+#: r2/lib/pages/pages.py:1732
 msgid "try entering those letters again"
 msgstr "zkuste tyto písmena znovu zadat"
 
-#: r2/lib/pages/pages.py:1766
+#: r2/lib/pages/pages.py:1791
 msgid "previous search"
 msgstr "předchozí hledání"
 
-#: r2/lib/pages/pages.py:1792
+#: r2/lib/pages/pages.py:1817
 #, python-format
 msgid "%(site_title)s via %(domain)s"
 msgstr "%(site_title)s přes %(domain)s"
 
-#: r2/lib/pages/pages.py:2546
+#: r2/lib/pages/pages.py:2571
 msgid "grant flair"
 msgstr "udělit styl"
 
-#: r2/lib/pages/pages.py:2548
+#: r2/lib/pages/pages.py:2573
 msgid "user flair templates"
 msgstr "šablony stylu živatele"
 
-#: r2/lib/pages/pages.py:2550
+#: r2/lib/pages/pages.py:2575
 msgid "link flair templates"
 msgstr "šablony stylu odkazu"
 
-#: r2/lib/pages/pages.py:2800
+#: r2/lib/pages/pages.py:2825
 msgid "user"
 msgstr "uživatel"
 
-#: r2/lib/pages/pages.py:2800
+#: r2/lib/pages/pages.py:2825
 msgid "note"
 msgstr "poznámka"
 
-#: r2/lib/pages/pages.py:2800
+#: r2/lib/pages/pages.py:2825
 msgid "friendship"
 msgstr "přátelství"
 
-#: r2/lib/pages/pages.py:2806
+#: r2/lib/pages/pages.py:2831
 msgid "add a friend"
 msgstr "přidat kamaráda"
 
-#: r2/lib/pages/pages.py:2810
+#: r2/lib/pages/pages.py:2835
 msgid "your friends"
 msgstr "vaši kamarádi"
 
-#: r2/lib/pages/pages.py:2838
+#: r2/lib/pages/pages.py:2863
 msgid "blocked users"
 msgstr "blokovaní uživatelé"
 
-#: r2/lib/pages/pages.py:2854
+#: r2/lib/pages/pages.py:2879
 msgid "add approved submitter"
 msgstr "přidat schváleného předkladatele"
 
-#: r2/lib/pages/pages.py:2858
+#: r2/lib/pages/pages.py:2883
 #, python-format
 msgid "approved submitters for %(reddit)s"
 msgstr "schválení předkladatelé pro %(reddit)s"
 
-#: r2/lib/pages/pages.py:2871 r2/templates/subredditinfobar.html:53
+#: r2/lib/pages/pages.py:2896 r2/templates/subredditinfobar.html:56
 msgid "leave"
 msgstr "vynechat"
 
-#: r2/lib/pages/pages.py:2872
+#: r2/lib/pages/pages.py:2897
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
 msgstr "jste moderátorem tohoto podredditu. %(action)s"
 
-#: r2/lib/pages/pages.py:2873
+#: r2/lib/pages/pages.py:2898
 msgid "stop being a moderator?"
 msgstr "přestat být moderátorem?"
 
-#: r2/lib/pages/pages.py:2874
+#: r2/lib/pages/pages.py:2899
 msgid "you are no longer a moderator"
 msgstr "již nejste moderátorem"
 
-#: r2/lib/pages/pages.py:2878 r2/models/modaction.py:60
+#: r2/lib/pages/pages.py:2903 r2/models/modaction.py:60
 msgid "add moderator"
 msgstr "přidat moderátora"
 
-#: r2/lib/pages/pages.py:2882
+#: r2/lib/pages/pages.py:2907
 #, python-format
 msgid "moderators of %(reddit)s"
 msgstr "moderátoři %(reddit)s"
 
-#: r2/lib/pages/pages.py:2908
+#: r2/lib/pages/pages.py:2933
 msgid "banned users"
 msgstr "zakázaní uživatelé"
 
-#: r2/lib/pages/pages.py:3432
+#: r2/lib/pages/pages.py:3459
 #, python-format
 msgid "cost per 1k impressions ($%(avg).2f average)"
 msgstr "poplatek za 1 tisíc zobrazení (průměrně $%(avg).2f)"
 
-#: r2/lib/pages/pages.py:3433
+#: r2/lib/pages/pages.py:3460
 #, python-format
 msgid "cost per click ($%(avg).2f average)"
 msgstr "poplatek za kliknutí (průměrně $%(avg).2f)"
 
-#: r2/lib/pages/pages.py:3440
+#: r2/lib/pages/pages.py:3467
 msgid "historical performance"
 msgstr "dosavadní výsledky"
 
-#: r2/lib/pages/pages.py:3444
+#: r2/lib/pages/pages.py:3471
 msgid "CPM"
 msgstr "PZZ"
 
-#: r2/lib/pages/pages.py:3447
+#: r2/lib/pages/pages.py:3474
 msgid "CPC"
 msgstr "PZK"
 
-#: r2/lib/pages/pages.py:3589 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:3616 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "aktivita účtu"
 
@@ -2605,11 +2710,11 @@ msgstr "sdílet přenosy"
 msgid "current viewers"
 msgstr "současní prohlížející"
 
-#: r2/models/account.py:208
+#: r2/models/account.py:210
 msgid "ancient history"
 msgstr "dávná historie"
 
-#: r2/models/account.py:209
+#: r2/models/account.py:211
 msgid "really obscure karma from before it was cool to track per-subreddit"
 msgstr "opravdu nejasná karma z doby předtím, než bylo hustý ji sledovat za podreddit"
 
@@ -2845,7 +2950,7 @@ msgstr "rozlišit"
 msgid "mark nsfw"
 msgstr "označit jako nad18"
 
-#: r2/models/modaction.py:69 r2/templates/subredditinfobar.html:91
+#: r2/models/modaction.py:69 r2/templates/subredditinfobar.html:94
 #: r2/templates/subscriptionbox.html:62
 msgid "banned"
 msgstr "zakázáno"
@@ -2864,7 +2969,7 @@ msgstr "odstraněno"
 #: r2/models/modaction.py:72 r2/models/modaction.py:74
 #: r2/templates/printablebuttons.html:55
 #: r2/templates/printablebuttons.html:158
-#: r2/templates/subredditinfobar.html:83
+#: r2/templates/subredditinfobar.html:86
 msgid "approved"
 msgstr "schváleno"
 
@@ -2925,11 +3030,12 @@ msgid "removed self"
 msgstr "odstranili jste sebe"
 
 #: r2/models/modaction.py:94 r2/templates/createsubreddit.html:56
-#: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:258
+#: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:259
 msgid "title"
 msgstr "název"
 
 #: r2/models/modaction.py:95 r2/templates/createsubreddit.html:68
+#: r2/templates/prefapps.html:102 r2/templates/prefapps.html:235
 msgid "description"
 msgstr "popis"
 
@@ -3042,7 +3148,8 @@ msgstr "smazat šablonu stylu"
 msgid "clear flair templates"
 msgstr "vyčistit šablony stylu"
 
-#: r2/models/modaction.py:125 r2/templates/printablebuttons.html:48
+#: r2/models/modaction.py:125 r2/templates/prefapps.html:42
+#: r2/templates/printablebuttons.html:48
 #: r2/templates/printablebuttons.html:139 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67 r2/templates/usertableitem.html:55
 msgid "remove"
@@ -3057,7 +3164,7 @@ msgstr "od"
 msgid "on"
 msgstr "ve"
 
-#: r2/models/subreddit.py:1039
+#: r2/models/subreddit.py:1064
 msgid "on reddit.com"
 msgstr "na reddit.com"
 
@@ -3302,7 +3409,7 @@ msgstr "[smazáno]"
 
 #: r2/templates/comment.html:111 r2/templates/comment.htmllite:46
 #: r2/templates/commentvisitsbox.html:38 r2/templates/useriphistory.html:51
-#: r2/templates/utils.html:560
+#: r2/templates/utils.html:598
 msgid "ago"
 msgstr "před"
 
@@ -3335,7 +3442,8 @@ msgstr "žádné zvýrazňování"
 msgid "no spaces, e.g., slashdot"
 msgstr "bez mezer, např. tečkalomeno"
 
-#: r2/templates/createsubreddit.html:42
+#: r2/templates/createsubreddit.html:42 r2/templates/prefapps.html:95
+#: r2/templates/prefapps.html:228
 msgid "name"
 msgstr "název"
 
@@ -3446,7 +3554,7 @@ msgid ""
 "access your reddit through your domain."
 msgstr "Vlastníte doménu?  Zadejte ji zde a pak u Vašeho poskytovatele DNS přidejte záznam CNAME ukazující rhs.reddit.com z odkazu Vaší domény. Pak budete mít přístup na reddit z Vaší domény."
 
-#: r2/templates/createsubreddit.html:205 r2/templates/promotelinkform.html:298
+#: r2/templates/createsubreddit.html:205 r2/templates/promotelinkform.html:299
 msgid "look and feel"
 msgstr "vzhled"
 
@@ -3479,7 +3587,7 @@ msgid "upload sponsorship image"
 msgstr "nahrát sponzorský obrázek "
 
 #: r2/templates/createsubreddit.html:307 r2/templates/flairpane.html:88
-#: r2/templates/prefoptions.html:324 r2/templates/promotelinkform.html:396
+#: r2/templates/prefoptions.html:324 r2/templates/promotelinkform.html:397
 msgid "save options"
 msgstr "uložit nastavení"
 
@@ -3487,7 +3595,7 @@ msgstr "uložit nastavení"
 msgid "reddit this ad"
 msgstr "redditovat tuto reklamu"
 
-#: r2/templates/errorpage.html:38
+#: r2/templates/errorpage.html:41
 #, python-format
 msgid "a message from the moderators of /r/%s"
 msgstr "zpráva od moderátorů /r/%s"
@@ -3546,7 +3654,7 @@ msgid "prev"
 msgstr "předchozí"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
-#: r2/templates/promotelinkform.html:399 r2/templates/tablelisting.html:59
+#: r2/templates/promotelinkform.html:400 r2/templates/tablelisting.html:59
 msgid "next"
 msgstr "další"
 
@@ -3650,7 +3758,7 @@ msgstr "skrýt url"
 msgid "load a random link"
 msgstr "načíst náhodný odkaz"
 
-#: r2/templates/frametoolbar.html:81
+#: r2/templates/frametoolbar.html:81 r2/templates/interestbar.html:40
 msgid "serendipity"
 msgstr "serendipita"
 
@@ -3813,6 +3921,26 @@ msgstr "PayPal"
 msgid ""
 "Note: Google Checkout does not support ongoing subscriptions at this time."
 msgstr "Poznámka: Google Checkout v tuto chvíli průběžné předplatné nepodporuje."
+
+#: r2/templates/interestbar.html:27
+#, python-format
+msgid "ready for something new? %s subscribe %s to some new subreddits."
+msgstr "připraveni na něco nového? %s přihlašte se %s k odběru nových podredditů."
+
+#: r2/templates/interestbar.html:29
+#, python-format
+msgid ""
+"it looks like you haven't %s subscribed %s to any subreddits yet. want some "
+"ideas?"
+msgstr "vypadá to, že zatím žádné podreddity %s neodebíráte %s. chcete poradit?"
+
+#: r2/templates/interestbar.html:35
+msgid "what are you interested in?"
+msgstr "co vás zajímá?"
+
+#: r2/templates/interestbar.html:37
+msgid "try these:"
+msgstr "zkuste tyto:"
 
 #: r2/templates/languagetrafficsummary.html:27
 msgid "language traffic statistics"
@@ -4009,7 +4137,7 @@ msgstr "reddit"
 msgid "submit to %(sr)s"
 msgstr "poslat do %(sr)s"
 
-#: r2/templates/newlink.html:70 r2/templates/promotelinkform.html:270
+#: r2/templates/newlink.html:70 r2/templates/promotelinkform.html:271
 msgid "url"
 msgstr "url"
 
@@ -4031,28 +4159,33 @@ msgstr "text"
 msgid "choose a subreddit"
 msgstr "zvolte podreddit"
 
-#: r2/templates/oauth2authorization.html:30
+#: r2/templates/oauth2authorization.html:41
 #, python-format
 msgid ""
 "#[%(app_name)s](%(app_about_url)s) requests to connect with your reddit "
 "account."
 msgstr "Pč. [%(app_name)s](%(app_about_url)s) žádá o připojení do Vašeho účtu reddit."
 
-#: r2/templates/oauth2authorization.html:32
+#: r2/templates/oauth2authorization.html:44
+#, python-format
+msgid "#%(app_name)s requests to connect with your reddit account."
+msgstr "#%(app_name)s se chce připojit k vašemu účtu reddit."
+
+#: r2/templates/oauth2authorization.html:47
 #, python-format
 msgid "Allow %(app_name)s to:"
 msgstr "Povolit %(app_name)s aby:"
 
-#: r2/templates/oauth2authorization.html:36
+#: r2/templates/oauth2authorization.html:53
 #, python-format
 msgid "%(app_name)s will not be able to access your reddit password."
 msgstr "%(app_name)s nebude moci přistoupit k vašemu heslu reddit."
 
-#: r2/templates/oauth2authorization.html:44
+#: r2/templates/oauth2authorization.html:61
 msgid "Allow"
 msgstr "Povolit"
 
-#: r2/templates/oauth2authorization.html:45
+#: r2/templates/oauth2authorization.html:62
 msgid "Decline"
 msgstr "Zamítnout"
 
@@ -4074,12 +4207,14 @@ msgid ""
 msgstr "Chtěli byste, aby adresa %(email)s už od nás nedostávala emaily?"
 
 #: r2/templates/optout.html:37 r2/templates/optout.html:53
-#: r2/templates/printablebuttons.html:418
+#: r2/templates/printablebuttons.html:405
+#: r2/templates/printablebuttons.html:438
 msgid "yes"
 msgstr "ano"
 
 #: r2/templates/optout.html:40 r2/templates/optout.html:56
-#: r2/templates/printablebuttons.html:421
+#: r2/templates/printablebuttons.html:407
+#: r2/templates/printablebuttons.html:441
 msgid "no"
 msgstr "ne"
 
@@ -4128,7 +4263,7 @@ msgstr "(vyžadováno)"
 #: r2/templates/passwordverificationform.html:47 r2/templates/prefotp.html:43
 #: r2/templates/prefotp.html:72
 msgid "one-time password"
-msgstr ""
+msgstr "jednorázové heslo"
 
 #: r2/templates/passwordverificationform.html:63
 msgid "remember this computer"
@@ -4229,7 +4364,8 @@ msgstr "(3 nebo 4 číslice)"
 msgid "authorize payment"
 msgstr "schválit platbu"
 
-#: r2/templates/paymentform.html:185 r2/templates/printablebuttons.html:174
+#: r2/templates/paymentform.html:185 r2/templates/prefapps.html:53
+#: r2/templates/printablebuttons.html:174
 #: r2/templates/printablebuttons.html:208
 #: r2/templates/printablebuttons.html:304 r2/templates/wrappeduser.html:57
 msgid "edit"
@@ -4242,6 +4378,82 @@ msgstr "prohlížíte si vlákno jednoho komentáře"
 #: r2/templates/permalinkmessage.html:26
 msgid "view the rest of the comments"
 msgstr "zobrazit zbytek komentářů"
+
+#: r2/templates/prefapps.html:40
+msgid "(that's you!)"
+msgstr "(to jste vy!)"
+
+#: r2/templates/prefapps.html:86
+msgid "updating..."
+msgstr "aktualizování…"
+
+#: r2/templates/prefapps.html:91
+msgid "secret"
+msgstr "tajné"
+
+#: r2/templates/prefapps.html:108 r2/templates/prefapps.html:241
+msgid "about url"
+msgstr "adresa o aplikaci"
+
+#: r2/templates/prefapps.html:115 r2/templates/prefapps.html:248
+msgid "redirect uri"
+msgstr "adresa pro přesměrování"
+
+#: r2/templates/prefapps.html:124
+msgid "update app"
+msgstr "aktualizovat aplikaci"
+
+#: r2/templates/prefapps.html:131
+msgid "developers"
+msgstr "vývojáři"
+
+#: r2/templates/prefapps.html:141
+msgid "adding..."
+msgstr "přidávání…"
+
+#: r2/templates/prefapps.html:144
+msgid "add developer"
+msgstr "přidat vývojáře"
+
+#: r2/templates/prefapps.html:158
+msgid "delete app"
+msgstr "smazat aplikaci"
+
+#: r2/templates/prefapps.html:169
+msgid "authorized applications"
+msgstr "povolené aplikace"
+
+#: r2/templates/prefapps.html:193
+msgid "revoke access"
+msgstr "zrušit přístup"
+
+#: r2/templates/prefapps.html:194
+msgid "revoked"
+msgstr "zrušeno"
+
+#: r2/templates/prefapps.html:205
+msgid "developed applications"
+msgstr "vyvinuté aplikace"
+
+#: r2/templates/prefapps.html:217
+msgid "create another app..."
+msgstr "vytvořit další aplikaci…"
+
+#: r2/templates/prefapps.html:219
+msgid "are you a developer? create an app..."
+msgstr "jste vývojář? vytvořte aplikaci…"
+
+#: r2/templates/prefapps.html:223
+msgid "creating..."
+msgstr "vytváření…"
+
+#: r2/templates/prefapps.html:224
+msgid "create application"
+msgstr "vytvořit aplikaci"
+
+#: r2/templates/prefapps.html:256
+msgid "create app"
+msgstr "vytvořit aplikaci"
 
 #: r2/templates/prefdelete.html:29
 msgid "delete your reddit account"
@@ -4374,7 +4586,7 @@ msgstr "volby klikání"
 msgid "display links with a reddit toolbar"
 msgstr "zobrazit odkazy pomocí panelu nástrojů reddit"
 
-#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:353
+#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:354
 msgid "media"
 msgstr "média"
 
@@ -4848,11 +5060,12 @@ msgstr "blokováno"
 msgid "mark unread"
 msgstr "označit jako nepřečtené"
 
-#: r2/templates/printablebuttons.html:400
+#: r2/templates/printablebuttons.html:403
+#: r2/templates/printablebuttons.html:420
 msgid "are you sure?"
 msgstr "jste si jisti?"
 
-#: r2/templates/printablebuttons.html:496
+#: r2/templates/printablebuttons.html:515
 msgid "toggle"
 msgstr "přepnout"
 
@@ -4976,31 +5189,31 @@ msgstr "upravit propagaci"
 msgid "campaign dashboard"
 msgstr "nástěnka kampaně"
 
-#: r2/templates/promotelinkform.html:301
+#: r2/templates/promotelinkform.html:302
 msgid "upload header image:"
 msgstr "nahrát obrázek hlavičky:"
 
-#: r2/templates/promotelinkform.html:330
+#: r2/templates/promotelinkform.html:331
 msgid "disable comments"
 msgstr "zakázat komentáře"
 
-#: r2/templates/promotelinkform.html:362
+#: r2/templates/promotelinkform.html:363
 msgid "width"
 msgstr "šířka"
 
-#: r2/templates/promotelinkform.html:370
+#: r2/templates/promotelinkform.html:371
 msgid "height"
 msgstr "výška"
 
-#: r2/templates/promotelinkform.html:415 r2/templates/promotelinkform.html:496
+#: r2/templates/promotelinkform.html:416 r2/templates/promotelinkform.html:497
 msgid "promotion history"
 msgstr "historie propagací"
 
-#: r2/templates/promotelinkform.html:461
+#: r2/templates/promotelinkform.html:462
 msgid "bidding history"
 msgstr "historie nabídek"
 
-#: r2/templates/reddit.html:163 r2/templates/reddit.html:175
+#: r2/templates/reddit.html:161 r2/templates/reddit.html:173
 msgid "close this window"
 msgstr "zavřít toto okno"
 
@@ -5076,7 +5289,7 @@ msgstr "děkujeme za vaši zpětnou vazbu!"
 msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "dotaz převeden na syntaxi %(syntax)s: %(converted)s"
 
-#: r2/templates/searchbar.html:77
+#: r2/templates/searchbar.html:79
 msgid "too many results? narrow it down to a subreddit!"
 msgstr "příliš mnoho výsledků? zužte je na podreddit!"
 
@@ -5156,56 +5369,57 @@ msgstr "%(user)s from http://%(site)s/ s vámi sdílel odkaz"
 msgid "top subreddits"
 msgstr "nejlepší podreddity"
 
-#: r2/templates/spotlightlisting.html:58
+#: r2/templates/spotlightlisting.html:60
 #, python-format
 msgid ""
 "This sponsored link is an advertisement generated with our "
 "%(self_serve_advertisement_tool)s."
 msgstr "Tento sponzorovaný odkaz je reklama vytvořená naším %(self_serve_advertisement_tool)s."
 
-#: r2/templates/spotlightlisting.html:59
+#: r2/templates/spotlightlisting.html:61
 msgid "self-serve advertisement tool"
 msgstr "nástroj samoobslužné reklamy"
 
-#: r2/templates/spotlightlisting.html:64
+#: r2/templates/spotlightlisting.html:66
 #, python-format
 msgid ""
 "Use of this tool is open to all members of reddit.com, and for as little as "
 "$20 you can advertise in this area. %(get_started)s"
 msgstr "Použití tohoto nástroje je otevřené pro všechny členy reddit.com a za pouhých 20$ můžete mít v této oblasti reklamu. %(get_started)s"
 
-#: r2/templates/spotlightlisting.html:65
+#: r2/templates/spotlightlisting.html:67
 msgid "Get started &rsaquo;"
 msgstr "Tak do toho &rsaquo;"
 
-#: r2/templates/spotlightlisting.html:69 r2/templates/spotlightlisting.html:87
-msgid "close help"
-msgstr "zavřít nápovědu"
-
-#: r2/templates/spotlightlisting.html:75
+#: r2/templates/spotlightlisting.html:73
 msgid ""
 "This area shows new and upcoming links. Vote on links here to help them "
 "become popular, and click the forwards and backwards buttons to view more. "
 msgstr "Tato oblast zobrazuje nové a připravované odkazy. Hlasujte pro odkazy, aby se stali oblíbenějšími a klikněte na tlačítka dopředu a dozadu pro zobrazení dalších. "
 
-#: r2/templates/spotlightlisting.html:80
+#: r2/templates/spotlightlisting.html:78
 msgid "here"
 msgstr "zde"
 
-#: r2/templates/spotlightlisting.html:80
+#: r2/templates/spotlightlisting.html:78
 msgid "This element has been disabled."
 msgstr "Tento prvek byl zakázán."
 
-#: r2/templates/spotlightlisting.html:82
+#: r2/templates/spotlightlisting.html:80
 #, python-format
 msgid "Click %(here)s to disable this feature."
 msgstr "Klikněte %(here)s pro zákaz této funkce."
 
-#: r2/templates/spotlightlisting.html:94
+#: r2/templates/spotlightlisting.html:86
 msgid ""
-"The new link area will no longer appear for you. To re-enable it, visit your"
-" preferences."
-msgstr "Nový odkaz Vám již nebude zobrazen. Abyste ho znovu zobrazili, navštivte Vaše nastavení."
+"Enter a keyword or topic to discover new subreddits around your interests. "
+"Be specific!"
+msgstr "Zadejte klíčové slovo nebo téma pro objevení nových podredditů podle vašich zájmů. Buďte konkrétní!"
+
+#: r2/templates/spotlightlisting.html:89
+#, python-format
+msgid "You can access this tool at any time on the %(reddits)s page."
+msgstr "K tomuto nástroji můžete přistupovat kdykoliv ze stránek %(reddits)s."
 
 #: r2/templates/subreddit.html:59
 #, python-format
@@ -5224,37 +5438,41 @@ msgstr "neschváleno"
 msgid "over18"
 msgstr "přes18"
 
-#: r2/templates/subredditinfobar.html:46
+#: r2/templates/subredditinfobar.html:39
+msgid "logged-in users viewing this subreddit in the past 15 minutes"
+msgstr "přihlášení uživatelé, kteří si prohlédli tento poddreddit za posledních 15 minut"
+
+#: r2/templates/subredditinfobar.html:49
 msgid "change"
 msgstr "změnit"
 
-#: r2/templates/subredditinfobar.html:54
+#: r2/templates/subredditinfobar.html:57
 msgid "you are no longer an approved submitter"
 msgstr "již nejste schváleným předkladatelem"
 
-#: r2/templates/subredditinfobar.html:55
+#: r2/templates/subredditinfobar.html:58
 msgid "stop being an approved submitter?"
 msgstr "přestat být schváleným předkladatelem?"
 
-#: r2/templates/subredditinfobar.html:56
+#: r2/templates/subredditinfobar.html:59
 #, python-format
 msgid "you are an approved submitter on this reddit. (%(leave)s)"
 msgstr "jste schváleným předkladatelem tohoto redditu. (%(leave)s)"
 
-#: r2/templates/subredditinfobar.html:72
+#: r2/templates/subredditinfobar.html:75
 #, python-format
 msgid "created by&#32;%(user)s"
 msgstr "vytvořil &#32;%(user)s"
 
-#: r2/templates/subredditinfobar.html:76
+#: r2/templates/subredditinfobar.html:79
 msgid "a community for"
 msgstr "komunitou již"
 
-#: r2/templates/subredditinfobar.html:82
+#: r2/templates/subredditinfobar.html:85
 msgid "approve this reddit"
 msgstr "schválit tento reddit"
 
-#: r2/templates/subredditinfobar.html:90
+#: r2/templates/subredditinfobar.html:93
 msgid "ban this reddit"
 msgstr "zakázat tento reddit"
 
@@ -5462,23 +5680,23 @@ msgstr "všechny jazyky"
 msgid "some languages"
 msgstr "některé jazyky"
 
-#: r2/templates/utils.html:289
-msgid "Type: "
-msgstr "Typ: "
-
-#: r2/templates/utils.html:299
-msgid "uploading"
-msgstr "nahrávání"
-
-#: r2/templates/utils.html:301
+#: r2/templates/utils.html:278 r2/templates/utils.html:339
 msgid "upload"
 msgstr "nahrát"
 
-#: r2/templates/utils.html:511
+#: r2/templates/utils.html:327
+msgid "Type: "
+msgstr "Typ: "
+
+#: r2/templates/utils.html:337
+msgid "uploading"
+msgstr "nahrávání"
+
+#: r2/templates/utils.html:549
 msgid "popular choices"
 msgstr "oblíbené volby"
 
-#: r2/templates/utils.html:560
+#: r2/templates/utils.html:598
 msgid "last edited"
 msgstr "naposledy upraveno"
 
