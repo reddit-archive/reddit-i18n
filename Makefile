@@ -42,10 +42,13 @@ clean:
 tx_pull:
 	tx pull --minimum-perc=10 --mode=reviewed
 
+tx_push:
+	tx push -s
+
 fix_metadata:
 	for lang in $(PO_FILES); do \
 	python revert_display_name.py `dirname $$lang`; \
 	done
 	./check_disp_name.sh
 
-.PHONY: all
+.PHONY: all tx_pull tx_push fix_metadata clean
