@@ -35,7 +35,7 @@ $(MO_FILES): %.mo : %.po
 	msgfmt $< -o $@
 
 clean:
-	rm -f $(MO_FILES) $(DATA_FILES)
+	rm -f $(MO_FILES) $(DATA_FILES) summary.csv
 
 # Utility commands
 
@@ -51,4 +51,10 @@ fix_metadata:
 	done
 	./check_disp_name.sh
 
-.PHONY: all tx_pull tx_push fix_metadata clean
+summary.csv: $(PO_FILES)
+	python gendata.py --csv --header > summary.csv
+	for lang in $(PO_FILES); do \
+		python gendata.py --csv $$lang >> summary.csv; \
+	done
+
+.PHONY: all fix_metadata tx_pull tx_push clean
