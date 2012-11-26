@@ -7,7 +7,9 @@
 #   <bramdv@me.com>, 2012.
 #   <dionlieshout@gmail.com>, 2012.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#   <katrien_perdaens@hotmail.com>, 2012.
 # Keith Mitchell <kemitche@reddit.com>, 2012.
+#   <larsfrietman@hotmail.com>, 2012.
 # Martijn van B. <martijneinstein@hotmail.com>, 2012.
 #   <ph.bos@hotmail.com>, 2012.
 # Sibren duisters <sibren1993@hotmail.com>, 2012.
@@ -16,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: http://github.com/reddit/reddit-i18n/issues\n"
-"POT-Creation-Date: 2012-10-09 14:32-0700\n"
-"PO-Revision-Date: 2012-10-09 21:37+0000\n"
+"POT-Creation-Date: 2012-11-26 10:28-0800\n"
+"PO-Revision-Date: 2012-11-26 18:31+0000\n"
 "Last-Translator: Keith Mitchell <kemitche@reddit.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/reddit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -29,8 +31,8 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: r2/controllers/api.py:138 r2/controllers/api.py:2524
-#: r2/controllers/api.py:2581 r2/controllers/listingcontroller.py:513
+#: r2/controllers/api.py:138 r2/controllers/api.py:2501
+#: r2/controllers/api.py:2558 r2/controllers/listingcontroller.py:513
 msgid "API"
 msgstr "API"
 
@@ -40,143 +42,152 @@ msgstr "bedankt voor je bericht! je hoort snel van ons."
 
 #: r2/controllers/api.py:208
 msgid "your message has been delivered"
-msgstr "je bericht is verstuurd"
+msgstr "je bericht is verzonden"
 
 #: r2/controllers/api.py:406
 msgid "no title found"
 msgstr "geen titel gevonden"
 
-#: r2/controllers/api.py:676 r2/controllers/api.py:1321
-#: r2/controllers/api.py:1501 r2/controllers/api.py:1696
-#: r2/controllers/api.py:2236 r2/controllers/api.py:2271
-#: r2/controllers/api.py:2312 r2/controllers/api.py:2360
-#: r2/controllers/api.py:2434 r2/controllers/api.py:2642
-#: r2/controllers/api.py:2647 r2/controllers/api.py:2828
-#: r2/controllers/promotecontroller.py:515 r2/lib/menus.py:51
-#: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:190
+#: r2/controllers/api.py:446
+msgid "(optional) the user's email address"
+msgstr ""
+
+#: r2/controllers/api.py:691 r2/controllers/api.py:1299
+#: r2/controllers/api.py:1479 r2/controllers/api.py:1674
+#: r2/controllers/api.py:2213 r2/controllers/api.py:2248
+#: r2/controllers/api.py:2289 r2/controllers/api.py:2337
+#: r2/controllers/api.py:2411 r2/controllers/api.py:2619
+#: r2/controllers/api.py:2624 r2/controllers/api.py:2805
+#: r2/controllers/promotecontroller.py:594 r2/lib/menus.py:51
+#: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:185
+#: r2/templates/printablebuttons.html:262
 msgid "saved"
 msgstr "opgeslagen"
 
-#: r2/controllers/api.py:708
+#: r2/controllers/api.py:710
+msgid "the user's current password"
+msgstr ""
+
+#: r2/controllers/api.py:725
 msgid "all other sessions have been logged out"
 msgstr "alle andere sessies zijn uitgelogd"
 
-#: r2/controllers/api.py:755
+#: r2/controllers/api.py:773
 msgid "you should be getting a verification email shortly."
 msgstr "je zult binnenkort een verificatie-e-mail ontvangen."
 
-#: r2/controllers/api.py:757 r2/controllers/api.py:767
+#: r2/controllers/api.py:775 r2/controllers/api.py:785
 msgid "your email has been updated"
 msgstr "je e-mailadres is bijgewerkt"
 
-#: r2/controllers/api.py:776
+#: r2/controllers/api.py:794
 msgid "your email and password have been updated"
 msgstr "je e-mailadres en wachtwoord zijn bijgewerkt"
 
-#: r2/controllers/api.py:779
+#: r2/controllers/api.py:797
 msgid "your password has been updated"
 msgstr "je wachtwoord is bijgewerkt"
 
-#: r2/controllers/api.py:1087
+#: r2/controllers/api.py:1098
 msgid "replied"
 msgstr "gereageerd"
 
-#: r2/controllers/api.py:1150
+#: r2/controllers/api.py:1161
 msgid "shared"
 msgstr "gedeeld"
 
-#: r2/controllers/api.py:1153
+#: r2/controllers/api.py:1164
 msgid "your link has been shared."
 msgstr "jouw link is gedeeld."
 
-#: r2/controllers/api.py:1305
+#: r2/controllers/api.py:1281
 msgid "validation errors"
 msgstr "validatiefouten"
 
-#: r2/controllers/api.py:1330
+#: r2/controllers/api.py:1308
 msgid "conflict error"
-msgstr ""
+msgstr "conflictfout"
 
-#: r2/controllers/api.py:1331
+#: r2/controllers/api.py:1309
 msgid "There was a conflict while editing the stylesheet"
-msgstr ""
+msgstr "Er is een conflict opgetreden bij het bewerken van de stylesheet"
 
-#: r2/controllers/api.py:1417 r2/controllers/api.py:2320 r2/lib/menus.py:168
+#: r2/controllers/api.py:1395 r2/controllers/api.py:2297 r2/lib/menus.py:167
 #: r2/templates/printablebuttons.html:33
 #: r2/templates/subredditstylesheet.html:277
 msgid "deleted"
 msgstr "verwijderd"
 
-#: r2/controllers/api.py:1469 r2/templates/subredditstylesheet.html:230
+#: r2/controllers/api.py:1447 r2/templates/subredditstylesheet.html:230
 msgid "bad image name"
 msgstr "ongeldige afbeeldingsnaam"
 
-#: r2/controllers/api.py:1473
+#: r2/controllers/api.py:1451
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "te veel afbeeldingen (je krijgt er maar %d )"
 
-#: r2/controllers/api.py:1481
+#: r2/controllers/api.py:1459
 msgid "Invalid image or general image error"
 msgstr "ongeldige afbeelding of afbeeldingsfout"
 
-#: r2/controllers/api.py:1594
+#: r2/controllers/api.py:1572
 msgid "Sidebar was not saved"
-msgstr ""
+msgstr "Zijbalk is niet opgeslagen"
 
-#: r2/controllers/api.py:1603
+#: r2/controllers/api.py:1581
 msgid "Description was not saved"
-msgstr ""
+msgstr "Beschrijving is niet opgeslagen"
 
-#: r2/controllers/api.py:2130
+#: r2/controllers/api.py:2107
 msgid "an email will be sent to that account's address shortly"
-msgstr "er zal binnenkort een e-mail naar het e-mailadres van dat account worden verstuurd"
+msgstr "er zal binnenkort een e-mail naar het e-mailadres van dat account worden verzonden"
 
-#: r2/controllers/api.py:2132
+#: r2/controllers/api.py:2109
 msgid "try again tomorrow"
 msgstr "probeer het morgen opnieuw"
 
-#: r2/controllers/api.py:2387 r2/controllers/api.py:2602
+#: r2/controllers/api.py:2364 r2/controllers/api.py:2579
 msgid "invalid css class"
 msgstr "ongeldige css-klasse"
 
-#: r2/controllers/api.py:2390 r2/controllers/api.py:2605
+#: r2/controllers/api.py:2367 r2/controllers/api.py:2582
 msgid "too many css classes"
 msgstr "te veel css-klassen"
 
-#: r2/controllers/api.py:2622
+#: r2/controllers/api.py:2599
 msgid "max flair templates reached"
 msgstr "maximum aantal flairsjablonen bereikt"
 
-#: r2/controllers/api.py:3029
+#: r2/controllers/api.py:3006
 msgid "a name for the app"
 msgstr "een naam voor de app"
 
-#: r2/controllers/api.py:3046 r2/controllers/errors.py:98
+#: r2/controllers/api.py:3023 r2/controllers/errors.py:99
 msgid "invalid client id"
 msgstr "ongeldige client-id"
 
-#: r2/controllers/api.py:3049
+#: r2/controllers/api.py:3026
 msgid "cannot update deleted app"
 msgstr "kan een verwijderde app niet bijwerken"
 
-#: r2/controllers/api.py:3052
+#: r2/controllers/api.py:3029
 msgid "app does not belong to you"
 msgstr "app is niet van jou"
 
-#: r2/controllers/api.py:3060
+#: r2/controllers/api.py:3037
 msgid "application updated"
 msgstr "applicatie bijgewerkt"
 
-#: r2/controllers/api.py:3072
+#: r2/controllers/api.py:3049
 msgid "application created"
 msgstr "applicatie aangemaakt"
 
-#: r2/controllers/api.py:3099
+#: r2/controllers/api.py:3076
 msgid "developer added"
 msgstr "ontwikkelaar toegevoegd"
 
-#: r2/controllers/api.py:3132
+#: r2/controllers/api.py:3109
 msgid "an icon (72x72)"
 msgstr "een pictogram (72x72)"
 
@@ -188,7 +199,7 @@ msgstr "account"
 msgid "apps"
 msgstr "apps"
 
-#: r2/controllers/api_docs.py:46 r2/templates/printablebuttons.html:72
+#: r2/controllers/api_docs.py:46 r2/templates/printablebuttons.html:67
 msgid "flair"
 msgstr "flair"
 
@@ -252,7 +263,7 @@ msgstr "ja, het is goed!"
 msgid "just read this first."
 msgstr "lees dit eerst even."
 
-#: r2/controllers/embed.py:84 r2/lib/menus.py:87 r2/lib/pages/pages.py:521
+#: r2/controllers/embed.py:84 r2/lib/menus.py:87 r2/lib/pages/pages.py:535
 #: r2/templates/frametoolbar.html:108
 msgid "help"
 msgstr "help"
@@ -352,7 +363,7 @@ msgstr "ongeldig wachtwoord"
 
 #: r2/controllers/errors.py:49
 msgid "passwords do not match"
-msgstr "een reddit maken"
+msgstr "wachtwoorden komt niet overeen"
 
 #: r2/controllers/errors.py:50
 msgid "please enter a name"
@@ -374,7 +385,7 @@ msgstr "verzenden naar wie?"
 msgid "please enter a subject"
 msgstr "vul een onderwerp in"
 
-#: r2/controllers/errors.py:55 r2/templates/gold.html:144
+#: r2/controllers/errors.py:55 r2/templates/gold.html:145
 msgid "that user doesn't exist"
 msgstr "die gebruiker bestaat niet"
 
@@ -427,7 +438,7 @@ msgstr "die naam gaat niet werken"
 msgid "you are doing that too much. try again in %(time)s."
 msgstr "je doet dat te veel, probeer het over %(time)s opnieuw."
 
-#: r2/controllers/errors.py:68 r2/lib/strings.py:139
+#: r2/controllers/errors.py:68 r2/lib/strings.py:137
 msgid "You've submitted too many links recently. Please try again in an hour."
 msgstr "Je hebt de laatste tijd te veel links geplaatst. Probeer het later opnieuw."
 
@@ -530,72 +541,88 @@ msgid "invalid css name"
 msgstr "ongeldige css-naam"
 
 #: r2/controllers/errors.py:95
-msgid "invalid revision ID"
+msgid "invalid css"
 msgstr ""
 
 #: r2/controllers/errors.py:96
+msgid "invalid revision ID"
+msgstr ""
+
+#: r2/controllers/errors.py:97
 msgid "too many flair css classes"
 msgstr "te veel flair-css-klassen"
 
-#: r2/controllers/errors.py:97
+#: r2/controllers/errors.py:98
 msgid "not a valid flair target"
 msgstr "ongeldig flairdoel"
 
-#: r2/controllers/errors.py:99
+#: r2/controllers/errors.py:100
 msgid "invalid redirect_uri parameter"
 msgstr "ongeldige redirect_uri-parameter"
 
-#: r2/controllers/errors.py:100
+#: r2/controllers/errors.py:101
 msgid "invalid scope requested"
 msgstr "ongeldige scope aangevraagd"
 
-#: r2/controllers/errors.py:101
+#: r2/controllers/errors.py:102
+msgid "invalid refresh token"
+msgstr ""
+
+#: r2/controllers/errors.py:103
 msgid "access denied by the user"
 msgstr "toegang geweigerd door de gebruiker"
 
-#: r2/controllers/errors.py:102
+#: r2/controllers/errors.py:104
 msgid "please confirm the form"
 msgstr "bevestig het formulier"
 
-#: r2/controllers/errors.py:103
+#: r2/controllers/errors.py:105
 msgid "conflict error while saving"
-msgstr ""
+msgstr "conflict bij opslaan"
 
-#: r2/controllers/errors.py:104
+#: r2/controllers/errors.py:106
 msgid "cannot perform this action via the API"
 msgstr "kan deze actie niet uitvoeren via de API"
 
-#: r2/controllers/errors.py:105
+#: r2/controllers/errors.py:107
 #, python-format
 msgid "%(domain)s is not allowed on reddit: %(reason)s"
 msgstr "%(domain)s is niet toegestaan op reddit: %(reason)s"
 
-#: r2/controllers/errors.py:106
+#: r2/controllers/errors.py:108
 msgid "you must enable two-factor authentication"
 msgstr "je moet two-factor-authenticatie inschakelen"
 
-#: r2/controllers/errors.py:107
+#: r2/controllers/errors.py:109
 msgid "this feature is not supported"
 msgstr "deze functie wordt niet ondersteund"
 
-#: r2/controllers/errors.py:108
+#: r2/controllers/errors.py:110
 msgid "image problem"
 msgstr "afbeeldingprobleem"
 
-#: r2/controllers/errors.py:109
+#: r2/controllers/errors.py:111
 msgid "already added"
 msgstr "al toegevoegd"
 
-#: r2/controllers/errors.py:110
+#: r2/controllers/errors.py:112
 msgid "too many developers"
 msgstr "te veel ontwikkelaars"
 
-#: r2/controllers/errors.py:111
+#: r2/controllers/errors.py:113
 msgid "i don't believe you."
+msgstr "ik geloof je niet."
+
+#: r2/controllers/errors.py:114
+msgid "that user is already a moderator"
+msgstr "deze gebruiker is al een moderator"
+
+#: r2/controllers/errors.py:115
+msgid "you cannot edit the bid of a live ad"
 msgstr ""
 
-#: r2/controllers/errors.py:112
-msgid "that user is already a moderator"
+#: r2/controllers/errors.py:116
+msgid "that jsonp callback contains invalid characters"
 msgstr ""
 
 #: r2/controllers/front.py:151
@@ -634,72 +661,77 @@ msgstr "een reddit maken"
 msgid "create a community"
 msgstr "een community maken"
 
-#: r2/controllers/front.py:472 r2/controllers/front.py:476
-#: r2/controllers/listingcontroller.py:724
-#: r2/controllers/listingcontroller.py:733 r2/lib/menus.py:515
+#: r2/controllers/front.py:469 r2/controllers/front.py:473
+#: r2/controllers/listingcontroller.py:560
+#: r2/controllers/listingcontroller.py:746
+#: r2/controllers/listingcontroller.py:755 r2/lib/menus.py:514
 msgid "all"
 msgstr "alle"
 
-#: r2/controllers/front.py:482
+#: r2/controllers/front.py:479
 msgid "filter by action"
 msgstr "filteren op actie"
 
-#: r2/controllers/front.py:484
+#: r2/controllers/front.py:481
 msgid "filter by moderator"
 msgstr "filteren op moderator"
 
-#: r2/controllers/front.py:694 r2/lib/menus.py:153
+#: r2/controllers/front.py:685 r2/lib/menus.py:153
 msgid "awards"
 msgstr "prijzen"
 
-#: r2/controllers/front.py:727 r2/lib/menus.py:120
+#: r2/controllers/front.py:718 r2/lib/menus.py:120
 msgid "related"
 msgstr "gerelateerd"
 
-#: r2/controllers/front.py:746
+#: r2/controllers/front.py:737
 msgid "other discussions"
 msgstr "andere discussies"
 
-#: r2/controllers/front.py:767 r2/controllers/front.py:826
+#: r2/controllers/front.py:758 r2/controllers/front.py:817
 msgid "search results"
 msgstr "zoekresultaten"
 
-#: r2/controllers/front.py:888
+#: r2/controllers/front.py:879
 msgid "seen it"
 msgstr "gezien"
 
-#: r2/controllers/front.py:905 r2/lib/menus.py:86
+#: r2/controllers/front.py:896 r2/lib/menus.py:86
 #: r2/templates/newlink.html:125
 msgid "submit"
 msgstr "verzenden"
 
-#: r2/controllers/front.py:1007
+#: r2/controllers/front.py:1013
 msgid "rules of reddit"
 msgstr "regels van reddit"
 
-#: r2/controllers/front.py:1016
+#: r2/controllers/front.py:1022
 msgid ""
 "thanks for buying reddit gold! your transaction has been completed and "
 "emailed to you. you can check the details by logging into your account at:"
 msgstr ""
 
-#: r2/controllers/front.py:1022
+#: r2/controllers/front.py:1028
 msgid "claimed! enjoy your reddit gold membership."
 msgstr ""
 
-#: r2/controllers/front.py:1024
+#: r2/controllers/front.py:1030
 msgid "your gold creddits have been claimed!"
 msgstr ""
 
-#: r2/controllers/front.py:1025
+#: r2/controllers/front.py:1031
 msgid "now go to someone's userpage and give them a present!"
 msgstr ""
 
-#: r2/controllers/front.py:1040 r2/controllers/front.py:1302
+#: r2/controllers/front.py:1046 r2/controllers/front.py:1263
 msgid "thanks"
 msgstr "bedankt"
 
-#: r2/controllers/front.py:1050 r2/templates/login.html:91
+#: r2/controllers/front.py:1053
+msgid "gold"
+msgstr ""
+
+#: r2/controllers/front.py:1060 r2/templates/login.html:91
 #: r2/templates/loginformwide.html:45
 #: r2/templates/passwordverificationform.html:38
 #: r2/templates/prefdelete.html:57 r2/templates/prefotp.html:38
@@ -707,53 +739,57 @@ msgstr "bedankt"
 msgid "password"
 msgstr "wachtwoord"
 
-#: r2/controllers/front.py:1070 r2/controllers/front.py:1098
+#: r2/controllers/front.py:1080 r2/controllers/front.py:1108
 msgid "verify email"
 msgstr "e-mailadres bevestigen"
 
-#: r2/controllers/front.py:1118 r2/templates/loginformwide.html:52
+#: r2/controllers/front.py:1128 r2/templates/loginformwide.html:52
 msgid "reset password"
 msgstr "wachtwoord resetten"
 
-#: r2/controllers/front.py:1272 r2/controllers/post.py:163
+#: r2/controllers/front.py:1233 r2/controllers/post.py:163
 msgid "opt out"
 msgstr "uitschrijven"
 
-#: r2/controllers/front.py:1272 r2/controllers/post.py:173
+#: r2/controllers/front.py:1233 r2/controllers/post.py:173
 msgid "welcome back"
 msgstr "welkom terug"
 
-#: r2/controllers/front.py:1335 r2/controllers/front.py:1357
+#: r2/controllers/front.py:1311 r2/controllers/front.py:1330
 #: r2/lib/menus.py:99 r2/templates/gold.html:84
 msgid "reddit gold"
 msgstr "reddit gold"
 
-#: r2/controllers/ipn.py:263
+#: r2/controllers/ipn.py:289
 msgid "nice try."
 msgstr "leuk geprobeerd."
 
-#: r2/controllers/ipn.py:311
+#: r2/controllers/ipn.py:320
+msgid "that user has deleted their account"
+msgstr ""
+
+#: r2/controllers/ipn.py:343
 msgid "the gold has been delivered!"
 msgstr "het goud is bezorgd!"
 
-#: r2/controllers/ipn.py:481
+#: r2/controllers/ipn.py:518
 msgid "thanks for buying reddit gold!"
 msgstr "bedankt voor het kopen van reddit gold!"
 
-#: r2/controllers/ipn.py:491 r2/templates/thanks.html:32
+#: r2/controllers/ipn.py:528 r2/templates/thanks.html:32
 msgid "thanks for buying creddits!"
 msgstr "bedankt voor het kopen van creddits!"
 
-#: r2/controllers/ipn.py:492
+#: r2/controllers/ipn.py:529
 msgid ""
 "To spend them, visit [/gold](/gold) or your favorite person's userpage."
 msgstr "Om ze uit te geven, bezoek [/gold](/gold) of de gebruikerspagina van je favoriete persoon."
 
-#: r2/controllers/ipn.py:505
+#: r2/controllers/ipn.py:543
 msgid "thanks for giving reddit gold!"
 msgstr "bedankt voor het uitgeven van reddit gold!"
 
-#: r2/controllers/ipn.py:506
+#: r2/controllers/ipn.py:544
 #, python-format
 msgid "Your gift to %s has been delivered."
 msgstr "je geschenk aan %s is bezorgd"
@@ -778,78 +814,82 @@ msgstr "meest controversiële links"
 msgid "you're really bored now, eh?"
 msgstr "je zit je nu echt te vervelen, hè?"
 
-#: r2/controllers/listingcontroller.py:558
+#: r2/controllers/listingcontroller.py:566
+msgid "filter by subreddit"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:572
 #, python-format
 msgid "overview for %(user)s"
 msgstr "overzicht voor %(user)s"
 
-#: r2/controllers/listingcontroller.py:559
+#: r2/controllers/listingcontroller.py:573
 #, python-format
 msgid "comments by %(user)s"
 msgstr "reacties door %(user)s"
 
-#: r2/controllers/listingcontroller.py:560
+#: r2/controllers/listingcontroller.py:574
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "geplaatst door %(user)s"
 
-#: r2/controllers/listingcontroller.py:561
+#: r2/controllers/listingcontroller.py:575
 #, python-format
 msgid "liked by %(user)s"
 msgstr "%(user)s vindt dit leuk"
 
-#: r2/controllers/listingcontroller.py:562
+#: r2/controllers/listingcontroller.py:576
 #, python-format
 msgid "disliked by %(user)s"
 msgstr "%(user)s vindt dit niet leuk"
 
-#: r2/controllers/listingcontroller.py:563
+#: r2/controllers/listingcontroller.py:577
 #, python-format
 msgid "saved by %(user)s"
 msgstr "opgeslagen door %(user)s"
 
-#: r2/controllers/listingcontroller.py:564
+#: r2/controllers/listingcontroller.py:578
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "verborgen door %(user)s"
 
-#: r2/controllers/listingcontroller.py:565
+#: r2/controllers/listingcontroller.py:579
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "gepromoot door %(user)s"
 
-#: r2/controllers/listingcontroller.py:566
+#: r2/controllers/listingcontroller.py:580
 #, python-format
 msgid "profile for %(user)s"
 msgstr "profiel van %(user)s"
 
-#: r2/controllers/listingcontroller.py:725
-#: r2/controllers/listingcontroller.py:734
-#: r2/templates/printablebuttons.html:347
+#: r2/controllers/listingcontroller.py:747
+#: r2/controllers/listingcontroller.py:756
+#: r2/templates/printablebuttons.html:343
 msgid "unread"
 msgstr "ongelezen"
 
-#: r2/controllers/listingcontroller.py:727
+#: r2/controllers/listingcontroller.py:749
 msgid "comment replies"
 msgstr "antwoorden op reacties"
 
-#: r2/controllers/listingcontroller.py:728
+#: r2/controllers/listingcontroller.py:750
 msgid "post replies"
 msgstr "antwoorden op posts"
 
-#: r2/controllers/listingcontroller.py:741 r2/templates/redditheader.html:95
+#: r2/controllers/listingcontroller.py:763 r2/templates/redditheader.html:95
 msgid "messages"
 msgstr "berichten"
 
-#: r2/controllers/listingcontroller.py:908 r2/templates/pagenamenav.html:36
+#: r2/controllers/listingcontroller.py:930 r2/templates/pagenamenav.html:36
 msgid "reddits"
 msgstr "reddits"
 
-#: r2/controllers/listingcontroller.py:972
+#: r2/controllers/listingcontroller.py:994
 msgid "reddits: "
 msgstr "reddits:"
 
-#: r2/controllers/listingcontroller.py:1021
+#: r2/controllers/listingcontroller.py:1043
 msgid "comments"
 msgstr "reacties"
 
@@ -857,24 +897,24 @@ msgstr "reacties"
 msgid "over 18?"
 msgstr "ouder dan 18?"
 
-#: r2/controllers/promotecontroller.py:50
+#: r2/controllers/promotecontroller.py:52
 msgid "promoted by you"
 msgstr "gepromoot door jou"
 
-#: r2/controllers/promotecontroller.py:394 r2/lib/pages/pages.py:2840
-#: r2/lib/pages/pages.py:2937
+#: r2/controllers/promotecontroller.py:473 r2/lib/pages/pages.py:2750
+#: r2/lib/pages/pages.py:2847
 msgid "added"
 msgstr "toegevoegd"
 
-#: r2/controllers/promotecontroller.py:465
+#: r2/controllers/promotecontroller.py:545
 msgid "failed to authenticate card.  sorry."
 msgstr "zelfbedieningshulp"
 
-#: r2/controllers/promotecontroller.py:509
+#: r2/controllers/promotecontroller.py:588
 msgid "bad image"
 msgstr "ongeldige afbeelding"
 
-#: r2/controllers/reddit_base.py:1019
+#: r2/controllers/reddit_base.py:996
 msgid "search failed"
 msgstr "zoeken mislukt"
 
@@ -886,7 +926,7 @@ msgstr ""
 
 #: r2/controllers/wiki.py:68
 msgid "The contents of this page appear on the subreddit sidebar"
-msgstr ""
+msgstr "De inhoud van deze pagina zal verschijnen in de zijbalk van de subreddit"
 
 #: r2/controllers/wiki.py:98
 #, python-format
@@ -896,7 +936,7 @@ msgstr ""
 #: r2/controllers/wiki.py:102 r2/controllers/wiki.py:103
 #, python-format
 msgid "%s ago"
-msgstr ""
+msgstr "%s geleden"
 
 #: r2/controllers/wiki.py:104
 #, python-format
@@ -928,124 +968,152 @@ msgstr ""
 
 #: r2/controllers/wiki.py:142
 msgid "Wiki error"
-msgstr ""
+msgstr "Wiki-fout"
 
-#: r2/controllers/validator/validator.py:652
+#: r2/controllers/validator/validator.py:657
 msgid "an existing thing id"
 msgstr "id van een bestaand item"
 
-#: r2/controllers/validator/validator.py:693
+#: r2/controllers/validator/validator.py:681
+msgid "the identifier of the CAPTCHA challenge"
+msgstr ""
+
+#: r2/controllers/validator/validator.py:682
+msgid "the user's response to the CAPTCHA challenge"
+msgstr ""
+
+#: r2/controllers/validator/validator.py:704
 msgid "a modhash"
 msgstr "een modhash"
 
-#: r2/controllers/validator/validator.py:891
+#: r2/controllers/validator/validator.py:900
 msgid "id of parent thing"
 msgstr "id van parent"
 
-#: r2/controllers/validator/validator.py:1038
-#: r2/controllers/validator/validator.py:1085
+#: r2/controllers/validator/validator.py:973
+msgid "the new password"
+msgstr ""
+
+#: r2/controllers/validator/validator.py:974
+msgid "the password again (for verification)"
+msgstr ""
+
+#: r2/controllers/validator/validator.py:1010
+msgid "a valid, unused, username"
+msgstr ""
+
+#: r2/controllers/validator/validator.py:1055
+msgid "a username"
+msgstr ""
+
+#: r2/controllers/validator/validator.py:1056
+msgid "the user's password"
+msgstr ""
+
+#: r2/controllers/validator/validator.py:1064
+#: r2/controllers/validator/validator.py:1111
 msgid "a valid URL"
 msgstr "een geldige URL"
 
-#: r2/controllers/validator/validator.py:1086
+#: r2/controllers/validator/validator.py:1112
 msgid "a subreddit"
 msgstr "een subreddit"
 
-#: r2/controllers/validator/validator.py:1087
-#: r2/controllers/validator/validator.py:1176
+#: r2/controllers/validator/validator.py:1113
+#: r2/controllers/validator/validator.py:1202
 msgid "boolean value"
 msgstr "boolean-waarde"
 
-#: r2/controllers/validator/validator.py:1128
+#: r2/controllers/validator/validator.py:1154
 msgid "the name of an existing user"
 msgstr "de naam van een bestaande gebruiker"
 
-#: r2/controllers/validator/validator.py:1213
+#: r2/controllers/validator/validator.py:1239
 #, python-format
 msgid "%(min)d to any"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1215
+#: r2/controllers/validator/validator.py:1241
 #, python-format
 msgid "any to %(max)d"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1217
+#: r2/controllers/validator/validator.py:1243
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr ""
 
-#: r2/controllers/validator/validator.py:1469
+#: r2/controllers/validator/validator.py:1462
 #, python-format
 msgid "one of (%s)"
 msgstr "een van (%s)"
 
-#: r2/controllers/validator/validator.py:1723
+#: r2/controllers/validator/validator.py:1716
 msgid "destination url (must be same-domain)"
 msgstr "bestemmings-url (moet van hetzelfde domein zijn)"
 
-#: r2/controllers/validator/validator.py:1738
+#: r2/controllers/validator/validator.py:1731
 msgid "please provide a first name"
 msgstr "vul een voornaam in"
 
-#: r2/controllers/validator/validator.py:1740
+#: r2/controllers/validator/validator.py:1733
 msgid "please provide a last name"
 msgstr "vul een achternaam in"
 
-#: r2/controllers/validator/validator.py:1742
+#: r2/controllers/validator/validator.py:1735
 msgid "please provide an address"
 msgstr "vul een adres in"
 
-#: r2/controllers/validator/validator.py:1744
+#: r2/controllers/validator/validator.py:1737
 msgid "please provide your city"
 msgstr "vul je woonplaats in"
 
-#: r2/controllers/validator/validator.py:1746
+#: r2/controllers/validator/validator.py:1739
 msgid "please provide your state"
 msgstr "vul je provincie in"
 
-#: r2/controllers/validator/validator.py:1748
+#: r2/controllers/validator/validator.py:1741
 msgid "please provide your zip or post code"
 msgstr "vul je postcode in"
 
-#: r2/controllers/validator/validator.py:1750
+#: r2/controllers/validator/validator.py:1743
 msgid "please pick a country"
 msgstr "kies een land"
 
-#: r2/controllers/validator/validator.py:1754
+#: r2/controllers/validator/validator.py:1747
 msgid "Our ToS don't cover your country (yet). Sorry."
 msgstr "Onze algemene voorwaarden zijn (nog) niet van toepassing op jouw land. Sorry."
 
-#: r2/controllers/validator/validator.py:1770
+#: r2/controllers/validator/validator.py:1763
 #, python-format
 msgid "max length %d characters"
 msgstr "maximaal %d tekens"
 
-#: r2/controllers/validator/validator.py:1793
+#: r2/controllers/validator/validator.py:1786
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "creditcardnummers zijn tussen 13 en 16 cijfers lang"
 
-#: r2/controllers/validator/validator.py:1798
+#: r2/controllers/validator/validator.py:1791
 msgid "dates should be YYYY-MM"
 msgstr "datums moeten JJJJ-MM zijn"
 
-#: r2/controllers/validator/validator.py:1806
+#: r2/controllers/validator/validator.py:1799
 msgid "month must be in the range 01..12"
 msgstr "maand moet in het bereik 01..12 liggen"
 
-#: r2/controllers/validator/validator.py:1809
+#: r2/controllers/validator/validator.py:1802
 msgid "expiration date must be in the future"
 msgstr "verloopdatum moet in de toekomst zijn"
 
-#: r2/controllers/validator/validator.py:1813
+#: r2/controllers/validator/validator.py:1806
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "kaartverificatiecodes zijn 3 of 4 cijfers"
 
-#: r2/controllers/validator/validator.py:1956
+#: r2/controllers/validator/validator.py:1949
 msgid "an app"
 msgstr "een app"
 
-#: r2/controllers/validator/validator.py:1973
+#: r2/controllers/validator/validator.py:1966
 msgid "an app developed by the user"
 msgstr "een app, ontwikkeld door een gebruiker"
 
@@ -1323,7 +1391,7 @@ msgstr "impressies per maand"
 msgid "clicks by month"
 msgstr "aantal klikken per maand"
 
-#: r2/lib/jsontemplates.py:332 r2/templates/usertext.html:56
+#: r2/lib/jsontemplates.py:335 r2/templates/usertext.html:56
 msgid "[removed]"
 msgstr "[verwijderd]"
 
@@ -1427,8 +1495,8 @@ msgstr "dit jaar"
 msgid "all time"
 msgstr "aller tijden"
 
-#: r2/lib/menus.py:81 r2/templates/printablebuttons.html:45
-#: r2/templates/printablebuttons.html:138
+#: r2/lib/menus.py:81 r2/templates/printablebuttons.html:40
+#: r2/templates/printablebuttons.html:133
 msgid "spam"
 msgstr "spam"
 
@@ -1436,7 +1504,7 @@ msgstr "spam"
 msgid "autobanned"
 msgstr "automatisch geband"
 
-#: r2/lib/menus.py:85 r2/lib/pages/pages.py:657 r2/lib/pages/pages.py:677
+#: r2/lib/menus.py:85 r2/lib/pages/pages.py:671 r2/lib/pages/pages.py:691
 msgid "preferences"
 msgstr "instellingen"
 
@@ -1484,7 +1552,7 @@ msgstr "team"
 msgid "rules"
 msgstr "regels"
 
-#: r2/lib/menus.py:105 r2/templates/promotelinkform.html:319
+#: r2/lib/menus.py:105 r2/templates/promotelinkform.html:325
 msgid "options"
 msgstr "opties"
 
@@ -1519,7 +1587,7 @@ msgstr "postvak in"
 
 #: r2/lib/menus.py:116
 msgid "sent"
-msgstr "verstuurd"
+msgstr "verzonden"
 
 #: r2/lib/menus.py:119
 msgid "comments {toolbar}"
@@ -1539,7 +1607,7 @@ msgstr "andere discussies (%(num)s)\t\t"
 msgid "traffic stats"
 msgstr "verkeersstatistieken"
 
-#: r2/lib/menus.py:124 r2/models/modaction.py:129
+#: r2/lib/menus.py:124 r2/models/modaction.py:131
 #: r2/templates/subredditstylesheet.html:43
 msgid "stylesheet"
 msgstr "stylesheet"
@@ -1548,7 +1616,7 @@ msgstr "stylesheet"
 msgid "home"
 msgstr "startpagina"
 
-#: r2/lib/menus.py:128 r2/lib/pages/pages.py:510
+#: r2/lib/menus.py:128 r2/lib/pages/pages.py:524
 msgid "about"
 msgstr "over"
 
@@ -1572,11 +1640,11 @@ msgstr "moderatormail"
 msgid "edit approved submitters"
 msgstr "goedgekeurde posters bewerken"
 
-#: r2/lib/menus.py:134 r2/lib/menus.py:135 r2/lib/pages/pages.py:2976
+#: r2/lib/menus.py:134 r2/lib/menus.py:135 r2/lib/pages/pages.py:2886
 msgid "ban users"
 msgstr "gebruikers bannen"
 
-#: r2/lib/menus.py:136 r2/models/modaction.py:72
+#: r2/lib/menus.py:136 r2/models/modaction.py:74
 msgid "edit flair"
 msgstr "flair bewerken"
 
@@ -1594,19 +1662,19 @@ msgstr "niet-gemodereerde links"
 
 #: r2/lib/menus.py:141
 msgid "ban wiki contributors"
-msgstr ""
+msgstr "wikimedewerkers bannen"
 
 #: r2/lib/menus.py:142
 msgid "add wiki contributors"
-msgstr ""
+msgstr "wikimedewerkers toevoegen"
 
 #: r2/lib/menus.py:144
 msgid "recent wiki revisions"
-msgstr ""
+msgstr "recente wikiwijzigingen"
 
 #: r2/lib/menus.py:145
 msgid "wiki page list"
-msgstr ""
+msgstr "wikipaginalijst"
 
 #: r2/lib/menus.py:147
 msgid "popular"
@@ -1616,7 +1684,7 @@ msgstr "populair"
 msgid "create"
 msgstr "maken"
 
-#: r2/lib/menus.py:149 r2/lib/pages/pages.py:1504
+#: r2/lib/menus.py:149 r2/lib/pages/pages.py:1582
 msgid "my reddits"
 msgstr "mijn reddits"
 
@@ -1633,156 +1701,152 @@ msgid "ads"
 msgstr "advertenties"
 
 #: r2/lib/menus.py:155
-msgid "usage"
-msgstr "gebruik"
-
-#: r2/lib/menus.py:156
 msgid "promoted"
 msgstr "gepromoot"
 
-#: r2/lib/menus.py:157
+#: r2/lib/menus.py:156
 msgid "reporters"
 msgstr "rapporteerders"
 
-#: r2/lib/menus.py:158
+#: r2/lib/menus.py:157
 msgid "reported links"
 msgstr "gerapporteerde links"
 
-#: r2/lib/menus.py:159
+#: r2/lib/menus.py:158
 msgid "reported authors"
 msgstr "gerapporteerde auteurs"
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:159
 msgid "info"
 msgstr "info"
 
-#: r2/lib/menus.py:161 r2/templates/printablebuttons.html:179
+#: r2/lib/menus.py:160 r2/templates/printablebuttons.html:174
 #: r2/templates/sharelink.html:115
 msgid "share"
 msgstr "delen"
 
-#: r2/lib/menus.py:163
+#: r2/lib/menus.py:162
 msgid "overview"
 msgstr "overzicht"
 
-#: r2/lib/menus.py:164
+#: r2/lib/menus.py:163
 msgid "submitted"
 msgstr "geplaatst"
 
-#: r2/lib/menus.py:165
+#: r2/lib/menus.py:164
 msgid "liked"
 msgstr "leuk"
 
-#: r2/lib/menus.py:166
+#: r2/lib/menus.py:165
 msgid "disliked"
 msgstr "niet leuk"
 
-#: r2/lib/menus.py:167
+#: r2/lib/menus.py:166
 msgid "hidden {toolbar}"
 msgstr "verborgen"
 
-#: r2/lib/menus.py:169 r2/templates/printablebuttons.html:61
+#: r2/lib/menus.py:168 r2/templates/printablebuttons.html:56
 msgid "reported"
 msgstr "gerapporteerd"
 
-#: r2/lib/menus.py:171
+#: r2/lib/menus.py:170
 msgid "self-serve advertising"
 msgstr "zelfbedieningsadverteren"
 
-#: r2/lib/menus.py:172
+#: r2/lib/menus.py:171
 msgid "create promotion"
 msgstr "promotie maken"
 
-#: r2/lib/menus.py:173
+#: r2/lib/menus.py:172
 msgid "my promoted links"
 msgstr "mijn gepromote links"
 
-#: r2/lib/menus.py:174
+#: r2/lib/menus.py:173
 msgid "all promoted links"
 msgstr "alle gepromote links"
 
-#: r2/lib/menus.py:175
+#: r2/lib/menus.py:174
 msgid "unseen"
 msgstr "niet gezien"
 
-#: r2/lib/menus.py:176
+#: r2/lib/menus.py:175
 msgid "roadblock"
 msgstr "blokkade"
 
-#: r2/lib/menus.py:177
+#: r2/lib/menus.py:176
 msgid "analytics"
 msgstr "analytics"
 
-#: r2/lib/menus.py:178
+#: r2/lib/menus.py:177
 msgid "live"
 msgstr "live"
 
-#: r2/lib/menus.py:179
+#: r2/lib/menus.py:178
 msgid "unpaid"
 msgstr "onbetaald"
 
-#: r2/lib/menus.py:180
+#: r2/lib/menus.py:179
 msgid "pending"
 msgstr "in afwachting"
 
-#: r2/lib/menus.py:181
+#: r2/lib/menus.py:180
 msgid "rejected"
 msgstr "geweigerd"
 
-#: r2/lib/menus.py:183
+#: r2/lib/menus.py:182
 msgid "sitewide"
 msgstr "over de hele site"
 
-#: r2/lib/menus.py:184
+#: r2/lib/menus.py:183
 msgid "languages"
 msgstr "talen"
 
-#: r2/lib/menus.py:185 r2/lib/pages/trafficpages.py:207
+#: r2/lib/menus.py:184 r2/lib/pages/trafficpages.py:207
 msgid "adverts"
 msgstr "advertenties"
 
-#: r2/lib/menus.py:187
+#: r2/lib/menus.py:186
 msgid "whitelist"
 msgstr "witte lijst"
 
 #. TRANSLATORS: This refers to /r/mod
-#: r2/lib/menus.py:343
+#: r2/lib/menus.py:342
 msgid "mod"
 msgstr "mod"
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:345
+#: r2/lib/menus.py:344
 msgid "front"
 msgstr "front"
 
-#: r2/lib/menus.py:444
+#: r2/lib/menus.py:443
 msgid "sorted by"
 msgstr "gesorteerd op"
 
-#: r2/lib/menus.py:510
+#: r2/lib/menus.py:509
 msgid "kind"
 msgstr "soort"
 
-#: r2/lib/menus.py:525
+#: r2/lib/menus.py:524
 msgid "links from"
 msgstr "links van"
 
 #: r2/lib/merge.py:34 r2/templates/wikieditpage.html:33
 msgid "current edit"
-msgstr ""
+msgstr "huidige bewerking"
 
 #: r2/lib/merge.py:34 r2/templates/wikieditpage.html:29
 msgid "your edit"
-msgstr ""
+msgstr "jouw bewerking"
 
-#: r2/lib/promote.py:260 r2/lib/strings.py:275
-#: r2/templates/reddittraffic.html:82
+#: r2/lib/promote.py:217 r2/lib/strings.py:276
+#: r2/templates/reddittraffic.html:89
 msgid "day"
 msgid_plural "days"
 msgstr[0] "dag"
 msgstr[1] "dagen"
 
-#: r2/lib/strings.py:51 r2/lib/template_helpers.py:139
+#: r2/lib/strings.py:51 r2/lib/template_helpers.py:143
 msgid "submitting..."
 msgstr "bezig met verzenden..."
 
@@ -1874,122 +1938,110 @@ msgid "your reddit has been created"
 msgstr "je reddit is aangemaakt"
 
 #: r2/lib/strings.py:90
-msgid ""
-"we haven't yet decided whether these things are spam, so you have a chance "
-"to change your vote:"
-msgstr "we zijn er nog niet over uit of deze dingen spam zijn, dus je hebt nog een kans je stem te wijzigen:"
-
-#: r2/lib/strings.py:91
-msgid ""
-"it's too late to change your vote on these things (the verdict has been "
-"issued):"
-msgstr "het is te laat over deze zaak je stem te wijzigen (het vonnis is uitgesproken): "
-
-#: r2/lib/strings.py:92
 #, python-format
 msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "bezoek [%(link)s](%(link)s) voor meer informatie"
 
-#: r2/lib/strings.py:95
+#: r2/lib/strings.py:93
 msgid "you have not subscribed to any reddits."
 msgstr "je hebt je niet geabonneerd op een van de reddits"
 
-#: r2/lib/strings.py:96
+#: r2/lib/strings.py:94
 msgid "below are the reddits you have subscribed to"
 msgstr "hieronder zijn de reddits waarop je je hebt geabonneerd"
 
-#: r2/lib/strings.py:97
+#: r2/lib/strings.py:95
 msgid "below are the reddits that you are an approved submitter on."
 msgstr "hieronder zijn de reddits waarop je een goedgekeurde poster bent."
 
-#: r2/lib/strings.py:98
+#: r2/lib/strings.py:96
 msgid "below are the reddits that you have moderator access to."
 msgstr "hieronder zijn de reddits waar je moderatortoegang tot hebt."
 
-#: r2/lib/strings.py:101
+#: r2/lib/strings.py:99
 msgid ""
 "click the `subscribe` or `unsubscribe` buttons to choose which reddits "
 "appear on your front page."
 msgstr "klik op de \"abonneren\"- en \"uitschrijven\"-knoppen om te bepalen welke reddits op je startpagina zullen verschijnen."
 
-#: r2/lib/strings.py:103
+#: r2/lib/strings.py:101
 #, python-format
 msgid ""
 "you're searching within the [%(reddit_name)s](%(reddit_link)s) reddit. you "
 "can also search within [all reddits](%(all_reddits_link)s)"
 msgstr "je zoekt binnen de reddit [%(reddit_name)s](%(reddit_link)s). je kunt ook binnen [alle reddits](%(all_reddits_link)s) zoeken"
 
-#: r2/lib/strings.py:107
+#: r2/lib/strings.py:105
 #, python-format
 msgid "\"%(brokenurl)s\" is not a valid URL"
 msgstr "\"%(brokenurl)s\" is geen geldige URL"
 
-#: r2/lib/strings.py:108
+#: r2/lib/strings.py:106
 #, python-format
 msgid "\"%(cssprop)s\" is not a valid CSS property"
 msgstr "\"%(cssprop)s\" is geen geldig CSS-attribuut"
 
-#: r2/lib/strings.py:109
+#: r2/lib/strings.py:107
 #, python-format
 msgid "\"%(cssvalue)s\" is not a valid value for CSS property \"%(cssprop)s\""
 msgstr "\"%(cssvalue)s\" is geen geldige waarde voor het CSS-attribuut \"%(cssprop)s\""
 
-#: r2/lib/strings.py:110
+#: r2/lib/strings.py:108
 #, python-format
 msgid "too big. keep it under %(max_size)dkb"
 msgstr "te groot. de maximale grootte is %(max_size)d kB"
 
-#: r2/lib/strings.py:111
+#: r2/lib/strings.py:109
 #, python-format
 msgid "max size: %(max_size)dkB"
 msgstr "max. grootte: %(max_size)d kB"
 
-#: r2/lib/strings.py:112
+#: r2/lib/strings.py:110
 #, python-format
 msgid "syntax error: \"%(syntaxerror)s\""
 msgstr "syntaxisfout: \"%(syntaxerror)s\""
 
-#: r2/lib/strings.py:113
+#: r2/lib/strings.py:111
 msgid "@imports are not allowed"
 msgstr "@imports zijn niet toegestaan"
 
-#: r2/lib/strings.py:114
+#: r2/lib/strings.py:112
 #, python-format
 msgid "invalid CSS property list \"%(proplist)s\""
 msgstr "ongeldige CSS-attributenlijst \"%(proplist)s\""
 
-#: r2/lib/strings.py:115
+#: r2/lib/strings.py:113
 #, python-format
 msgid "unknown CSS rule type \"%(ruletype)s\""
 msgstr "onbekend CSS-regeltype \"%(ruletype)s\""
 
-#: r2/lib/strings.py:117
+#: r2/lib/strings.py:115
 msgid "to anything interesting: news article, blog entry, video, picture..."
 msgstr "alles wat interessant is: nieuwsartikel, blogartikel, video, afbeelding..."
 
-#: r2/lib/strings.py:118
+#: r2/lib/strings.py:116
 msgid "submission in this subreddit is restricted to approved submitters."
 msgstr "alleen goedgekeurde posters kunnen posts in deze subreddit plaatsen."
 
-#: r2/lib/strings.py:119
+#: r2/lib/strings.py:117
 msgid "this subreddit is archived and no longer accepting submissions."
 msgstr "deze subreddit is gearchiveerd en er kan niets meer geplaatst worden."
 
-#: r2/lib/strings.py:120
+#: r2/lib/strings.py:118
 #, python-format
 msgid "%(author)s comments on %(title)s"
 msgstr "%(author)s heeft gereageerd op %(title)s"
 
-#: r2/lib/strings.py:121
+#: r2/lib/strings.py:119
 #, python-format
 msgid "%(title)s : %(site)s"
 msgstr "%(title)s  :%(site)s"
 
-#: r2/lib/strings.py:122
+#: r2/lib/strings.py:120
 msgid "this subreddit has been banned"
 msgstr "deze subreddit is geband"
 
-#: r2/lib/strings.py:123
+#: r2/lib/strings.py:121
 #, python-format
 msgid ""
 "most likely this was done automatically by our spam filtering program. the "
@@ -1999,17 +2051,17 @@ msgid ""
 "subreddit**."
 msgstr "dit is waarschijnlijk automatisch gebeurd door ons spamfilter. dit programma is nog lerende bevat mogelijk zelfs bugs, dus als je vindt dat deze ban onterecht is, [stuur een link](%(link)s) en geef **de exacte naam van de subreddit** op."
 
-#: r2/lib/strings.py:124
+#: r2/lib/strings.py:122
 msgid "this subreddit is private"
 msgstr "deze subreddit is privé"
 
-#: r2/lib/strings.py:125
+#: r2/lib/strings.py:123
 msgid ""
 "the moderators of this subreddit have set it to private. you must be a "
 "moderator or approved submitter to view its contents."
 msgstr "de moderators van deze subreddit hebben deze op privé ingesteld. je dient een moderator of goedgekeurde poster te zijn om de inhoud te kunnen zien."
 
-#: r2/lib/strings.py:126
+#: r2/lib/strings.py:124
 #, python-format
 msgid ""
 "The following is a sample of what Reddit users had to say about this page. "
@@ -2018,67 +2070,67 @@ msgid ""
 " the comments button)."
 msgstr "Het volgende is een voorbeeld van wat Reddit-gebruikers te zeggen hadden over deze pagina. De volledige discussie is [hier](%(fd_link)s) te lezen; je kunt daar ook heengaan door op de titel van de link (in het midden van de taakbalk, rechts van de reactieknop) te klikken."
 
-#: r2/lib/strings.py:128
+#: r2/lib/strings.py:126
 msgid ""
 "You are submitting a link. The key to a successful submission is interesting"
 " content and a descriptive title."
 msgstr "Je plaatst nu een link. De sleutels tot een succesvolle post zijn een interessante inhoud en een omschrijvende titel."
 
-#: r2/lib/strings.py:129
+#: r2/lib/strings.py:127
 msgid ""
 "You are submitting a text-based post. Speak your mind. A title is required, "
 "but expanding further in the text field is not. Beginning your title with "
 "\"vote up if\" is violation of intergalactic law."
 msgstr "Je plaats nu een tekstpost. Zeg wat op je hart ligt. Een titel is verplicht, maar uitbreiden in het tekstveld is dat niet. Een titel beginnen met \"stem omhoog als\" is een overtreding van de intergalactische wet."
 
-#: r2/lib/strings.py:130
+#: r2/lib/strings.py:128
 msgid ""
 "You should consider using [reddit's mobile interface](http://i.reddit.com/)."
 msgstr "Neem eens een kijkje bij [reddit's mobiele interface](http://i.reddit.com/)."
 
-#: r2/lib/strings.py:131
+#: r2/lib/strings.py:129
 msgid "we're going to need to verify your email address for you to proceed."
 msgstr "we zullen je e-mailadres moeten controleren voor je door kunt gaan."
 
-#: r2/lib/strings.py:132
+#: r2/lib/strings.py:130
 msgid ""
 "you'll be able to submit more frequently once you verify your email address"
 msgstr "je kunt vaker dingen plaatsen zodra je je e-mailadres hebt geverifieerd"
 
-#: r2/lib/strings.py:133
+#: r2/lib/strings.py:131
 msgid "your email address has been verfied"
 msgstr "je e-mailadres is geverifieerd."
 
-#: r2/lib/strings.py:134
+#: r2/lib/strings.py:132
 msgid "Verification failed.  Please try that again"
 msgstr "Verificatie mislukt. Probeer het opnieuw."
 
-#: r2/lib/strings.py:135
+#: r2/lib/strings.py:133
 msgid ""
 "Our search machines are under too much load to handle your request right "
 "now. :( Sorry for the inconvenience. Try again in a little bit -- but please"
 " don't mash reload; that only makes the problem worse."
 msgstr "Onze zoekmachines hebben het te druk om je verzoek af te handelen. :( Sorry voor het ongemak. Probeer het zodadelijk opnieuw -- maar ga niet constant lopen F5'en; dat maakt het alleen maar erger."
 
-#: r2/lib/strings.py:136
+#: r2/lib/strings.py:134
 #, python-format
 msgid ""
 "I couldn't understand your query, so I simplified it and searched for "
 "\"%(clean_query)s\" instead."
 msgstr "Ik heb je zoekopdracht niet begrepen, dus heb ik hem vergemakkelijkt en gezocht naar \"%(clean_query)s\"."
 
-#: r2/lib/strings.py:137
+#: r2/lib/strings.py:135
 msgid "I couldn't understand your search query. Please try again."
 msgstr "Ik heb je zoekopdracht niet begrepen. Probeer het opnieuw."
 
-#: r2/lib/strings.py:138
+#: r2/lib/strings.py:136
 #, python-format
 msgid ""
 "You may also want to check the [search help page](%(search_help)s) for more "
 "information."
 msgstr "Bezoek de [helppagina over zoeken](%(search_help)s) voor meer informatie."
 
-#: r2/lib/strings.py:140
+#: r2/lib/strings.py:138
 #, python-format
 msgid ""
 "Looks like you're either a brand new user or your posts have not been doing "
@@ -2087,7 +2139,7 @@ msgid ""
 "conversation in a different thread."
 msgstr "Het ziet er naar uit dat je ofwel een gloednieuwe gebruiker bent of dat je posts het niet geweldig doen. Je moet misschien even wachten om opnieuw te kunnen posten. Voel je ondertussen vrij om [reddiquette te bezoeken](%(reddiquette)s) of mee te doen aan een gesprek in een andere thread."
 
-#: r2/lib/strings.py:141
+#: r2/lib/strings.py:139
 #, python-format
 msgid ""
 "Looks like you're either a brand new user or your posts have not been doing "
@@ -2097,46 +2149,46 @@ msgid ""
 "address](%(verify)s)."
 msgstr "Het ziet er naar uit dat je ofwel een gloednieuwe gebruiker bent of dat je posts het niet geweldig doen. Je moet misschien even wachten om opnieuw te kunnen posten. Voel je ondertussen vrij om [reddiquette te bezoeken](%(reddiquette)s), mee te doen aan een gesprek in een andere thread of [je e-mailadres te verifiëren](%(verify)s)."
 
-#: r2/lib/strings.py:142
+#: r2/lib/strings.py:140
 msgid ""
 "reddit is in \"emergency read-only mode\" right now. :( you won't be able to"
 " log in. we're sorry, and are working frantically to fix the problem."
 msgstr "reddit is momenteel in de \"alleen-lezen-modus voor noodgevallen\". :( je kunt niet inloggen. Sorry, we werken als krankzinnigen om het probleem op te lossen. "
 
-#: r2/lib/strings.py:143
+#: r2/lib/strings.py:141
 msgid "this page is temporarily in read-only mode due to heavy traffic."
 msgstr "deze pagina is tijdelijk in alleen-lezen-modus vanwege overbelasting."
 
-#: r2/lib/strings.py:144
+#: r2/lib/strings.py:142
 #, python-format
 msgid "please grab a drink and join us in [the lounge](%(link)s)."
 msgstr ""
 
-#: r2/lib/strings.py:145
+#: r2/lib/strings.py:143
 msgid ""
 "You sent us a postcard! (Or something similar.) When we run out of room on "
 "our refrigerator, we might one day auction off the stuff that people sent "
 "in. Is it okay if we include your thing?"
-msgstr "Je hebt ons een kaartje verstuurd! (Of iets dergelijks.) Als we gaan plaats meer hebben op onze koelkast, kunnen we mogelijk alle dingen veilen die mensen hebben ingezonden. Vind je het goed als we jouw ding toevoegen?"
+msgstr "Je hebt ons een kaartje gestuurd! (Of iets dergelijks.) Als we gaan plaats meer hebben op onze koelkast, kunnen we mogelijk alle dingen veilen die mensen hebben ingezonden. Vind je het goed als we jouw ding toevoegen?"
 
-#: r2/lib/strings.py:146
+#: r2/lib/strings.py:144
 #, python-format
 msgid ""
 "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe"
 " to reddit gold, it goes up to %(goldmax)d.)"
 msgstr "Sorry, het maximum aantal reacties is %(max)d. (Hoewel, als je een reddit gold-abonnement hebt, stijgt dit naar %(goldmax)d.)"
 
-#: r2/lib/strings.py:147
+#: r2/lib/strings.py:145
 #, python-format
 msgid "Sorry, the maximum number of comments is %d."
 msgstr "Sorry, het maximum aantal reacties is %d."
 
-#: r2/lib/strings.py:148
+#: r2/lib/strings.py:146
 #, python-format
 msgid "%(sender)s just sent you %(amount)s of reddit gold! Wasn't that nice?"
-msgstr "%(sender)s heeft je %(amount)s reddit gold verstuurd! Is dat niet geweldig?"
+msgstr "%(sender)s heeft je %(amount)s reddit gold gestuurd! Is dat niet geweldig?"
 
-#: r2/lib/strings.py:149
+#: r2/lib/strings.py:147
 msgid ""
 "Here's a note that was included:\n"
 "\n"
@@ -2144,21 +2196,28 @@ msgid ""
 "\n"
 msgstr "Hier is een opmerking die is bijgevoegd:\n\n----\n\n"
 
-#: r2/lib/strings.py:150
+#: r2/lib/strings.py:148
+#, python-format
+msgid ""
+"A redditor liked [your comment](%(url)s) so much, they gave you a month of "
+"reddit gold. Shiny!"
+msgstr ""
+
+#: r2/lib/strings.py:149
 #, python-format
 msgid ""
 "You're about to set up an ongoing, autorenewing subscription to reddit gold "
 "for yourself (%(user)s)."
 msgstr "Hiermee stel je een lopend, automatisch verlengend abonnoment op voor reddit gold voor jezelf (%(user)s)."
 
-#: r2/lib/strings.py:151
+#: r2/lib/strings.py:150
 #, python-format
 msgid ""
 "You're about to make a one-time purchase of %(amount)s of reddit gold for "
 "yourself (%(user)s)."
 msgstr "Dit is een eenmalige aankoop van %(amount)s aan reddit gold voor jezelf (%(user)s)."
 
-#: r2/lib/strings.py:152
+#: r2/lib/strings.py:151
 #, python-format
 msgid ""
 "You're about to purchase %(amount)s of reddit gold creddits. They work like "
@@ -2166,19 +2225,26 @@ msgid ""
 " reddit gold to someone else."
 msgstr "Hiermee koop je %(amount)s aan reddit gold-creddits. Ze werken net als geschenken: elke creddit geeft je mogelijkheid om een maand reddit gold aan anderen te geven."
 
-#: r2/lib/strings.py:153
+#: r2/lib/strings.py:152
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s, who will be"
 " told that it came from you."
 msgstr "Hiermee geef je %(amount)s aan reddit gold aan %(recipient)s. Hij/zij zal kunnen zien dat het van jou is."
 
-#: r2/lib/strings.py:154
+#: r2/lib/strings.py:153
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s. It will be "
 "an anonymous gift."
 msgstr "Hiermee geef je %(amount)s aan reddit gold aan %(recipient)s. Dit zal anoniem zijn."
+
+#: r2/lib/strings.py:154
+#, python-format
+msgid ""
+"Want to say thanks to *%(recipient)s* for this comment? Give them a month of"
+" [reddit gold](/help/gold)."
+msgstr ""
 
 #: r2/lib/strings.py:155
 msgid "sorry, this has been archived and can no longer be voted on"
@@ -2207,7 +2273,7 @@ msgid ""
 "apps below.\n"
 msgstr ""
 
-#: r2/lib/strings.py:164
+#: r2/lib/strings.py:164 r2/templates/promotraffic.html:25
 msgid ""
 "Below you will see your promotion's impression and click traffic per hour of"
 " promotion.  Please note that these traffic totals will lag behind by two to"
@@ -2258,107 +2324,111 @@ msgstr "er is een fout opgetreden"
 msgid "an error occurred. please try again later!"
 msgstr "er is een fout opgetreden. probeer het later opnieuw!"
 
-#: r2/lib/strings.py:253 r2/lib/strings.py:258 r2/lib/template_helpers.py:188
-#: r2/models/modaction.py:306 r2/templates/subredditstylesheet.html:121
+#: r2/lib/strings.py:183
+msgid "please wait a few seconds and try again."
+msgstr ""
+
+#: r2/lib/strings.py:254 r2/lib/strings.py:259 r2/lib/template_helpers.py:187
+#: r2/models/modaction.py:308 r2/templates/subredditstylesheet.html:121
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "reactie"
 msgstr[1] "reacties"
 
-#: r2/lib/strings.py:254 r2/templates/comment.htmllite:55
+#: r2/lib/strings.py:255 r2/templates/comment.htmllite:55
 #: r2/templates/linkinfobar.html:47
 msgid "point"
 msgid_plural "points"
 msgstr[0] "punt"
 msgstr[1] "punten"
 
-#: r2/lib/strings.py:257 r2/models/modaction.py:291
+#: r2/lib/strings.py:258 r2/models/modaction.py:293
 msgid "link"
 msgid_plural "links"
 msgstr[0] "link"
 msgstr[1] "links"
 
-#: r2/lib/strings.py:259 r2/lib/pages/pages.py:748
+#: r2/lib/strings.py:260 r2/lib/pages/pages.py:762
 #: r2/templates/messagecompose.html:73
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "bericht"
 msgstr[1] "berichten"
 
-#: r2/lib/strings.py:260 r2/templates/sitewidetraffic.html:36
+#: r2/lib/strings.py:261 r2/templates/sitewidetraffic.html:36
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "subreddit"
 msgstr[1] "subreddits"
 
-#: r2/lib/strings.py:261
+#: r2/lib/strings.py:262
 msgid "creddit"
 msgid_plural "creddits"
 msgstr[0] "creddit"
 msgstr[1] "creddits"
 
-#: r2/lib/strings.py:264
+#: r2/lib/strings.py:265
 msgid "reader"
 msgid_plural "readers"
 msgstr[0] "lezer"
 msgstr[1] "lezers"
 
-#: r2/lib/strings.py:265
+#: r2/lib/strings.py:266
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "abbonee"
 msgstr[1] "abbonees"
 
-#: r2/lib/strings.py:266 r2/templates/subreddit.html:81
+#: r2/lib/strings.py:267 r2/templates/subreddit.html:81
 #: r2/templates/subreddit.html:82
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "goedgekeurde poster"
 msgstr[1] "goedgekeurde posters"
 
-#: r2/lib/strings.py:267 r2/templates/subreddit.html:75
+#: r2/lib/strings.py:268 r2/templates/subreddit.html:75
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "moderator"
 msgstr[1] "moderators"
 
-#: r2/lib/strings.py:268
+#: r2/lib/strings.py:269
 msgid "user here now"
 msgid_plural "users here now"
 msgstr[0] "gebruiker aanwezig"
 msgstr[1] "gebruikers aanwezig"
 
-#: r2/lib/strings.py:271
+#: r2/lib/strings.py:272
 msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] "milliseconde"
 msgstr[1] "milliseconden"
 
-#: r2/lib/strings.py:272 r2/templates/searchbar.html:39
+#: r2/lib/strings.py:273 r2/templates/searchbar.html:39
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "seconde"
 msgstr[1] "seconden"
 
-#: r2/lib/strings.py:273
+#: r2/lib/strings.py:274
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minuut"
 msgstr[1] "minuten"
 
-#: r2/lib/strings.py:274
+#: r2/lib/strings.py:275
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "uur"
 msgstr[1] "uur"
 
-#: r2/lib/strings.py:276
+#: r2/lib/strings.py:277
 msgid "month"
 msgid_plural "months"
 msgstr[0] "maand"
 msgstr[1] "maanden"
 
-#: r2/lib/strings.py:277
+#: r2/lib/strings.py:278
 msgid "year"
 msgid_plural "years"
 msgstr[0] "jaar"
@@ -2367,7 +2437,7 @@ msgstr[1] "jaar"
 #: r2/lib/system_messages.py:33
 #, python-format
 msgid "invitation to moderate %(url)s"
-msgstr ""
+msgstr "uitnodiging om moderator te worden van %(url)s"
 
 #: r2/lib/system_messages.py:34
 #, python-format
@@ -2377,25 +2447,25 @@ msgid ""
 "*to accept*, visit the [moderators page for %(url)s](%(url)s/about/moderators) and click \"accept\".\n"
 "\n"
 "*otherwise,* if you did not expect to receive this, you can simply ignore this invitation or report it."
-msgstr ""
+msgstr "**zo dan! je bent uitgenodigd om moderator te worden van [%(title)s](%(url)s)!**\n\n*om te accepteren* bezoek je de [moderatorpagina van %(url)s](%(url)s/about/moderators) en klik je op \"accepteren\".\n\n*als je deze uitnodiging niet had verwacht* kun je deze gewoon negeren of rapporteren."
 
 #: r2/lib/system_messages.py:39
 msgid "moderator invited"
-msgstr ""
+msgstr "moderator uitgenodigd"
 
 #: r2/lib/system_messages.py:40
 #, python-format
 msgid "%(user)s has been invited by %(author)s to moderate %(url)s."
-msgstr ""
+msgstr "%(user)s is uitgenodigd door %(author)s om moderator te worden van %(url)s."
 
 #: r2/lib/system_messages.py:45
 msgid "moderator added"
-msgstr ""
+msgstr "moderator toegevoegd"
 
 #: r2/lib/system_messages.py:46
 #, python-format
 msgid "%(user)s has accepted an invitation to become moderator of %(url)s."
-msgstr ""
+msgstr "%(user)s heeft de uitnodiging om moderator te worden van %(url)s geaccepteerd."
 
 #: r2/lib/system_messages.py:51
 msgid "you are an approved submitter"
@@ -2413,7 +2483,7 @@ msgstr "je bent geband"
 #: r2/lib/system_messages.py:58
 #, python-format
 msgid "you have been banned from posting to [%(title)s](%(url)s)."
-msgstr "je kunt niet meer posten op [%(title)s](%(url)s)."
+msgstr "je kunt niets meer plaatsen in [%(title)s](%(url)s)."
 
 #: r2/lib/system_messages.py:63
 msgid "you can view traffic on a promoted link"
@@ -2426,307 +2496,314 @@ msgid ""
 "sponsored link \"%(title)s\"](%(traffic_url)s)."
 msgstr "je bent toegevoegd aan de lijst van gebruikers die [verkeer van de gesponsorde link \"%(title)s\"](%(traffic_url)s) kunnen zien."
 
-#: r2/lib/template_helpers.py:138
+#: r2/lib/template_helpers.py:142
 msgid "fetching title..."
 msgstr "bezig met ophalen van titel..."
 
-#: r2/lib/template_helpers.py:140
+#: r2/lib/template_helpers.py:144
 msgid "loading..."
 msgstr "bezig met laden..."
 
-#: r2/lib/template_helpers.py:184
+#: r2/lib/template_helpers.py:183
 msgid "comment {verb}"
 msgstr "reageren"
 
-#: r2/lib/template_helpers.py:461 r2/models/builder.py:150
+#: r2/lib/template_helpers.py:460 r2/models/builder.py:150
 msgid "friend"
 msgstr "vriend"
 
-#: r2/lib/template_helpers.py:468
+#: r2/lib/template_helpers.py:467
 msgid "submitter"
 msgstr "poster"
 
-#: r2/lib/template_helpers.py:482
+#: r2/lib/template_helpers.py:481
 msgid "reddit admin, speaking officially"
 msgstr "reddit-admin, officieel sprekend"
 
-#: r2/lib/pages/pages.py:78
+#: r2/lib/pages/pages.py:79
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d-%m-%Y"
 
-#: r2/lib/pages/pages.py:213
+#: r2/lib/pages/pages.py:225
 msgid "wiki tools"
-msgstr ""
+msgstr "wikihulpmiddelen"
 
-#: r2/lib/pages/pages.py:259
+#: r2/lib/pages/pages.py:271
 msgid "moderation tools"
 msgstr "moderatorhulpmiddelen"
 
-#: r2/lib/pages/pages.py:296
+#: r2/lib/pages/pages.py:308
 msgid "these subreddits"
 msgstr "deze subreddits"
 
-#: r2/lib/pages/pages.py:316
+#: r2/lib/pages/pages.py:328
 msgid "Submit a link"
 msgstr "Een link plaatsen"
 
-#: r2/lib/pages/pages.py:335
+#: r2/lib/pages/pages.py:347
 msgid "Create your own community"
 msgstr "Je eigen community maken"
 
-#: r2/lib/pages/pages.py:350
+#: r2/lib/pages/pages.py:362
 msgid "moderators"
 msgstr "moderators"
 
-#: r2/lib/pages/pages.py:361
+#: r2/lib/pages/pages.py:373
 msgid "Recently viewed links"
 msgstr "recent bekeken links"
 
-#: r2/lib/pages/pages.py:386
+#: r2/lib/pages/pages.py:398
 msgid "turn admin off"
 msgstr "admin uitschakelen"
 
-#: r2/lib/pages/pages.py:390 r2/lib/pages/pages.py:847
+#: r2/lib/pages/pages.py:402 r2/lib/pages/pages.py:861
 #: r2/templates/passwordverificationform.html:67
 msgid "turn admin on"
 msgstr "admin inschakelen"
 
-#: r2/lib/pages/pages.py:516
+#: r2/lib/pages/pages.py:530
 msgid "FAQ"
 msgstr "FAQ"
 
-#: r2/lib/pages/pages.py:517
+#: r2/lib/pages/pages.py:531
 msgid "reddiquette"
 msgstr "reddiquette"
 
-#: r2/lib/pages/pages.py:527
+#: r2/lib/pages/pages.py:541
 msgid "firefox extension"
 msgstr "firefox-extensie"
 
-#: r2/lib/pages/pages.py:528
+#: r2/lib/pages/pages.py:542
 msgid "chrome extension"
 msgstr "chrome-extensie"
 
-#: r2/lib/pages/pages.py:532
+#: r2/lib/pages/pages.py:546
 msgid "tools"
 msgstr "hulpmiddelen"
 
-#: r2/lib/pages/pages.py:539
+#: r2/lib/pages/pages.py:553
 msgid "redditgifts"
 msgstr "reddit-geschenken"
 
-#: r2/lib/pages/pages.py:540
+#: r2/lib/pages/pages.py:554
 msgid "reddit.tv"
 msgstr "reddit.tv"
 
-#: r2/lib/pages/pages.py:541
+#: r2/lib/pages/pages.py:555
 msgid "radio reddit"
 msgstr "radio reddit"
 
-#: r2/lib/pages/pages.py:543
+#: r2/lib/pages/pages.py:557
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:745
+#: r2/lib/pages/pages.py:759
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s mail"
 
-#: r2/lib/pages/pages.py:812 r2/templates/redditheader.html:73
+#: r2/lib/pages/pages.py:826 r2/templates/redditheader.html:73
 msgid "login or register"
 msgstr "log in of registreer"
 
-#: r2/lib/pages/pages.py:874
+#: r2/lib/pages/pages.py:896
 msgid "request for permission"
 msgstr "toestemmingsverzoek"
 
-#: r2/lib/pages/pages.py:906
+#: r2/lib/pages/pages.py:928
 msgid "bummer"
 msgstr "wat jammer"
 
-#: r2/lib/pages/pages.py:918
+#: r2/lib/pages/pages.py:940
 msgid "this page is no longer available due to a copyright claim."
 msgstr "deze pagina is niet meer beschikbaar vanwege een copyrightclaim."
 
-#: r2/lib/pages/pages.py:1199
+#: r2/lib/pages/pages.py:1268
 msgid "subreddit settings"
 msgstr "instellingen voor subreddit"
 
-#: r2/lib/pages/pages.py:1200
+#: r2/lib/pages/pages.py:1269
 #, python-format
 msgid "about %(site)s"
 msgstr "over %(site)s"
 
-#: r2/lib/pages/pages.py:1226
+#: r2/lib/pages/pages.py:1295
 msgid "search subreddits by name"
 msgstr "subreddits zoeken op naam"
 
-#: r2/lib/pages/pages.py:1260
+#: r2/lib/pages/pages.py:1329
 #, python-format
 msgid "your front page reddits (%s)"
 msgstr "jouw startpagina-reddits (%s)"
 
-#: r2/lib/pages/pages.py:1329 r2/templates/createsubreddit.html:252
+#: r2/lib/pages/pages.py:1398 r2/templates/createsubreddit.html:252
 #: r2/templates/spotlightlisting.html:55
 msgid "what's this?"
 msgstr "wat is dit?"
 
-#: r2/lib/pages/pages.py:1330
+#: r2/lib/pages/pages.py:1399
 msgid "trophy case"
 msgstr "trofeeënkast"
 
-#: r2/lib/pages/pages.py:1378
+#: r2/lib/pages/pages.py:1448
 msgid "an unknown amount"
 msgstr "een onbekende hoeveelheid"
 
-#: r2/lib/pages/pages.py:1386
+#: r2/lib/pages/pages.py:1456
 msgid "less than a day"
 msgstr "minder dan een dag"
 
-#: r2/lib/pages/pages.py:1397
+#: r2/lib/pages/pages.py:1466
+#, python-format
+msgid "%(creddits)s gold creddit to give"
+msgid_plural "%(creddits)s gold creddits to give"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/lib/pages/pages.py:1475
 #, python-format
 msgid "buy %(user)s a month of reddit gold"
 msgstr "een maand reddit gold kopen voor %(user)s"
 
-#: r2/lib/pages/pages.py:1400
+#: r2/lib/pages/pages.py:1478
 msgid "renew your reddit gold"
 msgstr "je reddit gold vernieuwen"
 
-#: r2/lib/pages/pages.py:1403
+#: r2/lib/pages/pages.py:1481
 msgid "treat yourself to reddit gold"
 msgstr "verwen jezelf met reddit gold"
 
-#: r2/lib/pages/pages.py:1582
+#: r2/lib/pages/pages.py:1660
 #, python-format
 msgid "raise it to %s"
 msgstr "verhogen naar %s"
 
-#: r2/lib/pages/pages.py:1584 r2/lib/pages/pages.py:1593
+#: r2/lib/pages/pages.py:1662 r2/lib/pages/pages.py:1671
 #, python-format
 msgid "%s visible"
 msgstr "%s zichtbaar"
 
-#: r2/lib/pages/pages.py:1591
+#: r2/lib/pages/pages.py:1669
 #, python-format
 msgid "%(bonus)s bonus reddits"
 msgstr "%(bonus)s bonusreddits"
 
-#: r2/lib/pages/pages.py:1781
+#: r2/lib/pages/pages.py:1868
 msgid "try entering those letters again"
 msgstr "probeer opnieuw die letters in te vullen"
 
-#: r2/lib/pages/pages.py:1840
+#: r2/lib/pages/pages.py:1927
 msgid "previous search"
 msgstr "vorige zoekopdracht"
 
-#: r2/lib/pages/pages.py:1866
+#: r2/lib/pages/pages.py:1953
 #, python-format
 msgid "%(site_title)s via %(domain)s"
 msgstr "%(site_title)s via %(domain)s"
 
-#: r2/lib/pages/pages.py:2542
+#: r2/lib/pages/pages.py:2450
 msgid "grant flair"
 msgstr "grote flair"
 
-#: r2/lib/pages/pages.py:2544
+#: r2/lib/pages/pages.py:2452
 msgid "user flair templates"
 msgstr "gebruikersflairsjablonen"
 
-#: r2/lib/pages/pages.py:2546
+#: r2/lib/pages/pages.py:2454
 msgid "link flair templates"
 msgstr "linkflairsjablonen"
 
-#: r2/lib/pages/pages.py:2852
+#: r2/lib/pages/pages.py:2762
 msgid "user"
 msgstr "gebruiker"
 
-#: r2/lib/pages/pages.py:2852
+#: r2/lib/pages/pages.py:2762
 msgid "note"
 msgstr "opmerking"
 
-#: r2/lib/pages/pages.py:2852
+#: r2/lib/pages/pages.py:2762
 msgid "friendship"
 msgstr "vriendschap"
 
-#: r2/lib/pages/pages.py:2858
+#: r2/lib/pages/pages.py:2768
 msgid "add a friend"
 msgstr "een vriend toevoegen"
 
-#: r2/lib/pages/pages.py:2862
+#: r2/lib/pages/pages.py:2772
 msgid "your friends"
 msgstr "je vrienden"
 
-#: r2/lib/pages/pages.py:2890
+#: r2/lib/pages/pages.py:2800
 msgid "blocked users"
 msgstr "geblokkeerde gebruikers"
 
-#: r2/lib/pages/pages.py:2906
+#: r2/lib/pages/pages.py:2816
 msgid "add approved submitter"
 msgstr "goedgekeurde poster toevoegen"
 
-#: r2/lib/pages/pages.py:2910
+#: r2/lib/pages/pages.py:2820
 #, python-format
 msgid "approved submitters for %(reddit)s"
 msgstr "goedgekeurde poster voor %(reddit)s"
 
-#: r2/lib/pages/pages.py:2925 r2/models/modaction.py:64
+#: r2/lib/pages/pages.py:2835 r2/models/modaction.py:66
 msgid "add moderator"
 msgstr "moderator toevoegen"
 
-#: r2/lib/pages/pages.py:2926 r2/models/modaction.py:66
+#: r2/lib/pages/pages.py:2836 r2/models/modaction.py:68
 msgid "invite moderator"
-msgstr ""
+msgstr "moderator uitnodigen"
 
-#: r2/lib/pages/pages.py:2927 r2/templates/modlist.html:33
+#: r2/lib/pages/pages.py:2837 r2/templates/modlist.html:33
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
 msgstr "je bent een moderator van deze subreddit. %(action)s"
 
-#: r2/lib/pages/pages.py:2931
+#: r2/lib/pages/pages.py:2841
 #, python-format
 msgid "moderators of /r/%(reddit)s"
-msgstr ""
+msgstr "moderators van /r/%(reddit)s"
 
-#: r2/lib/pages/pages.py:2935
+#: r2/lib/pages/pages.py:2845
 msgid "invited"
-msgstr ""
+msgstr "uitgenodigd"
 
-#: r2/lib/pages/pages.py:2980
+#: r2/lib/pages/pages.py:2890
 msgid "banned users"
 msgstr "gebande gebruikers"
 
-#: r2/lib/pages/pages.py:2998
+#: r2/lib/pages/pages.py:2908
 msgid "add a wiki contributor"
-msgstr ""
+msgstr "een wikibijdrager toevoegen"
 
-#: r2/lib/pages/pages.py:3002
+#: r2/lib/pages/pages.py:2912
 msgid "wiki page contributors"
-msgstr ""
+msgstr "wikipaginabijdragers"
 
-#: r2/lib/pages/pages.py:3528
+#: r2/lib/pages/pages.py:3502
 #, python-format
 msgid "cost per 1k impressions ($%(avg).2f average)"
 msgstr "kosten per 1000 impressies ($%(avg).2f gemiddeld)"
 
-#: r2/lib/pages/pages.py:3529
+#: r2/lib/pages/pages.py:3503
 #, python-format
 msgid "cost per click ($%(avg).2f average)"
 msgstr "kosten per klik ($%(avg).2f gemiddeld)"
 
-#: r2/lib/pages/pages.py:3536
+#: r2/lib/pages/pages.py:3510
 msgid "historical performance"
 msgstr "historische prestaties"
 
-#: r2/lib/pages/pages.py:3540
+#: r2/lib/pages/pages.py:3514
 msgid "CPM"
 msgstr "CPM"
 
-#: r2/lib/pages/pages.py:3543
+#: r2/lib/pages/pages.py:3517
 msgid "CPC"
 msgstr "CPC"
 
-#: r2/lib/pages/pages.py:3685 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:3648 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "accountactiviteit"
 
@@ -2737,7 +2814,7 @@ msgstr "unieke bezoeken per %s"
 
 #: r2/lib/pages/trafficpages.py:108 r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34
-#: r2/templates/reddittraffic.html:83 r2/templates/sitewidetraffic.html:37
+#: r2/templates/reddittraffic.html:90 r2/templates/sitewidetraffic.html:37
 msgid "uniques"
 msgstr "unieken"
 
@@ -2748,7 +2825,7 @@ msgstr "paginaweergaven per %s"
 
 #: r2/lib/pages/trafficpages.py:111
 #: r2/templates/languagetrafficsummary.html:35
-#: r2/templates/reddittraffic.html:84 r2/templates/sitewidetraffic.html:38
+#: r2/templates/reddittraffic.html:91 r2/templates/sitewidetraffic.html:38
 msgid "pageviews"
 msgstr "paginaweergaven"
 
@@ -2767,6 +2844,8 @@ msgstr "totaal aantal impressies per dag"
 
 #: r2/lib/pages/trafficpages.py:218 r2/lib/pages/trafficpages.py:334
 #: r2/templates/adverttrafficsummary.html:36
+#: r2/templates/promocampaigntraffictable.html:42
+#: r2/templates/promolinktrafficsummary.html:72
 #: r2/templates/promotedlinktraffic.html:54
 msgid "impressions"
 msgstr "weergaven"
@@ -2775,7 +2854,10 @@ msgstr "weergaven"
 msgid "total clicks by day"
 msgstr "totaal aantal klikken per dag"
 
-#: r2/lib/pages/trafficpages.py:221 r2/templates/promotedlinktraffic.html:55
+#: r2/lib/pages/trafficpages.py:221
+#: r2/templates/promocampaigntraffictable.html:44
+#: r2/templates/promolinktrafficsummary.html:73
+#: r2/templates/promotedlinktraffic.html:55
 msgid "clicks"
 msgstr "aantal klikken"
 
@@ -2792,7 +2874,8 @@ msgstr "voorpagina"
 msgid "impressions by %s"
 msgstr "impressies per %s"
 
-#: r2/lib/pages/trafficpages.py:337 r2/lib/pages/trafficpages.py:451
+#: r2/lib/pages/trafficpages.py:337 r2/lib/pages/trafficpages.py:454
+#: r2/templates/promolinktrafficsummary.html:80
 #: r2/templates/promotedlinktraffic.html:62
 msgid "unique clicks"
 msgstr "unieke klikken"
@@ -2802,7 +2885,8 @@ msgstr "unieke klikken"
 msgid "clicks by %s"
 msgstr "aantal klikken per %s"
 
-#: r2/lib/pages/trafficpages.py:340 r2/lib/pages/trafficpages.py:452
+#: r2/lib/pages/trafficpages.py:340 r2/lib/pages/trafficpages.py:455
+#: r2/templates/promolinktrafficsummary.html:81
 #: r2/templates/promotedlinktraffic.html:63
 msgid "total clicks"
 msgstr "totaal aantal klikken"
@@ -2815,69 +2899,73 @@ msgstr "abonnementen per dag"
 msgid "subscriptions"
 msgstr "abonnementen"
 
-#: r2/lib/pages/trafficpages.py:448
+#: r2/lib/pages/trafficpages.py:451
 msgid "date and time (UTC)"
 msgstr "datum en tijd (UTC)"
 
-#: r2/lib/pages/trafficpages.py:449 r2/templates/promotedlinktraffic.html:60
+#: r2/lib/pages/trafficpages.py:452
+#: r2/templates/promolinktrafficsummary.html:78
+#: r2/templates/promotedlinktraffic.html:60
 msgid "unique impressions"
 msgstr "unieke impressies"
 
-#: r2/lib/pages/trafficpages.py:450 r2/templates/promotedlinktraffic.html:61
+#: r2/lib/pages/trafficpages.py:453
+#: r2/templates/promolinktrafficsummary.html:79
+#: r2/templates/promotedlinktraffic.html:61
 msgid "total impressions"
 msgstr "totaal aantal impressies"
 
-#: r2/lib/pages/trafficpages.py:453
+#: r2/lib/pages/trafficpages.py:456
 msgid "unique click-through rate (%)"
 msgstr "unieke doorklikverhouding (%)"
 
-#: r2/lib/pages/trafficpages.py:454
+#: r2/lib/pages/trafficpages.py:457
 msgid "total click-through rate (%)"
 msgstr "totale doorklikverhouding (%)"
 
-#: r2/lib/pages/trafficpages.py:474
+#: r2/lib/pages/trafficpages.py:477
 msgid "share traffic"
 msgstr "verkeer delen"
 
-#: r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/trafficpages.py:481
 msgid "current viewers"
 msgstr "huidige kijkers"
 
 #: r2/lib/pages/wiki.py:71
 msgid "view"
-msgstr ""
+msgstr "weergeven"
 
 #: r2/lib/pages/wiki.py:73 r2/templates/paymentform.html:189
-#: r2/templates/prefapps.html:53 r2/templates/printablebuttons.html:174
-#: r2/templates/printablebuttons.html:208
-#: r2/templates/printablebuttons.html:304 r2/templates/wrappeduser.html:57
+#: r2/templates/prefapps.html:54 r2/templates/printablebuttons.html:169
+#: r2/templates/printablebuttons.html:203
+#: r2/templates/printablebuttons.html:292 r2/templates/wrappeduser.html:57
 msgid "edit"
 msgstr "bewerken"
 
 #: r2/lib/pages/wiki.py:74
 msgid "history"
-msgstr ""
+msgstr "geschiedenis"
 
 #: r2/lib/pages/wiki.py:75
 msgid "talk"
-msgstr ""
+msgstr "overleg"
 
 #: r2/lib/pages/wiki.py:77 r2/lib/pages/wiki.py:114
 msgid "settings"
-msgstr ""
+msgstr "instellingen"
 
 #: r2/lib/pages/wiki.py:85
 msgid "this wiki is currently disabled, only mods may interact with this wiki"
-msgstr ""
+msgstr "deze wiki is momenteel uitgeschakeld, alleen mods kunnen gebruikmaken van deze wiki"
 
 #: r2/lib/pages/wiki.py:93
 msgid "this page is empty, edit it to add some content."
-msgstr ""
+msgstr "deze pagina is leeg, bewerk het om inhoud toe te voegen."
 
 #: r2/lib/pages/wiki.py:99
 #, python-format
 msgid "page %s does not exist in this subreddit"
-msgstr ""
+msgstr "pagina %s bestaat niet in deze subreddit"
 
 #: r2/lib/pages/wiki.py:102
 #, python-format
@@ -2889,7 +2977,7 @@ msgstr ""
 
 #: r2/lib/pages/wiki.py:108
 msgid "editing"
-msgstr ""
+msgstr "bezig met bewerken van"
 
 #: r2/lib/pages/wiki.py:120
 msgid "revisions"
@@ -2907,7 +2995,7 @@ msgstr ""
 
 #: r2/lib/pages/wiki.py:138
 msgid "discussions"
-msgstr ""
+msgstr "discussies"
 
 #: r2/lib/pages/wiki.py:139
 msgid ""
@@ -2915,11 +3003,11 @@ msgid ""
 " to this wiki page or see other discussions about this wiki page."
 msgstr ""
 
-#: r2/models/account.py:217
+#: r2/models/account.py:212
 msgid "ancient history"
 msgstr "antieke geschiedenis"
 
-#: r2/models/account.py:218
+#: r2/models/account.py:213
 msgid "really obscure karma from before it was cool to track per-subreddit"
 msgstr "zeer obscure karma voordat het stoer was om per-subreddit te volgen"
 
@@ -2932,105 +3020,137 @@ msgstr "moderator van /r/%(reddit)s, officieel sprekend"
 msgid "label_template"
 msgstr "label_template"
 
-#: r2/models/link.py:527
+#: r2/models/link.py:541
 #, python-format
 msgid "approved by %s"
 msgstr "goedgekeurd door %s"
 
-#: r2/models/link.py:529
+#: r2/models/link.py:543
 msgid "approved by a moderator"
 msgstr "goedgekeurd door een moderator"
 
-#: r2/models/link.py:543
+#: r2/models/link.py:553
 #, python-format
 msgid "by %(author)s to %(reddit)s"
 msgstr "door %(author)s naar %(reddit)s"
 
-#: r2/models/link.py:546
+#: r2/models/link.py:556
 #, python-format
 msgid "by %(author)s"
 msgstr "door %(author)s"
 
-#: r2/models/link.py:550
+#: r2/models/link.py:560
 #, python-format
 msgid "%(score)s submitted %(when)s ago%(lastedited)s"
 msgstr "%(score)s %(when)s geleden geplaatst%(lastedited)s"
 
-#: r2/models/link.py:555
+#: r2/models/link.py:565
 #, python-format
 msgid "submitted %(when)s ago%(lastedited)s by %(author)s to %(reddit)s"
 msgstr "%(when)s geleden geplaatst%(lastedited)s door %(author)s in %(reddit)s"
 
-#: r2/models/link.py:558
+#: r2/models/link.py:568
 #, python-format
 msgid "submitted %(when)s ago%(lastedited)s by %(author)s"
 msgstr "%(when)s geleden geplaatst%(lastedited)s door %(author)s"
 
-#: r2/models/link.py:563
+#: r2/models/link.py:573
 #, python-format
 msgid "%(score)s submitted %(when)s ago"
-msgstr "%(when)s geleden %(score)s verstuurd"
+msgstr "%(when)s geleden %(score)s verzonden"
 
-#: r2/models/link.py:567
+#: r2/models/link.py:577
 #, python-format
 msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
 msgstr "%(when)s geleden geplaatst door %(author)s in %(reddit)s"
 
-#: r2/models/link.py:570
+#: r2/models/link.py:580
 #, python-format
 msgid "submitted %(when)s ago by %(author)s"
 msgstr "%(when)s geleden geplaatst door %(author)s"
 
-#: r2/models/link.py:843
+#: r2/models/link.py:648 r2/templates/comment.html:102
+#: r2/templates/comment.htmllite:46 r2/templates/comment.xml:31
+#: r2/templates/comment.xml:32
+msgid "[deleted]"
+msgstr "eenmaal toegevoegd aan je bladwijzerbalk, kun je vanaf elke site op deze knoppen klikken om snel toegang te krijgen tot reddit-functionaliteiten."
+
+#: r2/models/link.py:651
+#, python-format
+msgid "a redditor gifted you a month of reddit gold for this comment."
+msgid_plural ""
+"redditors have gifted you %(months)d months of reddit gold for this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/models/link.py:658
+#, python-format
+msgid "you have gifted reddit gold to %(recipient)s for this comment."
+msgid_plural ""
+"you and other redditors have gifted %(months)d months of reddit gold to "
+"%(recipient)s for this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/models/link.py:665
+#, python-format
+msgid "a redditor has gifted reddit gold to %(recipient)s for this comment."
+msgid_plural ""
+"redditors have gifted %(months)d months of reddit gold to %(recipient)s for "
+"this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/models/link.py:977
 msgid "comment score below threshold"
 msgstr "reactiescore onder drempelwaarde"
 
-#: r2/models/link.py:848
+#: r2/models/link.py:982
 msgid "blocked user"
 msgstr "geblokkeerde gebruiker"
 
-#: r2/models/link.py:1178
+#: r2/models/link.py:1312
 msgid "comment reply"
 msgstr "antwoord op reactie"
 
-#: r2/models/link.py:1184
+#: r2/models/link.py:1318
 msgid "post reply"
-msgstr "antwoord op post"
+msgstr "reactie plaatsen"
 
-#: r2/models/link.py:1207
+#: r2/models/link.py:1341
 msgid "[message from blocked user]"
 msgstr "[bericht van geblokkeerde gebruiker]"
 
-#: r2/models/link.py:1208
+#: r2/models/link.py:1342
 msgid "[unblock user to see this message]"
 msgstr "[deblokkeer de gebruiker om dit bericht te zien]"
 
-#: r2/models/link.py:1211
+#: r2/models/link.py:1345
 #, python-format
 msgid "subreddit message %(author)s sent %(when)s ago"
-msgstr "subreddit-bericht %(when)s geleden verstuurd door %(author)s"
+msgstr "subreddit-bericht %(when)s geleden verzonden door %(author)s"
 
-#: r2/models/link.py:1213
+#: r2/models/link.py:1347
 #, python-format
 msgid "to %(dest)s sent %(when)s ago"
-msgstr "%(when)s geleden verstuurd naar %(dest)s"
+msgstr "%(when)s geleden verzonden naar %(dest)s"
 
-#: r2/models/link.py:1215
+#: r2/models/link.py:1349
 #, python-format
 msgid "from %(author)s sent %(when)s ago"
 msgstr "%(when)s geleden vestuurd door %(author)s"
 
-#: r2/models/link.py:1217
+#: r2/models/link.py:1351
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s ago"
-msgstr "%(when)s geleden verstuurd naar %(dest)s door %(author)s"
+msgstr "%(when)s geleden verzonden naar %(dest)s door %(author)s"
 
-#: r2/models/link.py:1222
+#: r2/models/link.py:1356
 #, python-format
 msgid "via %(subreddit)s"
 msgstr "via %(subreddit)s"
 
-#: r2/models/link.py:1224
+#: r2/models/link.py:1358
 #, python-format
 msgid "%(author)s via %(subreddit)s"
 msgstr "%(author)s via %(subreddit)s"
@@ -3102,440 +3222,440 @@ msgstr "[reddit] hé, nerd!"
 msgid "[reddit] reddit gold activation link"
 msgstr "[reddit] reddit gold-activatielink"
 
-#: r2/models/modaction.py:58
+#: r2/models/modaction.py:60
 msgid "ban user"
 msgstr "gebruiker bannen"
 
-#: r2/models/modaction.py:59
+#: r2/models/modaction.py:61
 msgid "unban user"
 msgstr "gebruiker ontbannen"
 
-#: r2/models/modaction.py:60
+#: r2/models/modaction.py:62
 msgid "remove post"
 msgstr "post verwijderen"
 
-#: r2/models/modaction.py:61
+#: r2/models/modaction.py:63
 msgid "approve post"
 msgstr "post goedkeuren"
 
-#: r2/models/modaction.py:62
+#: r2/models/modaction.py:64
 msgid "remove comment"
 msgstr "reactie verwijderen"
 
-#: r2/models/modaction.py:63
+#: r2/models/modaction.py:65
 msgid "approve comment"
 msgstr "reactie goedkeuren"
 
-#: r2/models/modaction.py:65
+#: r2/models/modaction.py:67
 msgid "remove moderator"
 msgstr "moderator verwijderen"
 
-#: r2/models/modaction.py:67
-msgid "uninvite moderator"
-msgstr ""
-
-#: r2/models/modaction.py:68
-msgid "accept moderator invite"
-msgstr ""
-
 #: r2/models/modaction.py:69
+msgid "uninvite moderator"
+msgstr "uitnodiging voor moderator intrekken"
+
+#: r2/models/modaction.py:70
+msgid "accept moderator invite"
+msgstr "moderatoruitnodiging accepteren"
+
+#: r2/models/modaction.py:71
 msgid "add contributor"
 msgstr "bijdrager toevoegen"
 
-#: r2/models/modaction.py:70
+#: r2/models/modaction.py:72
 msgid "remove contributor"
 msgstr "bijdrager verwijderen"
 
-#: r2/models/modaction.py:71
+#: r2/models/modaction.py:73
 msgid "edit settings"
 msgstr "instellingen wijzigen"
 
-#: r2/models/modaction.py:73 r2/templates/printablebuttons.html:92
+#: r2/models/modaction.py:75 r2/templates/printablebuttons.html:87
 msgid "distinguish"
 msgstr "onderscheid maken"
 
-#: r2/models/modaction.py:74
+#: r2/models/modaction.py:76
 msgid "mark nsfw"
 msgstr "markeren als nsfw"
 
-#: r2/models/modaction.py:75
-msgid "ban from wiki"
-msgstr ""
-
-#: r2/models/modaction.py:76
-msgid "unban from wiki"
-msgstr ""
-
 #: r2/models/modaction.py:77
-msgid "add wiki contributor"
-msgstr ""
+msgid "ban from wiki"
+msgstr "bannen van wiki"
 
 #: r2/models/modaction.py:78
-msgid "remove wiki contributor"
-msgstr ""
+msgid "unban from wiki"
+msgstr "bannen van wiki ongedaan maken"
 
 #: r2/models/modaction.py:79
+msgid "add wiki contributor"
+msgstr "wikibijdrager toevoegen"
+
+#: r2/models/modaction.py:80
+msgid "remove wiki contributor"
+msgstr "wikibijdrager verwijderen"
+
+#: r2/models/modaction.py:81
 msgid "wiki revise page"
 msgstr ""
 
-#: r2/models/modaction.py:80
+#: r2/models/modaction.py:82
 msgid "wiki page permlevel"
 msgstr ""
 
-#: r2/models/modaction.py:82 r2/templates/subredditinfobar.html:94
+#: r2/models/modaction.py:84 r2/templates/subredditinfobar.html:94
 #: r2/templates/subscriptionbox.html:62
 msgid "banned"
 msgstr "geband"
 
-#: r2/models/modaction.py:83
+#: r2/models/modaction.py:85
 msgid "wiki banned"
-msgstr ""
+msgstr "wiki geband"
 
-#: r2/models/modaction.py:84
+#: r2/models/modaction.py:86
 msgid "unbanned from wiki"
 msgstr ""
 
-#: r2/models/modaction.py:85
-msgid "added wiki contributor"
-msgstr ""
-
-#: r2/models/modaction.py:86
-msgid "removed wiki contributor"
-msgstr ""
-
 #: r2/models/modaction.py:87
+msgid "added wiki contributor"
+msgstr "wikibijdrager toegevoegd"
+
+#: r2/models/modaction.py:88
+msgid "removed wiki contributor"
+msgstr "wikibijdrager verwijderd"
+
+#: r2/models/modaction.py:89
 msgid "unbanned"
 msgstr "ontband"
 
-#: r2/models/modaction.py:88 r2/models/modaction.py:90
-#: r2/templates/printablebuttons.html:48
-#: r2/templates/printablebuttons.html:155 r2/templates/trophycase.html:47
+#: r2/models/modaction.py:90 r2/models/modaction.py:92
+#: r2/templates/printablebuttons.html:43
+#: r2/templates/printablebuttons.html:150 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67
 msgid "removed"
 msgstr "verwijderd"
 
-#: r2/models/modaction.py:89 r2/models/modaction.py:91
-#: r2/templates/printablebuttons.html:55
-#: r2/templates/printablebuttons.html:158
+#: r2/models/modaction.py:91 r2/models/modaction.py:93
+#: r2/templates/printablebuttons.html:50
+#: r2/templates/printablebuttons.html:153
 #: r2/templates/subredditinfobar.html:86
 msgid "approved"
 msgstr "goedgekeurd"
 
-#: r2/models/modaction.py:92
+#: r2/models/modaction.py:94
 msgid "added moderator"
 msgstr "moderator toegevoegd"
 
-#: r2/models/modaction.py:93
+#: r2/models/modaction.py:95
 msgid "removed moderator"
 msgstr "moderator verwijderd"
 
-#: r2/models/modaction.py:94
-msgid "invited moderator"
-msgstr ""
-
-#: r2/models/modaction.py:95
-msgid "uninvited moderator"
-msgstr ""
-
 #: r2/models/modaction.py:96
-msgid "accepted moderator invitation"
-msgstr ""
+msgid "invited moderator"
+msgstr "moderator uitgenodigd"
 
 #: r2/models/modaction.py:97
+msgid "uninvited moderator"
+msgstr "uitnodiging voor moderator ingetrokken"
+
+#: r2/models/modaction.py:98
+msgid "accepted moderator invitation"
+msgstr "moderatoruitnodiging geaccepteerd"
+
+#: r2/models/modaction.py:99
 msgid "added approved contributor"
 msgstr "goedgekeurde bijdrager toegevoegd"
 
-#: r2/models/modaction.py:98
+#: r2/models/modaction.py:100
 msgid "removed approved contributor"
 msgstr "goedgekeurde bijdrager verwijderd"
 
-#: r2/models/modaction.py:99
+#: r2/models/modaction.py:101
 msgid "edited settings"
 msgstr "gewijzigde instellingen"
 
-#: r2/models/modaction.py:100
+#: r2/models/modaction.py:102
 msgid "edited flair"
 msgstr "bewerkte flair"
 
-#: r2/models/modaction.py:101
+#: r2/models/modaction.py:103
 msgid "edited wiki page"
-msgstr ""
+msgstr "wikipagina bewerkt"
 
-#: r2/models/modaction.py:102
+#: r2/models/modaction.py:104
 msgid "changed wiki page permission level"
 msgstr ""
 
-#: r2/models/modaction.py:103
+#: r2/models/modaction.py:105
 msgid "distinguished"
 msgstr "onderscheid gemaakt"
 
-#: r2/models/modaction.py:104
+#: r2/models/modaction.py:106
 msgid "marked nsfw"
 msgstr "gemarkeerd als nsfw"
 
-#: r2/models/modaction.py:107
+#: r2/models/modaction.py:109
 msgid "unspam"
 msgstr "geen spam"
 
-#: r2/models/modaction.py:108
+#: r2/models/modaction.py:110
 msgid "confirmed ham"
 msgstr "ham bevestigd"
 
-#: r2/models/modaction.py:110
+#: r2/models/modaction.py:112
 msgid "confirmed spam"
 msgstr "bevestigd als spam"
 
-#: r2/models/modaction.py:111
+#: r2/models/modaction.py:113
 msgid "removed not spam"
 msgstr "geen spam verwijderd"
 
-#: r2/models/modaction.py:112
+#: r2/models/modaction.py:114
 msgid "removed spam"
 msgstr "spam verwijderd"
 
-#: r2/models/modaction.py:114
+#: r2/models/modaction.py:116
 msgid "removed self"
 msgstr "zelf verwijderd"
 
-#: r2/models/modaction.py:116 r2/templates/createsubreddit.html:56
-#: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:259
+#: r2/models/modaction.py:118 r2/templates/createsubreddit.html:56
+#: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:265
 msgid "title"
 msgstr "titel"
 
-#: r2/models/modaction.py:117 r2/templates/createsubreddit.html:68
-#: r2/templates/prefapps.html:102 r2/templates/prefapps.html:260
+#: r2/models/modaction.py:119 r2/templates/createsubreddit.html:68
+#: r2/templates/prefapps.html:103 r2/templates/prefapps.html:290
 msgid "description"
 msgstr "beschrijving"
 
-#: r2/models/modaction.py:118 r2/templates/createsubreddit.html:82
+#: r2/models/modaction.py:120 r2/templates/createsubreddit.html:82
 msgid "sidebar"
 msgstr "zijbalk"
 
-#: r2/models/modaction.py:119 r2/templates/createsubreddit.html:106
+#: r2/models/modaction.py:121 r2/templates/createsubreddit.html:106
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "taal"
 
-#: r2/models/modaction.py:120 r2/templates/createsubreddit.html:117
+#: r2/models/modaction.py:122 r2/templates/createsubreddit.html:117
 msgid "type"
 msgstr "type"
 
-#: r2/models/modaction.py:121
+#: r2/models/modaction.py:123
 msgid "link type"
 msgstr "linktype"
 
-#: r2/models/modaction.py:122
+#: r2/models/modaction.py:124
 msgid "toggle viewers must be over 18"
 msgstr "bezoekers moeten 18 jaar of ouder zijn in-/uitschakelen"
 
-#: r2/models/modaction.py:123
+#: r2/models/modaction.py:125
 msgid "toggle allow in default set"
 msgstr "toestaan in standaardset in-/uitschakelen"
 
-#: r2/models/modaction.py:124
+#: r2/models/modaction.py:126
 msgid "toggle show thumbnail images of content"
 msgstr "voorbeeldafbeeldingen van inhoud weergeven/verbergen"
 
-#: r2/models/modaction.py:125 r2/templates/createsubreddit.html:226
+#: r2/models/modaction.py:127 r2/templates/createsubreddit.html:226
 msgid "domain"
 msgstr "domein"
 
-#: r2/models/modaction.py:126
+#: r2/models/modaction.py:128
 msgid "toggle show sidebar from cname"
 msgstr "zijbalk van cname weergeven/verbergen"
 
-#: r2/models/modaction.py:127
+#: r2/models/modaction.py:129
 msgid "toggle custom CSS from cname"
 msgstr "aangepaste CSS van cname in-/uitschakelen"
 
-#: r2/models/modaction.py:128
+#: r2/models/modaction.py:130
 msgid "header title"
 msgstr "headertitel"
 
-#: r2/models/modaction.py:130
+#: r2/models/modaction.py:132
 msgid "delete header image"
 msgstr "headerafbeelding verwijderen"
 
-#: r2/models/modaction.py:131
+#: r2/models/modaction.py:133
 msgid "delete image"
 msgstr "afbeelding verwijderen"
 
-#: r2/models/modaction.py:132 r2/templates/createsubreddit.html:280
+#: r2/models/modaction.py:134 r2/templates/createsubreddit.html:280
 msgid "upload header image"
 msgstr "headerafbeelding uploaden"
 
-#: r2/models/modaction.py:133
+#: r2/models/modaction.py:135
 msgid "upload image"
 msgstr "afbeelding uploaden"
 
-#: r2/models/modaction.py:135
+#: r2/models/modaction.py:137
 msgid "add/edit flair"
 msgstr "flair toevoegen/bewerken"
 
-#: r2/models/modaction.py:136
+#: r2/models/modaction.py:138
 msgid "delete flair"
 msgstr "flair verwijderen"
 
-#: r2/models/modaction.py:137
+#: r2/models/modaction.py:139
 msgid "edit by csv"
 msgstr "bewerken met csv"
 
-#: r2/models/modaction.py:138
+#: r2/models/modaction.py:140
 msgid "toggle flair enabled"
 msgstr "flair in-/uitschakelen"
 
-#: r2/models/modaction.py:139
+#: r2/models/modaction.py:141
 msgid "toggle user flair position"
 msgstr "gebruikersflairpositie wijzigen"
 
-#: r2/models/modaction.py:140
+#: r2/models/modaction.py:142
 msgid "toggle link flair position"
 msgstr "linkflairpositie wijzigen"
 
-#: r2/models/modaction.py:141
+#: r2/models/modaction.py:143
 msgid "toggle user assigned flair enabled"
 msgstr "gebruikersflair in-/uitschakelen"
 
-#: r2/models/modaction.py:142
+#: r2/models/modaction.py:144
 msgid "toggle submitter assigned link flair enabled"
 msgstr "posters kunnen hun eigen linkflair toewijzen"
 
-#: r2/models/modaction.py:143
+#: r2/models/modaction.py:145
 msgid "add/edit flair templates"
 msgstr "flairsjabloon toevoegen/bewerken"
 
-#: r2/models/modaction.py:144
+#: r2/models/modaction.py:146
 msgid "delete flair template"
 msgstr "flairsjabloon verwijderen"
 
-#: r2/models/modaction.py:145
+#: r2/models/modaction.py:147
 msgid "clear flair templates"
 msgstr "flairsjablonen wissen"
 
-#: r2/models/modaction.py:147 r2/templates/prefapps.html:42
-#: r2/templates/printablebuttons.html:48
-#: r2/templates/printablebuttons.html:139 r2/templates/trophycase.html:47
+#: r2/models/modaction.py:149 r2/templates/prefapps.html:43
+#: r2/templates/printablebuttons.html:43
+#: r2/templates/printablebuttons.html:134 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67 r2/templates/usertableitem.html:55
 msgid "remove"
 msgstr "verwijderen"
 
-#: r2/models/modaction.py:293 r2/models/modaction.py:307
+#: r2/models/modaction.py:295 r2/models/modaction.py:309
 #: r2/templates/comment.html:62
 msgid "by"
 msgstr "door"
 
-#: r2/models/modaction.py:309 r2/templates/comment.xml:42
+#: r2/models/modaction.py:311 r2/templates/comment.xml:42
 msgid "on"
 msgstr "op"
 
-#: r2/models/subreddit.py:1204
+#: r2/models/subreddit.py:1189
 msgid "on reddit.com"
 msgstr "op reddit.com"
 
-#: r2/models/token.py:101
-msgid "Edit Posts"
-msgstr ""
-
 #: r2/models/token.py:102
-msgid "Edit and delete my comments and submissions."
-msgstr ""
+msgid "Edit Posts"
+msgstr "Posts bewerken"
 
-#: r2/models/token.py:106
+#: r2/models/token.py:103
+msgid "Edit and delete my comments and submissions."
+msgstr "Mijn reacties en posts bewerken en verwijderen."
+
+#: r2/models/token.py:107
 msgid "My Identity"
 msgstr "Mijn gegevens"
 
-#: r2/models/token.py:107
+#: r2/models/token.py:108
 msgid "Access my reddit username and signup date."
 msgstr "Mijn reddit-gebruikersnaam en registratiedatum bekijken."
 
-#: r2/models/token.py:111
-msgid "Moderate Flair"
-msgstr ""
-
 #: r2/models/token.py:112
-msgid "Manage and assign flair in subreddits I moderate."
-msgstr ""
+msgid "Moderate Flair"
+msgstr "Flair modereren"
 
-#: r2/models/token.py:117
-msgid "Moderate Posts"
-msgstr ""
+#: r2/models/token.py:113
+msgid "Manage and assign flair in subreddits I moderate."
+msgstr "Flair in subreddits waar ik modereer beheren en toekennen."
 
 #: r2/models/token.py:118
+msgid "Moderate Posts"
+msgstr "Posts beheren"
+
+#: r2/models/token.py:119
 msgid ""
 "Approve, remove, mark nsfw, and distinguish content in subreddits I "
 "moderate."
-msgstr ""
-
-#: r2/models/token.py:124
-msgid "Moderate Subreddit Configuration"
-msgstr ""
+msgstr "Inhoud in subreddits waar ik modereer goedkeuren, verwijderen, markeren als nsfw en scheiden"
 
 #: r2/models/token.py:125
-msgid "Manage the configuration, sidebar, and CSS of subreddits I moderate."
-msgstr ""
+msgid "Moderate Subreddit Configuration"
+msgstr "Subredditconfiguratie modereren"
 
-#: r2/models/token.py:131
-msgid "Moderation Log"
-msgstr ""
+#: r2/models/token.py:126
+msgid "Manage the configuration, sidebar, and CSS of subreddits I moderate."
+msgstr "Instellingen, de zijbalk en CSS van de subreddits waar ik modereer beheren."
 
 #: r2/models/token.py:132
-msgid "Access the moderation log in subreddits I moderate."
-msgstr ""
+msgid "Moderation Log"
+msgstr "Moderatielogboek"
 
-#: r2/models/token.py:137
-msgid "Subreddit Traffic"
-msgstr ""
+#: r2/models/token.py:133
+msgid "Access the moderation log in subreddits I moderate."
+msgstr "Het moderatielogboek in subreddits waar ik modereer bekijken."
 
 #: r2/models/token.py:138
-msgid "Access traffic stats in subreddits I moderate."
-msgstr ""
+msgid "Subreddit Traffic"
+msgstr "Verkeer van subreddit"
 
-#: r2/models/token.py:142
+#: r2/models/token.py:139
+msgid "Access traffic stats in subreddits I moderate."
+msgstr "Verkeerstatistieken van subreddits waar ik modereer bekijken."
+
+#: r2/models/token.py:143
 msgid "My Subreddits"
 msgstr ""
 
-#: r2/models/token.py:143
+#: r2/models/token.py:144
 msgid ""
 "Access the list of subreddits I moderate, contribute to, and subscribe to."
 msgstr ""
 
-#: r2/models/token.py:149
+#: r2/models/token.py:150
 msgid "Private Messages"
 msgstr ""
 
-#: r2/models/token.py:150
+#: r2/models/token.py:151
 msgid "Access my inbox and send private messages to other users."
 msgstr ""
 
-#: r2/models/token.py:155
+#: r2/models/token.py:156
 msgid "Read Content"
 msgstr ""
 
-#: r2/models/token.py:156
+#: r2/models/token.py:157
 msgid "Access posts and comments through my account."
 msgstr ""
 
-#: r2/models/token.py:160
+#: r2/models/token.py:161
 msgid "Submit Content"
 msgstr ""
 
-#: r2/models/token.py:161
+#: r2/models/token.py:162
 msgid "Submit links and comments from my account."
 msgstr ""
 
-#: r2/models/token.py:165
+#: r2/models/token.py:166
 msgid "Edit My Subscriptions"
 msgstr ""
 
-#: r2/models/token.py:166
+#: r2/models/token.py:167
 msgid "Manage my subreddit subscriptions."
 msgstr ""
 
-#: r2/models/token.py:170
+#: r2/models/token.py:171
 msgid "Vote"
-msgstr ""
+msgstr "Stemmen"
 
-#: r2/models/token.py:172
+#: r2/models/token.py:173
 msgid "Submit and change my votes on comments and submissions."
 msgstr ""
 
@@ -3745,18 +3865,13 @@ msgstr "in"
 msgid "deleted comment from"
 msgstr "reactie verwijderd van"
 
-#: r2/templates/comment.html:102 r2/templates/comment.htmllite:46
-#: r2/templates/comment.xml:31 r2/templates/comment.xml:32
-msgid "[deleted]"
-msgstr "eenmaal toegevoegd aan je bladwijzerbalk, kun je vanaf elke site op deze knoppen klikken om snel toegang te krijgen tot reddit-functionaliteiten."
-
 #: r2/templates/comment.html:111 r2/templates/comment.htmllite:46
 #: r2/templates/commentvisitsbox.html:38 r2/templates/useriphistory.html:52
-#: r2/templates/utils.html:598
+#: r2/templates/utils.html:603
 msgid "ago"
 msgstr "geleden"
 
-#: r2/templates/comment.html:118
+#: r2/templates/comment.html:127
 msgid "child"
 msgid_plural "children"
 msgstr[0] "subitem"
@@ -3784,8 +3899,8 @@ msgstr "niets markeren"
 msgid "no spaces, e.g., slashdot"
 msgstr "geen spaties, bijv. puntkomma"
 
-#: r2/templates/createsubreddit.html:42 r2/templates/prefapps.html:95
-#: r2/templates/prefapps.html:253
+#: r2/templates/createsubreddit.html:42 r2/templates/prefapps.html:96
+#: r2/templates/prefapps.html:283
 msgid "name"
 msgstr "naam"
 
@@ -3863,15 +3978,15 @@ msgstr "alleen tekst-/eigen posts zijn toegestaan"
 
 #: r2/templates/createsubreddit.html:157
 msgid "wiki"
-msgstr ""
+msgstr "wiki"
 
 #: r2/templates/createsubreddit.html:160
 msgid "disabled"
-msgstr ""
+msgstr "uitgeschakeld"
 
 #: r2/templates/createsubreddit.html:161
 msgid "Wiki is disabled for all users except mods"
-msgstr ""
+msgstr "Wiki is uitgeschakeld voor alle gebruikers, behalve mods"
 
 #: r2/templates/createsubreddit.html:163
 msgid "mod editing"
@@ -3883,7 +3998,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:166
 msgid "anyone"
-msgstr ""
+msgstr "iedereen"
 
 #: r2/templates/createsubreddit.html:167
 msgid "Anyone who can submit to the subreddit may edit"
@@ -3932,7 +4047,7 @@ msgid ""
 "access your reddit through your domain."
 msgstr "Heb je een domein?  Vul het hier in en ga vervolgens naar je DNS-aanbieder en voeg een CNAME-record toe met een alias naar rhs.reddit.com. Je kunt dan reddit vanaf je eigen domein bezoeken."
 
-#: r2/templates/createsubreddit.html:264 r2/templates/promotelinkform.html:299
+#: r2/templates/createsubreddit.html:264 r2/templates/promotelinkform.html:305
 msgid "look and feel"
 msgstr "uiterlijk"
 
@@ -3965,7 +4080,7 @@ msgid "upload sponsorship image"
 msgstr "sponsorafbeelding uploaden"
 
 #: r2/templates/createsubreddit.html:366 r2/templates/flairpane.html:88
-#: r2/templates/prefoptions.html:324 r2/templates/promotelinkform.html:397
+#: r2/templates/prefoptions.html:324 r2/templates/promotelinkform.html:403
 msgid "save options"
 msgstr "instellingen opslaan"
 
@@ -4021,7 +4136,8 @@ msgstr "css-klasse"
 
 #: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:52
 #: r2/templates/frametoolbar.html:200 r2/templates/prefupdate.html:98
-#: r2/templates/printablebuttons.html:189
+#: r2/templates/printablebuttons.html:184
+#: r2/templates/printablebuttons.html:261
 #: r2/templates/subredditstylesheet.html:87
 msgid "save"
 msgstr "opslaan"
@@ -4032,7 +4148,7 @@ msgid "prev"
 msgstr "vorige"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
-#: r2/templates/promotelinkform.html:400 r2/templates/tablelisting.html:59
+#: r2/templates/promotelinkform.html:406 r2/templates/tablelisting.html:59
 msgid "next"
 msgstr "volgende"
 
@@ -4177,24 +4293,26 @@ msgstr "leuk"
 msgid "dislike"
 msgstr "niet leuk"
 
-#: r2/templates/frametoolbar.html:196 r2/templates/printablebuttons.html:186
+#: r2/templates/frametoolbar.html:196 r2/templates/printablebuttons.html:181
+#: r2/templates/printablebuttons.html:256
 msgid "unsave"
 msgstr "verwijderen"
 
-#: r2/templates/frametoolbar.html:197 r2/templates/printablebuttons.html:187
+#: r2/templates/frametoolbar.html:197 r2/templates/printablebuttons.html:182
+#: r2/templates/printablebuttons.html:257
 msgid "unsaved"
 msgstr "verwijderd"
 
-#: r2/templates/frametoolbar.html:206 r2/templates/printablebuttons.html:194
+#: r2/templates/frametoolbar.html:206 r2/templates/printablebuttons.html:189
 msgid "unhide"
 msgstr "weergeven"
 
-#: r2/templates/frametoolbar.html:207 r2/templates/printablebuttons.html:195
+#: r2/templates/frametoolbar.html:207 r2/templates/printablebuttons.html:190
 msgid "unhidden"
 msgstr "wordt nu weergegeven"
 
 #: r2/templates/frametoolbar.html:210 r2/templates/frametoolbar.html:211
-#: r2/templates/printablebuttons.html:197
+#: r2/templates/printablebuttons.html:192
 msgid "hide"
 msgstr "verbergen"
 
@@ -4219,83 +4337,208 @@ msgid "Buy reddit gold \"creddits\""
 msgstr "Reddit Gold-\"creddits\" kopen"
 
 #: r2/templates/gold.html:103
-msgid "$3.99 / month"
-msgstr "$ 3,99 per maand"
+#, python-format
+msgid "%s / month"
+msgstr ""
 
 #: r2/templates/gold.html:104
-msgid "$29.99 / year (which works out to just $2.50 / month!)"
-msgstr "$ 29,99 per jaar (omgerekend slechts $ 2,50 per maand!)"
+#, python-format
+msgid "%s / year (which works out to just %s / month!)"
+msgstr ""
 
-#: r2/templates/gold.html:106 r2/templates/subreddit.html:64
+#: r2/templates/gold.html:107 r2/templates/subreddit.html:64
 msgid "subscribe"
 msgstr "abonneren"
 
-#: r2/templates/gold.html:112
+#: r2/templates/gold.html:113
 msgid "How many months?"
 msgstr "Hoeveel maanden?"
 
-#: r2/templates/gold.html:114 r2/templates/gold.html:175
+#: r2/templates/gold.html:115 r2/templates/gold.html:176
 msgid "buy"
 msgstr "kopen"
 
-#: r2/templates/gold.html:120
+#: r2/templates/gold.html:121
 msgid "How much gold do you wish to bestow?"
 msgstr "Hoeveel gold kun je missen?"
 
-#: r2/templates/gold.html:131
+#: r2/templates/gold.html:132
 #, python-format
 msgid ""
 "Note: If you want to give more than %(number)d, you'll need to buy more "
 "creddits."
 msgstr "Opmerking: Als je meer dan %(number)d wilt geven, dien je meer creddits te kopen."
 
-#: r2/templates/gold.html:138
+#: r2/templates/gold.html:139
 msgid "To whom are you giving said gold?"
 msgstr "Wie is de gelukkige van dit gegeven gold?"
 
-#: r2/templates/gold.html:149
+#: r2/templates/gold.html:150
 msgid "Do you want them to know it came from you?"
 msgstr "Wil je hem/haar laten weten dat het van jou is?"
 
-#: r2/templates/gold.html:151
+#: r2/templates/gold.html:152
 msgid "yes, include my username"
 msgstr "ja, voeg mijn gebruikersnaam toe"
 
-#: r2/templates/gold.html:155
+#: r2/templates/gold.html:156
 msgid "no, make it anonymous"
 msgstr "nee, ik wil anoniem blijven"
 
-#: r2/templates/gold.html:161
+#: r2/templates/gold.html:162
 msgid "Gift message (optional):"
 msgstr "Bericht voor geschenk (optioneel):"
 
-#: r2/templates/gold.html:166 r2/templates/goldpayment.html:51
+#: r2/templates/gold.html:167 r2/templates/goldpayment.html:52
 msgid "give"
 msgstr "geven"
 
-#: r2/templates/gold.html:173
+#: r2/templates/gold.html:174
 msgid ""
 "How many creddits would you like to buy? (each will allow you to give one "
 "month of reddit gold)"
 msgstr "Hoeveel creddits wil je kopen? (een maand reddit gold per stuk)"
 
-#: r2/templates/goldpayment.html:38
+#: r2/templates/goldinfopage.html:39
+msgid "New!"
+msgstr ""
+
+#: r2/templates/goldinfopage.html:50
+msgid "Make reddit better."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:51
+msgid ""
+"reddit gold adds shiny extra features to your account that are made possible"
+" thanks to support from people like you."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:53 r2/templates/goldinfopage.html:103
+msgid "buy reddit gold"
+msgstr ""
+
+#: r2/templates/goldinfopage.html:54 r2/templates/goldinfopage.html:106
+msgid "or"
+msgstr ""
+
+#: r2/templates/goldinfopage.html:55
+msgid "send us a postcard"
+msgstr ""
+
+#: r2/templates/goldinfopage.html:59
+msgid ""
+"# More subreddits and comments per page.\n"
+"Our servers work harder for gold members.  \n"
+"Subscribe to up to 100 subreddits on your front page.  \n"
+"Read comment threads 1500 comments at a time."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:66
+msgid ""
+"# New comment highlighting.\n"
+"What's new? Highlight which comments are new since the last time you viewed a thread."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:71
+msgid ""
+"# Save comments and view by subreddit.\n"
+"Save the great comments you'd like to revisit later.  \n"
+"Filter your favorite posts and comments by subreddit."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:77
+msgid ""
+"# Turn off ads.\n"
+"Advertisements are optional to gold members."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:82
+msgid ""
+"# Friends with benefits.\n"
+"Add notes to keep track of them all."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:87
+msgid ""
+"# More stats.\n"
+"View your karma broken down by the communities you take part in."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:94
+msgid "The Lounge."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:94
+msgid ""
+"Access to a super-secret members-only community that may or may not exist."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:95
+msgid "Beta test new features."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:95
+msgid "We occasionally invite gold members to try out new features first."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:96
+msgid "A trophy on your user page."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:96
+msgid "As thanks for supporting reddit gold."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:97
+msgid "More to come."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:97
+msgid ""
+"We have many more ideas for gold features, and will add to this list in the "
+"future."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:101
+msgid "become a member today."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:102
+#, python-format
+msgid ""
+"reddit gold is %(gold_month_price)s / month, or %(gold_year_price)s for a "
+"year."
+msgstr ""
+
+#: r2/templates/goldinfopage.html:117
+msgid "send us a postcard | for | 1 free month | of | reddit gold"
+msgstr ""
+
+#: r2/templates/goldinfopage.html:130
+msgid "view the postcard gallery"
+msgstr ""
+
+#: r2/templates/goldpayment.html:33
+msgid "close"
+msgstr ""
+
+#: r2/templates/goldpayment.html:40
 msgid "The following gift note will be attached:"
 msgstr "De volgende geschenkopmerking zal worden bijgevoegd:"
 
-#: r2/templates/goldpayment.html:55
+#: r2/templates/goldpayment.html:57
 msgid "Please select a payment method."
 msgstr "Selecteer een betaalmethode."
 
-#: r2/templates/goldpayment.html:81
+#: r2/templates/goldpayment.html:83
 msgid "Google Checkout"
 msgstr "Google Checkout"
 
-#: r2/templates/goldpayment.html:94
+#: r2/templates/goldpayment.html:96
 msgid "PayPal"
 msgstr "PayPal"
 
-#: r2/templates/goldpayment.html:98
+#: r2/templates/goldpayment.html:102
 msgid ""
 "Note: Google Checkout does not support ongoing subscriptions at this time."
 msgstr "Opmerking: Google Checkout ondersteunt momenteel geen abonnementen."
@@ -4328,15 +4571,15 @@ msgstr "statistieken voor dataverkeer per taal"
 msgid "traffic by language"
 msgstr "dataverkeer per taal"
 
-#: r2/templates/link.html:71
+#: r2/templates/link.html:69
 msgid "Adult content: Not Safe For Work"
 msgstr "Inhoud voor volwassenen: Not Safe For Work"
 
-#: r2/templates/link.html:72
+#: r2/templates/link.html:70
 msgid "NSFW"
 msgstr "NSFW"
 
-#: r2/templates/link.html:102
+#: r2/templates/link.html:100
 msgid ""
 "(no need to click for this info; just hover over the checkmark next time)"
 msgstr "(je hoeft dit niet aan te klikken, de volgende keer gewoon de muiscursor over het vinkje bewegen)"
@@ -4366,34 +4609,6 @@ msgstr[1] "vinden dit niet leuk"
 msgid "comments from %(site)s"
 msgstr "reacties van %(site)s"
 
-#: r2/templates/linkontrial.html:44
-msgid "reddit's spam filter needs your help!"
-msgstr "reddit's spamfilter heeft jouw hulp nodig!"
-
-#: r2/templates/linkontrial.html:51
-msgid "how would you classify this link?"
-msgstr "hoe zou je deze link bestempelen?"
-
-#: r2/templates/linkontrial.html:66
-msgid "off-topic / spam"
-msgstr "off-topic / spam"
-
-#: r2/templates/linkontrial.html:67
-msgid "kosher"
-msgstr "kosjer"
-
-#: r2/templates/linkontrial.html:70
-msgid "thanks for voting!"
-msgstr "bedankt voor het stemmen!"
-
-#: r2/templates/linkontrial.html:73
-msgid "Click here for more info."
-msgstr "Klik hier voor meer informatie."
-
-#: r2/templates/linkontrial.html:77
-msgid "those arrows are only for show; they don't actually do anything."
-msgstr "die pijltjes zijn maar voor de sier; ze doen eigenlijk niks."
-
 #: r2/templates/listing.html:39 r2/templates/tablelisting.html:49
 msgid "view more:"
 msgstr "meer:"
@@ -4414,11 +4629,11 @@ msgstr "gebruikersnaam"
 
 #: r2/templates/login.html:71 r2/templates/register.html:71
 msgid "try another"
-msgstr ""
+msgstr "probeer een andere"
 
 #: r2/templates/login.html:72 r2/templates/register.html:72
 msgid "available!"
-msgstr ""
+msgstr "beschikbaar!"
 
 #: r2/templates/login.html:81 r2/templates/prefdelete.html:46
 #: r2/templates/register.html:81
@@ -4465,15 +4680,15 @@ msgstr "is het echt zo makkelijk? er is maar één manier om erachter te komen..
 msgid "already have an account and just want to login?"
 msgstr "heb je al een account en wil je gewoon inloggen?"
 
-#: r2/templates/message.html:103
+#: r2/templates/message.html:101
 msgid "expand all"
 msgstr "alles uitvouwen"
 
-#: r2/templates/message.html:106
+#: r2/templates/message.html:104
 msgid "collapse all"
 msgstr "alles samenvouwen"
 
-#: r2/templates/message.html:121
+#: r2/templates/message.html:119
 msgid "show parent"
 msgstr "oorspronkelijke post weergeven"
 
@@ -4505,7 +4720,7 @@ msgstr "je bent geen moderator meer"
 msgid "stop being a moderator?"
 msgstr "wil je geen moderator meer zijn?"
 
-#: r2/templates/modlist.html:44 r2/templates/printablebuttons.html:232
+#: r2/templates/modlist.html:44 r2/templates/printablebuttons.html:227
 msgid "accept"
 msgstr "accepteren"
 
@@ -4525,7 +4740,7 @@ msgstr ""
 
 #: r2/templates/modlist.html:56
 msgid "invite"
-msgstr ""
+msgstr "uitnodigen"
 
 #: r2/templates/modlist.html:61
 msgid "pending invitations"
@@ -4558,7 +4773,7 @@ msgstr "reddit"
 msgid "submit to %(sr)s"
 msgstr "verzenden naar %(sr)s"
 
-#: r2/templates/newlink.html:70 r2/templates/promotelinkform.html:271
+#: r2/templates/newlink.html:70 r2/templates/promotelinkform.html:277
 msgid "url"
 msgstr "url"
 
@@ -4599,33 +4814,26 @@ msgstr ""
 msgid "good reddiquette"
 msgstr ""
 
-#: r2/templates/oauth2authorization.html:42
-#, python-format
-msgid ""
-"#[%(app_name)s](%(app_about_url)s) requests to connect with your reddit "
-"account."
-msgstr "#[%(app_name)s](%(app_about_url)s) vraagt om je reddit-account te koppelen."
-
 #: r2/templates/oauth2authorization.html:45
 #, python-format
-msgid "#%(app_name)s requests to connect with your reddit account."
-msgstr "#%(app_name)s wil toegang tot je reddit-account."
+msgid "%(app)s requests to connect with your reddit account."
+msgstr ""
 
-#: r2/templates/oauth2authorization.html:48
+#: r2/templates/oauth2authorization.html:49
 #, python-format
-msgid "Allow %(app_name)s to:"
-msgstr "%(app_name)s toestaan tot:"
+msgid "Allow %(app)s to:"
+msgstr ""
 
-#: r2/templates/oauth2authorization.html:50
+#: r2/templates/oauth2authorization.html:53
 #, python-format
-msgid "%(app_name)s will not be able to access your reddit password."
-msgstr "%(app_name)s zal je reddit-wachtwoord niet kunnen zien."
+msgid "%(app)s will not be able to access your reddit password."
+msgstr ""
 
-#: r2/templates/oauth2authorization.html:58
+#: r2/templates/oauth2authorization.html:65
 msgid "Allow"
 msgstr "Toestaan"
 
-#: r2/templates/oauth2authorization.html:59
+#: r2/templates/oauth2authorization.html:67
 msgid "Decline"
 msgstr "Weigeren"
 
@@ -4647,14 +4855,14 @@ msgid ""
 msgstr "Wil je geen e-mail meer van ons op het adres %(email)s ontvangen?"
 
 #: r2/templates/optout.html:37 r2/templates/optout.html:53
-#: r2/templates/printablebuttons.html:405
-#: r2/templates/printablebuttons.html:439
+#: r2/templates/printablebuttons.html:401
+#: r2/templates/printablebuttons.html:435
 msgid "yes"
 msgstr "ja"
 
 #: r2/templates/optout.html:40 r2/templates/optout.html:56
-#: r2/templates/printablebuttons.html:407
-#: r2/templates/printablebuttons.html:442
+#: r2/templates/printablebuttons.html:403
+#: r2/templates/printablebuttons.html:438
 msgid "no"
 msgstr "nee"
 
@@ -4817,83 +5025,95 @@ msgstr "je bekijkt nu de reacties voor een enkele thread."
 msgid "view the rest of the comments"
 msgstr "de rest van de reacties weergeven"
 
-#: r2/templates/prefapps.html:40
+#: r2/templates/prefapps.html:41
 msgid "(that's you!)"
 msgstr "(dat ben jij!)"
 
-#: r2/templates/prefapps.html:86
+#: r2/templates/prefapps.html:87
 msgid "updating..."
 msgstr "bezig met bijwerken..."
 
-#: r2/templates/prefapps.html:91
+#: r2/templates/prefapps.html:92
 msgid "secret"
 msgstr "geheim"
 
-#: r2/templates/prefapps.html:108 r2/templates/prefapps.html:266
+#: r2/templates/prefapps.html:109 r2/templates/prefapps.html:296
 msgid "about url"
 msgstr "over url"
 
-#: r2/templates/prefapps.html:115 r2/templates/prefapps.html:273
+#: r2/templates/prefapps.html:116 r2/templates/prefapps.html:303
 msgid "redirect uri"
 msgstr "doorstuur-uri"
 
-#: r2/templates/prefapps.html:124
+#: r2/templates/prefapps.html:125
 msgid "update app"
 msgstr "app bijwerken"
 
-#: r2/templates/prefapps.html:131
+#: r2/templates/prefapps.html:132
 msgid "developers"
 msgstr "ontwikkelaars"
 
-#: r2/templates/prefapps.html:141
+#: r2/templates/prefapps.html:142
 msgid "adding..."
 msgstr "bezig met toevoegen..."
 
-#: r2/templates/prefapps.html:144
+#: r2/templates/prefapps.html:145
 msgid "add developer"
 msgstr "ontwikkelaar toevoegen"
 
-#: r2/templates/prefapps.html:158
+#: r2/templates/prefapps.html:159
 msgid "delete app"
 msgstr "app verwijderen"
 
-#: r2/templates/prefapps.html:184
-msgid "Only on:"
+#: r2/templates/prefapps.html:183
+msgid "Only in the subreddits:"
 msgstr ""
 
-#: r2/templates/prefapps.html:211
+#: r2/templates/prefapps.html:200 r2/templates/prefapps.html:217
+msgid "Expires in:"
+msgstr ""
+
+#: r2/templates/prefapps.html:203
+msgid "Maintain this access indefinitely (or until manually revoked)."
+msgstr ""
+
+#: r2/templates/prefapps.html:212
+msgid "Only in:"
+msgstr ""
+
+#: r2/templates/prefapps.html:241
 msgid "revoke access"
 msgstr "toegang intrekken"
 
-#: r2/templates/prefapps.html:212
+#: r2/templates/prefapps.html:242
 msgid "revoked"
 msgstr "ingetrokken"
 
-#: r2/templates/prefapps.html:221
+#: r2/templates/prefapps.html:251
 msgid "authorized applications"
 msgstr "goedgekeurde applicaties"
 
-#: r2/templates/prefapps.html:230
+#: r2/templates/prefapps.html:260
 msgid "developed applications"
 msgstr "ontwikkelde applicaties"
 
-#: r2/templates/prefapps.html:242
+#: r2/templates/prefapps.html:272
 msgid "create another app..."
 msgstr "nog een app maken..."
 
-#: r2/templates/prefapps.html:244
+#: r2/templates/prefapps.html:274
 msgid "are you a developer? create an app..."
 msgstr "ben je een ontwikkelaar? maak een app..."
 
-#: r2/templates/prefapps.html:248
+#: r2/templates/prefapps.html:278
 msgid "creating..."
 msgstr "bezig met maken..."
 
-#: r2/templates/prefapps.html:249
+#: r2/templates/prefapps.html:279
 msgid "create application"
 msgstr "applicatie maken"
 
-#: r2/templates/prefapps.html:281
+#: r2/templates/prefapps.html:311
 msgid "create app"
 msgstr "app maken"
 
@@ -4998,7 +5218,7 @@ msgstr "alleen antwoorden op reacties"
 
 #: r2/templates/preffeeds.html:89
 msgid "self-post replies only"
-msgstr "alleen zelf verzonden antwoorden"
+msgstr "alleen antwoorden op eigen posts"
 
 #: r2/templates/prefoptions.html:72
 msgid "your preferences have been updated"
@@ -5028,7 +5248,7 @@ msgstr "klikopties"
 msgid "display links with a reddit toolbar"
 msgstr "reddit-werkbalk weergeven bij links"
 
-#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:354
+#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:360
 msgid "media"
 msgstr "media"
 
@@ -5083,16 +5303,16 @@ msgid "compress the link display"
 msgstr "compacte linksweergave"
 
 #: r2/templates/prefoptions.html:149
-msgid "don't show links after i've liked them"
-msgstr "links die ik leuk vind niet weergeven"
+msgid "don't show links after I've liked them"
+msgstr ""
 
 #: r2/templates/prefoptions.html:151 r2/templates/prefoptions.html:155
 msgid "(except my own)"
 msgstr "(behalve mijn eigen)"
 
 #: r2/templates/prefoptions.html:153
-msgid "don't show links after i've disliked them"
-msgstr "links die ik niet leuk vind niet weergeven"
+msgid "don't show links after I've disliked them"
+msgstr ""
 
 #: r2/templates/prefoptions.html:159
 msgid "display"
@@ -5195,8 +5415,8 @@ msgid "show promote tab on front page"
 msgstr "promotietabblad op de startpagina weergeven"
 
 #: r2/templates/prefoptions.html:248
-msgid "i am over eighteen years old and willing to view adult content"
-msgstr "ik ben ouder dan 18 en bereid om inhoud voor volwassenen te zien"
+msgid "I am over eighteen years old and willing to view adult content"
+msgstr ""
 
 #: r2/templates/prefoptions.html:249
 msgid "required to view some reddits"
@@ -5360,150 +5580,132 @@ msgstr "nieuw wachtwoord"
 msgid "send verification email"
 msgstr "verificatie-e-mail verzenden"
 
-#: r2/templates/printablebuttons.html:38
-msgid "indict"
-msgstr "klagen"
-
-#: r2/templates/printablebuttons.html:38
-msgid "indicted"
-msgstr "over geklaagd"
-
-#: r2/templates/printablebuttons.html:45
-#: r2/templates/printablebuttons.html:152
+#: r2/templates/printablebuttons.html:40
+#: r2/templates/printablebuttons.html:147
 msgid "spammed"
 msgstr "gespamd"
 
-#: r2/templates/printablebuttons.html:54
+#: r2/templates/printablebuttons.html:49
 msgid "approve"
 msgstr "goedkeuren"
 
-#: r2/templates/printablebuttons.html:61
+#: r2/templates/printablebuttons.html:56
 msgid "report"
 msgstr "rapporteren"
 
-#: r2/templates/printablebuttons.html:65
+#: r2/templates/printablebuttons.html:60
 msgid "nsfw"
 msgstr "nsfw"
 
-#: r2/templates/printablebuttons.html:65
+#: r2/templates/printablebuttons.html:60
 msgid "marked"
 msgstr "gemarkeerd"
 
-#: r2/templates/printablebuttons.html:68
+#: r2/templates/printablebuttons.html:63
 msgid "un-nsfw"
 msgstr "niet nsfw"
 
-#: r2/templates/printablebuttons.html:68
+#: r2/templates/printablebuttons.html:63
 msgid "unmarked"
 msgstr "markeren ongedaan gemaakt"
 
-#: r2/templates/printablebuttons.html:90
+#: r2/templates/printablebuttons.html:85
 msgid "distinguishing..."
 msgstr "bezig met maken van onderscheid..."
 
-#: r2/templates/printablebuttons.html:94
+#: r2/templates/printablebuttons.html:89
 msgid "distinguish this?"
 msgstr "wil je dit onderscheiden?"
 
-#: r2/templates/printablebuttons.html:135
+#: r2/templates/printablebuttons.html:130
 msgid "confirm spam"
 msgstr "spam bevestigen"
 
-#: r2/templates/printablebuttons.html:136
+#: r2/templates/printablebuttons.html:131
 msgid "remove ham"
 msgstr "ham verwijderen"
 
-#: r2/templates/printablebuttons.html:143
+#: r2/templates/printablebuttons.html:138
 #, python-format
 msgid "reapprove %(obj)s"
 msgstr "%(obj)s opnieuw goedkeuren"
 
-#: r2/templates/printablebuttons.html:146
+#: r2/templates/printablebuttons.html:141
 #, python-format
 msgid "approve %(obj)s"
 msgstr "%(obj)s goedkeuren"
 
-#: r2/templates/printablebuttons.html:179
-#: r2/templates/printablebuttons.html:227 r2/templates/sharelink.html:119
+#: r2/templates/printablebuttons.html:174
+#: r2/templates/printablebuttons.html:222 r2/templates/sharelink.html:119
 msgid "cancel"
 msgstr "annuleren"
 
-#: r2/templates/printablebuttons.html:198
+#: r2/templates/printablebuttons.html:193
 msgid "hidden"
 msgstr "verborgen"
 
-#: r2/templates/printablebuttons.html:227
+#: r2/templates/printablebuttons.html:222
 msgid "reject"
 msgstr "verwerpen"
 
-#: r2/templates/printablebuttons.html:232
+#: r2/templates/printablebuttons.html:227
 msgid "accepted"
 msgstr "geaccepteerd"
 
-#: r2/templates/printablebuttons.html:238
+#: r2/templates/printablebuttons.html:233
 msgid "traffic"
 msgstr "verkeer"
 
-#: r2/templates/printablebuttons.html:245
-msgid "questionable submission; you should remove it or approve it"
-msgstr "twijfelachtige post; je zou het moeten verwijderen of goedkeuren"
-
-#: r2/templates/printablebuttons.html:247
-msgid "deputy opinion:"
-msgstr "adjunct-advies:"
-
-#: r2/templates/printablebuttons.html:250
-#, python-format
-msgid "%d spam"
-msgstr "%d spam"
-
-#: r2/templates/printablebuttons.html:256
-#, python-format
-msgid "%d kosher"
-msgstr "%d kosjer"
-
-#: r2/templates/printablebuttons.html:275
-#: r2/templates/printablebuttons.html:334
+#: r2/templates/printablebuttons.html:252
+#: r2/templates/printablebuttons.html:330
 msgid "permalink"
 msgstr "permalink"
 
-#: r2/templates/printablebuttons.html:279
-#: r2/templates/printablebuttons.html:330 r2/templates/starkcomment.html:34
+#: r2/templates/printablebuttons.html:267
+#: r2/templates/printablebuttons.html:326 r2/templates/starkcomment.html:34
 msgid "context"
 msgstr "context"
 
-#: r2/templates/printablebuttons.html:282
+#: r2/templates/printablebuttons.html:270
 msgid "full comments"
 msgstr "volledige reacties"
 
-#: r2/templates/printablebuttons.html:292
-#: r2/templates/printablebuttons.html:299
+#: r2/templates/printablebuttons.html:280
+#: r2/templates/printablebuttons.html:287
 msgid "parent"
 msgstr "oorspronkelijke post"
 
-#: r2/templates/printablebuttons.html:312
-#: r2/templates/printablebuttons.html:352
+#: r2/templates/printablebuttons.html:301
+msgid "give reddit gold in appreciation of this comment."
+msgstr ""
+
+#: r2/templates/printablebuttons.html:303
+msgid "give gold"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:308
+#: r2/templates/printablebuttons.html:348
 msgid "reply {verb}"
 msgstr "reageren"
 
-#: r2/templates/printablebuttons.html:341
+#: r2/templates/printablebuttons.html:337
 msgid "block user"
 msgstr "gebruiker blokkeren"
 
-#: r2/templates/printablebuttons.html:341
+#: r2/templates/printablebuttons.html:337
 msgid "blocked"
 msgstr "geblokkeerd"
 
-#: r2/templates/printablebuttons.html:345
+#: r2/templates/printablebuttons.html:341
 msgid "mark unread"
 msgstr "markeren als ongelezen"
 
-#: r2/templates/printablebuttons.html:403
-#: r2/templates/printablebuttons.html:421
+#: r2/templates/printablebuttons.html:399
+#: r2/templates/printablebuttons.html:417
 msgid "are you sure?"
 msgstr "weet je het zeker?"
 
-#: r2/templates/printablebuttons.html:516
+#: r2/templates/printablebuttons.html:512
 msgid "toggle"
 msgstr "in-/uitschakelen"
 
@@ -5523,27 +5725,136 @@ msgstr "linkkarma"
 msgid "comment karma"
 msgstr "reactiekarma"
 
-#: r2/templates/profilebar.html:124
+#: r2/templates/profilebar.html:125
 msgid "of reddit gold remaining"
 msgstr "reddit gold resterend"
 
-#: r2/templates/profilebar.html:132
+#: r2/templates/profilebar.html:133
 msgid "Recurring Paypal subscription"
 msgstr "Terugkerend PayPal-abonnement"
 
-#: r2/templates/profilebar.html:153 r2/templates/usertableitem.html:50
+#: r2/templates/profilebar.html:160 r2/templates/usertableitem.html:50
 msgid "send message"
 msgstr "bericht verzenden"
 
-#: r2/templates/profilebar.html:157
+#: r2/templates/profilebar.html:164
 msgid "redditor for"
 msgstr "redditor voor"
+
+#: r2/templates/promocampaigntraffictable.html:32
+#, python-format
+msgid "No campaigns for this link. Would you like to [create one](%(url)s)?"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:37
+msgid "id"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:38
+msgid "start"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:39
+msgid "end"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:40
+msgid "target"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:41
+msgid "bid"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:43
+msgid "cpm"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:45
+msgid "ctr"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:46
+msgid "cpc"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:57
+msgid "(live now)"
+msgstr ""
+
+#: r2/templates/promocampaigntraffictable.html:101
+#: r2/templates/promolinktrafficsummary.html:119
+#: r2/templates/promotedlinktraffic.html:101
+msgid "totals are preliminary until 24 hours after the end of the promotion."
+msgstr "totalen zijn een schatting tot 24 uur na het einde van de promotie."
+
+#: r2/templates/promolinktrafficsummary.html:40
+#, python-format
+msgid "Data is updated hourly. Last update: %s"
+msgstr ""
+
+#: r2/templates/promolinktrafficsummary.html:48
+msgid "Lifetime Stats:"
+msgstr ""
+
+#: r2/templates/promolinktrafficsummary.html:49
+#, python-format
+msgid "%s impression"
+msgid_plural "%s impressions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/templates/promolinktrafficsummary.html:50
+#, python-format
+msgid "%s click"
+msgid_plural "%s clicks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/templates/promolinktrafficsummary.html:51
+msgid "CTR: "
+msgstr ""
+
+#: r2/templates/promolinktrafficsummary.html:60
+msgid "(download data as .csv)"
+msgstr ""
+
+#: r2/templates/promolinktrafficsummary.html:74
+#: r2/templates/promotedlinktraffic.html:56
+msgid "click-through (%)"
+msgstr "doorklik (%)"
+
+#: r2/templates/promolinktrafficsummary.html:77
+#: r2/templates/promotedlinktraffic.html:59
+#: r2/templates/timeserieschart.html:37
+msgid "date"
+msgstr "datum"
+
+#: r2/templates/promolinktrafficsummary.html:78
+#: r2/templates/promolinktrafficsummary.html:80
+#: r2/templates/promolinktrafficsummary.html:82
+#: r2/templates/promotedlinktraffic.html:60
+#: r2/templates/promotedlinktraffic.html:62
+#: r2/templates/promotedlinktraffic.html:64
+msgid "unique"
+msgstr "uniek bezoek"
+
+#: r2/templates/promolinktrafficsummary.html:79
+#: r2/templates/promolinktrafficsummary.html:81
+#: r2/templates/promolinktrafficsummary.html:83
+#: r2/templates/promolinktrafficsummary.html:99
+#: r2/templates/promotedlinktraffic.html:61
+#: r2/templates/promotedlinktraffic.html:63
+#: r2/templates/promotedlinktraffic.html:65
+#: r2/templates/promotedlinktraffic.html:81
+msgid "total"
+msgstr "totaal"
 
 #: r2/templates/promote_graph.html:41
 msgid "Sponsored link calendar"
 msgstr "Kalender van gesponsorde links"
 
-#: r2/templates/promote_graph.html:177
+#: r2/templates/promote_graph.html:173
 msgid "historical site performance"
 msgstr "historische siteprestaties"
 
@@ -5589,69 +5900,71 @@ msgstr "promotiedataverkeer"
 msgid "(download as .csv)"
 msgstr "(downloaden als .csv)"
 
-#: r2/templates/promotedlinktraffic.html:56
-msgid "click-through (%)"
-msgstr "doorklik (%)"
-
-#: r2/templates/promotedlinktraffic.html:59
-#: r2/templates/timeserieschart.html:37
-msgid "date"
-msgstr "datum"
-
-#: r2/templates/promotedlinktraffic.html:60
-#: r2/templates/promotedlinktraffic.html:62
-#: r2/templates/promotedlinktraffic.html:64
-msgid "unique"
-msgstr "uniek bezoek"
-
-#: r2/templates/promotedlinktraffic.html:61
-#: r2/templates/promotedlinktraffic.html:63
-#: r2/templates/promotedlinktraffic.html:65
-#: r2/templates/promotedlinktraffic.html:81
-msgid "total"
-msgstr "totaal"
-
-#: r2/templates/promotedlinktraffic.html:101
-msgid "totals are preliminary until 24 hours after the end of the promotion."
-msgstr "totalen zijn een schatting tot 24 uur na het einde van de promotie."
-
-#: r2/templates/promotelinkform.html:65
+#: r2/templates/promotelinkform.html:69
 msgid "create a promotion"
 msgstr "promotie maken"
 
-#: r2/templates/promotelinkform.html:65
+#: r2/templates/promotelinkform.html:69
 msgid "edit promotion"
 msgstr "promotie wijzigen"
 
-#: r2/templates/promotelinkform.html:77
+#: r2/templates/promotelinkform.html:81
 msgid "campaign dashboard"
 msgstr "campagnedashboard"
 
-#: r2/templates/promotelinkform.html:302
+#: r2/templates/promotelinkform.html:308
 msgid "upload header image:"
 msgstr "headerafbeelding uploaden:"
 
-#: r2/templates/promotelinkform.html:331
+#: r2/templates/promotelinkform.html:337
 msgid "disable comments"
 msgstr "reacties uitschakelen"
 
-#: r2/templates/promotelinkform.html:363
+#: r2/templates/promotelinkform.html:369
 msgid "width"
 msgstr "breedte"
 
-#: r2/templates/promotelinkform.html:371
+#: r2/templates/promotelinkform.html:377
 msgid "height"
 msgstr "hoogte"
 
-#: r2/templates/promotelinkform.html:416 r2/templates/promotelinkform.html:497
+#: r2/templates/promotelinkform.html:423 r2/templates/promotelinkform.html:507
 msgid "promotion history"
 msgstr "promotiegeschiedenis"
 
-#: r2/templates/promotelinkform.html:462
+#: r2/templates/promotelinkform.html:472
 msgid "bidding history"
 msgstr "biedgeschiedenis"
 
-#: r2/templates/reddit.html:154 r2/templates/reddit.html:166
+#: r2/templates/promotraffichelp.html:32
+msgid ""
+"Please note that these traffic totals will lag behind by two to three hours,"
+" and that daily totals will be preliminary until 24 hours after the link has"
+" finished its run."
+msgstr ""
+
+#: r2/templates/promotraffichelp.html:37
+msgid ""
+"Campaigns created before Sept 12, 2012 will not be included in these totals."
+msgstr ""
+
+#: r2/templates/promotraffichelp.html:41
+msgid "Questions? Email self serve support:"
+msgstr ""
+
+#: r2/templates/promotrafficsettings.html:26
+#, python-format
+msgid "Traffic url for link %s"
+msgstr ""
+
+#: r2/templates/promotrafficsettings.html:30
+msgid ""
+"You can share this traffic page with other reddit users by adding them to "
+"the viewer list below and then sharing the traffic url with them. They will "
+"be able to see this stats page but will not be able to edit the promotion."
+msgstr ""
+
+#: r2/templates/reddit.html:153 r2/templates/reddit.html:165
 msgid "close this window"
 msgstr "dit venster sluiten"
 
@@ -5693,11 +6006,11 @@ msgstr "berichten beheren"
 msgid "traffic statistics for %(place)s"
 msgstr "dataverkeerstatistieken voor %(place)s"
 
-#: r2/templates/reddittraffic.html:79
+#: r2/templates/reddittraffic.html:86
 msgid "traffic by day of week"
 msgstr "dataverkeer per dag van de week"
 
-#: r2/templates/reddittraffic.html:99
+#: r2/templates/reddittraffic.html:106
 msgid "daily mean"
 msgstr "daggemiddelde"
 
@@ -5705,7 +6018,7 @@ msgstr "daggemiddelde"
 msgid "create a roadblock"
 msgstr "een blokkade maken"
 
-#: r2/templates/roadblocks.html:95
+#: r2/templates/roadblocks.html:94
 msgid "existing roadblocks"
 msgstr "bestaande blokkades"
 
@@ -5909,7 +6222,7 @@ msgstr "deze reddit bannen"
 
 #: r2/templates/subredditstylesheet.html:60
 msgid "Your edit will not be saved!"
-msgstr ""
+msgstr "Je bewerking zal niet worden opgeslagen!"
 
 #: r2/templates/subredditstylesheet.html:80
 msgid "show the default stylesheet"
@@ -5972,15 +6285,15 @@ msgstr "deze afbeelding verwijderen"
 
 #: r2/templates/subreddittraffic.html:35
 msgid "all DART traffic for this subreddit."
-msgstr ""
+msgstr "al het DART-verkeer voor deze subreddit."
 
 #: r2/templates/subreddittraffic.html:38
 msgid "recent 300x100 campaigns in this subreddit:"
-msgstr ""
+msgstr "recente 300x100-campagnes in deze subreddit:"
 
 #: r2/templates/subreddittraffic.html:46
 msgid "no recent 300x100 campaigns in this subreddit"
-msgstr ""
+msgstr "geen recente 300x100-campagnes in deze subreddit"
 
 #: r2/templates/tablelisting.html:51
 msgid "first"
@@ -6075,7 +6388,7 @@ msgstr "sessies wissen"
 
 #: r2/templates/useriphistory.html:80
 msgid "Apps you have authorized"
-msgstr ""
+msgstr "Apps die je toegang hebt gegeven"
 
 #: r2/templates/userlist.html:37 r2/templates/wikipagesettings.html:53
 msgid "add"
@@ -6135,11 +6448,11 @@ msgstr "Type: "
 msgid "uploading"
 msgstr "bezig met uploaden"
 
-#: r2/templates/utils.html:549
+#: r2/templates/utils.html:554
 msgid "popular choices"
 msgstr "populaire keuzes"
 
-#: r2/templates/utils.html:598
+#: r2/templates/utils.html:603
 msgid "last edited"
 msgstr "laatst bewerkt:"
 
@@ -6277,63 +6590,63 @@ msgstr ""
 
 #: r2/templates/wikieditpage.html:47
 msgid "save page"
-msgstr ""
+msgstr "pagina opslaan"
 
 #: r2/templates/wikieditpage.html:48
 msgid "cancel edit"
-msgstr ""
+msgstr "bewerken annuleren"
 
 #: r2/templates/wikipagediscussions.html:30
 msgid "submit a discussion"
-msgstr ""
+msgstr "een discussie plaatsen"
 
 #: r2/templates/wikipagerevisions.html:25
 msgid "compare selected"
-msgstr ""
+msgstr "geselecteerde vergelijken"
 
 #: r2/templates/wikipagesettings.html:29
 msgid "who can edit this page?"
-msgstr ""
+msgstr "wie kan deze pagina bewerken?"
 
 #: r2/templates/wikipagesettings.html:34
 msgid "anyone may edit"
-msgstr ""
+msgstr "iedereen kan bewerken"
 
 #: r2/templates/wikipagesettings.html:39
 msgid "only approved wiki contributors may edit"
-msgstr ""
+msgstr "alleen goedgekeurde wikibijdragers kunnen bewerken"
 
 #: r2/templates/wikipagesettings.html:44
 msgid "only mods may edit and view"
-msgstr ""
+msgstr "alleen mods kunnen bewerken en zien"
 
 #: r2/templates/wikipagesettings.html:50
 msgid "allow users to edit page"
-msgstr ""
+msgstr "gebruikers kunnen pagina bewerken"
 
 #: r2/templates/wikipagesettings.html:54
 msgid "username does not exist"
-msgstr ""
+msgstr "gebruikersnaam bestaat niet"
 
 #: r2/templates/wikipagesettings.html:62
 msgid "(remove)"
-msgstr ""
+msgstr "(verwijderen)"
 
 #: r2/templates/wikipagesettings.html:62 r2/templates/wikirevision.html:66
 msgid "done"
-msgstr ""
+msgstr "gereed"
 
 #: r2/templates/wikipagesettings.html:69
 msgid "save settings"
-msgstr ""
+msgstr "wijzigingen opslaan"
 
 #: r2/templates/wikirevision.html:66
 msgid "revert here"
-msgstr ""
+msgstr "hier terugkeren"
 
 #: r2/templates/wikiview.html:33
 msgid "this page is empty"
-msgstr ""
+msgstr "deze pagina is leeg"
 
 #: r2/templates/wikiview.html:41
 #, python-format
