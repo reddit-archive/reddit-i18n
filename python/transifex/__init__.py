@@ -30,7 +30,8 @@ def create_transifex_session(config):
     signin_path = config.get('site', 'remote') + SIGNIN_PATH
     logging.info("Acquiring csrftoken")
     session.get(signin_path)
-    logging.info(session.response)
+    logging.info(getattr(session, "response", "<no response info (requests"
+                         " module too old>"))
     csrf = session.cookies['csrftoken']
     login_headers = {'Referer': signin_path}
     login_data = {'identification': config.get('credentials', 'user'),
@@ -39,7 +40,8 @@ def create_transifex_session(config):
                   'remember_me': 'on'}
     logging.info("Acquiring sessionid")
     resp = session.post(signin_path, data=login_data, headers=login_headers)
-    logging.info(session.response)
+    logging.info(getattr(session, "response", "<no response info (requests"
+                         " module too old>"))
     if not resp.ok or not session.cookies.get('sessionid'):
         raise ValueError("Failed to log in", session, resp)
     return session

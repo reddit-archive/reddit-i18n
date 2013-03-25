@@ -1,47 +1,26 @@
 #!/usr/bin/python
 import datetime
-import os
+import logging
+import sqlite3
 import sys
-import webbrowser
+import time
 
-import requests
 import transifex
+import transifex.history
+import transifex.pm
 
-
-ENDPOINT = 'http://www.reddit.com'
-GIVE = '/api/givetrophy'
-
-TROPHY = 't6_s'
-TROPHY_URL = 'https://www.transifex.com/projects/p/reddit'
 
 TROPHY_EVENTS = ('project_resource_translated',)
+TABLES = {'messages': '(user text, lang_uid text, date text)'}
 
 
-Event = transifex.Event
-
-
-def get_secret():
-    return os.environ['TROPHYSECRET']
-
-
-def give_trophy(user, lang, date=None):
-    path = ENDPOINT + GIVE
-    if date is None:
-        date = datetime.date.today()
-    description = lang + ' -- ' + date.isoformat()
-    data = {'secret': get_secret(),
-            'fullname': TROPHY,
-            'url': TROPHY_URL,
-            'recipient': user,
-            'description': description,
-            'api_type': 'json'}
-    response = requests.post(path, data=data)
-    print response
-    if not response.ok:
-        raise StandardError("Failed to trophy", user, lang, response)
+def uid_from_lang(lang):
+    return lang.replace(" ", "_").replace("(", "").replace(")", "").lower()
 
 
 def iter_trophy_events(filename):
+    # Put "Event" in the local namespace so the scary eval() works
+    Event = transifex.history.Event
     with open(filename) as events:
         # super scary eval. input file should be trusted
         for event in events:
@@ -50,33 +29,59 @@ def iter_trophy_events(filename):
                 yield event
 
 
-def do_trophies(filename, open_browser=True):
-    seen_users = set()
+def get_cursor(config):
+    db_path = config.get('local', 'db')
+    connection = sqlite3.connect(db_path)
+    cursor = connection.cursor()
+    # TABLES is a trusted source
+    for table in TABLES:
+        try:
+            cursor.execute('select count(*) from ' + table)
+        except sqlite3.OperationalError:
+            cursor.execute('create table ' + table + ' ' + TABLES[table])
+    return cursor
+
+
+SEEN_SQL = "SELECT * from messages WHERE user = ? AND lang_uid = ?"
+INSERT_SQL = "INSERT INTO messages VALUES (?, ?, ?)"
+def seen(cursor, user, lang_uid, date_txt):
+    existing = cursor.execute(SEEN_SQL, (user, lang_uid))
+    if not existing:
+        cursor.execute(INSERT_SQL, (user, lang_uid, date_txt))
+    return existing
+
+
+def do_trophies(cursor, config, tx_session, filename):
+    project = config.get('site', 'project')
+    trophy_url = config.get('site', 'remote') + '/projects/p/' + project
     for event in iter_trophy_events(filename):
-        key = (event.user.lower(), event.lang.lower())
-        if key in seen_users:
+        logging.info("Checking event %s", (event,))
+        date_txt = datetime.date.today().isoformat()
+        lang_uid = uid_from_lang(event.lang)
+        if seen(cursor, event.user, lang_uid, date_txt):
+            logging.info("User %s already has been sent trophy PM for %s",
+                         event.user, lang_uid)
             continue
-        else:
-            seen_users.add(key)
-        if open_browser:
-            webbrowser.open_new_tab('http://www.reddit.com/user/%(user)s' %
-                                    event._asdict())
-        prompt = ("Give trophy to %(user)s for work on %(lang)s?\n"
-                  "See http://www.reddit.com/user/%(user)s\n"
-                  "(Last sent translation: %(when)s) [y/n]: " % event._asdict())
-        give = raw_input(prompt)
-        if give.lower().strip() == 'y':
-            give_trophy(event.user, event.lang)
-            print "Trophy awarded"
-        else:
-            print "Skipped!"
+        logging.info("Sending Transifex PM with trophy link")
+        description = '%s -- %s' % (event.lang, date_txt)
+        claim_url = admintools.create_award_claim_code(lang_uid, 'i18n',
+                                                       description, trophy_url)
+        fmt_info = {'user': event.user, 'lang': event.lang, 'url': claim_url}
+        subject = config.get('award', 'subject') % fmt_info
+        body = config.get('award', 'message') % fmt_info
+
+        transifex.pm.post_message(config, tx_session, event.user, subject,
+                                  body)
+        time.sleep(0.5)
 
 
 def main(args):
-    infile = args[1]
-    assert infile
-    open_browser = '--no-browser' not in args
-    do_trophies(args[1], open_browser=open_browser)
+    logging.basicConfig(level=logging.DEBUG)
+    config = transifex.config_from_filepath(args[1])
+    infile = args[2]
+    cursor = get_cursor(config)
+    tx_session = transifex.create_transifex_session(config)
+    do_trophies(cursor, config, tx_session, infile)
 
 
 if __name__ == '__main__':
