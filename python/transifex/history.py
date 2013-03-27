@@ -99,6 +99,10 @@ def get_lang(row):
         start = len('A translation for'.split())
         end = text.index('was')
         return u' '.join(text[start:end])
+    elif 'submitted a ' in text and ' translation ' in text:
+        text = text.partition('submitted a ')[2]
+        text = text.partition(' translation')[0]
+        return text
     else:
         hrefs = td.findAll('a')
         for href in hrefs:
