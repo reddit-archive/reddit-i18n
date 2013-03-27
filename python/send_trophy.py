@@ -45,7 +45,7 @@ def get_cursor(config):
 SEEN_SQL = "SELECT * from messages WHERE user = ? AND lang_uid = ?"
 INSERT_SQL = "INSERT INTO messages VALUES (?, ?, ?)"
 def seen(cursor, user, lang_uid, date_txt):
-    existing = cursor.execute(SEEN_SQL, (user, lang_uid))
+    existing = cursor.execute(SEEN_SQL, (user, lang_uid)).fetchall()
     if not existing:
         cursor.execute(INSERT_SQL, (user, lang_uid, date_txt))
     return existing
