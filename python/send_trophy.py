@@ -15,6 +15,9 @@ TABLES = {'messages': '(user text, lang_uid text, date text)'}
 
 
 def uid_from_lang(lang):
+    # This intentionally chokes if lang is None.
+    # lang of None is an indicator that transifex.history isn't
+    # properly figuring out the languages from the timeline HTML
     return lang.replace(" ", "_").replace("(", "").replace(")", "").lower()
 
 
