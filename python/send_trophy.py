@@ -5,6 +5,11 @@ import sqlite3
 import sys
 import time
 
+try:
+    from r2.models import admintools
+except ImportError:
+    print >> sys.stderr, "Unable to import admintools"
+
 import transifex
 import transifex.history
 import transifex.pm
@@ -55,6 +60,8 @@ def seen(cursor, user, lang_uid, date_txt):
 
 
 def do_trophies(cursor, config, tx_session, filename):
+    # Ensure that admintools import succeeded
+    assert admintools
     project = config.get('site', 'project')
     trophy_url = config.get('site', 'remote') + '/projects/p/' + project
     for event in iter_trophy_events(filename):
