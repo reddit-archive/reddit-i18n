@@ -10,7 +10,7 @@ from BeautifulSoup import BeautifulSoup
 import requests 
 
 PROJECT_PATH = 'projects/p/%(project)s'
-TIMELINE = 'timeline'
+TIMELINE = 'timeline/'
 
 
 VERBOSE = True
