@@ -51,7 +51,7 @@ fix_metadata:
 	done
 	./check_disp_name.sh
 
-summary.csv: $(PO_FILES)
+summary.csv: $(MO_FILES)
 	python gendata.py --csv --header > summary.csv
 	for lang in $(PO_FILES); do \
 		python gendata.py --csv $$lang >> summary.csv; \
