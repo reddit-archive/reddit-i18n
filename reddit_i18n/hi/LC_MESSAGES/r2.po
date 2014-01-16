@@ -1,8 +1,9 @@
 # Translations template for r2.
-# Copyright (C) 2013 ORGANIZATION
+# Copyright (C) 2014 ORGANIZATION
 # This file is distributed under the same license as the r2 project.
 # 
 # Translators:
+# sunnydelish <abhinav.hasija@gmail.com>, 2013
 # आलोक कुमार <alok.kumar@gmail.com>, 2012
 # आलोक कुमार <alok.kumar@gmail.com>, 2013
 # आलोक कुमार <alok.kumar@gmail.com>, 2012
@@ -33,9 +34,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
-"Report-Msgid-Bugs-To: http://github.com/reddit/reddit-i18n/issues\n"
-"POT-Creation-Date: 2013-09-19 10:45-0600\n"
-"PO-Revision-Date: 2013-09-19 16:50+0000\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-01-15 15:43-0700\n"
+"PO-Revision-Date: 2014-01-15 22:44+0000\n"
 "Last-Translator: Deimorz <deimorz@reddit.com>\n"
 "Language-Team: Hindi (India) (http://www.transifex.com/projects/p/reddit/language/hi_IN/)\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +44,7 @@ msgstr ""
 "Display-Name: मानक हिन्दी\n"
 "Display-Name-en: Hindi\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.6\n"
+"Generated-By: Babel 1.3\n"
 "Language: hi_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -91,7 +92,7 @@ msgstr ""
 msgid "guide"
 msgstr ""
 
-#: ../../reddit-plugin-about/reddit_about/pages.py:21 r2/lib/menus.py:92
+#: ../../reddit-plugin-about/reddit_about/pages.py:21 r2/lib/menus.py:93
 msgid "team"
 msgstr "दल"
 
@@ -105,7 +106,7 @@ msgstr "द्वारा छंटा हुआ"
 
 #: ../../reddit-plugin-about/reddit_about/templates/about.html:43
 #: ../../reddit-plugin-about/reddit_about/templates/about.html:69
-#: r2/controllers/listingcontroller.py:575
+#: r2/controllers/listingcontroller.py:568
 #, python-format
 msgid "submitted by %(user)s"
 msgstr " %(user)s द्वारा प्रस्तुत"
@@ -186,7 +187,7 @@ msgid "casting over %(value)s votes"
 msgstr ""
 
 #: ../../reddit-plugin-about/reddit_about/templates/about.html:105
-#: r2/lib/pages/wiki.py:106
+#: r2/lib/pages/wiki.py:107
 msgid "history"
 msgstr "इतिहास"
 
@@ -202,151 +203,155 @@ msgstr ""
 msgid "color guide"
 msgstr ""
 
-#: r2/controllers/api.py:167 r2/controllers/api.py:2827
-#: r2/controllers/api.py:2884 r2/controllers/listingcontroller.py:509
+#: r2/controllers/api.py:173 r2/controllers/api.py:3054
+#: r2/controllers/api.py:3111 r2/controllers/listingcontroller.py:489
 msgid "API"
 msgstr "ऐपीआई"
 
-#: r2/controllers/api.py:217
+#: r2/controllers/api.py:223
 msgid "thanks for your message! you should hear back from us shortly."
 msgstr "आपके सन्देश के लिए धन्यवाद ! हम आप से शीघ्र सम्पर्क करेंगे ।"
 
-#: r2/controllers/api.py:247
+#: r2/controllers/api.py:253
 msgid "your message has been delivered"
 msgstr "आपका सन्देश  पहुंचा दिया गया है "
 
-#: r2/controllers/api.py:469
+#: r2/controllers/api.py:500
 msgid "no title found"
 msgstr "कोई शीर्षक नहीं मिला! "
 
-#: r2/controllers/api.py:859 r2/controllers/api.py:868
-#: r2/controllers/api.py:1588 r2/controllers/api.py:1774
-#: r2/controllers/api.py:1977 r2/controllers/api.py:2623
-#: r2/controllers/api.py:2662 r2/controllers/api.py:2737
-#: r2/controllers/api.py:2945 r2/controllers/api.py:2950
-#: r2/controllers/api.py:3135 r2/controllers/promotecontroller.py:776
-#: r2/lib/pages/pages.py:4193 r2/templates/frametoolbar.html:202
+#: r2/controllers/api.py:898 r2/controllers/api.py:915
+#: r2/controllers/api.py:1675 r2/controllers/api.py:1879
+#: r2/controllers/api.py:2125 r2/controllers/api.py:2850
+#: r2/controllers/api.py:2889 r2/controllers/api.py:2964
+#: r2/controllers/api.py:3172 r2/controllers/api.py:3177
+#: r2/controllers/api.py:3350 r2/controllers/promotecontroller.py:839
+#: r2/lib/pages/pages.py:4305 r2/templates/frametoolbar.html:202
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:146
 msgid "saved"
 msgstr "सहेजा"
 
-#: r2/controllers/api.py:896
-msgid "sorry, we're out of codes!"
-msgstr "खेद है, हमारे पास अब और कोड नहीं हैं !"
-
-#: r2/controllers/api.py:917
+#: r2/controllers/api.py:963
 msgid "all other sessions have been logged out"
 msgstr "सभी सत्र लॉग आउट हो चुके हैं "
 
-#: r2/controllers/api.py:967
+#: r2/controllers/api.py:1017
 msgid "you should be getting a verification email shortly."
 msgstr "आप को जल्दी ही एक सत्यापन ईमेल मिलेगा "
 
-#: r2/controllers/api.py:969 r2/controllers/api.py:980
+#: r2/controllers/api.py:1019 r2/controllers/api.py:1030
 msgid "your email has been updated"
 msgstr "आपके ईमेल अद्यतित कर दी गई है"
 
-#: r2/controllers/api.py:991
+#: r2/controllers/api.py:1041
 msgid "your email and password have been updated"
 msgstr "आपके ईमेल और गुप्त शब्द अद्यतित कर दिए गए हैं"
 
-#: r2/controllers/api.py:994
+#: r2/controllers/api.py:1044
 msgid "your password has been updated"
 msgstr "आपका गुप्त शब्द अद्यतित कर दिया गया है"
 
-#: r2/controllers/api.py:1373
+#: r2/controllers/api.py:1444
 msgid "replied"
 msgstr "उत्तर दिया"
 
-#: r2/controllers/api.py:1436
+#: r2/controllers/api.py:1507
 msgid "shared"
 msgstr "बांटा"
 
-#: r2/controllers/api.py:1439
+#: r2/controllers/api.py:1510
 msgid "your link has been shared."
 msgstr "आपका लिंक बांटा गया है ।"
 
-#: r2/controllers/api.py:1572
+#: r2/controllers/api.py:1659
 msgid "validation errors"
 msgstr "सत्यापन त्रुटियाँ"
 
-#: r2/controllers/api.py:1597
+#: r2/controllers/api.py:1684
 msgid "conflict error"
 msgstr "संघर्ष गड़बड़ी"
 
-#: r2/controllers/api.py:1598
+#: r2/controllers/api.py:1685
 msgid "There was a conflict while editing the stylesheet"
 msgstr "विन्यास पत्रिका सम्पादित करते हुए कुछ बेमेल प्रविष्टि हुई है |"
 
-#: r2/controllers/api.py:1692 r2/lib/menus.py:158
+#: r2/controllers/api.py:1789 r2/lib/menus.py:159
 #: r2/templates/printablebuttons.html:33
-#: r2/templates/subredditstylesheet.html:276
+#: r2/templates/subredditstylesheet.html:232
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:73
 msgid "deleted"
 msgstr "मिटा दिया गया "
 
-#: r2/controllers/api.py:1743 r2/templates/subredditstylesheet.html:242
+#: r2/controllers/api.py:1848 r2/templates/subredditstylesheet.html:198
 msgid "bad image name"
 msgstr "तस्वीर का नाम ख़राब है "
 
-#: r2/controllers/api.py:1749
+#: r2/controllers/api.py:1854
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "बहुत सारी तस्वीरें (आप को सिर्फ %d तस्वीरें मिलेंगी) "
 
-#: r2/controllers/api.py:1757
+#: r2/controllers/api.py:1862
 msgid "Invalid image or general image error"
 msgstr "तस्वीर का नाम अमान्य है या तस्वीर त्रुटिपूर्ण है "
 
-#: r2/controllers/api.py:1875
+#: r2/controllers/api.py:2014
 msgid "Sidebar was not saved"
 msgstr "साइडबार सहेजा नहीं गया था"
 
-#: r2/controllers/api.py:1884
+#: r2/controllers/api.py:2023
+msgid "Submission text was not saved"
+msgstr ""
+
+#: r2/controllers/api.py:2032
 msgid "Description was not saved"
 msgstr "विवरण सहेजा नही गया"
 
-#: r2/controllers/api.py:2511
+#: r2/controllers/api.py:2724
 msgid "an email will be sent to that account's address shortly"
 msgstr "इस खाताधारक को शीघ्र ही एक ईमेल भेजी जाएगी "
 
-#: r2/controllers/api.py:2513
+#: r2/controllers/api.py:2726
 msgid "try again tomorrow"
 msgstr "कल पुनः प्रयास करें"
 
-#: r2/controllers/api.py:2690 r2/controllers/api.py:2905
+#: r2/controllers/api.py:2769
+msgid "password updated"
+msgstr ""
+
+#: r2/controllers/api.py:2917 r2/controllers/api.py:3132
 msgid "invalid css class"
 msgstr "अमान्य सी एस एस क्लास "
 
-#: r2/controllers/api.py:2693 r2/controllers/api.py:2908
+#: r2/controllers/api.py:2920 r2/controllers/api.py:3135
 msgid "too many css classes"
 msgstr "अत्यधिक सी एस एस क्लास "
 
-#: r2/controllers/api.py:2925
+#: r2/controllers/api.py:3152
 msgid "max flair templates reached"
 msgstr "\"परचम नमूने\" अधिकतम हो गए "
 
-#: r2/controllers/api.py:3346 r2/lib/errors.py:102
+#: r2/controllers/api.py:3566 r2/lib/errors.py:103
 msgid "invalid client id"
 msgstr "अवैध ग्राहक क्रमांक"
 
-#: r2/controllers/api.py:3349
+#: r2/controllers/api.py:3569
 msgid "cannot update deleted app"
 msgstr "मिटाई हुई एप में अद्यतन नही किया जा सकता"
 
-#: r2/controllers/api.py:3352
+#: r2/controllers/api.py:3572
 msgid "app does not belong to you"
 msgstr "एप आपकी नही है"
 
-#: r2/controllers/api.py:3360
+#: r2/controllers/api.py:3580
 msgid "application updated"
 msgstr "एप्लीकेशन अद्यतित"
 
-#: r2/controllers/api.py:3372
+#: r2/controllers/api.py:3592
 msgid "application created"
 msgstr "एप्लीकेशन बनाई गयी"
 
-#: r2/controllers/api.py:3399
+#: r2/controllers/api.py:3619
 msgid "developer added"
 msgstr "डेवलपर जोड़ा गया"
 
@@ -354,7 +359,7 @@ msgstr "डेवलपर जोड़ा गया"
 msgid "account"
 msgstr "खाता"
 
-#: r2/controllers/api_docs.py:43 r2/lib/menus.py:97
+#: r2/controllers/api_docs.py:43 r2/lib/menus.py:98
 msgid "apps"
 msgstr "एप्स"
 
@@ -387,8 +392,8 @@ msgstr "सूचियाँ"
 msgid "search"
 msgstr "खोज"
 
-#: r2/controllers/api_docs.py:67 r2/controllers/listingcontroller.py:946
-#: r2/lib/menus.py:91 r2/templates/pagenamenav.html:36
+#: r2/controllers/api_docs.py:67 r2/controllers/listingcontroller.py:970
+#: r2/lib/menus.py:92 r2/templates/pagenamenav.html:59
 msgid "subreddits"
 msgstr "उपरेडिट"
 
@@ -400,8 +405,8 @@ msgstr ""
 msgid "users"
 msgstr "प्रयोक्ता"
 
-#: r2/controllers/api_docs.py:76 r2/lib/menus.py:78 r2/lib/permissions.py:96
-#: r2/templates/createsubreddit.html:182
+#: r2/controllers/api_docs.py:76 r2/lib/menus.py:79 r2/lib/permissions.py:96
+#: r2/templates/createsubreddit.html:198
 msgid "wiki"
 msgstr "विकी"
 
@@ -409,23 +414,23 @@ msgstr "विकी"
 msgid "captcha"
 msgstr "कैप्चा"
 
-#: r2/controllers/api_docs.py:208
+#: r2/controllers/api_docs.py:220
 msgid "api documentation"
 msgstr "एपीआई प्रलेखन"
 
-#: r2/controllers/buttons.py:108
+#: r2/controllers/buttons.py:107
 msgid "reddit buttons"
 msgstr "रेडिट बटन"
 
-#: r2/controllers/buttons.py:113
+#: r2/controllers/buttons.py:112
 msgid "reddit widget"
 msgstr "रेडिट विजेट"
 
-#: r2/controllers/buttons.py:118
+#: r2/controllers/buttons.py:117
 msgid "bookmarklets"
 msgstr "बुक्मार्क्लेट्स"
 
-#: r2/controllers/embed.py:67 r2/lib/pages/pages.py:685
+#: r2/controllers/embed.py:67 r2/lib/pages/pages.py:712
 #: r2/templates/frametoolbar.html:110
 msgid "help"
 msgstr "सहायता"
@@ -447,161 +452,150 @@ msgstr "पृष्ठ नहीं मिला"
 msgid "the page you requested does not exist"
 msgstr "आपके द्वारा अनुरोधित पृष्ठ मौजूद नहीं है"
 
-#: r2/controllers/front.py:158
-msgid "self service help"
-msgstr "स्वयं सेवा की मदद"
+#: r2/controllers/front.py:163 r2/lib/pages/pages.py:4298
+msgid "explore"
+msgstr ""
 
-#: r2/controllers/front.py:342
+#: r2/controllers/front.py:367
 msgid "no comments (yet)"
 msgstr "कोई टिपण्णी नहीं (अभी तक तो नहीं)"
 
-#: r2/controllers/front.py:344
+#: r2/controllers/front.py:369
 #, python-format
 msgid "all %d comments"
 msgstr "सभी  %d टिप्पणिया"
 
-#: r2/controllers/front.py:346
+#: r2/controllers/front.py:371
 #, python-format
 msgid "top %d comments"
 msgstr "सर्वोत्तम  %d टिप्पणिया"
 
-#: r2/controllers/front.py:371
+#: r2/controllers/front.py:396
 #, python-format
 msgid "show all %d"
 msgstr "सभी  %d दिखाएँ "
 
-#: r2/controllers/front.py:373
+#: r2/controllers/front.py:398
 #, python-format
 msgid "show %d"
 msgstr "%d दिखाएँ "
 
-#: r2/controllers/front.py:389 r2/controllers/front.py:391
+#: r2/controllers/front.py:414 r2/controllers/front.py:416
 msgid "create a subreddit"
 msgstr "एक सबरेडिट बनाएँ"
 
-#: r2/controllers/front.py:496 r2/controllers/front.py:500
-#: r2/controllers/listingcontroller.py:561
-#: r2/controllers/listingcontroller.py:747
-#: r2/controllers/listingcontroller.py:761 r2/lib/menus.py:166
-#: r2/lib/menus.py:344 r2/lib/menus.py:505
-#: r2/templates/createsubreddit.html:232 r2/templates/createsubreddit.html:243
-#: r2/templates/createsubreddit.html:254
+#: r2/controllers/front.py:544 r2/controllers/front.py:548
+#: r2/controllers/listingcontroller.py:547
+#: r2/controllers/listingcontroller.py:759
+#: r2/controllers/listingcontroller.py:773 r2/lib/menus.py:167
+#: r2/lib/menus.py:344 r2/lib/menus.py:505 r2/lib/pages/pages.py:3593
+#: r2/templates/createsubreddit.html:248 r2/templates/createsubreddit.html:259
+#: r2/templates/createsubreddit.html:270
 msgid "all"
 msgstr "सब"
 
-#: r2/controllers/front.py:507
+#: r2/controllers/front.py:555
 msgid "filter by action"
 msgstr "क्रिया द्वारा छानें"
 
-#: r2/controllers/front.py:509
+#: r2/controllers/front.py:557
 msgid "filter by moderator"
 msgstr "पंच द्वारा छानें"
 
-#: r2/controllers/front.py:676
+#: r2/controllers/front.py:724
 msgid "links and comments"
 msgstr "लिंक्स और टिप्पणियाँ"
 
-#: r2/controllers/front.py:677 r2/lib/pages/pages.py:3925
-#: r2/templates/createsubreddit.html:226
+#: r2/controllers/front.py:725 r2/lib/pages/pages.py:4040
+#: r2/templates/createsubreddit.html:242
 msgid "links"
 msgstr "लिंक्स"
 
-#: r2/controllers/front.py:678 r2/controllers/listingcontroller.py:1067
-#: r2/lib/pages/pages.py:3930 r2/templates/createsubreddit.html:248
+#: r2/controllers/front.py:726 r2/controllers/listingcontroller.py:1112
+#: r2/lib/pages/pages.py:4045 r2/templates/createsubreddit.html:264
 msgid "comments"
 msgstr "टिप्पणियाँ"
 
-#: r2/controllers/front.py:679
+#: r2/controllers/front.py:727
 msgid "show"
 msgstr "दिखाएँ"
 
-#: r2/controllers/front.py:733 r2/lib/menus.py:144
+#: r2/controllers/front.py:797 r2/lib/menus.py:145
 msgid "awards"
 msgstr "पुरुस्कार"
 
-#: r2/controllers/front.py:767 r2/lib/menus.py:111
+#: r2/controllers/front.py:832 r2/lib/menus.py:112
 msgid "related"
 msgstr "संबंधित"
 
-#: r2/controllers/front.py:786
+#: r2/controllers/front.py:852
 msgid "other discussions"
 msgstr "अन्य विचार - विमर्श"
 
-#: r2/controllers/front.py:807 r2/controllers/front.py:868
+#: r2/controllers/front.py:873 r2/controllers/front.py:935
 msgid "search results"
 msgstr "खोज के परिणाम "
 
-#: r2/controllers/front.py:932
+#: r2/controllers/front.py:1001
 msgid "seen it"
 msgstr "देखा हुआ "
 
-#: r2/controllers/front.py:948 r2/models/subreddit.py:1395
+#: r2/controllers/front.py:1017 r2/models/subreddit.py:1403
 #: r2/templates/multiinfobar.html:33
 #, python-format
 msgid "%s subreddits"
 msgstr ""
 
-#: r2/controllers/front.py:967 r2/lib/menus.py:77
-#: r2/templates/newlink.html:137
+#: r2/controllers/front.py:1036 r2/lib/menus.py:78
+#: r2/templates/newlink.html:150
 #: ../../reddit-plugin-meatspace/reddit_meatspace/templates/qrcodeform.html:34
 msgid "submit"
 msgstr "प्रस्तुत कीजिए"
 
-#: r2/controllers/front.py:1071
+#: r2/controllers/front.py:1140 r2/lib/menus.py:84
+msgid "contact us"
+msgstr "हमसे संपर्क करें"
+
+#: r2/controllers/front.py:1150
 msgid "rules of reddit"
 msgstr "रेडिट के नियम"
 
-#: r2/controllers/front.py:1086
+#: r2/controllers/front.py:1162
 msgid "claimed! enjoy your reddit gold membership."
 msgstr "ली ! अपनी रेडिट गोल्ड सदस्यता का आनंद लीजिए ।"
 
-#: r2/controllers/front.py:1088
+#: r2/controllers/front.py:1166
 msgid ""
 "your gold creddits have been claimed! now go to someone's userpage and give "
 "them a present!"
 msgstr ""
 
-#: r2/controllers/front.py:1092
+#: r2/controllers/front.py:1169
 msgid ""
 "thanks for buying reddit gold! your transaction has been completed and "
 "emailed to you. you can check the details by logging into your account at:"
 msgstr "रेडिट गोल्ड खरीदने के लिए धन्यवाद ! आपके सौदे को पूरा कर आपको ईमेल कर दिया गया है । विरण देखने के लिए अपने खाते में यहाँ प्रवेश करें:"
 
-#: r2/controllers/front.py:1098
-msgid ""
-"thanks for buying reddit gold! your transaction is being processed and a "
-"receipt has been emailed to you. you can check the details by logging into "
-"your account at:"
-msgstr ""
-
-#: r2/controllers/front.py:1105
+#: r2/controllers/front.py:1175
 #, python-format
 msgid ""
 "thanks for buying reddit gold! your transaction is being processed. if you "
 "have any questions please email us at %(gold_email)s"
 msgstr "रेडिट गोल्ड खरीदने के लिए धन्यवाद ! आपका सौदा संसाधित किया जा रहा है । यदि आप को कोई प्रश्न है तो हमें निम्न पते पर ईमेल करें: %(gold_email)s"
 
-#: r2/controllers/front.py:1113 r2/controllers/front.py:1358
+#: r2/controllers/front.py:1182 r2/controllers/front.py:1426
 msgid "thanks"
 msgstr "धन्यवाद"
 
-#: r2/controllers/front.py:1128
+#: r2/controllers/front.py:1197
 msgid "claim this award?"
 msgstr "पुरस्कार पर दावा ठोकें ?"
 
-#: r2/controllers/front.py:1150
+#: r2/controllers/front.py:1219
 msgid "award claim"
 msgstr "पुरस्कार का दावा"
 
-#: r2/controllers/front.py:1153
-msgid "gold"
-msgstr "गोल्ड"
-
-#: r2/controllers/front.py:1156
-msgid "gold partners"
-msgstr "गोल्ड भागीदार"
-
-#: r2/controllers/front.py:1163 r2/templates/login.html:93
+#: r2/controllers/front.py:1226 r2/templates/login.html:93
 #: r2/templates/loginformwide.html:45
 #: r2/templates/passwordverificationform.html:38
 #: r2/templates/prefdelete.html:57 r2/templates/prefotp.html:38
@@ -609,94 +603,87 @@ msgstr "गोल्ड भागीदार"
 msgid "password"
 msgstr "गुप्त शब्द"
 
-#: r2/controllers/front.py:1183 r2/controllers/front.py:1213
+#: r2/controllers/front.py:1246 r2/controllers/front.py:1275
 msgid "verify email"
 msgstr "ईमेल सत्यापन करें "
 
-#: r2/controllers/front.py:1233 r2/templates/loginformwide.html:52
+#: r2/controllers/front.py:1294 r2/templates/loginformwide.html:52
 msgid "reset password"
 msgstr "गुप्त शब्द फिर से रखिए"
 
-#: r2/controllers/front.py:1328 r2/controllers/post.py:163
+#: r2/controllers/front.py:1396 r2/controllers/post.py:164
 msgid "opt out"
 msgstr "बाहर निकलिए"
 
-#: r2/controllers/front.py:1328 r2/controllers/post.py:173
+#: r2/controllers/front.py:1396 r2/controllers/post.py:174
 msgid "welcome back"
 msgstr "स्वागतम"
 
-#: r2/controllers/front.py:1391 r2/controllers/front.py:1443
-#: r2/controllers/front.py:1462 r2/lib/menus.py:90 r2/templates/gold.html:84
+#: r2/controllers/front.py:1460 r2/controllers/front.py:1515
+#: r2/controllers/front.py:1535 r2/lib/menus.py:91 r2/templates/gold.html:84
 msgid "reddit gold"
 msgstr "रेडिट गोल्ड "
 
-#: r2/controllers/ipn.py:231 r2/controllers/ipn.py:232
+#: r2/controllers/front.py:1547 r2/controllers/ipn.py:959
+msgid "reddit gold subscription"
+msgstr ""
+
+#: r2/controllers/ipn.py:232 r2/controllers/ipn.py:233
 msgid "An anonymous redditor"
 msgstr ""
 
-#: r2/controllers/ipn.py:242
+#: r2/controllers/ipn.py:243
 #, python-format
 msgid "Let there be gold! %s just sent you reddit gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:248
+#: r2/controllers/ipn.py:249
 msgid "Your comment has been gilded!"
 msgstr ""
 
-#: r2/controllers/ipn.py:314
+#: r2/controllers/ipn.py:276
 msgid "nice try."
 msgstr "अच्छी कोशिश "
 
-#: r2/controllers/ipn.py:345
+#: r2/controllers/ipn.py:307
 msgid "that user has deleted their account"
 msgstr "उस प्रयोक्ता ने अपना खाता मिटा दिया है"
 
-#: r2/controllers/ipn.py:368
+#: r2/controllers/ipn.py:330
 msgid "the gold has been delivered!"
 msgstr "गोल्ड पहुंचा दिया गया है!"
 
-#: r2/controllers/ipn.py:410
-msgid "Your gold order has been received"
-msgstr ""
-
-#: r2/controllers/ipn.py:411
-msgid ""
-"Your order for reddit gold has been received, and will be delivered shortly."
-" Please bear with us as Google Wallet payments can take up to an hour to "
-"complete."
-msgstr ""
-
-#: r2/controllers/ipn.py:557
+#: r2/controllers/ipn.py:440
 msgid "Eureka! Thank you for investing in reddit gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:559
+#: r2/controllers/ipn.py:442
 msgid ""
 "Thank you for buying reddit gold. Your patronage supports the site and makes"
 " future development possible. For example, one month of reddit gold pays for"
 " 5 instance hours of reddit's servers."
 msgstr ""
 
-#: r2/controllers/ipn.py:569
+#: r2/controllers/ipn.py:452
 msgid "Eureka! Thank you for investing in reddit gold creddits!"
 msgstr ""
 
-#: r2/controllers/ipn.py:572
+#: r2/controllers/ipn.py:455
 msgid ""
 "Thank you for buying creddits. Your patronage supports the site and makes "
 "future development possible. To spend your creddits and spread reddit gold, "
 "visit [/gold](/gold) or your favorite person's user page."
 msgstr ""
 
-#: r2/controllers/ipn.py:578 r2/controllers/ipn.py:599
+#: r2/controllers/ipn.py:461 r2/controllers/ipn.py:482
 msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:593
+#: r2/controllers/ipn.py:476
 msgid "Thanks for giving the gift of reddit gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:594
+#: r2/controllers/ipn.py:477
 #, python-format
 msgid ""
 "Your classy gift to %s has been delivered.\n"
@@ -704,174 +691,240 @@ msgid ""
 "Thank you for gifting reddit gold. Your patronage supports the site and makes future development possible."
 msgstr ""
 
-#: r2/controllers/ipn.py:682
+#: r2/controllers/ipn.py:586
 msgid "reddit gold payment cancelled"
 msgstr ""
 
-#: r2/controllers/ipn.py:683
+#: r2/controllers/ipn.py:587
 #, python-format
 msgid ""
 "Your reddit gold payment has been cancelled, contact %(gold_email)s for "
 "details"
 msgstr ""
 
-#: r2/controllers/ipn.py:703
+#: r2/controllers/ipn.py:601
 msgid "reddit gold payment failed"
 msgstr ""
 
-#: r2/controllers/ipn.py:704
+#: r2/controllers/ipn.py:602
 #, python-format
 msgid ""
 "Your reddit gold payment has failed, contact %(gold_email)s for details"
 msgstr ""
 
-#: r2/controllers/ipn.py:712
+#: r2/controllers/ipn.py:606
+msgid "reddit gold subscription payment failed"
+msgstr ""
+
+#: r2/controllers/ipn.py:607
+#, python-format
+msgid ""
+"Your reddit gold subscription payment has failed. Please go to "
+"http://www.reddit.com/subscription to make sure your information is correct,"
+" or contact %(gold_email)s for details"
+msgstr ""
+
+#: r2/controllers/ipn.py:616
 msgid "reddit gold refund"
 msgstr ""
 
-#: r2/controllers/ipn.py:713
+#: r2/controllers/ipn.py:617
 #, python-format
 msgid ""
 "Your reddit gold payment has been refunded, contact %(gold_email)s for "
 "details"
 msgstr ""
 
-#: r2/controllers/ipn.py:780
-msgid "something bad happened, try again later"
-msgstr "कुछ गड़बड़ हो गई, पुन: कोशिश करें"
+#: r2/controllers/ipn.py:713
+#, python-format
+msgid "error: %(error)s"
+msgstr ""
 
-#: r2/controllers/ipn.py:786
-msgid "stop trying to trick the form"
-msgstr "प्रपत्र को बेवकूफ बनाने का प्रयास बंद करें"
-
-#: r2/controllers/ipn.py:797
-msgid "error: address verification failed"
-msgstr "गड़बड़ी: पता सत्यापन विफल"
-
-#: r2/controllers/ipn.py:802
-msgid "error: cvc check failed"
-msgstr "गड़बड़ी: सीवीसी जांच विफल"
-
-#: r2/controllers/ipn.py:816
+#: r2/controllers/ipn.py:715
 msgid "invalid request"
 msgstr "अवैध अनुरोध"
 
-#: r2/controllers/ipn.py:818
+#: r2/controllers/ipn.py:717
 msgid "api error"
 msgstr "एपीआई गड़बड़ी"
 
-#: r2/controllers/ipn.py:820
+#: r2/controllers/ipn.py:719
 msgid "connection error"
 msgstr "संपर्क गड़बड़ी"
 
-#: r2/controllers/ipn.py:822
+#: r2/controllers/ipn.py:721
 msgid "error"
 msgstr "गड़बड़ी"
 
-#: r2/controllers/ipn.py:825
+#: r2/controllers/ipn.py:851
+msgid "error: address verification failed"
+msgstr "गड़बड़ी: पता सत्यापन विफल"
+
+#: r2/controllers/ipn.py:855
+msgid "error: cvc check failed"
+msgstr "गड़बड़ी: सीवीसी जांच विफल"
+
+#: r2/controllers/ipn.py:900
+msgid "your gold subscription has been cancelled"
+msgstr ""
+
+#: r2/controllers/ipn.py:901
+#, python-format
+msgid "if you have any questions please email %(email)s"
+msgstr ""
+
+#: r2/controllers/ipn.py:928
+msgid "something bad happened, try again later"
+msgstr "कुछ गड़बड़ हो गई, पुन: कोशिश करें"
+
+#: r2/controllers/ipn.py:937
+msgid "your account already has a gold subscription"
+msgstr ""
+
+#: r2/controllers/ipn.py:943
+msgid "stop trying to trick the form"
+msgstr "प्रपत्र को बेवकूफ बनाने का प्रयास बंद करें"
+
+#: r2/controllers/ipn.py:958
+msgid "subscription created"
+msgstr ""
+
+#: r2/controllers/ipn.py:960
+msgid ""
+"Your subscription is being processed and reddit gold will be delivered "
+"shortly."
+msgstr ""
+
+#: r2/controllers/ipn.py:967
 msgid "payment submitted"
 msgstr "भुगतान जमा किया गया"
 
-#: r2/controllers/ipn.py:828
+#: r2/controllers/ipn.py:968
 msgid "reddit gold payment"
 msgstr ""
 
-#: r2/controllers/ipn.py:829
+#: r2/controllers/ipn.py:969
 msgid ""
 "Your payment is being processed and reddit gold will be delivered shortly."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:391
-msgid "newest submissions"
+#: r2/controllers/ipn.py:984
+msgid "your payment details have been updated"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:434
+#: r2/controllers/ipn.py:996
+msgid "your subscription has been cancelled"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:365
+msgid "newest submissions"
+msgstr "नवीनतम प्रस्तुतियाँ"
+
+#: r2/controllers/listingcontroller.py:409
 msgid "rising submissions"
 msgstr "चढ़ती प्रस्तुतियाँ"
 
-#: r2/controllers/listingcontroller.py:475
+#: r2/controllers/listingcontroller.py:452
 msgid "top scoring links"
-msgstr "सबसे ज्यादा अंको वाली प्रस्तुतिया"
+msgstr "सबसे ज्यादा अंको वाली प्रस्तुतियाँ"
 
-#: r2/controllers/listingcontroller.py:478
+#: r2/controllers/listingcontroller.py:456
 msgid "most controversial links"
-msgstr ""
+msgstr "सबसे ज्यादा विवादास्पद लिंक्स"
 
-#: r2/controllers/listingcontroller.py:490
+#: r2/controllers/listingcontroller.py:469
 msgid "you're really bored now, eh?"
 msgstr "अब तो सही में ऊब गए, नहीं? "
 
-#: r2/controllers/listingcontroller.py:567
+#: r2/controllers/listingcontroller.py:553
 msgid "filter by subreddit"
 msgstr "सबरेडिट द्वारा छानें"
 
-#: r2/controllers/listingcontroller.py:573
+#: r2/controllers/listingcontroller.py:559
+msgid "my posts"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:560
+msgid "posts gilded by me"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:566
 #, python-format
 msgid "overview for %(user)s"
-msgstr " %(user)s का सिंहावलोकन  "
+msgstr " %(user)s का ब्यौरा"
 
-#: r2/controllers/listingcontroller.py:574
+#: r2/controllers/listingcontroller.py:567
 #, python-format
 msgid "comments by %(user)s"
 msgstr " %(user)s की टिप्पणियाँ"
 
-#: r2/controllers/listingcontroller.py:576
+#: r2/controllers/listingcontroller.py:569
+#, python-format
+msgid "gilded comments by %(user)s"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:570
 #, python-format
 msgid "liked by %(user)s"
 msgstr " %(user)s की पसंद "
 
-#: r2/controllers/listingcontroller.py:577
+#: r2/controllers/listingcontroller.py:571
 #, python-format
 msgid "disliked by %(user)s"
 msgstr " %(user)s की नापसंद "
 
-#: r2/controllers/listingcontroller.py:578
+#: r2/controllers/listingcontroller.py:572
 #, python-format
 msgid "saved by %(user)s"
 msgstr "%(user)s द्वारा सहेजा गया"
 
-#: r2/controllers/listingcontroller.py:579
+#: r2/controllers/listingcontroller.py:573
 #, python-format
 msgid "hidden by %(user)s"
 msgstr " %(user)s द्वारा छुपाया गया "
 
-#: r2/controllers/listingcontroller.py:580
+#: r2/controllers/listingcontroller.py:574
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "%(user)s द्वारा प्रायोजित"
 
-#: r2/controllers/listingcontroller.py:581
+#: r2/controllers/listingcontroller.py:576
+#, python-format
+msgid "comments gilded by %(user)s"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:578
 #, python-format
 msgid "profile for %(user)s"
 msgstr " %(user)s की रूपरेखा "
 
-#: r2/controllers/listingcontroller.py:748
-#: r2/controllers/listingcontroller.py:762
-#: r2/templates/printablebuttons.html:351
+#: r2/controllers/listingcontroller.py:760
+#: r2/controllers/listingcontroller.py:774
+#: r2/templates/printablebuttons.html:348
 msgid "unread"
 msgstr "अपठित"
 
-#: r2/controllers/listingcontroller.py:750
+#: r2/controllers/listingcontroller.py:762
 msgid "comment replies"
 msgstr "टिपण्णी के उत्तर "
 
-#: r2/controllers/listingcontroller.py:751
+#: r2/controllers/listingcontroller.py:763
 msgid "post replies"
-msgstr ""
+msgstr "प्रस्तुतियों पर उत्तर"
 
-#: r2/controllers/listingcontroller.py:754
+#: r2/controllers/listingcontroller.py:766
 msgid "username mentions"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:769 r2/templates/redditheader.html:96
+#: r2/controllers/listingcontroller.py:781 r2/templates/redditheader.html:96
 msgid "messages"
 msgstr "सन्देश "
 
-#: r2/controllers/listingcontroller.py:1010
+#: r2/controllers/listingcontroller.py:1042
 msgid "subreddits: "
 msgstr "सबरेडिट:"
 
-#: r2/controllers/listingcontroller.py:1092
+#: r2/controllers/listingcontroller.py:1137
 msgid "gilded comments"
 msgstr ""
 
@@ -880,108 +933,112 @@ msgstr ""
 msgid "copied from %(source)s"
 msgstr ""
 
-#: r2/controllers/policies.py:42 r2/lib/pages/pages.py:4268
+#: r2/controllers/policies.py:42 r2/lib/pages/pages.py:4380
 msgid "privacy policy"
 msgstr "गोपनीयता नीति"
 
-#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:4269
+#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:4381
 msgid "user agreement"
 msgstr "प्रयोक्ता समझौता"
 
-#: r2/controllers/post.py:140
+#: r2/controllers/post.py:141
 msgid "over 18?"
 msgstr "18 से ऊपर? बालिग? "
 
-#: r2/controllers/promotecontroller.py:163
+#: r2/controllers/promotecontroller.py:149
 msgid "promoted by you"
 msgstr "आप के द्वारा प्रचारित"
 
-#: r2/controllers/promotecontroller.py:380
+#: r2/controllers/promotecontroller.py:394
 msgid "refund succeeded"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:382
+#: r2/controllers/promotecontroller.py:396
 msgid "refund not needed"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:652 r2/lib/pages/pages.py:3019
-#: r2/lib/pages/pages.py:3126
+#: r2/controllers/promotecontroller.py:716 r2/lib/pages/pages.py:3208
+#: r2/lib/pages/pages.py:3315
 msgid "added"
 msgstr "जोड़ा गया"
 
-#: r2/controllers/promotecontroller.py:726
+#: r2/controllers/promotecontroller.py:789
 msgid "failed to authenticate card.  sorry."
 msgstr "कार्ड प्रमाणित होने में असफल रहा । क्षमा कीजिए ।"
 
-#: r2/controllers/promotecontroller.py:770
+#: r2/controllers/promotecontroller.py:833
 msgid "bad image"
 msgstr "ख़राब तस्वीर"
 
-#: r2/controllers/reddit_base.py:1223
+#: r2/controllers/reddit_base.py:1254
 msgid "search failed"
 msgstr "खोज विफल रही"
 
-#: r2/controllers/wiki.py:82
+#: r2/controllers/wiki.py:83
 msgid ""
 "This page is the subreddit stylesheet, changes here apply to the subreddit "
 "css"
 msgstr "यह पृष्ठ सबरेडिट की विन्यास पत्रिका है, यहाँ किये गए बदलाव सबरेडिट के सीएसएस में दिखाई देंगे ।"
 
-#: r2/controllers/wiki.py:83
+#: r2/controllers/wiki.py:84
+msgid "The contents of this page appear on the submit page"
+msgstr ""
+
+#: r2/controllers/wiki.py:85
 msgid "The contents of this page appear on the subreddit sidebar"
 msgstr "इस पृष्ठ की सामग्री सबरेडिट साइडबार में दिखेगी"
 
-#: r2/controllers/wiki.py:84
+#: r2/controllers/wiki.py:86
 msgid "The contents of this page appear in the public subreddit description"
 msgstr "इस पृष्ठ की सामग्री सार्वजनिक सबरेडीट विवरण में दिखाई देती है"
 
-#: r2/controllers/wiki.py:134
+#: r2/controllers/wiki.py:138
 #, python-format
 msgid "viewing revision from %s"
 msgstr "% s से संशोधन देख रहे हैं"
 
-#: r2/controllers/wiki.py:138 r2/controllers/wiki.py:139
+#: r2/controllers/wiki.py:142 r2/controllers/wiki.py:143
 #, python-format
 msgid "%s ago"
 msgstr "%s पहले"
 
-#: r2/controllers/wiki.py:140
+#: r2/controllers/wiki.py:144
 #, python-format
 msgid "comparing revisions from %(date_1)s and %(date_2)s"
 msgstr "%(date_1)s और %(date_2)s के संशोधनों की तुलना"
 
-#: r2/controllers/wiki.py:145
+#: r2/controllers/wiki.py:149
 #, python-format
 msgid "viewing revision from %s ago"
 msgstr "%s पहले का संशोधन देख रहे हैं "
 
-#: r2/controllers/wiki.py:184
+#: r2/controllers/wiki.py:188
 #, python-format
 msgid ""
 "this wiki cannot handle page names of that magnitude!  please select a page "
 "name shorter than %d characters"
 msgstr "यह विकी इतने बड़े पृष्ठ नाम सहन नही कर सकती !  कृपया %d अक्षर से छोटे किसी पृष्ठ नाम का चयन करें ।"
 
-#: r2/controllers/wiki.py:186
+#: r2/controllers/wiki.py:190
 msgid ""
 "this page is a special page, please go into the subreddit settings and save "
 "the field once to create this special page"
 msgstr "यह पृष्ठ एक विशेष पृष्ठ है, कृपया सबरेडिट की सेटिंग्स में जा कर एक बार इस पृष्ठ का निर्माण/ सृजन कर लें। "
 
-#: r2/controllers/wiki.py:188
+#: r2/controllers/wiki.py:192
 #, python-format
 msgid "a max of %d separators \"/\" are allowed in a wiki page name."
 msgstr "विकी पृष्ठ के नाम में %d \"/\" से अधिक विभाजक की अनुमति नहीं है ।"
 
-#: r2/controllers/wiki.py:189
+#: r2/controllers/wiki.py:193
 msgid "Wiki error"
 msgstr "विकी गड़बड़ी"
 
-#: r2/controllers/wiki.py:314
+#: r2/controllers/wiki.py:330
 msgid "You are doing that too much, please try again later."
 msgstr "आप ऐसा बहुत बार कर रहे हैं, कुछ देर बाद प्रयास करें ।"
 
-#: r2/lib/cssfilter.py:320
+#: r2/lib/cssfilter.py:280
 msgid "if you need backslashes, you're doing it wrong"
 msgstr "अगर आप  \"बैकस्लैश\" इस्तेमाल कर रहें है तो आप कहीं कुछ गलत कर रहे हैं "
 
@@ -1082,106 +1139,110 @@ msgid "no email address for that user"
 msgstr "इस प्रयोक्ता से सम्बंधित कोई ईमेल नहीं है "
 
 #: r2/lib/errors.py:55
+msgid "no verified email address for that user"
+msgstr ""
+
+#: r2/lib/errors.py:56
 msgid "send it to whom?"
 msgstr "किसे भेजें?"
 
-#: r2/lib/errors.py:56
+#: r2/lib/errors.py:57
 msgid "please enter a subject"
 msgstr "कृपया विषय बताएँ"
 
-#: r2/lib/errors.py:57 r2/templates/gold.html:145
+#: r2/lib/errors.py:58 r2/templates/gold.html:147
 msgid "that user doesn't exist"
 msgstr "ऐसा कोई प्रयोक्ता नहीं है "
 
-#: r2/lib/errors.py:58
+#: r2/lib/errors.py:59
 msgid "please enter a username"
 msgstr "कृपया एक प्रयोक्ता नाम बताएँ "
 
-#: r2/lib/errors.py:60
+#: r2/lib/errors.py:61
 #, python-format
 msgid "that number isn't in the right range (%(range)s)"
 msgstr "वह अंक सही सीमा में नही है  (%(range)s)"
 
-#: r2/lib/errors.py:61
+#: r2/lib/errors.py:62
 msgid "you used a character here that we can't handle"
 msgstr "आपने ऐसा कुछ दाखिल किया है जो हमारी समझ से परे है "
 
-#: r2/lib/errors.py:62
+#: r2/lib/errors.py:63
 #, python-format
 msgid "your budget must be at least $%(min)d and no more than $%(max)d."
 msgstr ""
 
-#: r2/lib/errors.py:63
+#: r2/lib/errors.py:64
 msgid "that link has already been submitted"
 msgstr "यह लिंक पहले ही प्रस्तुत किया जा चुका है"
 
-#: r2/lib/errors.py:64
+#: r2/lib/errors.py:65
 msgid "that subreddit already exists"
 msgstr "यह सबरेडिट पहले से ही मौजूद है"
 
-#: r2/lib/errors.py:65
+#: r2/lib/errors.py:66
 msgid "that subreddit doesn't exist"
 msgstr "यह सबरेडिट मौजूद नही है"
 
-#: r2/lib/errors.py:66
-msgid "you aren't allowed to post there."
-msgstr ""
-
 #: r2/lib/errors.py:67
+msgid "you aren't allowed to post there."
+msgstr "आपको यहाँ अपने विचार व्यक्त करने की अनुमति नहीं है ।"
+
+#: r2/lib/errors.py:68
 msgid "you must specify a subreddit"
 msgstr "आपको कोई उपरेडिट स्पष्ट करनी पड़ेगी "
 
-#: r2/lib/errors.py:68 r2/lib/validator/validator.py:2390
+#: r2/lib/errors.py:69 r2/lib/validator/validator.py:2462
 msgid "that name isn't going to work"
 msgstr "यह नाम नहीं चलेगा "
 
-#: r2/lib/errors.py:69
+#: r2/lib/errors.py:70
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr "कुछ ज्यादा ही हो गया. %(time)s देर बाद कोशिश करें "
+msgstr "कुछ ज्यादा ही हो गया. %(time)s बाद कोशिश करें "
 
-#: r2/lib/errors.py:70 r2/lib/strings.py:134
+#: r2/lib/errors.py:71 r2/lib/strings.py:135
 msgid "You've submitted too many links recently. Please try again in an hour."
 msgstr "आपने हाल ही में बहुत सारे लिंक प्रस्तुत किए हैं । एक घंटे बाद पुन: प्रयास करें ।"
 
-#: r2/lib/errors.py:71
+#: r2/lib/errors.py:72
 msgid "you are doing that too much. try again later."
 msgstr "आप ऐसा बहुत बार कर रहे हैं । कृपया कुछ समय बाद पुनः प्रयास करें ।"
 
-#: r2/lib/errors.py:72
+#: r2/lib/errors.py:73
 msgid "your session has expired"
 msgstr "आप का सत्र समाप्त हो गया है "
 
-#: r2/lib/errors.py:73
+#: r2/lib/errors.py:74
 msgid "you must accept the terms first"
 msgstr "पहले शर्तें माननी पड़ेंगी "
 
-#: r2/lib/errors.py:77
+#: r2/lib/errors.py:78
 msgid "that option is not valid"
 msgstr "यह चुनाव अमान्य है "
 
-#: r2/lib/errors.py:78
+#: r2/lib/errors.py:79
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
 msgstr "निम्न ईमेल अमान्य हैं: %(emails)s"
 
-#: r2/lib/errors.py:79
+#: r2/lib/errors.py:80
 msgid "please enter at least one email address"
 msgstr "कम से कम एक ईमेल बताएँ"
 
-#: r2/lib/errors.py:80
+#: r2/lib/errors.py:81
 #, python-format
 msgid "please only share to %(num)s emails at a time."
 msgstr "कृपया एक बार में %(num)s ईमेल ही बांटे"
 
-#: r2/lib/errors.py:81
+#: r2/lib/errors.py:82
 #, python-format
 msgid ""
 "that subreddit has already been oversold on %(start)s to %(end)s. Please "
 "pick another subreddit or date."
 msgstr ""
 
-#: r2/lib/errors.py:82
+#: r2/lib/errors.py:83
 #, python-format
 msgid ""
 "We have insufficient inventory to fulfill your requested budget, target, and"
@@ -1189,128 +1250,124 @@ msgid ""
 "%(start)s to %(end)s."
 msgstr ""
 
-#: r2/lib/errors.py:83
+#: r2/lib/errors.py:84
 msgid "please provide a date of the form mm/dd/yyyy"
 msgstr "कृपया तिथि mm/dd/yyyy ढंग से बताएँ"
 
-#: r2/lib/errors.py:84
+#: r2/lib/errors.py:85
 msgid "the dates need to be in order and not identical"
 msgstr "तिथि क्रम में हो और एक सामान नहीं होनी चाहिए "
 
-#: r2/lib/errors.py:85
+#: r2/lib/errors.py:86
 #, python-format
 msgid "you must choose a date range of less than %(days)s days"
 msgstr "आप को %(days)s दिनों  से कम तिथि सीमा का चयन करना होगा"
 
-#: r2/lib/errors.py:86
-#, python-format
-msgid "please enter a date at least %(day)s days in the future"
-msgstr "तिथि कृपया कम से कम  %(day)s दिन भविष्य में हो "
-
 #: r2/lib/errors.py:87
 #, python-format
-msgid "please enter a date at least %(day)s days in the past"
-msgstr "तिथि कृपया कम से कम  %(day)s दिन अतीत में हो"
+msgid "please enter a date %(day)s or earlier"
+msgstr ""
 
 #: r2/lib/errors.py:88
+#, python-format
+msgid "please enter a date %(day)s or later"
+msgstr ""
+
+#: r2/lib/errors.py:89
 #, python-format
 msgid "address problem: %(message)s"
 msgstr "पते में गड़बड़ी: %(message)s"
 
-#: r2/lib/errors.py:89
+#: r2/lib/errors.py:90
 #, python-format
 msgid "card problem: %(message)s"
 msgstr "कार्ड में गड़बड़ी : %(message)s"
 
-#: r2/lib/errors.py:90
+#: r2/lib/errors.py:91
 #, python-format
 msgid "this is too long (max: %(max_length)s)"
 msgstr "कुछ ज्यादा है  (अधिकतम: %(max_length)s)"
 
-#: r2/lib/errors.py:91
+#: r2/lib/errors.py:92
 msgid "we need something here"
 msgstr "यहाँ कुछ होना चाहिए "
 
-#: r2/lib/errors.py:92
+#: r2/lib/errors.py:93
 msgid "we've never seen that code before"
 msgstr "हमने ऐसा कोड पहले कभी नहीं देखा"
 
-#: r2/lib/errors.py:93
+#: r2/lib/errors.py:94
 msgid "that code has already been claimed -- perhaps by you?"
 msgstr "यह कोड पहले से ही किसी ने हासिल कर लिया है --  शायद आप ने ही?"
 
-#: r2/lib/errors.py:94
+#: r2/lib/errors.py:95
 msgid "that subreddit doesn't allow text posts"
 msgstr ""
 
-#: r2/lib/errors.py:95
+#: r2/lib/errors.py:96
 msgid "that subreddit only allows text posts"
 msgstr ""
 
-#: r2/lib/errors.py:96
+#: r2/lib/errors.py:97
 msgid "that's a piece of history now; it's too late to reply to it"
 msgstr "बात पुरानी हो गयी, अब क्या जवाब देना"
 
-#: r2/lib/errors.py:97
+#: r2/lib/errors.py:98
 msgid "invalid css name"
 msgstr "अवैध सीएसएस नाम"
 
-#: r2/lib/errors.py:98
+#: r2/lib/errors.py:99
 msgid "invalid css"
 msgstr "अवैध सीएसएस"
 
-#: r2/lib/errors.py:99
+#: r2/lib/errors.py:100
 msgid "invalid revision ID"
 msgstr "अवैध संशोधन क्रमांक"
 
-#: r2/lib/errors.py:100
+#: r2/lib/errors.py:101
 msgid "too many flair css classes"
 msgstr "अत्यधिक परचम सीएसएस क्लासेस"
 
-#: r2/lib/errors.py:101
+#: r2/lib/errors.py:102
 msgid "not a valid flair target"
 msgstr "अवैध परचम लक्ष्य"
 
-#: r2/lib/errors.py:103
+#: r2/lib/errors.py:104
 msgid "invalid redirect_uri parameter"
 msgstr "अमान्य रीडरेक्ट_यूआआई मापदंड"
 
-#: r2/lib/errors.py:104
+#: r2/lib/errors.py:105
 msgid "invalid scope requested"
 msgstr "अवैध परिक्षेत्र का अनुरोध किया गया"
 
-#: r2/lib/errors.py:105
+#: r2/lib/errors.py:106
 msgid "invalid refresh token"
 msgstr "अवैध रिफ्रेश टोकन"
 
-#: r2/lib/errors.py:106
+#: r2/lib/errors.py:107
 msgid "access denied by the user"
 msgstr "प्रयोक्ता द्वारा अवरोधित"
 
-#: r2/lib/errors.py:107
+#: r2/lib/errors.py:108
 msgid "please confirm the form"
 msgstr "कृपया प्रपत्र की पुष्टि करें"
 
-#: r2/lib/errors.py:108
+#: r2/lib/errors.py:109
 msgid "conflict error while saving"
 msgstr "सहेजने के दौरान संघर्ष गड़बड़ी"
 
-#: r2/lib/errors.py:109
+#: r2/lib/errors.py:110
 msgid "cannot perform this action via the API"
 msgstr "यह क्रिया इस एपीआई के माध्यम से पूरी नहीं की जा सकती है"
 
-#: r2/lib/errors.py:110
+#: r2/lib/errors.py:111
 #, python-format
 msgid "%(domain)s is not allowed on reddit: %(reason)s"
 msgstr "%(domain)s रेडिट पर वर्जित है: %(reason)s"
 
-#: r2/lib/errors.py:111
+#: r2/lib/errors.py:112
 msgid "you must enable two-factor authentication"
 msgstr "आप को दो कारक प्रमाणीकरण सक्रिय करना होगा "
-
-#: r2/lib/errors.py:112
-msgid "this feature is not supported"
-msgstr "यह सुविधा समर्थित नहीं है"
 
 #: r2/lib/errors.py:113
 msgid "image problem"
@@ -1397,6 +1454,14 @@ msgstr ""
 #: r2/lib/errors.py:133
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
+msgstr ""
+
+#: r2/lib/errors.py:134
+msgid "can't change post type"
+msgstr ""
+
+#: r2/lib/errors.py:135
+msgid "invalid location"
 msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
@@ -1669,11 +1734,11 @@ msgstr "माह के हिसाब से छापे"
 msgid "clicks by month"
 msgstr "माह के हिसाब से क्लिक्स"
 
-#: r2/lib/jsontemplates.py:448 r2/templates/usertext.html:128
+#: r2/lib/jsontemplates.py:456 r2/templates/usertext.html:128
 msgid "[removed]"
 msgstr "[हटा दिया गया]"
 
-#: r2/lib/menus.py:47
+#: r2/lib/menus.py:47 r2/lib/recommender.py:51
 msgid "hot"
 msgstr "गरम"
 
@@ -1710,342 +1775,340 @@ msgid "controversial"
 msgstr "विवादास्पद"
 
 #: r2/lib/menus.py:56
+msgid "gilded"
+msgstr ""
+
+#: r2/lib/menus.py:57
 msgid "best"
 msgstr "सबसे अच्छा"
 
-#: r2/lib/menus.py:57 r2/lib/menus.py:345
+#: r2/lib/menus.py:58 r2/lib/menus.py:345
 msgid "random"
 msgstr "यादृच्छिक"
 
-#: r2/lib/menus.py:58
+#: r2/lib/menus.py:59
 msgid "saved {toolbar}"
 msgstr "सहेजा हुआ"
 
-#: r2/lib/menus.py:59
+#: r2/lib/menus.py:60
 msgid "recommended"
 msgstr "संस्तुत"
 
-#: r2/lib/menus.py:60
+#: r2/lib/menus.py:61 r2/lib/recommender.py:49
 msgid "rising"
 msgstr "चढ़ता हुआ "
 
-#: r2/lib/menus.py:61
+#: r2/lib/menus.py:62
 msgid "admin"
 msgstr "व्यवस्थापक"
 
-#: r2/lib/menus.py:64 r2/templates/widgetdemopanel.html:122
+#: r2/lib/menus.py:65 r2/templates/widgetdemopanel.html:122
 msgid "this hour"
 msgstr "इस घंटे"
 
-#: r2/lib/menus.py:65 r2/templates/widgetdemopanel.html:123
+#: r2/lib/menus.py:66 r2/templates/widgetdemopanel.html:123
 msgid "today"
 msgstr "आज"
 
-#: r2/lib/menus.py:66 r2/templates/widgetdemopanel.html:124
+#: r2/lib/menus.py:67 r2/templates/widgetdemopanel.html:124
 msgid "this week"
 msgstr "इस सप्ताह"
 
-#: r2/lib/menus.py:67 r2/templates/widgetdemopanel.html:125
+#: r2/lib/menus.py:68 r2/templates/widgetdemopanel.html:125
 msgid "this month"
 msgstr "इस महीने"
 
-#: r2/lib/menus.py:68
+#: r2/lib/menus.py:69
 msgid "this year"
 msgstr "इस वर्ष"
 
-#: r2/lib/menus.py:69
+#: r2/lib/menus.py:70
 msgid "all time"
 msgstr "अब तक का "
 
-#: r2/lib/menus.py:72 r2/templates/preffeeds.html:118
+#: r2/lib/menus.py:73 r2/templates/preffeeds.html:118
 #: r2/templates/printablebuttons.html:40
-#: r2/templates/printablebuttons.html:138
+#: r2/templates/printablebuttons.html:141
 msgid "spam"
 msgstr "स्पैम"
 
-#: r2/lib/menus.py:73
+#: r2/lib/menus.py:74
 msgid "autobanned"
 msgstr "स्वप्रतिबंधित"
 
-#: r2/lib/menus.py:76 r2/lib/pages/pages.py:826 r2/lib/pages/pages.py:846
+#: r2/lib/menus.py:77 r2/lib/pages/pages.py:862 r2/lib/pages/pages.py:882
 msgid "preferences"
 msgstr "प्राथमिकताएँ"
 
-#: r2/lib/menus.py:79
+#: r2/lib/menus.py:80
 msgid "blog"
 msgstr "चिट्ठा"
 
-#: r2/lib/menus.py:80 r2/templates/utils.html:463
+#: r2/lib/menus.py:81 r2/templates/utils.html:464
 msgid "logout"
 msgstr "लॉगआउट"
 
-#: r2/lib/menus.py:83
-msgid "contact us"
-msgstr "हमसे संपर्क करें"
-
-#: r2/lib/menus.py:84
+#: r2/lib/menus.py:85
 msgid "buttons"
 msgstr "बटन "
 
-#: r2/lib/menus.py:85
+#: r2/lib/menus.py:86
 msgid "widget"
 msgstr "विजेट "
 
-#: r2/lib/menus.py:86
+#: r2/lib/menus.py:87
 msgid "source code"
 msgstr " स्रोत कोड"
 
-#: r2/lib/menus.py:87
+#: r2/lib/menus.py:88
 msgid "mobile"
 msgstr "मोबाइल"
 
-#: r2/lib/menus.py:88
+#: r2/lib/menus.py:89
 msgid "store"
 msgstr "भंडार"
 
-#: r2/lib/menus.py:89
+#: r2/lib/menus.py:90
 msgid "advertise"
 msgstr "विज्ञापन दें"
 
-#: r2/lib/menus.py:93
+#: r2/lib/menus.py:94
 msgid "rules"
 msgstr "नियम"
 
-#: r2/lib/menus.py:96 r2/templates/newlink.html:108
-#: r2/templates/promotelinkform.html:190
+#: r2/lib/menus.py:97 r2/templates/newlink.html:121
+#: r2/templates/promotelinkform.html:224
 msgid "options"
 msgstr "विकल्प"
 
-#: r2/lib/menus.py:98
+#: r2/lib/menus.py:99
 msgid "RSS feeds"
 msgstr "आरएसएस फ़ीड"
 
-#: r2/lib/menus.py:99
+#: r2/lib/menus.py:100
 msgid "friends"
 msgstr " मित्र"
 
-#: r2/lib/menus.py:100
+#: r2/lib/menus.py:101
 msgid "password/email"
 msgstr "गुप्त शब्द / ईमेल"
 
-#: r2/lib/menus.py:101 r2/templates/multiinfobar.html:48
-#: r2/templates/printablebuttons.html:33 r2/templates/wikipagesettings.html:68
+#: r2/lib/menus.py:102 r2/templates/multiinfobar.html:48
+#: r2/templates/printablebuttons.html:33
+#: r2/templates/renderablecampaign.html:130
+#: r2/templates/wikipagesettings.html:76
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:6
 msgid "delete"
 msgstr "मिटाएँ"
 
-#: r2/lib/menus.py:102 r2/templates/prefotp.html:31
+#: r2/lib/menus.py:103 r2/templates/prefotp.html:31
 msgid "two-factor authentication"
 msgstr "दो कारक प्रमाणीकरण"
 
-#: r2/lib/menus.py:105
+#: r2/lib/menus.py:106
 msgid "compose"
 msgstr "लिखें"
 
-#: r2/lib/menus.py:106
+#: r2/lib/menus.py:107
 msgid "inbox"
 msgstr "इनबॉक्स"
 
-#: r2/lib/menus.py:107
+#: r2/lib/menus.py:108
 msgid "sent"
 msgstr "भेजे हुए"
 
-#: r2/lib/menus.py:110
+#: r2/lib/menus.py:111
 msgid "comments {toolbar}"
 msgstr "टिप्पणियाँ"
 
-#: r2/lib/menus.py:112 r2/templates/prefoptions.html:281
+#: r2/lib/menus.py:113 r2/templates/prefoptions.html:281
 #: r2/templates/prefoptions.html:290 r2/templates/prefoptions.html:299
 msgid "details"
 msgstr "ब्यौरा"
 
-#: r2/lib/menus.py:113
+#: r2/lib/menus.py:114
 #, python-format
 msgid "other discussions (%(num)s)"
 msgstr "अन्य विचार - विमर्श (%(num)s)"
 
-#: r2/lib/menus.py:114 r2/lib/pages/trafficpages.py:60
+#: r2/lib/menus.py:115 r2/lib/pages/trafficpages.py:60
 msgid "traffic stats"
 msgstr "यातायात आँकड़े"
 
-#: r2/lib/menus.py:115 r2/models/modaction.py:152
-#: r2/templates/subredditstylesheet.html:43
+#: r2/lib/menus.py:116 r2/models/modaction.py:154
+#: r2/templates/subredditstylesheet.html:42
 msgid "stylesheet"
 msgstr "स्टाइलशीट"
 
-#: r2/lib/menus.py:118
+#: r2/lib/menus.py:119
 msgid "home"
 msgstr "घर"
 
-#: r2/lib/menus.py:119 r2/lib/pages/pages.py:674
+#: r2/lib/menus.py:120 r2/lib/pages/pages.py:701
 msgid "about"
 msgstr "बारे में"
 
-#: r2/lib/menus.py:120
+#: r2/lib/menus.py:121
 msgid "edit subscriptions"
 msgstr "सदस्यताएँ संपादित करें"
 
-#: r2/lib/menus.py:121 r2/lib/pages/pages.py:1449
+#: r2/lib/menus.py:122 r2/lib/pages/pages.py:1494
 msgid "subreddit settings"
 msgstr "सबरेडिट सेटिंग्स"
 
-#: r2/lib/menus.py:122
+#: r2/lib/menus.py:123
 msgid "edit moderators"
 msgstr "पंचो को सम्पादित करें "
 
-#: r2/lib/menus.py:123
+#: r2/lib/menus.py:124
 msgid "moderator mail"
 msgstr "पंच का ईमेल "
 
-#: r2/lib/menus.py:124
+#: r2/lib/menus.py:125
 msgid "edit approved submitters"
 msgstr "अनुमोदित प्रस्तुतकर्ताओं को सम्पादित करें"
 
-#: r2/lib/menus.py:125 r2/lib/menus.py:126 r2/lib/pages/pages.py:3202
+#: r2/lib/menus.py:126 r2/lib/menus.py:127 r2/lib/pages/pages.py:3391
 msgid "ban users"
 msgstr "प्रयोक्ताओं को प्रतिबंधित करें "
 
-#: r2/lib/menus.py:127 r2/models/modaction.py:78
+#: r2/lib/menus.py:128 r2/models/modaction.py:78
 msgid "edit flair"
 msgstr "परचम संपादित करें"
 
-#: r2/lib/menus.py:128 r2/templates/preffeeds.html:121
+#: r2/lib/menus.py:129 r2/templates/preffeeds.html:121
 msgid "moderation log"
 msgstr "पंचनामा"
 
-#: r2/lib/menus.py:129
+#: r2/lib/menus.py:130
 msgid "moderation queue"
 msgstr "नियंत्रण कतार"
 
-#: r2/lib/menus.py:130 r2/templates/preffeeds.html:124
+#: r2/lib/menus.py:131 r2/templates/preffeeds.html:124
 msgid "unmoderated links"
 msgstr "अनियंत्रित लिंक्स"
 
-#: r2/lib/menus.py:132
+#: r2/lib/menus.py:133
 msgid "ban wiki contributors"
 msgstr "विकी योगदानकर्ता प्रतिबंधित करें"
 
-#: r2/lib/menus.py:133
+#: r2/lib/menus.py:134
 msgid "add wiki contributors"
 msgstr "विकी योगदानकर्ता जोड़ें"
 
-#: r2/lib/menus.py:135
+#: r2/lib/menus.py:136
 msgid "recent wiki revisions"
 msgstr "ताज़ा विकी संशोधन"
 
-#: r2/lib/menus.py:136
+#: r2/lib/menus.py:137
 msgid "wiki page list"
 msgstr "विकी पृष्ठ सूची"
 
-#: r2/lib/menus.py:138
+#: r2/lib/menus.py:139
 msgid "popular"
 msgstr "लोकप्रिय "
 
-#: r2/lib/menus.py:139 r2/templates/createsubreddit.html:430
-#: r2/templates/listingchooser.html:62 r2/templates/promotelinkform.html:419
+#: r2/lib/menus.py:140 r2/templates/createsubreddit.html:446
+#: r2/templates/listingchooser.html:62 r2/templates/promotelinkform.html:484
 msgid "create"
 msgstr "बनाएँ"
 
-#: r2/lib/menus.py:140 r2/lib/pages/pages.py:1800
+#: r2/lib/menus.py:141 r2/lib/pages/pages.py:1945
 msgid "my subreddits"
 msgstr "मेरे सबरेडिट"
 
-#: r2/lib/menus.py:142
+#: r2/lib/menus.py:143
 msgid "help translate"
 msgstr "अनुवादन में सहायता करें "
 
-#: r2/lib/menus.py:143 r2/templates/subredditstylesheet.html:97
+#: r2/lib/menus.py:144 r2/templates/subredditstylesheet.html:81
 msgid "errors"
 msgstr "गड़बड़ियाँ"
 
-#: r2/lib/menus.py:145
+#: r2/lib/menus.py:146
 msgid "ads"
 msgstr "विज्ञापन"
 
-#: r2/lib/menus.py:146
+#: r2/lib/menus.py:147
 msgid "promoted"
 msgstr "प्रचारित"
 
-#: r2/lib/menus.py:147
+#: r2/lib/menus.py:148
 msgid "reporters"
 msgstr "प्रतिवेदक"
 
-#: r2/lib/menus.py:148 r2/templates/preffeeds.html:115
+#: r2/lib/menus.py:149 r2/templates/preffeeds.html:115
 msgid "reports"
 msgstr "रपटें"
 
-#: r2/lib/menus.py:149
+#: r2/lib/menus.py:150
 msgid "reported authors"
 msgstr "रपट दायर लेखक "
 
-#: r2/lib/menus.py:150
+#: r2/lib/menus.py:151
 msgid "info"
 msgstr "जानकारी"
 
-#: r2/lib/menus.py:151 r2/templates/printablebuttons.html:182
-#: r2/templates/sharelink.html:118
+#: r2/lib/menus.py:152 r2/templates/multiinfobar.html:80
+#: r2/templates/printablebuttons.html:185 r2/templates/sharelink.html:118
 msgid "share"
 msgstr "बांटे "
 
-#: r2/lib/menus.py:153
-msgid "overview"
-msgstr "सिंहावलोकन "
-
 #: r2/lib/menus.py:154
+msgid "overview"
+msgstr "ब्यौरा "
+
+#: r2/lib/menus.py:155
 msgid "submitted"
 msgstr "प्रस्तुत किया गया "
 
-#: r2/lib/menus.py:155
+#: r2/lib/menus.py:156
 msgid "liked"
 msgstr "पसंद किया गया "
 
-#: r2/lib/menus.py:156
+#: r2/lib/menus.py:157
 msgid "disliked"
 msgstr "नापसंद किया गया "
 
-#: r2/lib/menus.py:157
+#: r2/lib/menus.py:158
 msgid "hidden {toolbar}"
 msgstr "छिपाया हुआ"
 
-#: r2/lib/menus.py:159 r2/templates/printablebuttons.html:56
+#: r2/lib/menus.py:160 r2/templates/printablebuttons.html:56
 msgid "reported"
 msgstr "रपट दायर"
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:161
 msgid "voting"
 msgstr "मतदान"
 
-#: r2/lib/menus.py:162
+#: r2/lib/menus.py:163
 msgid "self-serve advertising"
 msgstr "स्वयं सेवा विज्ञापन"
 
-#: r2/lib/menus.py:163
+#: r2/lib/menus.py:164
 msgid "create promotion"
 msgstr "प्रचार बनाएँ"
 
-#: r2/lib/menus.py:164
+#: r2/lib/menus.py:165
 msgid "my promoted links"
 msgstr "मेरे प्रचारित लिंक्स"
 
-#: r2/lib/menus.py:165
+#: r2/lib/menus.py:166
 msgid "all promoted links"
 msgstr "सभी प्रचारित लिंक्स"
 
-#: r2/lib/menus.py:167
+#: r2/lib/menus.py:168
 msgid "unseen"
 msgstr "अनदेखा "
 
-#: r2/lib/menus.py:168
+#: r2/lib/menus.py:169
 msgid "roadblock"
 msgstr "मुसीबत "
 
-#: r2/lib/menus.py:169
-msgid "analytics"
-msgstr "विश्लेषिकी"
-
 #: r2/lib/menus.py:170
-msgid "admin analytics"
-msgstr "व्यवस्थापक विश्लेषिकी"
+msgid "inventory"
+msgstr ""
 
 #: r2/lib/menus.py:171
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:14
@@ -2152,14 +2215,20 @@ msgstr ""
 msgid "manage the wiki and access to the wiki"
 msgstr "विकी एवं विकी प्रवेश प्रबंधित कीजिए"
 
-#: r2/lib/promote.py:213 r2/lib/strings.py:283
-#: r2/public/static/js/sponsored.js:201 r2/templates/reddittraffic.html:89
-msgid "day"
-msgid_plural "days"
-msgstr[0] "दिन"
-msgstr[1] "दिन"
+#: r2/lib/recommender.py:50
+msgid "discovery"
+msgstr ""
 
-#: r2/lib/strings.py:51 r2/lib/template_helpers.py:163
+#: r2/lib/recommender.py:52 r2/lib/strings.py:261 r2/lib/strings.py:266
+#: r2/lib/template_helpers.py:250 r2/models/modaction.py:339
+#: r2/templates/subredditstylesheet.html:109
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:203
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "टिपण्णी "
+msgstr[1] "टिपण्णियाँ"
+
+#: r2/lib/strings.py:51 r2/lib/template_helpers.py:174
 msgid "submitting..."
 msgstr "प्रस्तुत किया जा रहा है..."
 
@@ -2233,7 +2302,7 @@ msgstr "मैं समझता हूँ और मानता हूँ क
 msgid ""
 "to view reddit with only submissions from your friends, use "
 "[reddit.com/r/friends](%s)"
-msgstr ""
+msgstr "रेडिट पर केवल अपनी मित्रों की प्रस्तुतियों को देखने के लिए [reddit.com/r/friends](%s) का प्रयोग करें"
 
 #: r2/lib/strings.py:84
 msgid "your subreddit has been created"
@@ -2405,8 +2474,8 @@ msgid ""
 msgstr "अपने  ईमेल पते की पुष्टि करने के बाद आप बारंबार प्रस्तुत करने में  सक्षम हो जायेंगे"
 
 #: r2/lib/strings.py:127
-msgid "your email address has been verfied"
-msgstr "आपके ईमेल पते को सत्यापित किया जा चुका है"
+msgid "your email address has been verified"
+msgstr ""
 
 #: r2/lib/strings.py:128
 msgid "Verification failed.  Please try that again"
@@ -2414,30 +2483,36 @@ msgstr "सत्यापन विफल । कृप्या पुनः �
 
 #: r2/lib/strings.py:129
 msgid ""
+"The email verification link you've followed is for a different user. Please "
+"log out and switch to that user or try again below."
+msgstr ""
+
+#: r2/lib/strings.py:130
+msgid ""
 "Our search machines are under too much load to handle your request right "
 "now. :( Sorry for the inconvenience. Try again in a little bit -- but please"
 " don't mash reload; that only makes the problem worse."
 msgstr "हमारी खोज मशीनों अभी वयस्त हैं और आपके अनुरोध को संभाल नही सकती । :( असुविधा के लिए खेद है । कुछ देर बाद पुनः प्रयास करें, लेकिन कृपया लगातार कोशिश ना करें;  ऐसा करने से बात और बिगड़ जाती है ।"
 
-#: r2/lib/strings.py:130
+#: r2/lib/strings.py:131
 #, python-format
 msgid ""
 "I couldn't understand your query, so I simplified it and searched for "
 "\"%(clean_query)s\" instead."
 msgstr "मैं आपकी खोज समझ नहीं सका, तो मैंने बदले में उसे सरल कर \"%(clean_query)s\" की खोज की ।"
 
-#: r2/lib/strings.py:131
+#: r2/lib/strings.py:132
 msgid "I couldn't understand your search query. Please try again."
 msgstr "आपकी तलाश हमें समझ नहीं आई। कृपया फिर से आजमाएँ।"
 
-#: r2/lib/strings.py:132
+#: r2/lib/strings.py:133
 #, python-format
 msgid ""
 "You may also want to check the [search help page](%(search_help)s) for more "
 "information."
 msgstr "और जानकारी के लिए शायद आप [खोज सहायता पृष्ठ](%(search_help)s) देखना पसंद करेंगे ।"
 
-#: r2/lib/strings.py:133
+#: r2/lib/strings.py:134
 msgid ""
 "reddit uses a slightly-customized version of "
 "[Markdown](http://daringfireball.net/projects/markdown/syntax) for "
@@ -2446,7 +2521,7 @@ msgid ""
 "issues."
 msgstr ""
 
-#: r2/lib/strings.py:135
+#: r2/lib/strings.py:136
 #, python-format
 msgid ""
 "Looks like you're either a brand new user or your posts have not been doing "
@@ -2455,7 +2530,7 @@ msgid ""
 "conversation in a different thread."
 msgstr "ऐसा प्रतीत होता है कि या तो आप एक नये प्रयोक्ता हैं या आपकी प्रस्तुतियों को हाल ही में अधिक पसंद नही किया जा रहा है । पुन: प्रस्तुत करने से पहले आपको थोड़ा इंतज़ार करना पड़ेगा । तब तक आप रेडिट पर ही किसी और वार्तालाप में भाग लीजिए या [रेडिट शिष्टाचार](%(reddiquette)s) के बारे मे जानिए ।"
 
-#: r2/lib/strings.py:136
+#: r2/lib/strings.py:137
 #, python-format
 msgid ""
 "Looks like you're either a brand new user or your posts have not been doing "
@@ -2465,17 +2540,17 @@ msgid ""
 "address](%(verify)s)."
 msgstr "ऐसा प्रतीत होता है कि या तो आप एक नये प्रयोक्ता हैं या आपकी प्रस्तुतियों को हाल ही में अधिक पसंद नही किया जा रहा है । पुन: प्रस्तुत करने से पहले आपको थोड़ा इंतज़ार करना पड़ेगा । तब तक आप रेडिट पर ही किसी और वार्तालाप में भाग लीजिए, [रेडिट शिष्टाचार](%(reddiquette)s) के बारे मे जानिए या अपना [ईमेल पता सत्यापित कीजिए](%(verify)s) ।"
 
-#: r2/lib/strings.py:137
+#: r2/lib/strings.py:138
 msgid ""
 "reddit is in \"emergency read-only mode\" right now. :( you won't be able to"
 " log in. we're sorry, and are working frantically to fix the problem."
 msgstr "रेडिट इस समय \"आपातकालीन पठनीय विधि\" में है । :( आप लॉगिन नही कर सकते हैं । असुविधा के लिए खेद है, हम इस समस्या को शीघ्र सुलझाने ले लिए जी तोड़ महनत कर रहें हैं ।"
 
-#: r2/lib/strings.py:138
+#: r2/lib/strings.py:139
 msgid "this page is temporarily in read-only mode due to heavy traffic."
 msgstr "इस पृष्ठ अस्थायी रूप से भारी यातायात के कारण केवल पढ़ने की विधि में है ।"
 
-#: r2/lib/strings.py:139
+#: r2/lib/strings.py:140
 msgid ""
 "reddit gold is reddit's premium membership program. Here are the benefits:\n"
 "\n"
@@ -2484,37 +2559,37 @@ msgid ""
 "* Discuss and get help on the features and perks at /r/goldbenefits"
 msgstr ""
 
-#: r2/lib/strings.py:140
+#: r2/lib/strings.py:141
 msgid ""
 "Grab a drink and join us in /r/lounge, the super-secret members-only "
 "community that may or may not exist."
 msgstr ""
 
-#: r2/lib/strings.py:141
+#: r2/lib/strings.py:142
 msgid ""
 "You sent us a postcard! (Or something similar.) When we run out of room on "
 "our refrigerator, we might one day auction off the stuff that people sent "
 "in. Is it okay if we include your thing?"
 msgstr "आपने हमें एक पोस्टकार्ड (या उस जैसा कुछ) भेजा है । जब अंत में हमारे पास जगह ही नहीं बचती तो हम आप जैसे लोगो द्वारा भेजे गए सामान को अक्सर नीलम कर देते हैं । तो क्या हम आपकी दी हुई चीज़ को नीलम कर सकते हैं? "
 
-#: r2/lib/strings.py:142
+#: r2/lib/strings.py:143
 #, python-format
 msgid ""
 "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe"
 " to reddit gold, it goes up to %(goldmax)d.)"
 msgstr "क्षमा करें, टिप्पणी की अधिकतम संख्या %(max)d है. (तथापि, यदि आपके पास रेडिट गोल्ड है तब यह संख्या  %(goldmax)d तक जा सकती है । )"
 
-#: r2/lib/strings.py:143
+#: r2/lib/strings.py:144
 #, python-format
 msgid "Sorry, the maximum number of comments is %d."
 msgstr "क्षमा करें, टिप्पणियों की अधिकतम संख्या % d है ।"
 
-#: r2/lib/strings.py:144
+#: r2/lib/strings.py:145
 #, python-format
 msgid "%(sender)s just gifted you %(amount)s of reddit gold!"
 msgstr ""
 
-#: r2/lib/strings.py:145
+#: r2/lib/strings.py:146
 msgid ""
 "Here's a note that was included:\n"
 "\n"
@@ -2522,28 +2597,28 @@ msgid ""
 "\n"
 msgstr "यह रहा नोट जोकि शामिल था:\n\n----\n\n"
 
-#: r2/lib/strings.py:146
+#: r2/lib/strings.py:147
 #, python-format
 msgid ""
 "Another user liked [your comment](%(url)s) so much that they gilded it, giving you reddit gold.\n"
 "\n"
 msgstr ""
 
-#: r2/lib/strings.py:147
+#: r2/lib/strings.py:148
 #, python-format
 msgid ""
 "You're about to set up an ongoing, autorenewing subscription to reddit gold "
 "for yourself (%(user)s)."
 msgstr "आप खुद के लिए एक निरंतर, स्व-नवीकृत रेडिट गोल्ड की सदस्यता शुरू करने वाले हैं (%(user)s)."
 
-#: r2/lib/strings.py:148
+#: r2/lib/strings.py:149
 #, python-format
 msgid ""
 "You're about to make a one-time purchase of %(amount)s of reddit gold for "
 "yourself (%(user)s)."
 msgstr "आप खुद के लिए एक-बार की %(amount)s का रेडिट गोल्ड खरीदने वाले हैं (%(user)s)."
 
-#: r2/lib/strings.py:149
+#: r2/lib/strings.py:150
 #, python-format
 msgid ""
 "You're about to purchase %(amount)s of reddit gold creddits. They work like "
@@ -2551,35 +2626,31 @@ msgid ""
 " reddit gold to someone else."
 msgstr "आप %(amount)s के रेडिट गोल्ड क्रेडिट्स खरीदने वाले हैं। ये उपहार प्रमाण पत्र की तरह काम करते हैं - प्रत्येक क्रेडिट से आप किसी को भी एक माह का रेडिट गोल्ड दे सकते हैं।"
 
-#: r2/lib/strings.py:150
+#: r2/lib/strings.py:151
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s, who will be"
 " told that it came from you."
 msgstr "आप %(amount)s का रेडिट गोल्ड %(recipient)s को देने वाले हैं, जिन्हें कि बताया जायगा की यह आप से आया था।"
 
-#: r2/lib/strings.py:151
+#: r2/lib/strings.py:152
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s. It will be "
 "an anonymous gift."
 msgstr "आप %(amount)s का रेडिट गोल्ड %(recipient)s को देने वाले हैं। यह एक अनाम उपहार होगा।"
 
-#: r2/lib/strings.py:152
+#: r2/lib/strings.py:153
 #, python-format
 msgid ""
 "Want to say thanks to *%(recipient)s* for this comment? Give them a month of"
 " [reddit gold](/gold/about)."
 msgstr ""
 
-#: r2/lib/strings.py:153
+#: r2/lib/strings.py:154
 #, python-format
 msgid ""
 "Give *%(recipient)s* a month of [reddit gold](/gold/about) for this comment:"
-msgstr ""
-
-#: r2/lib/strings.py:154
-msgid "reddit gold members get access to exclusive stuff"
 msgstr ""
 
 #: r2/lib/strings.py:155
@@ -2674,14 +2745,6 @@ msgid ""
 "subscribers. Displaying unfiltered results from /r/all."
 msgstr ""
 
-#: r2/lib/strings.py:261 r2/lib/strings.py:266 r2/lib/template_helpers.py:239
-#: r2/models/modaction.py:337 r2/templates/subredditstylesheet.html:125
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:203
-msgid "comment"
-msgid_plural "comments"
-msgstr[0] "टिपण्णी "
-msgstr[1] "टिपण्णियाँ"
-
 #: r2/lib/strings.py:262 r2/templates/comment.htmllite:58
 #: r2/templates/linkinfobar.html:47
 msgid "point"
@@ -2689,20 +2752,21 @@ msgid_plural "points"
 msgstr[0] "अंक"
 msgstr[1] "अंक"
 
-#: r2/lib/strings.py:265 r2/models/modaction.py:322
+#: r2/lib/strings.py:265 r2/models/modaction.py:324
+#: r2/templates/promotelinkform.html:148
 msgid "link"
 msgid_plural "links"
 msgstr[0] "लिंक"
 msgstr[1] "लिंक्स"
 
-#: r2/lib/strings.py:267 r2/lib/pages/pages.py:917
+#: r2/lib/strings.py:267 r2/lib/pages/pages.py:954
 #: r2/templates/messagecompose.html:74
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "सन्देश "
 msgstr[1] "सन्देश "
 
-#: r2/lib/strings.py:268 r2/lib/pages/trafficpages.py:798
+#: r2/lib/strings.py:268 r2/lib/pages/trafficpages.py:801
 #: r2/templates/sitewidetraffic.html:36
 #: r2/templates/subreddittrafficreport.html:42
 msgid "subreddit"
@@ -2771,13 +2835,21 @@ msgid_plural "hours"
 msgstr[0] "घंटा "
 msgstr[1] "घंटे"
 
-#: r2/lib/strings.py:284 r2/templates/goldpayment.html:184
+#: r2/lib/strings.py:283 r2/lib/pages/pages.py:3881
+#: r2/public/static/js/sponsored.js:283 r2/templates/reddittraffic.html:89
+#: r2/templates/renderablecampaign.html:55
+msgid "day"
+msgid_plural "days"
+msgstr[0] "दिन"
+msgstr[1] "दिन"
+
+#: r2/lib/strings.py:284 r2/templates/goldpayment.html:140
 msgid "month"
 msgid_plural "months"
 msgstr[0] "महीना "
 msgstr[1] "महीने"
 
-#: r2/lib/strings.py:285 r2/templates/goldpayment.html:189
+#: r2/lib/strings.py:285 r2/templates/goldpayment.html:145
 msgid "year"
 msgid_plural "years"
 msgstr[0] "साल "
@@ -2854,488 +2926,502 @@ msgid ""
 "sponsored link \"%(title)s\"](%(traffic_url)s)."
 msgstr "आप [प्रायोजित लिंक \"%(title)s\"](%(traffic_url)s) पर यातायात देख सकने वाले प्रयोक्तायों की सूची में जोड़ लिए गए हैं "
 
-#: r2/lib/template_helpers.py:162
+#: r2/lib/template_helpers.py:173
 msgid "fetching title..."
 msgstr "शीर्षक ढूँढा जा रहा है "
 
-#: r2/lib/template_helpers.py:164
+#: r2/lib/template_helpers.py:175
 msgid "loading..."
 msgstr "लोड हो रहा है ..."
 
-#: r2/lib/template_helpers.py:235
+#: r2/lib/template_helpers.py:246
 msgid "comment {verb}"
 msgstr "टिपण्णी करें"
 
-#: r2/lib/template_helpers.py:508 r2/models/builder.py:156
+#: r2/lib/template_helpers.py:491 r2/models/builder.py:157
 msgid "friend"
 msgstr "मित्र "
 
-#: r2/lib/template_helpers.py:515
+#: r2/lib/template_helpers.py:498
 msgid "submitter"
 msgstr "प्रस्तुतकर्ता"
 
-#: r2/lib/template_helpers.py:529
+#: r2/lib/template_helpers.py:512
 msgid "reddit admin, speaking officially"
 msgstr "रेडिट व्यवस्थापक, औपचारिक सन्देश"
 
-#: r2/lib/pages/pages.py:96
+#: r2/lib/pages/pages.py:113
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:207
+#: r2/lib/pages/pages.py:226
 msgid ""
 "imgur.com domain listings (including this one) are currently disabled to "
 "speed up vote processing."
 msgstr ""
 
-#: r2/lib/pages/pages.py:286
+#: r2/lib/pages/pages.py:303
 msgid "wiki tools"
 msgstr "विकी औज़ार"
 
-#: r2/lib/pages/pages.py:342
+#: r2/lib/pages/pages.py:359
 msgid "moderation tools"
 msgstr "नियंत्रण उपकरण"
 
-#: r2/lib/pages/pages.py:398
+#: r2/lib/pages/pages.py:415
 msgid "these subreddits"
 msgstr "यह  सबरेडिट"
 
-#: r2/lib/pages/pages.py:416
+#: r2/lib/pages/pages.py:433
 msgid "this subreddit is archived and no longer accepting submissions."
 msgstr ""
 
-#: r2/lib/pages/pages.py:418
+#: r2/lib/pages/pages.py:435
 msgid "Submissions disabled"
 msgstr ""
 
-#: r2/lib/pages/pages.py:425
+#: r2/lib/pages/pages.py:442
 msgid "submission in this subreddit is restricted to approved submitters."
 msgstr "इस सबरेडिट में प्रस्तुतीकरण सिर्फ स्वीकृत प्रस्तुतकर्ताओं तक ही सीमित है"
 
-#: r2/lib/pages/pages.py:428
+#: r2/lib/pages/pages.py:445
 msgid "submission in this subreddit is restricted to reddit gold members."
 msgstr "इस सबरेडिट में केवल रेडिट गोल्ड सदस्य ही प्रस्तुित कर सकते हैं ।"
 
-#: r2/lib/pages/pages.py:430
+#: r2/lib/pages/pages.py:447
 msgid "Submissions restricted"
 msgstr ""
 
-#: r2/lib/pages/pages.py:478
+#: r2/lib/pages/pages.py:495
 msgid "Create your own subreddit"
 msgstr "अपनी सबरेडिट का निर्माण करें"
 
-#: r2/lib/pages/pages.py:493
+#: r2/lib/pages/pages.py:510
 msgid "message the admins"
 msgstr "व्यवस्थापकों को संदेश भेजें"
 
-#: r2/lib/pages/pages.py:495
+#: r2/lib/pages/pages.py:512
 msgid "message the moderators"
 msgstr "पंचो को संदेश भेजें"
 
-#: r2/lib/pages/pages.py:498
+#: r2/lib/pages/pages.py:515
 msgid "moderators"
 msgstr "पंच"
 
-#: r2/lib/pages/pages.py:509
+#: r2/lib/pages/pages.py:526
 msgid "Recently viewed links"
 msgstr "हाल ही में देखा गयी लिंक"
 
-#: r2/lib/pages/pages.py:539
+#: r2/lib/pages/pages.py:556
 msgid "turn admin off"
 msgstr "व्यवस्थापक विधि निष्क्रिय कीजिए"
 
-#: r2/lib/pages/pages.py:546 r2/lib/pages/pages.py:1016
+#: r2/lib/pages/pages.py:563 r2/lib/pages/pages.py:1053
 #: r2/templates/passwordverificationform.html:67
 msgid "turn admin on"
 msgstr "व्यवस्थापक विधि सक्रिय कीजिए"
 
-#: r2/lib/pages/pages.py:680
+#: r2/lib/pages/pages.py:707
 msgid "FAQ"
 msgstr "बहुधा पूछे गए प्रश्न"
 
-#: r2/lib/pages/pages.py:681 r2/templates/usertext.html:149
+#: r2/lib/pages/pages.py:708 r2/templates/usertext.html:150
 msgid "reddiquette"
 msgstr "रेडिट शिष्टाचार"
 
-#: r2/lib/pages/pages.py:691
+#: r2/lib/pages/pages.py:718
 msgid "firefox extension"
 msgstr "फ़ायरफ़ॉक्स एक्सटेंशन"
 
-#: r2/lib/pages/pages.py:692
+#: r2/lib/pages/pages.py:719
 msgid "chrome extension"
 msgstr "क्रोम एक्सटेंशन"
 
-#: r2/lib/pages/pages.py:696
+#: r2/lib/pages/pages.py:723
 msgid "tools"
 msgstr "औज़ार"
 
-#: r2/lib/pages/pages.py:703
+#: r2/lib/pages/pages.py:730
 msgid "redditgifts"
 msgstr "रेडिटउपहार"
 
-#: r2/lib/pages/pages.py:704
+#: r2/lib/pages/pages.py:731
 msgid "reddit.tv"
 msgstr "reddit.tv"
 
-#: r2/lib/pages/pages.py:705
+#: r2/lib/pages/pages.py:732
 msgid "radio reddit"
 msgstr "रेडीओ रेडिट"
 
-#: r2/lib/pages/pages.py:707
+#: r2/lib/pages/pages.py:734
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:914
+#: r2/lib/pages/pages.py:951
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s डाक"
 
-#: r2/lib/pages/pages.py:981 r2/templates/redditheader.html:74
+#: r2/lib/pages/pages.py:1018 r2/templates/redditheader.html:74
 msgid "login or register"
 msgstr "लॉगिन या पंजीकरण करें "
 
-#: r2/lib/pages/pages.py:1070
+#: r2/lib/pages/pages.py:1107
 msgid "request for permission"
 msgstr "अनुमति के लिए अनुरोध"
 
-#: r2/lib/pages/pages.py:1103
+#: r2/lib/pages/pages.py:1109
+msgid "permission"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1141
 msgid "bummer"
 msgstr "दिक्कत हो गयी "
 
-#: r2/lib/pages/pages.py:1115
+#: r2/lib/pages/pages.py:1153
 msgid "this page is no longer available due to a copyright claim."
 msgstr "कॉपीराइट के कारण यह पृष्ठ उपलब्ध नहीं है ।"
 
-#: r2/lib/pages/pages.py:1450
+#: r2/lib/pages/pages.py:1495
 #, python-format
 msgid "about %(site)s"
 msgstr "%(site)s के बारे में"
 
-#: r2/lib/pages/pages.py:1476
+#: r2/lib/pages/pages.py:1521
 msgid "search subreddits by name"
 msgstr "उपरेडिट को नाम से खोजें "
 
-#: r2/lib/pages/pages.py:1513
+#: r2/lib/pages/pages.py:1558
 #, python-format
 msgid "your front page subreddits (%s)"
 msgstr "आपके मुखपृष्ठ वाले सबरेडिट (%s)"
 
-#: r2/lib/pages/pages.py:1582 r2/templates/createsubreddit.html:366
-#: r2/templates/spotlightlisting.html:53
+#: r2/lib/pages/pages.py:1628 r2/templates/createsubreddit.html:382
+#: r2/templates/spotlightlisting.html:60
 msgid "what's this?"
 msgstr "यह क्या है?"
 
-#: r2/lib/pages/pages.py:1583
+#: r2/lib/pages/pages.py:1629
 msgid "trophy case"
 msgstr "जयचिह्न पेटी"
 
-#: r2/lib/pages/pages.py:1592
+#: r2/lib/pages/pages.py:1638
 msgid "public multireddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1648
+#: r2/lib/pages/pages.py:1703
 msgid "an unknown amount"
 msgstr "एक अज्ञात राशि"
 
-#: r2/lib/pages/pages.py:1656
+#: r2/lib/pages/pages.py:1711
 msgid "less than a day"
 msgstr "एक दिन से भी कम"
 
-#: r2/lib/pages/pages.py:1668
+#: r2/lib/pages/pages.py:1725
 #, python-format
 msgid "%(creddits)s gold creddit to give"
 msgid_plural "%(creddits)s gold creddits to give"
 msgstr[0] "देने के लिए %(creddits)s गोल्ड क्रेडिट"
 msgstr[1] "देने के लिए %(creddits)s गोल्ड क्रेडिट"
 
-#: r2/lib/pages/pages.py:1676
+#: r2/lib/pages/pages.py:1733
 #, python-format
 msgid "give reddit gold to %(user)s to show your appreciation"
 msgstr "अपनी सराहना दिखाने हेतु %(user)s को रेडिट गोल्ड दें"
 
-#: r2/lib/pages/pages.py:1680
+#: r2/lib/pages/pages.py:1737
 msgid "renew your reddit gold"
 msgstr "रेडिट गोल्ड का नवीकरण करें"
 
-#: r2/lib/pages/pages.py:1683
+#: r2/lib/pages/pages.py:1740
 msgid ""
 "get extra features and help support reddit with a reddit gold subscription"
 msgstr "रेडिट गोल्ड सदस्यता ले कर अतिरिक्त सुविधाएँ पाएँ और रेडिट का समर्थन करें"
 
-#: r2/lib/pages/pages.py:1705
+#: r2/lib/pages/pages.py:1753
+#, python-format
+msgid "you have helped pay for *%(time)s* of reddit server time."
+msgstr ""
+
+#: r2/lib/pages/pages.py:1754
+#, python-format
+msgid "/u/%(user)s has helped pay for *%%(time)s* of reddit server time."
+msgstr ""
+
+#: r2/lib/pages/pages.py:1757
+#, python-format
+msgid ""
+"gifts on your behalf have helped pay for *%(time)s* of reddit server time."
+msgstr ""
+
+#: r2/lib/pages/pages.py:1759
+#, python-format
+msgid ""
+"gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of reddit "
+"server time."
+msgstr ""
+
+#: r2/lib/pages/pages.py:1850
 msgid "reddit is a platform for internet communities"
 msgstr "रेडिट इंटरनेट समुदायों के लिए एक मंच है"
 
-#: r2/lib/pages/pages.py:1706
+#: r2/lib/pages/pages.py:1851
 msgid "where your votes shape what the world is talking about."
 msgstr ""
 
-#: r2/lib/pages/pages.py:1890
+#: r2/lib/pages/pages.py:2044
 #, python-format
 msgid "raise it to %s"
 msgstr "%s तक बढ़ाएँ"
 
-#: r2/lib/pages/pages.py:1892 r2/lib/pages/pages.py:1901
+#: r2/lib/pages/pages.py:2046 r2/lib/pages/pages.py:2055
 #, python-format
 msgid "%s visible"
 msgstr "%s दृष्टित"
 
-#: r2/lib/pages/pages.py:1899
+#: r2/lib/pages/pages.py:2053
 #, python-format
 msgid "%(bonus)s bonus subreddits"
 msgstr "%(bonus)s बोनस सबरेडिट"
 
-#: r2/lib/pages/pages.py:2168
+#: r2/lib/pages/pages.py:2285
+#, python-format
+msgid ""
+"you have a credit card gold subscription. your card (ending in %(last4)s) "
+"will be charged %(amount)s on %(date)s."
+msgstr ""
+
+#: r2/lib/pages/pages.py:2354
 msgid "try entering those letters again"
 msgstr "उन शब्दो को फिर से प्रवेश करने की कोशिश करें "
 
-#: r2/lib/pages/pages.py:2227
+#: r2/lib/pages/pages.py:2413
 msgid "previous search"
 msgstr "पिछली खोज"
 
-#: r2/lib/pages/pages.py:2253
+#: r2/lib/pages/pages.py:2439
 #, python-format
 msgid "%(site_title)s via %(domain)s"
 msgstr "%(site_title)s वाया %(domain)s"
 
-#: r2/lib/pages/pages.py:2717
+#: r2/lib/pages/pages.py:2906
 msgid "grant flair"
 msgstr "परचम दें"
 
-#: r2/lib/pages/pages.py:2719
+#: r2/lib/pages/pages.py:2908
 msgid "user flair templates"
 msgstr "प्रयोक्ता परचम नमूने"
 
-#: r2/lib/pages/pages.py:2721
+#: r2/lib/pages/pages.py:2910
 msgid "link flair templates"
 msgstr "लिंक परचम टेम्पलेट्स"
 
-#: r2/lib/pages/pages.py:3031
+#: r2/lib/pages/pages.py:3220
 msgid "user"
 msgstr "प्रयोक्ता"
 
-#: r2/lib/pages/pages.py:3031
+#: r2/lib/pages/pages.py:3220
 msgid "note"
 msgstr "नोट"
 
-#: r2/lib/pages/pages.py:3031
+#: r2/lib/pages/pages.py:3220
 msgid "friendship"
 msgstr "मित्रता"
 
-#: r2/lib/pages/pages.py:3037
+#: r2/lib/pages/pages.py:3226
 msgid "add a friend"
 msgstr "मित्र बनायें"
 
-#: r2/lib/pages/pages.py:3041
+#: r2/lib/pages/pages.py:3230
 msgid "your friends"
 msgstr " आपके मित्र"
 
-#: r2/lib/pages/pages.py:3069
+#: r2/lib/pages/pages.py:3258
 msgid "blocked users"
 msgstr "अवरोधित प्रयोक्ता"
 
-#: r2/lib/pages/pages.py:3085
+#: r2/lib/pages/pages.py:3274
 msgid "add approved submitter"
 msgstr "अनुमोदित प्रस्तुतकर्ता को जोड़ें"
 
-#: r2/lib/pages/pages.py:3089
+#: r2/lib/pages/pages.py:3278
 #, python-format
 msgid "approved submitters for %(reddit)s"
 msgstr "%(reddit)s के अनुमोदित प्रस्तुतकर्ता"
 
-#: r2/lib/pages/pages.py:3104 r2/models/modaction.py:70
+#: r2/lib/pages/pages.py:3293 r2/models/modaction.py:70
 msgid "add moderator"
 msgstr "पंच जोड़ें"
 
-#: r2/lib/pages/pages.py:3105 r2/models/modaction.py:72
+#: r2/lib/pages/pages.py:3294 r2/models/modaction.py:72
 msgid "invite moderator"
 msgstr "पंच आमंत्रित करें"
 
-#: r2/lib/pages/pages.py:3106 r2/templates/modlist.html:33
+#: r2/lib/pages/pages.py:3295 r2/templates/modlist.html:33
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
 msgstr "आप इस रेडिट के पंच हैं । %(action)s"
 
-#: r2/lib/pages/pages.py:3120
+#: r2/lib/pages/pages.py:3309
 #, python-format
 msgid "moderators of /r/%(reddit)s"
 msgstr "/r/%(reddit)s के पंच"
 
-#: r2/lib/pages/pages.py:3124
+#: r2/lib/pages/pages.py:3313
 msgid "invited"
 msgstr "आमंत्रित"
 
-#: r2/lib/pages/pages.py:3206
+#: r2/lib/pages/pages.py:3395
 msgid "banned users"
 msgstr "प्रतिबंधित प्रयोक्ता"
 
-#: r2/lib/pages/pages.py:3221
+#: r2/lib/pages/pages.py:3410
 msgid "add a wiki contributor"
 msgstr "विकी योगदानकर्ता जोड़ें"
 
-#: r2/lib/pages/pages.py:3225
+#: r2/lib/pages/pages.py:3414
 msgid "wiki page contributors"
 msgstr "विकी पृष्ठ योगदानकर्ता"
 
-#: r2/lib/pages/pages.py:3391
+#: r2/lib/pages/pages.py:3586 r2/templates/flairpane.html:76
+msgid "none"
+msgstr "कुछ भी नहीं"
+
+#: r2/lib/pages/pages.py:3621
 #, python-format
 msgid ""
 "reddit ads are now sold on a CPM basis. [Here's how it works](%(link)s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3820
-#, python-format
-msgid "cost per 1k impressions ($%(avg).2f average)"
-msgstr "हर 1000 छापों की कीमत ($%(avg).2f औसत)"
-
-#: r2/lib/pages/pages.py:3821
-#, python-format
-msgid "cost per click ($%(avg).2f average)"
-msgstr "हर क्लिक की कीमत ($%(avg).2f औसत)"
-
-#: r2/lib/pages/pages.py:3828
-msgid "historical performance"
-msgstr "ऐतिहासिक प्रदर्शन"
-
-#. TRANSLATORS: Advertising term: "cost per mille"
-#: r2/lib/pages/pages.py:3832 r2/templates/promote_graph.html:125
-msgid "CPM"
-msgstr ""
-
-#. TRANSLATORS: Advertising term: "cost per click"
-#: r2/lib/pages/pages.py:3835 r2/templates/promote_graph.html:142
-msgid "CPC"
-msgstr "सीपीसी"
-
-#: r2/lib/pages/pages.py:3922
+#: r2/lib/pages/pages.py:4037
 msgid "start date"
 msgstr "प्रारंभ तिथि"
 
-#: r2/lib/pages/pages.py:3923
+#: r2/lib/pages/pages.py:4038
 msgid "end date"
 msgstr "अंत तिथि"
 
-#: r2/lib/pages/pages.py:3927 r2/templates/promotedlinktraffic.html:109
+#: r2/lib/pages/pages.py:4042 r2/templates/promotedlinktraffic.html:109
 #: r2/templates/refundpage.html:41
 msgid "id"
 msgstr "क्रमांक"
 
-#: r2/lib/pages/pages.py:3928 r2/lib/pages/pages.py:3945
+#: r2/lib/pages/pages.py:4043 r2/lib/pages/pages.py:4060
 msgid "owner"
 msgstr "मालिक"
 
-#: r2/lib/pages/pages.py:3929 r2/templates/newlink.html:70
-#: r2/templates/promotelinkform.html:130
+#: r2/lib/pages/pages.py:4044 r2/templates/newlink.html:72
+#: r2/templates/promotelinkform.html:159
 msgid "url"
 msgstr "यूआरएल"
 
-#: r2/lib/pages/pages.py:3931
+#: r2/lib/pages/pages.py:4046
 msgid "upvotes"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3932
+#: r2/lib/pages/pages.py:4047
 msgid "downvotes"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3933 r2/lib/pages/trafficpages.py:277
-#: r2/lib/pages/trafficpages.py:729 r2/templates/promotedlinktraffic.html:41
+#: r2/lib/pages/pages.py:4048 r2/lib/pages/trafficpages.py:277
+#: r2/lib/pages/trafficpages.py:732 r2/templates/promotedlinktraffic.html:41
 #: r2/templates/promotedlinktraffic.html:119
 msgid "clicks"
 msgstr "क्लिक्स"
 
-#: r2/lib/pages/pages.py:3934 r2/lib/pages/trafficpages.py:274
-#: r2/lib/pages/trafficpages.py:398 r2/lib/pages/trafficpages.py:728
+#: r2/lib/pages/pages.py:4049 r2/lib/pages/trafficpages.py:274
+#: r2/lib/pages/trafficpages.py:398 r2/lib/pages/trafficpages.py:731
 #: r2/templates/adverttrafficsummary.html:36
 #: r2/templates/promotedlinktraffic.html:40
 #: r2/templates/promotedlinktraffic.html:117
-#: r2/templates/promotelinkform.html:337
+#: r2/templates/promotelinkform.html:413
 msgid "impressions"
 msgstr "छापे"
 
-#: r2/lib/pages/pages.py:3942
+#: r2/lib/pages/pages.py:4057
 msgid "campaigns"
 msgstr "अभियान"
 
-#: r2/lib/pages/pages.py:3944
+#: r2/lib/pages/pages.py:4059
 msgid "link id"
 msgstr "लिंक क्रमांक"
 
-#: r2/lib/pages/pages.py:3946
+#: r2/lib/pages/pages.py:4061
 msgid "campaign id"
 msgstr "अभियान क्रमांक"
 
-#: r2/lib/pages/pages.py:3947 r2/templates/promotedlinktraffic.html:114
+#: r2/lib/pages/pages.py:4062 r2/templates/promotedlinktraffic.html:114
 #: r2/templates/refundpage.html:53
 msgid "target"
 msgstr "लक्ष्य"
 
-#: r2/lib/pages/pages.py:3948
+#: r2/lib/pages/pages.py:4063
 msgid "bid"
 msgstr "बोली"
 
-#: r2/lib/pages/pages.py:3949
+#: r2/lib/pages/pages.py:4064
 msgid "frontpage clicks"
 msgstr "मुखपृष्ठ क्लिक्स"
 
-#: r2/lib/pages/pages.py:3949
+#: r2/lib/pages/pages.py:4064
 msgid "frontpage impressions"
 msgstr "मुखपृष्ठ छापे"
 
-#: r2/lib/pages/pages.py:3950
+#: r2/lib/pages/pages.py:4065
 msgid "subreddit clicks"
 msgstr "सबरेडिट क्लिक्स"
 
-#: r2/lib/pages/pages.py:3950
+#: r2/lib/pages/pages.py:4065
 msgid "subreddit impressions"
 msgstr "सबरेडिट छापे"
 
-#: r2/lib/pages/pages.py:3951 r2/lib/pages/trafficpages.py:404
+#: r2/lib/pages/pages.py:4066 r2/lib/pages/trafficpages.py:404
 msgid "total clicks"
 msgstr "कुल क्लिक्स"
 
-#: r2/lib/pages/pages.py:3951
+#: r2/lib/pages/pages.py:4066
 msgid "total impressions"
 msgstr "कुल छापे"
 
-#: r2/lib/pages/pages.py:4087 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:4202 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "खाता गतिविधि"
 
-#: r2/lib/pages/pages.py:4185
+#: r2/lib/pages/pages.py:4296
 msgid "subscribed"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4186 r2/templates/preffeeds.html:54
+#: r2/lib/pages/pages.py:4297 r2/templates/preffeeds.html:54
 msgid "your front page"
 msgstr "आपका मुखपृष्ठ"
 
-#: r2/lib/pages/pages.py:4187 r2/templates/preffeeds.html:77
+#: r2/lib/pages/pages.py:4299 r2/templates/preffeeds.html:77
 #: r2/templates/preffeeds.html:102
 msgid "everything"
 msgstr "सब कुछ"
 
-#: r2/lib/pages/pages.py:4188
+#: r2/lib/pages/pages.py:4300
 msgid "from all subreddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4190
+#: r2/lib/pages/pages.py:4302
 msgid "moderating"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4191
+#: r2/lib/pages/pages.py:4303
 msgid "subreddits you mod"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4197
+#: r2/lib/pages/pages.py:4309
 msgid "gold perks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4209
+#: r2/lib/pages/pages.py:4321
 msgid "explore multis"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4294
+#: r2/lib/pages/pages.py:4409
 msgid "popular choices"
 msgstr "लोकप्रिय विकल्प"
 
@@ -3344,7 +3430,7 @@ msgstr "लोकप्रिय विकल्प"
 msgid "uniques by %s"
 msgstr "%s से अद्वितीय"
 
-#: r2/lib/pages/trafficpages.py:135 r2/lib/pages/trafficpages.py:799
+#: r2/lib/pages/trafficpages.py:135 r2/lib/pages/trafficpages.py:802
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34
 #: r2/templates/reddittraffic.html:90 r2/templates/sitewidetraffic.html:37
@@ -3357,7 +3443,7 @@ msgstr "अद्वितीय"
 msgid "pageviews by %s"
 msgstr "%s अनुसार पृष्ठ दर्शन"
 
-#: r2/lib/pages/trafficpages.py:138 r2/lib/pages/trafficpages.py:800
+#: r2/lib/pages/trafficpages.py:138 r2/lib/pages/trafficpages.py:803
 #: r2/templates/languagetrafficsummary.html:35
 #: r2/templates/reddittraffic.html:91 r2/templates/sitewidetraffic.html:38
 #: r2/templates/subreddittrafficreport.html:44
@@ -3385,7 +3471,7 @@ msgstr "दिनानुसार कुल क्लिक्स"
 msgid "ad totals"
 msgstr "विज्ञापन योग"
 
-#: r2/lib/pages/trafficpages.py:318
+#: r2/lib/pages/trafficpages.py:318 r2/templates/renderablecampaign.html:110
 msgid "frontpage"
 msgstr "मुखपृष्ठ"
 
@@ -3411,204 +3497,201 @@ msgstr "दिनानुसार सदस्यता "
 msgid "subscriptions"
 msgstr "सदस्यताएँ"
 
-#: r2/lib/pages/trafficpages.py:630 r2/templates/promotedlinktraffic.html:58
+#: r2/lib/pages/trafficpages.py:633 r2/templates/promotedlinktraffic.html:58
 msgid "total"
 msgstr "संपूर्ण"
 
-#: r2/lib/pages/trafficpages.py:727
+#: r2/lib/pages/trafficpages.py:730
 msgid "date and time (UTC)"
 msgstr "दिन व समय (यूटीसी)"
 
-#: r2/lib/pages/trafficpages.py:730
+#: r2/lib/pages/trafficpages.py:733
 msgid "click-through rate (%)"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:751
+#: r2/lib/pages/trafficpages.py:754
 msgid "share traffic"
 msgstr "यातायात बांटें"
 
-#: r2/lib/pages/trafficpages.py:755
+#: r2/lib/pages/trafficpages.py:758
 msgid "current viewers"
 msgstr "वर्तमान दर्शक"
 
-#: r2/lib/pages/wiki.py:103
+#: r2/lib/pages/wiki.py:104
 msgid "view"
 msgstr "देखें"
 
-#: r2/lib/pages/wiki.py:105 r2/templates/paymentform.html:188
-#: r2/templates/prefapps.html:76 r2/templates/printablebuttons.html:177
-#: r2/templates/printablebuttons.html:209
-#: r2/templates/printablebuttons.html:298 r2/templates/wrappeduser.html:57
+#: r2/lib/pages/wiki.py:106 r2/templates/paymentform.html:163
+#: r2/templates/prefapps.html:76 r2/templates/printablebuttons.html:180
+#: r2/templates/printablebuttons.html:212
+#: r2/templates/printablebuttons.html:295
+#: r2/templates/renderablecampaign.html:124 r2/templates/wrappeduser.html:57
 msgid "edit"
 msgstr "संपादित करें"
 
-#: r2/lib/pages/wiki.py:107
+#: r2/lib/pages/wiki.py:108
 msgid "talk"
 msgstr "बातचीत"
 
-#: r2/lib/pages/wiki.py:109 r2/lib/pages/wiki.py:179
+#: r2/lib/pages/wiki.py:110 r2/lib/pages/wiki.py:180
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:59
 msgid "settings"
 msgstr "सेटिंग्स"
 
-#: r2/lib/pages/wiki.py:116
+#: r2/lib/pages/wiki.py:117
 msgid "this wiki is currently disabled, only mods may interact with this wiki"
 msgstr "यह विकी इस समय निष्क्रिय है, केवल पंच ही इसका प्रयोग कर सकते हैं"
 
-#: r2/lib/pages/wiki.py:132
+#: r2/lib/pages/wiki.py:133
 #, python-format
 msgid "%(page)s - %(site)s"
 msgstr "%(page)s - %(site)s"
 
-#: r2/lib/pages/wiki.py:149
+#: r2/lib/pages/wiki.py:150
 msgid "this page is empty, edit it to add some content."
 msgstr "यह पृष्ठ खाली है, यहाँ कुछ साइड बार जोड़ने के लिए इसे संपादित करें ।"
 
-#: r2/lib/pages/wiki.py:157 r2/lib/pages/wiki.py:163
+#: r2/lib/pages/wiki.py:158 r2/lib/pages/wiki.py:164
 #, python-format
 msgid "page %s does not exist in this subreddit"
 msgstr "पृष्ठ %s इस उपरेडिट पर मौज़ूद नही है"
 
-#: r2/lib/pages/wiki.py:171
+#: r2/lib/pages/wiki.py:172
 msgid "editing"
 msgstr "संपादित किया जा रहा है"
 
-#: r2/lib/pages/wiki.py:178
+#: r2/lib/pages/wiki.py:179
 msgid "This page is restricted, only moderators may edit it."
 msgstr "यह पेज प्रतिबंधित है, केवल पंच ही इसे संपादित कर सकते हैं ।"
 
-#: r2/lib/pages/wiki.py:185 r2/templates/policyview.html:26
+#: r2/lib/pages/wiki.py:186 r2/templates/policyview.html:26
 msgid "revisions"
 msgstr "संशोधन"
 
-#: r2/lib/pages/wiki.py:191
+#: r2/lib/pages/wiki.py:192
 #, python-format
 msgid "Viewing recent revisions for /r/%s"
 msgstr "/r/%s के ताज़ा संशोधन देख रहे हैं"
 
-#: r2/lib/pages/wiki.py:197
+#: r2/lib/pages/wiki.py:198
 #, python-format
 msgid "Viewing pages for /r/%s"
 msgstr "/r/%s के पृष्ठों को देख रहे हैं"
 
-#: r2/lib/pages/wiki.py:198
+#: r2/lib/pages/wiki.py:199
 msgid ""
 "Below is a list of pages in this wiki visible to you in this subreddit."
 msgstr ""
 
-#: r2/lib/pages/wiki.py:204
+#: r2/lib/pages/wiki.py:205
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:47
 msgid "discussions"
 msgstr "विचार - विमर्श"
 
-#: r2/lib/pages/wiki.py:205
+#: r2/lib/pages/wiki.py:206
 msgid "Discussions are site-wide links to this wiki page."
 msgstr ""
 
-#: r2/lib/pages/wiki.py:206
+#: r2/lib/pages/wiki.py:207
 msgid ""
 "Submit a link to this wiki page or see other discussions about this wiki "
 "page."
 msgstr "इस विकी पृष्ठ पर एक लिंक प्रस्तुत करें या इससे सम्बंधित अन्य विचार-विमर्श देखें ।"
 
-#: r2/lib/validator/validator.py:1409
+#: r2/lib/validator/validator.py:1425
 #, python-format
 msgid "%(min)d to any"
 msgstr "%(min)d से कहीं तक भी"
 
-#: r2/lib/validator/validator.py:1411
+#: r2/lib/validator/validator.py:1427
 #, python-format
 msgid "any to %(max)d"
 msgstr "कहीं से भी %(max)d तक"
 
-#: r2/lib/validator/validator.py:1413
+#: r2/lib/validator/validator.py:1429
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)d से %(max)d तक"
 
-#: r2/lib/validator/validator.py:1943
+#: r2/lib/validator/validator.py:2014
 msgid "please provide a first name"
 msgstr "कृपया अपना पहला नाम बताएँ"
 
-#: r2/lib/validator/validator.py:1945
+#: r2/lib/validator/validator.py:2016
 msgid "please provide a last name"
 msgstr "कृपया अपना आखिरी नाम बताएँ"
 
-#: r2/lib/validator/validator.py:1947
+#: r2/lib/validator/validator.py:2018
 msgid "please provide an address"
 msgstr "कृपया अपना पता बताएँ"
 
-#: r2/lib/validator/validator.py:1949
+#: r2/lib/validator/validator.py:2020
 msgid "please provide your city"
 msgstr "कृपया अपना नगर बताएँ"
 
-#: r2/lib/validator/validator.py:1951
+#: r2/lib/validator/validator.py:2022
 msgid "please provide your state"
 msgstr "कृपया अपना राज्य बताएँ"
 
-#: r2/lib/validator/validator.py:1953
+#: r2/lib/validator/validator.py:2024
 msgid "please provide your zip or post code"
 msgstr "कृपया अपना पिन कोड बताएँ"
 
-#: r2/lib/validator/validator.py:1955
-msgid "please pick a country"
-msgstr "कृपया अपना देश बताएँ"
+#: r2/lib/validator/validator.py:2026
+msgid "please provide your country"
+msgstr ""
 
-#: r2/lib/validator/validator.py:1959
-msgid "Our ToS don't cover your country (yet). Sorry."
-msgstr "हमारी शर्ते (अभी तक) आपके देश में लागू नहीं होती, माफ़ करें "
-
-#: r2/lib/validator/validator.py:1975
+#: r2/lib/validator/validator.py:2043
 #, python-format
 msgid "max length %d characters"
 msgstr "अधिकतम लंबाई %d अक्षर"
 
-#: r2/lib/validator/validator.py:1998
+#: r2/lib/validator/validator.py:2066
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "क्रेडिट कार्ड क्रमांक 13 से 16 अंको का होना चाहिए "
 
-#: r2/lib/validator/validator.py:2003
+#: r2/lib/validator/validator.py:2071
 msgid "dates should be YYYY-MM"
 msgstr "तिथि YYYY-MM के ढंग में होनी चाहिए "
 
-#: r2/lib/validator/validator.py:2011
+#: r2/lib/validator/validator.py:2079
 msgid "month must be in the range 01..12"
 msgstr "महीने भरने का प्रारूप १ से १२ की श्रेणी में होना चाहिए "
 
-#: r2/lib/validator/validator.py:2014
+#: r2/lib/validator/validator.py:2082
 msgid "expiration date must be in the future"
 msgstr "समाप्ति की तिथि भविष्य में होनी चाहिए "
 
-#: r2/lib/validator/validator.py:2018
+#: r2/lib/validator/validator.py:2086
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "क्रेडिट कार्ड सत्यापन क्रमांक 3 से 4 अंको का होना चाहिए "
 
-#: r2/lib/validator/validator.py:2161
+#: r2/lib/validator/validator.py:2233
 msgid "an app"
 msgstr "एक एप"
 
-#: r2/lib/validator/validator.py:2178
+#: r2/lib/validator/validator.py:2250
 msgid "an app developed by the user"
 msgstr "प्रयोक्ता द्वारा विकसित एक एप"
 
-#: r2/lib/validator/validator.py:2380
+#: r2/lib/validator/validator.py:2452
 msgid "no spaces allowed"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2382
+#: r2/lib/validator/validator.py:2454
 #, python-format
 msgid "invalid character: '%s'"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2384
+#: r2/lib/validator/validator.py:2456
 msgid "can't start with a '_'"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2386
+#: r2/lib/validator/validator.py:2458
 msgid "that name is too short"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2388
+#: r2/lib/validator/validator.py:2460
 msgid "that name is too long"
 msgstr ""
 
@@ -3628,11 +3711,11 @@ msgstr "पहले से उपस्थित पृष्ठ का ना�
 msgid "the starting point revision for this edit"
 msgstr "इस संपादन हेतु पुनर्वालोकन का आरम्भ "
 
-#: r2/models/account.py:210
+#: r2/models/account.py:215
 msgid "ancient history"
 msgstr "प्राचीन इतिहास"
 
-#: r2/models/account.py:211
+#: r2/models/account.py:216
 msgid "really obscure karma from before it was cool to track per-subreddit"
 msgstr "गए रोज़ का प्राचीन कर्म अंक जिससे पहले हम एक एक सबरेडिट के आंकड़े जमा करने शुरू भी नहीं किए थे ।"
 
@@ -3660,14 +3743,15 @@ msgstr ""
 msgid "Your subscription to reddit gold will be expiring soon."
 msgstr ""
 
-#: r2/models/builder.py:116
+#: r2/models/builder.py:117
 #, python-format
 msgid "moderator of /r/%(reddit)s, speaking officially"
 msgstr " /r/%(reddit)s का पंच, औपचारिक सन्देश "
 
-#: r2/models/builder.py:179
-msgid "label_template"
-msgstr "लेबल_टेम्पलेट"
+#: r2/models/builder.py:182
+#, python-format
+msgid "%(user)s just celebrated a reddit birthday!"
+msgstr ""
 
 #: r2/models/builder.py:282
 msgid "a moderator"
@@ -3683,54 +3767,54 @@ msgstr "%(who)s द्वारा अनुमोदित %(when)s पहल�
 msgid "approved by %s"
 msgstr "%s द्वारा अनुमोदित"
 
-#: r2/models/link.py:595
+#: r2/models/link.py:599
 #, python-format
 msgid "by %(author)s to %(reddit)s"
 msgstr "%(author)s द्वारा %(reddit)s पर"
 
-#: r2/models/link.py:598
+#: r2/models/link.py:602
 #, python-format
 msgid "by %(author)s"
 msgstr "%(author)s द्वारा"
 
-#: r2/models/link.py:602
+#: r2/models/link.py:606
 #, python-format
 msgid "%(score)s submitted %(when)s ago%(lastedited)s"
 msgstr "%(score)s प्रस्तुत किया गया %(when)s पहले%(lastedited)s"
 
-#: r2/models/link.py:607
+#: r2/models/link.py:611
 #, python-format
 msgid "submitted %(when)s ago%(lastedited)s by %(author)s to %(reddit)s"
 msgstr "%(when)s पहले%(lastedited)s %(reddit)s पर %(author)s द्वारा प्रस्तुत किया गया "
 
-#: r2/models/link.py:610
+#: r2/models/link.py:614
 #, python-format
 msgid "submitted %(when)s ago%(lastedited)s by %(author)s"
 msgstr "%(author)s द्वारा %(when)s पहले%(lastedited)s प्रस्तुत किया गया"
 
-#: r2/models/link.py:615
+#: r2/models/link.py:619
 #, python-format
 msgid "%(score)s submitted %(when)s ago"
 msgstr "%(score)s प्रस्तुत किया गया %(when)s पहले"
 
-#: r2/models/link.py:619
+#: r2/models/link.py:623
 #, python-format
 msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
 msgstr "%(author)s द्वारा %(reddit)s पर प्रस्तुत किया गया %(when)s पहले"
 
-#: r2/models/link.py:622
+#: r2/models/link.py:626
 #, python-format
 msgid "submitted %(when)s ago by %(author)s"
 msgstr "%(when)s पहले %(author)s द्वारा प्रस्तुत किया गया"
 
-#: r2/models/link.py:696 r2/templates/comment.html:106
+#: r2/models/link.py:716 r2/templates/comment.html:108
 #: r2/templates/comment.htmllite:46 r2/templates/comment.xml:31
 #: r2/templates/comment.xml:32
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateaccount.html:4
 msgid "[deleted]"
 msgstr "[मिटाया हुआ]"
 
-#: r2/models/link.py:699
+#: r2/models/link.py:719
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this comment."
 msgid_plural ""
@@ -3738,7 +3822,7 @@ msgid_plural ""
 msgstr[0] "इस टिप्पणी के लिए एक प्रयोक्ता ने आपको एक माह का गोल्ड उपहार स्वरूप दिया है ।"
 msgstr[1] "इस टिप्पणी के लिए प्रयोक्ताओं ने आपको %(months)d महीनों का गोल्ड उपहार स्वरूप दिया है ।"
 
-#: r2/models/link.py:706
+#: r2/models/link.py:726
 #, python-format
 msgid "you have gifted reddit gold to %(recipient)s for this comment."
 msgid_plural ""
@@ -3747,7 +3831,7 @@ msgid_plural ""
 msgstr[0] "आपने इस टिप्पणी के लिए %(recipient)s को रेडिट गोल्ड उपहार स्वरूप दिया है ।"
 msgstr[1] "आपने और अन्य प्रयोक्ताओं ने इस टिप्पणी के लिए %(recipient)s को %(months)d महीनों का रेडिट गोल्ड उपहार स्वरूप दिया है ।"
 
-#: r2/models/link.py:713
+#: r2/models/link.py:733
 #, python-format
 msgid "a redditor has gifted reddit gold to %(recipient)s for this comment."
 msgid_plural ""
@@ -3756,60 +3840,60 @@ msgid_plural ""
 msgstr[0] "किसी प्रयोक्ता ने इस टिप्पणी के लिए %(recipient)s को रेडिट गोल्ड उपहार स्वरूप दिया है ।"
 msgstr[1] "प्रयोक्ताओं ने इस टिप्पणी के लिए %(recipient)s को %(months)d महीनों का रेडिट गोल्ड उपहार स्वरूप दिया है ।"
 
-#: r2/models/link.py:1056
+#: r2/models/link.py:1093
 msgid "comment score below threshold"
 msgstr "टिप्पणी के अंक निचली सीमा से कम हैं"
 
-#: r2/models/link.py:1061
+#: r2/models/link.py:1098
 msgid "blocked user"
 msgstr "अवरोधित प्रयोक्ता"
 
-#: r2/models/link.py:1414
+#: r2/models/link.py:1452
 msgid "comment reply"
 msgstr "टिप्पणी का उत्तर"
 
-#: r2/models/link.py:1417 r2/models/link.py:1424
+#: r2/models/link.py:1455 r2/models/link.py:1462
 msgid "username mention"
 msgstr ""
 
-#: r2/models/link.py:1421
+#: r2/models/link.py:1459
 msgid "post reply"
-msgstr ""
+msgstr "प्रस्तुति पर उत्तर"
 
-#: r2/models/link.py:1447
+#: r2/models/link.py:1485
 msgid "[message from blocked user]"
 msgstr "[अवरुद्ध प्रयोक्ता से संदेश]"
 
-#: r2/models/link.py:1448
+#: r2/models/link.py:1486
 msgid "[unblock user to see this message]"
 msgstr "[इस सन्देश को देखने के लिए प्रयोक्ता को अनवांछित सूचि से हटाएँ ]"
 
-#: r2/models/link.py:1451
+#: r2/models/link.py:1489
 #, python-format
 msgid "subreddit message %(author)s sent %(when)s ago"
 msgstr "सबरेडिट संदेश जो कि %(author)s ने भेजा %(when)s पहले"
 
-#: r2/models/link.py:1453
+#: r2/models/link.py:1491
 #, python-format
 msgid "to %(dest)s sent %(when)s ago"
 msgstr "%(dest)s को भेजा %(when)s पहले"
 
-#: r2/models/link.py:1455
+#: r2/models/link.py:1493
 #, python-format
 msgid "from %(author)s sent %(when)s ago"
 msgstr "%(author)s द्वारा भेजा गया %(when)s पहले"
 
-#: r2/models/link.py:1457
+#: r2/models/link.py:1495
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s ago"
 msgstr "%(author)s ने %(dest)s को भेजा %(when)s पहले"
 
-#: r2/models/link.py:1468
+#: r2/models/link.py:1506
 #, python-format
 msgid "via %(subreddit)s"
 msgstr " %(subreddit)s से होकर"
 
-#: r2/models/link.py:1470
+#: r2/models/link.py:1508
 #, python-format
 msgid "%(author)s via %(subreddit)s"
 msgstr "%(author)s वाया %(subreddit)s"
@@ -3941,7 +4025,7 @@ msgstr ""
 msgid "edit settings"
 msgstr "सेटिंग्स संपादित करें"
 
-#: r2/models/modaction.py:79 r2/templates/printablebuttons.html:87
+#: r2/models/modaction.py:79 r2/templates/printablebuttons.html:90
 msgid "distinguish"
 msgstr "सुभिन्न करें"
 
@@ -3962,346 +4046,377 @@ msgid "add wiki contributor"
 msgstr "विकी योगदानकर्ता जोड़ें"
 
 #: r2/models/modaction.py:84
+msgid "delist/relist wiki pages"
+msgstr ""
+
+#: r2/models/modaction.py:85
 msgid "remove wiki contributor"
 msgstr "विकी योगदानकर्ता हटाएँ"
 
-#: r2/models/modaction.py:85
+#: r2/models/modaction.py:86
 msgid "wiki revise page"
 msgstr "विकी संशोधन पृष्ठ"
 
-#: r2/models/modaction.py:86
+#: r2/models/modaction.py:87
 msgid "wiki page permissions"
 msgstr "विकी पृष्ठ अनुमतियाँ"
 
-#: r2/models/modaction.py:87 r2/models/modaction.py:171
-#: r2/templates/printablebuttons.html:127
+#: r2/models/modaction.py:88 r2/models/modaction.py:173
+#: r2/templates/printablebuttons.html:130
 msgid "ignore reports"
 msgstr "रपटों को अनदेखा करें"
 
-#: r2/models/modaction.py:88
+#: r2/models/modaction.py:89
 msgid "unignore reports"
 msgstr "रपटों पर गौर फरमाएँ"
 
-#: r2/models/modaction.py:89
+#: r2/models/modaction.py:90
 msgid "permissions"
 msgstr "अनुमतियाँ"
 
-#: r2/models/modaction.py:90
+#: r2/models/modaction.py:91
 msgid "sticky post"
 msgstr ""
 
-#: r2/models/modaction.py:91
+#: r2/models/modaction.py:92
 msgid "unsticky post"
 msgstr ""
 
-#: r2/models/modaction.py:94 r2/templates/subredditinfobar.html:93
+#: r2/models/modaction.py:95 r2/templates/subredditinfobar.html:93
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "प्रतिबंधित"
 
-#: r2/models/modaction.py:95
+#: r2/models/modaction.py:96
 msgid "wiki banned"
 msgstr "विकी प्रतिबंिधत"
 
-#: r2/models/modaction.py:96
+#: r2/models/modaction.py:97
 msgid "unbanned from wiki"
 msgstr "विकी से अप्रतिबंधित किया गया"
 
-#: r2/models/modaction.py:97
+#: r2/models/modaction.py:98
 msgid "added wiki contributor"
 msgstr "विकी योगदानकर्ता जोड़ा गया"
 
-#: r2/models/modaction.py:98
+#: r2/models/modaction.py:99
 msgid "removed wiki contributor"
 msgstr "विकी योगदानकर्ता हटाया गया"
 
-#: r2/models/modaction.py:99
+#: r2/models/modaction.py:100
 msgid "unbanned"
 msgstr "अवरोध हटा दिया गया"
 
-#: r2/models/modaction.py:100 r2/models/modaction.py:102
+#: r2/models/modaction.py:101 r2/models/modaction.py:103
 #: r2/templates/printablebuttons.html:43
-#: r2/templates/printablebuttons.html:158 r2/templates/trophycase.html:48
-#: r2/templates/trophycase.html:68
+#: r2/templates/printablebuttons.html:161 r2/templates/trophycase.html:48
 msgid "removed"
 msgstr "हटाया "
 
-#: r2/models/modaction.py:101 r2/models/modaction.py:103
-#: r2/models/modaction.py:126 r2/templates/printablebuttons.html:50
-#: r2/templates/printablebuttons.html:161
+#: r2/models/modaction.py:102 r2/models/modaction.py:104
+#: r2/models/modaction.py:128 r2/templates/printablebuttons.html:50
+#: r2/templates/printablebuttons.html:164
 #: r2/templates/subredditinfobar.html:85
 msgid "approved"
 msgstr "स्वीकृत "
 
-#: r2/models/modaction.py:104
+#: r2/models/modaction.py:105
 msgid "added moderator"
 msgstr "पंच  सम्मिलित किया गया "
 
-#: r2/models/modaction.py:105
+#: r2/models/modaction.py:106
 msgid "removed moderator"
 msgstr "पंच पदच्युत किया गया"
 
-#: r2/models/modaction.py:106
+#: r2/models/modaction.py:107
 msgid "invited moderator"
 msgstr "पंव आमंत्रित किया गया"
 
-#: r2/models/modaction.py:107
+#: r2/models/modaction.py:108
 msgid "uninvited moderator"
 msgstr "अनामंत्रित पंच"
 
-#: r2/models/modaction.py:108
+#: r2/models/modaction.py:109
 msgid "accepted moderator invitation"
 msgstr "पंच आमंत्रण स्वीकार किया गया"
 
-#: r2/models/modaction.py:109
+#: r2/models/modaction.py:110
 msgid "added approved contributor"
 msgstr "स्वीकृत योगदानकर्ता जोड़ा"
 
-#: r2/models/modaction.py:110
+#: r2/models/modaction.py:111
 msgid "removed approved contributor"
 msgstr "स्वीकृत योगदानकर्ता हटाया"
 
-#: r2/models/modaction.py:111
+#: r2/models/modaction.py:112
 msgid "edited settings"
 msgstr "सेटिंग्स संपादित की"
 
-#: r2/models/modaction.py:112
+#: r2/models/modaction.py:113
 msgid "edited flair"
 msgstr "संपादित परचम"
 
-#: r2/models/modaction.py:113
+#: r2/models/modaction.py:114
 msgid "edited wiki page"
 msgstr "विकी पृष्ठ संपादित किया गया"
 
-#: r2/models/modaction.py:114
+#: r2/models/modaction.py:115
 msgid "changed wiki page permission level"
 msgstr "विकी पेज का अधिकार क्षेत्र बदला गया "
 
-#: r2/models/modaction.py:115
+#: r2/models/modaction.py:116
+msgid "changed wiki page listing preference"
+msgstr ""
+
+#: r2/models/modaction.py:117
 msgid "distinguished"
 msgstr "विशिष्ट"
 
-#: r2/models/modaction.py:116
+#: r2/models/modaction.py:118
 msgid "marked nsfw"
 msgstr "वयस्क चिह्नित किया गया"
 
-#: r2/models/modaction.py:117
+#: r2/models/modaction.py:119
 msgid "ignored reports"
 msgstr "उपेक्षित रपटें"
 
-#: r2/models/modaction.py:118
+#: r2/models/modaction.py:120
 msgid "unignored reports"
 msgstr "अनुपेक्षित रपटें"
 
-#: r2/models/modaction.py:119
+#: r2/models/modaction.py:121
 msgid "changed permissions on"
 msgstr "पर अनुमतियाँ बदली"
 
-#: r2/models/modaction.py:120 r2/templates/linkcommentssettings.html:46
+#: r2/models/modaction.py:122 r2/templates/linkcommentssettings.html:46
 msgid "stickied"
 msgstr ""
 
-#: r2/models/modaction.py:121 r2/templates/linkcommentssettings.html:43
+#: r2/models/modaction.py:123 r2/templates/linkcommentssettings.html:43
 msgid "unstickied"
 msgstr ""
 
-#: r2/models/modaction.py:125
+#: r2/models/modaction.py:127
 msgid "unspam"
 msgstr "स्पैम चिह्न हटाएँ"
 
-#: r2/models/modaction.py:128
+#: r2/models/modaction.py:130
 msgid "confirmed spam"
 msgstr "स्पैम पुष्टित "
 
-#: r2/models/modaction.py:129
+#: r2/models/modaction.py:131
 msgid "removed not spam"
 msgstr "हटाया \"स्पैम नही\""
 
-#: r2/models/modaction.py:130
+#: r2/models/modaction.py:132
 msgid "removed spam"
 msgstr "स्पैम हटाया"
 
-#: r2/models/modaction.py:132
+#: r2/models/modaction.py:134
 msgid "removed self"
 msgstr "खुद को पदच्युत करा "
 
-#: r2/models/modaction.py:134 r2/templates/createsubreddit.html:56
-#: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:117
+#: r2/models/modaction.py:136 r2/templates/createsubreddit.html:56
+#: r2/templates/newlink.html:63 r2/templates/promotelinkform.html:129
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:7
 msgid "title"
 msgstr "शीर्षक"
 
-#: r2/models/modaction.py:135 r2/templates/createsubreddit.html:68
-#: r2/templates/prefapps.html:125 r2/templates/prefapps.html:312
+#: r2/models/modaction.py:137 r2/templates/createsubreddit.html:68
+#: r2/templates/prefapps.html:121 r2/templates/prefapps.html:308
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:13
 msgid "description"
 msgstr "विवरण"
 
-#: r2/models/modaction.py:136 r2/templates/createsubreddit.html:82
+#: r2/models/modaction.py:138 r2/templates/createsubreddit.html:82
 msgid "sidebar"
 msgstr "साइडबार"
 
-#: r2/models/modaction.py:137 r2/templates/createsubreddit.html:106
+#: r2/models/modaction.py:139 r2/templates/createsubreddit.html:122
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "भाषा"
 
-#: r2/models/modaction.py:138 r2/templates/createsubreddit.html:117
+#: r2/models/modaction.py:140 r2/templates/createsubreddit.html:133
 msgid "type"
 msgstr "प्रकार"
 
-#: r2/models/modaction.py:139
+#: r2/models/modaction.py:141
 msgid "link type"
 msgstr "लिंक प्रकार"
 
-#: r2/models/modaction.py:140
+#: r2/models/modaction.py:142
 msgid "submit link button label"
 msgstr "लिंक बटन चिप्पी प्रस्तुत करें"
 
-#: r2/models/modaction.py:141
+#: r2/models/modaction.py:143
 msgid "submit text post button label"
 msgstr ""
 
-#: r2/models/modaction.py:142
+#: r2/models/modaction.py:144
 msgid "comment score hide period"
 msgstr " टिप्पणी अंक छुपाने की अवधि"
 
-#: r2/models/modaction.py:143
+#: r2/models/modaction.py:145
 msgid "toggle viewers must be over 18"
 msgstr "बदलें: दर्शकों को 18 से अधिक होना चाहिए"
 
-#: r2/models/modaction.py:144
+#: r2/models/modaction.py:146
 msgid "toggle allow in default set"
 msgstr "डिफ़ॉल्ट सेट में टॉगल की अनुमति है   "
 
-#: r2/models/modaction.py:145
+#: r2/models/modaction.py:147
 msgid "toggle show thumbnail images of content"
 msgstr "रचनाओं के थंबनेल दिखाना टॉगल करें"
 
-#: r2/models/modaction.py:146
+#: r2/models/modaction.py:148
 msgid "toggle public traffic stats page"
 msgstr ""
 
-#: r2/models/modaction.py:147
+#: r2/models/modaction.py:149
 msgid "toggle exclude banned users' posts from modqueue"
 msgstr ""
 
-#: r2/models/modaction.py:148 r2/templates/createsubreddit.html:334
+#: r2/models/modaction.py:150 r2/templates/createsubreddit.html:350
 msgid "domain"
 msgstr "डोमेन"
 
-#: r2/models/modaction.py:149
+#: r2/models/modaction.py:151
 msgid "toggle show sidebar from cname"
 msgstr "सीनेम से साइडबार देखने के लिए टॉगल"
 
-#: r2/models/modaction.py:150
+#: r2/models/modaction.py:152
 msgid "toggle custom CSS from cname"
 msgstr "सीनेम से कस्टम सीएसएस के लिए टॉगल"
 
-#: r2/models/modaction.py:151
+#: r2/models/modaction.py:153
 msgid "header title"
 msgstr "हेडर शीर्षक"
 
-#: r2/models/modaction.py:153
+#: r2/models/modaction.py:155
 msgid "delete header image"
 msgstr "हेडर छविर मिटाएँ"
 
-#: r2/models/modaction.py:154
+#: r2/models/modaction.py:156
 msgid "delete image"
 msgstr "चित्र मिटाएँ"
 
-#: r2/models/modaction.py:155 r2/templates/createsubreddit.html:394
+#: r2/models/modaction.py:157 r2/templates/createsubreddit.html:410
 msgid "upload header image"
 msgstr "हेडर छवि अपलोड करें "
 
-#: r2/models/modaction.py:156
+#: r2/models/modaction.py:158
 msgid "upload image"
 msgstr "चित्र अपलोड करें"
 
-#: r2/models/modaction.py:158
+#: r2/models/modaction.py:160
 msgid "add/edit flair"
 msgstr "परचम जोड़ें / बदलें"
 
-#: r2/models/modaction.py:159
+#: r2/models/modaction.py:161
 msgid "delete flair"
 msgstr "परचम मिटाएँ"
 
-#: r2/models/modaction.py:160
+#: r2/models/modaction.py:162
 msgid "edit by csv"
 msgstr "सीएसवी के आधार पर संपादित करें"
 
-#: r2/models/modaction.py:161
+#: r2/models/modaction.py:163
 msgid "toggle flair enabled"
 msgstr "परचम को सक्रिय करने के लिए टॉगल"
 
-#: r2/models/modaction.py:162
+#: r2/models/modaction.py:164
 msgid "toggle user flair position"
 msgstr "टॉगल प्रयोक्ता परचम स्थान"
 
-#: r2/models/modaction.py:163
+#: r2/models/modaction.py:165
 msgid "toggle link flair position"
 msgstr "टॉगल लिंक परचम स्थान"
 
-#: r2/models/modaction.py:164
+#: r2/models/modaction.py:166
 msgid "toggle user assigned flair enabled"
 msgstr "टॉगल प्रयोक्ता नियत परचम सक्रिय"
 
-#: r2/models/modaction.py:165
+#: r2/models/modaction.py:167
 msgid "toggle submitter assigned link flair enabled"
 msgstr "टॉगल प्रस्तुतकर्ता नियत लिंक परचम सक्रिय"
 
-#: r2/models/modaction.py:166
+#: r2/models/modaction.py:168
 msgid "add/edit flair templates"
 msgstr "परचम के नमूने बनाएँ/बदलें"
 
-#: r2/models/modaction.py:167
+#: r2/models/modaction.py:169
 msgid "delete flair template"
 msgstr "परचम के नमूने मिटाएँ"
 
-#: r2/models/modaction.py:168
+#: r2/models/modaction.py:170
 msgid "clear flair templates"
 msgstr "परचम के नमूने साफ़ करें"
 
-#: r2/models/modaction.py:170 r2/templates/multiinfobar.html:87
+#: r2/models/modaction.py:172 r2/templates/multiinfobar.html:91
 #: r2/templates/prefapps.html:65 r2/templates/printablebuttons.html:43
-#: r2/templates/printablebuttons.html:139 r2/templates/trophycase.html:48
-#: r2/templates/trophycase.html:68 r2/templates/usertableitem.html:55
+#: r2/templates/printablebuttons.html:142 r2/templates/trophycase.html:48
+#: r2/templates/usertableitem.html:55
 msgid "remove"
 msgstr "हटाएँ"
 
-#: r2/models/modaction.py:173
+#: r2/models/modaction.py:175
 msgid "set permissions on moderator"
 msgstr "पंच की अनुमतियाँ तय करें"
 
-#: r2/models/modaction.py:174
+#: r2/models/modaction.py:176
 msgid "set permissions on moderator invitation"
 msgstr ""
 
-#: r2/models/modaction.py:324 r2/models/modaction.py:338
-#: r2/templates/comment.html:66
+#: r2/models/modaction.py:326 r2/models/modaction.py:340
+#: r2/templates/comment.html:68
 msgid "by"
 msgstr "द्वारा"
 
-#: r2/models/modaction.py:340 r2/templates/comment.xml:42
+#: r2/models/modaction.py:342 r2/templates/comment.xml:42
 msgid "on"
+msgstr "पर"
+
+#: r2/models/promo.py:65
+msgid "highest"
 msgstr ""
 
-#: r2/models/subreddit.py:1063
+#: r2/models/promo.py:71
+msgid "standard"
+msgstr ""
+
+#: r2/models/promo.py:78
+msgid "remnant"
+msgstr ""
+
+#: r2/models/promo.py:79
+msgid "lower priority, impressions are not guaranteed"
+msgstr ""
+
+#: r2/models/promo.py:86
+msgid "house"
+msgstr ""
+
+#: r2/models/promo.py:87
+msgid "non-CPM, displays in all unsold impressions"
+msgstr ""
+
+#: r2/models/subreddit.py:1055
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (छना हुआ)"
 
-#: r2/models/subreddit.py:1246
+#: r2/models/subreddit.py:1250
 #, python-format
 msgid "posts from %s"
 msgstr ""
 
-#: r2/models/subreddit.py:1394
+#: r2/models/subreddit.py:1402
 #, python-format
 msgid "%s subreddits curated by /u/%s"
 msgstr ""
 
-#: r2/models/subreddit.py:1572
+#: r2/models/subreddit.py:1606
 msgid "on reddit.com"
 msgstr "reddit.com पर "
 
@@ -4429,39 +4544,39 @@ msgstr "मत"
 msgid "Submit and change my votes on comments and submissions."
 msgstr "प्रस्तुत करें और टिप्पणियों और प्रस्तुतियों पर मेरे मत बदलिए ।"
 
-#: r2/public/static/js/gold.js:152
+#: r2/public/static/js/gold.js:161
 msgid "missing name"
 msgstr "नाम नदारद"
 
-#: r2/public/static/js/gold.js:154
+#: r2/public/static/js/gold.js:163
 msgid "invalid credit card number"
 msgstr "अवैध क्रेडिट कार्ड नंबर"
 
-#: r2/public/static/js/gold.js:156
+#: r2/public/static/js/gold.js:165
 msgid "invalid expiration date"
 msgstr "अवैध समाप्ति तिथि"
 
-#: r2/public/static/js/gold.js:158
+#: r2/public/static/js/gold.js:167
 msgid "invalid cvc"
 msgstr "अवैध सीवीसी"
 
-#: r2/public/static/js/gold.js:160
+#: r2/public/static/js/gold.js:169
 msgid "missing address"
 msgstr "पता नदारद"
 
-#: r2/public/static/js/gold.js:162
+#: r2/public/static/js/gold.js:171
 msgid "missing city"
 msgstr "शहर नदारद"
 
-#: r2/public/static/js/gold.js:164
+#: r2/public/static/js/gold.js:173
 msgid "missing state or province"
 msgstr "राज्य या प्रांत नदारद"
 
-#: r2/public/static/js/gold.js:166
+#: r2/public/static/js/gold.js:175
 msgid "missing country"
 msgstr "देश नदारद"
 
-#: r2/public/static/js/gold.js:168
+#: r2/public/static/js/gold.js:177
 msgid "missing zip code"
 msgstr "पिन कोड नदारद"
 
@@ -4470,27 +4585,27 @@ msgstr "पिन कोड नदारद"
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "गड़बड़ हो गई । कुछ देर बाद पुन: प्रयास करें ! (स्थिति: %(status)s)"
 
-#: r2/public/static/js/login.js:198
+#: r2/public/static/js/login.js:192
 msgid "try using our secure login form."
 msgstr "हमारे सुरक्षित प्रवेश प्रपत्र का उपयोग का प्रयास करें ।"
 
-#: r2/public/static/js/multi.js:483
+#: r2/public/static/js/multi.js:484
 msgid "awesomeness goes here"
 msgstr ""
 
-#: r2/public/static/js/multi.js:484
+#: r2/public/static/js/multi.js:485
 msgid "add a subreddit to your multi."
 msgstr ""
 
-#: r2/public/static/js/multi.js:530
+#: r2/public/static/js/multi.js:539
 msgid "categorize"
 msgstr ""
 
-#: r2/public/static/js/multi.js:546
+#: r2/public/static/js/multi.js:555
 msgid "open this multi"
 msgstr ""
 
-#: r2/public/static/js/multi.js:550
+#: r2/public/static/js/multi.js:559
 msgid "create a new multi"
 msgstr ""
 
@@ -4498,12 +4613,19 @@ msgstr ""
 msgid "please wait a few seconds and try again."
 msgstr "कुछ क्षण प्रतीक्षा करें और पुन: प्रयास करें ।"
 
-#: r2/public/static/js/reddit.js:111 r2/public/static/js/ui.js:154
+#: r2/public/static/js/reddit.js:111 r2/public/static/js/ui.js:158
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "गड़बड़ हो गई (स्थिति: %(status)s)"
 
-#: r2/public/static/js/sponsored.js:133
+#: r2/public/static/js/sponsored.js:191
+#, python-format
+msgid ""
+"We expect to only have %(available)s impressions on %(target)s from "
+"%(start)s to %(end)s. We may not fully deliver."
+msgstr ""
+
+#: r2/public/static/js/sponsored.js:203
 #, python-format
 msgid ""
 "We have insufficient inventory to fulfill your requested budget, target, and"
@@ -4511,16 +4633,16 @@ msgid ""
 "%(start)s to %(end)s. Maximum budget is $%(max)s."
 msgstr ""
 
-#: r2/public/static/js/sponsored.js:150
+#: r2/public/static/js/sponsored.js:221
 #, python-format
 msgid "%(num)s available (maximum budget is $%(max)s)"
 msgstr ""
 
-#: r2/public/static/js/sponsored.js:201
+#: r2/public/static/js/sponsored.js:283
 msgid "days"
 msgstr ""
 
-#: r2/public/static/js/sponsored.js:202
+#: r2/public/static/js/sponsored.js:284
 #, python-format
 msgid "$%(cpm)s per 1,000 impressions"
 msgstr ""
@@ -4530,32 +4652,35 @@ msgid "view subreddit traffic"
 msgstr "सबरेडिट यातायात देखें"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
-#: r2/templates/promote_graph.html:82 r2/templates/promotereport.html:67
+#: r2/templates/promotereport.html:67
 msgid "go"
 msgstr "जाएँ"
 
-#: r2/public/static/js/ui.js:400 r2/public/static/js/ui.js:450
+#: r2/public/static/js/ui.js:420 r2/public/static/js/ui.js:470
 msgid "full permissions"
 msgstr "पूर्ण अनुमतियाँ"
 
-#: r2/public/static/js/ui.js:499
+#: r2/public/static/js/ui.js:519
 msgid "no permissions"
 msgstr "कोई अनुमति नही"
 
-#: r2/public/static/js/ui.js:595 r2/templates/printablebuttons.html:407
-#: r2/templates/printablebuttons.html:425
+#: r2/public/static/js/ui.js:615 r2/templates/goldsubscription.html:47
+#: r2/templates/printablebuttons.html:404
+#: r2/templates/printablebuttons.html:422
 msgid "are you sure?"
 msgstr "पक्का?"
 
-#: r2/public/static/js/ui.js:596 r2/templates/optout.html:37
-#: r2/templates/optout.html:53 r2/templates/printablebuttons.html:409
-#: r2/templates/printablebuttons.html:443
+#: r2/public/static/js/ui.js:616 r2/templates/goldsubscription.html:50
+#: r2/templates/optout.html:37 r2/templates/optout.html:53
+#: r2/templates/printablebuttons.html:406
+#: r2/templates/printablebuttons.html:440
 msgid "yes"
 msgstr "हाँ"
 
-#: r2/public/static/js/ui.js:597 r2/templates/optout.html:40
-#: r2/templates/optout.html:56 r2/templates/printablebuttons.html:411
-#: r2/templates/printablebuttons.html:446
+#: r2/public/static/js/ui.js:617 r2/templates/goldsubscription.html:53
+#: r2/templates/optout.html:40 r2/templates/optout.html:56
+#: r2/templates/printablebuttons.html:408
+#: r2/templates/printablebuttons.html:443
 msgid "no"
 msgstr "नहीं"
 
@@ -4612,8 +4737,9 @@ msgstr "दर सीमा निष्क्रिय"
 msgid "timings"
 msgstr "समय"
 
-#: r2/templates/adminbar.html:61 r2/templates/frametoolbar.html:211
-#: r2/templates/frametoolbar.html:212 r2/templates/printablebuttons.html:198
+#: r2/templates/adminbar.html:61 r2/templates/exploreitem.html:43
+#: r2/templates/frametoolbar.html:211 r2/templates/frametoolbar.html:212
+#: r2/templates/printablebuttons.html:201
 msgid "hide"
 msgstr "छुपाएँ"
 
@@ -4831,36 +4957,36 @@ msgstr "मनुष्य?"
 msgid "clear"
 msgstr "साफ़ "
 
-#: r2/templates/comment.html:69
+#: r2/templates/comment.html:71
 msgid "in"
 msgstr "में"
 
-#: r2/templates/comment.html:100
+#: r2/templates/comment.html:102
 msgid "deleted comment from"
 msgstr "से मिटाया गया कमेंट"
 
-#: r2/templates/comment.html:114
+#: r2/templates/comment.html:116
 #, python-format
 msgid "this subreddit hides comment scores for %d minutes"
 msgstr "यह सबरेडिट %d मिनट तक टिप्पणी अंक छुपाती है"
 
-#: r2/templates/comment.html:115 r2/templates/comment.htmllite:56
+#: r2/templates/comment.html:117 r2/templates/comment.htmllite:56
 msgid "score hidden"
 msgstr "अंक छुपाए हुए"
 
-#: r2/templates/comment.html:121 r2/templates/comment.htmllite:46
+#: r2/templates/comment.html:123 r2/templates/comment.htmllite:46
 #: r2/templates/commentvisitsbox.html:32 r2/templates/useriphistory.html:52
-#: r2/templates/utils.html:585
+#: r2/templates/utils.html:586
 msgid "ago"
 msgstr "पहले"
 
-#: r2/templates/comment.html:137
+#: r2/templates/comment.html:141
 msgid "child"
 msgid_plural "children"
 msgstr[0] "बच्चा"
 msgstr[1] "बच्चे "
 
-#: r2/templates/comment.html:147
+#: r2/templates/comment.html:151
 msgid "show replies"
 msgstr "उत्तर दिखाएँ"
 
@@ -4889,13 +5015,19 @@ msgstr "# /u/%s के लिए पुरूस्कार लें ? #"
 msgid "Yes, please!"
 msgstr "जी हाँ !"
 
+#: r2/templates/contactus.html:75
+msgid ""
+"\"In 5-billion years the Sun will expand and engulf our orbit as the charred"
+" ember that was once Earth vaporizes. Have a nice day.\""
+msgstr ""
+
 #: r2/templates/createsubreddit.html:43
 msgid "no spaces, e.g., slashdot"
 msgstr "कोई रिक्त स्थान नहीं, जैसे, slashdot"
 
-#: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:164
-#: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:118
-#: r2/templates/prefapps.html:305
+#: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:120
+#: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:114
+#: r2/templates/prefapps.html:301
 msgid "name"
 msgstr "नाम"
 
@@ -4911,208 +5043,216 @@ msgstr "अपनी सबरेडिट का सार्वजनिक �
 msgid "shown in the sidebar of your subreddit. 5120 characters max."
 msgstr "आपके सबरेडिट की साइडबार में दिखाया जाएगा । अधिकतम 5120 अक्षर ।"
 
-#: r2/templates/createsubreddit.html:120 r2/templates/multiinfobar.html:40
+#: r2/templates/createsubreddit.html:96
+msgid "text to show on submission page. 1024 characters max."
+msgstr ""
+
+#: r2/templates/createsubreddit.html:96
+msgid "submission text"
+msgstr ""
+
+#: r2/templates/createsubreddit.html:136 r2/templates/multiinfobar.html:40
 msgid "public"
 msgstr "सार्वजनिक"
 
-#: r2/templates/createsubreddit.html:121
+#: r2/templates/createsubreddit.html:137
 msgid "anyone can view and submit"
 msgstr "कोई भी देख सकता और प्रस्तुत कर सकता है"
 
-#: r2/templates/createsubreddit.html:123
+#: r2/templates/createsubreddit.html:139
 msgid "restricted"
 msgstr "प्रतिबंधित"
 
-#: r2/templates/createsubreddit.html:124
+#: r2/templates/createsubreddit.html:140
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "देख और पढ़ सब सकते हैं किन्तु लिंक प्रस्तुत करने/जमा करनी की मंजूरी कुछ ही के पास है "
 
-#: r2/templates/createsubreddit.html:126 r2/templates/multiinfobar.html:39
+#: r2/templates/createsubreddit.html:142 r2/templates/multiinfobar.html:39
 #: r2/templates/subreddit.html:83
 msgid "private"
 msgstr "निजी"
 
-#: r2/templates/createsubreddit.html:127
+#: r2/templates/createsubreddit.html:143
 msgid "only approved members can view and submit"
 msgstr "केवल अनुमोदित सदस्य ही देख सकते और प्रस्तुत कर सकते हैं "
 
-#: r2/templates/createsubreddit.html:132
+#: r2/templates/createsubreddit.html:148
 msgid "archived"
 msgstr "पूरालेखित"
 
-#: r2/templates/createsubreddit.html:133
+#: r2/templates/createsubreddit.html:149
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:139
+#: r2/templates/createsubreddit.html:155
 msgid "gold restricted"
 msgstr "गोल्ड प्रतिबंधित"
 
-#: r2/templates/createsubreddit.html:140
+#: r2/templates/createsubreddit.html:156
 msgid "anyone can view, but only reddit gold members can submit or comment"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:148 r2/templates/prefoptions.html:252
+#: r2/templates/createsubreddit.html:164 r2/templates/prefoptions.html:252
 msgid "content options"
 msgstr "रचना विकल्प"
 
-#: r2/templates/createsubreddit.html:151
+#: r2/templates/createsubreddit.html:167
 msgid "any"
 msgstr "कोई भी"
 
-#: r2/templates/createsubreddit.html:152
+#: r2/templates/createsubreddit.html:168
 msgid "any link type is allowed"
 msgstr "किसी भी प्रकार के लिंक की अनुमति है "
 
-#: r2/templates/createsubreddit.html:154
+#: r2/templates/createsubreddit.html:170
 msgid "links only"
 msgstr "केवल लिंक्स"
 
-#: r2/templates/createsubreddit.html:155
+#: r2/templates/createsubreddit.html:171
 msgid "only links to external sites are allowed"
 msgstr "केवल बाहरी साइटों के लिंक्स की अनुमति दी जाती है"
 
-#: r2/templates/createsubreddit.html:157
+#: r2/templates/createsubreddit.html:173
 msgid "text posts only"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:158
+#: r2/templates/createsubreddit.html:174
 msgid "only text/self posts are allowed"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:165
+#: r2/templates/createsubreddit.html:181
 msgid "Custom label for submit link button (blank for default):"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:173
+#: r2/templates/createsubreddit.html:189
 msgid "Custom label for submit text post button (blank for default):"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:185
+#: r2/templates/createsubreddit.html:201
 msgid "disabled"
 msgstr "निष्क्रिय"
 
-#: r2/templates/createsubreddit.html:186
+#: r2/templates/createsubreddit.html:202
 msgid "Wiki is disabled for all users except mods"
 msgstr "विकी पंचो के अलावा हर प्रयोक्ता के लिए निष्क्रिय है"
 
-#: r2/templates/createsubreddit.html:188
+#: r2/templates/createsubreddit.html:204
 msgid "mod editing"
 msgstr "पंच संपादन"
 
-#: r2/templates/createsubreddit.html:189
+#: r2/templates/createsubreddit.html:205
 msgid ""
 "Only mods, approved wiki contributors, or those on a page's edit list may "
 "edit"
 msgstr "सिर्फ पंच, अनुमोदित विकी योगदानकर्ता या वो लोग जो पृष्ठ की संपादन सूची में शामिल है संपादित कर सकते हैं"
 
-#: r2/templates/createsubreddit.html:191
+#: r2/templates/createsubreddit.html:207
 msgid "anyone"
 msgstr "कोई भी"
 
-#: r2/templates/createsubreddit.html:192
+#: r2/templates/createsubreddit.html:208
 msgid "Anyone who can submit to the subreddit may edit"
 msgstr "जो भी सबरेडिट में प्रस्तुत कर सकता है वो संपादन कर सकता है"
 
-#: r2/templates/createsubreddit.html:199
+#: r2/templates/createsubreddit.html:215
 msgid "Subreddit karma required to edit and create wiki pages:"
 msgstr "विकी पृष्ठों को संपादित करने और बनाने के लिए आवश्यक सबरेडिट कर्म:"
 
-#: r2/templates/createsubreddit.html:209
+#: r2/templates/createsubreddit.html:225
 msgid "Account age (days) required to edit and create wiki pages:"
 msgstr "विकी पृष्ठों को संपादित करने और बनाने के लिए आवश्यक खाता उम्र (दिन में):"
 
-#: r2/templates/createsubreddit.html:221
+#: r2/templates/createsubreddit.html:237
 msgid "spam filter strength"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:223
+#: r2/templates/createsubreddit.html:239
 msgid ""
 "high is the standard filter, low disables most filtering, all will filter "
 "every post initially and they will need to be approved manually to be "
 "visible."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:228 r2/templates/createsubreddit.html:239
-#: r2/templates/createsubreddit.html:250
+#: r2/templates/createsubreddit.html:244 r2/templates/createsubreddit.html:255
+#: r2/templates/createsubreddit.html:266
 msgid "low"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:230 r2/templates/createsubreddit.html:241
-#: r2/templates/createsubreddit.html:252
+#: r2/templates/createsubreddit.html:246 r2/templates/createsubreddit.html:257
+#: r2/templates/createsubreddit.html:268
 msgid "high"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:237
+#: r2/templates/createsubreddit.html:253
 msgid "self posts"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:262
+#: r2/templates/createsubreddit.html:278
 msgid "other options"
 msgstr "अन्य विकल्प"
 
-#: r2/templates/createsubreddit.html:273
+#: r2/templates/createsubreddit.html:289
 msgid "viewers must be over eighteen years old"
 msgstr "दर्शकों की उमर अठारह वर्ष  से अधिक होनी चाहिए"
 
-#: r2/templates/createsubreddit.html:284
+#: r2/templates/createsubreddit.html:300
 msgid "allow this subreddit to be shown in the default set"
 msgstr "इस सबरेडिट को डिफ़ॉल्ट सेट में दिखाएँ"
 
-#: r2/templates/createsubreddit.html:295
+#: r2/templates/createsubreddit.html:311
 msgid "show thumbnail images of content"
 msgstr "रचना की थंबनेल छवियाँ दिखाएँ"
 
-#: r2/templates/createsubreddit.html:306
+#: r2/templates/createsubreddit.html:322
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:314
+#: r2/templates/createsubreddit.html:330
 msgid "make the traffic stats page available to everyone"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:321
+#: r2/templates/createsubreddit.html:337
 msgid "Minutes to hide comment scores:"
 msgstr "कितने मिनट तक टिप्पणी अंक छुपाने हैं: "
 
-#: r2/templates/createsubreddit.html:344
+#: r2/templates/createsubreddit.html:360
 msgid "make custom CSS styles apply only when accessed from the cname."
 msgstr "तयशुदा सीएसएस विन्यास तभी मान्य होगा जब सीनेम के द्वारा खोला जाएगा ।"
 
-#: r2/templates/createsubreddit.html:354
+#: r2/templates/createsubreddit.html:370
 msgid "show sidebar when accessed from the cname."
 msgstr "सीनेम से खोले जाने पर साइडबार प्रदर्शित करें "
 
-#: r2/templates/createsubreddit.html:366 r2/templates/usertext.html:145
+#: r2/templates/createsubreddit.html:382 r2/templates/usertext.html:146
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "मदद छुपाएँ "
 
-#: r2/templates/createsubreddit.html:370
+#: r2/templates/createsubreddit.html:386
 msgid ""
 "Own a domain?  Enter it here and then go to your DNS provider and add a "
 "CNAME record aliasing your domain to rhs.reddit.com. You will be able to "
 "access your reddit through your domain."
 msgstr "क्या आपके पास कोई डोमेन है? उसे यहाँ प्रविष्ट करें, \"डीएनएस\" प्रदानकर्ता के पास अपने डोमेन को rhs.reddit.com के रूप में उपनामित करते हुए \"सीनेम\" दर्ज कराएँ"
 
-#: r2/templates/createsubreddit.html:378 r2/templates/promotelinkform.html:162
+#: r2/templates/createsubreddit.html:394 r2/templates/promotelinkform.html:196
 msgid "look and feel"
 msgstr "हाव-भाव "
 
-#: r2/templates/createsubreddit.html:381
+#: r2/templates/createsubreddit.html:397
 msgid "edit the stylesheet"
 msgstr "स्टाइलशीट संपादित करें"
 
-#: r2/templates/createsubreddit.html:385
+#: r2/templates/createsubreddit.html:401
 msgid "leaves this page"
 msgstr "इस पृष्ठ को छोड़ देगा"
 
-#: r2/templates/createsubreddit.html:404
+#: r2/templates/createsubreddit.html:420
 msgid "restore default header"
 msgstr "डिफ़ॉल्ट हेडर बहाल करें"
 
-#: r2/templates/createsubreddit.html:427 r2/templates/flairpane.html:88
-#: r2/templates/prefoptions.html:331 r2/templates/promotelinkform.html:105
+#: r2/templates/createsubreddit.html:443 r2/templates/flairpane.html:88
+#: r2/templates/prefoptions.html:334 r2/templates/promotelinkform.html:117
 msgid "save options"
 msgstr "विकल्प सहेजें"
 
@@ -5120,6 +5260,39 @@ msgstr "विकल्प सहेजें"
 #, python-format
 msgid "a message from the moderators of /r/%s"
 msgstr "/r/%s के पंचो से संदेश"
+
+#: r2/templates/exploreitem.html:42
+msgid "not interested"
+msgstr ""
+
+#: r2/templates/exploreitem.html:54
+msgid "more comments"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:32
+msgid "Our robots thought you might like..."
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:34
+msgid "feedback/suggestions"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:42 r2/templates/listing.html:39
+#: r2/templates/promotedlinktraffic.html:84 r2/templates/tablelisting.html:49
+msgid "view more:"
+msgstr "और देखें:"
+
+#: r2/templates/exploreitemlisting.html:43
+msgid "reload suggestions"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:49
+msgid "Our robots have no suggestions at the moment."
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:54
+msgid "try again"
+msgstr ""
 
 #: r2/templates/feedback.html:46 r2/templates/sharelink.html:59
 msgid "your name"
@@ -5136,10 +5309,6 @@ msgstr "ईमेल"
 #: r2/templates/feedback.html:70 r2/templates/messagecompose.html:146
 msgid "send"
 msgstr "भेजें"
-
-#: r2/templates/feedbackblurb.html:70
-msgid "send reddit feedback"
-msgstr "अपनी रेडिट प्रतिक्रिया भेजें"
 
 #: r2/templates/flairlist.html:26
 msgid "jump to user (or add):"
@@ -5163,25 +5332,25 @@ msgstr "सीएसएस क्लास"
 
 #: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:52
 #: r2/templates/frametoolbar.html:201
-#: r2/templates/moderatorpermissions.html:52 r2/templates/prefupdate.html:98
-#: r2/templates/printablebuttons.html:189
-#: r2/templates/printablebuttons.html:191
-#: r2/templates/printablebuttons.html:263
+#: r2/templates/moderatorpermissions.html:52 r2/templates/prefupdate.html:99
+#: r2/templates/printablebuttons.html:192
+#: r2/templates/printablebuttons.html:194
 #: r2/templates/printablebuttons.html:267
-#: r2/templates/promotelinkform.html:413
-#: r2/templates/subredditstylesheet.html:87
+#: r2/templates/printablebuttons.html:271
+#: r2/templates/promotelinkform.html:478
+#: r2/templates/subredditstylesheet.html:71
 msgid "save"
 msgstr "सहेजें"
 
-#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:40
+#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:41
 #: r2/templates/promotedlinktraffic.html:86
-#: r2/templates/spotlightlisting.html:47 r2/templates/tablelisting.html:53
+#: r2/templates/spotlightlisting.html:54 r2/templates/tablelisting.html:53
 msgid "prev"
 msgstr "पिछला"
 
-#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:46
+#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
 #: r2/templates/promotedlinktraffic.html:92
-#: r2/templates/promotelinknew.html:49 r2/templates/spotlightlisting.html:48
+#: r2/templates/promotelinknew.html:54 r2/templates/spotlightlisting.html:55
 #: r2/templates/tablelisting.html:59
 msgid "next"
 msgstr "अगला"
@@ -5229,10 +5398,6 @@ msgstr "परचम को प्रयोक्ता नाम की दा�
 #: r2/templates/flairpane.html:74
 msgid "link flair position"
 msgstr "लिंक परचम स्थान"
-
-#: r2/templates/flairpane.html:76
-msgid "none"
-msgstr "कुछ भी नहीं"
 
 #: r2/templates/flairpane.html:77
 msgid "don't show link flair"
@@ -5327,10 +5492,10 @@ msgstr "पसंद"
 msgid "dislike"
 msgstr "नापसंद"
 
-#: r2/templates/frametoolbar.html:197 r2/templates/printablebuttons.html:189
-#: r2/templates/printablebuttons.html:191
-#: r2/templates/printablebuttons.html:263
+#: r2/templates/frametoolbar.html:197 r2/templates/printablebuttons.html:192
+#: r2/templates/printablebuttons.html:194
 #: r2/templates/printablebuttons.html:267
+#: r2/templates/printablebuttons.html:271
 msgid "unsave"
 msgstr "मत सहेजें"
 
@@ -5338,11 +5503,11 @@ msgstr "मत सहेजें"
 msgid "unsaved"
 msgstr "नहीं सहेजा हुआ"
 
-#: r2/templates/frametoolbar.html:207 r2/templates/printablebuttons.html:195
+#: r2/templates/frametoolbar.html:207 r2/templates/printablebuttons.html:198
 msgid "unhide"
 msgstr "सामने लाएँ"
 
-#: r2/templates/frametoolbar.html:208 r2/templates/printablebuttons.html:196
+#: r2/templates/frametoolbar.html:208 r2/templates/printablebuttons.html:199
 msgid "unhidden"
 msgstr "सामने लाया गया"
 
@@ -5350,228 +5515,84 @@ msgstr "सामने लाया गया"
 msgid "toggle the comments panel"
 msgstr "टिप्पणी क्षेत्र को टॉगल करें"
 
-#: r2/templates/gold.html:89
+#: r2/templates/gold.html:90
 msgid "Buy for yourself, as an ongoing subscription"
 msgstr "खुद के लिए निरंतर सदस्यता खरीदें"
 
-#: r2/templates/gold.html:91
+#: r2/templates/gold.html:93
 msgid "Buy for yourself, as a one-time purchase"
 msgstr "एक बार की खरीद के रूप में अपने लिए खरीदें"
 
-#: r2/templates/gold.html:93
+#: r2/templates/gold.html:95
 msgid "Give reddit gold to someone else"
 msgstr "किसी और को  रेडिट गोल्ड दीजिए "
 
-#: r2/templates/gold.html:95
+#: r2/templates/gold.html:97
 msgid "Buy reddit gold \"creddits\""
 msgstr "रेडिट \"गोल्ड\" क्रेडिट खरीदें"
 
-#: r2/templates/gold.html:103
+#: r2/templates/gold.html:105
 #, python-format
 msgid "%s / month"
 msgstr "%s / माह"
 
-#: r2/templates/gold.html:104
+#: r2/templates/gold.html:106
 #, python-format
 msgid "%s / year (which works out to just %s / month!)"
 msgstr "%s / साल (जो %s / माह के समान है!)"
 
-#: r2/templates/gold.html:107 r2/templates/subscribebutton.html:27
+#: r2/templates/gold.html:109 r2/templates/subscribebutton.html:27
 msgid "subscribe"
 msgstr "सदस्यता लें"
 
-#: r2/templates/gold.html:113
+#: r2/templates/gold.html:115
 msgid "How many months?"
 msgstr "कितने महीने?"
 
-#: r2/templates/gold.html:115 r2/templates/gold.html:176
+#: r2/templates/gold.html:117 r2/templates/gold.html:178
 msgid "buy"
 msgstr "खरीदें"
 
-#: r2/templates/gold.html:121
+#: r2/templates/gold.html:123
 msgid "How much gold do you wish to bestow?"
 msgstr "कितना गोल्ड आप प्रदान करना चाहेंगे?"
 
-#: r2/templates/gold.html:132
+#: r2/templates/gold.html:134
 #, python-format
 msgid ""
 "Note: If you want to give more than %(number)d, you'll need to buy more "
 "creddits."
 msgstr "ध्यान दें : अगर आप %(number)d से अधिक देना चाहते हैं, तो आपको अधिक क्रेडिट खरीदने होंगे "
 
-#: r2/templates/gold.html:139
+#: r2/templates/gold.html:141
 msgid "To whom are you giving said gold?"
 msgstr "किसे दे रहें हैं आप उक्त गोल्ड?"
 
-#: r2/templates/gold.html:150
+#: r2/templates/gold.html:152
 msgid "Do you want them to know it came from you?"
 msgstr "क्या आप उन्हें बताना चाहेंगे कि यह आप से आया था?"
 
-#: r2/templates/gold.html:152
+#: r2/templates/gold.html:154
 msgid "yes, include my username"
 msgstr "हाँ, मेरा प्रयोक्ता नाम शामिल करें"
 
-#: r2/templates/gold.html:156
+#: r2/templates/gold.html:158
 msgid "no, make it anonymous"
 msgstr "नहीं, अनाम रखें"
 
-#: r2/templates/gold.html:162
+#: r2/templates/gold.html:164
 msgid "Gift message (optional):"
 msgstr "उपहार सन्देश (वैकल्पिक):"
 
-#: r2/templates/gold.html:167 r2/templates/goldpayment.html:93
+#: r2/templates/gold.html:169 r2/templates/goldpayment.html:84
 msgid "give"
 msgstr "दें"
 
-#: r2/templates/gold.html:174
+#: r2/templates/gold.html:176
 msgid ""
 "How many creddits would you like to buy? (each will allow you to give one "
 "month of reddit gold)"
 msgstr "आप कितने क्रेडिट्स खरीदना चाहेंगे? (प्रत्येक आपको एक माह का रेडिट गोल्ड देगा)"
-
-#: r2/templates/goldinfopage.html:46
-msgid "New!"
-msgstr "नया!"
-
-#: r2/templates/goldinfopage.html:71 r2/templates/goldinfopage.html:82
-msgid "buy reddit gold"
-msgstr "रेडिट गोल्ड ख़रीदें "
-
-#: r2/templates/goldinfopage.html:72 r2/templates/goldinfopage.html:176
-msgid "or"
-msgstr "या"
-
-#: r2/templates/goldinfopage.html:73
-msgid "send us a postcard"
-msgstr "हमें एक पोस्टकार्ड भेजें"
-
-#: r2/templates/goldinfopage.html:80
-msgid "become a member today."
-msgstr "आज ही सदस्य बनें"
-
-#: r2/templates/goldinfopage.html:81
-#, python-format
-msgid ""
-"reddit gold is %(gold_month_price)s / month, or %(gold_year_price)s for a "
-"year."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:90
-msgid ""
-"reddit gold is our premium membership program. It comes with extra features to make your experience here better as well as special benefits from gold partners for exceptional products and services.\n"
-"\n"
-"reddit takes no payment from gold partners for being in this program. We ask that they give all the benefits to you, our users. We hope in turn that this helps make gold a program worth subscribing to.\n"
-"\n"
-"If you have questions about any of the benefits, please visit /r/goldbenefits. New benefits and features will also be announced there, and we hope you'll enjoy them."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:99
-msgid "You can make reddit better."
-msgstr "आप रेडिट को बेहतर बना सकते हैं ।"
-
-#: r2/templates/goldinfopage.html:102
-msgid ""
-"# New comment highlighting.\n"
-"What's new? Highlight which comments are new since the last time you viewed a thread."
-msgstr "# नई टिप्पणियों को चिन्हांकित करें ।⏎\nनया क्या है? पिछले दर्शन के बाद जो नई टिप्पणियाँ हैं उन्हे चिन्हांकित करें ।"
-
-#: r2/templates/goldinfopage.html:108
-msgid ""
-"# Notifications when you're mentioned in comments.\n"
-"Want to say \"boo\" when people talk about you?  Get an orangered whenever someone \"/u/\" mentions your username in a comment."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:114
-msgid "Awesome stuff for gold members:"
-msgstr "गोल्ड सदस्यों के लिए बहुत बढ़िया सामान:"
-
-#: r2/templates/goldinfopage.html:134
-msgid ""
-"# Filter specific subreddits from /r/all.\n"
-"Are there subreddits you don't want to see? Customize /r/all by removing them with a url like /r/all-operative-badger (up to ~300 removals - limited by maximum url length)."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:140
-msgid ""
-"# More subreddits and comments per page.\n"
-"Our servers work harder for gold members.  \n"
-"Subscribe to up to 100 subreddits on your front page.  \n"
-"Read comment threads 1500 comments at a time."
-msgstr "# हर पृष्ठ पर और सबरेडिट्स एवं टिप्पणियाँ । ⏎\nगोल्ड सदस्यों के लिए हमारे सर्वर अधिक मेहनत करते हैं । ⏎\nअपने मुखपृष्ठ पर अब 100 सबरेडिट्स की सदस्यता लें । ⏎\nएक बार में 1500 टिप्पणियाँ पढ़ें ।"
-
-#: r2/templates/goldinfopage.html:148
-msgid ""
-"# Save comments and view by subreddit.\n"
-"Save the great comments you'd like to revisit later.  \n"
-"Filter your favorite posts and comments by subreddit."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:155
-msgid ""
-"# Turn off ads.\n"
-"Advertisements are optional to gold members."
-msgstr "# विज्ञापन बंद करें ।\nविज्ञापन गोल्ड सदस्यों के लिए वैकल्पिक हैं ।"
-
-#: r2/templates/goldinfopage.html:161
-msgid ""
-"# Friends with benefits.\n"
-"Add notes to keep track of them all."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:168
-msgid "The Lounge."
-msgstr "प्रतीक्षालय"
-
-#: r2/templates/goldinfopage.html:168
-msgid ""
-"Access to a super-secret members-only community that may or may not exist."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:169
-msgid "Beta test new features."
-msgstr "अपरिष्कृत सुविधाओं को आज़माएँ ।"
-
-#: r2/templates/goldinfopage.html:169
-msgid "We occasionally invite gold members to try out new features first."
-msgstr "हम कभी - कभी गोल्ड सदस्यों को नई सुविधाओं पहले आज़माने के लिए आमंत्रित करते हैं ।"
-
-#: r2/templates/goldinfopage.html:170
-msgid "A trophy on your user page."
-msgstr "आपके प्रयोक्ता पृष्ठ पर एक जयचिह्न ।"
-
-#: r2/templates/goldinfopage.html:170
-msgid "As thanks for supporting reddit gold."
-msgstr "रेडिट गोल्ड का समर्थन करने के लिए एक छोटी सी भेंट"
-
-#: r2/templates/goldinfopage.html:171
-msgid "More to come."
-msgstr "अभी और आएगा ।"
-
-#: r2/templates/goldinfopage.html:171
-msgid ""
-"We have many more ideas for gold features, and will add to this list in the "
-"future."
-msgstr ""
-
-#: r2/templates/goldinfopage.html:187
-msgid "send us a postcard | for | 1 free month | of | reddit gold"
-msgstr ""
-
-#: r2/templates/goldinfopage.html:200
-msgid "view the postcard gallery"
-msgstr ""
-
-#: r2/templates/goldpartnerspage.html:60 r2/templates/goldpartnerspage.html:63
-msgid "claim code"
-msgstr ""
-
-#: r2/templates/goldpartnerspage.html:67
-msgid "visit partner"
-msgstr ""
-
-#: r2/templates/goldpartnerspage.html:75
-msgid "reddit gold partners"
-msgstr "रेडिट गोल्ड भागीदार"
 
 #: r2/templates/goldpayment.html:33
 msgid "close"
@@ -5585,76 +5606,101 @@ msgstr "निम्न नोट उपहार के संग जोड़ा 
 msgid "Please select a payment method."
 msgstr "कृपया कोई भुगतान विधि चुनें"
 
-#: r2/templates/goldpayment.html:80
-msgid ""
-"Note: Google Checkout does not support ongoing subscriptions at this time."
-msgstr "नोट: गूगल चेकआउट इस समय निरंतर सदस्यता प्रदान नहीं करता।"
-
-#: r2/templates/goldpayment.html:123
-msgid "Google Checkout"
-msgstr "गूगल चेकाउट"
-
-#: r2/templates/goldpayment.html:137
+#: r2/templates/goldpayment.html:100
 msgid "PayPal"
 msgstr "पेपाल"
 
-#: r2/templates/goldpayment.html:142
+#: r2/templates/goldpayment.html:105
 msgid "Credit Card"
 msgstr "क्रेडिट कार्ड"
 
-#: r2/templates/goldpayment.html:156
+#: r2/templates/goldpayment.html:116
 msgid ""
 "Stripe is PCI compliant and your credit card information is sent directly to"
 " them."
 msgstr ""
 
-#: r2/templates/goldpayment.html:160
-msgid "amount"
-msgstr "रकम"
-
-#: r2/templates/goldpayment.html:168 r2/templates/paymentform.html:124
+#: r2/templates/goldpayment.html:124 r2/templates/paymentform.html:112
 msgid "card number"
 msgstr "कार्ड नम्बर"
 
-#: r2/templates/goldpayment.html:172
+#: r2/templates/goldpayment.html:128
 msgid "cvc"
 msgstr "सीवीसी"
 
-#: r2/templates/goldpayment.html:176 r2/templates/paymentform.html:125
+#: r2/templates/goldpayment.html:132 r2/templates/paymentform.html:113
 msgid "expiration date"
 msgstr "समाप्ति की तारीख"
 
-#: r2/templates/goldpayment.html:197
+#: r2/templates/goldpayment.html:153
 msgid "address line 1"
 msgstr "पता पंक्ति 1"
 
-#: r2/templates/goldpayment.html:201
+#: r2/templates/goldpayment.html:157
 msgid "address line 2"
 msgstr "पता पंक्ति 2"
 
-#: r2/templates/goldpayment.html:205 r2/templates/paymentform.html:119
+#: r2/templates/goldpayment.html:161 r2/templates/paymentform.html:107
 msgid "city"
 msgstr "शहर"
 
-#: r2/templates/goldpayment.html:209
+#: r2/templates/goldpayment.html:165
 msgid "state/province"
 msgstr "राज्य/प्रांत"
 
-#: r2/templates/goldpayment.html:213 r2/templates/paymentform.html:122
+#: r2/templates/goldpayment.html:169 r2/templates/paymentform.html:110
+#: r2/templates/promotelinkform.html:344
 msgid "country"
 msgstr "देश"
 
-#: r2/templates/goldpayment.html:217 r2/templates/paymentform.html:121
+#: r2/templates/goldpayment.html:173 r2/templates/paymentform.html:109
 msgid "zip"
 msgstr "पिन"
 
-#: r2/templates/goldpayment.html:226
+#: r2/templates/goldpayment.html:179
 msgid "Submit"
 msgstr "जमा करें"
 
-#: r2/templates/goldpayment.html:237
+#: r2/templates/goldpayment.html:191
+msgid "amount"
+msgstr "रकम"
+
+#: r2/templates/goldpayment.html:196
+msgid "renewal interval"
+msgstr ""
+
+#: r2/templates/goldpayment.html:218
 msgid "Bitcoin"
 msgstr "बिटकॉइन"
+
+#: r2/templates/goldsubscription.html:27
+msgid "your account doesn't have a gold subscription."
+msgstr ""
+
+#: r2/templates/goldsubscription.html:37
+msgid "use different card"
+msgstr ""
+
+#: r2/templates/goldsubscription.html:41
+msgid "cancel subscription"
+msgstr ""
+
+#: r2/templates/goldsubscription.html:71
+#, python-format
+msgid "you have a paypal gold subscription. go to %(paypal)s to manage it."
+msgstr ""
+
+#: r2/templates/goldvertisement.html:33
+msgid "daily reddit gold goal"
+msgstr ""
+
+#: r2/templates/goldvertisement.html:42
+msgid "help support reddit"
+msgstr ""
+
+#: r2/templates/goldvertisement.html:68
+msgid "Yesterday's reddit gold goal"
+msgstr ""
 
 #: r2/templates/interestbar.html:27
 #, python-format
@@ -5684,11 +5730,11 @@ msgstr "भाषा यातायात आँकड़े"
 msgid "traffic by language"
 msgstr "भाषा के आधार पर यातायात"
 
-#: r2/templates/link.html:70
+#: r2/templates/link.html:73
 msgid "Adult content: Not Safe For Work"
 msgstr "वयस्क रचना: कार्यालय के लिए सुरक्षित नहीं"
 
-#: r2/templates/link.html:71
+#: r2/templates/link.html:74
 msgid "NSFW"
 msgstr "वयस्क"
 
@@ -5736,15 +5782,15 @@ msgstr "इसे प्रस्तुत किया गया"
 
 #: r2/templates/linkinfobar.html:50
 msgid "like it"
-msgstr "पसंद करें"
+msgstr "पसंद करेते हैं"
 
-#: r2/templates/linkinfobar.html:55 r2/templates/printable.html:172
+#: r2/templates/linkinfobar.html:55 r2/templates/printable.html:183
 msgid "upvote"
 msgid_plural "upvotes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: r2/templates/linkinfobar.html:61 r2/templates/printable.html:174
+#: r2/templates/linkinfobar.html:61 r2/templates/printable.html:185
 msgid "downvote"
 msgid_plural "downvotes"
 msgstr[0] ""
@@ -5755,12 +5801,7 @@ msgstr[1] ""
 msgid "comments from %(site)s"
 msgstr "%(site)s से टिप्पणियाँ"
 
-#: r2/templates/listing.html:38 r2/templates/promotedlinktraffic.html:84
-#: r2/templates/tablelisting.html:49
-msgid "view more:"
-msgstr "और देखें:"
-
-#: r2/templates/listing.html:51 r2/templates/tablelisting.html:64
+#: r2/templates/listing.html:56 r2/templates/tablelisting.html:64
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatelisting.html:43
 msgid "there doesn't seem to be anything here"
 msgstr "यहाँ तो कुछ भी नही है"
@@ -5779,6 +5820,19 @@ msgstr ""
 
 #: r2/templates/listingchooser.html:53
 msgid "to hide these samples, create a multi of your own:"
+msgstr ""
+
+#: r2/templates/listingsuggestions.html:29
+msgid "or try a multi:"
+msgstr ""
+
+#: r2/templates/listingsuggestions.html:35
+#, python-format
+msgid "or try a %(random_subreddit)s"
+msgstr ""
+
+#: r2/templates/listingsuggestions.html:36
+msgid "random subreddit"
 msgstr ""
 
 #: r2/templates/login.html:34 r2/templates/register.html:34
@@ -5892,7 +5946,7 @@ msgstr "आाप अब पंच नही रहे"
 msgid "stop being a moderator?"
 msgstr "पंच नहीं रहना चाहते? "
 
-#: r2/templates/modlist.html:44 r2/templates/printablebuttons.html:233
+#: r2/templates/modlist.html:44 r2/templates/printablebuttons.html:236
 msgid "accept"
 msgstr "स्वीकार करें"
 
@@ -5971,108 +6025,114 @@ msgstr ""
 msgid "edit description"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:82
+#: r2/templates/multiinfobar.html:86
 #, python-format
 msgid "%(count)s subreddits in this multi:"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:94
+#: r2/templates/multiinfobar.html:98
 msgid "add subreddit"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:94 r2/templates/userlist.html:58
-#: r2/templates/wikipagesettings.html:59
+#: r2/templates/multiinfobar.html:98 r2/templates/userlist.html:58
+#: r2/templates/wikipagesettings.html:67
 msgid "add"
 msgstr "जोड़ें"
 
-#: r2/templates/multiinfobar.html:101 r2/templates/subredditinfobar.html:74
+#: r2/templates/multiinfobar.html:105 r2/templates/subredditinfobar.html:74
 #, python-format
 msgid "created by&#32;%(user)s"
 msgstr "&#32;%(user)s के द्वारा बनाई गई"
 
-#: r2/templates/multiinfobar.html:105
+#: r2/templates/multiinfobar.html:109
 msgid "a multireddit for"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:114
+#: r2/templates/multiinfobar.html:118
 msgid "people also added:"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:118
+#: r2/templates/multiinfobar.html:122
 msgid "more suggestions"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:122
+#: r2/templates/multiinfobar.html:126
 msgid "no more suggestions!"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:123
+#: r2/templates/multiinfobar.html:127
 msgid "would you like to..."
 msgstr ""
 
-#: r2/templates/multiinfobar.html:127
+#: r2/templates/multiinfobar.html:131
 msgid "check out subreddits by category"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:132
+#: r2/templates/multiinfobar.html:136
 msgid "explore a random subreddit"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:137
+#: r2/templates/multiinfobar.html:141
 msgid "see the suggestions again"
 msgstr ""
 
-#: r2/templates/newlink.html:36
+#: r2/templates/newlink.html:37
 msgid "reddit"
 msgstr "रेडिट"
 
-#: r2/templates/newlink.html:38
+#: r2/templates/newlink.html:40
 #, python-format
 msgid "submit to %(sr)s"
 msgstr "%(sr)s पर प्रस्तुत करें"
 
-#: r2/templates/newlink.html:82
+#: r2/templates/newlink.html:84
 msgid "suggest title"
 msgstr "शीर्षक सुझाएँ"
 
-#: r2/templates/newlink.html:90 r2/templates/paymentform.html:117
-#: r2/templates/paymentform.html:123 r2/templates/sharelink.html:62
+#: r2/templates/newlink.html:92 r2/templates/paymentform.html:105
+#: r2/templates/paymentform.html:111 r2/templates/sharelink.html:62
 #: r2/templates/sharelink.html:80 r2/templates/sharelink.html:98
 msgid "(optional)"
 msgstr "(वैकल्पिक)"
 
-#: r2/templates/newlink.html:90
+#: r2/templates/newlink.html:92 r2/templates/promotelinkform.html:153
+#: r2/templates/promotelinkform.html:189
 msgid "text"
 msgstr "पाठ"
 
-#: r2/templates/newlink.html:101
+#: r2/templates/newlink.html:103
 msgid "choose a subreddit"
 msgstr "कोई उपरेडिट चुनें"
 
-#: r2/templates/newlink.html:111
+#: r2/templates/newlink.html:110
+#, python-format
+msgid "submitting to %(sr)s"
+msgstr ""
+
+#: r2/templates/newlink.html:124
 msgid "send replies to my inbox"
 msgstr "उत्तर मेरे इनबॉक्स में भेजें"
 
-#: r2/templates/newlink.html:113
+#: r2/templates/newlink.html:126
 msgid "beta"
 msgstr "अपरिष्कृत"
 
-#: r2/templates/newlink.html:122
+#: r2/templates/newlink.html:135
 msgid "why a brick? read to the bottom of the rules page to find out!"
 msgstr "ईंट किसलिए ? पता लगाने के लिए नियम पृष्ठ के नीचे पढ़ें !"
 
-#: r2/templates/newlink.html:123
+#: r2/templates/newlink.html:136
 #, python-format
 msgid ""
 "please be mindful of reddit's %(few_rules)s and practice "
 "%(good_reddiquette)s."
 msgstr "रेडिट के %(few_rules)s को ध्यान में रखें और %(good_reddiquette)s का अभ्यास करें"
 
-#: r2/templates/newlink.html:125
+#: r2/templates/newlink.html:138
 msgid "few rules"
 msgstr "कुछ नियम"
 
-#: r2/templates/newlink.html:129
+#: r2/templates/newlink.html:142
 msgid "good reddiquette"
 msgstr "रेडिट शिष्टता"
 
@@ -6081,21 +6141,21 @@ msgstr "रेडिट शिष्टता"
 msgid "%(app)s requests to connect with your reddit account."
 msgstr ""
 
-#: r2/templates/oauth2authorization.html:49
+#: r2/templates/oauth2authorization.html:50
 #, python-format
 msgid "Allow %(app)s to:"
 msgstr "%(app)s को अनुमती दें: "
 
-#: r2/templates/oauth2authorization.html:53
+#: r2/templates/oauth2authorization.html:55
 #, python-format
 msgid "%(app)s will not be able to access your reddit password."
 msgstr "%(app)s आपके गुप्त शब्द का उपयोग करने में सक्षम नहीं होंगी ।"
 
-#: r2/templates/oauth2authorization.html:65
+#: r2/templates/oauth2authorization.html:67
 msgid "Allow"
 msgstr "अनुमति दें"
 
-#: r2/templates/oauth2authorization.html:67
+#: r2/templates/oauth2authorization.html:69
 msgid "Decline"
 msgstr "अनुमति ना दें"
 
@@ -6127,12 +6187,20 @@ msgid "Allow '%(email)s' to receive email from us?"
 msgstr "'%(email)s' को हमसे ईमेल मिलने कि अनुमति दें ?"
 
 #: r2/templates/over18.html:27
-msgid "you must be at least eighteen to view this subreddit"
-msgstr "इस सबरेडिट को देखने के लिए आपका बालिग हिना अनिवार्य है"
+msgid "you must be at least eighteen to view this"
+msgstr ""
 
 #: r2/templates/over18.html:35
 msgid "are you over eighteen and willing to see adult content?"
 msgstr "क्या आप १८ साल से बड़े और वयस्क विषय वस्तु देखने के इच्छुक हैं ?"
+
+#: r2/templates/pagenamenav.html:48
+msgid ""
+"This is an [internationalized domain "
+"name](http://en.wikipedia.org/wiki/Internationalized_domain_name).  We've "
+"modified how it is displayed [for security "
+"reasons](http://en.wikipedia.org/wiki/IDN_homograph_attack)."
+msgstr ""
 
 #: r2/templates/password.html:29
 msgid "what's my password?"
@@ -6167,80 +6235,85 @@ msgstr "एक बारी का गुप्त शब्द"
 msgid "remember this computer"
 msgstr "इस कम्पयूटर को याद रखें "
 
-#: r2/templates/paymentform.html:33
+#: r2/templates/paymentform.html:26
 msgid "set up payment for this link"
 msgstr "इस लिंक के लिए भुगतान की तैयारी करें"
 
-#: r2/templates/paymentform.html:45
+#: r2/templates/paymentform.html:31
+#, python-format
+msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
+msgstr ""
+
+#: r2/templates/paymentform.html:36
 #, python-format
 msgid "Your current budget is %(budget)s"
 msgstr ""
 
-#: r2/templates/paymentform.html:50
+#: r2/templates/paymentform.html:41
 msgid "Please pick your credit card:"
 msgstr "अपना क्रेडिट कार्ड चुनें:"
 
-#: r2/templates/paymentform.html:52
+#: r2/templates/paymentform.html:43
 msgid "select..."
 msgstr "चुनें..."
 
-#: r2/templates/paymentform.html:59
+#: r2/templates/paymentform.html:50
 #, python-format
 msgid "profile limit (%d) reached"
 msgstr "रूपरेखा सीमा ( %d ) पर पहुँच गए"
 
-#: r2/templates/paymentform.html:61
+#: r2/templates/paymentform.html:52
 msgid "create a new one..."
 msgstr "नया बनाएँ..."
 
-#: r2/templates/paymentform.html:67
+#: r2/templates/paymentform.html:58
 msgid "please create a new payment profile"
 msgstr "एक नयी भुगतान रूपरेखा बनाएँ"
 
-#: r2/templates/paymentform.html:71
+#: r2/templates/paymentform.html:62
 msgid ""
 "NOTE: your card will not be charged until the campaign has been queued for "
 "promotion."
 msgstr ""
 
-#: r2/templates/paymentform.html:115
+#: r2/templates/paymentform.html:103
 #: ../../reddit-plugin-meatspace/reddit_meatspace/templates/qrcodebadge.html:12
 msgid "first name"
 msgstr "प्रथम नाम"
 
-#: r2/templates/paymentform.html:116
+#: r2/templates/paymentform.html:104
 msgid "last name"
 msgstr "कुलनाम"
 
-#: r2/templates/paymentform.html:117
+#: r2/templates/paymentform.html:105
 msgid "company"
 msgstr "कम्पनी"
 
-#: r2/templates/paymentform.html:118
+#: r2/templates/paymentform.html:106
 msgid "address"
 msgstr "पता"
 
-#: r2/templates/paymentform.html:120
+#: r2/templates/paymentform.html:108
 msgid "state"
 msgstr "राज्य"
 
-#: r2/templates/paymentform.html:123
+#: r2/templates/paymentform.html:111
 msgid "phone"
 msgstr "फ़ोन"
 
-#: r2/templates/paymentform.html:124
+#: r2/templates/paymentform.html:112
 msgid "(14-17 digits)"
 msgstr "(14-17 अंक)"
 
-#: r2/templates/paymentform.html:126
+#: r2/templates/paymentform.html:114
 msgid "CCV"
 msgstr "सीवीसी"
 
-#: r2/templates/paymentform.html:126
+#: r2/templates/paymentform.html:114
 msgid "(3 or 4 digits)"
 msgstr "(3 या 4 अंक)"
 
-#: r2/templates/paymentform.html:185
+#: r2/templates/paymentform.html:160
 msgid "authorize payment"
 msgstr "भुगतान को प्राधिकृत करें"
 
@@ -6252,112 +6325,95 @@ msgstr "आप एक एकल टिप्पणी के सूत्र द
 msgid "view the rest of the comments"
 msgstr "बाकी की टिप्पणियाँ देखें"
 
-#: r2/templates/piratebar.html:27
-#, python-format
-msgid "yar! it be %(talk_like_a_pirate_day)s! ye be speakin' pirate?"
-msgstr ""
-
-#: r2/templates/piratebar.html:28
-msgid "talk like a pirate day"
-msgstr ""
-
-#: r2/templates/piratebar.html:30
-msgid "yarrrrr!"
-msgstr ""
-
-#: r2/templates/piratebar.html:31
-msgid "landlubber mode"
-msgstr ""
-
 #: r2/templates/prefapps.html:63
 msgid "(that's you!)"
 msgstr "(यह तो आप स्वयं हैं !)"
 
-#: r2/templates/prefapps.html:109
+#: r2/templates/prefapps.html:105
 msgid "updating..."
 msgstr "अद्यतन हो रहा है.. "
 
-#: r2/templates/prefapps.html:114
+#: r2/templates/prefapps.html:110
 msgid "secret"
 msgstr "गोपनीय"
 
-#: r2/templates/prefapps.html:131 r2/templates/prefapps.html:318
+#: r2/templates/prefapps.html:127 r2/templates/prefapps.html:314
 msgid "about url"
 msgstr "यूआरएल के बारे में"
 
-#: r2/templates/prefapps.html:138 r2/templates/prefapps.html:325
+#: r2/templates/prefapps.html:134 r2/templates/prefapps.html:321
 msgid "redirect uri"
 msgstr "यूआरआई को पुनर्निर्देशित करें"
 
-#: r2/templates/prefapps.html:147
+#: r2/templates/prefapps.html:143
 msgid "update app"
 msgstr "एप में अद्यतन करें"
 
-#: r2/templates/prefapps.html:154
+#: r2/templates/prefapps.html:150
 msgid "developers"
 msgstr "विकासक"
 
-#: r2/templates/prefapps.html:164
+#: r2/templates/prefapps.html:160
 msgid "adding..."
 msgstr "जोड़ रहे हैं..."
 
-#: r2/templates/prefapps.html:167
+#: r2/templates/prefapps.html:163
 msgid "add developer"
 msgstr "विकासक जोड़ें"
 
-#: r2/templates/prefapps.html:181
+#: r2/templates/prefapps.html:177
 msgid "delete app"
 msgstr "एप मिटाएँ"
 
-#: r2/templates/prefapps.html:205
+#: r2/templates/prefapps.html:201
 msgid "Only in the subreddits:"
 msgstr "केवल इन सबरेडिट में:"
 
-#: r2/templates/prefapps.html:222 r2/templates/prefapps.html:239
+#: r2/templates/prefapps.html:218 r2/templates/prefapps.html:235
 msgid "Expires in:"
 msgstr "समापन अवधि: "
 
-#: r2/templates/prefapps.html:225
+#: r2/templates/prefapps.html:221
 msgid "Maintain this access indefinitely (or until manually revoked)."
 msgstr ""
 
-#: r2/templates/prefapps.html:234
+#: r2/templates/prefapps.html:230
 msgid "Only in:"
 msgstr "केवल इन में:"
 
-#: r2/templates/prefapps.html:263
+#: r2/templates/prefapps.html:259
 msgid "revoke access"
 msgstr "अभिगम रद्द करें"
 
-#: r2/templates/prefapps.html:264
+#: r2/templates/prefapps.html:260
 msgid "revoked"
 msgstr "रद्द किया गया"
 
-#: r2/templates/prefapps.html:273
+#: r2/templates/prefapps.html:269
 msgid "authorized applications"
 msgstr "अधिकृत एप्लीकेशन्स"
 
-#: r2/templates/prefapps.html:282
+#: r2/templates/prefapps.html:278
 msgid "developed applications"
 msgstr "विकसित एप्लीकेशन्स"
 
-#: r2/templates/prefapps.html:294
+#: r2/templates/prefapps.html:290
 msgid "create another app..."
 msgstr "एक और एप बनाएँ ..."
 
-#: r2/templates/prefapps.html:296
+#: r2/templates/prefapps.html:292
 msgid "are you a developer? create an app..."
 msgstr "क्या आप एक विकासक हैं? एक एप बनाएँ..."
 
-#: r2/templates/prefapps.html:300
+#: r2/templates/prefapps.html:296
 msgid "creating..."
 msgstr "बना रहे हैं..."
 
-#: r2/templates/prefapps.html:301
+#: r2/templates/prefapps.html:297
 msgid "create application"
 msgstr "एप्लीकेशन बनाएँ"
 
-#: r2/templates/prefapps.html:333
+#: r2/templates/prefapps.html:329
 msgid "create app"
 msgstr "एप बनाएँ"
 
@@ -6493,7 +6549,7 @@ msgstr "क्लिक करने के विकल्प"
 msgid "display links with a reddit toolbar"
 msgstr "लिंक्स रेडिट उपकरण पट्टी के साथ प्रदर्शित करें"
 
-#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:204
+#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:238
 msgid "media"
 msgstr "मीडिया"
 
@@ -6519,7 +6575,7 @@ msgstr "(किसी भी वयस्क लिंक्स के बगल
 
 #: r2/templates/prefoptions.html:126
 msgid "to enable thumbnails, disable compressed link display"
-msgstr "थंबनेल सक्षम करने के लिए, संकुचित कड़ी प्रदर्शन को निष्क्रिय करें"
+msgstr ""
 
 #: r2/templates/prefoptions.html:133
 msgid "link options"
@@ -6545,7 +6601,7 @@ msgstr "मुझे मेरे हाल ही में देखे हु
 
 #: r2/templates/prefoptions.html:148
 msgid "compress the link display"
-msgstr "कड़ी प्रदर्शन सिकोड़ दें"
+msgstr ""
 
 #: r2/templates/prefoptions.html:149
 msgid "show additional details in the domain text when available"
@@ -6664,8 +6720,8 @@ msgid "show link flair"
 msgstr "लिंक परचम दिखाएँ"
 
 #: r2/templates/prefoptions.html:246
-msgid "show promote tab on front page"
-msgstr "प्रचार टैब को मुखपृष्ठ पर दिखाएँ"
+msgid "show self-serve advertising tab on front page"
+msgstr ""
 
 #: r2/templates/prefoptions.html:254
 msgid "I am over eighteen years old and willing to view adult content"
@@ -6740,17 +6796,27 @@ msgstr "प्रायोजन दिखाएँ"
 msgid "the 300x100 'sponsored by...' images that sometimes appear in sidebars"
 msgstr "300x100 माप की 'प्रायोजित' छवि जो कभी कभी साइडबार में प्रकट होती है"
 
+#: r2/templates/prefoptions.html:319
+msgid "remember what links I've visited"
+msgstr ""
+
 #: r2/templates/prefoptions.html:320
+msgid ""
+"we'll remember and mark what links you've already read, even between "
+"computers"
+msgstr ""
+
+#: r2/templates/prefoptions.html:323
 msgid "highlight new comments"
 msgstr "नई टिप्पणियों को चिन्हांकित करें"
 
-#: r2/templates/prefoptions.html:322
+#: r2/templates/prefoptions.html:325
 msgid ""
 "we'll remember your visits for 48 hours and show you which comments you "
 "haven't seen yet"
 msgstr "हम आपके इस लॉगइन सत्र को 48 घंटे के लिए बरकरार रखेंगे और जो टिप्पणियां आपने अब तक नहीं देखीं हैं उन पर प्रकाश डालेंगे."
 
-#: r2/templates/prefoptions.html:325
+#: r2/templates/prefoptions.html:328
 msgid "notify me when people say my username"
 msgstr ""
 
@@ -6833,7 +6899,7 @@ msgstr "वर्तमान गुप्त शब्द"
 msgid "new password"
 msgstr "नया गुप्त शब्द"
 
-#: r2/templates/prefupdate.html:96
+#: r2/templates/prefupdate.html:97
 msgid "send verification email"
 msgstr "सत्यापन ईमेल भेजें"
 
@@ -6843,12 +6909,12 @@ msgid ""
 msgstr "(इस जानकारी के लिए क्लिक करने की जरूरत नहीं, बस चेकमार्क पर माउस घुमाएं)"
 
 #: r2/templates/printablebuttons.html:40
-#: r2/templates/printablebuttons.html:155
+#: r2/templates/printablebuttons.html:158
 msgid "spammed"
 msgstr "स्पैम पुष्टित"
 
 #: r2/templates/printablebuttons.html:49
-#: r2/templates/printablebuttons.html:145
+#: r2/templates/printablebuttons.html:148
 msgid "approve"
 msgstr "स्वीकारें"
 
@@ -6872,85 +6938,92 @@ msgstr "अवयस्क"
 msgid "unmarked"
 msgstr "अचिन्हित"
 
-#: r2/templates/printablebuttons.html:85
+#: r2/templates/printablebuttons.html:75
+msgid "retry thumb"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:75
+msgid "retrying"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:88
 msgid "distinguishing..."
 msgstr "सुभिन्न किया जा रहा है..."
 
-#: r2/templates/printablebuttons.html:89
+#: r2/templates/printablebuttons.html:92
 msgid "distinguish this?"
 msgstr "इसे सुभिन्न करें?"
 
-#: r2/templates/printablebuttons.html:143
+#: r2/templates/printablebuttons.html:146
 msgid "reapprove"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:182
-#: r2/templates/printablebuttons.html:228
-#: r2/templates/promotelinkform.html:407 r2/templates/sharelink.html:122
+#: r2/templates/printablebuttons.html:185
+#: r2/templates/printablebuttons.html:231
+#: r2/templates/promotelinkform.html:472 r2/templates/sharelink.html:122
 msgid "cancel"
 msgstr "रद्द करें"
 
-#: r2/templates/printablebuttons.html:199
+#: r2/templates/printablebuttons.html:202
 msgid "hidden"
 msgstr "छुपाया हुआ"
 
-#: r2/templates/printablebuttons.html:228
+#: r2/templates/printablebuttons.html:231
 msgid "reject"
 msgstr "अस्वीकार करें"
 
-#: r2/templates/printablebuttons.html:233
+#: r2/templates/printablebuttons.html:236
 msgid "accepted"
 msgstr "स्वीकृत"
 
-#: r2/templates/printablebuttons.html:239
+#: r2/templates/printablebuttons.html:242
 msgid "traffic"
 msgstr "यातायात"
 
-#: r2/templates/printablebuttons.html:259
-#: r2/templates/printablebuttons.html:338
+#: r2/templates/printablebuttons.html:263
+#: r2/templates/printablebuttons.html:335
 msgid "permalink"
 msgstr "स्थायी लिंक"
 
-#: r2/templates/printablebuttons.html:272
-#: r2/templates/printablebuttons.html:334 r2/templates/starkcomment.html:34
+#: r2/templates/printablebuttons.html:276
+#: r2/templates/printablebuttons.html:331 r2/templates/starkcomment.html:34
 msgid "context"
 msgstr "संदर्भ"
 
-#: r2/templates/printablebuttons.html:276
+#: r2/templates/printablebuttons.html:280
 msgid "full comments"
 msgstr "पूरी टिप्पणियाँ"
 
-#: r2/templates/printablebuttons.html:286
-#: r2/templates/printablebuttons.html:293
+#: r2/templates/printablebuttons.html:290
 msgid "parent"
 msgstr "जनक"
 
-#: r2/templates/printablebuttons.html:307
+#: r2/templates/printablebuttons.html:304
 msgid "give reddit gold in appreciation of this comment."
 msgstr "इस टिप्पणी की सराहना हेतु रेडिट गोल्ड उपहार स्वरूप दें"
 
-#: r2/templates/printablebuttons.html:309
+#: r2/templates/printablebuttons.html:306
 msgid "give gold"
 msgstr "गोल्ड दें"
 
-#: r2/templates/printablebuttons.html:314
-#: r2/templates/printablebuttons.html:356
+#: r2/templates/printablebuttons.html:311
+#: r2/templates/printablebuttons.html:353
 msgid "reply {verb}"
 msgstr "उत्तर दें"
 
-#: r2/templates/printablebuttons.html:345
+#: r2/templates/printablebuttons.html:342
 msgid "block user"
 msgstr "प्रयोक्ता को अवरोधित करें"
 
-#: r2/templates/printablebuttons.html:345
+#: r2/templates/printablebuttons.html:342
 msgid "blocked"
 msgstr "अवरोधित"
 
-#: r2/templates/printablebuttons.html:349
+#: r2/templates/printablebuttons.html:346
 msgid "mark unread"
 msgstr "अपठित चिह्नित करें"
 
-#: r2/templates/printablebuttons.html:520
+#: r2/templates/printablebuttons.html:517
 msgid "toggle"
 msgstr "टॉगल"
 
@@ -6980,65 +7053,17 @@ msgstr "रेडिट गोल्ड बचा है"
 msgid "Recurring Paypal subscription"
 msgstr "आवर्ती पेपाल सदस्यता"
 
-#: r2/templates/profilebar.html:160 r2/templates/usertableitem.html:50
+#: r2/templates/profilebar.html:143
+msgid "manage recurring subscription"
+msgstr ""
+
+#: r2/templates/profilebar.html:168 r2/templates/usertableitem.html:50
 msgid "send message"
 msgstr "संदेश भेजें"
 
-#: r2/templates/profilebar.html:164
+#: r2/templates/profilebar.html:172
 msgid "redditor for"
 msgstr "से रेडिटवासी"
-
-#: r2/templates/promote_graph.html:34
-msgid "Sponsored link calendar"
-msgstr "प्रायोजित लिंक कैलेंडर"
-
-#: r2/templates/promote_graph.html:60
-msgid "Viewing calendar for dates:"
-msgstr ""
-
-#: r2/templates/promote_graph.html:64
-#, python-format
-msgid "Sorry, I couldn't make sense of the date range: %(start)s - %(end)s"
-msgstr ""
-
-#: r2/templates/promote_graph.html:89
-msgid "Date"
-msgstr "तिथि"
-
-#: r2/templates/promote_graph.html:98
-msgid "Count"
-msgstr "गणना"
-
-#: r2/templates/promote_graph.html:108
-msgid "Scheduled"
-msgstr "निर्धारित"
-
-#: r2/templates/promote_graph.html:109
-msgid "Inventory"
-msgstr "वस्तु सूची"
-
-#. TRANSLATORS: Advertising term; "ad impressions delivered / shown"
-#: r2/templates/promote_graph.html:122
-msgid "Impressions"
-msgstr "छापे"
-
-#: r2/templates/promote_graph.html:139
-msgid "Clicks"
-msgstr "क्लिक्स"
-
-#. TRANSLATORS: Advertising term: Total value of scheduled ads
-#: r2/templates/promote_graph.html:157
-msgid "Total Commit"
-msgstr "कुल मूल्य"
-
-#. TRANSLATORS: Advertising term: Amount spent on scheduled ads
-#: r2/templates/promote_graph.html:160
-msgid "Your Commit"
-msgstr "आपने खर्च किया"
-
-#: r2/templates/promote_graph.html:203
-msgid "historical site performance"
-msgstr "ऐतिहासिक साइट प्रदर्शन"
 
 #: r2/templates/promotedlink.html:37
 #, python-format
@@ -7050,27 +7075,27 @@ msgstr "%(author)s द्वारा प्रोत्साहित कि�
 msgid "promoted by %(author)s"
 msgstr "%(author)s द्वारा प्रचारित"
 
-#: r2/templates/promotedlink.html:60
+#: r2/templates/promotedlink.html:66
 msgid "deleted sponsored link"
 msgstr "मिटाया हुआ प्रायोजित लिंक"
 
-#: r2/templates/promotedlink.html:62
+#: r2/templates/promotedlink.html:68
 msgid "unpaid sponsored link"
 msgstr "अवैतनिक प्रायोजित लिंक"
 
-#: r2/templates/promotedlink.html:64
+#: r2/templates/promotedlink.html:70
 msgid "unapproved sponsored link"
 msgstr "अननुमोदित प्रायोजित लिंक"
 
-#: r2/templates/promotedlink.html:66
+#: r2/templates/promotedlink.html:72
 msgid "rejected sponsored link"
 msgstr "अस्वीकृत प्रायोजित लिंक"
 
-#: r2/templates/promotedlink.html:68 r2/templates/promotedlink.html:73
+#: r2/templates/promotedlink.html:74 r2/templates/promotedlink.html:79
 msgid "sponsored link"
 msgstr "प्रायोजित लिंक"
 
-#: r2/templates/promotedlink.html:70
+#: r2/templates/promotedlink.html:76
 msgid "accepted sponsored link"
 msgstr "स्वीकृत प्रायोजित लिंक"
 
@@ -7092,22 +7117,22 @@ msgid "Campaigns created before September 12, 2012 don't have traffic data"
 msgstr ""
 
 #: r2/templates/promotedlinktraffic.html:112
-#: r2/templates/promotelinkform.html:439
+#: r2/templates/promotelinkform.html:307 r2/templates/promotelinkform.html:504
 msgid "start"
 msgstr "प्रारंभ"
 
 #: r2/templates/promotedlinktraffic.html:113
-#: r2/templates/promotelinkform.html:440
+#: r2/templates/promotelinkform.html:323 r2/templates/promotelinkform.html:505
 msgid "end"
 msgstr "अंत"
 
 #: r2/templates/promotedlinktraffic.html:115
-#: r2/templates/promotelinkform.html:318 r2/templates/refundpage.html:57
+#: r2/templates/promotelinkform.html:393 r2/templates/refundpage.html:57
 msgid "budget"
 msgstr ""
 
 #: r2/templates/promotedlinktraffic.html:116
-#: r2/templates/promotelinkform.html:443
+#: r2/templates/promotelinkform.html:511
 msgid "spent"
 msgstr ""
 
@@ -7131,136 +7156,152 @@ msgstr "ब्यौरा"
 msgid "csv"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:69
+#: r2/templates/promotelinkform.html:75
 msgid "edit promotion"
 msgstr "प्रचार को संपादित करें"
 
-#: r2/templates/promotelinkform.html:124
+#: r2/templates/promotelinkform.html:136
 msgid ""
 "A good title is important to the success of your campaign. reddit users are "
 "an intelligent, thoughtful group, and reward those who engage them."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:141
+#: r2/templates/promotelinkform.html:142
+msgid "post type"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:168
 msgid "Provide the URL of your ad. No redirects please!"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:145
+#: r2/templates/promotelinkform.html:172
 msgid "Override display domain:"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:155
+#: r2/templates/promotelinkform.html:182
 msgid ""
 "Choose a different domain name to display on the site (the small grey text "
 "next to a link"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:162
+#: r2/templates/promotelinkform.html:196
 msgid "images will be resized if larger than 70 x 70 pixels"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:166
+#: r2/templates/promotelinkform.html:200
 msgid "upload header image:"
 msgstr "हेडर छवि अपलोड करें:"
 
-#: r2/templates/promotelinkform.html:193
+#: r2/templates/promotelinkform.html:227
 msgid "disable comments"
 msgstr "टिप्पणियों को निष्क्रिय करें"
 
-#: r2/templates/promotelinkform.html:198
+#: r2/templates/promotelinkform.html:232
 msgid ""
 "Comments are a great way to get feedback from customers, and the reddit "
 "community is known for being vocal in comment threads."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:213
+#: r2/templates/promotelinkform.html:247
 msgid "width"
 msgstr "चौड़ाई"
 
-#: r2/templates/promotelinkform.html:222
+#: r2/templates/promotelinkform.html:256
 msgid "height"
 msgstr "लंबाई"
 
-#: r2/templates/promotelinkform.html:234
+#: r2/templates/promotelinkform.html:268
 msgid ""
 "media override (adds an onclick to the link to generate a drop-down rather "
 "than a link out)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:244
+#: r2/templates/promotelinkform.html:278
 msgid "campaign dashboard"
 msgstr "अभियान डैशबोर्ड"
 
-#: r2/templates/promotelinkform.html:249
+#: r2/templates/promotelinkform.html:283
 msgid ""
 "This dashboard allows you to easily place ads on reddit. You can target a "
 "specific community or simply run on the main page."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:265
+#: r2/templates/promotelinkform.html:299
 msgid ""
 "Date when your sponsored link will start running.  We start new campaigns at"
 " midnight UTC+5"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:266
+#: r2/templates/promotelinkform.html:300
 msgid "Date when your sponsored link will end (at midnight UTC+5)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:267
+#: r2/templates/promotelinkform.html:301
 msgid ""
 "name of the community that you are targeting. A blank entry here means that "
 "the ad is untargeted and will run site-wide "
 msgstr ""
 
-#: r2/templates/promotelinkform.html:268
+#: r2/templates/promotelinkform.html:302
 msgid ""
-"click to create a new campaign.  To edit an existing campaing in the table "
+"click to create a new campaign.  To edit an existing campaign in the table "
 "below, click the 'edit' button."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:273 r2/templates/refundpage.html:45
-msgid "dates"
-msgstr ""
-
-#: r2/templates/promotelinkform.html:304 r2/templates/promotelinkform.html:441
+#: r2/templates/promotelinkform.html:335 r2/templates/promotelinkform.html:506
 msgid "duration"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:310
+#: r2/templates/promotelinkform.html:341 r2/templates/promotelinkform.html:514
+msgid "geotargeting"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:353
+msgid "region"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:356
+msgid "metro"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:363
 msgid "price"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:331
+#: r2/templates/promotelinkform.html:370 r2/templates/promotelinkform.html:508
+msgid "priority"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:407
 #, python-format
 msgid "%(minimum)s minimum"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:348 r2/templates/promotelinkform.html:444
+#: r2/templates/promotelinkform.html:424 r2/templates/promotelinkform.html:512
 msgid "targeting"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:355
+#: r2/templates/promotelinkform.html:431
 msgid "frontpage (displayed on the home page to anyone)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:362
+#: r2/templates/promotelinkform.html:438
 msgid "targeted (targets a subreddit and its subscribers)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:396
+#: r2/templates/promotelinkform.html:460
 msgid ""
 "You will only be charged for the portion of your budget that is actually "
 "spent. Any unspent portion will be refunded."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:397
+#: r2/templates/promotelinkform.html:461
 msgid ""
 "By targeting, your ad will only appear in front of users who subscribe to "
 "the subreddit that you specify."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:398
+#: r2/templates/promotelinkform.html:462
 msgid ""
 "You can only target one subreddit per campaign. If you would like to submit "
 "to more than one subreddit, add a new campaign (its easy, you just fill this"
@@ -7268,27 +7309,27 @@ msgid ""
 "dashboard)."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:430
+#: r2/templates/promotelinkform.html:495
 msgid "You have too many campaigns for this link."
 msgstr "इस लिंक के लिए आपके पास अत्याधिक अभियान हैं ।"
 
-#: r2/templates/promotelinkform.html:431
+#: r2/templates/promotelinkform.html:496
 msgid "It's time to start fresh!"
 msgstr "समय है नये सिरे से शुरूआत करने का"
 
-#: r2/templates/promotelinkform.html:442
+#: r2/templates/promotelinkform.html:510
 msgid "total budget"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:467
+#: r2/templates/promotelinkform.html:530
 msgid "You don't have any campaigns for this link yet.  You should add one."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:479
+#: r2/templates/promotelinkform.html:542
 msgid "bidding history"
 msgstr "बोली इतिहास"
 
-#: r2/templates/promotelinkform.html:509
+#: r2/templates/promotelinkform.html:572
 msgid "promotion history"
 msgstr "प्रचार इतिहास"
 
@@ -7296,20 +7337,28 @@ msgstr "प्रचार इतिहास"
 msgid "create a promotion"
 msgstr "एक प्रचार बनाएँ"
 
-#: r2/templates/reddit.html:170 r2/templates/reddit.html:181
+#: r2/templates/promotelinknew.html:63
+msgid "create as user"
+msgstr ""
+
+#: r2/templates/promotelinknew.html:70
+msgid "Create a promotion on another user's account."
+msgstr ""
+
+#: r2/templates/reddit.html:167 r2/templates/reddit.html:178
 msgid "close this window"
 msgstr "इस विंडो को बंद करें"
 
-#: r2/templates/redditfooter.html:48
+#: r2/templates/redditfooter.html:47
 #, python-format
 msgid ""
 "Use of this site constitutes acceptance of our %(user_agreement)s and "
 "%(privacy_policy)s"
 msgstr "इस वेबसाइट का प्रयोग हमारे %(user_agreement)s और %(privacy_policy)s की स्वीकृति से मिल कर बना है "
 
-#: r2/templates/redditfooter.html:50
-msgid "User Agreement {Genitive}"
-msgstr "प्रयोक्ता समझौता"
+#: r2/templates/redditfooter.html:49
+msgid "User Agreement (updated)"
+msgstr ""
 
 #: r2/templates/redditfooter.html:52
 msgid "Privacy Policy {Genitive}"
@@ -7354,6 +7403,10 @@ msgstr ""
 msgid "campaign"
 msgstr ""
 
+#: r2/templates/refundpage.html:45
+msgid "dates"
+msgstr ""
+
 #: r2/templates/refundpage.html:65
 msgid "impressions purchased"
 msgstr ""
@@ -7374,11 +7427,50 @@ msgstr ""
 msgid "issue refund"
 msgstr ""
 
+#: r2/templates/renderablecampaign.html:68
+#: r2/templates/renderablecampaign.html:105
+msgid "N/A"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:76
+msgid "free"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:80
+msgid "pay"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:85
+#: r2/templates/subredditinfobar.html:48 r2/templates/userlist.html:55
+#: r2/templates/usertableitem.html:85
+msgid "change"
+msgstr "बदलें"
+
+#: r2/templates/renderablecampaign.html:90
+msgid "freebie"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:96
+msgid "refund"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:120
+msgid "complete"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:136
+msgid "view live"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:142
+msgid "terminate"
+msgstr ""
+
 #: r2/templates/roadblocks.html:36
 msgid "create a roadblock"
 msgstr "रोड़ा बनाएँ"
 
-#: r2/templates/roadblocks.html:94
+#: r2/templates/roadblocks.html:90
 msgid "existing roadblocks"
 msgstr "मौजूदा रोड़े"
 
@@ -7418,7 +7510,7 @@ msgstr "\"सबरेडिट\" में प्रस्तुतियाँ
 
 #: r2/templates/searchform.html:36
 msgid "find submissions by \"username\""
-msgstr "\"प्रयिक्ता नाम\" से प्रस्तुतियाँ ढूंढे"
+msgstr "\"प्रयोक्ता नाम\" से प्रस्तुतियाँ ढूंढे"
 
 #: r2/templates/searchform.html:38
 msgid "find submissions from \"example.com\""
@@ -7457,6 +7549,18 @@ msgstr "रेडिट तलाशें"
 msgid "limit my search to %(path)s"
 msgstr "%(path)s तक मेरी खोज सीमित रखें"
 
+#: r2/templates/serversecondsbar.html:37
+msgid "visible to:"
+msgstr ""
+
+#: r2/templates/serversecondsbar.html:39
+msgid "only me"
+msgstr ""
+
+#: r2/templates/serversecondsbar.html:40
+msgid "everyone"
+msgstr ""
+
 #: r2/templates/sharelink.html:37
 msgid "send this link to"
 msgstr "यह लिंक इन्हे भेजें"
@@ -7482,54 +7586,54 @@ msgstr "शीर्ष उपरेडिट"
 msgid "make report"
 msgstr "रपट बनाएँ"
 
-#: r2/templates/spotlightlisting.html:58
+#: r2/templates/spotlightlisting.html:65
 #, python-format
 msgid ""
 "This sponsored link is an advertisement generated with our "
 "%(self_serve_advertisement_tool)s."
 msgstr "यह प्रायोजित लिंक हमारे %(self_serve_advertisement_tool)s से उत्पन्न एक विज्ञापन है ।"
 
-#: r2/templates/spotlightlisting.html:59
+#: r2/templates/spotlightlisting.html:66
 msgid "self-serve advertisement tool"
 msgstr "स्वयं सेवा विज्ञापन उपकरण"
 
-#: r2/templates/spotlightlisting.html:64
+#: r2/templates/spotlightlisting.html:71
 #, python-format
 msgid ""
 "Use of this tool is open to all members of reddit.com, and for as little as "
-"$20 you can advertise in this area. %(get_started)s"
-msgstr "इस उपकरण का प्रयोग रेडिट का हर सदस्य कर सकता है,  और कुल $20 के लिए आप इस क्षेत्र में विज्ञापन कर सकते हैं । %(get_started)s"
+"%(price)s you can advertise in this area. %%(get_started)s"
+msgstr ""
 
-#: r2/templates/spotlightlisting.html:65
+#: r2/templates/spotlightlisting.html:72
 msgid "Get started &rsaquo;"
 msgstr "शुरू करें &rsaquo;"
 
-#: r2/templates/spotlightlisting.html:71
+#: r2/templates/spotlightlisting.html:78
 msgid ""
 "This area shows new and upcoming links. Vote on links here to help them "
 "become popular, and click the forwards and backwards buttons to view more. "
 msgstr "यहाँ आप को नए और उभरते लिंक्स दिखेंगे । इन लिंक्स पर अपना मत व्यक्त कर के इन्हें लोकप्रिय बनाएँ और अगला या पिछला बटन दबा कर और लिंक देखें । "
 
-#: r2/templates/spotlightlisting.html:76
+#: r2/templates/spotlightlisting.html:83
 msgid "here"
 msgstr "यहाँ "
 
-#: r2/templates/spotlightlisting.html:76
+#: r2/templates/spotlightlisting.html:83
 msgid "This element has been disabled."
 msgstr "यह तत्व निष्क्रिय कर दिया गया है ।"
 
-#: r2/templates/spotlightlisting.html:78
+#: r2/templates/spotlightlisting.html:85
 #, python-format
 msgid "Click %(here)s to disable this feature."
 msgstr "इस सुविधा को निष्क्रिय करने हेतु  %(here)s क्लिक करें ।"
 
-#: r2/templates/spotlightlisting.html:84
+#: r2/templates/spotlightlisting.html:91
 msgid ""
 "Enter a keyword or topic to discover new subreddits around your interests. "
 "Be specific!"
 msgstr "अपनी रूची की सबरेडिट ढूंढने के लिए खोज शब्द दर्ज करें"
 
-#: r2/templates/spotlightlisting.html:87
+#: r2/templates/spotlightlisting.html:94
 #, python-format
 msgid "You can access this tool at any time on the %(reddits)s page."
 msgstr "आप %(reddits)s के पृष्ठ पर किसी भी समय इस उपकरण का उपयोग कर सकते हैं ।"
@@ -7550,11 +7654,6 @@ msgstr "18 से ऊपर "
 #: r2/templates/subredditinfobar.html:38
 msgid "logged-in users viewing this subreddit in the past 15 minutes"
 msgstr "वो लॉग्ड-इन प्रयोक्ता जिन्होने पिछले 15 मिनट में यह सबरेडिट देखी है"
-
-#: r2/templates/subredditinfobar.html:48 r2/templates/userlist.html:55
-#: r2/templates/usertableitem.html:85
-msgid "change"
-msgstr "बदलें"
 
 #: r2/templates/subredditinfobar.html:56
 msgid "you are no longer an approved submitter"
@@ -7581,70 +7680,66 @@ msgstr "इस सबरेडिट को अनुमोदित करे�
 msgid "ban this subreddit"
 msgstr "इस सबरेडिट को प्रतिबंधित करें"
 
-#: r2/templates/subredditstylesheet.html:60
+#: r2/templates/subredditstylesheet.html:59
 msgid "Your edit will not be saved!"
 msgstr "आपका संपादन सहेजा नहीं जाएगा!"
 
-#: r2/templates/subredditstylesheet.html:80
-msgid "show the default stylesheet"
-msgstr "डिफ़ॉल्ट स्टाइलशीट दिखाएँ"
+#: r2/templates/subredditstylesheet.html:67
+msgid "see previous versions"
+msgstr ""
 
-#: r2/templates/subredditstylesheet.html:81
-msgid "hide the default stylesheet"
-msgstr "डिफ़ॉल्ट स्टाइलशीट छुपाएँ"
-
-#: r2/templates/subredditstylesheet.html:91
-#: r2/templates/subredditstylesheet.html:106
+#: r2/templates/subredditstylesheet.html:75
+#: r2/templates/subredditstylesheet.html:90
 msgid "preview"
 msgstr "पूर्वावलोकन"
 
-#: r2/templates/subredditstylesheet.html:109
+#: r2/templates/subredditstylesheet.html:93
 msgid "normal link"
 msgstr "सामान्य लिंक "
 
-#: r2/templates/subredditstylesheet.html:113
+#: r2/templates/subredditstylesheet.html:97
 msgid "compressed link"
 msgstr "सिकुड़ा हुआ लिंक"
 
-#: r2/templates/subredditstylesheet.html:117
+#: r2/templates/subredditstylesheet.html:101
 msgid "link with thumbnail"
 msgstr "थम्बनेल के साथ लिंक"
 
-#: r2/templates/subredditstylesheet.html:121
+#: r2/templates/subredditstylesheet.html:105
 msgid "stickied link"
 msgstr ""
 
-#: r2/templates/subredditstylesheet.html:132
+#: r2/templates/subredditstylesheet.html:116
 msgid "images"
 msgstr "तस्वीरें "
 
-#: r2/templates/subredditstylesheet.html:136
+#: r2/templates/subredditstylesheet.html:120
 msgid "image file"
 msgstr "छवि फ़ाइल"
 
-#: r2/templates/subredditstylesheet.html:139
+#: r2/templates/subredditstylesheet.html:123
 msgid "new image name:"
 msgstr "तस्वीर का नया नाम :"
 
-#: r2/templates/subredditstylesheet.html:144
+#: r2/templates/subredditstylesheet.html:128
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr "(तस्वीरों के नाम में सिर्फ  अक्षरांकीय वर्ण और '-' हो सकता है)"
 
-#: r2/templates/subredditstylesheet.html:148
+#: r2/templates/subredditstylesheet.html:132
 msgid ""
 "Note: any changes to images here will be reflected immediately on reload and"
 " cannot be undone."
 msgstr "नोट: यहां छवियों में किया गया कोई भी परिवर्तन पुनः लोड करने पर तुरंत परिलक्षित होगा और उसे बदला नहीं जा सकता है ।"
 
-#: r2/templates/subredditstylesheet.html:251
+#: r2/templates/subredditstylesheet.html:207
 msgid "please select an image"
 msgstr "कृपया एक छवि का चयन करें"
 
-#: r2/templates/subredditstylesheet.html:273
+#: r2/templates/subredditstylesheet.html:229
 msgid "paste into stylesheet"
 msgstr "स्टाइलशीट में चिपकाएँ"
 
-#: r2/templates/subredditstylesheet.html:276
+#: r2/templates/subredditstylesheet.html:232
 msgid "delete this image"
 msgstr "यह तस्वीर मिटा दें "
 
@@ -7724,11 +7819,11 @@ msgstr "दावा"
 msgid "unavailable"
 msgstr "अनुपलब्ध"
 
-#: r2/templates/trophycase.html:75
+#: r2/templates/trophycase.html:57
 msgid "dust"
 msgstr "धूल"
 
-#: r2/templates/trophycase.html:108
+#: r2/templates/trophycase.html:90
 #, python-format
 msgid "%d more"
 msgstr "%d और "
@@ -7823,7 +7918,7 @@ msgstr "वस्तु"
 msgid "quoted text"
 msgstr "उद्धृत पाठ"
 
-#: r2/templates/usertext.html:145 r2/templates/wikieditpage.html:46
+#: r2/templates/usertext.html:146 r2/templates/wikieditpage.html:46
 msgid "formatting help"
 msgstr "स्वरूपण मदद"
 
@@ -7847,7 +7942,7 @@ msgstr "प्रकार: "
 msgid "uploading"
 msgstr "अपलोड हो रही है "
 
-#: r2/templates/utils.html:585
+#: r2/templates/utils.html:586
 msgid "last edited"
 msgstr "सबसे बाद में संपादन "
 
@@ -8025,19 +8120,27 @@ msgstr "केवल अनुमोदित विकी योगदानक
 msgid "only mods may edit and view"
 msgstr "केवल पंच संपादित कर सकते और देख सकते हैं"
 
-#: r2/templates/wikipagesettings.html:56
+#: r2/templates/wikipagesettings.html:53
+msgid "show this page on the listing?"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:58
+msgid "show this page on the list of wiki pages"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:64
 msgid "allow users to edit page"
 msgstr "प्रयोक्ताओं को पृष्ठ संपादित करने की अनुमति दें"
 
-#: r2/templates/wikipagesettings.html:60
+#: r2/templates/wikipagesettings.html:68
 msgid "username does not exist"
 msgstr "प्रयोक्ता नाम मौजूद नहीं है"
 
-#: r2/templates/wikipagesettings.html:68 r2/templates/wikirevision.html:71
+#: r2/templates/wikipagesettings.html:76 r2/templates/wikirevision.html:71
 msgid "done"
 msgstr "हो गया "
 
-#: r2/templates/wikipagesettings.html:75
+#: r2/templates/wikipagesettings.html:83
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:46
 msgid "save settings"
 msgstr "सेटिंग्स सहेजें"
@@ -8450,3 +8553,168 @@ msgid ""
 "we'd love to hear your feedback on this beta at "
 "[%(feedback_title)s](%(feedback_url)s)."
 msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/controllers.py:20
+msgid "gold"
+msgstr "गोल्ड"
+
+#: ../../reddit-plugin-gold/reddit_gold/controllers.py:23
+msgid "gold partners"
+msgstr "गोल्ड भागीदार"
+
+#: ../../reddit-plugin-gold/reddit_gold/controllers.py:37
+msgid "sorry, we're out of codes!"
+msgstr "खेद है, हमारे पास अब और कोड नहीं हैं !"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:25
+msgid "New!"
+msgstr "नया!"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:50
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:64
+msgid "buy reddit gold"
+msgstr "रेडिट गोल्ड ख़रीदें "
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:51
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:166
+msgid "or"
+msgstr "या"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:52
+msgid "send us a postcard"
+msgstr "हमें एक पोस्टकार्ड भेजें"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:62
+msgid "become a member today."
+msgstr "आज ही सदस्य बनें"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:63
+#, python-format
+msgid ""
+"reddit gold is %(gold_month_price)s / month, or %(gold_year_price)s for a "
+"year."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:72
+msgid ""
+"reddit gold is our premium membership program. It comes with extra features to make your experience here better as well as special benefits from gold partners for exceptional products and services.\n"
+"\n"
+"reddit takes no payment from gold partners for being in this program. We ask that they give all the benefits to you, our users. We hope in turn that this helps make gold a program worth subscribing to.\n"
+"\n"
+"If you have questions about any of the benefits, please visit /r/goldbenefits. New benefits and features will also be announced there, and we hope you'll enjoy them."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:81
+msgid "You can make reddit better."
+msgstr "आप रेडिट को बेहतर बना सकते हैं ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:84
+msgid ""
+"# New comment highlighting.\n"
+"What's new? Highlight which comments are new since the last time you viewed a thread."
+msgstr "# नई टिप्पणियों को चिन्हांकित करें ।⏎\nनया क्या है? पिछले दर्शन के बाद जो नई टिप्पणियाँ हैं उन्हे चिन्हांकित करें ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:90
+msgid ""
+"# Remember what links you've visited across computers.\n"
+"Never click a link twice again. If you visit a link on one computer, it'll show up purple on your other computers."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:96
+msgid "Awesome stuff for gold members:"
+msgstr "गोल्ड सदस्यों के लिए बहुत बढ़िया सामान:"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:117
+msgid ""
+"# Notifications when you're mentioned in comments.\n"
+"Want to say \"boo\" when people talk about you?  Get an orangered whenever someone \"/u/\" mentions your username in a comment."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:124
+msgid ""
+"# Filter specific subreddits from /r/all.\n"
+"Are there subreddits you don't want to see? Customize /r/all by removing them with a url like /r/all-operative-badger (up to ~300 removals - limited by maximum url length)."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:130
+msgid ""
+"# More subreddits and comments per page.\n"
+"Our servers work harder for gold members.  \n"
+"Subscribe to up to 100 subreddits on your front page.  \n"
+"Read comment threads 1500 comments at a time."
+msgstr "# हर पृष्ठ पर और सबरेडिट्स एवं टिप्पणियाँ । ⏎\nगोल्ड सदस्यों के लिए हमारे सर्वर अधिक मेहनत करते हैं । ⏎\nअपने मुखपृष्ठ पर अब 100 सबरेडिट्स की सदस्यता लें । ⏎\nएक बार में 1500 टिप्पणियाँ पढ़ें ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:138
+msgid ""
+"# Save comments and view by subreddit.\n"
+"Save the great comments you'd like to revisit later.  \n"
+"Filter your favorite posts and comments by subreddit."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:145
+msgid ""
+"# Turn off ads.\n"
+"Advertisements are optional to gold members."
+msgstr "# विज्ञापन बंद करें ।\nविज्ञापन गोल्ड सदस्यों के लिए वैकल्पिक हैं ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:151
+msgid ""
+"# Friends with benefits.\n"
+"Add notes to keep track of them all."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:158
+msgid "The Lounge."
+msgstr "प्रतीक्षालय"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:158
+msgid ""
+"Access to a super-secret members-only community that may or may not exist."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:159
+msgid "Beta test new features."
+msgstr "अपरिष्कृत सुविधाओं को आज़माएँ ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:159
+msgid "We occasionally invite gold members to try out new features first."
+msgstr "हम कभी - कभी गोल्ड सदस्यों को नई सुविधाओं पहले आज़माने के लिए आमंत्रित करते हैं ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:160
+msgid "A trophy on your user page."
+msgstr "आपके प्रयोक्ता पृष्ठ पर एक जयचिह्न ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:160
+msgid "As thanks for supporting reddit gold."
+msgstr "रेडिट गोल्ड का समर्थन करने के लिए एक छोटी सी भेंट"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:161
+msgid "More to come."
+msgstr "अभी और आएगा ।"
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:161
+msgid ""
+"We have many more ideas for gold features, and will add to this list in the "
+"future."
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:177
+msgid "send us a postcard | for | 1 free month | of | reddit gold"
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:190
+msgid "view the postcard gallery"
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldpartnerspage.html:41
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldpartnerspage.html:44
+msgid "claim code"
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldpartnerspage.html:48
+msgid "visit partner"
+msgstr ""
+
+#: ../../reddit-plugin-gold/reddit_gold/templates/goldpartnerspage.html:56
+msgid "reddit gold partners"
+msgstr "रेडिट गोल्ड भागीदार"
