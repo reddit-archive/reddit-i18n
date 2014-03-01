@@ -50,6 +50,7 @@ def get_lang_info(pofile):
     lang_dir = os.path.dirname(os.path.dirname(pofile))
     lang = os.path.basename(lang_dir)
     directory = os.path.dirname(lang_dir)
+    print '%s %s' % (directory, lang)
     translator = gettext.translation("r2", directory, [lang])
     return translator.info()
 
