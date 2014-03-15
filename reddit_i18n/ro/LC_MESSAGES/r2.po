@@ -4,6 +4,7 @@
 # 
 # Translators:
 # cagedhummingbird <idragalin@cogeco.ca>, 2013
+# andi23rosca <andi23rosca@gmail.com>, 2014
 # roentgen <arthur.titeica@gmail.com>, 2013
 # AstridIch <astrid.ich@gmail.com>, 2013
 # bng <bogdan.neagu89@yahoo.ro>, 2012
@@ -17,6 +18,7 @@
 # V2ARM <arm.spoon@gmail.com>, 2013
 # robertan111 <robertan111@yahoo.com>, 2013
 # AddyC <adrianclaudiucovaci@gmail.com>, 2013
+# branza <stef.kloop@gmail.com>, 2014
 # tomaul <toma_2209@yahoo.com>, 2013
 # FiXXXer00 <vio_dmw@yahoo.com>, 2013
 # V2ARM <arm.spoon@gmail.com>, 2013
@@ -24,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-02-28 18:50-0700\n"
-"PO-Revision-Date: 2014-03-01 01:52+0000\n"
+"POT-Creation-Date: 2014-03-14 18:07-0600\n"
+"PO-Revision-Date: 2014-03-15 00:08+0000\n"
 "Last-Translator: Deimorz <deimorz@reddit.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/reddit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -89,13 +91,13 @@ msgstr ""
 msgid "alien"
 msgstr ""
 
-#: ../../reddit-plugin-about/reddit_about/pages.py:52 r2/lib/menus.py:449
+#: ../../reddit-plugin-about/reddit_about/pages.py:52 r2/lib/menus.py:450
 msgid "sorted by"
 msgstr "sortate după"
 
 #: ../../reddit-plugin-about/reddit_about/templates/about.html:43
 #: ../../reddit-plugin-about/reddit_about/templates/about.html:69
-#: r2/controllers/listingcontroller.py:557
+#: r2/controllers/listingcontroller.py:550
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "articole adăugate de %(user)s"
@@ -192,8 +194,8 @@ msgstr ""
 msgid "color guide"
 msgstr ""
 
-#: r2/controllers/api.py:177 r2/controllers/api.py:3085
-#: r2/controllers/api.py:3146 r2/controllers/listingcontroller.py:478
+#: r2/controllers/api.py:177 r2/controllers/api.py:3164
+#: r2/controllers/api.py:3225 r2/controllers/listingcontroller.py:471
 msgid "API"
 msgstr "API"
 
@@ -210,13 +212,13 @@ msgid "no title found"
 msgstr "nu am găsit titlu"
 
 #: r2/controllers/api.py:920 r2/controllers/api.py:937
-#: r2/controllers/api.py:1710 r2/controllers/api.py:1917
-#: r2/controllers/api.py:2164 r2/controllers/api.py:2880
-#: r2/controllers/api.py:2920 r2/controllers/api.py:2995
-#: r2/controllers/api.py:3207 r2/controllers/api.py:3212
-#: r2/controllers/api.py:3398 r2/controllers/promotecontroller.py:790
-#: r2/lib/pages/pages.py:4172 r2/templates/frametoolbar.html:195
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:210
+#: r2/controllers/api.py:1768 r2/controllers/api.py:1975
+#: r2/controllers/api.py:2222 r2/controllers/api.py:2959
+#: r2/controllers/api.py:2999 r2/controllers/api.py:3074
+#: r2/controllers/api.py:3286 r2/controllers/api.py:3291
+#: r2/controllers/api.py:3477 r2/controllers/promotecontroller.py:851
+#: r2/lib/pages/pages.py:4230 r2/templates/frametoolbar.html:195
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:218
 msgid "saved"
 msgstr "salvat"
 
@@ -240,107 +242,107 @@ msgstr "adresa de email şi parola au fost actualizate"
 msgid "your password has been updated"
 msgstr "parola a fost actualizată"
 
-#: r2/controllers/api.py:1490
+#: r2/controllers/api.py:1508
 msgid "replied"
 msgstr "am trimis răspunsul"
 
-#: r2/controllers/api.py:1542
+#: r2/controllers/api.py:1562
 msgid "shared"
 msgstr "partajat"
 
-#: r2/controllers/api.py:1545
+#: r2/controllers/api.py:1565
 msgid "your link has been shared."
 msgstr "linkul a fost partajat."
 
-#: r2/controllers/api.py:1694
+#: r2/controllers/api.py:1752
 msgid "validation errors"
 msgstr "erori de validare"
 
-#: r2/controllers/api.py:1719
+#: r2/controllers/api.py:1777
 msgid "conflict error"
 msgstr ""
 
-#: r2/controllers/api.py:1720
+#: r2/controllers/api.py:1778
 msgid "There was a conflict while editing the stylesheet"
 msgstr ""
 
-#: r2/controllers/api.py:1827 r2/lib/menus.py:161
+#: r2/controllers/api.py:1885 r2/lib/menus.py:161
 #: r2/templates/printablebuttons.html:33
 #: r2/templates/subredditstylesheet.html:236
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:73
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-reporter.js:73
 msgid "deleted"
 msgstr "şters"
 
-#: r2/controllers/api.py:1886 r2/templates/subredditstylesheet.html:202
+#: r2/controllers/api.py:1944 r2/templates/subredditstylesheet.html:202
 msgid "bad image name"
 msgstr "nume incorect de imagine"
 
-#: r2/controllers/api.py:1892
+#: r2/controllers/api.py:1950
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "prea multe imagini (primești doar %d )"
 
-#: r2/controllers/api.py:1900
+#: r2/controllers/api.py:1958
 msgid "Invalid image or general image error"
 msgstr ""
 
-#: r2/controllers/api.py:2052
+#: r2/controllers/api.py:2110
 msgid "Sidebar was not saved"
 msgstr ""
 
-#: r2/controllers/api.py:2061
+#: r2/controllers/api.py:2119
 msgid "Submission text was not saved"
 msgstr ""
 
-#: r2/controllers/api.py:2070
+#: r2/controllers/api.py:2128
 msgid "Description was not saved"
 msgstr ""
 
-#: r2/controllers/api.py:2773
+#: r2/controllers/api.py:2852
 msgid "an email will be sent to that account's address shortly"
 msgstr "un email va fi trimis în curând către adresa contului"
 
-#: r2/controllers/api.py:2775
+#: r2/controllers/api.py:2854
 msgid "try again tomorrow"
 msgstr ""
 
-#: r2/controllers/api.py:2818
+#: r2/controllers/api.py:2897
 msgid "password updated"
 msgstr ""
 
-#: r2/controllers/api.py:2948 r2/controllers/api.py:3167
+#: r2/controllers/api.py:3027 r2/controllers/api.py:3246
 msgid "invalid css class"
 msgstr ""
 
-#: r2/controllers/api.py:2951 r2/controllers/api.py:3170
+#: r2/controllers/api.py:3030 r2/controllers/api.py:3249
 msgid "too many css classes"
 msgstr ""
 
-#: r2/controllers/api.py:3187
+#: r2/controllers/api.py:3266
 msgid "max flair templates reached"
 msgstr ""
 
-#: r2/controllers/api.py:3631 r2/lib/errors.py:105
+#: r2/controllers/api.py:3710 r2/lib/errors.py:105
 msgid "invalid client id"
 msgstr ""
 
-#: r2/controllers/api.py:3634
+#: r2/controllers/api.py:3713
 msgid "cannot update deleted app"
 msgstr ""
 
-#: r2/controllers/api.py:3637
+#: r2/controllers/api.py:3716
 msgid "app does not belong to you"
 msgstr ""
 
-#: r2/controllers/api.py:3645
+#: r2/controllers/api.py:3724
 msgid "application updated"
 msgstr ""
 
-#: r2/controllers/api.py:3658
+#: r2/controllers/api.py:3737
 msgid "application created"
 msgstr ""
 
-#: r2/controllers/api.py:3685
+#: r2/controllers/api.py:3764
 msgid "developer added"
 msgstr ""
 
@@ -381,7 +383,7 @@ msgstr ""
 msgid "search"
 msgstr ""
 
-#: r2/controllers/api_docs.py:67 r2/controllers/listingcontroller.py:964
+#: r2/controllers/api_docs.py:67 r2/controllers/listingcontroller.py:969
 #: r2/lib/menus.py:92 r2/templates/pagenamenav.html:59
 msgid "subreddits"
 msgstr ""
@@ -419,7 +421,7 @@ msgstr "widget reddit"
 msgid "bookmarklets"
 msgstr "bookmarklet-uri"
 
-#: r2/controllers/embed.py:67 r2/lib/pages/pages.py:721
+#: r2/controllers/embed.py:67 r2/lib/pages/pages.py:739
 #: r2/templates/frametoolbar.html:108
 msgid "help"
 msgstr "ajutor"
@@ -441,7 +443,7 @@ msgstr "pagină inexistentă"
 msgid "the page you requested does not exist"
 msgstr "pagina cerută nu există"
 
-#: r2/controllers/front.py:175 r2/lib/pages/pages.py:4165
+#: r2/controllers/front.py:175 r2/lib/pages/pages.py:4223
 msgid "explore"
 msgstr ""
 
@@ -474,10 +476,11 @@ msgid "create a subreddit"
 msgstr ""
 
 #: r2/controllers/front.py:556 r2/controllers/front.py:560
-#: r2/controllers/listingcontroller.py:536
-#: r2/controllers/listingcontroller.py:751
-#: r2/controllers/listingcontroller.py:765 r2/lib/menus.py:169
-#: r2/lib/menus.py:346 r2/lib/menus.py:507 r2/lib/pages/pages.py:3444
+#: r2/controllers/listingcontroller.py:513
+#: r2/controllers/listingcontroller.py:528
+#: r2/controllers/listingcontroller.py:756
+#: r2/controllers/listingcontroller.py:770 r2/lib/menus.py:169
+#: r2/lib/menus.py:347 r2/lib/menus.py:508 r2/lib/pages/pages.py:3474
 #: r2/templates/createsubreddit.html:248 r2/templates/createsubreddit.html:259
 #: r2/templates/createsubreddit.html:270
 msgid "all"
@@ -495,13 +498,13 @@ msgstr ""
 msgid "links and comments"
 msgstr ""
 
-#: r2/controllers/front.py:709 r2/lib/pages/pages.py:3904
+#: r2/controllers/front.py:709 r2/lib/pages/pages.py:3960
 #: r2/templates/createsubreddit.html:242
 msgid "links"
 msgstr ""
 
-#: r2/controllers/front.py:710 r2/controllers/listingcontroller.py:1102
-#: r2/lib/pages/pages.py:3909 r2/templates/createsubreddit.html:264
+#: r2/controllers/front.py:710 r2/controllers/listingcontroller.py:1107
+#: r2/lib/pages/pages.py:3965 r2/templates/createsubreddit.html:264
 msgid "comments"
 msgstr "comentarii"
 
@@ -529,14 +532,14 @@ msgstr "rezultate căutare"
 msgid "seen it"
 msgstr "l-am văzut"
 
-#: r2/controllers/front.py:1004 r2/models/subreddit.py:1404
+#: r2/controllers/front.py:1004 r2/models/subreddit.py:1397
 #: r2/templates/multiinfobar.html:33
 #, python-format
 msgid "%s subreddits"
 msgstr ""
 
 #: r2/controllers/front.py:1023 r2/lib/menus.py:78
-#: r2/templates/newlink.html:150
+#: r2/templates/newlink.html:147
 #: ../../reddit-plugin-meatspace/reddit_meatspace/templates/qrcodeform.html:34
 msgid "submit"
 msgstr "trimite"
@@ -608,33 +611,37 @@ msgstr "dezabonare"
 msgid "welcome back"
 msgstr "bine ai revenit"
 
-#: r2/controllers/front.py:1447 r2/controllers/front.py:1503
-#: r2/controllers/front.py:1523 r2/lib/menus.py:91 r2/templates/gold.html:109
+#: r2/controllers/front.py:1457 r2/controllers/front.py:1514
+#: r2/controllers/front.py:1534 r2/lib/menus.py:91 r2/templates/gold.html:109
 msgid "reddit gold"
 msgstr ""
 
-#: r2/controllers/front.py:1535 r2/controllers/ipn.py:1035
+#: r2/controllers/front.py:1546 r2/controllers/ipn.py:1046
 msgid "reddit gold subscription"
 msgstr ""
 
-#: r2/controllers/ipn.py:241 r2/controllers/ipn.py:242
+#: r2/controllers/ipn.py:243 r2/controllers/ipn.py:244
 msgid "An anonymous redditor"
 msgstr ""
 
-#: r2/controllers/ipn.py:252
+#: r2/controllers/ipn.py:254
 #, python-format
 msgid "Let there be gold! %s just sent you reddit gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:258
+#: r2/controllers/ipn.py:262
 msgid "Your comment has been gilded!"
 msgstr ""
 
-#: r2/controllers/ipn.py:291
+#: r2/controllers/ipn.py:265
+msgid "Your submission has been gilded!"
+msgstr ""
+
+#: r2/controllers/ipn.py:296
 msgid "Your gold gift code has been generated!"
 msgstr ""
 
-#: r2/controllers/ipn.py:292
+#: r2/controllers/ipn.py:297
 #, python-format
 msgid ""
 "Here is your gift code for %(amount)s of reddit gold:\n"
@@ -644,60 +651,60 @@ msgid ""
 "The recipient (or you!) can enter it at http://www.reddit.com/gold or go directly to http://www.reddit.com/thanks/%(code)s to claim it."
 msgstr ""
 
-#: r2/controllers/ipn.py:312
+#: r2/controllers/ipn.py:317
 msgid "nice try."
 msgstr ""
 
-#: r2/controllers/ipn.py:344
+#: r2/controllers/ipn.py:349
 msgid "that user has deleted their account"
 msgstr ""
 
-#: r2/controllers/ipn.py:360
+#: r2/controllers/ipn.py:367
 msgid "the gold has been delivered!"
 msgstr ""
 
-#: r2/controllers/ipn.py:366
+#: r2/controllers/ipn.py:373
 #, python-format
 msgid ""
 "there was an error creating a gift code. please try again later, or contact "
 "%(email)s for assistance."
 msgstr ""
 
-#: r2/controllers/ipn.py:373
+#: r2/controllers/ipn.py:380
 msgid "the gift code has been messaged to you!"
 msgstr ""
 
-#: r2/controllers/ipn.py:497
+#: r2/controllers/ipn.py:503
 msgid "Eureka! Thank you for investing in reddit gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:499
+#: r2/controllers/ipn.py:505
 msgid ""
 "Thank you for buying reddit gold. Your patronage supports the site and makes"
 " future development possible. For example, one month of reddit gold pays for"
 " 5 instance hours of reddit's servers."
 msgstr ""
 
-#: r2/controllers/ipn.py:509
+#: r2/controllers/ipn.py:515
 msgid "Eureka! Thank you for investing in reddit gold creddits!"
 msgstr ""
 
-#: r2/controllers/ipn.py:512
+#: r2/controllers/ipn.py:518
 msgid ""
 "Thank you for buying creddits. Your patronage supports the site and makes "
 "future development possible. To spend your creddits and spread reddit gold, "
 "visit [/gold](/gold) or your favorite person's user page."
 msgstr ""
 
-#: r2/controllers/ipn.py:518 r2/controllers/ipn.py:539
+#: r2/controllers/ipn.py:524 r2/controllers/ipn.py:548
 msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:533
+#: r2/controllers/ipn.py:542
 msgid "Thanks for giving the gift of reddit gold!"
 msgstr ""
 
-#: r2/controllers/ipn.py:534
+#: r2/controllers/ipn.py:543
 #, python-format
 msgid ""
 "Your classy gift to %s has been delivered.\n"
@@ -705,32 +712,32 @@ msgid ""
 "Thank you for gifting reddit gold. Your patronage supports the site and makes future development possible."
 msgstr ""
 
-#: r2/controllers/ipn.py:652
+#: r2/controllers/ipn.py:663
 msgid "reddit gold payment cancelled"
 msgstr ""
 
-#: r2/controllers/ipn.py:653
+#: r2/controllers/ipn.py:664
 #, python-format
 msgid ""
 "Your reddit gold payment has been cancelled, contact %(gold_email)s for "
 "details"
 msgstr ""
 
-#: r2/controllers/ipn.py:667
+#: r2/controllers/ipn.py:678
 msgid "reddit gold payment failed"
 msgstr ""
 
-#: r2/controllers/ipn.py:668
+#: r2/controllers/ipn.py:679
 #, python-format
 msgid ""
 "Your reddit gold payment has failed, contact %(gold_email)s for details"
 msgstr ""
 
-#: r2/controllers/ipn.py:672
+#: r2/controllers/ipn.py:683
 msgid "reddit gold subscription payment failed"
 msgstr ""
 
-#: r2/controllers/ipn.py:673
+#: r2/controllers/ipn.py:684
 #, python-format
 msgid ""
 "Your reddit gold subscription payment has failed. Please go to [your gold "
@@ -738,214 +745,218 @@ msgid ""
 "correct, or contact %(gold_email)s for details"
 msgstr ""
 
-#: r2/controllers/ipn.py:683
+#: r2/controllers/ipn.py:694
 msgid "reddit gold refund"
 msgstr ""
 
-#: r2/controllers/ipn.py:684
+#: r2/controllers/ipn.py:695
 #, python-format
 msgid ""
 "Your reddit gold payment has been refunded, contact %(gold_email)s for "
 "details"
 msgstr ""
 
-#: r2/controllers/ipn.py:789
+#: r2/controllers/ipn.py:800
 #, python-format
 msgid "error: %(error)s"
 msgstr ""
 
-#: r2/controllers/ipn.py:791
+#: r2/controllers/ipn.py:802
 msgid "invalid request"
 msgstr ""
 
-#: r2/controllers/ipn.py:793
+#: r2/controllers/ipn.py:804
 msgid "api error"
 msgstr ""
 
-#: r2/controllers/ipn.py:795
+#: r2/controllers/ipn.py:806
 msgid "connection error"
 msgstr ""
 
-#: r2/controllers/ipn.py:797
+#: r2/controllers/ipn.py:808
 msgid "error"
 msgstr ""
 
-#: r2/controllers/ipn.py:927
+#: r2/controllers/ipn.py:938
 msgid "error: address verification failed"
 msgstr ""
 
-#: r2/controllers/ipn.py:931
+#: r2/controllers/ipn.py:942
 msgid "error: cvc check failed"
 msgstr ""
 
-#: r2/controllers/ipn.py:976
+#: r2/controllers/ipn.py:987
 msgid "your gold subscription has been cancelled"
 msgstr ""
 
-#: r2/controllers/ipn.py:977
+#: r2/controllers/ipn.py:988
 #, python-format
 msgid "if you have any questions please email %(email)s"
 msgstr ""
 
-#: r2/controllers/ipn.py:1004
+#: r2/controllers/ipn.py:1015
 msgid "something bad happened, try again later"
 msgstr ""
 
-#: r2/controllers/ipn.py:1013
+#: r2/controllers/ipn.py:1024
 msgid "your account already has a gold subscription"
 msgstr ""
 
-#: r2/controllers/ipn.py:1019
+#: r2/controllers/ipn.py:1030
 msgid "stop trying to trick the form"
 msgstr ""
 
-#: r2/controllers/ipn.py:1034
+#: r2/controllers/ipn.py:1045
 msgid "subscription created"
 msgstr ""
 
-#: r2/controllers/ipn.py:1036
+#: r2/controllers/ipn.py:1047
 msgid ""
 "Your subscription is being processed and reddit gold will be delivered "
 "shortly."
 msgstr ""
 
-#: r2/controllers/ipn.py:1043
+#: r2/controllers/ipn.py:1054
 msgid "payment submitted"
 msgstr ""
 
-#: r2/controllers/ipn.py:1044
+#: r2/controllers/ipn.py:1055
 msgid "reddit gold payment"
 msgstr ""
 
-#: r2/controllers/ipn.py:1045
+#: r2/controllers/ipn.py:1056
 msgid ""
 "Your payment is being processed and reddit gold will be delivered shortly."
 msgstr ""
 
-#: r2/controllers/ipn.py:1060
+#: r2/controllers/ipn.py:1071
 msgid "your payment details have been updated"
 msgstr ""
 
-#: r2/controllers/ipn.py:1072
+#: r2/controllers/ipn.py:1083
 msgid "your subscription has been cancelled"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:362
+#: r2/controllers/listingcontroller.py:355
 msgid "newest submissions"
 msgstr "cele mai noi articole"
 
-#: r2/controllers/listingcontroller.py:392
+#: r2/controllers/listingcontroller.py:385
 msgid "rising submissions"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:441
+#: r2/controllers/listingcontroller.py:434
 msgid "top scoring links"
 msgstr "linkurile cu scor mare"
 
-#: r2/controllers/listingcontroller.py:445
+#: r2/controllers/listingcontroller.py:438
 msgid "most controversial links"
 msgstr "linkurile controversate"
 
-#: r2/controllers/listingcontroller.py:458
+#: r2/controllers/listingcontroller.py:451
 msgid "you're really bored now, eh?"
 msgstr "acum chiar ești plictisit, nu-i așa?"
 
-#: r2/controllers/listingcontroller.py:542
+#: r2/controllers/listingcontroller.py:521
 msgid "filter by subreddit"
 msgstr ""
 
+#: r2/controllers/listingcontroller.py:535
+msgid "filter by category"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:541
+msgid "gildings received"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:542
+msgid "gildings given"
+msgstr ""
+
 #: r2/controllers/listingcontroller.py:548
-msgid "my posts"
-msgstr ""
-
-#: r2/controllers/listingcontroller.py:549
-msgid "posts gilded by me"
-msgstr ""
-
-#: r2/controllers/listingcontroller.py:555
 #, python-format
 msgid "overview for %(user)s"
 msgstr "sumar pentru %(user)s"
 
-#: r2/controllers/listingcontroller.py:556
+#: r2/controllers/listingcontroller.py:549
 #, python-format
 msgid "comments by %(user)s"
 msgstr "comentarii scrise de %(user)s"
 
-#: r2/controllers/listingcontroller.py:558
+#: r2/controllers/listingcontroller.py:551
 #, python-format
-msgid "gilded comments by %(user)s"
+msgid "gilded by %(user)s"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:559
+#: r2/controllers/listingcontroller.py:552
 #, python-format
 msgid "liked by %(user)s"
 msgstr "plăcute de %(user)s"
 
-#: r2/controllers/listingcontroller.py:560
+#: r2/controllers/listingcontroller.py:553
 #, python-format
 msgid "disliked by %(user)s"
 msgstr "neplăcute de %(user)s"
 
-#: r2/controllers/listingcontroller.py:561
+#: r2/controllers/listingcontroller.py:554
 #, python-format
 msgid "saved by %(user)s"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:562
+#: r2/controllers/listingcontroller.py:555
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "ascunse de %(user)s"
 
-#: r2/controllers/listingcontroller.py:563
+#: r2/controllers/listingcontroller.py:556
 #, python-format
 msgid "promoted by %(user)s"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:565
+#: r2/controllers/listingcontroller.py:558
 #, python-format
-msgid "comments gilded by %(user)s"
+msgid "gildings given by %(user)s"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:567
+#: r2/controllers/listingcontroller.py:560
 #, python-format
 msgid "profile for %(user)s"
 msgstr "profil pentru %(user)s"
 
-#: r2/controllers/listingcontroller.py:752
-#: r2/controllers/listingcontroller.py:766
-#: r2/templates/printablebuttons.html:345
+#: r2/controllers/listingcontroller.py:757
+#: r2/controllers/listingcontroller.py:771
+#: r2/templates/printablebuttons.html:351
 msgid "unread"
 msgstr "necitite"
 
-#: r2/controllers/listingcontroller.py:754
+#: r2/controllers/listingcontroller.py:759
 msgid "comment replies"
 msgstr "răspunsuri la comentariu"
 
-#: r2/controllers/listingcontroller.py:755
+#: r2/controllers/listingcontroller.py:760
 msgid "post replies"
 msgstr "răspunsuri la post"
 
-#: r2/controllers/listingcontroller.py:758
+#: r2/controllers/listingcontroller.py:763
 msgid "username mentions"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:773 r2/templates/redditheader.html:96
+#: r2/controllers/listingcontroller.py:778 r2/templates/redditheader.html:96
 msgid "messages"
 msgstr "mesaje"
 
-#: r2/controllers/listingcontroller.py:1032
+#: r2/controllers/listingcontroller.py:1037
 msgid "subreddits: "
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:1135
+#: r2/controllers/listingcontroller.py:1140
 msgid ""
 "To block a user click 'block user'  below a message from a user you wish to "
 "block from messaging you."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:1330
-msgid "gilded comments"
+#: r2/controllers/listingcontroller.py:1335 r2/lib/menus.py:56
+msgid "gilded"
 msgstr ""
 
 #: r2/controllers/multi.py:251
@@ -953,11 +964,11 @@ msgstr ""
 msgid "copied from %(source)s"
 msgstr ""
 
-#: r2/controllers/policies.py:42 r2/lib/pages/pages.py:4247
+#: r2/controllers/policies.py:42 r2/lib/pages/pages.py:4305
 msgid "privacy policy"
 msgstr ""
 
-#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:4248
+#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:4306
 msgid "user agreement"
 msgstr ""
 
@@ -966,26 +977,82 @@ msgid "over 18?"
 msgstr "peste 18 ani?"
 
 #: r2/controllers/promotecontroller.py:148
+msgid "create sponsored link"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:158
+msgid "edit sponsored link"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:183
+msgid "manage roadblocks"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:247
+msgid "sponsored link report"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:271
+msgid "sponsored link inventory"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:279
+msgid "unapproved promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:280
+msgid "accepted promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:281
+msgid "unpaid promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:282
+msgid "rejected promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:283
+msgid "live promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:284
+msgid "underdelivered promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:285
+msgid "reported promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:286
+msgid "house promoted links"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:287 r2/lib/menus.py:168
+msgid "all promoted links"
+msgstr "toate linkurile promovate"
+
+#: r2/controllers/promotecontroller.py:295
 msgid "promoted by you"
 msgstr "promovate de tine"
 
-#: r2/controllers/promotecontroller.py:398
+#: r2/controllers/promotecontroller.py:490
 msgid "refund succeeded"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:400
+#: r2/controllers/promotecontroller.py:492
 msgid "refund not needed"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:739
+#: r2/controllers/promotecontroller.py:829
 msgid "failed to authenticate card.  sorry."
 msgstr "eroare la autentificarea cardului. scuze."
 
-#: r2/controllers/promotecontroller.py:784
+#: r2/controllers/promotecontroller.py:845
 msgid "bad image"
 msgstr "imagine incorectă"
 
-#: r2/controllers/reddit_base.py:1409
+#: r2/controllers/reddit_base.py:1426
 msgid "search failed"
 msgstr "căutare eșuată"
 
@@ -1216,7 +1283,7 @@ msgstr "nu ai voie să scrii acolo."
 msgid "you must specify a subreddit"
 msgstr ""
 
-#: r2/lib/errors.py:71 r2/lib/validator/validator.py:2492
+#: r2/lib/errors.py:71 r2/lib/validator/validator.py:2515
 msgid "that name isn't going to work"
 msgstr "acel nume nu are cum să meargă"
 
@@ -1762,7 +1829,7 @@ msgstr ""
 msgid "clicks by month"
 msgstr ""
 
-#: r2/lib/jsontemplates.py:471 r2/templates/usertext.html:128
+#: r2/lib/jsontemplates.py:469 r2/templates/usertext.html:128
 msgid "[removed]"
 msgstr ""
 
@@ -1802,15 +1869,11 @@ msgstr "relevanţă"
 msgid "controversial"
 msgstr "controversat"
 
-#: r2/lib/menus.py:56
-msgid "gilded"
-msgstr ""
-
 #: r2/lib/menus.py:57
 msgid "best"
 msgstr "cel mai bun"
 
-#: r2/lib/menus.py:58 r2/lib/menus.py:347
+#: r2/lib/menus.py:58 r2/lib/menus.py:348
 msgid "random"
 msgstr ""
 
@@ -1857,7 +1920,7 @@ msgstr "dintotdeauna"
 
 #: r2/lib/menus.py:73 r2/templates/preffeeds.html:118
 #: r2/templates/printablebuttons.html:40
-#: r2/templates/printablebuttons.html:138
+#: r2/templates/printablebuttons.html:149
 msgid "spam"
 msgstr "spam"
 
@@ -1865,7 +1928,7 @@ msgstr "spam"
 msgid "autobanned"
 msgstr "autoblocat"
 
-#: r2/lib/menus.py:77 r2/lib/pages/pages.py:870 r2/lib/pages/pages.py:892
+#: r2/lib/menus.py:77 r2/lib/pages/pages.py:888 r2/lib/pages/pages.py:910
 msgid "preferences"
 msgstr "preferinţe"
 
@@ -1909,7 +1972,7 @@ msgstr ""
 msgid "jobs"
 msgstr ""
 
-#: r2/lib/menus.py:98 r2/templates/newlink.html:121
+#: r2/lib/menus.py:98 r2/templates/newlink.html:120
 #: r2/templates/promotelinkform.html:224
 msgid "options"
 msgstr "opţiuni"
@@ -1922,7 +1985,7 @@ msgstr "feed RSS"
 msgid "friends"
 msgstr "prieteni"
 
-#: r2/lib/menus.py:102 r2/templates/printablebuttons.html:339
+#: r2/lib/menus.py:102 r2/templates/printablebuttons.html:345
 msgid "blocked"
 msgstr ""
 
@@ -1934,7 +1997,7 @@ msgstr "parolă/email"
 #: r2/templates/printablebuttons.html:33
 #: r2/templates/renderablecampaign.html:130
 #: r2/templates/wikipagesettings.html:76
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:6
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-reporter.js:6
 msgid "delete"
 msgstr "şterge"
 
@@ -1981,7 +2044,7 @@ msgstr ""
 msgid "home"
 msgstr "acasă"
 
-#: r2/lib/menus.py:122 r2/lib/pages/pages.py:710
+#: r2/lib/menus.py:122 r2/lib/pages/pages.py:728
 msgid "about"
 msgstr "despre"
 
@@ -1989,7 +2052,7 @@ msgstr "despre"
 msgid "edit subscriptions"
 msgstr ""
 
-#: r2/lib/menus.py:124 r2/lib/pages/pages.py:1505
+#: r2/lib/menus.py:124 r2/lib/pages/pages.py:1525
 msgid "subreddit settings"
 msgstr ""
 
@@ -2046,11 +2109,11 @@ msgid "popular"
 msgstr "populare"
 
 #: r2/lib/menus.py:142 r2/templates/createsubreddit.html:446
-#: r2/templates/listingchooser.html:62 r2/templates/promotelinkform.html:484
+#: r2/templates/listingchooser.html:62 r2/templates/promotelinkform.html:486
 msgid "create"
 msgstr "crează"
 
-#: r2/lib/menus.py:143 r2/lib/pages/pages.py:1972
+#: r2/lib/menus.py:143 r2/lib/pages/pages.py:1992
 msgid "my subreddits"
 msgstr ""
 
@@ -2071,6 +2134,7 @@ msgid "promoted"
 msgstr "promovat"
 
 #: r2/lib/menus.py:150
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:76
 msgid "reporters"
 msgstr "semnalizatori"
 
@@ -2087,7 +2151,7 @@ msgid "info"
 msgstr "info"
 
 #: r2/lib/menus.py:154 r2/templates/multiinfobar.html:80
-#: r2/templates/printablebuttons.html:182 r2/templates/sharelink.html:118
+#: r2/templates/printablebuttons.html:193 r2/templates/sharelink.html:118
 msgid "share"
 msgstr "trimite la alții"
 
@@ -2120,7 +2184,7 @@ msgid "voting"
 msgstr ""
 
 #: r2/lib/menus.py:165
-msgid "self-serve advertising"
+msgid "advertising"
 msgstr ""
 
 #: r2/lib/menus.py:166
@@ -2130,10 +2194,6 @@ msgstr "crează o promoție"
 #: r2/lib/menus.py:167
 msgid "my promoted links"
 msgstr "linkurile mele promovate"
-
-#: r2/lib/menus.py:168
-msgid "all promoted links"
-msgstr "toate linkurile promovate"
 
 #: r2/lib/menus.py:170
 msgid "unseen"
@@ -2148,7 +2208,7 @@ msgid "inventory"
 msgstr ""
 
 #: r2/lib/menus.py:173
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:14
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:16
 msgid "live"
 msgstr "live"
 
@@ -2181,26 +2241,26 @@ msgid "whitelist"
 msgstr ""
 
 #. TRANSLATORS: This refers to /r/mod
-#: r2/lib/menus.py:343
+#: r2/lib/menus.py:344
 msgid "mod"
 msgstr ""
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:345
+#: r2/lib/menus.py:346
 msgid "front"
 msgstr ""
 
 #. TRANSLATORS: Gold feature, "myrandom", a random subreddit from your
 #. subscriptions
-#: r2/lib/menus.py:349
+#: r2/lib/menus.py:350
 msgid "myrandom"
 msgstr ""
 
-#: r2/lib/menus.py:502
+#: r2/lib/menus.py:503
 msgid "kind"
 msgstr "fel"
 
-#: r2/lib/menus.py:517
+#: r2/lib/menus.py:518
 msgid "links from"
 msgstr "legături din"
 
@@ -2256,10 +2316,10 @@ msgstr ""
 msgid "discovery"
 msgstr ""
 
-#: r2/lib/recommender.py:52 r2/lib/strings.py:262 r2/lib/strings.py:267
-#: r2/lib/template_helpers.py:231 r2/models/modaction.py:339
+#: r2/lib/recommender.py:52 r2/lib/strings.py:265 r2/lib/strings.py:270
+#: r2/lib/template_helpers.py:232 r2/models/modaction.py:339
 #: r2/templates/subredditstylesheet.html:109
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:255
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:269
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] ""
@@ -2645,18 +2705,25 @@ msgstr ""
 #: r2/lib/strings.py:148
 #, python-format
 msgid ""
+"Another user liked [your submission](%(url)s) so much that they gilded it, giving you reddit gold.\n"
+"\n"
+msgstr ""
+
+#: r2/lib/strings.py:149
+#, python-format
+msgid ""
 "You're about to set up an ongoing, autorenewing subscription to reddit gold "
 "for yourself (%(user)s)."
 msgstr ""
 
-#: r2/lib/strings.py:149
+#: r2/lib/strings.py:150
 #, python-format
 msgid ""
 "You're about to make a one-time purchase of %(amount)s of reddit gold for "
 "yourself (%(user)s)."
 msgstr ""
 
-#: r2/lib/strings.py:150
+#: r2/lib/strings.py:151
 #, python-format
 msgid ""
 "You're about to purchase %(amount)s of reddit gold creddits. They work like "
@@ -2664,7 +2731,7 @@ msgid ""
 " reddit gold to someone else."
 msgstr ""
 
-#: r2/lib/strings.py:151
+#: r2/lib/strings.py:152
 #, python-format
 msgid ""
 "You're about to purchase %(amount)s of reddit gold in the form of a gift "
@@ -2672,38 +2739,52 @@ msgid ""
 "gold to their account."
 msgstr ""
 
-#: r2/lib/strings.py:152
+#: r2/lib/strings.py:153
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s, who will be"
 " told that it came from you."
 msgstr ""
 
-#: r2/lib/strings.py:153
+#: r2/lib/strings.py:154
 #, python-format
 msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s. It will be "
 "an anonymous gift."
 msgstr ""
 
-#: r2/lib/strings.py:154
+#: r2/lib/strings.py:155
 #, python-format
 msgid ""
 "Want to say thanks to *%(recipient)s* for this comment? Give them a month of"
 " [reddit gold](/gold/about)."
 msgstr ""
 
-#: r2/lib/strings.py:155
+#: r2/lib/strings.py:156
+#, python-format
+msgid ""
+"Want to say thanks to *%(recipient)s* for this submission? Give them a month"
+" of [reddit gold](/gold/about)."
+msgstr ""
+
+#: r2/lib/strings.py:157
 #, python-format
 msgid ""
 "Give *%(recipient)s* a month of [reddit gold](/gold/about) for this comment:"
 msgstr ""
 
-#: r2/lib/strings.py:156
+#: r2/lib/strings.py:158
+#, python-format
+msgid ""
+"Give *%(recipient)s* a month of [reddit gold](/gold/about) for this "
+"submission:"
+msgstr ""
+
+#: r2/lib/strings.py:159
 msgid "sorry, this has been archived and can no longer be voted on"
 msgstr ""
 
-#: r2/lib/strings.py:157
+#: r2/lib/strings.py:160
 msgid ""
 "This page shows a history of recent activity on your account. If you notice "
 "unusual activity, you should change your password immediately. Location "
@@ -2713,12 +2794,12 @@ msgid ""
 "this list after regular use of the site."
 msgstr ""
 
-#: r2/lib/strings.py:158
+#: r2/lib/strings.py:161
 #, python-format
 msgid "You are currently accessing reddit from this IP address: %(address)s."
 msgstr ""
 
-#: r2/lib/strings.py:159
+#: r2/lib/strings.py:162
 msgid ""
 "\n"
 "These apps are authorized to access your account. Logging out of all sessions\n"
@@ -2726,7 +2807,7 @@ msgid ""
 "apps below.\n"
 msgstr ""
 
-#: r2/lib/strings.py:165
+#: r2/lib/strings.py:168
 msgid ""
 "Below you will see your promotion's impression and click traffic per hour of"
 " promotion.  Please note that these traffic totals will lag behind by two to"
@@ -2734,26 +2815,26 @@ msgid ""
 " the link has finished its run."
 msgstr ""
 
-#: r2/lib/strings.py:166
+#: r2/lib/strings.py:169
 #, python-format
 msgid ""
 "Traffic processing is currently running slow. The latest data available is "
 "from %(date)s. This page will be updated as new data becomes available."
 msgstr ""
 
-#: r2/lib/strings.py:167
+#: r2/lib/strings.py:170
 #, python-format
 msgid ""
 "Traffic processing occurs on an hourly basis. The latest data available is "
 "from %(date)s. This page will be updated as new data becomes available."
 msgstr ""
 
-#: r2/lib/strings.py:168
+#: r2/lib/strings.py:171
 #, python-format
 msgid "Questions? Email self serve support: %(email)s"
 msgstr ""
 
-#: r2/lib/strings.py:170
+#: r2/lib/strings.py:173
 #, python-format
 msgid ""
 "\n"
@@ -2766,32 +2847,32 @@ msgid ""
 "Note: there are a couple of places outside of your subreddit where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr ""
 
-#: r2/lib/strings.py:180
+#: r2/lib/strings.py:183
 msgid "multireddit of your subscriptions"
 msgstr ""
 
-#: r2/lib/strings.py:181
+#: r2/lib/strings.py:184
 msgid "multireddit of subreddits you moderate"
 msgstr ""
 
-#: r2/lib/strings.py:183
+#: r2/lib/strings.py:186
 msgid ""
 "/r/all displays content from all of reddit, including subreddits you aren't "
 "subscribed to."
 msgstr ""
 
-#: r2/lib/strings.py:184
+#: r2/lib/strings.py:187
 msgid ""
 "Displaying content from /r/all of reddit, except the following subreddits:"
 msgstr ""
 
-#: r2/lib/strings.py:185
+#: r2/lib/strings.py:188
 msgid ""
 "Filtering /r/all is a feature only available to [reddit gold](/gold/about) "
 "subscribers. Displaying unfiltered results from /r/all."
 msgstr ""
 
-#: r2/lib/strings.py:263 r2/templates/comment.htmllite:58
+#: r2/lib/strings.py:266 r2/templates/comment.htmllite:58
 #: r2/templates/linkinfobar.html:47
 msgid "point"
 msgid_plural "points"
@@ -2799,7 +2880,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:266 r2/models/modaction.py:324
+#: r2/lib/strings.py:269 r2/models/modaction.py:324
 #: r2/templates/promotelinkform.html:148
 msgid "link"
 msgid_plural "links"
@@ -2807,7 +2888,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:268 r2/lib/pages/pages.py:964
+#: r2/lib/strings.py:271 r2/lib/pages/pages.py:982
 #: r2/templates/messagecompose.html:74
 msgid "message"
 msgid_plural "messages"
@@ -2815,7 +2896,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:269 r2/lib/pages/trafficpages.py:772
+#: r2/lib/strings.py:272 r2/lib/pages/trafficpages.py:779
 #: r2/templates/sitewidetraffic.html:36
 #: r2/templates/subreddittrafficreport.html:42
 msgid "subreddit"
@@ -2824,28 +2905,28 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:270
+#: r2/lib/strings.py:273
 msgid "creddit"
 msgid_plural "creddits"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:273
+#: r2/lib/strings.py:276
 msgid "reader"
 msgid_plural "readers"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:274
+#: r2/lib/strings.py:277
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:275 r2/templates/subreddit.html:71
+#: r2/lib/strings.py:278 r2/templates/subreddit.html:71
 #: r2/templates/subreddit.html:72
 msgid "approved submitter"
 msgid_plural "approved submitters"
@@ -2853,49 +2934,49 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:276 r2/templates/subreddit.html:65
+#: r2/lib/strings.py:279 r2/templates/subreddit.html:65
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:277
+#: r2/lib/strings.py:280
 msgid "user here now"
 msgid_plural "users here now"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:280
+#: r2/lib/strings.py:283
 msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:281 r2/templates/searchbar.html:39
+#: r2/lib/strings.py:284 r2/templates/searchbar.html:39
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:282
+#: r2/lib/strings.py:285
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:283
+#: r2/lib/strings.py:286
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:284 r2/lib/pages/pages.py:3745
+#: r2/lib/strings.py:287 r2/lib/pages/pages.py:3801
 #: r2/public/static/js/sponsored.js:283 r2/templates/reddittraffic.html:89
 #: r2/templates/renderablecampaign.html:55
 msgid "day"
@@ -2904,14 +2985,14 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:285 r2/templates/goldpayment.html:141
+#: r2/lib/strings.py:288 r2/templates/goldpayment.html:148
 msgid "month"
 msgid_plural "months"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/strings.py:286 r2/templates/goldpayment.html:146
+#: r2/lib/strings.py:289 r2/templates/goldpayment.html:153
 msgid "year"
 msgid_plural "years"
 msgstr[0] ""
@@ -2997,21 +3078,25 @@ msgstr "aduc titlu..."
 msgid "loading..."
 msgstr "încarc..."
 
-#: r2/lib/template_helpers.py:227
+#: r2/lib/template_helpers.py:228
 msgid "comment {verb}"
 msgstr "comentează"
 
-#: r2/lib/template_helpers.py:472 r2/models/builder.py:159
+#: r2/lib/template_helpers.py:473 r2/models/builder.py:161
 msgid "friend"
 msgstr "prieten"
 
-#: r2/lib/template_helpers.py:479
+#: r2/lib/template_helpers.py:480
 msgid "submitter"
 msgstr "redactor"
 
-#: r2/lib/template_helpers.py:493
+#: r2/lib/template_helpers.py:494
 msgid "reddit admin, speaking officially"
 msgstr "administrator reddit, vorbind în mod oficial"
+
+#: r2/lib/pages/admin_pages.py:87
+msgid "No notes for this domain"
+msgstr ""
 
 #: r2/lib/pages/pages.py:114
 #, python-format
@@ -3024,173 +3109,173 @@ msgid ""
 "speed up vote processing."
 msgstr ""
 
-#: r2/lib/pages/pages.py:309
+#: r2/lib/pages/pages.py:322
 msgid "wiki tools"
 msgstr ""
 
-#: r2/lib/pages/pages.py:365
+#: r2/lib/pages/pages.py:378
 msgid "moderation tools"
 msgstr ""
 
-#: r2/lib/pages/pages.py:420
+#: r2/lib/pages/pages.py:438
 msgid "these subreddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:438
+#: r2/lib/pages/pages.py:456
 msgid "this subreddit is archived and no longer accepting submissions."
 msgstr ""
 
-#: r2/lib/pages/pages.py:440
+#: r2/lib/pages/pages.py:458
 msgid "Submissions disabled"
 msgstr ""
 
-#: r2/lib/pages/pages.py:447
+#: r2/lib/pages/pages.py:465
 msgid "submission in this subreddit is restricted to approved submitters."
 msgstr ""
 
-#: r2/lib/pages/pages.py:450
+#: r2/lib/pages/pages.py:468
 msgid "submission in this subreddit is restricted to reddit gold members."
 msgstr ""
 
-#: r2/lib/pages/pages.py:452
+#: r2/lib/pages/pages.py:470
 msgid "Submissions restricted"
 msgstr ""
 
-#: r2/lib/pages/pages.py:500
+#: r2/lib/pages/pages.py:518
 msgid "Create your own subreddit"
 msgstr ""
 
-#: r2/lib/pages/pages.py:513
+#: r2/lib/pages/pages.py:531
 #, python-format
 msgid "...and %d more"
 msgstr ""
 
-#: r2/lib/pages/pages.py:517
+#: r2/lib/pages/pages.py:535
 msgid "message the admins"
 msgstr ""
 
-#: r2/lib/pages/pages.py:519
+#: r2/lib/pages/pages.py:537
 msgid "message the moderators"
 msgstr ""
 
-#: r2/lib/pages/pages.py:522
+#: r2/lib/pages/pages.py:540
 msgid "moderators"
 msgstr "moderatori"
 
-#: r2/lib/pages/pages.py:534
+#: r2/lib/pages/pages.py:552
 msgid "Recently viewed links"
 msgstr "Linkuri văzute recent"
 
-#: r2/lib/pages/pages.py:564
+#: r2/lib/pages/pages.py:582
 msgid "turn admin off"
 msgstr "închide admin"
 
-#: r2/lib/pages/pages.py:571 r2/lib/pages/pages.py:1063
+#: r2/lib/pages/pages.py:589 r2/lib/pages/pages.py:1081
 #: r2/templates/passwordverificationform.html:67
 msgid "turn admin on"
 msgstr "deschide admin"
 
-#: r2/lib/pages/pages.py:716
+#: r2/lib/pages/pages.py:734
 msgid "FAQ"
 msgstr "întrebări frecvente"
 
-#: r2/lib/pages/pages.py:717 r2/templates/usertext.html:150
+#: r2/lib/pages/pages.py:735 r2/templates/usertext.html:150
 msgid "reddiquette"
 msgstr "rettică"
 
-#: r2/lib/pages/pages.py:727
+#: r2/lib/pages/pages.py:745
 msgid "firefox extension"
 msgstr ""
 
-#: r2/lib/pages/pages.py:728
+#: r2/lib/pages/pages.py:746
 msgid "chrome extension"
 msgstr ""
 
-#: r2/lib/pages/pages.py:732
+#: r2/lib/pages/pages.py:750
 msgid "tools"
 msgstr ""
 
-#: r2/lib/pages/pages.py:739
+#: r2/lib/pages/pages.py:757
 msgid "redditgifts"
 msgstr ""
 
-#: r2/lib/pages/pages.py:740
+#: r2/lib/pages/pages.py:758
 msgid "reddit.tv"
 msgstr ""
 
-#: r2/lib/pages/pages.py:741
+#: r2/lib/pages/pages.py:759
 msgid "radio reddit"
 msgstr ""
 
-#: r2/lib/pages/pages.py:743
+#: r2/lib/pages/pages.py:761
 msgid "<3"
 msgstr ""
 
-#: r2/lib/pages/pages.py:961
+#: r2/lib/pages/pages.py:979
 #, python-format
 msgid "%(site)s mail"
 msgstr "mail %(site)s"
 
-#: r2/lib/pages/pages.py:1028 r2/templates/redditheader.html:74
+#: r2/lib/pages/pages.py:1046 r2/templates/redditheader.html:74
 msgid "login or register"
 msgstr "loghează-te sau înregistrează-te"
 
-#: r2/lib/pages/pages.py:1117
+#: r2/lib/pages/pages.py:1135
 msgid "request for permission"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1119
+#: r2/lib/pages/pages.py:1137
 msgid "permission"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1151
+#: r2/lib/pages/pages.py:1169
 msgid "bummer"
 msgstr "nasol"
 
-#: r2/lib/pages/pages.py:1163
+#: r2/lib/pages/pages.py:1181
 msgid "this page is no longer available due to a copyright claim."
 msgstr "pagina nu mai este disponibilă din cauza unei plângeri de drept de autor."
 
-#: r2/lib/pages/pages.py:1506
+#: r2/lib/pages/pages.py:1526
 #, python-format
 msgid "about %(site)s"
 msgstr "despre %(site)s"
 
-#: r2/lib/pages/pages.py:1532
+#: r2/lib/pages/pages.py:1552
 msgid "search subreddits by name"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1569
+#: r2/lib/pages/pages.py:1589
 #, python-format
 msgid "your front page subreddits (%s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1639 r2/templates/createsubreddit.html:382
+#: r2/lib/pages/pages.py:1659 r2/templates/createsubreddit.html:382
 #: r2/templates/spotlightlisting.html:60
 msgid "what's this?"
 msgstr "ce-i asta?"
 
-#: r2/lib/pages/pages.py:1640
+#: r2/lib/pages/pages.py:1660
 msgid "trophy case"
 msgstr "trofee"
 
-#: r2/lib/pages/pages.py:1649
+#: r2/lib/pages/pages.py:1669
 msgid "public multireddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1659
+#: r2/lib/pages/pages.py:1686
 msgid "moderator of"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1730
+#: r2/lib/pages/pages.py:1750
 msgid "an unknown amount"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1738
+#: r2/lib/pages/pages.py:1758
 msgid "less than a day"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1752
+#: r2/lib/pages/pages.py:1772
 #, python-format
 msgid "%(creddits)s gold creddit to give"
 msgid_plural "%(creddits)s gold creddits to give"
@@ -3198,250 +3283,262 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/lib/pages/pages.py:1760
+#: r2/lib/pages/pages.py:1780
 #, python-format
 msgid "give reddit gold to %(user)s to show your appreciation"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1764
+#: r2/lib/pages/pages.py:1784
 msgid "renew your reddit gold"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1767
+#: r2/lib/pages/pages.py:1787
 msgid ""
 "get extra features and help support reddit with a reddit gold subscription"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1780
+#: r2/lib/pages/pages.py:1800
 #, python-format
 msgid "you have helped pay for *%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:1781
+#: r2/lib/pages/pages.py:1801
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:1784
+#: r2/lib/pages/pages.py:1804
 #, python-format
 msgid ""
 "gifts on your behalf have helped pay for *%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:1786
+#: r2/lib/pages/pages.py:1806
 #, python-format
 msgid ""
 "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of reddit "
 "server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:1877
+#: r2/lib/pages/pages.py:1897
 msgid "reddit is a platform for internet communities"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1878
+#: r2/lib/pages/pages.py:1898
 msgid "where your votes shape what the world is talking about."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2071
+#: r2/lib/pages/pages.py:2091
 #, python-format
 msgid "raise it to %s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2073 r2/lib/pages/pages.py:2082
+#: r2/lib/pages/pages.py:2093 r2/lib/pages/pages.py:2102
 #, python-format
 msgid "%s visible"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2080
+#: r2/lib/pages/pages.py:2100
 #, python-format
 msgid "%(bonus)s bonus subreddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2322
+#: r2/lib/pages/pages.py:2352
 #, python-format
 msgid ""
 "you have a credit card gold subscription. your card (ending in %(last4)s) "
 "will be charged %(amount)s on %(date)s."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2391
+#: r2/lib/pages/pages.py:2421
 msgid "try entering those letters again"
 msgstr "încearcă să introduci din nou literele"
 
-#: r2/lib/pages/pages.py:2450
+#: r2/lib/pages/pages.py:2480
 msgid "previous search"
 msgstr "căutarea precedentă"
 
-#: r2/lib/pages/pages.py:2476
+#: r2/lib/pages/pages.py:2506
 #, python-format
 msgid "%(site_title)s via %(domain)s"
 msgstr "%(site_title)s via %(domain)s"
 
-#: r2/lib/pages/pages.py:2919 r2/lib/pages/pages.py:3006
+#: r2/lib/pages/pages.py:2949 r2/lib/pages/pages.py:3036
 msgid "added"
 msgstr "adăugat"
 
-#: r2/lib/pages/pages.py:2966 r2/models/modaction.py:95
+#: r2/lib/pages/pages.py:2996 r2/models/modaction.py:95
 #: r2/templates/subredditinfobar.html:94 r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "blocat"
 
-#: r2/lib/pages/pages.py:2983
+#: r2/lib/pages/pages.py:3013
 msgid "invited"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3021
+#: r2/lib/pages/pages.py:3051
 msgid "grant flair"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3023
+#: r2/lib/pages/pages.py:3053
 msgid "user flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3025
+#: r2/lib/pages/pages.py:3055
 msgid "link flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3437 r2/templates/flairpane.html:76
+#: r2/lib/pages/pages.py:3467 r2/templates/flairpane.html:76
 msgid "none"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3472
+#: r2/lib/pages/pages.py:3502
 #, python-format
 msgid ""
 "Need some ideas on how to showcase your brand? [Here's a "
 "slideshow](%(link)s) on ways brands used reddit ads last year."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3901
+#: r2/lib/pages/pages.py:3520
+#, python-format
+msgid ""
+"this promotion has a total budget of %(budget)s for %(impressions)s "
+"impressions in %(num)s subreddit"
+msgid_plural ""
+"this promotion has a total budget of %(budget)s for %(impressions)s "
+"impressions in %(num)s subreddits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: r2/lib/pages/pages.py:3957
 msgid "start date"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3902
+#: r2/lib/pages/pages.py:3958
 msgid "end date"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3906 r2/templates/promotedlinktraffic.html:109
+#: r2/lib/pages/pages.py:3962 r2/templates/promotedlinktraffic.html:109
 #: r2/templates/refundpage.html:41
 msgid "id"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3907 r2/lib/pages/pages.py:3924
+#: r2/lib/pages/pages.py:3963 r2/lib/pages/pages.py:3980
 msgid "owner"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3908 r2/templates/newlink.html:72
+#: r2/lib/pages/pages.py:3964 r2/templates/newlink.html:72
 #: r2/templates/promotelinkform.html:159
 msgid "url"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3910
+#: r2/lib/pages/pages.py:3966
 msgid "upvotes"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3911
+#: r2/lib/pages/pages.py:3967
 msgid "downvotes"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3912 r2/lib/pages/trafficpages.py:277
-#: r2/lib/pages/trafficpages.py:730 r2/templates/promotedlinktraffic.html:41
+#: r2/lib/pages/pages.py:3968 r2/lib/pages/trafficpages.py:277
+#: r2/lib/pages/trafficpages.py:737 r2/templates/promotedlinktraffic.html:41
 #: r2/templates/promotedlinktraffic.html:119
 msgid "clicks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3913 r2/lib/pages/trafficpages.py:274
-#: r2/lib/pages/trafficpages.py:398 r2/lib/pages/trafficpages.py:729
+#: r2/lib/pages/pages.py:3969 r2/lib/pages/trafficpages.py:274
+#: r2/lib/pages/trafficpages.py:398 r2/lib/pages/trafficpages.py:736
 #: r2/templates/adverttrafficsummary.html:36
 #: r2/templates/promotedlinktraffic.html:40
 #: r2/templates/promotedlinktraffic.html:117
-#: r2/templates/promotelinkform.html:413
+#: r2/templates/promotelinkform.html:415
 msgid "impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3921
+#: r2/lib/pages/pages.py:3977
 msgid "campaigns"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3923
+#: r2/lib/pages/pages.py:3979
 msgid "link id"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3925
+#: r2/lib/pages/pages.py:3981
 msgid "campaign id"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3926 r2/templates/promotedlinktraffic.html:114
+#: r2/lib/pages/pages.py:3982 r2/templates/promotedlinktraffic.html:114
 #: r2/templates/refundpage.html:53
 msgid "target"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3927
+#: r2/lib/pages/pages.py:3983
 msgid "bid"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3928
+#: r2/lib/pages/pages.py:3984
 msgid "frontpage clicks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3928
+#: r2/lib/pages/pages.py:3984
 msgid "frontpage impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3929
+#: r2/lib/pages/pages.py:3985
 msgid "subreddit clicks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3929
+#: r2/lib/pages/pages.py:3985
 msgid "subreddit impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3930 r2/lib/pages/trafficpages.py:404
+#: r2/lib/pages/pages.py:3986 r2/lib/pages/trafficpages.py:404
 msgid "total clicks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3930
+#: r2/lib/pages/pages.py:3986
 msgid "total impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4066 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:4122 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4163
+#: r2/lib/pages/pages.py:4221
 msgid "subscribed"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4164 r2/templates/preffeeds.html:54
+#: r2/lib/pages/pages.py:4222 r2/templates/preffeeds.html:54
 msgid "your front page"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4166 r2/templates/preffeeds.html:77
+#: r2/lib/pages/pages.py:4224 r2/templates/preffeeds.html:77
 #: r2/templates/preffeeds.html:102
 msgid "everything"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4167
+#: r2/lib/pages/pages.py:4225
 msgid "from all subreddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4169
+#: r2/lib/pages/pages.py:4227
 msgid "moderating"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4170
+#: r2/lib/pages/pages.py:4228
 msgid "subreddits you mod"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4176
+#: r2/lib/pages/pages.py:4234
 msgid "gold perks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4188
+#: r2/lib/pages/pages.py:4246
 msgid "explore multis"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4276
+#: r2/lib/pages/pages.py:4334
 msgid "popular choices"
 msgstr ""
 
@@ -3450,7 +3547,7 @@ msgstr ""
 msgid "uniques by %s"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:135 r2/lib/pages/trafficpages.py:773
+#: r2/lib/pages/trafficpages.py:135 r2/lib/pages/trafficpages.py:780
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34
 #: r2/templates/reddittraffic.html:90 r2/templates/sitewidetraffic.html:37
@@ -3463,7 +3560,7 @@ msgstr ""
 msgid "pageviews by %s"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:138 r2/lib/pages/trafficpages.py:774
+#: r2/lib/pages/trafficpages.py:138 r2/lib/pages/trafficpages.py:781
 #: r2/templates/languagetrafficsummary.html:35
 #: r2/templates/reddittraffic.html:91 r2/templates/sitewidetraffic.html:38
 #: r2/templates/subreddittrafficreport.html:44
@@ -3521,11 +3618,11 @@ msgstr ""
 msgid "total"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:728
+#: r2/lib/pages/trafficpages.py:735
 msgid "date and time (UTC)"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:731
+#: r2/lib/pages/trafficpages.py:738
 msgid "click-through rate (%)"
 msgstr ""
 
@@ -3534,9 +3631,9 @@ msgid "view"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:106 r2/templates/paymentform.html:163
-#: r2/templates/prefapps.html:88 r2/templates/printablebuttons.html:177
-#: r2/templates/printablebuttons.html:209
-#: r2/templates/printablebuttons.html:292
+#: r2/templates/prefapps.html:88 r2/templates/printablebuttons.html:188
+#: r2/templates/printablebuttons.html:220
+#: r2/templates/printablebuttons.html:305
 #: r2/templates/renderablecampaign.html:124 r2/templates/wrappeduser.html:57
 msgid "edit"
 msgstr "editează"
@@ -3546,7 +3643,7 @@ msgid "talk"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:110 r2/lib/pages/wiki.py:180
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:66
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:71
 msgid "settings"
 msgstr ""
 
@@ -3596,7 +3693,7 @@ msgid ""
 msgstr ""
 
 #: r2/lib/pages/wiki.py:205
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:52
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:58
 msgid "discussions"
 msgstr ""
 
@@ -3610,108 +3707,108 @@ msgid ""
 "page."
 msgstr ""
 
-#: r2/lib/validator/validator.py:1444
+#: r2/lib/validator/validator.py:1467
 #, python-format
 msgid "%(min)d to any"
 msgstr ""
 
-#: r2/lib/validator/validator.py:1446
+#: r2/lib/validator/validator.py:1469
 #, python-format
 msgid "any to %(max)d"
 msgstr ""
 
-#: r2/lib/validator/validator.py:1448
+#: r2/lib/validator/validator.py:1471
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2038
+#: r2/lib/validator/validator.py:2061
 msgid "please provide a first name"
 msgstr "te rugăm introdu numele tău"
 
-#: r2/lib/validator/validator.py:2040
+#: r2/lib/validator/validator.py:2063
 msgid "please provide a last name"
 msgstr "te rugăm introdu numele de familie"
 
-#: r2/lib/validator/validator.py:2042
+#: r2/lib/validator/validator.py:2065
 msgid "please provide an address"
 msgstr "te rugăm introdu o adresă"
 
-#: r2/lib/validator/validator.py:2044
+#: r2/lib/validator/validator.py:2067
 msgid "please provide your city"
 msgstr "te rugăm introdu orașul tău"
 
-#: r2/lib/validator/validator.py:2046
+#: r2/lib/validator/validator.py:2069
 msgid "please provide your state"
 msgstr "te rugăm introdu județul tău"
 
-#: r2/lib/validator/validator.py:2048
+#: r2/lib/validator/validator.py:2071
 msgid "please provide your zip or post code"
 msgstr "te rugăm introdu codul poștal"
 
-#: r2/lib/validator/validator.py:2050
+#: r2/lib/validator/validator.py:2073
 msgid "please provide your country"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2067
+#: r2/lib/validator/validator.py:2090
 #, python-format
 msgid "max length %d characters"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2090
+#: r2/lib/validator/validator.py:2113
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "numărul cardului de credit trebuie să aibă între 13 și 16 cifre"
 
-#: r2/lib/validator/validator.py:2095
+#: r2/lib/validator/validator.py:2118
 msgid "dates should be YYYY-MM"
 msgstr "dățile trebuie să fie de forma AAAA-LL"
 
-#: r2/lib/validator/validator.py:2103
+#: r2/lib/validator/validator.py:2126
 msgid "month must be in the range 01..12"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2106
+#: r2/lib/validator/validator.py:2129
 msgid "expiration date must be in the future"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2110
+#: r2/lib/validator/validator.py:2133
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "numărul de verificare al cardului trebuie să aibă 3 sau 4 cifre"
 
-#: r2/lib/validator/validator.py:2148
+#: r2/lib/validator/validator.py:2171
 msgid "a user by name"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2163
+#: r2/lib/validator/validator.py:2186
 msgid "a [fullname](#fullname) of a link"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2263
+#: r2/lib/validator/validator.py:2286
 msgid "an app"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2280
+#: r2/lib/validator/validator.py:2303
 msgid "an app developed by the user"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2482
+#: r2/lib/validator/validator.py:2505
 msgid "no spaces allowed"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2484
+#: r2/lib/validator/validator.py:2507
 #, python-format
 msgid "invalid character: '%s'"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2486
+#: r2/lib/validator/validator.py:2509
 msgid "can't start with a '_'"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2488
+#: r2/lib/validator/validator.py:2511
 msgid "that name is too short"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2490
+#: r2/lib/validator/validator.py:2513
 msgid "that name is too long"
 msgstr ""
 
@@ -3763,78 +3860,38 @@ msgstr ""
 msgid "Your subscription to reddit gold will be expiring soon."
 msgstr ""
 
-#: r2/models/builder.py:122
+#: r2/models/builder.py:124
 #, python-format
 msgid "moderator of /r/%(reddit)s, speaking officially"
 msgstr "moderator al /r/ %(reddit)s , vorbind în mod oficial"
 
-#: r2/models/builder.py:184
+#: r2/models/builder.py:186
 #, python-format
 msgid "%(user)s just celebrated a reddit birthday!"
 msgstr ""
 
-#: r2/models/builder.py:285
+#: r2/models/builder.py:287
 msgid "a moderator"
 msgstr ""
 
-#: r2/models/builder.py:288
+#: r2/models/builder.py:290
 #, python-format
 msgid "approved by %(who)s %(when)s ago"
 msgstr ""
 
-#: r2/models/builder.py:292
+#: r2/models/builder.py:294
 #, python-format
 msgid "approved by %s"
 msgstr "aprobat de %s"
 
-#: r2/models/link.py:567
-#, python-format
-msgid "by %(author)s to %(reddit)s"
-msgstr ""
-
-#: r2/models/link.py:570
-#, python-format
-msgid "by %(author)s"
-msgstr ""
-
-#: r2/models/link.py:574
-#, python-format
-msgid "%(score)s submitted %(when)s ago%(lastedited)s"
-msgstr ""
-
-#: r2/models/link.py:579
-#, python-format
-msgid "submitted %(when)s ago%(lastedited)s by %(author)s to %(reddit)s"
-msgstr ""
-
-#: r2/models/link.py:582
-#, python-format
-msgid "submitted %(when)s ago%(lastedited)s by %(author)s"
-msgstr ""
-
-#: r2/models/link.py:587
-#, python-format
-msgid "%(score)s submitted %(when)s ago"
-msgstr ""
-
-#: r2/models/link.py:591
-#, python-format
-msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
-msgstr "postat acum %(when)s de %(author)s către %(reddit)s"
-
-#: r2/models/link.py:594
-#, python-format
-msgid "submitted %(when)s ago by %(author)s"
-msgstr "postat acum %(when)s de %(author)s"
-
-#: r2/models/link.py:714 r2/templates/comment.html:108
+#: r2/models/gold.py:523 r2/templates/comment.html:108
 #: r2/templates/comment.htmllite:46 r2/templates/comment.xml:31
 #: r2/templates/comment.xml:32
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateaccount.html:4
 msgid "[deleted]"
 msgstr "[șters]"
 
-#: r2/models/link.py:717
+#: r2/models/gold.py:527
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this comment."
 msgid_plural ""
@@ -3843,7 +3900,17 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/models/link.py:724
+#: r2/models/gold.py:535
+#, python-format
+msgid "a redditor gifted you a month of reddit gold for this submission."
+msgid_plural ""
+"redditors have gifted you %(months)d months of reddit gold for this "
+"submission."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: r2/models/gold.py:544
 #, python-format
 msgid "you have gifted reddit gold to %(recipient)s for this comment."
 msgid_plural ""
@@ -3853,7 +3920,17 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/models/link.py:731
+#: r2/models/gold.py:552
+#, python-format
+msgid "you have gifted reddit gold to %(recipient)s for this submission."
+msgid_plural ""
+"you and other redditors have gifted %(months)d months of reddit gold to "
+"%(recipient)s for this submission."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: r2/models/gold.py:561
 #, python-format
 msgid "a redditor has gifted reddit gold to %(recipient)s for this comment."
 msgid_plural ""
@@ -3863,60 +3940,111 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/models/link.py:1091
+#: r2/models/gold.py:569
+#, python-format
+msgid ""
+"a redditor has gifted reddit gold to %(recipient)s for this submission."
+msgid_plural ""
+"redditors have gifted %(months)d months of reddit gold to %(recipient)s for "
+"this submission."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: r2/models/link.py:615
+#, python-format
+msgid "by %(author)s to %(reddit)s"
+msgstr ""
+
+#: r2/models/link.py:618
+#, python-format
+msgid "by %(author)s"
+msgstr ""
+
+#: r2/models/link.py:622
+#, python-format
+msgid "%(score)s submitted %(when)s ago%(lastedited)s"
+msgstr ""
+
+#: r2/models/link.py:627
+#, python-format
+msgid "submitted %(when)s ago%(lastedited)s by %(author)s to %(reddit)s"
+msgstr ""
+
+#: r2/models/link.py:630
+#, python-format
+msgid "submitted %(when)s ago%(lastedited)s by %(author)s"
+msgstr ""
+
+#: r2/models/link.py:635
+#, python-format
+msgid "%(score)s submitted %(when)s ago"
+msgstr ""
+
+#: r2/models/link.py:639
+#, python-format
+msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
+msgstr "postat acum %(when)s de %(author)s către %(reddit)s"
+
+#: r2/models/link.py:642
+#, python-format
+msgid "submitted %(when)s ago by %(author)s"
+msgstr "postat acum %(when)s de %(author)s"
+
+#: r2/models/link.py:1120
 msgid "comment score below threshold"
 msgstr "scor comentariu sub limită"
 
-#: r2/models/link.py:1096
+#: r2/models/link.py:1125
 msgid "blocked user"
 msgstr ""
 
-#: r2/models/link.py:1456
+#: r2/models/link.py:1485
 msgid "comment reply"
 msgstr "răspunde la comentariu"
 
-#: r2/models/link.py:1459 r2/models/link.py:1466
+#: r2/models/link.py:1488 r2/models/link.py:1495
 msgid "username mention"
 msgstr ""
 
-#: r2/models/link.py:1463
+#: r2/models/link.py:1492
 msgid "post reply"
 msgstr "răspunde la mesaj"
 
-#: r2/models/link.py:1489
+#: r2/models/link.py:1518
 msgid "[message from blocked user]"
 msgstr ""
 
-#: r2/models/link.py:1490
+#: r2/models/link.py:1519
 msgid "[unblock user to see this message]"
 msgstr ""
 
-#: r2/models/link.py:1493
+#: r2/models/link.py:1522
 #, python-format
 msgid "subreddit message %(author)s sent %(when)s ago"
 msgstr ""
 
-#: r2/models/link.py:1495
+#: r2/models/link.py:1524
 #, python-format
 msgid "to %(dest)s sent %(when)s ago"
 msgstr "trimis acum %(when)s către %(dest)s "
 
-#: r2/models/link.py:1497
+#: r2/models/link.py:1526
 #, python-format
 msgid "from %(author)s sent %(when)s ago"
 msgstr "trimis acum %(when)s de către %(author)s"
 
-#: r2/models/link.py:1499
+#: r2/models/link.py:1528
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s ago"
 msgstr "trimis acum %(when)s de la %(dest)s către %(author)s"
 
-#: r2/models/link.py:1510
+#: r2/models/link.py:1539
 #, python-format
 msgid "via %(subreddit)s"
 msgstr ""
 
-#: r2/models/link.py:1512
+#: r2/models/link.py:1541
 #, python-format
 msgid "%(author)s via %(subreddit)s"
 msgstr "%(author)s via %(subreddit)s"
@@ -3996,82 +4124,82 @@ msgstr ""
 msgid "moderators of /r/%(subreddit)s"
 msgstr ""
 
-#: r2/models/mail_queue.py:310
+#: r2/models/mail_queue.py:311
 #, python-format
 msgid "[reddit] %(user)s has shared a link with you"
 msgstr "[reddit] %(user)s ți-a trimis un link"
 
-#: r2/models/mail_queue.py:311
+#: r2/models/mail_queue.py:312
 #, python-format
 msgid "[feedback] feedback from '%(user)s'"
 msgstr "[feedback] feedback de la ' %(user)s '"
 
-#: r2/models/mail_queue.py:312
+#: r2/models/mail_queue.py:313
 #, python-format
 msgid "[ad_inq] feedback from '%(user)s'"
 msgstr "[ad_inq] feedback de la ' %(user)s '"
 
-#: r2/models/mail_queue.py:313
+#: r2/models/mail_queue.py:314
 msgid "[reddit] email removal notice"
 msgstr "[reddit] înștiințare de ștergere email"
 
-#: r2/models/mail_queue.py:314
+#: r2/models/mail_queue.py:315
 msgid "[reddit] email addition notice"
 msgstr "[reddit] înștiințare de adăugare email"
 
-#: r2/models/mail_queue.py:315
+#: r2/models/mail_queue.py:316
 msgid "[reddit] reset your password"
 msgstr "[reddit] resetează-ți parola"
 
-#: r2/models/mail_queue.py:316
+#: r2/models/mail_queue.py:317
 msgid "[reddit] verify your email address"
 msgstr "[reddit] verifică adresa de email"
 
-#: r2/models/mail_queue.py:317
+#: r2/models/mail_queue.py:318
 msgid "[reddit] your bid has been accepted"
 msgstr "[reddit] licitația ta a fost acceptată"
 
-#: r2/models/mail_queue.py:318
+#: r2/models/mail_queue.py:319
 msgid "[reddit] your promotion has been accepted"
 msgstr "[reddit] promoția ta a fost acceptată"
 
-#: r2/models/mail_queue.py:319
+#: r2/models/mail_queue.py:320
 msgid "[reddit] your promotion has been rejected"
 msgstr "[reddit] promoția ta nu a fost acceptată"
 
-#: r2/models/mail_queue.py:320
+#: r2/models/mail_queue.py:321
 msgid "[reddit] your promotion has been charged"
 msgstr "[reddit] promoția ta a fost decontată"
 
-#: r2/models/mail_queue.py:321
+#: r2/models/mail_queue.py:322
 msgid "[reddit] your promotion is now live"
 msgstr "[reddit] promoția ta este live"
 
-#: r2/models/mail_queue.py:322
+#: r2/models/mail_queue.py:323
 msgid "[reddit] your promotion has finished"
 msgstr "[reddit] promoția ta s-a terminat"
 
-#: r2/models/mail_queue.py:323
+#: r2/models/mail_queue.py:324
 msgid "[reddit] your promotion has been created"
 msgstr "[reddit] promoția ta a fost creată"
 
-#: r2/models/mail_queue.py:324
+#: r2/models/mail_queue.py:325
 msgid "[reddit] hey, nerd!"
 msgstr "[reddit] bună tocilare!"
 
-#: r2/models/mail_queue.py:325
+#: r2/models/mail_queue.py:326
 msgid "[reddit] reddit gold activation link"
 msgstr ""
 
-#: r2/models/mail_queue.py:326
+#: r2/models/mail_queue.py:327
 msgid "[reddit] your password has been changed"
 msgstr ""
 
-#: r2/models/mail_queue.py:327
+#: r2/models/mail_queue.py:328
 msgid "[reddit] your email address has been changed"
 msgstr ""
 
-#: r2/models/mail_queue.py:328
+#: r2/models/mail_queue.py:329
 msgid "[reddit] your campaign didn't get enough impressions"
 msgstr ""
 
@@ -4164,7 +4292,7 @@ msgid "wiki page permissions"
 msgstr ""
 
 #: r2/models/modaction.py:88 r2/models/modaction.py:173
-#: r2/templates/printablebuttons.html:127
+#: r2/templates/printablebuttons.html:138
 msgid "ignore reports"
 msgstr ""
 
@@ -4206,13 +4334,13 @@ msgstr ""
 
 #: r2/models/modaction.py:101 r2/models/modaction.py:103
 #: r2/templates/printablebuttons.html:43
-#: r2/templates/printablebuttons.html:158 r2/templates/trophycase.html:48
+#: r2/templates/printablebuttons.html:169 r2/templates/trophycase.html:48
 msgid "removed"
 msgstr "șters"
 
 #: r2/models/modaction.py:102 r2/models/modaction.py:104
 #: r2/models/modaction.py:128 r2/templates/printablebuttons.html:50
-#: r2/templates/printablebuttons.html:161
+#: r2/templates/printablebuttons.html:172
 #: r2/templates/subredditinfobar.html:86
 msgid "approved"
 msgstr "aprobat"
@@ -4285,11 +4413,11 @@ msgstr ""
 msgid "changed permissions on"
 msgstr ""
 
-#: r2/models/modaction.py:122 r2/templates/linkcommentssettings.html:46
+#: r2/models/modaction.py:122 r2/templates/linkcommentssettings.html:57
 msgid "stickied"
 msgstr ""
 
-#: r2/models/modaction.py:123 r2/templates/linkcommentssettings.html:43
+#: r2/models/modaction.py:123 r2/templates/linkcommentssettings.html:54
 msgid "unstickied"
 msgstr ""
 
@@ -4452,7 +4580,7 @@ msgstr ""
 
 #: r2/models/modaction.py:172 r2/templates/multiinfobar.html:91
 #: r2/templates/prefapps.html:77 r2/templates/printablebuttons.html:43
-#: r2/templates/printablebuttons.html:139 r2/templates/trophycase.html:48
+#: r2/templates/printablebuttons.html:150 r2/templates/trophycase.html:48
 #: r2/templates/usertableitem.html:51
 msgid "remove"
 msgstr "şterge"
@@ -4498,22 +4626,22 @@ msgstr ""
 msgid "non-CPM, displays in all unsold impressions"
 msgstr ""
 
-#: r2/models/subreddit.py:1056
+#: r2/models/subreddit.py:1052
 #, python-format
 msgid "%s (filtered)"
 msgstr ""
 
-#: r2/models/subreddit.py:1251
+#: r2/models/subreddit.py:1245
 #, python-format
 msgid "posts from %s"
 msgstr ""
 
-#: r2/models/subreddit.py:1403
+#: r2/models/subreddit.py:1396
 #, python-format
 msgid "%s subreddits curated by /u/%s"
 msgstr ""
 
-#: r2/models/subreddit.py:1607
+#: r2/models/subreddit.py:1600
 #, python-format
 msgid "%(domain)s on %(reddit.com)s"
 msgstr ""
@@ -4683,39 +4811,39 @@ msgstr ""
 msgid "Read wiki pages through my account"
 msgstr ""
 
-#: r2/public/static/js/gold.js:161
+#: r2/public/static/js/gold.js:167
 msgid "missing name"
 msgstr ""
 
-#: r2/public/static/js/gold.js:163
+#: r2/public/static/js/gold.js:169
 msgid "invalid credit card number"
 msgstr ""
 
-#: r2/public/static/js/gold.js:165
+#: r2/public/static/js/gold.js:171
 msgid "invalid expiration date"
 msgstr ""
 
-#: r2/public/static/js/gold.js:167
+#: r2/public/static/js/gold.js:173
 msgid "invalid cvc"
 msgstr ""
 
-#: r2/public/static/js/gold.js:169
+#: r2/public/static/js/gold.js:175
 msgid "missing address"
 msgstr ""
 
-#: r2/public/static/js/gold.js:171
+#: r2/public/static/js/gold.js:177
 msgid "missing city"
 msgstr ""
 
-#: r2/public/static/js/gold.js:173
+#: r2/public/static/js/gold.js:179
 msgid "missing state or province"
 msgstr ""
 
-#: r2/public/static/js/gold.js:175
+#: r2/public/static/js/gold.js:181
 msgid "missing country"
 msgstr ""
 
-#: r2/public/static/js/gold.js:177
+#: r2/public/static/js/gold.js:183
 msgid "missing zip code"
 msgstr ""
 
@@ -4755,6 +4883,32 @@ msgstr ""
 #: r2/public/static/js/reddit.js:111 r2/public/static/js/ui.js:158
 #, python-format
 msgid "an error occurred (status: %(status)s)"
+msgstr ""
+
+#: r2/public/static/js/saved.js:59
+msgid "Invalid category name"
+msgstr ""
+
+#: r2/public/static/js/saved.js:108
+msgid "save category"
+msgstr ""
+
+#: r2/public/static/js/saved.js:109
+msgid "no category"
+msgstr ""
+
+#: r2/public/static/js/saved.js:110 r2/templates/flairlistrow.html:45
+#: r2/templates/flairselector.html:51 r2/templates/frametoolbar.html:194
+#: r2/templates/moderatorpermissions.html:52 r2/templates/prefupdate.html:99
+#: r2/templates/printablebuttons.html:201
+#: r2/templates/printablebuttons.html:280
+#: r2/templates/promotelinkform.html:480
+#: r2/templates/subredditstylesheet.html:71
+msgid "save"
+msgstr "salvează"
+
+#: r2/public/static/js/saved.js:111
+msgid "new category"
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:191
@@ -4804,22 +4958,22 @@ msgid "no permissions"
 msgstr ""
 
 #: r2/public/static/js/ui.js:615 r2/templates/goldsubscription.html:47
-#: r2/templates/printablebuttons.html:401
-#: r2/templates/printablebuttons.html:419
+#: r2/templates/printablebuttons.html:407
+#: r2/templates/printablebuttons.html:425
 msgid "are you sure?"
 msgstr "eşti sigur?"
 
 #: r2/public/static/js/ui.js:616 r2/templates/goldsubscription.html:50
 #: r2/templates/optout.html:37 r2/templates/optout.html:53
-#: r2/templates/printablebuttons.html:403
-#: r2/templates/printablebuttons.html:437
+#: r2/templates/printablebuttons.html:409
+#: r2/templates/printablebuttons.html:443
 msgid "yes"
 msgstr "da"
 
 #: r2/public/static/js/ui.js:617 r2/templates/goldsubscription.html:53
 #: r2/templates/optout.html:40 r2/templates/optout.html:56
-#: r2/templates/printablebuttons.html:405
-#: r2/templates/printablebuttons.html:440
+#: r2/templates/printablebuttons.html:411
+#: r2/templates/printablebuttons.html:446
 msgid "no"
 msgstr "nu"
 
@@ -4878,9 +5032,18 @@ msgstr ""
 
 #: r2/templates/adminbar.html:61 r2/templates/exploreitem.html:43
 #: r2/templates/frametoolbar.html:204 r2/templates/frametoolbar.html:205
-#: r2/templates/printablebuttons.html:198
+#: r2/templates/printablebuttons.html:208
 msgid "hide"
 msgstr "ascunde"
+
+#: r2/templates/adminnotessidebar.html:37
+msgid "Past notes"
+msgstr ""
+
+#: r2/templates/adminnotessidebar.html:45
+#, python-format
+msgid "by %(author)s, %(when)s ago"
+msgstr ""
 
 #: r2/templates/adverttrafficsummary.html:31
 msgid "top adverts"
@@ -4895,7 +5058,7 @@ msgid "Exclude your subscribed subreddits"
 msgstr ""
 
 #: r2/templates/allinfobar.html:43
-msgid "See gilded comments"
+msgid "See gilded comments and submissions"
 msgstr ""
 
 #: r2/templates/awardreceived.html:27
@@ -5119,14 +5282,19 @@ msgstr ""
 msgid "ago"
 msgstr "în urmă"
 
-#: r2/templates/comment.html:141
+#: r2/templates/comment.html:133
 msgid "child"
 msgid_plural "children"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/templates/comment.html:151
+#: r2/templates/comment.html:138 r2/templates/link.html:227
+#, python-format
+msgid "category: %s"
+msgstr ""
+
+#: r2/templates/comment.html:149
 msgid "show replies"
 msgstr ""
 
@@ -5165,7 +5333,7 @@ msgstr ""
 msgid "no spaces, e.g., slashdot"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:121
+#: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:128
 #: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:136
 #: r2/templates/prefapps.html:326
 msgid "name"
@@ -5481,18 +5649,6 @@ msgstr ""
 msgid "css class"
 msgstr ""
 
-#: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:51
-#: r2/templates/frametoolbar.html:194
-#: r2/templates/moderatorpermissions.html:52 r2/templates/prefupdate.html:99
-#: r2/templates/printablebuttons.html:189
-#: r2/templates/printablebuttons.html:191
-#: r2/templates/printablebuttons.html:264
-#: r2/templates/printablebuttons.html:268
-#: r2/templates/promotelinkform.html:478
-#: r2/templates/subredditstylesheet.html:71
-msgid "save"
-msgstr "salvează"
-
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:41
 #: r2/templates/promotedlinktraffic.html:86
 #: r2/templates/spotlightlisting.html:54 r2/templates/tablelisting.html:53
@@ -5642,10 +5798,8 @@ msgstr "place"
 msgid "dislike"
 msgstr "displace"
 
-#: r2/templates/frametoolbar.html:190 r2/templates/printablebuttons.html:189
-#: r2/templates/printablebuttons.html:191
-#: r2/templates/printablebuttons.html:264
-#: r2/templates/printablebuttons.html:268
+#: r2/templates/frametoolbar.html:190 r2/templates/printablebuttons.html:199
+#: r2/templates/printablebuttons.html:276
 msgid "unsave"
 msgstr "nu salva"
 
@@ -5653,11 +5807,11 @@ msgstr "nu salva"
 msgid "unsaved"
 msgstr "nesalvat"
 
-#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:195
+#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:205
 msgid "unhide"
 msgstr "dezascunde"
 
-#: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:196
+#: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:206
 msgid "unhidden"
 msgstr "dezascuns"
 
@@ -5743,7 +5897,7 @@ msgstr ""
 msgid "Gift message (optional):"
 msgstr ""
 
-#: r2/templates/gold.html:183 r2/templates/goldpayment.html:85
+#: r2/templates/gold.html:183 r2/templates/goldpayment.html:92
 msgid "give"
 msgstr ""
 
@@ -5761,89 +5915,89 @@ msgstr ""
 msgid "redeem"
 msgstr ""
 
-#: r2/templates/goldpayment.html:33
+#: r2/templates/goldpayment.html:40
 msgid "close"
 msgstr ""
 
-#: r2/templates/goldpayment.html:45
+#: r2/templates/goldpayment.html:52
 msgid "The following gift note will be attached:"
 msgstr ""
 
-#: r2/templates/goldpayment.html:54
+#: r2/templates/goldpayment.html:61
 msgid "Please select a payment method."
 msgstr ""
 
-#: r2/templates/goldpayment.html:72
+#: r2/templates/goldpayment.html:79
 #, python-format
 msgid ""
 "Give gold often? Consider [buying creddits to use](/gold?goldtype=creddits),"
 " they're 40% cheaper if purchased in a set of 12."
 msgstr ""
 
-#: r2/templates/goldpayment.html:101
+#: r2/templates/goldpayment.html:108
 msgid "PayPal"
 msgstr ""
 
-#: r2/templates/goldpayment.html:106
+#: r2/templates/goldpayment.html:113
 msgid "Credit Card"
 msgstr ""
 
-#: r2/templates/goldpayment.html:117
+#: r2/templates/goldpayment.html:124
 msgid ""
 "Stripe is PCI compliant and your credit card information is sent directly to"
 " them."
 msgstr ""
 
-#: r2/templates/goldpayment.html:125 r2/templates/paymentform.html:112
+#: r2/templates/goldpayment.html:132 r2/templates/paymentform.html:112
 msgid "card number"
 msgstr ""
 
-#: r2/templates/goldpayment.html:129
+#: r2/templates/goldpayment.html:136
 msgid "cvc"
 msgstr ""
 
-#: r2/templates/goldpayment.html:133 r2/templates/paymentform.html:113
+#: r2/templates/goldpayment.html:140 r2/templates/paymentform.html:113
 msgid "expiration date"
 msgstr ""
 
-#: r2/templates/goldpayment.html:154
+#: r2/templates/goldpayment.html:161
 msgid "address line 1"
 msgstr ""
 
-#: r2/templates/goldpayment.html:158
+#: r2/templates/goldpayment.html:165
 msgid "address line 2"
 msgstr ""
 
-#: r2/templates/goldpayment.html:162 r2/templates/paymentform.html:107
+#: r2/templates/goldpayment.html:169 r2/templates/paymentform.html:107
 msgid "city"
 msgstr ""
 
-#: r2/templates/goldpayment.html:166
+#: r2/templates/goldpayment.html:173
 msgid "state/province"
 msgstr ""
 
-#: r2/templates/goldpayment.html:170 r2/templates/paymentform.html:110
-#: r2/templates/promotelinkform.html:344
+#: r2/templates/goldpayment.html:177 r2/templates/paymentform.html:110
+#: r2/templates/promotelinkform.html:346
 msgid "country"
 msgstr ""
 
-#: r2/templates/goldpayment.html:174 r2/templates/paymentform.html:109
+#: r2/templates/goldpayment.html:181 r2/templates/paymentform.html:109
 msgid "zip"
 msgstr ""
 
-#: r2/templates/goldpayment.html:180
+#: r2/templates/goldpayment.html:187
 msgid "Submit"
 msgstr ""
 
-#: r2/templates/goldpayment.html:192
+#: r2/templates/goldpayment.html:199
 msgid "amount"
 msgstr ""
 
-#: r2/templates/goldpayment.html:197
+#: r2/templates/goldpayment.html:204
 msgid "renewal interval"
 msgstr ""
 
-#: r2/templates/goldpayment.html:219
+#: r2/templates/goldpayment.html:226
 msgid "Bitcoin"
 msgstr ""
 
@@ -5913,40 +6067,62 @@ msgid "NSFW"
 msgstr "XXX"
 
 #: r2/templates/linkcommentssettings.html:27
-msgid "disable contest mode"
+msgid "disable inbox replies"
 msgstr ""
 
 #: r2/templates/linkcommentssettings.html:27
-msgid "contest mode disabled"
+msgid "inbox replies disabled"
 msgstr ""
 
 #: r2/templates/linkcommentssettings.html:30
-msgid "enable contest mode"
+msgid "enable inbox replies"
 msgstr ""
 
 #: r2/templates/linkcommentssettings.html:30
-msgid "contest mode enabled"
+msgid "inbox replies enabled"
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:34
-msgid "contest mode: scores hidden"
+#: r2/templates/linkcommentssettings.html:33
+msgid ""
+"inbox replies will send you a message when this link receives a new top-"
+"level comment"
 msgstr ""
 
 #: r2/templates/linkcommentssettings.html:38
+msgid "disable contest mode"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:38
+msgid "contest mode disabled"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:41
+msgid "enable contest mode"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:41
+msgid "contest mode enabled"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:45
+msgid "contest mode: scores hidden"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:49
 msgid ""
 "contest mode randomizes comment sorting, hides scores, and collapses replies"
 " by default."
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:43
+#: r2/templates/linkcommentssettings.html:54
 msgid "unsticky this post"
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:46
+#: r2/templates/linkcommentssettings.html:57
 msgid "sticky this post"
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:47
+#: r2/templates/linkcommentssettings.html:58
 msgid "sticky this? (any existing sticky will be replaced)"
 msgstr ""
 
@@ -5958,14 +6134,14 @@ msgstr "postat pe"
 msgid "like it"
 msgstr "îmi place"
 
-#: r2/templates/linkinfobar.html:55 r2/templates/printable.html:183
+#: r2/templates/linkinfobar.html:55 r2/templates/printable.html:195
 msgid "upvote"
 msgid_plural "upvotes"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: r2/templates/linkinfobar.html:61 r2/templates/printable.html:185
+#: r2/templates/linkinfobar.html:61 r2/templates/printable.html:197
 msgid "downvote"
 msgid_plural "downvotes"
 msgstr[0] ""
@@ -6122,7 +6298,7 @@ msgstr "nu mai ești moderator"
 msgid "stop being a moderator?"
 msgstr "nu mai vrei să fii moderator?"
 
-#: r2/templates/modlisting.html:44 r2/templates/printablebuttons.html:233
+#: r2/templates/modlisting.html:44 r2/templates/printablebuttons.html:244
 msgid "accept"
 msgstr "acceptă"
 
@@ -6278,30 +6454,26 @@ msgstr ""
 msgid "submitting to %(sr)s"
 msgstr ""
 
-#: r2/templates/newlink.html:124
+#: r2/templates/newlink.html:123
 msgid "send replies to my inbox"
 msgstr ""
 
-#: r2/templates/newlink.html:126
-msgid "beta"
-msgstr ""
-
-#: r2/templates/newlink.html:135
+#: r2/templates/newlink.html:132
 msgid "why a brick? read to the bottom of the rules page to find out!"
 msgstr ""
 
-#: r2/templates/newlink.html:136
+#: r2/templates/newlink.html:133
 #, python-format
 msgid ""
 "please be mindful of reddit's %(few_rules)s and practice "
 "%(good_reddiquette)s."
 msgstr ""
 
-#: r2/templates/newlink.html:138
+#: r2/templates/newlink.html:135
 msgid "few rules"
 msgstr ""
 
-#: r2/templates/newlink.html:142
+#: r2/templates/newlink.html:139
 msgid "good reddiquette"
 msgstr ""
 
@@ -6620,7 +6792,7 @@ msgid "delete your reddit account"
 msgstr ""
 
 #: r2/templates/prefdelete.html:32
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:62
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-reporter.js:62
 msgid "deleting..."
 msgstr "se șterge..."
 
@@ -6747,7 +6919,7 @@ msgstr "opţiuni pentru clic"
 msgid "display links with a reddit toolbar"
 msgstr "arată legăturile cu o bară de unelte reddit"
 
-#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:238
+#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:240
 msgid "media"
 msgstr "media"
 
@@ -7107,12 +7279,12 @@ msgid ""
 msgstr ""
 
 #: r2/templates/printablebuttons.html:40
-#: r2/templates/printablebuttons.html:155
+#: r2/templates/printablebuttons.html:166
 msgid "spammed"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:49
-#: r2/templates/printablebuttons.html:145
+#: r2/templates/printablebuttons.html:156
 msgid "approve"
 msgstr "aprobă"
 
@@ -7148,72 +7320,72 @@ msgstr ""
 msgid "distinguish this?"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:143
-msgid "reapprove"
+#: r2/templates/printablebuttons.html:129
+msgid "give reddit gold in appreciation of this post."
 msgstr ""
 
-#: r2/templates/printablebuttons.html:182
-#: r2/templates/printablebuttons.html:228
-#: r2/templates/promotelinkform.html:472 r2/templates/sharelink.html:122
-msgid "cancel"
-msgstr "anulează"
-
-#: r2/templates/printablebuttons.html:199
-msgid "hidden"
-msgstr "ascuns"
-
-#: r2/templates/printablebuttons.html:228
-msgid "reject"
-msgstr ""
-
-#: r2/templates/printablebuttons.html:233
-msgid "accepted"
-msgstr "acceptat"
-
-#: r2/templates/printablebuttons.html:239
-msgid "traffic"
-msgstr "trafic"
-
-#: r2/templates/printablebuttons.html:260
-#: r2/templates/printablebuttons.html:332
-msgid "permalink"
-msgstr "legătură permanentă"
-
-#: r2/templates/printablebuttons.html:273
-#: r2/templates/printablebuttons.html:328 r2/templates/starkcomment.html:34
-msgid "context"
-msgstr "context"
-
-#: r2/templates/printablebuttons.html:277
-msgid "full comments"
-msgstr ""
-
-#: r2/templates/printablebuttons.html:287
-msgid "parent"
-msgstr "părinte"
-
-#: r2/templates/printablebuttons.html:301
-msgid "give reddit gold in appreciation of this comment."
-msgstr ""
-
-#: r2/templates/printablebuttons.html:303
+#: r2/templates/printablebuttons.html:131
 msgid "give gold"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:308
-#: r2/templates/printablebuttons.html:350
+#: r2/templates/printablebuttons.html:154
+msgid "reapprove"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:193
+#: r2/templates/printablebuttons.html:239
+#: r2/templates/promotelinkform.html:474 r2/templates/sharelink.html:122
+msgid "cancel"
+msgstr "anulează"
+
+#: r2/templates/printablebuttons.html:209
+msgid "hidden"
+msgstr "ascuns"
+
+#: r2/templates/printablebuttons.html:239
+msgid "reject"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:244
+msgid "accepted"
+msgstr "acceptat"
+
+#: r2/templates/printablebuttons.html:250
+msgid "traffic"
+msgstr "trafic"
+
+#: r2/templates/printablebuttons.html:271
+#: r2/templates/printablebuttons.html:338
+msgid "permalink"
+msgstr "legătură permanentă"
+
+#: r2/templates/printablebuttons.html:286
+#: r2/templates/printablebuttons.html:334 r2/templates/starkcomment.html:34
+msgid "context"
+msgstr "context"
+
+#: r2/templates/printablebuttons.html:290
+msgid "full comments"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:300
+msgid "parent"
+msgstr "părinte"
+
+#: r2/templates/printablebuttons.html:314
+#: r2/templates/printablebuttons.html:356
 msgid "reply {verb}"
 msgstr "răspunde"
 
-#: r2/templates/printablebuttons.html:339
+#: r2/templates/printablebuttons.html:345
 msgid "block user"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:343
+#: r2/templates/printablebuttons.html:349
 msgid "mark unread"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:514
+#: r2/templates/printablebuttons.html:520
 msgid "toggle"
 msgstr ""
 
@@ -7307,22 +7479,21 @@ msgid "Campaigns created before September 12, 2012 don't have traffic data"
 msgstr ""
 
 #: r2/templates/promotedlinktraffic.html:112
-#: r2/templates/promotelinkform.html:307 r2/templates/promotelinkform.html:504
+#: r2/templates/promotelinkform.html:309 r2/templates/promotelinkform.html:506
 msgid "start"
 msgstr ""
 
 #: r2/templates/promotedlinktraffic.html:113
-#: r2/templates/promotelinkform.html:323 r2/templates/promotelinkform.html:505
+#: r2/templates/promotelinkform.html:325 r2/templates/promotelinkform.html:507
 msgid "end"
 msgstr ""
 
-#: r2/templates/promotedlinktraffic.html:115
-#: r2/templates/promotelinkform.html:393 r2/templates/refundpage.html:57
+#: r2/templates/promotedlinktraffic.html:115 r2/templates/refundpage.html:57
 msgid "budget"
 msgstr ""
 
 #: r2/templates/promotedlinktraffic.html:116
-#: r2/templates/promotelinkform.html:511
+#: r2/templates/promotelinkform.html:513
 msgid "spent"
 msgstr ""
 
@@ -7386,112 +7557,120 @@ msgstr ""
 msgid "disable comments"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:232
+#: r2/templates/promotelinkform.html:229
+msgid "send comments on my ad to my inbox"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:234
 msgid ""
 "Comments are a great way to get feedback from customers, and the reddit "
 "community is known for being vocal in comment threads."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:247
+#: r2/templates/promotelinkform.html:249
 msgid "width"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:256
+#: r2/templates/promotelinkform.html:258
 msgid "height"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:268
+#: r2/templates/promotelinkform.html:270
 msgid ""
 "media override (adds an onclick to the link to generate a drop-down rather "
 "than a link out)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:278
+#: r2/templates/promotelinkform.html:280
 msgid "campaign dashboard"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:283
+#: r2/templates/promotelinkform.html:285
 msgid ""
 "This dashboard allows you to easily place ads on reddit. You can target a "
 "specific community or simply run on the main page."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:299
+#: r2/templates/promotelinkform.html:301
 msgid ""
 "Date when your sponsored link will start running.  We start new campaigns at"
 " midnight UTC+5"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:300
+#: r2/templates/promotelinkform.html:302
 msgid "Date when your sponsored link will end (at midnight UTC+5)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:301
+#: r2/templates/promotelinkform.html:303
 msgid ""
 "name of the community that you are targeting. A blank entry here means that "
 "the ad is untargeted and will run site-wide "
 msgstr ""
 
-#: r2/templates/promotelinkform.html:302
+#: r2/templates/promotelinkform.html:304
 msgid ""
 "click to create a new campaign.  To edit an existing campaign in the table "
 "below, click the 'edit' button."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:335 r2/templates/promotelinkform.html:506
+#: r2/templates/promotelinkform.html:337 r2/templates/promotelinkform.html:508
 msgid "duration"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:341 r2/templates/promotelinkform.html:514
+#: r2/templates/promotelinkform.html:343 r2/templates/promotelinkform.html:516
 msgid "geotargeting"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:353
+#: r2/templates/promotelinkform.html:355
 msgid "region"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:356
+#: r2/templates/promotelinkform.html:358
 msgid "metro"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:363
+#: r2/templates/promotelinkform.html:365
 msgid "price"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:370 r2/templates/promotelinkform.html:508
+#: r2/templates/promotelinkform.html:372 r2/templates/promotelinkform.html:510
 msgid "priority"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:407
+#: r2/templates/promotelinkform.html:395 r2/templates/promotelinkform.html:512
+msgid "total budget"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:409
 #, python-format
 msgid "%(minimum)s minimum"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:424 r2/templates/promotelinkform.html:512
+#: r2/templates/promotelinkform.html:426 r2/templates/promotelinkform.html:514
 msgid "targeting"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:431
+#: r2/templates/promotelinkform.html:433
 msgid "frontpage (displayed on the home page to anyone)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:438
+#: r2/templates/promotelinkform.html:440
 msgid "targeted (targets a subreddit and its subscribers)"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:460
+#: r2/templates/promotelinkform.html:462
 msgid ""
 "You will only be charged for the portion of your budget that is actually "
 "spent. Any unspent portion will be refunded."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:461
+#: r2/templates/promotelinkform.html:463
 msgid ""
 "By targeting, your ad will only appear in front of users who subscribe to "
 "the subreddit that you specify."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:462
+#: r2/templates/promotelinkform.html:464
 msgid ""
 "You can only target one subreddit per campaign. If you would like to submit "
 "to more than one subreddit, add a new campaign (its easy, you just fill this"
@@ -7499,27 +7678,23 @@ msgid ""
 "dashboard)."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:495
+#: r2/templates/promotelinkform.html:497
 msgid "You have too many campaigns for this link."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:496
+#: r2/templates/promotelinkform.html:498
 msgid "It's time to start fresh!"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:510
-msgid "total budget"
-msgstr ""
-
-#: r2/templates/promotelinkform.html:530
+#: r2/templates/promotelinkform.html:532
 msgid "You don't have any campaigns for this link yet.  You should add one."
 msgstr ""
 
-#: r2/templates/promotelinkform.html:542
+#: r2/templates/promotelinkform.html:555
 msgid "bidding history"
 msgstr ""
 
-#: r2/templates/promotelinkform.html:572
+#: r2/templates/promotelinkform.html:585
 msgid "promotion history"
 msgstr ""
 
@@ -8607,108 +8782,83 @@ msgstr ""
 msgid "other redditor's secret code"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/__init__.py:32
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/__init__.py:34
 msgid "that is not a valid timezone"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:59
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:49
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:143
+msgid "[live]"
+msgstr ""
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:64
 msgid "updates"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:72
-msgid "editors"
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:178
+msgid "add reporter"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:167
-msgid "add editor"
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:182
+msgid "current reporters"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:171
-msgid "current editors"
-msgstr ""
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:5
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-reporter.js:5
 msgid "strike"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:42
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-reporter.js:42
 msgid "striking..."
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-editor.js:54
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate-reporter.js:54
 msgid "stricken"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:33
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:64
 msgid "connecting to update server..."
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:38
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:73
 msgid "updating in real time..."
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:44
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:79
 msgid "could not connect to update servers. please refresh."
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:49
-msgid "lost connection to update server. one moment..."
-msgstr ""
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/timetext.js:12
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate.js:86
 #, python-format
-msgid "a year ago"
-msgid_plural "%(num)s years ago"
+msgid "lost connection to update server. retrying in %(delay)s second..."
+msgid_plural ""
+"lost connection to update server. retrying in %(delay)s seconds..."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/timetext.js:13
-#, python-format
-msgid "a month ago"
-msgid_plural "%(num)s months ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/timetext.js:14
-#, python-format
-msgid "a day ago"
-msgid_plural "%(num)s days ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/timetext.js:15
-#, python-format
-msgid "an hour ago"
-msgid_plural "%(num)s hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/timetext.js:16
-#, python-format
-msgid "a minute ago"
-msgid_plural "%(num)s minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/timetext.js:43
-msgid "less than a minute ago"
-msgstr ""
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:17
-msgid "viewers:"
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/timetext.js:45
+msgid "just now"
 msgstr ""
 
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:19
+msgid "viewers:"
+msgstr ""
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:21
 msgid "reported by:"
 msgstr ""
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:35
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:30
+#, python-format
+msgid "&hellip; and %(count)s more &raquo;"
+msgstr ""
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:41
 msgid "make update"
+msgstr ""
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:13
+msgid "information and resources that are useful at any point"
 msgstr ""
 
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:18
