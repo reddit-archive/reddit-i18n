@@ -1,4 +1,4 @@
-reddit uses Transifex for translations.
+reddit uses Crowdin for translations.
 
 See the getting started guide for more information:
-	https://github.com/reddit/reddit-i18n/wiki/getting-started
+	http://www.reddit.com/r/i18n/wiki/getting_started
