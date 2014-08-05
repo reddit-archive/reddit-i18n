@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-07-31 19:27-0700\n"
-"PO-Revision-Date: 2014-07-31 22:32-0400\n"
+"POT-Creation-Date: 2014-08-04 19:06-0700\n"
+"PO-Revision-Date: 2014-08-04 22:15-0400\n"
 "Last-Translator: pinwale <ismail@reddit.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -226,7 +226,7 @@ msgstr "judul tidak ditemukan"
 #: r2/controllers/api.py:2264 r2/controllers/api.py:3005 r2/controllers/api.py:3061
 #: r2/controllers/api.py:3136 r2/controllers/api.py:3348 r2/controllers/api.py:3353
 #: r2/controllers/api.py:3539 r2/controllers/promotecontroller.py:911
-#: r2/lib/pages/pages.py:4454 r2/templates/frametoolbar.html:195
+#: r2/lib/pages/pages.py:4456 r2/templates/frametoolbar.html:195
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:396
 msgid "saved"
 msgstr "telah disimpan"
@@ -373,7 +373,7 @@ msgstr "halaman tidak ditemukan"
 msgid "the page you requested does not exist"
 msgstr "halaman yang anda minta tidak ada"
 
-#: r2/controllers/front.py:166 r2/lib/pages/pages.py:4441
+#: r2/controllers/front.py:166 r2/lib/pages/pages.py:4443
 msgid "explore"
 msgstr "menjelajah"
 
@@ -409,7 +409,7 @@ msgstr "buat sebuah subreddit"
 #: r2/controllers/listingcontroller.py:600 r2/controllers/listingcontroller.py:615
 #: r2/controllers/listingcontroller.py:845 r2/controllers/listingcontroller.py:859
 #: r2/lib/menus.py:170 r2/lib/menus.py:414 r2/lib/menus.py:588
-#: r2/lib/pages/pages.py:3714 r2/templates/createsubreddit.html:221
+#: r2/lib/pages/pages.py:3712 r2/templates/createsubreddit.html:221
 #: r2/templates/createsubreddit.html:232 r2/templates/createsubreddit.html:243
 msgid "all"
 msgstr "semua"
@@ -430,13 +430,13 @@ msgstr "saring oleh moderator"
 msgid "links and comments"
 msgstr "tautan dan komentar"
 
-#: r2/controllers/front.py:741 r2/lib/pages/pages.py:4162
+#: r2/controllers/front.py:741 r2/lib/pages/pages.py:4164
 #: r2/templates/createsubreddit.html:215
 msgid "links"
 msgstr "tautan"
 
 #: r2/controllers/front.py:742 r2/controllers/listingcontroller.py:1204
-#: r2/lib/pages/pages.py:4167 r2/templates/createsubreddit.html:237
+#: r2/lib/pages/pages.py:4169 r2/templates/createsubreddit.html:237
 msgid "comments"
 msgstr "komentar"
 
@@ -536,11 +536,11 @@ msgstr "memverifikasi email"
 msgid "reset password"
 msgstr "reset password"
 
-#: r2/controllers/front.py:1428 r2/controllers/post.py:89
+#: r2/controllers/front.py:1428 r2/controllers/post.py:90
 msgid "opt out"
 msgstr "keluar"
 
-#: r2/controllers/front.py:1428 r2/controllers/post.py:99
+#: r2/controllers/front.py:1428 r2/controllers/post.py:100
 msgid "welcome back"
 msgstr "menyambut kembali"
 
@@ -893,15 +893,15 @@ msgstr "gilding di subreddit ini telah membayar waktu server sebanyak %(time)s m
 msgid "copied from %(source)s"
 msgstr "disalin dari %(source)s"
 
-#: r2/controllers/policies.py:42 r2/lib/pages/pages.py:4529
+#: r2/controllers/policies.py:44 r2/lib/pages/pages.py:4531
 msgid "privacy policy"
 msgstr "Kebijakan Privasi"
 
-#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:4530
+#: r2/controllers/policies.py:47 r2/lib/pages/pages.py:4532
 msgid "user agreement"
 msgstr "persetujuan pengguna"
 
-#: r2/controllers/post.py:66
+#: r2/controllers/post.py:67
 msgid "over 18?"
 msgstr "diatas 18?"
 
@@ -2002,8 +2002,8 @@ msgstr "terkirim"
 msgid "comments {toolbar}"
 msgstr "komentar"
 
-#: r2/lib/menus.py:115 r2/templates/prefoptions.html:286
-#: r2/templates/prefoptions.html:295 r2/templates/prefoptions.html:304
+#: r2/lib/menus.py:115 r2/templates/prefoptions.html:287
+#: r2/templates/prefoptions.html:296 r2/templates/prefoptions.html:305
 msgid "details"
 msgstr "detil"
 
@@ -2762,7 +2762,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "jam"
 
-#: r2/lib/strings.py:279 r2/lib/pages/pages.py:4060
+#: r2/lib/strings.py:279 r2/lib/pages/pages.py:4062
 #: r2/public/static/js/sponsored.js:308 r2/templates/reddittraffic.html:89
 #: r2/templates/renderablecampaign.html:56
 msgid "day"
@@ -3196,58 +3196,62 @@ msgstr "user flair templates"
 msgid "link flair templates"
 msgstr "link flair templates"
 
-#: r2/lib/pages/pages.py:3707 r2/templates/flairpane.html:76
+#: r2/lib/pages/pages.py:3705 r2/templates/flairpane.html:76
 msgid "none"
 msgstr "tiada"
 
-#: r2/lib/pages/pages.py:3742
+#: r2/lib/pages/pages.py:3730
+msgid "suggestions:"
+msgstr "suggestions:"
+
+#: r2/lib/pages/pages.py:3744
 #, python-format
 msgid "This dashboard allows you to easily place ads on reddit. Have any questions? [Check out the FAQ](%(faq)s).\n\nNeed some ideas on how to showcase your brand? [Here's a slideshow](%(link)s) on ways brands used reddit ads last year."
 msgstr "This dashboard allows you to easily place ads on reddit. Have any questions? [Check out the FAQ](%(faq)s).\n\nNeed some ideas on how to showcase your brand? [Here's a slideshow](%(link)s) on ways brands used reddit ads last year."
 
-#: r2/lib/pages/pages.py:3765
+#: r2/lib/pages/pages.py:3767
 #, python-format
 msgid "this promotion has a total budget of %(budget)s for %(impressions)s impressions in %(num)s subreddit"
 msgid_plural "this promotion has a total budget of %(budget)s for %(impressions)s impressions in %(num)s subreddits"
 msgstr[0] "this promotion has a total budget of %(budget)s for %(impressions)s impressions in %(num)s subreddits"
 
-#: r2/lib/pages/pages.py:4159
+#: r2/lib/pages/pages.py:4161
 msgid "start date"
 msgstr "tanggal dimulai"
 
-#: r2/lib/pages/pages.py:4160
+#: r2/lib/pages/pages.py:4162
 msgid "end date"
 msgstr "tanggal berakhir"
 
-#: r2/lib/pages/pages.py:4164 r2/templates/promotedlinktraffic.html:109
+#: r2/lib/pages/pages.py:4166 r2/templates/promotedlinktraffic.html:109
 #: r2/templates/refundpage.html:41
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:4165 r2/lib/pages/pages.py:4182
+#: r2/lib/pages/pages.py:4167 r2/lib/pages/pages.py:4184
 msgid "owner"
 msgstr "pemilik"
 
-#: r2/lib/pages/pages.py:4166 r2/templates/newlink.html:72
+#: r2/lib/pages/pages.py:4168 r2/templates/newlink.html:72
 #: r2/templates/promotelinkbase.html:107
 msgid "url"
 msgstr "URL"
 
-#: r2/lib/pages/pages.py:4168
+#: r2/lib/pages/pages.py:4170
 msgid "upvotes"
 msgstr "upvotes"
 
-#: r2/lib/pages/pages.py:4169
+#: r2/lib/pages/pages.py:4171
 msgid "downvotes"
 msgstr "downvotes"
 
-#: r2/lib/pages/pages.py:4170 r2/lib/pages/trafficpages.py:277
+#: r2/lib/pages/pages.py:4172 r2/lib/pages/trafficpages.py:277
 #: r2/lib/pages/trafficpages.py:740 r2/templates/promotedlinktraffic.html:41
 #: r2/templates/promotedlinktraffic.html:120
 msgid "clicks"
 msgstr "klik"
 
-#: r2/lib/pages/pages.py:4171 r2/lib/pages/trafficpages.py:274
+#: r2/lib/pages/pages.py:4173 r2/lib/pages/trafficpages.py:274
 #: r2/lib/pages/trafficpages.py:398 r2/lib/pages/trafficpages.py:739
 #: r2/templates/adverttrafficsummary.html:36
 #: r2/templates/promotedlinktraffic.html:40
@@ -3255,98 +3259,98 @@ msgstr "klik"
 msgid "impressions"
 msgstr "penayangan"
 
-#: r2/lib/pages/pages.py:4179
+#: r2/lib/pages/pages.py:4181
 msgid "campaigns"
 msgstr "kampanye"
 
-#: r2/lib/pages/pages.py:4181
+#: r2/lib/pages/pages.py:4183
 msgid "link id"
 msgstr "link id"
 
-#: r2/lib/pages/pages.py:4183
+#: r2/lib/pages/pages.py:4185
 msgid "campaign id"
 msgstr "campaign id"
 
-#: r2/lib/pages/pages.py:4184 r2/templates/promotedlinktraffic.html:114
+#: r2/lib/pages/pages.py:4186 r2/templates/promotedlinktraffic.html:114
 #: r2/templates/refundpage.html:53
 msgid "target"
 msgstr "sasaran"
 
-#: r2/lib/pages/pages.py:4185
+#: r2/lib/pages/pages.py:4187
 msgid "bid"
 msgstr "tawar"
 
-#: r2/lib/pages/pages.py:4186
+#: r2/lib/pages/pages.py:4188
 msgid "frontpage clicks"
 msgstr "frontpage clicks"
 
-#: r2/lib/pages/pages.py:4186
+#: r2/lib/pages/pages.py:4188
 msgid "frontpage impressions"
 msgstr "frontpage impressions"
 
-#: r2/lib/pages/pages.py:4187
+#: r2/lib/pages/pages.py:4189
 msgid "subreddit clicks"
 msgstr "subreddit clicks"
 
-#: r2/lib/pages/pages.py:4187
+#: r2/lib/pages/pages.py:4189
 msgid "subreddit impressions"
 msgstr "subreddit impressions"
 
-#: r2/lib/pages/pages.py:4188 r2/lib/pages/trafficpages.py:404
+#: r2/lib/pages/pages.py:4190 r2/lib/pages/trafficpages.py:404
 msgid "total clicks"
 msgstr "total klik"
 
-#: r2/lib/pages/pages.py:4188
+#: r2/lib/pages/pages.py:4190
 msgid "total impressions"
 msgstr "total penayangan"
 
-#: r2/lib/pages/pages.py:4329 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:4331 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "aktifitas akun"
 
-#: r2/lib/pages/pages.py:4439
+#: r2/lib/pages/pages.py:4441
 msgid "subscribed"
 msgstr "telah berlangganan"
 
-#: r2/lib/pages/pages.py:4440 r2/templates/preffeeds.html:54
+#: r2/lib/pages/pages.py:4442 r2/templates/preffeeds.html:54
 msgid "your front page"
 msgstr "halaman depan anda"
 
-#: r2/lib/pages/pages.py:4443 r2/lib/pages/pages.py:4448
+#: r2/lib/pages/pages.py:4445 r2/lib/pages/pages.py:4450
 #: r2/templates/preffeeds.html:77 r2/templates/preffeeds.html:102
 msgid "everything"
 msgstr "semua"
 
-#: r2/lib/pages/pages.py:4446 r2/lib/pages/pages.py:4449
+#: r2/lib/pages/pages.py:4448 r2/lib/pages/pages.py:4451
 msgid "from all subreddits"
 msgstr "dari semua subreddit"
 
-#: r2/lib/pages/pages.py:4451
+#: r2/lib/pages/pages.py:4453
 msgid "moderating"
 msgstr "memoderasi"
 
-#: r2/lib/pages/pages.py:4452
+#: r2/lib/pages/pages.py:4454
 msgid "subreddits you mod"
 msgstr "subreddit yang anda moderasi"
 
-#: r2/lib/pages/pages.py:4458
+#: r2/lib/pages/pages.py:4460
 msgid "gold perks"
 msgstr "keuntungan emas"
 
-#: r2/lib/pages/pages.py:4470
+#: r2/lib/pages/pages.py:4472
 msgid "explore multis"
 msgstr "explore multis"
 
-#: r2/lib/pages/pages.py:4558
+#: r2/lib/pages/pages.py:4561
 msgid "popular choices"
 msgstr "pilihan populer"
 
-#: r2/lib/pages/pages.py:4665
+#: r2/lib/pages/pages.py:4668
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 
-#: r2/lib/pages/pages.py:4669
+#: r2/lib/pages/pages.py:4672
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
@@ -3395,7 +3399,7 @@ msgstr "total klik per hari"
 msgid "ad totals"
 msgstr "total iklan"
 
-#: r2/lib/pages/trafficpages.py:318 r2/models/promo.py:216
+#: r2/lib/pages/trafficpages.py:318 r2/models/promo.py:224
 #: r2/templates/promotelinkbase.html:361
 msgid "frontpage"
 msgstr "beranda"
@@ -3770,60 +3774,60 @@ msgstr "submitted %(when)s by %(author)s to %(reddit)s"
 msgid "submitted %(when)s by %(author)s"
 msgstr "submitted %(when)s by %(author)s"
 
-#: r2/models/link.py:1166
+#: r2/models/link.py:1170
 msgid "comment score below threshold"
 msgstr "nilai komentar dibawah rata-rata"
 
-#: r2/models/link.py:1171
+#: r2/models/link.py:1175
 msgid "blocked user"
 msgstr "pengguna yang diblokir"
 
-#: r2/models/link.py:1549
+#: r2/models/link.py:1553
 msgid "comment reply"
 msgstr "balasan komentar"
 
-#: r2/models/link.py:1552 r2/models/link.py:1559
+#: r2/models/link.py:1556 r2/models/link.py:1563
 msgid "username mention"
 msgstr "penyebutan nama"
 
-#: r2/models/link.py:1556
+#: r2/models/link.py:1560
 msgid "post reply"
 msgstr "balasan pos"
 
-#: r2/models/link.py:1582
+#: r2/models/link.py:1586
 msgid "[message from blocked user]"
 msgstr "[pesan dari pengguna terblokir]"
 
-#: r2/models/link.py:1583
+#: r2/models/link.py:1587
 msgid "[unblock user to see this message]"
 msgstr "hilangkan blok pengguna ini untuk melihat pesan ini"
 
-#: r2/models/link.py:1586
+#: r2/models/link.py:1590
 #, python-format
 msgid "subreddit message %(author)s sent %(when)s"
 msgstr "subreddit message %(author)s sent %(when)s"
 
-#: r2/models/link.py:1588
+#: r2/models/link.py:1592
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "to %(dest)s sent %(when)s"
 
-#: r2/models/link.py:1590
+#: r2/models/link.py:1594
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "from %(author)s sent %(when)s"
 
-#: r2/models/link.py:1592
+#: r2/models/link.py:1596
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "to %(dest)s from %(author)s sent %(when)s"
 
-#: r2/models/link.py:1603
+#: r2/models/link.py:1607
 #, python-format
 msgid "via %(subreddit)s"
 msgstr "melalui %(subreddit)s"
 
-#: r2/models/link.py:1605
+#: r2/models/link.py:1609
 #, python-format
 msgid "%(author)s via %(subreddit)s"
 msgstr "%(author)s melalui %(subreddit)s"
@@ -4404,7 +4408,7 @@ msgstr "house"
 msgid "non-CPM, displays in all unsold impressions"
 msgstr "non-CPM, displays in all unsold impressions"
 
-#: r2/models/promo.py:214
+#: r2/models/promo.py:222
 #, python-format
 msgid "collection: %(name)s"
 msgstr "collection: %(name)s"
@@ -5005,7 +5009,7 @@ msgstr "tentukan komunitas sasaran"
 msgid "specify a title"
 msgstr "tentukan sebuah judul"
 
-#: r2/templates/buttondemopanel.html:103 r2/templates/prefoptions.html:116
+#: r2/templates/buttondemopanel.html:103 r2/templates/prefoptions.html:117
 msgid "open links in a new window"
 msgstr "buka tautan di jendela baru"
 
@@ -5179,7 +5183,7 @@ msgstr "gold restricted"
 msgid "anyone can view, but only reddit gold members can submit or comment"
 msgstr "anyone can view, but only reddit gold members can submit or comment"
 
-#: r2/templates/createsubreddit.html:137 r2/templates/prefoptions.html:257
+#: r2/templates/createsubreddit.html:137 r2/templates/prefoptions.html:258
 msgid "content options"
 msgstr "setelan konten"
 
@@ -5331,7 +5335,7 @@ msgid "restore default header"
 msgstr "kembalikan tajuk standar"
 
 #: r2/templates/createsubreddit.html:416 r2/templates/flairpane.html:88
-#: r2/templates/prefoptions.html:341
+#: r2/templates/prefoptions.html:342
 msgid "save options"
 msgstr "simpan pilihan"
 
@@ -6654,7 +6658,7 @@ msgstr "maaf melihat anda pergi!"
 
 #: r2/templates/prefdelete.html:37
 msgid " * if you're having a problem on reddit, please consider [contacting us](/feedback) about it before deleting your account.\n * deleting your account will not delete the content of posts and comments you've made on reddit. to do so, please delete them individually."
-msgstr "* jika anda mempunyai masalah di reddit, mohon coba [menghubungi kita](/feedback) tentang masalah tersebut sebelum menghapus akun anda⏎ * menghapus akun anda tidak akan menghapus isi pos dan komentar yang anda telah buat di reddit. untuk melakukan demikian, mohon menghapus mereka secara manual."
+msgstr " * jika anda mempunyai masalah di reddit, mohon coba [menghubungi kita](/feedback) tentang masalah tersebut sebelum menghapus akun anda\n * menghapus akun anda tidak akan menghapus isi pos dan komentar yang anda telah buat di reddit. untuk melakukan demikian, mohon menghapus mereka secara manual."
 
 #: r2/templates/prefdelete.html:46
 msgid "why are you deleting this account?"
@@ -6736,296 +6740,296 @@ msgstr "mentions of your username only"
 msgid "modqueue"
 msgstr "modqueue"
 
-#: r2/templates/prefoptions.html:72
+#: r2/templates/prefoptions.html:73
 msgid "your preferences have been updated"
 msgstr "preferensi anda telah diperbaharui"
 
-#: r2/templates/prefoptions.html:90
+#: r2/templates/prefoptions.html:91
 msgid "interface language"
 msgstr "bahasa yangdigunakan"
 
-#: r2/templates/prefoptions.html:94
+#: r2/templates/prefoptions.html:95
 msgid "incomplete"
 msgstr "tidak lengkap"
 
-#: r2/templates/prefoptions.html:95
+#: r2/templates/prefoptions.html:96
 msgid "volunteer to translate"
 msgstr "sukarelawan untuk menerjemahkan"
 
-#: r2/templates/prefoptions.html:102
+#: r2/templates/prefoptions.html:103
 msgid "location options"
 msgstr "location options"
 
-#: r2/templates/prefoptions.html:104
+#: r2/templates/prefoptions.html:105
 msgid "use the global default subreddits for my front page"
 msgstr "use the global default subreddits for my front page"
 
-#: r2/templates/prefoptions.html:106
+#: r2/templates/prefoptions.html:107
 msgid "hide the location information bar"
 msgstr "hide the location information bar"
 
-#: r2/templates/prefoptions.html:112
+#: r2/templates/prefoptions.html:113
 msgid "clicking options"
 msgstr "pilihan klik"
 
-#: r2/templates/prefoptions.html:114
+#: r2/templates/prefoptions.html:115
 msgid "display links with a reddit toolbar"
 msgstr "tampilkan tautan dengan toolbar reddit"
 
-#: r2/templates/prefoptions.html:120 r2/templates/promotelinkbase.html:193
+#: r2/templates/prefoptions.html:121 r2/templates/promotelinkbase.html:193
 msgid "media"
 msgstr "media"
 
-#: r2/templates/prefoptions.html:123
+#: r2/templates/prefoptions.html:124
 msgid "show thumbnails next to links"
 msgstr "tampilkan gambar setelah tautan"
 
-#: r2/templates/prefoptions.html:124
+#: r2/templates/prefoptions.html:125
 msgid "don't show thumbnails next to links"
 msgstr "jangan tampilkan gambar di sebelah tautan"
 
-#: r2/templates/prefoptions.html:125
+#: r2/templates/prefoptions.html:126
 msgid "show thumbnails based on that subreddit's media preferences"
 msgstr "show thumbnails based on that subreddit's media preferences"
 
-#: r2/templates/prefoptions.html:126
+#: r2/templates/prefoptions.html:127
 msgid "make safe(r) for work "
 msgstr "jadikan (lebih) aman untuk saat bekerja"
 
-#: r2/templates/prefoptions.html:129
+#: r2/templates/prefoptions.html:130
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
 msgstr "(Jangan tunjukkan thumbnails dari apapun yang berlabel TAUSB)"
 
-#: r2/templates/prefoptions.html:132
+#: r2/templates/prefoptions.html:133
 msgid "to enable thumbnails, disable compressed link display"
 msgstr "untuk menyalakan gambar kecil, matikan tampilan tautan mampat"
 
-#: r2/templates/prefoptions.html:139
+#: r2/templates/prefoptions.html:140
 msgid "link options"
 msgstr "pilihan tautan"
 
-#: r2/templates/prefoptions.html:142
+#: r2/templates/prefoptions.html:143
 msgid "show the spotlight box on the front page"
 msgstr "menampilkan kotak spotlight di halaman depan"
 
-#: r2/templates/prefoptions.html:145
+#: r2/templates/prefoptions.html:146
 msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
 msgstr "(ini menampilkan tautan baru dan yang dipromosikan, dan memberikan anda suara untuk mengatakan mana yang spam mana yang bukan.)"
 
-#: r2/templates/prefoptions.html:149
+#: r2/templates/prefoptions.html:150
 msgid "show trending subreddits on the front page"
 msgstr "show trending subreddits on the front page"
 
-#: r2/templates/prefoptions.html:152
+#: r2/templates/prefoptions.html:153
 msgid "(a list of popular and notable subreddits to check out)"
 msgstr "(a list of popular and notable subreddits to check out)"
 
-#: r2/templates/prefoptions.html:156
+#: r2/templates/prefoptions.html:157
 msgid "show me links I've recently viewed"
 msgstr "tampilkan tautan yang telah saya lihat"
 
-#: r2/templates/prefoptions.html:157
+#: r2/templates/prefoptions.html:158
 msgid "compress the link display"
 msgstr "persingkat tampilan tautan"
 
-#: r2/templates/prefoptions.html:158
+#: r2/templates/prefoptions.html:159
 msgid "show additional details in the domain text when available"
 msgstr "show additional details in the domain text when available"
 
-#: r2/templates/prefoptions.html:161
+#: r2/templates/prefoptions.html:162
 msgid "(such as the source subreddit or the content author's url/name)"
 msgstr "(such as the source subreddit or the content author's url/name)"
 
-#: r2/templates/prefoptions.html:164
+#: r2/templates/prefoptions.html:165
 msgid "don't show links after I've liked them"
 msgstr "jangan tampilkan tautan setelah saya menyukainya"
 
-#: r2/templates/prefoptions.html:166 r2/templates/prefoptions.html:170
+#: r2/templates/prefoptions.html:167 r2/templates/prefoptions.html:171
 msgid "(except my own)"
 msgstr "(terkecuali punya sendiri)"
 
-#: r2/templates/prefoptions.html:168
+#: r2/templates/prefoptions.html:169
 msgid "don't show links after I've disliked them"
 msgstr "jangan tampilkan tautan setelah saya tidak menyukainya"
 
-#: r2/templates/prefoptions.html:173
+#: r2/templates/prefoptions.html:174
 #, python-format
 msgid "display %(num)s links at once"
 msgstr "tampilkan %(num)s tautan sekaligus"
 
-#: r2/templates/prefoptions.html:181
+#: r2/templates/prefoptions.html:182
 #, python-format
 msgid "don't show me submissions with a score less than %(num)s"
 msgstr "don't show me submissions with a score less than %(num)s"
 
-#: r2/templates/prefoptions.html:182 r2/templates/prefoptions.html:195
+#: r2/templates/prefoptions.html:183 r2/templates/prefoptions.html:196
 msgid "(blank for none)"
 msgstr "(kosongkan jika tidak ada)"
 
-#: r2/templates/prefoptions.html:187
+#: r2/templates/prefoptions.html:188
 msgid "comment options"
 msgstr "opsi komentar"
 
-#: r2/templates/prefoptions.html:194
+#: r2/templates/prefoptions.html:195
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "jangan tampilkan komentar dengan skor kurang dari %(num)s"
 
-#: r2/templates/prefoptions.html:203
+#: r2/templates/prefoptions.html:204
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "tampilkan %(num)s komentar"
 
-#: r2/templates/prefoptions.html:209
+#: r2/templates/prefoptions.html:210
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "semakin kecil angkanya, semakin cepat halaman komentar anda akan tampil"
 
-#: r2/templates/prefoptions.html:212
+#: r2/templates/prefoptions.html:213
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "show a dagger (†) on comments voted controversial"
 
-#: r2/templates/prefoptions.html:213
+#: r2/templates/prefoptions.html:214
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 
-#: r2/templates/prefoptions.html:218
+#: r2/templates/prefoptions.html:219
 msgid "messaging options"
 msgstr "setelan pesan"
 
-#: r2/templates/prefoptions.html:220
+#: r2/templates/prefoptions.html:221
 msgid "show message conversations in the inbox"
 msgstr "tampilkan pesan percakapan dalam kotak masuk"
 
-#: r2/templates/prefoptions.html:223
+#: r2/templates/prefoptions.html:224
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(hanya berlaku bila anda masuk ke panel 'pesan')"
 
-#: r2/templates/prefoptions.html:227
+#: r2/templates/prefoptions.html:228
 msgid "collapse messages after I've read them"
 msgstr "sembunyikan pesan setelah saya membacanya"
 
-#: r2/templates/prefoptions.html:230
+#: r2/templates/prefoptions.html:231
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(atau anda harus merubuhkannya sendiri)"
 
-#: r2/templates/prefoptions.html:234
+#: r2/templates/prefoptions.html:235
 msgid "mark messages as read when I open my inbox"
 msgstr "tandai pesan sebagai telah dibaca saat saya membuka kotak masuk saya"
 
-#: r2/templates/prefoptions.html:237
+#: r2/templates/prefoptions.html:238
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "(bila tidak, itu akan ditandai sebagai telah dibaca bila anda meng-kliknya)"
 
-#: r2/templates/prefoptions.html:242 r2/templates/widgetdemopanel.html:194
+#: r2/templates/prefoptions.html:243 r2/templates/widgetdemopanel.html:194
 msgid "display options"
 msgstr "tunjukan opsi"
 
-#: r2/templates/prefoptions.html:244
+#: r2/templates/prefoptions.html:245
 msgid "allow subreddits to show me custom styles"
 msgstr "allow subreddits to show me custom styles"
 
-#: r2/templates/prefoptions.html:246
+#: r2/templates/prefoptions.html:247
 msgid "show user flair"
 msgstr "tunjukkan hiasan pengguna"
 
-#: r2/templates/prefoptions.html:248
+#: r2/templates/prefoptions.html:249
 msgid "show link flair"
 msgstr "tunjukan hiasan tauran"
 
-#: r2/templates/prefoptions.html:251
+#: r2/templates/prefoptions.html:252
 msgid "show self-serve advertising tab on front page"
 msgstr "show self-serve advertising tab on front page"
 
-#: r2/templates/prefoptions.html:259
+#: r2/templates/prefoptions.html:260
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Saya berumur lebih dari 18 tahun dan ingin melihat konten dewasa"
 
-#: r2/templates/prefoptions.html:260
+#: r2/templates/prefoptions.html:261
 msgid "required to view some subreddits"
 msgstr "required to view some subreddits"
 
-#: r2/templates/prefoptions.html:262
+#: r2/templates/prefoptions.html:263
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "tandai pos yang tidak sesuai untuk kerja (NSFW)"
 
-#: r2/templates/prefoptions.html:264
+#: r2/templates/prefoptions.html:265
 msgid "enable private RSS feeds"
 msgstr "aktifkan RSS feeds pribadi"
 
-#: r2/templates/prefoptions.html:266
+#: r2/templates/prefoptions.html:267
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(tersedia di tab 'RSS feed' di preferensi)"
 
-#: r2/templates/prefoptions.html:269
+#: r2/templates/prefoptions.html:270
 msgid "privacy options"
 msgstr "pilihan privasi"
 
-#: r2/templates/prefoptions.html:271
+#: r2/templates/prefoptions.html:272
 msgid "make my votes public"
 msgstr "jadikan voting saya umum"
 
-#: r2/templates/prefoptions.html:278
+#: r2/templates/prefoptions.html:279
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "ijinkan semua melihat %(link1)s dan %(link2)s"
 
-#: r2/templates/prefoptions.html:281
+#: r2/templates/prefoptions.html:282
 msgid "allow my data to be used for research purposes"
 msgstr "ijinkan data saya dipergunakan untuk riset"
 
-#: r2/templates/prefoptions.html:291
+#: r2/templates/prefoptions.html:292
 msgid "don't allow search engines to index my user profile"
 msgstr "jangan ijinkan mesin pencari mengindek profil user saya"
 
-#: r2/templates/prefoptions.html:299
+#: r2/templates/prefoptions.html:300
 msgid "load core JS libraries from reddit servers"
 msgstr "memuat pustaka inti JS dari server reddit"
 
-#: r2/templates/prefoptions.html:314
+#: r2/templates/prefoptions.html:315
 msgid "gold options"
 msgstr "setelan emas"
 
-#: r2/templates/prefoptions.html:316
+#: r2/templates/prefoptions.html:317
 msgid "show the right sidebar ad box"
 msgstr "tunjukan kotak iklan samping kanan"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:318
 msgid "the attractive 300x250 one that usually only has reddit t-shirts in it"
 msgstr "banner 300x250 keren yang biasanya hanya menunjukan baju-baju reddit."
 
-#: r2/templates/prefoptions.html:319
+#: r2/templates/prefoptions.html:320
 msgid "show sponsored links"
 msgstr "tunjukan tautan yang disponsor"
 
-#: r2/templates/prefoptions.html:320
+#: r2/templates/prefoptions.html:321
 msgid "the blue advertisements that sometimes appear on the top of the page"
 msgstr "iklan biru yang terkadang ada di atas halaman"
 
-#: r2/templates/prefoptions.html:322
+#: r2/templates/prefoptions.html:323
 msgid "show sponsorships"
 msgstr "tampilkan sponsor"
 
-#: r2/templates/prefoptions.html:323
+#: r2/templates/prefoptions.html:324
 msgid "the 300x100 'sponsored by...' images that sometimes appear in sidebars"
 msgstr "gambar berukuran 300x100 'disponsori oleh...' yang kadang muncul di bar samping"
 
-#: r2/templates/prefoptions.html:325
+#: r2/templates/prefoptions.html:326
 msgid "remember what links I've visited"
 msgstr "remember what links I've visited"
 
-#: r2/templates/prefoptions.html:326
+#: r2/templates/prefoptions.html:327
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "we'll remember and mark what links you've already read, even between computers"
 
-#: r2/templates/prefoptions.html:329
+#: r2/templates/prefoptions.html:330
 msgid "highlight new comments"
 msgstr "soroti komentar baru"
 
-#: r2/templates/prefoptions.html:331
+#: r2/templates/prefoptions.html:332
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "kita akan mengingat kunjungan anda selama 48 jam dan memperlihatkan anda mana komentar-komentar yang anda belum lihat"
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:335
 msgid "notify me when people say my username"
 msgstr "beritahu saya ketika seseorang mengatakan username saya"
 
