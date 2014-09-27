@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-08-04 19:06-0700\n"
-"PO-Revision-Date: 2014-08-04 22:15-0400\n"
+"POT-Creation-Date: 2014-09-26 18:55-0600\n"
+"PO-Revision-Date: 2014-09-26 20:58-0400\n"
 "Last-Translator: pinwale <ismail@reddit.com>\n"
 "Language-Team: Norwegian Nynorsk\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.net\n"
+"X-Generator: crowdin.com\n"
 "Language: nn_NO\n"
 
 #: ../../reddit-plugin-about/reddit_about/about.py:61
@@ -69,11 +69,11 @@ msgstr "lag"
 msgid "alien"
 msgstr "romvesen"
 
-#: ../../reddit-plugin-about/reddit_about/pages.py:56 r2/lib/menus.py:508
+#: ../../reddit-plugin-about/reddit_about/pages.py:56 r2/lib/menus.py:510
 msgid "sorted by"
 msgstr "sortert etter"
 
-#: ../../reddit-plugin-about/reddit_about/pages.py:77 r2/lib/menus.py:157
+#: ../../reddit-plugin-about/reddit_about/pages.py:77 r2/lib/menus.py:159
 msgid "overview"
 msgstr "oversyn"
 
@@ -99,7 +99,7 @@ msgstr "administrer annonser"
 
 #: ../../reddit-plugin-about/reddit_about/templates/about.html:43
 #: ../../reddit-plugin-about/reddit_about/templates/about.html:69
-#: r2/controllers/listingcontroller.py:637
+#: r2/controllers/listingcontroller.py:684
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "sendt inn av %(user)s"
@@ -205,133 +205,148 @@ msgstr "retningslinjer for bruk av logoer"
 msgid "color guide"
 msgstr "farge guide"
 
-#: r2/controllers/api.py:182 r2/controllers/api.py:3226 r2/controllers/api.py:3287
-#: r2/controllers/listingcontroller.py:558
+#: r2/controllers/api.py:193 r2/controllers/api.py:220 r2/controllers/api.py:3322
+#: r2/controllers/api.py:3385 r2/controllers/listingcontroller.py:605
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:233
-msgid "thanks for your message! you should hear back from us shortly."
-msgstr "takk for meldinga di! du vil høyre frå oss snart."
-
-#: r2/controllers/api.py:262
+#: r2/controllers/api.py:275
 msgid "your message has been delivered"
 msgstr "meldinga di har vorte sendt"
 
-#: r2/controllers/api.py:512
+#: r2/controllers/api.py:526
 msgid "no title found"
 msgstr "ingen tittel funne"
 
-#: r2/controllers/api.py:952 r2/controllers/api.py:1868 r2/controllers/api.py:2062
-#: r2/controllers/api.py:2264 r2/controllers/api.py:3005 r2/controllers/api.py:3061
-#: r2/controllers/api.py:3136 r2/controllers/api.py:3348 r2/controllers/api.py:3353
-#: r2/controllers/api.py:3539 r2/controllers/promotecontroller.py:911
-#: r2/lib/pages/pages.py:4456 r2/templates/frametoolbar.html:195
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:396
+#: r2/controllers/api.py:978 r2/controllers/api.py:1967 r2/controllers/api.py:2161
+#: r2/controllers/api.py:2364 r2/controllers/api.py:3101 r2/controllers/api.py:3157
+#: r2/controllers/api.py:3232 r2/controllers/api.py:3446 r2/controllers/api.py:3451
+#: r2/controllers/api.py:3642 r2/controllers/api.py:3680 r2/controllers/api.py:3698
+#: r2/controllers/promotecontroller.py:1008 r2/lib/pages/pages.py:4556
+#: r2/templates/frametoolbar.html:195
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:457
 msgid "saved"
 msgstr "lagra"
 
-#: r2/controllers/api.py:1016
+#: r2/controllers/api.py:1042
 msgid "all other sessions have been logged out"
 msgstr "alle andre økter har vortne logga ut"
 
-#: r2/controllers/api.py:1063 r2/controllers/api.py:1153
+#: r2/controllers/api.py:1072
+msgid "you may not disable HTTPS on this account"
+msgstr "you may not disable HTTPS on this account"
+
+#: r2/controllers/api.py:1085
+msgid "HTTPS preferences have been successfully changed"
+msgstr "HTTPS preferences have been successfully changed"
+
+#: r2/controllers/api.py:1129 r2/controllers/api.py:1219
 msgid "you should be getting a verification email shortly."
 msgstr "du vil straks få ein stadfestingsepost."
 
-#: r2/controllers/api.py:1065 r2/controllers/api.py:1077 r2/controllers/api.py:1155
-#: r2/controllers/api.py:1166
+#: r2/controllers/api.py:1131 r2/controllers/api.py:1143 r2/controllers/api.py:1221
+#: r2/controllers/api.py:1232
 msgid "your email has been updated"
 msgstr "eposten din har vorte oppdatert"
 
-#: r2/controllers/api.py:1105 r2/controllers/api.py:1180
+#: r2/controllers/api.py:1171 r2/controllers/api.py:1246
 msgid "your password has been updated"
 msgstr "passordet ditt har vorte oppdatert"
 
-#: r2/controllers/api.py:1177
+#: r2/controllers/api.py:1243
 msgid "your email and password have been updated"
 msgstr "eposten og passordet ditt har vorte oppdatert"
 
-#: r2/controllers/api.py:1626
+#: r2/controllers/api.py:1524 r2/lib/menus.py:165
+#: r2/templates/printablebuttons.html:63
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:76
+msgid "reported"
+msgstr "meldt"
+
+#: r2/controllers/api.py:1725
 msgid "replied"
 msgstr "svart"
 
-#: r2/controllers/api.py:1682
+#: r2/controllers/api.py:1781
 msgid "shared"
 msgstr "delt"
 
-#: r2/controllers/api.py:1685
+#: r2/controllers/api.py:1784
 msgid "your link has been shared."
 msgstr "lenkja di har vorte delt."
 
-#: r2/controllers/api.py:1855
+#: r2/controllers/api.py:1954
 msgid "validation errors"
 msgstr "gildskapsfeil"
 
-#: r2/controllers/api.py:1970 r2/lib/menus.py:162
+#: r2/controllers/api.py:2069 r2/lib/menus.py:164
 #: r2/templates/printablebuttons.html:33 r2/templates/subredditstylesheet.html:232
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:201
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:203
 msgid "deleted"
 msgstr "sletta"
 
-#: r2/controllers/api.py:2029 r2/templates/subredditstylesheet.html:198
+#: r2/controllers/api.py:2128 r2/templates/subredditstylesheet.html:198
 msgid "bad image name"
 msgstr "ugyldig biletnamn"
 
-#: r2/controllers/api.py:2035
+#: r2/controllers/api.py:2134
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "for mange bilete (du får berre %d)"
 
-#: r2/controllers/api.py:2044
+#: r2/controllers/api.py:2143
 msgid "Invalid image or general image error"
 msgstr "ugyldig bilete eller feil på biletet"
 
-#: r2/controllers/api.py:2894
+#: r2/controllers/api.py:2989
 msgid "an email will be sent to that account's address shortly"
 msgstr "ein epost er straks på veg til den kontoen si adresse"
 
-#: r2/controllers/api.py:2896
+#: r2/controllers/api.py:2991
 msgid "try again tomorrow"
 msgstr "prøv om att i morgon"
 
-#: r2/controllers/api.py:2939
+#: r2/controllers/api.py:3035
 msgid "password updated"
 msgstr "passord oppdatert"
 
-#: r2/controllers/api.py:3089 r2/controllers/api.py:3308
+#: r2/controllers/api.py:3185 r2/controllers/api.py:3406
 msgid "invalid css class"
 msgstr "ugyldig css-klasse"
 
-#: r2/controllers/api.py:3092 r2/controllers/api.py:3311
+#: r2/controllers/api.py:3188 r2/controllers/api.py:3409
 msgid "too many css classes"
 msgstr "for mange css-klasser"
 
-#: r2/controllers/api.py:3328
+#: r2/controllers/api.py:3426
 msgid "max flair templates reached"
 msgstr "øvre grense på mengda skilt er nådd"
 
-#: r2/controllers/api.py:3790 r2/lib/errors.py:109
+#: r2/controllers/api.py:3694
+msgid "no gold to take"
+msgstr "no gold to take"
+
+#: r2/controllers/api.py:3935 r2/lib/errors.py:111
 msgid "invalid client id"
 msgstr "ugyldig klient-ID"
 
-#: r2/controllers/api.py:3793
+#: r2/controllers/api.py:3938
 msgid "cannot update deleted app"
 msgstr "kan ikkje oppdatere ein sletta app"
 
-#: r2/controllers/api.py:3796
+#: r2/controllers/api.py:3941
 msgid "app does not belong to you"
 msgstr "appen høyrer ikkje til deg"
 
-#: r2/controllers/api.py:3804
+#: r2/controllers/api.py:3949
 msgid "application updated"
 msgstr "applikasjonen er oppdatert"
 
-#: r2/controllers/api.py:3817
+#: r2/controllers/api.py:3962
 msgid "application created"
 msgstr "applikasjonen er oppretta"
 
-#: r2/controllers/api.py:3844
+#: r2/controllers/api.py:3989
 msgid "developer added"
 msgstr "utviklaren er lagd til"
 
@@ -351,258 +366,258 @@ msgstr "reddit-widget"
 msgid "bookmarklets"
 msgstr "bokmerke"
 
-#: r2/controllers/embed.py:67 r2/lib/pages/pages.py:844
+#: r2/controllers/embed.py:68 r2/lib/pages/pages.py:868
 #: r2/templates/frametoolbar.html:108
 msgid "help"
 msgstr "hjelp"
 
-#: r2/controllers/error.py:136
+#: r2/controllers/error.py:139
 #, python-format
 msgid "forbidden (%(domain)s)"
 msgstr "forboden (%(domain)s)"
 
-#: r2/controllers/error.py:137
+#: r2/controllers/error.py:140
 msgid "you are not allowed to do that"
 msgstr "du har ikkje lov til det der"
 
-#: r2/controllers/error.py:144
+#: r2/controllers/error.py:147
 msgid "page not found"
 msgstr "sida vart ikkje funne"
 
-#: r2/controllers/error.py:145
+#: r2/controllers/error.py:148
 msgid "the page you requested does not exist"
 msgstr "sida du spurde etter finst ikkje"
 
-#: r2/controllers/front.py:166 r2/lib/pages/pages.py:4443
+#: r2/controllers/front.py:171 r2/lib/pages/pages.py:4543
 msgid "explore"
 msgstr "utforsk"
 
-#: r2/controllers/front.py:387
+#: r2/controllers/front.py:396
 msgid "no comments (yet)"
 msgstr "ingen innlegg (enno)"
 
-#: r2/controllers/front.py:389
+#: r2/controllers/front.py:398
 #, python-format
 msgid "all %d comments"
 msgstr "alle %d innlegg"
 
-#: r2/controllers/front.py:391
+#: r2/controllers/front.py:400
 #, python-format
 msgid "top %d comments"
 msgstr "topp %d innlegg"
 
-#: r2/controllers/front.py:416
+#: r2/controllers/front.py:425
 #, python-format
 msgid "show all %d"
 msgstr "vis alle %d"
 
-#: r2/controllers/front.py:418
+#: r2/controllers/front.py:427
 #, python-format
 msgid "show %d"
 msgstr "vis %d"
 
-#: r2/controllers/front.py:434 r2/controllers/front.py:436
+#: r2/controllers/front.py:443 r2/controllers/front.py:445
 msgid "create a subreddit"
 msgstr "opprett ein subreddit"
 
-#: r2/controllers/front.py:564 r2/controllers/front.py:570
-#: r2/controllers/listingcontroller.py:600 r2/controllers/listingcontroller.py:615
-#: r2/controllers/listingcontroller.py:845 r2/controllers/listingcontroller.py:859
-#: r2/lib/menus.py:170 r2/lib/menus.py:414 r2/lib/menus.py:588
-#: r2/lib/pages/pages.py:3712 r2/templates/createsubreddit.html:221
+#: r2/controllers/front.py:571 r2/controllers/front.py:577
+#: r2/controllers/listingcontroller.py:647 r2/controllers/listingcontroller.py:662
+#: r2/controllers/listingcontroller.py:895 r2/controllers/listingcontroller.py:909
+#: r2/lib/menus.py:172 r2/lib/menus.py:416 r2/lib/menus.py:592
+#: r2/lib/pages/pages.py:3706 r2/templates/createsubreddit.html:221
 #: r2/templates/createsubreddit.html:232 r2/templates/createsubreddit.html:243
 msgid "all"
 msgstr "alle"
 
-#: r2/controllers/front.py:576
+#: r2/controllers/front.py:583
 msgid "admins*"
-msgstr "admins*"
+msgstr "administrator*"
 
-#: r2/controllers/front.py:579
+#: r2/controllers/front.py:586
 msgid "filter by action"
 msgstr "filtrer etter handling"
 
-#: r2/controllers/front.py:581
+#: r2/controllers/front.py:588
 msgid "filter by moderator"
 msgstr "filtrer etter moderator"
 
-#: r2/controllers/front.py:740
+#: r2/controllers/front.py:753
 msgid "links and comments"
 msgstr "Lenkjer og kommentarar"
 
-#: r2/controllers/front.py:741 r2/lib/pages/pages.py:4164
+#: r2/controllers/front.py:754 r2/lib/pages/pages.py:4263
 #: r2/templates/createsubreddit.html:215
 msgid "links"
 msgstr "lenkjer"
 
-#: r2/controllers/front.py:742 r2/controllers/listingcontroller.py:1204
-#: r2/lib/pages/pages.py:4169 r2/templates/createsubreddit.html:237
+#: r2/controllers/front.py:755 r2/controllers/listingcontroller.py:1283
+#: r2/lib/pages/pages.py:4268 r2/templates/createsubreddit.html:237
 msgid "comments"
 msgstr "innlegg"
 
-#: r2/controllers/front.py:744
+#: r2/controllers/front.py:757
 msgid "show"
 msgstr "vis"
 
-#: r2/controllers/front.py:815 r2/lib/menus.py:148
+#: r2/controllers/front.py:828 r2/lib/menus.py:149
 msgid "awards"
 msgstr "utmerkingar"
 
-#: r2/controllers/front.py:850 r2/lib/menus.py:114
+#: r2/controllers/front.py:863 r2/lib/menus.py:114
 msgid "related"
 msgstr "i slekt"
 
-#: r2/controllers/front.py:873
+#: r2/controllers/front.py:886
 msgid "other discussions"
 msgstr "andre ordskifte"
 
-#: r2/controllers/front.py:894 r2/controllers/front.py:957
+#: r2/controllers/front.py:907 r2/controllers/front.py:970
 msgid "search results"
 msgstr "søkjeresultat"
 
-#: r2/controllers/front.py:1028
+#: r2/controllers/front.py:1041
 msgid "seen it"
 msgstr "sett det"
 
-#: r2/controllers/front.py:1044 r2/models/subreddit.py:1635
+#: r2/controllers/front.py:1057 r2/models/subreddit.py:1696
 #: r2/templates/multiinfobar.html:33
 #, python-format
 msgid "%s subreddits"
 msgstr "%s subreddits"
 
-#: r2/controllers/front.py:1063 r2/lib/menus.py:78 r2/templates/newlink.html:147
-#: r2/templates/usertableitem.html:67
+#: r2/controllers/front.py:1076 r2/lib/menus.py:78 r2/templates/newlink.html:147
+#: r2/templates/reportform.html:66 r2/templates/usertableitem.html:70
 #: ../../reddit-plugin-meatspace/reddit_meatspace/templates/qrcodeform.html:34
 msgid "submit"
 msgstr "post"
 
-#: r2/controllers/front.py:1170 r2/lib/menus.py:84
+#: r2/controllers/front.py:1183 r2/lib/menus.py:84
 msgid "contact us"
 msgstr "kontakt oss"
 
-#: r2/controllers/front.py:1175
+#: r2/controllers/front.py:1188
 msgid "rules of reddit"
 msgstr "reglane for reddit"
 
-#: r2/controllers/front.py:1188
+#: r2/controllers/front.py:1201
 msgid "Claimed! Enjoy your reddit gold membership."
-msgstr "Claimed! Enjoy your reddit gold membership."
+msgstr "Aktivert! Nyt reddit gull-medlemskapet ditt."
 
-#: r2/controllers/front.py:1192
+#: r2/controllers/front.py:1205
 msgid "Your gold creddits have been claimed! Now go to someone's userpage and give them a present!"
-msgstr "Your gold creddits have been claimed! Now go to someone's userpage and give them a present!"
+msgstr "Dine gull-creddits har blitt levert! Gi noen en gave fra brukersiden deres!"
 
-#: r2/controllers/front.py:1195
+#: r2/controllers/front.py:1208
 msgid "Thanks for buying reddit gold! Your transaction has been completed."
-msgstr "Thanks for buying reddit gold! Your transaction has been completed."
+msgstr "Takk for at du kjøpte reddit gull! Transaksjonen er gjennomført."
 
-#: r2/controllers/front.py:1198
+#: r2/controllers/front.py:1211
 msgid "Thanks for buying reddit gold! Your transaction has been completed and emailed to you. You can check the details by logging into your account at:"
-msgstr "Thanks for buying reddit gold! Your transaction has been completed and emailed to you. You can check the details by logging into your account at:"
+msgstr "Takk for at du kjøpte reddit gull! din transaksjon er fullført og er e-postet til deg. Du kan sjekke detaljene ved å logge inn på din konto på:"
 
-#: r2/controllers/front.py:1204
+#: r2/controllers/front.py:1217
 #, python-format
 msgid "Thanks for buying reddit gold! Your transaction is being processed. If you have any questions please email us at %(gold_email)s"
-msgstr "Thanks for buying reddit gold! Your transaction is being processed. If you have any questions please email us at %(gold_email)s"
+msgstr "Takk for at du kjøpte reddit gull! transaksjonen din behandles. Hvis du har spørsmål, send oss en e-post på %(gold_email)s"
 
-#: r2/controllers/front.py:1211 r2/controllers/front.py:1458
+#: r2/controllers/front.py:1224 r2/controllers/front.py:1496
 msgid "thanks"
 msgstr "takk"
 
-#: r2/controllers/front.py:1226
+#: r2/controllers/front.py:1239
 msgid "claim this award?"
 msgstr "krev denne premien?"
 
-#: r2/controllers/front.py:1248
+#: r2/controllers/front.py:1262
 msgid "award claim"
 msgstr "hent premie"
 
-#: r2/controllers/front.py:1252 r2/templates/gilding.html:26
+#: r2/controllers/front.py:1266 r2/templates/gilding.html:26
 msgid "gilding"
-msgstr "gilding"
+msgstr "forgjylle"
 
-#: r2/controllers/front.py:1263 r2/templates/login.html:93
+#: r2/controllers/front.py:1299 r2/templates/login.html:93
 #: r2/templates/loginformwide.html:45 r2/templates/passwordverificationform.html:38
-#: r2/templates/prefdelete.html:57 r2/templates/prefotp.html:38
-#: r2/templates/prefotp.html:57 r2/templates/register.html:93
+#: r2/templates/prefdelete.html:57 r2/templates/prefsecurity.html:74
+#: r2/templates/prefsecurity.html:93 r2/templates/register.html:93
 msgid "password"
 msgstr "passord"
 
-#: r2/controllers/front.py:1283 r2/controllers/front.py:1312
+#: r2/controllers/front.py:1319 r2/controllers/front.py:1348
 msgid "verify email"
 msgstr "stadfest e-post"
 
-#: r2/controllers/front.py:1331 r2/templates/loginformwide.html:52
+#: r2/controllers/front.py:1367 r2/templates/loginformwide.html:52
 msgid "reset password"
 msgstr "nullstill passord"
 
-#: r2/controllers/front.py:1428 r2/controllers/post.py:90
+#: r2/controllers/front.py:1466 r2/controllers/post.py:96
 msgid "opt out"
 msgstr "vel vekk"
 
-#: r2/controllers/front.py:1428 r2/controllers/post.py:100
+#: r2/controllers/front.py:1466 r2/controllers/post.py:107
 msgid "welcome back"
 msgstr "velkomen attende"
 
-#: r2/controllers/front.py:1507 r2/controllers/front.py:1585
-#: r2/controllers/front.py:1624 r2/lib/menus.py:91 r2/templates/creditgild.html:31
+#: r2/controllers/front.py:1545 r2/controllers/front.py:1623
+#: r2/controllers/front.py:1662 r2/lib/menus.py:91 r2/templates/creditgild.html:31
 #: r2/templates/gold.html:27 r2/templates/goldpayment.html:34
 #: r2/templates/goldthanks.html:26
 msgid "reddit gold"
 msgstr "redditgull"
 
-#: r2/controllers/front.py:1634 r2/templates/gilding.html:67
+#: r2/controllers/front.py:1672 r2/templates/gilding.html:76
 msgid "purchase creddits"
-msgstr "purchase creddits"
+msgstr "kjøp creddits"
 
-#: r2/controllers/front.py:1644 r2/controllers/ipn.py:1112
+#: r2/controllers/front.py:1682 r2/controllers/ipn.py:1110
 msgid "reddit gold subscription"
 msgstr "reddit gull-abonnement"
 
-#: r2/controllers/ipn.py:254 r2/controllers/ipn.py:255
+#: r2/controllers/ipn.py:255 r2/controllers/ipn.py:256
 msgid "An anonymous redditor"
 msgstr "Ein anonym redditor"
 
-#: r2/controllers/ipn.py:265
+#: r2/controllers/ipn.py:266
 #, python-format
 msgid "Let there be gold! %s just sent you reddit gold!"
 msgstr "La det bli gull! %s sendte deg nettopp reddit gull!"
 
-#: r2/controllers/ipn.py:273
+#: r2/controllers/ipn.py:274
 msgid "Your comment has been gilded!"
 msgstr "Kommentaren din har blitt forgylla!"
 
-#: r2/controllers/ipn.py:276
+#: r2/controllers/ipn.py:277
 msgid "Your submission has been gilded!"
 msgstr "Innlegget ditt har blitt forgylla!"
 
-#: r2/controllers/ipn.py:313
+#: r2/controllers/ipn.py:314
 msgid "Your gold gift code has been generated!"
 msgstr "Koden til din gullgåve har blitt generert!"
 
-#: r2/controllers/ipn.py:314
+#: r2/controllers/ipn.py:315
 #, python-format
 msgid "Here is your gift code for %(amount)s of reddit gold:\n\n%(code)s\n\nThe recipient (or you!) can enter it at http://www.reddit.com/gold or go directly to http://www.reddit.com/thanks/%(code)s to claim it."
 msgstr "Her er gavekoden din for %(amount)s stykk redditgull:\n\n%(code)s\n\nMottakeren (eller du!) kan skrive den inn på http://www.reddit.com/gold eller gå direkte til http://www.reddit.com/thanks/%(code)s for å gjøre krav på den."
 
-#: r2/controllers/ipn.py:341
+#: r2/controllers/ipn.py:342
 msgid "nice try."
 msgstr "prøv betre."
 
-#: r2/controllers/ipn.py:373
+#: r2/controllers/ipn.py:374
 msgid "that user has deleted their account"
 msgstr "den brukaren har sletta kontoen sin"
 
-#: r2/controllers/ipn.py:391 r2/controllers/ipn.py:405
+#: r2/controllers/ipn.py:390 r2/controllers/ipn.py:404
 msgid "the gold has been delivered!"
 msgstr "gullet er levert!"
 
-#: r2/controllers/ipn.py:396
+#: r2/controllers/ipn.py:395
 #, python-format
 msgid "there was an error creating a gift code. please try again later, or contact %(email)s for assistance."
 msgstr "ein feil oppsto under opprettinga av ein gåvekode. prøv igjen seinare, eller kontakt %(email)s for hjelp."
 
-#: r2/controllers/ipn.py:402
+#: r2/controllers/ipn.py:401
 msgid "the gift code has been messaged to you!"
 msgstr "gavekoden har blitt sendt til deg!"
 
@@ -622,268 +637,269 @@ msgstr "Eureka! Takk for at du investerte i reddit gull kreditter!"
 msgid "Thank you for buying creddits. Your patronage supports the site and makes future development possible. To spend your creddits and spread reddit gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Takk for at du kjøpte reddit-poeng. Kjøpet ditt støtter siden og gjør videre utvikling mulig. For å bruke dine poeng og spre reddit-gull, besøk [/gold](/gold) eller brukersiden til favorittpersonen din."
 
-#: r2/controllers/ipn.py:561 r2/controllers/ipn.py:585
+#: r2/controllers/ipn.py:561 r2/controllers/ipn.py:583
 #: r2/templates/goldgiftcodeemail.email:25
 msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr "Tusen takk for din støtte, ha det fint med å spreie gull!"
 
-#: r2/controllers/ipn.py:579
+#: r2/controllers/ipn.py:577
 msgid "Thanks for giving the gift of reddit gold!"
 msgstr "Takk for at du ga bort reddit-gull i gave!"
 
-#: r2/controllers/ipn.py:580
+#: r2/controllers/ipn.py:578
 #, python-format
 msgid "Your classy gift to %s has been delivered.\n\nThank you for gifting reddit gold. Your patronage supports the site and makes future development possible."
 msgstr "Din stilfulle gave til %s har blitt levert.\n\nTakk for at du ga bort reddit-gull. Patriotismen din støtter siden og gjør fremtidig utvikling mulig."
 
-#: r2/controllers/ipn.py:710
+#: r2/controllers/ipn.py:707
 msgid "reddit gold payment cancelled"
 msgstr "Betalingen for reddit-gull ble avbrutt"
 
-#: r2/controllers/ipn.py:711
+#: r2/controllers/ipn.py:708
 #, python-format
 msgid "Your reddit gold payment has been cancelled, contact %(gold_email)s for details"
 msgstr "Din betaling for reddit-gull har blitt avbrutt. Ta kontakt med %(gold_email)s for mer informasjon"
 
-#: r2/controllers/ipn.py:726
+#: r2/controllers/ipn.py:723
 msgid "reddit gold payment failed"
 msgstr "Betalingen for reddit-gull mislyktes"
 
-#: r2/controllers/ipn.py:727
+#: r2/controllers/ipn.py:724
 #, python-format
 msgid "Your reddit gold payment has failed, contact %(gold_email)s for details"
 msgstr "Din betaling for reddit-gull har mislyktes, ta kontakt med %(gold_email)s for mer informasjon"
 
-#: r2/controllers/ipn.py:735
+#: r2/controllers/ipn.py:732
 msgid "reddit gold subscription cancelled"
 msgstr "redditgull-abonnement kansellert"
 
-#: r2/controllers/ipn.py:736
+#: r2/controllers/ipn.py:733
 #, python-format
 msgid "Your reddit gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "Ditt redditgull-abonnement har blitt kansellert fordi kredittkortet ikke kunne belastes. Kontakt %(gold_email)s for detaljer"
 
-#: r2/controllers/ipn.py:746
+#: r2/controllers/ipn.py:743
 msgid "reddit gold refund"
 msgstr "reddit gull tilbakebetaling"
 
-#: r2/controllers/ipn.py:747
+#: r2/controllers/ipn.py:744
 #, python-format
 msgid "Your reddit gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "Din betaling for reddit-gull har blitt avbrutt. Ta kontakt med %(gold_email)s for mer informasjon"
 
-#: r2/controllers/ipn.py:856
+#: r2/controllers/ipn.py:853
 #, python-format
 msgid "error: %(error)s"
 msgstr "Feil: %(error)s"
 
-#: r2/controllers/ipn.py:858
+#: r2/controllers/ipn.py:855
 msgid "invalid request"
 msgstr "Ugyldig forespørsel"
 
-#: r2/controllers/ipn.py:860
+#: r2/controllers/ipn.py:857
 msgid "api error"
 msgstr "api-feil"
 
-#: r2/controllers/ipn.py:862
+#: r2/controllers/ipn.py:859
 msgid "connection error"
 msgstr "tilkoplingsfeil"
 
-#: r2/controllers/ipn.py:864
+#: r2/controllers/ipn.py:861
 msgid "error"
 msgstr "feil"
 
-#: r2/controllers/ipn.py:1000
+#: r2/controllers/ipn.py:997
 msgid "error: address verification failed"
 msgstr "feil: adressebekreftelse feilet"
 
-#: r2/controllers/ipn.py:1004
+#: r2/controllers/ipn.py:1001
 msgid "error: cvc check failed"
 msgstr "feil: kontrollnummersjekk feilet"
 
-#: r2/controllers/ipn.py:1050
+#: r2/controllers/ipn.py:1047
 msgid "your gold subscription has been cancelled"
 msgstr "ditt gull-abonnement har blitt kansellert"
 
-#: r2/controllers/ipn.py:1051
+#: r2/controllers/ipn.py:1048
 #, python-format
 msgid "if you have any questions please email %(email)s"
 msgstr "hvis du har spørsmål, send en epost til %(email)s"
 
-#: r2/controllers/ipn.py:1077
+#: r2/controllers/ipn.py:1075
 msgid "something bad happened, try again later"
 msgstr "noko gjekk galen, prøv seinare"
 
-#: r2/controllers/ipn.py:1086
+#: r2/controllers/ipn.py:1084
 msgid "your account already has a gold subscription"
 msgstr "kontoen din har allerede et gull-abonnement"
 
-#: r2/controllers/ipn.py:1092
+#: r2/controllers/ipn.py:1090
 msgid "stop trying to trick the form"
 msgstr "ikkje prøv å lure skjemaet"
 
-#: r2/controllers/ipn.py:1111
+#: r2/controllers/ipn.py:1109
 msgid "subscription created"
 msgstr "abonnement oppretta"
 
-#: r2/controllers/ipn.py:1113
+#: r2/controllers/ipn.py:1111
 msgid "Your subscription is being processed and reddit gold will be delivered shortly."
 msgstr "Abonnementet ditt behandles, og ditt reddit-gull vil bli levert snart."
 
-#: r2/controllers/ipn.py:1121
+#: r2/controllers/ipn.py:1119
 msgid "payment submitted"
 msgstr "betaling sendt"
 
-#: r2/controllers/ipn.py:1122
+#: r2/controllers/ipn.py:1120
 msgid "reddit gold payment"
 msgstr "reddit gull betaling"
 
-#: r2/controllers/ipn.py:1123
+#: r2/controllers/ipn.py:1121
 msgid "Your payment is being processed and reddit gold will be delivered shortly."
 msgstr "Betalingen din er under behandling, og ditt reddit-gull vil bli levert innen kort tid."
 
-#: r2/controllers/ipn.py:1140
+#: r2/controllers/ipn.py:1138
 msgid "your payment details have been updated"
 msgstr "betalingsinformasjonen din har blitt oppdatert"
 
-#: r2/controllers/ipn.py:1152
+#: r2/controllers/ipn.py:1150
 msgid "your subscription has been cancelled"
 msgstr "abonnementet ditt har blitt kansellert"
 
-#: r2/controllers/listingcontroller.py:415
+#: r2/controllers/listingcontroller.py:460
 msgid "newest submissions"
 msgstr "nyaste bidrag"
 
-#: r2/controllers/listingcontroller.py:445
+#: r2/controllers/listingcontroller.py:491
 msgid "rising submissions"
 msgstr "stigande innsendingar"
 
-#: r2/controllers/listingcontroller.py:497
+#: r2/controllers/listingcontroller.py:544
 msgid "top scoring links"
 msgstr "toppskårande lenkjer"
 
-#: r2/controllers/listingcontroller.py:501
+#: r2/controllers/listingcontroller.py:548
 msgid "most controversial links"
 msgstr "mest kontroversielle lenkjer"
 
-#: r2/controllers/listingcontroller.py:514
+#: r2/controllers/listingcontroller.py:561
 msgid "promoted links"
 msgstr "promoterte lenker"
 
-#: r2/controllers/listingcontroller.py:518
+#: r2/controllers/listingcontroller.py:565
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "Vil du reklamere? [Klikk her!](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:538
+#: r2/controllers/listingcontroller.py:585
 msgid "you're really bored now, eh?"
 msgstr "du keiar deg skikkeleg no, ikkje sant?"
 
-#: r2/controllers/listingcontroller.py:608
+#: r2/controllers/listingcontroller.py:655
 msgid "filter by subreddit"
 msgstr "filtrer etter subreddit"
 
-#: r2/controllers/listingcontroller.py:622
+#: r2/controllers/listingcontroller.py:669
 msgid "filter by category"
 msgstr "filtrer etter kategori"
 
-#: r2/controllers/listingcontroller.py:628
+#: r2/controllers/listingcontroller.py:675
 msgid "gildings received"
 msgstr "forgyllinger mottatt"
 
-#: r2/controllers/listingcontroller.py:629
+#: r2/controllers/listingcontroller.py:676
 msgid "gildings given"
 msgstr "forgyllinger gitt"
 
-#: r2/controllers/listingcontroller.py:635
+#: r2/controllers/listingcontroller.py:682
 #, python-format
 msgid "overview for %(user)s"
 msgstr "oversyn for %(user)s"
 
-#: r2/controllers/listingcontroller.py:636
+#: r2/controllers/listingcontroller.py:683
 #, python-format
 msgid "comments by %(user)s"
 msgstr "innlegg av %(user)s"
 
-#: r2/controllers/listingcontroller.py:638
+#: r2/controllers/listingcontroller.py:685
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "forgylt av %(user)s"
 
-#: r2/controllers/listingcontroller.py:639
+#: r2/controllers/listingcontroller.py:686
 #, python-format
 msgid "liked by %(user)s"
 msgstr "likt av %(user)s"
 
-#: r2/controllers/listingcontroller.py:640
+#: r2/controllers/listingcontroller.py:687
 #, python-format
 msgid "disliked by %(user)s"
 msgstr "mislikt av %(user)s"
 
-#: r2/controllers/listingcontroller.py:641
+#: r2/controllers/listingcontroller.py:688
 #, python-format
 msgid "saved by %(user)s"
 msgstr "lagra av %(user)s"
 
-#: r2/controllers/listingcontroller.py:642
+#: r2/controllers/listingcontroller.py:689
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "gøymd av %(user)s"
 
-#: r2/controllers/listingcontroller.py:643
+#: r2/controllers/listingcontroller.py:690
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "fremja av %(user)s"
 
-#: r2/controllers/listingcontroller.py:645
+#: r2/controllers/listingcontroller.py:692
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "forgyllinger gitt av %(user)s"
 
-#: r2/controllers/listingcontroller.py:647
+#: r2/controllers/listingcontroller.py:694
 #, python-format
 msgid "profile for %(user)s"
 msgstr "profilen for %(user)s"
 
-#: r2/controllers/listingcontroller.py:846 r2/controllers/listingcontroller.py:860
-#: r2/templates/printablebuttons.html:349
+#: r2/controllers/listingcontroller.py:896 r2/controllers/listingcontroller.py:910
+#: r2/templates/printablebuttons.html:412
 msgid "unread"
 msgstr "ulesne"
 
-#: r2/controllers/listingcontroller.py:848
+#: r2/controllers/listingcontroller.py:898
 msgid "comment replies"
 msgstr "innleggsvar"
 
-#: r2/controllers/listingcontroller.py:849
+#: r2/controllers/listingcontroller.py:899
 msgid "post replies"
 msgstr "postsvar"
 
-#: r2/controllers/listingcontroller.py:852
+#: r2/controllers/listingcontroller.py:902
 msgid "username mentions"
 msgstr "omtale av brukernavn"
 
-#: r2/controllers/listingcontroller.py:867 r2/templates/redditheader.html:96
+#: r2/controllers/listingcontroller.py:917 r2/templates/redditheader.html:89
+#: r2/templates/redditheader.html:94
 msgid "messages"
 msgstr "meldingar"
 
-#: r2/controllers/listingcontroller.py:1067 r2/lib/menus.py:92
-#: r2/templates/pagenamenav.html:59
+#: r2/controllers/listingcontroller.py:1144 r2/lib/menus.py:92
+#: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:382
 msgid "subreddits"
 msgstr "subredditar"
 
-#: r2/controllers/listingcontroller.py:1133
+#: r2/controllers/listingcontroller.py:1210
 msgid "subreddits: "
 msgstr "subreddits: "
 
-#: r2/controllers/listingcontroller.py:1239
+#: r2/controllers/listingcontroller.py:1318
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "For å blokkere en bruker, trykk \"blokker bruker\" under en melding du har fått fra en bruker du ønsker å blokkere."
 
-#: r2/controllers/listingcontroller.py:1469 r2/lib/menus.py:56
+#: r2/controllers/listingcontroller.py:1548 r2/lib/menus.py:56
 msgid "gilded"
 msgstr "forgyllet"
 
-#: r2/controllers/listingcontroller.py:1483
+#: r2/controllers/listingcontroller.py:1562
 #, python-format
 msgid "gildings in this subreddit have paid for %(time)s of server time"
 msgstr "Forgylling i denne subredditen har betalt for %(time)s servertid"
@@ -893,101 +909,105 @@ msgstr "Forgylling i denne subredditen har betalt for %(time)s servertid"
 msgid "copied from %(source)s"
 msgstr "kopiert fra %(source)s"
 
-#: r2/controllers/policies.py:44 r2/lib/pages/pages.py:4531
+#: r2/controllers/policies.py:44 r2/lib/pages/pages.py:4631
 msgid "privacy policy"
 msgstr "personvernerklæring"
 
-#: r2/controllers/policies.py:47 r2/lib/pages/pages.py:4532
+#: r2/controllers/policies.py:47 r2/lib/pages/pages.py:4632
 msgid "user agreement"
 msgstr "brukeravtale"
 
-#: r2/controllers/post.py:67
+#: r2/controllers/post.py:72
 msgid "over 18?"
 msgstr "over 18?"
 
-#: r2/controllers/promotecontroller.py:150
+#: r2/controllers/promotecontroller.py:151
 msgid "create sponsored link"
 msgstr "opprett sponset lenke"
 
-#: r2/controllers/promotecontroller.py:160
+#: r2/controllers/promotecontroller.py:161
 msgid "edit sponsored link"
 msgstr "endre sponset lenke"
 
-#: r2/controllers/promotecontroller.py:185
+#: r2/controllers/promotecontroller.py:203
 msgid "manage roadblocks"
 msgstr "behandle veisperringer"
 
-#: r2/controllers/promotecontroller.py:250
+#: r2/controllers/promotecontroller.py:249
 msgid "sponsored link report"
 msgstr "rapport om sponset lenke"
 
-#: r2/controllers/promotecontroller.py:274
+#: r2/controllers/promotecontroller.py:281
 msgid "sponsored link inventory"
 msgstr "sponset lenke inventar"
 
-#: r2/controllers/promotecontroller.py:282
+#: r2/controllers/promotecontroller.py:289
 msgid "unapproved promoted links"
 msgstr "ikke godkjente promoterte lenker"
 
-#: r2/controllers/promotecontroller.py:283
+#: r2/controllers/promotecontroller.py:290
 msgid "accepted promoted links"
 msgstr "godkjente promoterte lenker"
 
-#: r2/controllers/promotecontroller.py:284
+#: r2/controllers/promotecontroller.py:291
 msgid "unpaid promoted links"
 msgstr "ubetalte promoterte lenker"
 
-#: r2/controllers/promotecontroller.py:285
+#: r2/controllers/promotecontroller.py:292
 msgid "rejected promoted links"
 msgstr "avslåtte promoterte lenker"
 
-#: r2/controllers/promotecontroller.py:286
+#: r2/controllers/promotecontroller.py:293
 msgid "live promoted links"
 msgstr "direkte promoterte lenker"
 
-#: r2/controllers/promotecontroller.py:287
-msgid "underdelivered promoted links"
-msgstr "underleverte promoterte lenker"
-
-#: r2/controllers/promotecontroller.py:288
-msgid "reported promoted links"
-msgstr "anmeldte promoterte lenker"
-
-#: r2/controllers/promotecontroller.py:289
-msgid "house promoted links"
-msgstr "huspromoterte lenker"
-
-#: r2/controllers/promotecontroller.py:290 r2/lib/menus.py:169
+#: r2/controllers/promotecontroller.py:294 r2/lib/menus.py:171
 msgid "all promoted links"
 msgstr "alle fremja lenkjer"
 
-#: r2/controllers/promotecontroller.py:298
+#: r2/controllers/promotecontroller.py:303
 msgid "promoted by you"
 msgstr "fremja av deg"
 
-#: r2/controllers/promotecontroller.py:508
+#: r2/controllers/promotecontroller.py:358
+msgid "underdelivered promoted links"
+msgstr "underleverte promoterte lenker"
+
+#: r2/controllers/promotecontroller.py:359
+msgid "reported promoted links"
+msgstr "anmeldte promoterte lenker"
+
+#: r2/controllers/promotecontroller.py:360
+msgid "house promoted links"
+msgstr "huspromoterte lenker"
+
+#: r2/controllers/promotecontroller.py:366
+msgid "promos on reddit"
+msgstr "promos on reddit"
+
+#: r2/controllers/promotecontroller.py:561
 msgid "refund succeeded"
 msgstr "refusjon gjennomført"
 
-#: r2/controllers/promotecontroller.py:510
+#: r2/controllers/promotecontroller.py:563
 msgid "refund not needed"
 msgstr "refusjon er ikke nødvendig"
 
-#: r2/controllers/promotecontroller.py:852
+#: r2/controllers/promotecontroller.py:950
 #, python-format
 msgid "please change campaign start date to %(date)s or earlier"
 msgstr "vennligst endre startdato for kampanjen til %(date)s eller tidligere"
 
-#: r2/controllers/promotecontroller.py:863
+#: r2/controllers/promotecontroller.py:961
 #, python-format
 msgid "please change campaign start date to %(date)s or later"
-msgstr "please change campaign start date to %(date)s or later"
+msgstr "vennligst endre kampanjens startdato til %(date)s eller senere"
 
-#: r2/controllers/promotecontroller.py:890
+#: r2/controllers/promotecontroller.py:988
 msgid "failed to authenticate card. sorry."
 msgstr "kunne ikke autentisere kortet. beklager."
 
-#: r2/controllers/reddit_base.py:1454
+#: r2/controllers/reddit_base.py:1639
 msgid "search failed"
 msgstr "søk mislykka"
 
@@ -1049,50 +1069,50 @@ msgstr "wikifeil"
 msgid "You are doing that too much, please try again later."
 msgstr "Du gjer det der for mykje - prøv om att seinare."
 
-#: r2/lib/cssfilter.py:331
+#: r2/lib/cssfilter.py:334
 #, python-format
 msgid "no image found with name \"%(name)s\""
 msgstr "ingen bilder med navn \"%(name)s\" ble funnet"
 
-#: r2/lib/cssfilter.py:332
+#: r2/lib/cssfilter.py:335
 #, python-format
 msgid "only uploaded images are allowed; reference them with the %%%%imagename%%%% system"
 msgstr "kun opplastede bilder er tillatt; referer til dem med %%%%imagename%%%% systemet"
 
-#: r2/lib/cssfilter.py:334
+#: r2/lib/cssfilter.py:337
 #, python-format
 msgid "syntax error: %(message)s"
 msgstr "syntax feilmelding: %(message)s"
 
-#: r2/lib/cssfilter.py:335
+#: r2/lib/cssfilter.py:338
 #, python-format
 msgid "@%(keyword)s is not allowed"
 msgstr "@%(keyword)s er ikke tillatt"
 
-#: r2/lib/cssfilter.py:336
+#: r2/lib/cssfilter.py:339
 #, python-format
 msgid "unknown property \"%(name)s\""
 msgstr "ukjent egenskap \"%(name)s\""
 
-#: r2/lib/cssfilter.py:337
+#: r2/lib/cssfilter.py:340
 #, python-format
 msgid "unknown function \"%(function)s\""
 msgstr "ukjent funksjon \"%(function)s\""
 
-#: r2/lib/cssfilter.py:338
+#: r2/lib/cssfilter.py:341
 #, python-format
 msgid "unexpected token \"%(token)s\""
 msgstr "uventet symbol \"%(token)s\""
 
-#: r2/lib/cssfilter.py:339
+#: r2/lib/cssfilter.py:342
 msgid "backslashes are not allowed"
 msgstr "omvendt skråstrek er ikke tillatt"
 
-#: r2/lib/cssfilter.py:340
+#: r2/lib/cssfilter.py:343
 msgid "control characters are not allowed"
 msgstr "kontrolltegn er ikke tillatt"
 
-#: r2/lib/cssfilter.py:341
+#: r2/lib/cssfilter.py:344
 #, python-format
 msgid "the stylesheet is too big. maximum size: %(size)d KiB"
 msgstr "stilsettet er for stort. maks tillatt størrelse: %(size)d KiB"
@@ -1273,293 +1293,305 @@ msgstr "du har ikkje lov til å poste der."
 msgid "you must specify a subreddit"
 msgstr "du må spesifisere ein subreddit"
 
-#: r2/lib/errors.py:74 r2/lib/validator/validator.py:2622
+#: r2/lib/errors.py:74 r2/lib/validator/validator.py:2667
 msgid "that name isn't going to work"
 msgstr "det namnet der kjem ikkje til å fungere"
 
 #: r2/lib/errors.py:75
+msgid "that collection doesn't exist"
+msgstr "that collection doesn't exist"
+
+#: r2/lib/errors.py:76
+msgid "that target type is not valid"
+msgstr "that target type is not valid"
+
+#: r2/lib/errors.py:77
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
 msgstr "du gjør det der alt for mykje. prøv om att om %(time)s."
 
-#: r2/lib/errors.py:76 r2/lib/strings.py:126
+#: r2/lib/errors.py:78 r2/lib/strings.py:126
 msgid "You've submitted too many links recently. Please try again in an hour."
 msgstr "Du har sendt inn for mange lenkjer i det siste. Prøv om att om ein time."
 
-#: r2/lib/errors.py:77
+#: r2/lib/errors.py:79
 msgid "you are doing that too much. try again later."
 msgstr "du gjør det der for mykje. prøv att seinare."
 
-#: r2/lib/errors.py:78
+#: r2/lib/errors.py:80
 msgid "your session has expired"
 msgstr "økta di har gått ut"
 
-#: r2/lib/errors.py:79
+#: r2/lib/errors.py:81
 msgid "you must accept the terms first"
 msgstr "du må samtykkje i vilkåra først"
 
-#: r2/lib/errors.py:83
+#: r2/lib/errors.py:85
 msgid "that option is not valid"
 msgstr "det valet er ugyldig"
 
-#: r2/lib/errors.py:84
+#: r2/lib/errors.py:86
 #, python-format
 msgid "the following email is invalid: %(email)s"
-msgstr "the following email is invalid: %(email)s"
+msgstr "følgende epostadresser er ugyldige: %(email)s"
 
-#: r2/lib/errors.py:85
+#: r2/lib/errors.py:87
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
 msgstr "følgjande e-postar er ugyldige: %(emails)s"
 
-#: r2/lib/errors.py:86
+#: r2/lib/errors.py:88
 msgid "please enter at least one email address"
 msgstr "fyll inn minst ei e-postadresse"
 
-#: r2/lib/errors.py:87
+#: r2/lib/errors.py:89
 #, python-format
 msgid "please only share to %(num)s emails at a time."
 msgstr "ikkje del meir enn %(num)s e-postar om gongen."
 
-#: r2/lib/errors.py:88
+#: r2/lib/errors.py:90
 #, python-format
 msgid "that subreddit has already been oversold on %(start)s to %(end)s. Please pick another subreddit or date."
 msgstr "den subredditen har allereie vorte oversolgt på %(start)s til %(end)s. Vennligst vel ei anna subreddit eller dato."
 
-#: r2/lib/errors.py:89
+#: r2/lib/errors.py:91
 #, python-format
 msgid "We have insufficient inventory to fulfill your requested budget, target, and dates. Only %(available)s impressions available on %(target)s from %(start)s to %(end)s."
 msgstr "Vi har ikkje nødvendig plass tilgjengeleg for å kunne gjennomføre ditt forespurte budsjett, mål og datoer. Kun %(available)s intrykk er tilgjengeleg på %(target)s frå %(start)s til %(end)s."
 
-#: r2/lib/errors.py:90
+#: r2/lib/errors.py:92
 msgid "please provide a date of the form mm/dd/yyyy"
 msgstr "oppgi ein dato på forma mm/dd/yyyy"
 
-#: r2/lib/errors.py:91
+#: r2/lib/errors.py:93
 msgid "the dates need to be in order and not identical"
 msgstr "datoane må vere i rekkjefølgje og ikkje like"
 
-#: r2/lib/errors.py:92
+#: r2/lib/errors.py:94
 #, python-format
 msgid "you must choose a date range of less than %(days)s days"
 msgstr "du må velge eit datospenn som er mindre enn %(days)s dager"
 
-#: r2/lib/errors.py:93
+#: r2/lib/errors.py:95
 #, python-format
 msgid "please enter a date %(day)s or earlier"
 msgstr "skriv inn en dato %(day)s eller tidligere"
 
-#: r2/lib/errors.py:94
+#: r2/lib/errors.py:96
 #, python-format
 msgid "please enter a date %(day)s or later"
 msgstr "skriv inn en dato %(day)s eller senere"
 
-#: r2/lib/errors.py:95
+#: r2/lib/errors.py:97
 #, python-format
 msgid "address problem: %(message)s"
 msgstr "adresser problem: %(message)s"
 
-#: r2/lib/errors.py:96
+#: r2/lib/errors.py:98
 #, python-format
 msgid "card problem: %(message)s"
 msgstr "kortproblem: %(message)s"
 
-#: r2/lib/errors.py:97
+#: r2/lib/errors.py:99
 #, python-format
 msgid "this is too long (max: %(max_length)s)"
 msgstr "det her er for langt (maks: %(max_length)s)"
 
-#: r2/lib/errors.py:98
+#: r2/lib/errors.py:100
 msgid "we need something here"
 msgstr "me treng noko her"
 
-#: r2/lib/errors.py:99
+#: r2/lib/errors.py:101
 msgid "we've never seen that code before"
 msgstr "vi har aldri sett den koden før"
 
-#: r2/lib/errors.py:100
+#: r2/lib/errors.py:102
 msgid "that code has already been claimed -- perhaps by you?"
 msgstr "den koden er allereie tinga -- kanskje av deg?"
 
-#: r2/lib/errors.py:101
+#: r2/lib/errors.py:103
 msgid "that subreddit doesn't allow text posts"
 msgstr "den subredditen tillater ikke tekstposter"
 
-#: r2/lib/errors.py:102
+#: r2/lib/errors.py:104
 msgid "that subreddit only allows text posts"
 msgstr "den subredditen tillater kun tekstposter"
 
-#: r2/lib/errors.py:103
+#: r2/lib/errors.py:105
 msgid "that's a piece of history now; it's too late to reply to it"
 msgstr "det der er ein del av historia no - det er for seint å svare på det"
 
-#: r2/lib/errors.py:104
+#: r2/lib/errors.py:106
 msgid "invalid css name"
 msgstr "ugyldig css-namn"
 
-#: r2/lib/errors.py:105
+#: r2/lib/errors.py:107
 msgid "invalid css"
 msgstr "ugyldig css"
 
-#: r2/lib/errors.py:106
+#: r2/lib/errors.py:108
 msgid "invalid revision ID"
 msgstr "ugyldig revisjons-ID"
 
-#: r2/lib/errors.py:107
+#: r2/lib/errors.py:109
 msgid "too many flair css classes"
 msgstr "for mange css-klasser for skilt"
 
-#: r2/lib/errors.py:108
+#: r2/lib/errors.py:110
 msgid "not a valid flair target"
 msgstr "ikkje eit gyldig skiltmål"
 
-#: r2/lib/errors.py:110
+#: r2/lib/errors.py:112
 msgid "invalid redirect_uri parameter"
 msgstr "ugyldig parameter for redirect_url"
 
-#: r2/lib/errors.py:111
+#: r2/lib/errors.py:113
 msgid "invalid scope requested"
 msgstr "eit ugyldig verkefelt (scope) vart etterspurd"
 
-#: r2/lib/errors.py:112
+#: r2/lib/errors.py:114
 msgid "invalid refresh token"
 msgstr "ugyldig oppdaterings-ID"
 
-#: r2/lib/errors.py:113
+#: r2/lib/errors.py:115
 msgid "access denied by the user"
 msgstr "tilgjenge nekta av brukaren"
 
-#: r2/lib/errors.py:114
+#: r2/lib/errors.py:116
 msgid "please confirm the form"
 msgstr "stadfest skjemaet"
 
-#: r2/lib/errors.py:115
+#: r2/lib/errors.py:117
 msgid "conflict error while saving"
 msgstr "konfliktfeil under lagringa"
 
-#: r2/lib/errors.py:116
+#: r2/lib/errors.py:118
 msgid "cannot perform this action via the API"
 msgstr "kan ikkje utføre den her handlinga via API-et"
 
-#: r2/lib/errors.py:117
+#: r2/lib/errors.py:119
 #, python-format
 msgid "%(domain)s is not allowed on reddit: %(reason)s"
 msgstr "%(domain)s er ikkje tillate på reddit: %(reason)s"
 
-#: r2/lib/errors.py:118
+#: r2/lib/errors.py:120
 msgid "you must enable two-factor authentication"
 msgstr "du må skru på to-faktors identitetsstadfesting"
 
-#: r2/lib/errors.py:119
+#: r2/lib/errors.py:121
 msgid "two-factor authentication is already enabled"
-msgstr "two-factor authentication is already enabled"
+msgstr "to-faktor autentisering er allerede valgt"
 
-#: r2/lib/errors.py:120
+#: r2/lib/errors.py:122
 msgid "image problem"
 msgstr "biletproblem"
 
-#: r2/lib/errors.py:121
+#: r2/lib/errors.py:123
 msgid "already added"
 msgstr "allereie lagt til"
 
-#: r2/lib/errors.py:122
+#: r2/lib/errors.py:124
 msgid "too many developers"
 msgstr "alt for mange utviklarar"
 
-#: r2/lib/errors.py:123
+#: r2/lib/errors.py:125
 msgid "i don't believe you."
 msgstr "eg trur deg ikkje."
 
-#: r2/lib/errors.py:124
+#: r2/lib/errors.py:126
 msgid "that user is already a moderator"
 msgstr "den brukaren er allereie ein moderator"
 
-#: r2/lib/errors.py:125
+#: r2/lib/errors.py:127
 msgid "there is no pending invite for that subreddit"
 msgstr "det er inga ventande invitasjon for den subredditen"
 
-#: r2/lib/errors.py:126
+#: r2/lib/errors.py:128
 msgid "you cannot edit the budget of a live ad"
 msgstr "du kan ikke endre budsjettet til en aktiv annonse"
 
-#: r2/lib/errors.py:127
+#: r2/lib/errors.py:129
 msgid "you have too many campaigns for that promotion"
 msgstr "du har alt for mange kampanjar for den der fremjinga"
 
-#: r2/lib/errors.py:128
+#: r2/lib/errors.py:130
 msgid "that jsonp callback contains invalid characters"
 msgstr "JSONP-tilbakekallet innhald ugyldige teikn"
 
-#: r2/lib/errors.py:129
+#: r2/lib/errors.py:131
 msgid "permissions don't apply to that type of user"
 msgstr "tillatelser gjelder ikke denne typen bruker"
 
-#: r2/lib/errors.py:130
+#: r2/lib/errors.py:132
 msgid "invalid permissions string"
 msgstr "ugyldig tillatelser-streng"
 
-#: r2/lib/errors.py:131
+#: r2/lib/errors.py:133
 msgid "invalid multi path"
 msgstr "ugyldig sti for multi"
 
-#: r2/lib/errors.py:132
+#: r2/lib/errors.py:134
 #, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
 
-#: r2/lib/errors.py:133
+#: r2/lib/errors.py:135
 msgid "that multireddit doesn't exist"
 msgstr "den multiredditen eksisterer ikke"
 
-#: r2/lib/errors.py:134
+#: r2/lib/errors.py:136
 msgid "that multireddit already exists"
 msgstr "den multiredditen eksisterer allerede"
 
-#: r2/lib/errors.py:135
+#: r2/lib/errors.py:137
 msgid "you can't change that multireddit"
 msgstr "du kan ikke forandre den multiredditen"
 
-#: r2/lib/errors.py:136
+#: r2/lib/errors.py:138
 msgid "no more space for subreddits in that multireddit"
 msgstr "den multiredditen har ikke noe mer plass for subredditer"
 
-#: r2/lib/errors.py:137
+#: r2/lib/errors.py:139
 #, python-format
 msgid "can't add special subreddit %(path)s"
 msgstr "kan ikke legge til spesiell subreddit %(path)s"
 
-#: r2/lib/errors.py:138
+#: r2/lib/errors.py:140
 msgid "unable to parse JSON data"
 msgstr "kunne ikke tyde JSON-innhold"
 
-#: r2/lib/errors.py:139
+#: r2/lib/errors.py:141
 msgid "unexpected JSON structure"
 msgstr "uforventet JSON-struktur"
 
-#: r2/lib/errors.py:140
+#: r2/lib/errors.py:142
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr "JSON mangler nøkkel: «%(key)s»"
 
-#: r2/lib/errors.py:141
+#: r2/lib/errors.py:143
 msgid "can't change post type"
 msgstr "kan ikke endre posttype"
 
-#: r2/lib/errors.py:142
+#: r2/lib/errors.py:144
 msgid "invalid location"
 msgstr "ugyldig sted"
 
-#: r2/lib/errors.py:143
+#: r2/lib/errors.py:145
 msgid "that user is banned from the subreddit"
 msgstr "den brukeren er utestengt fra denne subredditen"
 
-#: r2/lib/errors.py:144
+#: r2/lib/errors.py:146
 msgid "you must have an active reddit gold subscription to do that"
 msgstr "du må ha et aktivt redditgull-abonnement for å gjøre det"
 
-#: r2/lib/errors.py:145
+#: r2/lib/errors.py:147
 msgid "insufficient creddits"
 msgstr "utilstrekkelige creddits"
+
+#: r2/lib/errors.py:148
+msgid "unable to scrape provided url"
+msgstr "unable to scrape provided url"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
@@ -1801,7 +1833,7 @@ msgstr "visingar etter månad"
 msgid "clicks by month"
 msgstr "klikk etter månad"
 
-#: r2/lib/jsontemplates.py:474 r2/templates/link.xml:61
+#: r2/lib/jsontemplates.py:488 r2/templates/link.xml:61
 #: r2/templates/usertext.html:134
 msgid "[removed]"
 msgstr "[fjerna]"
@@ -1846,7 +1878,7 @@ msgstr "kontroversielt"
 msgid "best"
 msgstr "best"
 
-#: r2/lib/menus.py:58 r2/lib/menus.py:415
+#: r2/lib/menus.py:58 r2/lib/menus.py:417
 msgid "random"
 msgstr "tilfeldig"
 
@@ -1891,9 +1923,10 @@ msgstr "det her året"
 msgid "all time"
 msgstr "alle tider"
 
-#: r2/lib/menus.py:73 r2/templates/preffeeds.html:118
-#: r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:149
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:175
+#: r2/lib/menus.py:73 r2/templates/preffeeds.html:119
+#: r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:157
+#: r2/templates/reportform.html:33
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:222
 msgid "spam"
 msgstr "søppel"
 
@@ -1901,7 +1934,7 @@ msgstr "søppel"
 msgid "autobanned"
 msgstr "autobannlyst"
 
-#: r2/lib/menus.py:77 r2/lib/pages/pages.py:996 r2/lib/pages/pages.py:1018
+#: r2/lib/menus.py:77 r2/lib/pages/pages.py:1021 r2/lib/pages/pages.py:1045
 msgid "preferences"
 msgstr "innstillingar"
 
@@ -1951,7 +1984,7 @@ msgid "jobs"
 msgstr "jobber"
 
 #: r2/lib/menus.py:98 r2/templates/newlink.html:120
-#: r2/templates/promotelinkbase.html:175
+#: r2/templates/promotelinkbase.html:177
 msgid "options"
 msgstr "innstillingar"
 
@@ -1967,7 +2000,7 @@ msgstr "RSS-straumar"
 msgid "friends"
 msgstr "vener"
 
-#: r2/lib/menus.py:102 r2/templates/printablebuttons.html:343
+#: r2/lib/menus.py:102 r2/templates/printablebuttons.html:406
 msgid "blocked"
 msgstr "blokkert"
 
@@ -1982,9 +2015,9 @@ msgstr "passord/epost"
 msgid "delete"
 msgstr "slett"
 
-#: r2/lib/menus.py:105 r2/templates/prefotp.html:31
-msgid "two-factor authentication"
-msgstr "tofaktors identitetsstadfesting"
+#: r2/lib/menus.py:105
+msgid "security"
+msgstr "security"
 
 #: r2/lib/menus.py:108
 msgid "compose"
@@ -2016,7 +2049,7 @@ msgstr "andre ordskifte (%(num)s)"
 msgid "traffic stats"
 msgstr "trafikktal"
 
-#: r2/lib/menus.py:118 r2/models/modaction.py:154
+#: r2/lib/menus.py:118 r2/models/modaction.py:155
 #: r2/templates/subredditstylesheet.html:42
 msgid "stylesheet"
 msgstr "stilark"
@@ -2025,7 +2058,7 @@ msgstr "stilark"
 msgid "home"
 msgstr "heim"
 
-#: r2/lib/menus.py:122 r2/lib/pages/pages.py:833
+#: r2/lib/menus.py:122 r2/lib/pages/pages.py:857
 msgid "about"
 msgstr "om"
 
@@ -2033,7 +2066,7 @@ msgstr "om"
 msgid "edit subscriptions"
 msgstr "endre tingingar"
 
-#: r2/lib/menus.py:124 r2/lib/pages/pages.py:1698
+#: r2/lib/menus.py:124 r2/lib/pages/pages.py:1756
 msgid "subreddit settings"
 msgstr "subredditinstillingar"
 
@@ -2061,7 +2094,7 @@ msgstr "bannlys brukarar"
 msgid "edit flair"
 msgstr "endre skiltet"
 
-#: r2/lib/menus.py:132 r2/templates/preffeeds.html:121
+#: r2/lib/menus.py:132 r2/templates/preffeeds.html:122
 msgid "moderation log"
 msgstr "modereringslogg"
 
@@ -2069,181 +2102,184 @@ msgstr "modereringslogg"
 msgid "moderation queue"
 msgstr "modereringskø"
 
-#: r2/lib/menus.py:134 r2/templates/preffeeds.html:124
+#: r2/lib/menus.py:134 r2/templates/preffeeds.html:125
 msgid "unmoderated links"
 msgstr "umodererte lenkjer"
 
-#: r2/lib/menus.py:136
+#: r2/lib/menus.py:135
+msgid "edited"
+msgstr "edited"
+
+#: r2/lib/menus.py:137
 msgid "ban wiki contributors"
 msgstr "bannlys wikimedverkarar"
 
-#: r2/lib/menus.py:137
+#: r2/lib/menus.py:138
 msgid "add wiki contributors"
 msgstr "legg til wikimedverkarar"
 
-#: r2/lib/menus.py:139
+#: r2/lib/menus.py:140
 msgid "recent wiki revisions"
 msgstr "siste wikirevisjonar"
 
-#: r2/lib/menus.py:140
+#: r2/lib/menus.py:141
 msgid "wiki page list"
 msgstr "liste over wikisider"
 
-#: r2/lib/menus.py:142
+#: r2/lib/menus.py:143
 msgid "popular"
 msgstr "populær"
 
-#: r2/lib/menus.py:143 r2/templates/createsubreddit.html:419
-#: r2/templates/listingchooser.html:62 r2/templates/promotelinkedit.html:117
+#: r2/lib/menus.py:144 r2/templates/createsubreddit.html:430
+#: r2/templates/listingchooser.html:62 r2/templates/promotelinkedit.html:116
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "lag ny"
 
-#: r2/lib/menus.py:144 r2/lib/pages/pages.py:2148
+#: r2/lib/menus.py:145 r2/lib/pages/pages.py:2210
 msgid "my subreddits"
 msgstr "mine subredditer"
 
-#: r2/lib/menus.py:146
+#: r2/lib/menus.py:147
 msgid "help translate"
 msgstr "hjelp til med å setje om"
 
-#: r2/lib/menus.py:147 r2/templates/subredditstylesheet.html:77
+#: r2/lib/menus.py:148 r2/templates/subredditstylesheet.html:77
 msgid "errors"
 msgstr "feil"
 
-#: r2/lib/menus.py:149
+#: r2/lib/menus.py:150
 msgid "ads"
 msgstr "annonsar"
 
-#: r2/lib/menus.py:150
+#: r2/lib/menus.py:151
 msgid "promoted"
 msgstr "fremja"
 
-#: r2/lib/menus.py:151
+#: r2/lib/menus.py:152
+msgid "sponsor"
+msgstr "sponsor"
+
+#: r2/lib/menus.py:153
 msgid "reporters"
 msgstr "meldarar"
 
-#: r2/lib/menus.py:152 r2/templates/preffeeds.html:115
+#: r2/lib/menus.py:154 r2/templates/preffeeds.html:116
 msgid "reports"
 msgstr "rapporter"
 
-#: r2/lib/menus.py:153
+#: r2/lib/menus.py:155
 msgid "reported authors"
 msgstr "melde skribentar"
 
-#: r2/lib/menus.py:154
+#: r2/lib/menus.py:156
 msgid "info"
 msgstr "info"
 
-#: r2/lib/menus.py:155 r2/templates/multiinfobar.html:80
-#: r2/templates/printablebuttons.html:192 r2/templates/sharelink.html:118
+#: r2/lib/menus.py:157 r2/templates/multiinfobar.html:80
+#: r2/templates/printablebuttons.html:243 r2/templates/sharelink.html:118
 msgid "share"
 msgstr "del"
 
-#: r2/lib/menus.py:158
+#: r2/lib/menus.py:160
 msgid "submitted"
 msgstr "innsende"
 
-#: r2/lib/menus.py:159
+#: r2/lib/menus.py:161
 msgid "liked"
 msgstr "likt"
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:162
 msgid "disliked"
 msgstr "mislikt"
 
-#: r2/lib/menus.py:161
+#: r2/lib/menus.py:163
 msgid "hidden {toolbar}"
 msgstr "gøymd"
 
-#: r2/lib/menus.py:163 r2/templates/printablebuttons.html:56
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:67
-msgid "reported"
-msgstr "meldt"
-
-#: r2/lib/menus.py:164
+#: r2/lib/menus.py:166
 msgid "voting"
 msgstr "stemming"
 
-#: r2/lib/menus.py:166
+#: r2/lib/menus.py:168
 msgid "advertising"
 msgstr "reklamering"
 
-#: r2/lib/menus.py:167
+#: r2/lib/menus.py:169
 msgid "create promotion"
 msgstr "opprett fremjing"
 
-#: r2/lib/menus.py:168
+#: r2/lib/menus.py:170
 msgid "my promoted links"
 msgstr "mine fremja lenkjer"
 
-#: r2/lib/menus.py:171
+#: r2/lib/menus.py:173
 msgid "unseen"
 msgstr "usett"
 
-#: r2/lib/menus.py:172
+#: r2/lib/menus.py:174
 msgid "roadblock"
 msgstr "vegsperring"
 
-#: r2/lib/menus.py:173
+#: r2/lib/menus.py:175
 msgid "inventory"
 msgstr "inventar"
 
-#: r2/lib/menus.py:174 ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:55
+#: r2/lib/menus.py:176 ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:64
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/statusBar.js:62
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:9
 msgid "live"
 msgstr "direkte"
 
-#: r2/lib/menus.py:175
+#: r2/lib/menus.py:177
 msgid "unpaid"
 msgstr "ubetalt"
 
-#: r2/lib/menus.py:176
+#: r2/lib/menus.py:178
 msgid "pending"
 msgstr "ventande"
 
-#: r2/lib/menus.py:177
+#: r2/lib/menus.py:179
 msgid "rejected"
 msgstr "avslegne"
 
-#: r2/lib/menus.py:179
+#: r2/lib/menus.py:181
 msgid "sitewide"
 msgstr "heile sida"
 
-#: r2/lib/menus.py:180
+#: r2/lib/menus.py:182
 msgid "languages"
 msgstr "språk"
 
-#: r2/lib/menus.py:181 r2/lib/pages/trafficpages.py:263
+#: r2/lib/menus.py:183 r2/lib/pages/trafficpages.py:268
 msgid "adverts"
 msgstr "reklamar"
 
-#: r2/lib/menus.py:183
+#: r2/lib/menus.py:185
 msgid "whitelist"
 msgstr "kviteliste"
 
 #. TRANSLATORS: This refers to /r/mod
-#: r2/lib/menus.py:411
+#: r2/lib/menus.py:413
 msgid "mod"
 msgstr "mod"
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:413
+#: r2/lib/menus.py:415
 msgid "front"
 msgstr "fram"
 
 #. TRANSLATORS: Gold feature, "myrandom", a random subreddit from your
 #. subscriptions
-#: r2/lib/menus.py:417
+#: r2/lib/menus.py:419
 msgid "myrandom"
 msgstr "mintilfeldig"
 
-#: r2/lib/menus.py:584
+#: r2/lib/menus.py:588
 msgid "kind"
 msgstr "slag"
 
-#: r2/lib/menus.py:597
+#: r2/lib/menus.py:601
 msgid "links from"
 msgstr "lenkjer frå"
 
@@ -2271,7 +2307,7 @@ msgstr "konfig"
 msgid "edit settings, sidebar, css, and images"
 msgstr "endre innstillinger, sidefelt, css og bilder"
 
-#: r2/lib/permissions.py:84 r2/templates/printablebuttons.html:67
+#: r2/lib/permissions.py:84 r2/templates/printablebuttons.html:75
 msgid "flair"
 msgstr "skilt"
 
@@ -2304,15 +2340,15 @@ msgid "discovery"
 msgstr "oppdagelse"
 
 #: r2/lib/recommender.py:56 r2/lib/strings.py:257 r2/lib/strings.py:262
-#: r2/lib/template_helpers.py:247 r2/models/modaction.py:339
+#: r2/lib/template_helpers.py:250 r2/models/modaction.py:340
 #: r2/templates/subredditstylesheet.html:105
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:407
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:457
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "innlegg"
 msgstr[1] "innlegg"
 
-#: r2/lib/strings.py:51 r2/lib/template_helpers.py:161
+#: r2/lib/strings.py:51 r2/lib/template_helpers.py:164
 msgid "submitting..."
 msgstr "sender inn ..."
 
@@ -2424,8 +2460,8 @@ msgstr "%(title)s : %(site)s"
 
 #: r2/lib/strings.py:102
 #, python-format
-msgid "Found on reddit, the front page of the internet.\\n\\n%(score)s points and %(num_comments)s comments so far"
-msgstr "Found on reddit, the front page of the internet.\\n\\n%(score)s points and %(num_comments)s comments so far"
+msgid "%(score)s points and %(num_comments)s comments so far on reddit"
+msgstr "%(score)s points and %(num_comments)s comments so far on reddit"
 
 #: r2/lib/strings.py:105
 msgid "this subreddit has been banned"
@@ -2677,7 +2713,7 @@ msgstr "multireddit av subredditane du modererer"
 
 #: r2/lib/strings.py:178
 msgid "/r/all displays content from all of reddit, including subreddits you aren't subscribed to. Some subreddits have chosen to exclude themselves from /r/all."
-msgstr "/r/all displays content from all of reddit, including subreddits you aren't subscribed to. Some subreddits have chosen to exclude themselves from /r/all."
+msgstr "/r/all viser innhold fra hele reddit, inkludert subredditer du ikke abonnerer på. Noen subredditer har valgt å utelate seg selv fra /r/all."
 
 #: r2/lib/strings.py:179
 msgid "Displaying content from /r/all of reddit, except the following subreddits:"
@@ -2694,14 +2730,14 @@ msgid_plural "points"
 msgstr[0] "poeng"
 msgstr[1] "poeng"
 
-#: r2/lib/strings.py:261 r2/models/modaction.py:324
-#: r2/templates/promotelinkbase.html:88
+#: r2/lib/strings.py:261 r2/models/modaction.py:325
+#: r2/templates/promotelinkbase.html:90
 msgid "link"
 msgid_plural "links"
 msgstr[0] "lenkje"
 msgstr[1] "lenkjer"
 
-#: r2/lib/strings.py:263 r2/lib/pages/pages.py:1102
+#: r2/lib/strings.py:263 r2/lib/pages/pages.py:1129
 #: r2/templates/messagecompose.html:74
 msgid "message"
 msgid_plural "messages"
@@ -2709,7 +2745,7 @@ msgstr[0] "melding"
 msgstr[1] "meldingar"
 
 #: r2/lib/strings.py:264 r2/lib/pages/admin_pages.py:96
-#: r2/lib/pages/trafficpages.py:782 r2/templates/sitewidetraffic.html:36
+#: r2/lib/pages/trafficpages.py:787 r2/templates/sitewidetraffic.html:36
 #: r2/templates/subreddittrafficreport.html:42
 msgid "subreddit"
 msgid_plural "subreddits"
@@ -2777,21 +2813,21 @@ msgid_plural "hours"
 msgstr[0] "time"
 msgstr[1] "timar"
 
-#: r2/lib/strings.py:279 r2/lib/pages/pages.py:4062
-#: r2/public/static/js/sponsored.js:308 r2/templates/reddittraffic.html:89
-#: r2/templates/renderablecampaign.html:56
+#: r2/lib/strings.py:279 r2/lib/pages/pages.py:4114
+#: r2/public/static/js/sponsored.js:556 r2/public/static/js/sponsored.js:718
+#: r2/templates/reddittraffic.html:89 r2/templates/renderablecampaign.html:56
 msgid "day"
 msgid_plural "days"
 msgstr[0] "dag"
 msgstr[1] "dagar"
 
-#: r2/lib/strings.py:280 r2/templates/goldpayment.html:163
+#: r2/lib/strings.py:280 r2/templates/goldpayment.html:168
 msgid "month"
 msgid_plural "months"
 msgstr[0] "månad"
 msgstr[1] "månader"
 
-#: r2/lib/strings.py:281 r2/templates/goldpayment.html:168
+#: r2/lib/strings.py:281 r2/templates/goldpayment.html:173
 msgid "year"
 msgid_plural "years"
 msgstr[0] "år"
@@ -2866,41 +2902,41 @@ msgstr "du har vorte lagt til lista over brukarar som kan sjå [trafikken for de
 msgid "note from the moderators:\n\n\"%(message)s\""
 msgstr "note from the moderators:\n\n\"%(message)s\""
 
-#: r2/lib/template_helpers.py:160
+#: r2/lib/template_helpers.py:163
 msgid "fetching title..."
 msgstr "hentar namn ..."
 
-#: r2/lib/template_helpers.py:162
+#: r2/lib/template_helpers.py:165
 msgid "loading..."
 msgstr "lastar ..."
 
-#: r2/lib/template_helpers.py:243
+#: r2/lib/template_helpers.py:246
 msgid "comment {verb}"
 msgstr "kommenter"
 
-#: r2/lib/template_helpers.py:292
+#: r2/lib/template_helpers.py:295
 msgid "child"
 msgid_plural "children"
 msgstr[0] "barn"
 msgstr[1] "born"
 
-#: r2/lib/template_helpers.py:501 r2/models/builder.py:157
+#: r2/lib/template_helpers.py:504 r2/models/builder.py:157
 msgid "friend"
 msgstr "ven"
 
-#: r2/lib/template_helpers.py:508
+#: r2/lib/template_helpers.py:511
 msgid "submitter"
 msgstr "innsendar"
 
-#: r2/lib/template_helpers.py:522
+#: r2/lib/template_helpers.py:525
 msgid "reddit admin, speaking officially"
 msgstr "redditadmin, uttalar seg offisielt"
 
-#: r2/lib/template_helpers.py:595 r2/public/static/js/timetext.js:73
+#: r2/lib/template_helpers.py:598 r2/public/static/js/timetext.js:73
 msgid "just now"
 msgstr "nå nettopp"
 
-#: r2/lib/template_helpers.py:600 r2/templates/comment.htmllite:46
+#: r2/lib/template_helpers.py:603 r2/templates/comment.htmllite:46
 #: r2/templates/commentvisitsbox.html:32
 msgid "ago"
 msgstr "sia"
@@ -2921,8 +2957,8 @@ msgstr "Ingen notater for denne subreddit"
 msgid "No notes for this user"
 msgstr "Ingen notater for denne brukeren"
 
-#: r2/lib/pages/admin_pages.py:94 r2/models/modaction.py:150
-#: r2/templates/createsubreddit.html:323
+#: r2/lib/pages/admin_pages.py:94 r2/models/modaction.py:151
+#: r2/templates/createsubreddit.html:334
 msgid "domain"
 msgstr "domene"
 
@@ -2934,444 +2970,438 @@ msgstr "IP-adresse"
 msgid "user"
 msgstr "brukar"
 
-#: r2/lib/pages/pages.py:156
+#: r2/lib/pages/pages.py:158
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:285
+#: r2/lib/pages/pages.py:287
 msgid "imgur.com domain listings (including this one) are currently disabled to speed up vote processing."
 msgstr "opplistingar frå imgur.com-domenet (inkludert den her) er for augneblinken skrudd av for å gjere røysteprosessen raskare."
 
-#: r2/lib/pages/pages.py:381
+#: r2/lib/pages/pages.py:384
 msgid "wiki tools"
 msgstr "wikiverktøy"
 
-#: r2/lib/pages/pages.py:440
+#: r2/lib/pages/pages.py:444
 msgid "moderation tools"
 msgstr "modereringsverktøy"
 
-#: r2/lib/pages/pages.py:513
+#: r2/lib/pages/pages.py:517
 msgid "these subreddits"
 msgstr "dei subredditane her"
 
-#: r2/lib/pages/pages.py:527
+#: r2/lib/pages/pages.py:531
 msgid "this subreddit is archived and no longer accepting submissions."
 msgstr "den subredditen her er arkivert, og kan ikkje ta fleire bidrag"
 
-#: r2/lib/pages/pages.py:529
+#: r2/lib/pages/pages.py:533
 msgid "Submissions disabled"
 msgstr "Innlegg deaktivert"
 
-#: r2/lib/pages/pages.py:536
+#: r2/lib/pages/pages.py:540
 msgid "submission in this subreddit is restricted to approved submitters."
 msgstr "berre godkjende innsendarar får sende inn til den subredditen her."
 
-#: r2/lib/pages/pages.py:539
+#: r2/lib/pages/pages.py:543
 msgid "submission in this subreddit is restricted to reddit gold members."
 msgstr "posting i denne subredditen er forbehold medlemmer av reddit gull."
 
-#: r2/lib/pages/pages.py:541
+#: r2/lib/pages/pages.py:545
 msgid "Submissions restricted"
 msgstr "innlegg begrenset"
 
-#: r2/lib/pages/pages.py:602
+#: r2/lib/pages/pages.py:618
 msgid "Create your own subreddit"
 msgstr "Opprett din egen subreddit"
 
-#: r2/lib/pages/pages.py:615
+#: r2/lib/pages/pages.py:631
 #, python-format
 msgid "...and %d more"
 msgstr "… og %d til"
 
-#: r2/lib/pages/pages.py:619
+#: r2/lib/pages/pages.py:635
 msgid "message the admins"
 msgstr "send melding til administratorene"
 
-#: r2/lib/pages/pages.py:621
+#: r2/lib/pages/pages.py:637
 msgid "message the moderators"
 msgstr "send melding til moderatorene"
 
-#: r2/lib/pages/pages.py:624
+#: r2/lib/pages/pages.py:640
 msgid "moderators"
 msgstr "moderatorar"
 
-#: r2/lib/pages/pages.py:636
+#: r2/lib/pages/pages.py:652
 msgid "Recently viewed links"
 msgstr "Nyleg vitja lenkjer"
 
-#: r2/lib/pages/pages.py:666
+#: r2/lib/pages/pages.py:682
 msgid "turn admin off"
 msgstr "skru admin av"
 
-#: r2/lib/pages/pages.py:673 r2/lib/pages/pages.py:1200
+#: r2/lib/pages/pages.py:689 r2/lib/pages/pages.py:1227
 #: r2/templates/passwordverificationform.html:67
 msgid "turn admin on"
 msgstr "skru admin på"
 
-#: r2/lib/pages/pages.py:839
+#: r2/lib/pages/pages.py:863
 msgid "FAQ"
 msgstr "FAQ"
 
-#: r2/lib/pages/pages.py:840 r2/templates/usertext.html:156
+#: r2/lib/pages/pages.py:864 r2/templates/usertext.html:156
 msgid "reddiquette"
 msgstr "reddikette"
 
-#: r2/lib/pages/pages.py:850
+#: r2/lib/pages/pages.py:874
 msgid "firefox extension"
 msgstr "firefox-utviding"
 
-#: r2/lib/pages/pages.py:851
+#: r2/lib/pages/pages.py:875
 msgid "chrome extension"
 msgstr "chrome-utviding"
 
-#: r2/lib/pages/pages.py:855
+#: r2/lib/pages/pages.py:879
 msgid "tools"
 msgstr "verktøy"
 
-#: r2/lib/pages/pages.py:862
+#: r2/lib/pages/pages.py:886
 msgid "redditgifts"
 msgstr "redditgåver"
 
-#: r2/lib/pages/pages.py:863
+#: r2/lib/pages/pages.py:887
+msgid "reddit AMA app"
+msgstr "reddit AMA app"
+
+#: r2/lib/pages/pages.py:888
 msgid "reddit.tv"
 msgstr "reddit.tv"
 
-#: r2/lib/pages/pages.py:864
+#: r2/lib/pages/pages.py:889
 msgid "radio reddit"
 msgstr "radioreddit"
 
-#: r2/lib/pages/pages.py:866
+#: r2/lib/pages/pages.py:891
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1099
+#: r2/lib/pages/pages.py:1126
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s epost"
 
-#: r2/lib/pages/pages.py:1165 r2/templates/redditheader.html:74
+#: r2/lib/pages/pages.py:1192 r2/templates/redditheader.html:75
 msgid "login or register"
 msgstr "logg inn eller registrer"
 
-#: r2/lib/pages/pages.py:1254
+#: r2/lib/pages/pages.py:1281
 msgid "request for permission"
 msgstr "spør om løyve"
 
-#: r2/lib/pages/pages.py:1256
+#: r2/lib/pages/pages.py:1283
 msgid "permission"
 msgstr "tillatelse"
 
-#: r2/lib/pages/pages.py:1287
+#: r2/lib/pages/pages.py:1314
 msgid "bummer"
 msgstr "farsken"
 
-#: r2/lib/pages/pages.py:1299
+#: r2/lib/pages/pages.py:1326
 msgid "this page is no longer available due to a copyright claim."
 msgstr "denne sida er ikkje lenger tilgjengeleg grunna eit opphavsrettskrav."
 
-#: r2/lib/pages/pages.py:1699
+#: r2/lib/pages/pages.py:1757
 #, python-format
 msgid "about %(site)s"
 msgstr "om %(site)s"
 
-#: r2/lib/pages/pages.py:1724
+#: r2/lib/pages/pages.py:1782
 msgid "search subreddits by name"
 msgstr "søk subredditar etter namn"
 
-#: r2/lib/pages/pages.py:1761
+#: r2/lib/pages/pages.py:1819
 #, python-format
 msgid "your front page subreddits (%s)"
 msgstr "dine forside subredditer (%s)"
 
-#: r2/lib/pages/pages.py:1831 r2/templates/createsubreddit.html:355
+#: r2/lib/pages/pages.py:1899 r2/templates/createsubreddit.html:366
 #: r2/templates/spotlightlisting.html:59
 msgid "what's this?"
 msgstr "kva er det her?"
 
-#: r2/lib/pages/pages.py:1832
+#: r2/lib/pages/pages.py:1900
 msgid "trophy case"
 msgstr "premieskap"
 
-#: r2/lib/pages/pages.py:1841
+#: r2/lib/pages/pages.py:1909
 msgid "public multireddits"
 msgstr "offentlige multireddits"
 
-#: r2/lib/pages/pages.py:1861
+#: r2/lib/pages/pages.py:1929
 msgid "moderator of"
 msgstr "moderator av"
 
-#: r2/lib/pages/pages.py:1925
-msgid "an unknown amount"
-msgstr "ein uviss sum"
-
-#: r2/lib/pages/pages.py:1933
+#: r2/lib/pages/pages.py:1993
 msgid "less than a day"
 msgstr "mindre enn ein dag"
 
-#: r2/lib/pages/pages.py:1947
+#: r2/lib/pages/pages.py:2006
 #, python-format
 msgid "%(creddits)s gold creddit to give"
 msgid_plural "%(creddits)s gold creddits to give"
 msgstr[0] "%(creddits)s gullreddit å gi"
 msgstr[1] "%(creddits)s gullkredditar å gi"
 
-#: r2/lib/pages/pages.py:1955
+#: r2/lib/pages/pages.py:2014
 #, python-format
 msgid "give reddit gold to %(user)s to show your appreciation"
 msgstr "gi redditgull til %(user)s for å vise din takknemlighet"
 
-#: r2/lib/pages/pages.py:1959
-msgid "renew your reddit gold"
-msgstr "forny redditgullet ditt"
-
-#: r2/lib/pages/pages.py:1962
+#: r2/lib/pages/pages.py:2018
 msgid "get extra features and help support reddit with a reddit gold subscription"
 msgstr "få ekstra funksjoner og støtt reddit med et redditgull abonnement"
 
-#: r2/lib/pages/pages.py:1970
+#: r2/lib/pages/pages.py:2022
+msgid "renew your reddit gold"
+msgstr "forny redditgullet ditt"
+
+#: r2/lib/pages/pages.py:2032
 #, python-format
 msgid "you have helped pay for *%(time)s* of reddit server time."
 msgstr "du har betalt for *%(time)s* av reddits tjenertid."
 
-#: r2/lib/pages/pages.py:1971
+#: r2/lib/pages/pages.py:2033
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of reddit server time."
 msgstr "/u/%(user)s har betalt for *%%(time)s* av reddits tjenertid."
 
-#: r2/lib/pages/pages.py:1974
+#: r2/lib/pages/pages.py:2036
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of reddit server time."
 msgstr "gaver på dine vegne har betalt for *%(time)s* av reddits tjenertid."
 
-#: r2/lib/pages/pages.py:1976
+#: r2/lib/pages/pages.py:2038
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of reddit server time."
 msgstr "gaver på vegne av /u/%(user)s har betalt for *%%(time)s* av reddits tjenertid."
 
-#: r2/lib/pages/pages.py:2045
+#: r2/lib/pages/pages.py:2107
 msgid "reddit is a platform for internet communities"
 msgstr "reddit er ein plattform for internettsamfunn"
 
-#: r2/lib/pages/pages.py:2046
+#: r2/lib/pages/pages.py:2108
 msgid "where your votes shape what the world is talking about."
 msgstr "kor dine stemmer former kva verda snakkar om."
 
-#: r2/lib/pages/pages.py:2249
+#: r2/lib/pages/pages.py:2311
 #, python-format
 msgid "raise it to %s"
 msgstr "hev det til %s"
 
-#: r2/lib/pages/pages.py:2251 r2/lib/pages/pages.py:2260
+#: r2/lib/pages/pages.py:2313 r2/lib/pages/pages.py:2322
 #, python-format
 msgid "%s visible"
 msgstr "%s synlege"
 
-#: r2/lib/pages/pages.py:2258
+#: r2/lib/pages/pages.py:2320
 #, python-format
 msgid "%(bonus)s bonus subreddits"
 msgstr "%(bonus)s bonus subredditer"
 
-#: r2/lib/pages/pages.py:2587
+#: r2/lib/pages/pages.py:2649
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "du har et gull-abonnement registrert med kredittkort. kortet ditt (slutter på %(last4)s) vil bli belastet med %(amount)s %(date)s."
 
-#: r2/lib/pages/pages.py:2656
+#: r2/lib/pages/pages.py:2722
 msgid "try entering those letters again"
 msgstr "prøv å skrive inn dei bokstavane på nytt"
 
-#: r2/lib/pages/pages.py:2717
+#: r2/lib/pages/pages.py:2783
 msgid "previous search"
 msgstr "førre søk"
 
-#: r2/lib/pages/pages.py:2737
+#: r2/lib/pages/pages.py:2803
 #, python-format
 msgid "%(site_title)s via %(domain)s"
 msgstr "%(site_title)s via %(domain)s"
 
-#: r2/lib/pages/pages.py:3182 r2/lib/pages/pages.py:3269
+#: r2/lib/pages/pages.py:3241 r2/lib/pages/pages.py:3328
 msgid "added"
 msgstr "lagt til"
 
-#: r2/lib/pages/pages.py:3229 r2/models/modaction.py:95
+#: r2/lib/pages/pages.py:3288 r2/models/modaction.py:95
 #: r2/templates/subredditinfobar.html:94 r2/templates/subscriptionbox.html:63
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:15
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:21
 msgid "banned"
 msgstr "bannlyst"
 
-#: r2/lib/pages/pages.py:3246
+#: r2/lib/pages/pages.py:3305
 msgid "invited"
 msgstr "invitert"
 
-#: r2/lib/pages/pages.py:3284
+#: r2/lib/pages/pages.py:3343
 msgid "grant flair"
 msgstr "skjenk skilt"
 
-#: r2/lib/pages/pages.py:3286
+#: r2/lib/pages/pages.py:3345
 msgid "user flair templates"
 msgstr "malar for brukarskilt"
 
-#: r2/lib/pages/pages.py:3288
+#: r2/lib/pages/pages.py:3347
 msgid "link flair templates"
 msgstr "lenk skiltmalar"
 
-#: r2/lib/pages/pages.py:3705 r2/templates/flairpane.html:76
+#: r2/lib/pages/pages.py:3699 r2/templates/flairpane.html:76
 msgid "none"
 msgstr "ingen"
 
-#: r2/lib/pages/pages.py:3730
+#: r2/lib/pages/pages.py:3815
 msgid "suggestions:"
-msgstr "suggestions:"
+msgstr "forslag:"
 
-#: r2/lib/pages/pages.py:3744
+#: r2/lib/pages/pages.py:3819
 #, python-format
-msgid "This dashboard allows you to easily place ads on reddit. Have any questions? [Check out the FAQ](%(faq)s).\n\nNeed some ideas on how to showcase your brand? [Here's a slideshow](%(link)s) on ways brands used reddit ads last year."
-msgstr "Dette dashbordet tillater deg å enkelt plassere reklamer på reddit. Har du spørsmål? [Sjekk ut FAQ'et](%(faq)s).\n\nTrenger du noen ideer på å vise frem ditt merke? [Her er en lysbildevisning](%(link)s) på hvordan merker brukte reddit reklamer forrige år."
+msgid "This dashboard allows you to easily place ads on reddit. Have any questions? [Check out the FAQ](%(faq)s).\n\n__New!__ Interest Audience Targeting and user interface changes. [Read our announcement post](%(link)s) on /r/selfserve."
+msgstr "This dashboard allows you to easily place ads on reddit. Have any questions? [Check out the FAQ](%(faq)s).\n\n__New!__ Interest Audience Targeting and user interface changes. [Read our announcement post](%(link)s) on /r/selfserve."
 
-#: r2/lib/pages/pages.py:3767
-#, python-format
-msgid "this promotion has a total budget of %(budget)s for %(impressions)s impressions in %(num)s subreddit"
-msgid_plural "this promotion has a total budget of %(budget)s for %(impressions)s impressions in %(num)s subreddits"
-msgstr[0] "denne kampanjen har et totalt budsjett på %(budget)s for %(impressions)s inntrykk i %(num)s subredditer"
-msgstr[1] "denne kampanjen har et totalt budsjett på %(budget)s for %(impressions)s inntrykk i %(num)s subredditer"
-
-#: r2/lib/pages/pages.py:4161
+#: r2/lib/pages/pages.py:4260
 msgid "start date"
 msgstr "startdato"
 
-#: r2/lib/pages/pages.py:4162
+#: r2/lib/pages/pages.py:4261
 msgid "end date"
 msgstr "sluttdato"
 
-#: r2/lib/pages/pages.py:4166 r2/templates/promotedlinktraffic.html:109
+#: r2/lib/pages/pages.py:4265 r2/templates/promotedlinktraffic.html:109
 #: r2/templates/refundpage.html:41
 msgid "id"
 msgstr "ID"
 
-#: r2/lib/pages/pages.py:4167 r2/lib/pages/pages.py:4184
+#: r2/lib/pages/pages.py:4266 r2/lib/pages/pages.py:4283
+#: r2/templates/promotelinkbase.html:469
 msgid "owner"
 msgstr "eier"
 
-#: r2/lib/pages/pages.py:4168 r2/templates/newlink.html:72
-#: r2/templates/promotelinkbase.html:107
+#: r2/lib/pages/pages.py:4267 r2/templates/newlink.html:72
+#: r2/templates/promotelinkbase.html:109
 msgid "url"
 msgstr "lenkje"
 
-#: r2/lib/pages/pages.py:4170
+#: r2/lib/pages/pages.py:4269
 msgid "upvotes"
 msgstr "opp-stemmer"
 
-#: r2/lib/pages/pages.py:4171
+#: r2/lib/pages/pages.py:4270
 msgid "downvotes"
 msgstr "ned-stemmer"
 
-#: r2/lib/pages/pages.py:4172 r2/lib/pages/trafficpages.py:277
-#: r2/lib/pages/trafficpages.py:740 r2/templates/promotedlinktraffic.html:41
+#: r2/lib/pages/pages.py:4271 r2/lib/pages/trafficpages.py:282
+#: r2/lib/pages/trafficpages.py:745 r2/templates/promotedlinktraffic.html:41
 #: r2/templates/promotedlinktraffic.html:120
 msgid "clicks"
 msgstr "klikk"
 
-#: r2/lib/pages/pages.py:4173 r2/lib/pages/trafficpages.py:274
-#: r2/lib/pages/trafficpages.py:398 r2/lib/pages/trafficpages.py:739
+#: r2/lib/pages/pages.py:4272 r2/lib/pages/trafficpages.py:279
+#: r2/lib/pages/trafficpages.py:403 r2/lib/pages/trafficpages.py:744
 #: r2/templates/adverttrafficsummary.html:36
 #: r2/templates/promotedlinktraffic.html:40
-#: r2/templates/promotedlinktraffic.html:118 r2/templates/promotelinkbase.html:328
+#: r2/templates/promotedlinktraffic.html:118 r2/templates/promotelinkbase.html:333
 msgid "impressions"
 msgstr "visingar"
 
-#: r2/lib/pages/pages.py:4181
+#: r2/lib/pages/pages.py:4280
 msgid "campaigns"
 msgstr "kampanjer"
 
-#: r2/lib/pages/pages.py:4183
+#: r2/lib/pages/pages.py:4282
 msgid "link id"
 msgstr "lenke-ID"
 
-#: r2/lib/pages/pages.py:4185
+#: r2/lib/pages/pages.py:4284
 msgid "campaign id"
 msgstr "kampanje-ID"
 
-#: r2/lib/pages/pages.py:4186 r2/templates/promotedlinktraffic.html:114
+#: r2/lib/pages/pages.py:4285 r2/templates/promotedlinktraffic.html:114
 #: r2/templates/refundpage.html:53
 msgid "target"
 msgstr "mål"
 
-#: r2/lib/pages/pages.py:4187
+#: r2/lib/pages/pages.py:4286
 msgid "bid"
 msgstr "bod"
 
-#: r2/lib/pages/pages.py:4188
+#: r2/lib/pages/pages.py:4287
 msgid "frontpage clicks"
 msgstr "forsideklikk"
 
-#: r2/lib/pages/pages.py:4188
+#: r2/lib/pages/pages.py:4287
 msgid "frontpage impressions"
 msgstr "forsidevisninger"
 
-#: r2/lib/pages/pages.py:4189
+#: r2/lib/pages/pages.py:4288
 msgid "subreddit clicks"
 msgstr "subredditklikk"
 
-#: r2/lib/pages/pages.py:4189
+#: r2/lib/pages/pages.py:4288
 msgid "subreddit impressions"
 msgstr "subredditvisninger"
 
-#: r2/lib/pages/pages.py:4190 r2/lib/pages/trafficpages.py:404
+#: r2/lib/pages/pages.py:4289 r2/lib/pages/trafficpages.py:409
 msgid "total clicks"
 msgstr "totale klikk"
 
-#: r2/lib/pages/pages.py:4190
+#: r2/lib/pages/pages.py:4289
 msgid "total impressions"
 msgstr "totale visingar"
 
-#: r2/lib/pages/pages.py:4331 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:4431 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "kontoaktivitet"
 
-#: r2/lib/pages/pages.py:4441
+#: r2/lib/pages/pages.py:4541
 msgid "subscribed"
 msgstr "abonnenent"
 
-#: r2/lib/pages/pages.py:4442 r2/templates/preffeeds.html:54
+#: r2/lib/pages/pages.py:4542 r2/templates/preffeeds.html:55
 msgid "your front page"
 msgstr "framsida di"
 
-#: r2/lib/pages/pages.py:4445 r2/lib/pages/pages.py:4450
-#: r2/templates/preffeeds.html:77 r2/templates/preffeeds.html:102
+#: r2/lib/pages/pages.py:4545 r2/lib/pages/pages.py:4550
+#: r2/templates/preffeeds.html:78 r2/templates/preffeeds.html:103
 msgid "everything"
 msgstr "alt"
 
-#: r2/lib/pages/pages.py:4448 r2/lib/pages/pages.py:4451
+#: r2/lib/pages/pages.py:4548 r2/lib/pages/pages.py:4551
 msgid "from all subreddits"
 msgstr "fra alle subreddits"
 
-#: r2/lib/pages/pages.py:4453
+#: r2/lib/pages/pages.py:4553
 msgid "moderating"
 msgstr "modererer"
 
-#: r2/lib/pages/pages.py:4454
+#: r2/lib/pages/pages.py:4554
 msgid "subreddits you mod"
 msgstr "subredditer du moderèrer"
 
-#: r2/lib/pages/pages.py:4460
+#: r2/lib/pages/pages.py:4560
 msgid "gold perks"
 msgstr "fordeler med gull"
 
-#: r2/lib/pages/pages.py:4472
+#: r2/lib/pages/pages.py:4572
 msgid "explore multis"
 msgstr "utforsk multi-redditer"
 
-#: r2/lib/pages/pages.py:4561
+#: r2/lib/pages/pages.py:4661
 msgid "popular choices"
 msgstr "populære val"
 
-#: r2/lib/pages/pages.py:4668
+#: r2/lib/pages/pages.py:4773
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "denne reklamerte lenken bruker by-basert målretting og kan bli vist til deg på grunn av ditt bosted. ([lær mer](%(link)s))"
 
-#: r2/lib/pages/pages.py:4672
+#: r2/lib/pages/pages.py:4777
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "denne reklamerte lenken bruker landsbasert målretting og kan bli vist til deg på grunn av din plass. ([lær mer](%(link)s))"
@@ -3381,7 +3411,7 @@ msgstr "denne reklamerte lenken bruker landsbasert målretting og kan bli vist t
 msgid "uniques by %s"
 msgstr "unike etter %s"
 
-#: r2/lib/pages/trafficpages.py:135 r2/lib/pages/trafficpages.py:783
+#: r2/lib/pages/trafficpages.py:135 r2/lib/pages/trafficpages.py:788
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34 r2/templates/reddittraffic.html:90
 #: r2/templates/sitewidetraffic.html:37 r2/templates/subreddittrafficreport.html:43
@@ -3393,7 +3423,7 @@ msgstr "unike"
 msgid "pageviews by %s"
 msgstr "sidevisingar etter %s"
 
-#: r2/lib/pages/trafficpages.py:138 r2/lib/pages/trafficpages.py:784
+#: r2/lib/pages/trafficpages.py:138 r2/lib/pages/trafficpages.py:789
 #: r2/templates/languagetrafficsummary.html:35 r2/templates/reddittraffic.html:91
 #: r2/templates/sitewidetraffic.html:38 r2/templates/subreddittrafficreport.html:44
 msgid "pageviews"
@@ -3404,58 +3434,57 @@ msgstr "sidevisingar"
 msgid "traffic by %s"
 msgstr "trafikk etter %s"
 
-#: r2/lib/pages/trafficpages.py:219
+#: r2/lib/pages/trafficpages.py:224
 msgid "[frontpage]"
 msgstr "[framsida]"
 
-#: r2/lib/pages/trafficpages.py:273
+#: r2/lib/pages/trafficpages.py:278
 msgid "total impressions by day"
 msgstr "totale visingar etter dag"
 
-#: r2/lib/pages/trafficpages.py:276
+#: r2/lib/pages/trafficpages.py:281
 msgid "total clicks by day"
 msgstr "totale klikk etter dag"
 
-#: r2/lib/pages/trafficpages.py:281
+#: r2/lib/pages/trafficpages.py:286
 msgid "ad totals"
 msgstr "reklamesum"
 
-#: r2/lib/pages/trafficpages.py:318 r2/models/promo.py:224
-#: r2/templates/promotelinkbase.html:361
+#: r2/lib/pages/trafficpages.py:323 r2/models/promo.py:279
 msgid "frontpage"
 msgstr "framsida"
 
-#: r2/lib/pages/trafficpages.py:397
+#: r2/lib/pages/trafficpages.py:402
 #, python-format
 msgid "impressions by %s"
 msgstr "visingar etter %s"
 
-#: r2/lib/pages/trafficpages.py:401
+#: r2/lib/pages/trafficpages.py:406
 msgid "unique clicks"
 msgstr "unike klikk"
 
-#: r2/lib/pages/trafficpages.py:403
+#: r2/lib/pages/trafficpages.py:408
 #, python-format
 msgid "clicks by %s"
 msgstr "klikk etter %s"
 
-#: r2/lib/pages/trafficpages.py:451
+#: r2/lib/pages/trafficpages.py:456
 msgid "subscriptions by day"
 msgstr "tingingar etter dag"
 
-#: r2/lib/pages/trafficpages.py:452
+#: r2/lib/pages/trafficpages.py:457
 msgid "subscriptions"
 msgstr "tingingar"
 
-#: r2/lib/pages/trafficpages.py:634 r2/templates/promotedlinktraffic.html:58
+#: r2/lib/pages/trafficpages.py:639 r2/templates/promotedlinktraffic.html:58
 msgid "total"
 msgstr "totalt"
 
-#: r2/lib/pages/trafficpages.py:738
+#: r2/lib/pages/trafficpages.py:743
 msgid "date and time (UTC)"
 msgstr "dato og klokkeslett (UTC)"
 
-#: r2/lib/pages/trafficpages.py:741
+#: r2/lib/pages/trafficpages.py:746
 msgid "click-through rate (%)"
 msgstr "gjennomklikkshastighet (%)"
 
@@ -3464,8 +3493,8 @@ msgid "view"
 msgstr "vis"
 
 #: r2/lib/pages/wiki.py:106 r2/templates/paymentform.html:163
-#: r2/templates/prefapps.html:88 r2/templates/printablebuttons.html:187
-#: r2/templates/printablebuttons.html:219 r2/templates/printablebuttons.html:303
+#: r2/templates/prefapps.html:88 r2/templates/printablebuttons.html:238
+#: r2/templates/printablebuttons.html:270 r2/templates/printablebuttons.html:359
 #: r2/templates/renderablecampaign.html:124 r2/templates/wrappeduser.html:57
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/permissions.py:24
 msgid "edit"
@@ -3476,7 +3505,7 @@ msgid "talk"
 msgstr "prat"
 
 #: r2/lib/pages/wiki.py:110 r2/lib/pages/wiki.py:180
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:116
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:125
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/permissions.py:19
 msgid "settings"
 msgstr "innstillingar"
@@ -3526,7 +3555,7 @@ msgid "Below is a list of pages in this wiki visible to you in this subreddit."
 msgstr "Nedanfor ser du ei liste med sider som er synlege for deg i den her subredditen."
 
 #: r2/lib/pages/wiki.py:205
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:46
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:52
 msgid "discussions"
 msgstr "ordskifte"
 
@@ -3538,108 +3567,108 @@ msgstr "Ordskifte lenkjer frå heile sida til den her wikisida."
 msgid "Submit a link to this wiki page or see other discussions about this wiki page."
 msgstr "Send inn ei lenkje til den her wikisida eller sjå andre ordskifte om ho."
 
-#: r2/lib/validator/validator.py:1510
+#: r2/lib/validator/validator.py:1556
 #, python-format
 msgid "%(min)d to any"
 msgstr "%(min)d og meir"
 
-#: r2/lib/validator/validator.py:1512
+#: r2/lib/validator/validator.py:1558
 #, python-format
 msgid "any to %(max)d"
 msgstr "til og med %(max)d"
 
-#: r2/lib/validator/validator.py:1514
+#: r2/lib/validator/validator.py:1560
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)d to %(max)d"
 
-#: r2/lib/validator/validator.py:2152
+#: r2/lib/validator/validator.py:2197
 msgid "please provide a first name"
 msgstr "oppgi eit fornamn"
 
-#: r2/lib/validator/validator.py:2154
+#: r2/lib/validator/validator.py:2199
 msgid "please provide a last name"
 msgstr "oppgi eit etternamn"
 
-#: r2/lib/validator/validator.py:2156
+#: r2/lib/validator/validator.py:2201
 msgid "please provide an address"
 msgstr "oppgi ei adresse"
 
-#: r2/lib/validator/validator.py:2158
+#: r2/lib/validator/validator.py:2203
 msgid "please provide your city"
 msgstr "oppgi kva by du bur i"
 
-#: r2/lib/validator/validator.py:2160
+#: r2/lib/validator/validator.py:2205
 msgid "please provide your state"
 msgstr "oppgi kva fylke/stat du bur i"
 
-#: r2/lib/validator/validator.py:2162
+#: r2/lib/validator/validator.py:2207
 msgid "please provide your zip or post code"
 msgstr "oppgi postnummeret ditt"
 
-#: r2/lib/validator/validator.py:2164
+#: r2/lib/validator/validator.py:2209
 msgid "please provide your country"
 msgstr "oppgi ditt land"
 
-#: r2/lib/validator/validator.py:2181
+#: r2/lib/validator/validator.py:2226
 #, python-format
 msgid "max length %d characters"
 msgstr "maks lengd er %d teikn"
 
-#: r2/lib/validator/validator.py:2203
+#: r2/lib/validator/validator.py:2248
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "kredittkortnummer lyt vere 13 til 16 siffer"
 
-#: r2/lib/validator/validator.py:2208
+#: r2/lib/validator/validator.py:2253
 msgid "dates should be YYYY-MM"
 msgstr "datoar må vere i formatet ÅÅÅÅ-MM"
 
-#: r2/lib/validator/validator.py:2216
+#: r2/lib/validator/validator.py:2261
 msgid "month must be in the range 01..12"
 msgstr "månaden må vera mellom 01 og 12"
 
-#: r2/lib/validator/validator.py:2219
+#: r2/lib/validator/validator.py:2264
 msgid "expiration date must be in the future"
 msgstr "utløpsdatoen må vera i framtida"
 
-#: r2/lib/validator/validator.py:2224
+#: r2/lib/validator/validator.py:2269
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "kortkontrollnummera lyt vere 3 eller 4 siffer"
 
-#: r2/lib/validator/validator.py:2262
+#: r2/lib/validator/validator.py:2307
 msgid "a user by name"
 msgstr "en bruker med navn"
 
-#: r2/lib/validator/validator.py:2277
+#: r2/lib/validator/validator.py:2322
 msgid "a [fullname](#fullname) of a link"
 msgstr "et [fullt navn](#fulltnavn) av en lenke"
 
-#: r2/lib/validator/validator.py:2377
+#: r2/lib/validator/validator.py:2422
 msgid "an app"
 msgstr "ein app"
 
-#: r2/lib/validator/validator.py:2394
+#: r2/lib/validator/validator.py:2439
 msgid "an app developed by the user"
 msgstr "ein app utvikla av brukaren"
 
-#: r2/lib/validator/validator.py:2612
+#: r2/lib/validator/validator.py:2657
 msgid "no spaces allowed"
 msgstr "mellomrom er ikke tillatt"
 
-#: r2/lib/validator/validator.py:2614
+#: r2/lib/validator/validator.py:2659
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "ugyldig bokstav: '%s'"
 
-#: r2/lib/validator/validator.py:2616
+#: r2/lib/validator/validator.py:2661
 msgid "can't start with a '_'"
 msgstr "kan ikke starte med '_'"
 
-#: r2/lib/validator/validator.py:2618
+#: r2/lib/validator/validator.py:2663
 msgid "that name is too short"
 msgstr "det navnet er for kort"
 
-#: r2/lib/validator/validator.py:2620
+#: r2/lib/validator/validator.py:2665
 msgid "that name is too long"
 msgstr "det navnet er for langt"
 
@@ -3659,32 +3688,24 @@ msgstr "namnet på ei side som finst eller skal opprettast"
 msgid "the starting point revision for this edit"
 msgstr "Startrevisjonen for den her endringa"
 
-#: r2/models/account.py:227
-msgid "ancient history"
-msgstr "eldgammal historie"
-
-#: r2/models/account.py:228
-msgid "really obscure karma from before it was cool to track per-subreddit"
-msgstr "skikkeleg obskur karma frå før det var kult å merkje det etter subreddit"
-
-#: r2/models/admintools.py:254
+#: r2/models/admintools.py:266
 #, python-format
 msgid "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, suggestions about reddit gold, please write to us at %(gold_email)s. Your feedback would be much appreciated.\n\nThank you for your past patronage."
 msgstr "[Klikk her for detaljer om hvordan du skal sette opp et abonnenement som oppdaterer seg automatisk, eller for å oppdatere.](/gold) Om du har noen innspill, klager, ris eller ros om reddit gold, vennligst skriv til oss på %(gold_email)s. Tilbakemeldingen din vil bli høyt verdsatt.\n\nTakk for din støtte."
 
-#: r2/models/admintools.py:276
+#: r2/models/admintools.py:287
 msgid "Your reddit gold subscription has expired."
 msgstr "Reddit gull-medlemskapet ditt har gått ut."
 
-#: r2/models/admintools.py:277
+#: r2/models/admintools.py:288
 msgid "Your subscription to reddit gold has expired."
 msgstr "Ditt medlemskap i reddit gull har gått ut."
 
-#: r2/models/admintools.py:307
+#: r2/models/admintools.py:300
 msgid "Your reddit gold subscription is about to expire!"
 msgstr "Reddit gull-medlemskapet ditt er i ferd med å gå ut!"
 
-#: r2/models/admintools.py:309
+#: r2/models/admintools.py:302
 msgid "Your subscription to reddit gold will be expiring soon."
 msgstr "Ditt medlemskap i reddit gull vil gå ut om ikke så alt for lenge."
 
@@ -3712,149 +3733,149 @@ msgstr "godkjent av %(who)s %(when)s siden"
 msgid "approved by %s"
 msgstr "godkjend av %s"
 
-#: r2/models/gold.py:523 r2/templates/comment.html:103
+#: r2/models/gold.py:525 r2/templates/comment.html:89
 #: r2/templates/comment.htmllite:46 r2/templates/comment.xml:31
 #: r2/templates/comment.xml:32 r2/templates/comment.xml:35 r2/templates/link.xml:70
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateaccount.html:4
 msgid "[deleted]"
 msgstr "[sletta]"
 
-#: r2/models/gold.py:527
+#: r2/models/gold.py:529
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this comment."
 msgid_plural "redditors have gifted you %(months)d months of reddit gold for this comment."
 msgstr[0] "ein redditør gav deg ein månads gullreddit for det her innlegget."
 msgstr[1] "redditørar har gitt deg %(months)d månaders gullreddit for det her innlegget."
 
-#: r2/models/gold.py:535
+#: r2/models/gold.py:537
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this submission."
 msgid_plural "redditors have gifted you %(months)d months of reddit gold for this submission."
 msgstr[0] "En redditor har gitt deg en måned med reddit gull for dette bidraget."
 msgstr[1] "redditorer har gitt deg %(months)d måneder med reddit gull for denne bidraget."
 
-#: r2/models/gold.py:544
+#: r2/models/gold.py:546
 #, python-format
 msgid "you have gifted reddit gold to %(recipient)s for this comment."
 msgid_plural "you and other redditors have gifted %(months)d months of reddit gold to %(recipient)s for this comment."
 msgstr[0] "du har gitt %(recipient)s gullreddit for det her innlegget."
 msgstr[1] "du og andre redditørar har gitt %(recipient)s %(months)d månader gullreddit."
 
-#: r2/models/gold.py:552
+#: r2/models/gold.py:554
 #, python-format
 msgid "you have gifted reddit gold to %(recipient)s for this submission."
 msgid_plural "you and other redditors have gifted %(months)d months of reddit gold to %(recipient)s for this submission."
 msgstr[0] "du har gitt reddit gull til %(recipient)s for dette bidraget."
 msgstr[1] "du og andre redditorer har gitt %(months)d måneder med reddit gull til %(recipient)s for dette bidraget."
 
-#: r2/models/gold.py:561
+#: r2/models/gold.py:563
 #, python-format
 msgid "a redditor has gifted reddit gold to %(recipient)s for this comment."
 msgid_plural "redditors have gifted %(months)d months of reddit gold to %(recipient)s for this comment."
 msgstr[0] "Ein redditør har gitt %(recipient)s gullreddit for det her innlegget."
 msgstr[1] "redditørar har gitt %(recipient)s %(months)d månader gullreddit for det her innlegget."
 
-#: r2/models/gold.py:569
+#: r2/models/gold.py:571
 #, python-format
 msgid "a redditor has gifted reddit gold to %(recipient)s for this submission."
 msgid_plural "redditors have gifted %(months)d months of reddit gold to %(recipient)s for this submission."
 msgstr[0] "en redditor har gitt reddit gull til %(recipient)s for dette bidraget."
 msgstr[1] "redditorer har gitt %(months)d måneder med reddit gull til %(recipient)s for dette bidraget."
 
-#: r2/models/link.py:649
+#: r2/models/link.py:647
 #, python-format
 msgid "by %(author)s to %(reddit)s"
 msgstr "av %(author)s til %(reddit)s"
 
-#: r2/models/link.py:652 r2/templates/adminnotessidebar.html:47
+#: r2/models/link.py:650 r2/templates/adminnotessidebar.html:47
 #, python-format
 msgid "by %(author)s"
 msgstr "av %(author)s"
 
-#: r2/models/link.py:656
+#: r2/models/link.py:654
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr "%(score)s sendt inn %(when)s %(lastedited)s"
 
-#: r2/models/link.py:661
+#: r2/models/link.py:659
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(reddit)s"
 msgstr "sendt inn %(when)s %(lastedited)s av %(author)s til %(reddit)s"
 
-#: r2/models/link.py:664
+#: r2/models/link.py:662
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "sendt inn %(when)s %(lastedited)s av %(author)s"
 
-#: r2/models/link.py:669
+#: r2/models/link.py:667
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "%(score)s sendt inn %(when)s"
 
-#: r2/models/link.py:673
+#: r2/models/link.py:671
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(reddit)s"
 msgstr "sendt inn %(when)s av %(author)s til %(reddit)s"
 
-#: r2/models/link.py:676
+#: r2/models/link.py:674
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr "sendt inn %(when)s av %(author)s"
 
-#: r2/models/link.py:1170
+#: r2/models/link.py:1172
 msgid "comment score below threshold"
 msgstr "innleggsskår under terskelen"
 
-#: r2/models/link.py:1175
+#: r2/models/link.py:1177
 msgid "blocked user"
 msgstr "blokka brukar"
 
-#: r2/models/link.py:1553
+#: r2/models/link.py:1557
 msgid "comment reply"
 msgstr "innleggssvar"
 
-#: r2/models/link.py:1556 r2/models/link.py:1563
+#: r2/models/link.py:1560 r2/models/link.py:1567
 msgid "username mention"
 msgstr "omtale av brukernavn"
 
-#: r2/models/link.py:1560
+#: r2/models/link.py:1564
 msgid "post reply"
 msgstr "send svar"
 
-#: r2/models/link.py:1586
+#: r2/models/link.py:1590
 msgid "[message from blocked user]"
 msgstr "[meldinga frå blokka brukar]"
 
-#: r2/models/link.py:1587
+#: r2/models/link.py:1591
 msgid "[unblock user to see this message]"
 msgstr "[fjern blokkeringa for å sjå meldinga]"
 
-#: r2/models/link.py:1590
+#: r2/models/link.py:1594
 #, python-format
 msgid "subreddit message %(author)s sent %(when)s"
 msgstr "subreddit-melding %(author)s sendt %(when)s"
 
-#: r2/models/link.py:1592
+#: r2/models/link.py:1596
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "til %(dest)s sendte %(when)s"
 
-#: r2/models/link.py:1594
+#: r2/models/link.py:1598
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "fra %(author)s sendte %(when)s"
 
-#: r2/models/link.py:1596
+#: r2/models/link.py:1600
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "til %(dest)s fra %(author)s sendt %(when)s siden"
 
-#: r2/models/link.py:1607
+#: r2/models/link.py:1611
 #, python-format
 msgid "via %(subreddit)s"
 msgstr "via %(subreddit)s"
 
-#: r2/models/link.py:1609
+#: r2/models/link.py:1613
 #, python-format
 msgid "%(author)s via %(subreddit)s"
 msgstr "%(author)s via %(subreddit)s"
@@ -3930,90 +3951,90 @@ msgstr "legg til moderator ved tvang"
 msgid "moderators of /r/%(subreddit)s"
 msgstr "moderatorer av /r/%(subreddit)s"
 
-#: r2/models/mail_queue.py:309
+#: r2/models/mail_queue.py:313
 #, python-format
 msgid "[reddit] %(user)s has shared a link with you"
 msgstr "[reddit] %(user)s har delt ei lenkje med deg"
 
-#: r2/models/mail_queue.py:310
+#: r2/models/mail_queue.py:314
 #, python-format
 msgid "[feedback] feedback from '%(user)s'"
 msgstr "[tilbakemelding] tilbakemelding frå '%(user)s'"
 
-#: r2/models/mail_queue.py:311
+#: r2/models/mail_queue.py:315
 #, python-format
-msgid "[ad_inq] feedback from '%(user)s'"
-msgstr "[ad_inq] tilbakemelding frå '%(user)s'"
+msgid "[advertising] feedback from '%(user)s'"
+msgstr "[advertising] feedback from '%(user)s'"
 
-#: r2/models/mail_queue.py:312
+#: r2/models/mail_queue.py:316
 msgid "[reddit] email removal notice"
 msgstr "[reddit] notis om fjerna e-post"
 
-#: r2/models/mail_queue.py:313
+#: r2/models/mail_queue.py:317
 msgid "[reddit] email addition notice"
 msgstr "[reddit] notis om lagt til e-post"
 
-#: r2/models/mail_queue.py:314
+#: r2/models/mail_queue.py:318
 msgid "[reddit] reset your password"
 msgstr "[reddit] nullstill passordet ditt"
 
-#: r2/models/mail_queue.py:315
+#: r2/models/mail_queue.py:319
 msgid "[reddit] verify your email address"
 msgstr "[reddit] stadfest e-postadressa di"
 
-#: r2/models/mail_queue.py:316
+#: r2/models/mail_queue.py:320
 msgid "[reddit] your bid has been accepted"
 msgstr "[reddit] bodet ditt har vorte godteke"
 
-#: r2/models/mail_queue.py:317
+#: r2/models/mail_queue.py:321
 msgid "[reddit] your promotion has been accepted"
 msgstr "[reddit] fremjinga di har vorte godteke"
 
-#: r2/models/mail_queue.py:318
+#: r2/models/mail_queue.py:322
 msgid "[reddit] your promotion has been rejected"
 msgstr "[reddit] fremjinga di har vorte avslege"
 
-#: r2/models/mail_queue.py:319
+#: r2/models/mail_queue.py:323
 msgid "[reddit] your promotion has been charged"
 msgstr "[reddit] fremjinga di har vorte betalt"
 
-#: r2/models/mail_queue.py:320
+#: r2/models/mail_queue.py:324
 msgid "[reddit] your promotion is now live"
 msgstr "[reddit] fremjinga di pågår no"
 
-#: r2/models/mail_queue.py:321
+#: r2/models/mail_queue.py:325
 msgid "[reddit] your promotion has finished"
 msgstr "[reddit] fremjinga di er ferdig"
 
-#: r2/models/mail_queue.py:322
+#: r2/models/mail_queue.py:326
 msgid "[reddit] your promotion has been created"
 msgstr "[reddit] fremjinga di har vorte oppretta"
 
-#: r2/models/mail_queue.py:323
+#: r2/models/mail_queue.py:327
 msgid "[reddit] hey, nerd!"
 msgstr "[reddit] hei, nerden!"
 
-#: r2/models/mail_queue.py:324
+#: r2/models/mail_queue.py:328
 msgid "[reddit] reddit gold activation link"
 msgstr "[reddit] aktiveringslenkje for redditgull "
 
-#: r2/models/mail_queue.py:325
+#: r2/models/mail_queue.py:329
 msgid "[reddit] your password has been changed"
 msgstr "[reddit] ditt passord har blitt endret"
 
-#: r2/models/mail_queue.py:326
+#: r2/models/mail_queue.py:330
 msgid "[reddit] your email address has been changed"
 msgstr "[reddit] din e-postadresse har blitt endret"
 
-#: r2/models/mail_queue.py:327
+#: r2/models/mail_queue.py:331
 msgid "[reddit] your campaign didn't get enough impressions"
 msgstr "[reddit] kampanjen din fikk ikke nok støtte"
 
-#: r2/models/mail_queue.py:328
+#: r2/models/mail_queue.py:332
 msgid "[reddit] your payment has been voided"
 msgstr "[reddit] til betaling har blitt annullert"
 
-#: r2/models/mail_queue.py:329
+#: r2/models/mail_queue.py:333
 msgid "[reddit] your reddit gold gift code"
 msgstr "[reddit] din gavekode for reddit gull"
 
@@ -4069,7 +4090,7 @@ msgstr "fjern innsendar"
 msgid "edit settings"
 msgstr "endre innstillingar"
 
-#: r2/models/modaction.py:79 r2/templates/printablebuttons.html:87
+#: r2/models/modaction.py:79 r2/templates/printablebuttons.html:95
 msgid "distinguish"
 msgstr "skil"
 
@@ -4105,8 +4126,8 @@ msgstr "wikien si revisjonsside"
 msgid "wiki page permissions"
 msgstr "løyve for wikisider"
 
-#: r2/models/modaction.py:88 r2/models/modaction.py:173
-#: r2/templates/printablebuttons.html:138
+#: r2/models/modaction.py:88 r2/models/modaction.py:174
+#: r2/templates/printablebuttons.html:146
 msgid "ignore reports"
 msgstr "ignorer rapporter"
 
@@ -4147,13 +4168,13 @@ msgid "unbanned"
 msgstr "ikkje bannlyst"
 
 #: r2/models/modaction.py:101 r2/models/modaction.py:103
-#: r2/templates/printablebuttons.html:43 r2/templates/printablebuttons.html:169
+#: r2/templates/printablebuttons.html:43 r2/templates/printablebuttons.html:177
 #: r2/templates/trophycase.html:48
 msgid "removed"
 msgstr "fjerna"
 
 #: r2/models/modaction.py:102 r2/models/modaction.py:104 r2/models/modaction.py:128
-#: r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:172
+#: r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:180
 #: r2/templates/subredditinfobar.html:86
 msgid "approved"
 msgstr "godkjend"
@@ -4255,7 +4276,7 @@ msgid "removed self"
 msgstr "fjerna sjølv"
 
 #: r2/models/modaction.py:136 r2/templates/createsubreddit.html:56
-#: r2/templates/newlink.html:63 r2/templates/promotelinkbase.html:67
+#: r2/templates/newlink.html:63 r2/templates/promotelinkbase.html:69
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "tittel"
@@ -4312,102 +4333,106 @@ msgid "toggle public traffic stats page"
 msgstr "Skru siden med offentlig trafikk statestikk av eller på"
 
 #: r2/models/modaction.py:149
+msgid "toggle collapse deleted/removed comments"
+msgstr "toggle collapse deleted/removed comments"
+
+#: r2/models/modaction.py:150
 msgid "toggle exclude banned users' posts from modqueue"
 msgstr "slå av/på ekskludering av utestengte brukere fra moderasjonskøen"
 
-#: r2/models/modaction.py:151
+#: r2/models/modaction.py:152
 msgid "toggle show sidebar from cname"
 msgstr "skru på/av vising av sidefeltet frå cname"
 
-#: r2/models/modaction.py:152
+#: r2/models/modaction.py:153
 msgid "toggle custom CSS from cname"
 msgstr "skru på/av tilpassa CSS frå cname"
 
-#: r2/models/modaction.py:153
+#: r2/models/modaction.py:154
 msgid "header title"
 msgstr "header-tittel"
 
-#: r2/models/modaction.py:155
+#: r2/models/modaction.py:156
 msgid "delete header image"
 msgstr "slett header-bilete"
 
-#: r2/models/modaction.py:156
+#: r2/models/modaction.py:157
 msgid "delete image"
 msgstr "slett bilete"
 
-#: r2/models/modaction.py:157 r2/templates/createsubreddit.html:383
+#: r2/models/modaction.py:158 r2/templates/createsubreddit.html:394
 msgid "upload header image"
 msgstr "last opp hovudbilete"
 
-#: r2/models/modaction.py:158
+#: r2/models/modaction.py:159
 msgid "upload image"
 msgstr "last opp bilete"
 
-#: r2/models/modaction.py:160
+#: r2/models/modaction.py:161
 msgid "add/edit flair"
 msgstr "legg til / endre skilt"
 
-#: r2/models/modaction.py:161
+#: r2/models/modaction.py:162
 msgid "delete flair"
 msgstr "slett skilt"
 
-#: r2/models/modaction.py:162
+#: r2/models/modaction.py:163
 msgid "edit by csv"
 msgstr "endre etter csv"
 
-#: r2/models/modaction.py:163
+#: r2/models/modaction.py:164
 msgid "toggle flair enabled"
 msgstr "skru på/av skilt"
 
-#: r2/models/modaction.py:164
+#: r2/models/modaction.py:165
 msgid "toggle user flair position"
 msgstr "veksle brukarskiltplasseringa"
 
-#: r2/models/modaction.py:165
+#: r2/models/modaction.py:166
 msgid "toggle link flair position"
 msgstr "veksle lenkjeskiltplasseringa"
 
-#: r2/models/modaction.py:166
+#: r2/models/modaction.py:167
 msgid "toggle user assigned flair enabled"
 msgstr "skru på/av brukarstyrt skilt"
 
-#: r2/models/modaction.py:167
+#: r2/models/modaction.py:168
 msgid "toggle submitter assigned link flair enabled"
 msgstr "skru på/av sjølvtildelt lenkjeskilt for brukarane"
 
-#: r2/models/modaction.py:168
+#: r2/models/modaction.py:169
 msgid "add/edit flair templates"
 msgstr "legg til / endre skiltmalar"
 
-#: r2/models/modaction.py:169
+#: r2/models/modaction.py:170
 msgid "delete flair template"
 msgstr "slett skiltmal"
 
-#: r2/models/modaction.py:170
+#: r2/models/modaction.py:171
 msgid "clear flair templates"
 msgstr "tøm skiltmalar"
 
-#: r2/models/modaction.py:172 r2/templates/filteredinfobar.html:39
+#: r2/models/modaction.py:173 r2/templates/filteredinfobar.html:39
 #: r2/templates/multiinfobar.html:91 r2/templates/prefapps.html:77
-#: r2/templates/printablebuttons.html:43 r2/templates/printablebuttons.html:150
-#: r2/templates/trophycase.html:48 r2/templates/usertableitem.html:48
+#: r2/templates/printablebuttons.html:43 r2/templates/printablebuttons.html:158
+#: r2/templates/trophycase.html:48 r2/templates/usertableitem.html:51
 msgid "remove"
 msgstr "fjern"
 
-#: r2/models/modaction.py:175
+#: r2/models/modaction.py:176
 msgid "set permissions on moderator"
 msgstr "gi tillatelser til moderator"
 
-#: r2/models/modaction.py:176
+#: r2/models/modaction.py:177
 msgid "set permissions on moderator invitation"
 msgstr "endre løyva for moderatorinvitasjon"
 
-#: r2/models/modaction.py:326 r2/models/modaction.py:340
-#: r2/templates/comment.html:64
+#: r2/models/modaction.py:327 r2/models/modaction.py:341
+#: r2/templates/comment.html:60
 msgid "by"
 msgstr "av"
 
-#: r2/models/modaction.py:342 r2/templates/comment.xml:46
+#: r2/models/modaction.py:343 r2/templates/comment.xml:46
 msgid "on"
 msgstr "på"
 
@@ -4435,27 +4460,27 @@ msgstr "hus"
 msgid "non-CPM, displays in all unsold impressions"
 msgstr "ikke-CPM, vises i alle usolgte inntrykk"
 
-#: r2/models/promo.py:222
+#: r2/models/promo.py:277
 #, python-format
 msgid "collection: %(name)s"
-msgstr "collection: %(name)s"
+msgstr "samling: %(name)s"
 
-#: r2/models/subreddit.py:1144 r2/models/subreddit.py:1185
+#: r2/models/subreddit.py:1195 r2/models/subreddit.py:1236
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (filtrert)"
 
-#: r2/models/subreddit.py:1383
+#: r2/models/subreddit.py:1438
 #, python-format
 msgid "posts from %s"
 msgstr "poster fra %s"
 
-#: r2/models/subreddit.py:1634
+#: r2/models/subreddit.py:1695
 #, python-format
 msgid "%s subreddits curated by /u/%s"
 msgstr "%s subreddits blir passet på av /u/%s"
 
-#: r2/models/subreddit.py:1850
+#: r2/models/subreddit.py:1916
 #, python-format
 msgid "%(domain)s on %(reddit.com)s"
 msgstr "%(domain)s på %(reddit.com)s"
@@ -4681,7 +4706,7 @@ msgstr "mangler postnummer"
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "en feil oppstod. vennligst prøv igjen senere! (status: %(status)s)"
 
-#: r2/public/static/js/login.js:192
+#: r2/public/static/js/login.js:232
 msgid "try using our secure login form."
 msgstr "prøv å nytte skjemaet vårt for trygg innlogging."
 
@@ -4709,7 +4734,7 @@ msgstr "lag en ny multi"
 msgid "please wait a few seconds and try again."
 msgstr "vent eit par sekund og prøv om att"
 
-#: r2/public/static/js/reddit.js:111 r2/public/static/js/ui.js:237
+#: r2/public/static/js/reddit.js:111 r2/public/static/js/ui.js:248
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "en feil oppstod (status: %(status)s)"
@@ -4730,8 +4755,8 @@ msgstr "ingen kategori"
 #: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:51
 #: r2/templates/frametoolbar.html:194 r2/templates/moderatorpermissions.html:52
 #: r2/templates/prefupdate.html:79 r2/templates/prefupdate.html:116
-#: r2/templates/printablebuttons.html:200 r2/templates/printablebuttons.html:279
-#: r2/templates/promotelinkedit.html:112 r2/templates/promotelinkedit.html:221
+#: r2/templates/printablebuttons.html:251 r2/templates/printablebuttons.html:333
+#: r2/templates/promotelinkedit.html:111 r2/templates/promotelinkedit.html:220
 #: r2/templates/subredditstylesheet.html:67
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatecontributorpermissions.html:29
 msgid "save"
@@ -4742,35 +4767,35 @@ msgid "new category"
 msgstr "ny kategori"
 
 #: r2/public/static/js/saved.js:166 r2/public/static/js/uibase.js:97
-#: r2/templates/frametoolbar.html:190 r2/templates/printablebuttons.html:198
-#: r2/templates/printablebuttons.html:275
+#: r2/templates/frametoolbar.html:190 r2/templates/printablebuttons.html:249
+#: r2/templates/printablebuttons.html:329
 msgid "unsave"
 msgstr "ulagre"
 
-#: r2/public/static/js/sponsored.js:198
+#: r2/public/static/js/sponsored.js:316
 #, python-format
 msgid "We expect to only have %(available)s impressions on %(target)s from %(start)s to %(end)s. We may not fully deliver."
 msgstr "Vi forventer å ha %(available)s visninger på %(target)s fra %(start)s til %(end)s. Det kan hende vi ikke klarer å levere."
 
-#: r2/public/static/js/sponsored.js:210
+#: r2/public/static/js/sponsored.js:328
 #, python-format
 msgid "We have insufficient inventory to fulfill your requested budget, target, and dates. Only %(available)s impressions available on %(target)s from %(start)s to %(end)s. Maximum budget is $%(max)s."
 msgstr "Vi har ikke nødvendig plass tilgjengelig for å gjennomføre ditt forespurte budsjett, mål og datoer. Kun %(available)s inntrykk er tilgjengelig på %(target)s fra %(start)s til %(end)s. Maksimalt budsjett er $%(max)s."
 
-#: r2/public/static/js/sponsored.js:228
+#: r2/public/static/js/sponsored.js:346
 #, python-format
 msgid "%(num)s available (maximum budget is $%(max)s)"
 msgstr "%(num)s tilgjengelig (maks. budsjett er $%(max)s)"
 
-#: r2/public/static/js/sponsored.js:233
+#: r2/public/static/js/sponsored.js:351
 msgid "sorry, there was an error retrieving available impressions. please try again later."
 msgstr "Beklager, det oppstod en feil ved henting av tilgjengelig informasjon. Vennligst prøv igjen senere."
 
-#: r2/public/static/js/sponsored.js:308
+#: r2/public/static/js/sponsored.js:556 r2/public/static/js/sponsored.js:718
 msgid "days"
 msgstr "dagar"
 
-#: r2/public/static/js/sponsored.js:309
+#: r2/public/static/js/sponsored.js:557
 #, python-format
 msgid "$%(cpm)s per 1,000 impressions"
 msgstr "$%(cpm)s per 1.000 inntrykk"
@@ -4780,32 +4805,32 @@ msgid "view subreddit traffic"
 msgstr "sjå subreddittrafikk"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
-#: r2/templates/promotereport.html:67 r2/templates/userlisting.html:135
+#: r2/templates/userlisting.html:135
 msgid "go"
 msgstr "køyr!"
 
-#: r2/public/static/js/ui.js:499 r2/public/static/js/ui.js:549
+#: r2/public/static/js/ui.js:510 r2/public/static/js/ui.js:560
 msgid "full permissions"
 msgstr "alle tillatelser"
 
-#: r2/public/static/js/ui.js:598
+#: r2/public/static/js/ui.js:609
 msgid "no permissions"
 msgstr "ingen tillatelser"
 
-#: r2/public/static/js/ui.js:694 r2/templates/goldsubscription.html:47
-#: r2/templates/printablebuttons.html:405 r2/templates/printablebuttons.html:423
+#: r2/public/static/js/ui.js:705 r2/templates/goldsubscription.html:47
+#: r2/templates/printablebuttons.html:468 r2/templates/printablebuttons.html:486
 msgid "are you sure?"
 msgstr "er du sikker?"
 
-#: r2/public/static/js/ui.js:695 r2/templates/goldsubscription.html:50
+#: r2/public/static/js/ui.js:706 r2/templates/goldsubscription.html:50
 #: r2/templates/optout.html:37 r2/templates/optout.html:53
-#: r2/templates/printablebuttons.html:407 r2/templates/printablebuttons.html:441
+#: r2/templates/printablebuttons.html:470 r2/templates/printablebuttons.html:504
 msgid "yes"
 msgstr "ja"
 
-#: r2/public/static/js/ui.js:696 r2/templates/goldsubscription.html:53
+#: r2/public/static/js/ui.js:707 r2/templates/goldsubscription.html:53
 #: r2/templates/optout.html:40 r2/templates/optout.html:56
-#: r2/templates/printablebuttons.html:409 r2/templates/printablebuttons.html:444
+#: r2/templates/printablebuttons.html:472 r2/templates/printablebuttons.html:507
 msgid "no"
 msgstr "nei"
 
@@ -4864,9 +4889,38 @@ msgstr "tidsberegninger"
 
 #: r2/templates/adminbar.html:61 r2/templates/exploreitem.html:43
 #: r2/templates/frametoolbar.html:204 r2/templates/frametoolbar.html:205
-#: r2/templates/printablebuttons.html:207
+#: r2/templates/printablebuttons.html:258
 msgid "hide"
 msgstr "gøym"
+
+#: r2/templates/admincreddits.html:25
+msgid "give creddits to a user"
+msgstr "give creddits to a user"
+
+#: r2/templates/admincreddits.html:32 r2/templates/admingold.html:32
+msgid "recipient"
+msgstr "recipient"
+
+#: r2/templates/admincreddits.html:40 r2/templates/creddits.html:26
+#: r2/templates/goldpayment.html:108
+msgid "creddits"
+msgstr "creddits"
+
+#: r2/templates/admincreddits.html:43 r2/templates/admingold.html:44
+msgid "(negative to take away)"
+msgstr "(negative to take away)"
+
+#: r2/templates/admincreddits.html:48 r2/templates/admingold.html:49
+msgid "give"
+msgstr "give"
+
+#: r2/templates/admingold.html:25
+msgid "give or take months of gold for a user"
+msgstr "give or take months of gold for a user"
+
+#: r2/templates/admingold.html:41
+msgid "months"
+msgstr "months"
 
 #: r2/templates/adminnotessidebar.html:39
 msgid "Past notes"
@@ -4904,7 +4958,7 @@ msgstr "du har allerede det trofeet!"
 msgid "trophy claimed!"
 msgstr "trofé gjort krav på!"
 
-#: r2/templates/base.html:49
+#: r2/templates/base.html:50
 msgid "/* Custom css: use this block to insert special translation-dependent css in the page header */"
 msgstr "/* Tilpassa css: bruk desse blokkene til å setje inn spesiell omsetjingsavhengig css i filhodet */"
 
@@ -4955,116 +5009,116 @@ msgstr "i Safari"
 msgid "voila! now you have all the functionality of %(site)s in your toolbar."
 msgstr "voila! du har no all funksjonaliteten åt %(site)s i verktøylinja di."
 
-#: r2/templates/buttondemopanel.html:30
+#: r2/templates/buttondemopanel.html:32
 #, python-format
 msgid "put %(site)s buttons on your site"
 msgstr "legg %(site)s sine knappar på sida di"
 
-#: r2/templates/buttondemopanel.html:31
+#: r2/templates/buttondemopanel.html:33
 msgid "the reddit button is the smart way to get your content submitted to      and discussed on reddit.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
 msgstr "redditknappen er ein lur måte å få innhaldet ditt sendt inn og diskutert på reddit. Vel den knappen du liker nedanfor og kopier/lim inn koden i HTML-tekstprogrammet ditt."
 
-#: r2/templates/buttondemopanel.html:35
+#: r2/templates/buttondemopanel.html:37
 msgid "commonly used buttons"
 msgstr "jamt nytta knappar"
 
-#: r2/templates/buttondemopanel.html:36
+#: r2/templates/buttondemopanel.html:38
 msgid "use one of these buttons to quickly add reddit links to your site, or       see below for more options."
 msgstr "nytt ein av desse knappane for raskt å leggje til lenkjer til sida di, eller sjå under for fleire val."
 
-#: r2/templates/buttondemopanel.html:47
+#: r2/templates/buttondemopanel.html:49
 msgid "buttons with points"
 msgstr "knappar med poeng"
 
-#: r2/templates/buttondemopanel.html:53
+#: r2/templates/buttondemopanel.html:55
 msgid "customizing the look of your buttons"
 msgstr "tilpass utsjånaden på knappane dine"
 
-#: r2/templates/buttondemopanel.html:54
+#: r2/templates/buttondemopanel.html:56
 msgid "the buttons with points have three additional options."
 msgstr "knappane med poeng vil ha tre ekstra val."
 
-#: r2/templates/buttondemopanel.html:57
+#: r2/templates/buttondemopanel.html:59
 msgid "no styles will be added, so you can style it yourself"
 msgstr "ingen stilar vil bli lagt til, så du kan forme dei sjølv"
 
-#: r2/templates/buttondemopanel.html:59
+#: r2/templates/buttondemopanel.html:61
 msgid "specify a url to use instead of the current url"
 msgstr "skriv inn url-en du vil nytte i stellet for den noverande url-en"
 
-#: r2/templates/buttondemopanel.html:61
+#: r2/templates/buttondemopanel.html:63
 msgid "opens links in a new window"
 msgstr "opne lenkjer i eit nytt vindauge"
 
-#: r2/templates/buttondemopanel.html:63 r2/templates/buttondemopanel.html:115
+#: r2/templates/buttondemopanel.html:65 r2/templates/buttondemopanel.html:117
 msgid "Example:"
 msgstr "Døme:"
 
-#: r2/templates/buttondemopanel.html:69
+#: r2/templates/buttondemopanel.html:71
 msgid "simple interactive button"
 msgstr "enkel interaktiv knapp"
 
-#: r2/templates/buttondemopanel.html:70
+#: r2/templates/buttondemopanel.html:72
 msgid "put this code on your page:"
 msgstr "legg den her koden til sida di:"
 
-#: r2/templates/buttondemopanel.html:74
+#: r2/templates/buttondemopanel.html:76
 msgid "and you'll get something like this:"
 msgstr "og du vil få noko som det her:"
 
-#: r2/templates/buttondemopanel.html:79
+#: r2/templates/buttondemopanel.html:81
 msgid "more interactive buttons"
 msgstr "fleire interaktive knappar"
 
-#: r2/templates/buttondemopanel.html:86
+#: r2/templates/buttondemopanel.html:88
 msgid "interactive button advanced settings"
 msgstr "avanserte innstillingar for den interaktive knappen"
 
-#: r2/templates/buttondemopanel.html:90
+#: r2/templates/buttondemopanel.html:92
 msgid "specify a url"
 msgstr "skriv inn ein url"
 
-#: r2/templates/buttondemopanel.html:91
+#: r2/templates/buttondemopanel.html:93
 msgid "useful in places like blogs, where you want to link to the post's permalink"
 msgstr "nyttig i stader som bloggar, kor du vil lenkje til posten si permalenkje"
 
-#: r2/templates/buttondemopanel.html:95
+#: r2/templates/buttondemopanel.html:97
 msgid "specify a community to target"
 msgstr "skriv inn eit samfunn til ønskjer å nå"
 
-#: r2/templates/buttondemopanel.html:99
+#: r2/templates/buttondemopanel.html:101
 msgid "specify a title"
 msgstr "skriv inn ein tittel"
 
-#: r2/templates/buttondemopanel.html:103 r2/templates/prefoptions.html:117
+#: r2/templates/buttondemopanel.html:105 r2/templates/prefoptions.html:117
 msgid "open links in a new window"
 msgstr "opne lenkjer i eit nytt vindauge"
 
-#: r2/templates/buttondemopanel.html:107
+#: r2/templates/buttondemopanel.html:109
 msgid "specify the color"
 msgstr "vel ei farge"
 
-#: r2/templates/buttondemopanel.html:111
+#: r2/templates/buttondemopanel.html:113
 msgid "specify a border color"
 msgstr "vel ei kantfarge"
 
-#: r2/templates/buttondemopanel.html:116
+#: r2/templates/buttondemopanel.html:118
 msgid "to make this button:"
 msgstr "for a lage denne knappen:"
 
-#: r2/templates/buttondemopanel.html:118
+#: r2/templates/buttondemopanel.html:120
 msgid "use this code:"
 msgstr "bruk den her koden:"
 
-#: r2/templates/buttondemopanel.html:128
+#: r2/templates/buttondemopanel.html:130
 msgid "more badges and buttons"
 msgstr "fleire skilt og knappar"
 
-#: r2/templates/buttondemopanel.html:159
+#: r2/templates/buttondemopanel.html:161
 msgid "view code"
 msgstr "syn koden"
 
-#: r2/templates/buttondemopanel.html:160
+#: r2/templates/buttondemopanel.html:162
 msgid "hide code"
 msgstr "gøym koden"
 
@@ -5084,29 +5138,29 @@ msgstr "menneske?"
 msgid "clear"
 msgstr "tøm"
 
-#: r2/templates/comment.html:67
+#: r2/templates/comment.html:63
 msgid "in"
 msgstr "i"
 
-#: r2/templates/comment.html:98
+#: r2/templates/comment.html:84
 msgid "deleted comment from"
 msgstr "sletta innlegg frå"
 
-#: r2/templates/comment.html:111
+#: r2/templates/comment.html:97
 #, python-format
 msgid "this subreddit hides comment scores for %d minutes"
 msgstr "denne subredditen gjemmer kommentarpoeng i %d minutter"
 
-#: r2/templates/comment.html:112 r2/templates/comment.htmllite:56
+#: r2/templates/comment.html:98 r2/templates/comment.htmllite:56
 msgid "score hidden"
 msgstr "poeng gjemt"
 
-#: r2/templates/comment.html:132 r2/templates/link.html:219
+#: r2/templates/comment.html:115 r2/templates/link.html:215
 #, python-format
 msgid "category: %s"
 msgstr "kategori: %s"
 
-#: r2/templates/comment.html:143
+#: r2/templates/comment.html:126
 msgid "show replies"
 msgstr "vis svar"
 
@@ -5131,7 +5185,7 @@ msgstr "inga framheving"
 msgid "# Claim this award for /u/%s? #"
 msgstr "# Gjør krav på denne premien for /u/%s? #"
 
-#: r2/templates/confirmawardclaim.html:35
+#: r2/templates/confirmawardclaim.html:36
 msgid "Yes, please!"
 msgstr "Ja takk!"
 
@@ -5143,7 +5197,7 @@ msgstr "«Om fem milliarder år vil solen utvide seg og omslutte jordas bane men
 msgid "no spaces, e.g., slashdot"
 msgstr "ingen mellomrom, t.d., slashdot"
 
-#: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:143
+#: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:148
 #: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:136
 #: r2/templates/prefapps.html:326
 msgid "name"
@@ -5301,10 +5355,12 @@ msgid "self posts"
 msgstr "selv-innlegg"
 
 #: r2/templates/createsubreddit.html:251
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:12
 msgid "other options"
 msgstr "andre val"
 
 #: r2/templates/createsubreddit.html:262
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:20
 msgid "viewers must be over eighteen years old"
 msgstr "lesarar må vera over atten år gamle"
 
@@ -5324,51 +5380,51 @@ msgstr "ekskluder innlegg fra total-utestengte brukere i moderasjonskøen"
 msgid "make the traffic stats page available to everyone"
 msgstr "tilgjengeliggjør trafikkstatistikken for alle"
 
-#: r2/templates/createsubreddit.html:310
+#: r2/templates/createsubreddit.html:314
+msgid "collapse deleted and removed comments"
+msgstr "collapse deleted and removed comments"
+
+#: r2/templates/createsubreddit.html:321
 msgid "Minutes to hide comment scores:"
 msgstr "Antall minutter hvor kommentarpoeng skjules:"
 
-#: r2/templates/createsubreddit.html:333
+#: r2/templates/createsubreddit.html:344
 msgid "make custom CSS styles apply only when accessed from the cname."
 msgstr "lat tilpassa CSS-stiler gjelde berre gjennom CNAME."
 
-#: r2/templates/createsubreddit.html:343
+#: r2/templates/createsubreddit.html:354
 msgid "show sidebar when accessed from the cname."
 msgstr "vis sidestolpen gjennom CNAME."
 
-#: r2/templates/createsubreddit.html:355 r2/templates/usertext.html:152
+#: r2/templates/createsubreddit.html:366 r2/templates/usertext.html:152
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "gøym hjelpa"
 
-#: r2/templates/createsubreddit.html:359
+#: r2/templates/createsubreddit.html:370
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.reddit.com. You will be able to access your reddit through your domain."
 msgstr "Eig du eit domene?    Skriv det inn her, gå til DNS-leverandøren din og legg til ei CNAME-oppføring som lenkjer domenet ditt til rhs.reddit.com. Du vil få tilkomst til redditen din gjennom domenet ditt."
 
-#: r2/templates/createsubreddit.html:367
+#: r2/templates/createsubreddit.html:378
 msgid "look and feel"
 msgstr "utsjånad"
 
-#: r2/templates/createsubreddit.html:370
+#: r2/templates/createsubreddit.html:381
 msgid "edit the stylesheet"
 msgstr "endre stilarket"
 
-#: r2/templates/createsubreddit.html:374
+#: r2/templates/createsubreddit.html:385
 msgid "leaves this page"
 msgstr "forlèt denne sida"
 
-#: r2/templates/createsubreddit.html:393
+#: r2/templates/createsubreddit.html:404
 msgid "restore default header"
 msgstr "tilbakestill hovudbilete"
 
-#: r2/templates/createsubreddit.html:416 r2/templates/flairpane.html:88
-#: r2/templates/prefoptions.html:342
+#: r2/templates/createsubreddit.html:427 r2/templates/flairpane.html:88
+#: r2/templates/prefoptions.html:345
 msgid "save options"
 msgstr "lagre vala"
-
-#: r2/templates/creddits.html:26 r2/templates/goldpayment.html:103
-msgid "creddits"
-msgstr "creddits"
 
 #: r2/templates/creddits.html:36
 msgid "How many creddits would you like to buy?"
@@ -5376,13 +5432,13 @@ msgstr "How many creddits would you like to buy?"
 
 #: r2/templates/creddits.html:42
 msgid "buy creddits"
-msgstr "buy creddits"
+msgstr "kjøp creddits"
 
-#: r2/templates/creddits.html:48 r2/templates/gilding.html:61
+#: r2/templates/creddits.html:48 r2/templates/gilding.html:60
 msgid "What are creddits?"
-msgstr "What are creddits?"
+msgstr "Hva er creddits?"
 
-#: r2/templates/creddits.html:51 r2/templates/gilding.html:62
+#: r2/templates/creddits.html:51 r2/templates/gilding.html:61
 msgid "Each creddit you have can be converted into one month of reddit gold. Stored as a balance on your account, creddits allow you to give gold without having to enter payment information."
 msgstr "Each creddit you have can be converted into one month of reddit gold. Stored as a balance on your account, creddits allow you to give gold without having to enter payment information."
 
@@ -5394,7 +5450,7 @@ msgstr "Learn more about using creddits"
 msgid "In Summation"
 msgstr "In Summation"
 
-#: r2/templates/creditgild.html:51 r2/templates/goldpayment.html:91
+#: r2/templates/creditgild.html:51 r2/templates/goldpayment.html:96
 msgid "Felicitations on this momentous occasion!"
 msgstr "Felicitations on this momentous occasion!"
 
@@ -5419,7 +5475,7 @@ msgstr "tilbakemeldinger/forslag"
 msgid "personalized"
 msgstr "Personlig tilpasset"
 
-#: r2/templates/exploreitemlisting.html:48 r2/templates/printablebuttons.html:60
+#: r2/templates/exploreitemlisting.html:48 r2/templates/printablebuttons.html:68
 msgid "nsfw"
 msgstr "nsfw"
 
@@ -5445,22 +5501,6 @@ msgstr "Robotene våre har ingen forslag for øyeblikket"
 #: r2/templates/exploreitemlisting.html:74
 msgid "try again"
 msgstr "prøv igjen"
-
-#: r2/templates/feedback.html:46 r2/templates/sharelink.html:59
-msgid "your name"
-msgstr "namnet ditt"
-
-#: r2/templates/feedback.html:53
-msgid "(only used to reply)"
-msgstr "(berre nytta for å svare)"
-
-#: r2/templates/feedback.html:53 r2/templates/prefupdate.html:68
-msgid "email"
-msgstr "epost"
-
-#: r2/templates/feedback.html:70 r2/templates/messagecompose.html:146
-msgid "send"
-msgstr "send"
 
 #: r2/templates/filteredinfobar.html:32
 #, python-format
@@ -5510,7 +5550,7 @@ msgid "prev"
 msgstr "førre"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
-#: r2/templates/promotedlinktraffic.html:92 r2/templates/promotelinknew.html:55
+#: r2/templates/promotedlinktraffic.html:92 r2/templates/promotelinknew.html:56
 #: r2/templates/spotlightlisting.html:54 r2/templates/tablelisting.html:59
 #: r2/templates/userlisting.html:114
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateutils.html:17
@@ -5654,11 +5694,11 @@ msgstr "mislik"
 msgid "unsaved"
 msgstr "ulagra"
 
-#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:204
+#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:255
 msgid "unhide"
 msgstr "vis"
 
-#: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:205
+#: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:256
 msgid "unhidden"
 msgstr "vist"
 
@@ -5688,15 +5728,23 @@ msgstr "Or by giving them gold via their userpage:"
 
 #: r2/templates/gilding.html:55
 msgid "How much does it cost?"
-msgstr "How much does it cost?"
+msgstr "Hvor mye koster det?"
 
-#: r2/templates/gilding.html:62
+#: r2/templates/gilding.html:61
 msgid "Additionally, buying creddits in bulk lowers the cost of each gilding."
 msgstr "Additionally, buying creddits in bulk lowers the cost of each gilding."
 
+#: r2/templates/gilding.html:64
+msgid "How do I use creddits?"
+msgstr "How do I use creddits?"
+
+#: r2/templates/gilding.html:65
+msgid "Your creddits are listed as a payment method on the checkout page."
+msgstr "Your creddits are listed as a payment method on the checkout page."
+
 #: r2/templates/gold.html:38
 msgid "What is reddit gold?"
-msgstr "What is reddit gold?"
+msgstr "Hva er reddit-gull?"
 
 #: r2/templates/gold.html:41
 msgid "reddit gold is our premium membership.  It upgrades your account with access to extra features and special benefits from our gold partners."
@@ -5704,28 +5752,28 @@ msgstr "reddit gold is our premium membership.  It upgrades your account with ac
 
 #: r2/templates/gold.html:43
 msgid "Learn more"
-msgstr "Learn more"
+msgstr "Lær mer"
 
-#: r2/templates/gold.html:53 r2/templates/goldpayment.html:87
+#: r2/templates/gold.html:53 r2/templates/goldpayment.html:89
 #, python-format
 msgid "Give gold often? Consider [buying creddits to use](/creddits), they're 40% cheaper if purchased in a set of 12."
 msgstr "Give gold often? Consider [buying creddits to use](/creddits), they're 40% cheaper if purchased in a set of 12."
 
 #: r2/templates/gold.html:60
 msgid "Give Gold"
-msgstr "Give Gold"
+msgstr "Gi Gull"
 
 #: r2/templates/gold.html:61
 msgid "Want to buy gold for yourself?"
-msgstr "Want to buy gold for yourself?"
+msgstr "Vil du kjøpe gull for deg selv?"
 
 #: r2/templates/gold.html:61
 msgid "You'll need to log in."
-msgstr "You'll need to log in."
+msgstr "Du må logge inn."
 
 #: r2/templates/gold.html:69
 msgid "How many months of gold would you like to give?"
-msgstr "How many months of gold would you like to give?"
+msgstr "Hvor mange måneder med gull vil du gi bort?"
 
 #: r2/templates/gold.html:81
 msgid "(We'll send a code to your email address you can then give to your recipient)"
@@ -5747,7 +5795,7 @@ msgstr "one-time purchase"
 
 #: r2/templates/gold.html:112
 msgid "ongoing subscription"
-msgstr "ongoing subscription"
+msgstr "pågående abonnement"
 
 #: r2/templates/gold.html:117
 msgid "What type of subscription would you like?"
@@ -5761,7 +5809,7 @@ msgstr "monthly - %s"
 #: r2/templates/gold.html:121
 #, python-format
 msgid "yearly - %s (%s/month)"
-msgstr "yearly - %s (%s/month)"
+msgstr "årlig - %s (%s/måned)"
 
 #: r2/templates/gold.html:126
 msgid "How many months?"
@@ -5781,11 +5829,11 @@ msgstr "receive gold as a gift code"
 
 #: r2/templates/gold.html:150
 msgid "send gold to a user"
-msgstr "send gold to a user"
+msgstr "send gull til en bruker"
 
 #: r2/templates/gold.html:155
 msgid "who should receive this gold?"
-msgstr "who should receive this gold?"
+msgstr "hvem skal motta dette gullet?"
 
 #: r2/templates/gold.html:156
 msgid "enter a username"
@@ -5793,21 +5841,22 @@ msgstr "enter a username"
 
 #: r2/templates/gold.html:169
 msgid "make my gift anonymous"
-msgstr "make my gift anonymous"
+msgstr "gjør min gave anonym"
 
 #: r2/templates/gold.html:175
 msgid "include a message"
-msgstr "include a message"
+msgstr "inkluder en melding"
 
 #: r2/templates/gold.html:179
 msgid "enter your message"
-msgstr "enter your message"
+msgstr "skriv meldingen din"
 
 #: r2/templates/gold.html:192
 msgid "purchase"
-msgstr "purchase"
+msgstr "kjøp"
 
 #: r2/templates/gold.html:198 r2/templates/listingsuggestions.html:29
+#: r2/templates/unreadmessagessuggestions.html:24
 #: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:51
 #: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:117
 msgid "or"
@@ -5833,65 +5882,69 @@ msgstr "Følgjande melding blir festa til gåva:"
 msgid "Please select a payment method."
 msgstr "Vel ei betalingsmetode."
 
-#: r2/templates/goldpayment.html:105
+#: r2/templates/goldpayment.html:91
+msgid "Would you like to [learn more about giving gold](/gilding)?"
+msgstr "Would you like to [learn more about giving gold](/gilding)?"
+
+#: r2/templates/goldpayment.html:110
 #, python-format
 msgid "(%(current)s of %(total)s remaining)"
 msgstr "(%(current)s of %(total)s remaining)"
 
-#: r2/templates/goldpayment.html:121
+#: r2/templates/goldpayment.html:126
 msgid "PayPal"
 msgstr "PayPal"
 
-#: r2/templates/goldpayment.html:127
+#: r2/templates/goldpayment.html:132
 msgid "Credit Card"
 msgstr "Kreditt-/debetkort"
 
-#: r2/templates/goldpayment.html:139
+#: r2/templates/goldpayment.html:144
 msgid "Stripe is PCI compliant and your credit card information is sent directly to them."
 msgstr "Stripe er PCI-kompatibel og kortinformasjonen din blir sendt direkte til dem."
 
-#: r2/templates/goldpayment.html:147 r2/templates/paymentform.html:112
+#: r2/templates/goldpayment.html:152 r2/templates/paymentform.html:112
 msgid "card number"
 msgstr "kortnummer"
 
-#: r2/templates/goldpayment.html:151
+#: r2/templates/goldpayment.html:156
 msgid "cvc"
 msgstr "kontrollnummer"
 
-#: r2/templates/goldpayment.html:155 r2/templates/paymentform.html:113
+#: r2/templates/goldpayment.html:160 r2/templates/paymentform.html:113
 msgid "expiration date"
 msgstr "utløpsdato"
 
-#: r2/templates/goldpayment.html:176
+#: r2/templates/goldpayment.html:181
 msgid "address line 1"
 msgstr "adresse, linje 1"
 
-#: r2/templates/goldpayment.html:180
+#: r2/templates/goldpayment.html:185
 msgid "address line 2"
 msgstr "adresse, linje 2"
 
-#: r2/templates/goldpayment.html:184 r2/templates/paymentform.html:107
+#: r2/templates/goldpayment.html:189 r2/templates/paymentform.html:107
 msgid "city"
 msgstr "by"
 
-#: r2/templates/goldpayment.html:188
+#: r2/templates/goldpayment.html:193
 msgid "state/province"
 msgstr "stat / fylke"
 
-#: r2/templates/goldpayment.html:192 r2/templates/paymentform.html:110
-#: r2/templates/promotelinkbase.html:390
+#: r2/templates/goldpayment.html:197 r2/templates/paymentform.html:110
+#: r2/templates/promotelinkbase.html:429
 msgid "country"
 msgstr "land"
 
-#: r2/templates/goldpayment.html:196 r2/templates/paymentform.html:109
+#: r2/templates/goldpayment.html:201 r2/templates/paymentform.html:109
 msgid "zip"
 msgstr "postnummer"
 
-#: r2/templates/goldpayment.html:202
+#: r2/templates/goldpayment.html:207
 msgid "Submit"
 msgstr "Send inn"
 
-#: r2/templates/goldpayment.html:225
+#: r2/templates/goldpayment.html:230
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
@@ -5949,14 +6002,6 @@ msgstr "språktrafikkstatistikk"
 #: r2/templates/languagetrafficsummary.html:30
 msgid "traffic by language"
 msgstr "trafikk etter språk"
-
-#: r2/templates/link.html:68
-msgid "Adult content: Not Safe For Work"
-msgstr "Vaksent innhald: Ikkje trygt på jobben (NSFW)"
-
-#: r2/templates/link.html:69
-msgid "NSFW"
-msgstr "NSFW"
 
 #: r2/templates/linkcommentssettings.html:27
 msgid "disable inbox replies"
@@ -6153,15 +6198,15 @@ msgstr "er det verkeleg så lett? berre ein måte å finne ut på ..."
 msgid "already have an account and just want to login?"
 msgstr "har du allereie ein konto, og vil berre logge inn?"
 
-#: r2/templates/message.html:102
+#: r2/templates/message.html:98
 msgid "expand all"
 msgstr "utvid alle"
 
-#: r2/templates/message.html:105
+#: r2/templates/message.html:101
 msgid "collapse all"
 msgstr "trekk i hop alle"
 
-#: r2/templates/message.html:123
+#: r2/templates/message.html:119
 msgid "show parent"
 msgstr "vis forelder"
 
@@ -6181,6 +6226,10 @@ msgstr "til"
 msgid "subject"
 msgstr "emne"
 
+#: r2/templates/messagecompose.html:146
+msgid "send"
+msgstr "send"
+
 #: r2/templates/modlisting.html:30 r2/templates/subredditinfobar.html:56
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatecontributorlisting.html:8
 msgid "leave"
@@ -6194,7 +6243,7 @@ msgstr "du er ikkje lenger ein moderator"
 msgid "stop being a moderator?"
 msgstr "slutte å vere moderator?"
 
-#: r2/templates/modlisting.html:44 r2/templates/printablebuttons.html:243
+#: r2/templates/modlisting.html:44 r2/templates/printablebuttons.html:294
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatecontributorlisting.html:25
 msgid "accept"
 msgstr "godta"
@@ -6221,11 +6270,11 @@ msgstr "/r/mod shows only subreddits you moderate."
 msgid "filter out subreddits"
 msgstr "filter out subreddits"
 
-#: r2/templates/morechildren.html:39
+#: r2/templates/morechildren.html:37
 msgid "load more comments"
 msgstr "last fleire innlegg"
 
-#: r2/templates/morechildren.html:40
+#: r2/templates/morechildren.html:38
 msgid "reply"
 msgid_plural "replies"
 msgstr[0] "svar"
@@ -6235,7 +6284,7 @@ msgstr[1] "svar"
 msgid "[+] load the full conversation."
 msgstr "[+] last heile samtala"
 
-#: r2/templates/morerecursion.html:29
+#: r2/templates/morerecursion.html:27
 msgid "continue this thread"
 msgstr "hald fram med den her tråden"
 
@@ -6337,8 +6386,8 @@ msgstr "føreslå tittel"
 msgid "(optional)"
 msgstr "(valfri)"
 
-#: r2/templates/newlink.html:92 r2/templates/promotelinkbase.html:98
-#: r2/templates/promotelinkbase.html:137
+#: r2/templates/newlink.html:92 r2/templates/promotelinkbase.html:100
+#: r2/templates/promotelinkbase.html:139
 msgid "text"
 msgstr "tekst"
 
@@ -6448,15 +6497,16 @@ msgid "email me"
 msgstr "send meg epost"
 
 #: r2/templates/passwordverificationform.html:38
-#: r2/templates/passwordverificationform.html:47 r2/templates/prefotp.html:38
-#: r2/templates/prefotp.html:43 r2/templates/prefotp.html:57
-#: r2/templates/prefotp.html:72 r2/templates/prefupdate.html:40
-#: r2/templates/prefupdate.html:96 r2/templates/useriphistory.html:67
+#: r2/templates/passwordverificationform.html:47 r2/templates/prefsecurity.html:50
+#: r2/templates/prefsecurity.html:74 r2/templates/prefsecurity.html:79
+#: r2/templates/prefsecurity.html:93 r2/templates/prefsecurity.html:108
+#: r2/templates/prefupdate.html:40 r2/templates/prefupdate.html:96
+#: r2/templates/useriphistory.html:67
 msgid "(required)"
 msgstr "(påkravd)"
 
-#: r2/templates/passwordverificationform.html:47 r2/templates/prefotp.html:43
-#: r2/templates/prefotp.html:72
+#: r2/templates/passwordverificationform.html:47 r2/templates/prefsecurity.html:79
+#: r2/templates/prefsecurity.html:108
 msgid "one-time password"
 msgstr "eingongs passord"
 
@@ -6685,8 +6735,9 @@ msgid "sorry to see you go!"
 msgstr "det er leit å miste deg!"
 
 #: r2/templates/prefdelete.html:37
-msgid " * if you're having a problem on reddit, please consider [contacting us](/feedback) about it before deleting your account.\n * deleting your account will not delete the content of posts and comments you've made on reddit. to do so, please delete them individually."
-msgstr "* viss du opplever eit problem på reddit, vurder å ta [kontakt med oss](/feedback) om det før du slettar kontoen din.\n* å slette kontoen din vil ikkje slette innhaldet i postane og innlegga du har skrive på reddit. for å gjera det må du slette dei enkeltvis. "
+#, python-format
+msgid " * if you're having a problem on reddit, please consider [contacting us](/message/compose?to=%2Fr%2Freddit.com) about it before deleting your account.\n * deleting your account will not delete the content of posts and comments you've made on reddit. to do so, please delete them individually."
+msgstr " * if you're having a problem on reddit, please consider [contacting us](/message/compose?to=%2Fr%2Freddit.com) about it before deleting your account.\n * deleting your account will not delete the content of posts and comments you've made on reddit. to do so, please delete them individually."
 
 #: r2/templates/prefdelete.html:46
 msgid "why are you deleting this account?"
@@ -6728,43 +6779,43 @@ msgstr "Ha i bakhovudet at desse adressene er meint å vera private, så **del p
 msgid "All feeds are invalidated if you change your password, however."
 msgstr "Merk at alle straumane vil stoppe opp viss du byter passordet ditt."
 
-#: r2/templates/preffeeds.html:57
+#: r2/templates/preffeeds.html:58
 msgid "your saved links"
 msgstr "dine lagra lenkjer"
 
-#: r2/templates/preffeeds.html:64
+#: r2/templates/preffeeds.html:65
 msgid "links you've liked"
 msgstr "lenkjer du har likt"
 
-#: r2/templates/preffeeds.html:67
+#: r2/templates/preffeeds.html:68
 msgid "links you've disliked"
 msgstr "lenkjer du har mislikt"
 
-#: r2/templates/preffeeds.html:70
+#: r2/templates/preffeeds.html:71
 msgid "links you've hidden"
 msgstr "lenkjer du har gøymt"
 
-#: r2/templates/preffeeds.html:80 r2/templates/preffeeds.html:105
+#: r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:106
 msgid "unread messages"
 msgstr "ulesne meldingar"
 
-#: r2/templates/preffeeds.html:83
+#: r2/templates/preffeeds.html:84
 msgid "messages only"
 msgstr "berre meldingar"
 
-#: r2/templates/preffeeds.html:86
+#: r2/templates/preffeeds.html:87
 msgid "comment replies only"
 msgstr "berre svar på innlegg"
 
-#: r2/templates/preffeeds.html:89
+#: r2/templates/preffeeds.html:90
 msgid "self-post replies only"
 msgstr "berre sjølvpostsvar"
 
-#: r2/templates/preffeeds.html:93
+#: r2/templates/preffeeds.html:94
 msgid "mentions of your username only"
 msgstr "kun nevninger av ditt brukernavn"
 
-#: r2/templates/preffeeds.html:112
+#: r2/templates/preffeeds.html:113
 msgid "modqueue"
 msgstr "moderatorkø"
 
@@ -6804,7 +6855,11 @@ msgstr "klikeval"
 msgid "display links with a reddit toolbar"
 msgstr "vis lenkjer med ei redditverktøylinje"
 
-#: r2/templates/prefoptions.html:121 r2/templates/promotelinkbase.html:193
+#: r2/templates/prefoptions.html:115
+msgid "(not supported when using HTTPS)"
+msgstr "(not supported when using HTTPS)"
+
+#: r2/templates/prefoptions.html:121 r2/templates/promotelinkbase.html:195
 msgid "media"
 msgstr "media"
 
@@ -7061,29 +7116,59 @@ msgstr "vi vil hugse vitjingane dine i 48 timar og vise deg kva innlegg du ikkje
 msgid "notify me when people say my username"
 msgstr "send meg et varsel når noen sier brukernavnet mitt"
 
-#: r2/templates/prefotp.html:36
-msgid "two-factor authentication is currently **enabled**. fill out the form below if you would like to disable it."
-msgstr "tofaktors identitetsstadfesting er **skrudd på**. fyll ut skjemaet nedanfor viss du vil skru det av."
+#: r2/templates/prefoptions.html:338
+#, python-format
+msgid "use a %(creddit_link)s to automatically renew my gold if it expires"
+msgstr "use a %(creddit_link)s to automatically renew my gold if it expires"
 
-#: r2/templates/prefotp.html:50
+#: r2/templates/prefsecurity.html:31
+msgid "use a secure connection (HTTPS) to communicate with reddit"
+msgstr "use a secure connection (HTTPS) to communicate with reddit"
+
+#: r2/templates/prefsecurity.html:37
+msgid "HTTPS is currently **enabled** for your account."
+msgstr "HTTPS is currently **enabled** for your account."
+
+#: r2/templates/prefsecurity.html:39
+msgid "HTTPS is currently **disabled** for your account."
+msgstr "HTTPS is currently **disabled** for your account."
+
+#: r2/templates/prefsecurity.html:42
+msgid " * enabling this preference will ensure your browser communicates with reddit over a secure channel when logged in.\n * enabling this preference will disable the \"display links with a reddit toolbar\" preference\n * some third-party apps may not support this preference\n * changing this preference *will log you out of reddit on other devices*, and will invalidate your old private RSS feeds."
+msgstr " * enabling this preference will ensure your browser communicates with reddit over a secure channel when logged in.\n * enabling this preference will disable the \"display links with a reddit toolbar\" preference\n * some third-party apps may not support this preference\n * changing this preference *will log you out of reddit on other devices*, and will invalidate your old private RSS feeds."
+
+#: r2/templates/prefsecurity.html:50 r2/templates/prefupdate.html:40
+#: r2/templates/prefupdate.html:96 r2/templates/useriphistory.html:67
+msgid "current password"
+msgstr "noverande passord"
+
+#: r2/templates/prefsecurity.html:56 r2/templates/prefsecurity.html:86
 msgid "disable"
 msgstr "skru av"
 
-#: r2/templates/prefotp.html:55
+#: r2/templates/prefsecurity.html:56 r2/templates/prefsecurity.html:114
+msgid "enable"
+msgstr "skru på"
+
+#: r2/templates/prefsecurity.html:67
+msgid "two-factor authentication"
+msgstr "tofaktors identitetsstadfesting"
+
+#: r2/templates/prefsecurity.html:72
+msgid "two-factor authentication is currently **enabled**. fill out the form below if you would like to disable it."
+msgstr "tofaktors identitetsstadfesting er **skrudd på**. fyll ut skjemaet nedanfor viss du vil skru det av."
+
+#: r2/templates/prefsecurity.html:91
 msgid "enter your current password below to start the activation process for two-factor authentication."
 msgstr "skriv inn det noverande passordet ditt nedanfor for å starte aktiveringsprosessen for tofaktors identitetsstadfesting."
 
-#: r2/templates/prefotp.html:62
+#: r2/templates/prefsecurity.html:98
 msgid "activate"
 msgstr "aktiver"
 
-#: r2/templates/prefotp.html:69
+#: r2/templates/prefsecurity.html:105
 msgid "below is your two-factor authentication secret. you can scan the QR code with Google Authenticator or enter the key below manually. you WILL NOT have another chance to see this secret."
 msgstr "nedanfor finn du løyndomen for den tofaktors identitetsstadfestinga di. du kan scanne QR-koden med Google Authenticator eller skrive inn nøkkelen under manuelt. du får INGEN fleire sjansar til å sjå løyndomen her."
-
-#: r2/templates/prefotp.html:78
-msgid "enable"
-msgstr "skru på"
 
 #: r2/templates/prefupdate.html:33
 msgid "verify your email"
@@ -7092,11 +7177,6 @@ msgstr "stadfest eposten din"
 #: r2/templates/prefupdate.html:35
 msgid "update your email"
 msgstr "oppdater eposten din"
-
-#: r2/templates/prefupdate.html:40 r2/templates/prefupdate.html:96
-#: r2/templates/useriphistory.html:67
-msgid "current password"
-msgstr "noverande passord"
 
 #: r2/templates/prefupdate.html:48
 msgid "not set"
@@ -7122,6 +7202,10 @@ msgstr "ikkje stadfesta"
 msgid "click to verify"
 msgstr "klikk for å stadfeste"
 
+#: r2/templates/prefupdate.html:68
+msgid "email"
+msgstr "epost"
+
 #: r2/templates/prefupdate.html:77
 msgid "send verification email"
 msgstr "send stadfestingsepost"
@@ -7137,7 +7221,7 @@ msgstr "nytt passord"
 #: r2/templates/printable.html:37
 #, python-format
 msgid "removed at %(time)s"
-msgstr "removed at %(time)s"
+msgstr "fjernet %(time)s"
 
 #: r2/templates/printable.html:58
 msgid "(no need to click for this info; just hover over the checkmark next time)"
@@ -7151,149 +7235,171 @@ msgstr "stem opp"
 msgid "downvote"
 msgstr "stem ned"
 
-#: r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:166
+#: r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:174
 msgid "spammed"
 msgstr "søpla"
 
-#: r2/templates/printablebuttons.html:49 r2/templates/printablebuttons.html:156
+#: r2/templates/printablebuttons.html:49 r2/templates/printablebuttons.html:164
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatereportedeventrow.html:12
 msgid "approve"
 msgstr "godkjenn"
 
-#: r2/templates/printablebuttons.html:56
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:85
+#: r2/templates/printablebuttons.html:60 r2/templates/printablebuttons.html:63
+#: r2/templates/promotelinkbase.html:462
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:91
 msgid "report"
 msgstr "rapporter"
 
-#: r2/templates/printablebuttons.html:60
+#: r2/templates/printablebuttons.html:68
 msgid "marked"
 msgstr "merkt"
 
-#: r2/templates/printablebuttons.html:63
+#: r2/templates/printablebuttons.html:71
 msgid "un-nsfw"
 msgstr "ikkje-nsfw"
 
-#: r2/templates/printablebuttons.html:63
+#: r2/templates/printablebuttons.html:71
 msgid "unmarked"
 msgstr "merkinga fjerna"
 
-#: r2/templates/printablebuttons.html:72
+#: r2/templates/printablebuttons.html:80
 msgid "retry thumb"
 msgstr "prøv miniatyr på nytt"
 
-#: r2/templates/printablebuttons.html:72
+#: r2/templates/printablebuttons.html:80
 msgid "retrying"
 msgstr "prøver på nytt"
 
-#: r2/templates/printablebuttons.html:85
+#: r2/templates/printablebuttons.html:93
 msgid "distinguishing..."
 msgstr "skil ..."
 
-#: r2/templates/printablebuttons.html:89
+#: r2/templates/printablebuttons.html:97
 msgid "distinguish this?"
 msgstr "skilje det her?"
 
-#: r2/templates/printablebuttons.html:129
+#: r2/templates/printablebuttons.html:137
 msgid "give reddit gold in appreciation of this post."
 msgstr "gi reddit gull i takknemlighet for innlegget."
 
-#: r2/templates/printablebuttons.html:131
+#: r2/templates/printablebuttons.html:139
 msgid "give gold"
 msgstr "gje gull"
 
-#: r2/templates/printablebuttons.html:154
+#: r2/templates/printablebuttons.html:162
 msgid "reapprove"
 msgstr "godkjenn på ny"
 
-#: r2/templates/printablebuttons.html:192 r2/templates/printablebuttons.html:238
-#: r2/templates/promotelinkedit.html:107 r2/templates/sharelink.html:122
+#: r2/templates/printablebuttons.html:189
+msgid "click to show report reasons"
+msgstr "click to show report reasons"
+
+#: r2/templates/printablebuttons.html:201
+msgid "moderator reports:"
+msgstr "moderator reports:"
+
+#: r2/templates/printablebuttons.html:207 r2/templates/printablebuttons.html:220
+msgid "<no reason>"
+msgstr "<no reason>"
+
+#: r2/templates/printablebuttons.html:214
+msgid "user reports:"
+msgstr "user reports:"
+
+#: r2/templates/printablebuttons.html:243 r2/templates/printablebuttons.html:289
+#: r2/templates/promotelinkedit.html:106 r2/templates/reportform.html:69
+#: r2/templates/sharelink.html:122
 msgid "cancel"
 msgstr "avbryt"
 
-#: r2/templates/printablebuttons.html:208
+#: r2/templates/printablebuttons.html:259
 msgid "hidden"
 msgstr "gøymd"
 
-#: r2/templates/printablebuttons.html:238
+#: r2/templates/printablebuttons.html:289
 msgid "reject"
 msgstr "avvis"
 
-#: r2/templates/printablebuttons.html:243
+#: r2/templates/printablebuttons.html:294
 msgid "accepted"
 msgstr "godteke"
 
-#: r2/templates/printablebuttons.html:249
+#: r2/templates/printablebuttons.html:300
 msgid "traffic"
 msgstr "trafikk"
 
-#: r2/templates/printablebuttons.html:270 r2/templates/printablebuttons.html:336
+#: r2/templates/printablebuttons.html:324 r2/templates/printablebuttons.html:399
 msgid "permalink"
 msgstr "permalenk"
 
-#: r2/templates/printablebuttons.html:285 r2/templates/printablebuttons.html:332
-#: r2/templates/starkcomment.html:34
+#: r2/templates/printablebuttons.html:340 r2/templates/printablebuttons.html:395
+#: r2/templates/starkcomment.html:31
 msgid "context"
 msgstr "samanheng"
 
-#: r2/templates/printablebuttons.html:289
+#: r2/templates/printablebuttons.html:344
 msgid "full comments"
 msgstr "heile innlegg"
 
-#: r2/templates/printablebuttons.html:298
+#: r2/templates/printablebuttons.html:354
 msgid "parent"
 msgstr "forelder"
 
-#: r2/templates/printablebuttons.html:312 r2/templates/printablebuttons.html:354
+#: r2/templates/printablebuttons.html:370 r2/templates/printablebuttons.html:417
 msgid "reply {verb}"
 msgstr "svar"
 
-#: r2/templates/printablebuttons.html:343
+#: r2/templates/printablebuttons.html:406
 msgid "block user"
 msgstr "blokker brukar"
 
-#: r2/templates/printablebuttons.html:347
+#: r2/templates/printablebuttons.html:410
 msgid "mark unread"
 msgstr "merk som ulesen"
 
-#: r2/templates/printablebuttons.html:517
+#: r2/templates/printablebuttons.html:580
 msgid "toggle"
 msgstr "veksle"
 
-#: r2/templates/profilebar.html:52
+#: r2/templates/profilebar.html:35
 #: ../../reddit-plugin-meatspace/reddit_meatspace/templates/qrcodeconnections.html:11
 msgid "+ friends"
 msgstr "+ vener"
 
-#: r2/templates/profilebar.html:52
+#: r2/templates/profilebar.html:35
 #: ../../reddit-plugin-meatspace/reddit_meatspace/templates/qrcodeconnections.html:11
 msgid "- friends"
 msgstr "- vener"
 
-#: r2/templates/profilebar.html:62 r2/templates/redditheader.html:81
+#: r2/templates/profilebar.html:45 r2/templates/redditheader.html:82
 msgid "link karma"
 msgstr "lenkjekarma"
 
-#: r2/templates/profilebar.html:67
+#: r2/templates/profilebar.html:50
 msgid "comment karma"
 msgstr "innleggskarma"
 
-#: r2/templates/profilebar.html:125
+#: r2/templates/profilebar.html:70
+msgid "really obscure karma from before it was cool to track per-subreddit"
+msgstr "skikkeleg obskur karma frå før det var kult å merkje det etter subreddit"
+
+#: r2/templates/profilebar.html:99
 msgid "of reddit gold remaining"
 msgstr "med redditgull står att"
 
-#: r2/templates/profilebar.html:133
+#: r2/templates/profilebar.html:107
 msgid "Recurring Paypal subscription"
 msgstr "sjølvfornyande Paypal-tinging"
 
-#: r2/templates/profilebar.html:143
+#: r2/templates/profilebar.html:117
 msgid "manage recurring subscription"
 msgstr "behandle løpende abonnement"
 
-#: r2/templates/profilebar.html:168 r2/templates/usertableitem.html:43
+#: r2/templates/profilebar.html:142 r2/templates/usertableitem.html:46
 msgid "send message"
 msgstr "send melding"
 
-#: r2/templates/profilebar.html:172
+#: r2/templates/profilebar.html:146
 msgid "redditor for"
 msgstr "redditor i"
 
@@ -7353,26 +7459,26 @@ msgstr "summane er førebels inntil eit døgn etter fremjinga slutta"
 msgid "Campaigns created before September 12, 2012 don't have traffic data"
 msgstr "Kampanjer opprettet før 12. september, 2012 er ikke inkludert"
 
-#: r2/templates/promotedlinktraffic.html:112 r2/templates/promotelinkbase.html:239
-#: r2/templates/promotelinkedit.html:145
+#: r2/templates/promotedlinktraffic.html:112 r2/templates/promotelinkbase.html:244
+#: r2/templates/promotelinkedit.html:144
 msgid "start"
 msgstr "start"
 
-#: r2/templates/promotedlinktraffic.html:113 r2/templates/promotelinkbase.html:252
-#: r2/templates/promotelinkedit.html:146
+#: r2/templates/promotedlinktraffic.html:113 r2/templates/promotelinkbase.html:257
+#: r2/templates/promotelinkedit.html:145
 msgid "end"
 msgstr "slutt"
 
-#: r2/templates/promotedlinktraffic.html:115 r2/templates/promotelinkedit.html:154
+#: r2/templates/promotedlinktraffic.html:115 r2/templates/promotelinkedit.html:153
 msgid "location"
 msgstr "plassering"
 
-#: r2/templates/promotedlinktraffic.html:116 r2/templates/promotelinkbase.html:306
-#: r2/templates/promotelinkedit.html:151 r2/templates/refundpage.html:57
+#: r2/templates/promotedlinktraffic.html:116 r2/templates/promotelinkbase.html:311
+#: r2/templates/promotelinkedit.html:150 r2/templates/refundpage.html:57
 msgid "budget"
 msgstr "budsjett"
 
-#: r2/templates/promotedlinktraffic.html:117 r2/templates/promotelinkedit.html:152
+#: r2/templates/promotedlinktraffic.html:117 r2/templates/promotelinkedit.html:151
 msgid "spent"
 msgstr "brukt"
 
@@ -7396,132 +7502,160 @@ msgstr "detalj"
 msgid "csv"
 msgstr "CSV"
 
-#: r2/templates/promotelinkbase.html:74
+#: r2/templates/promotelinkbase.html:76
 msgid "A good title is important to the success of your campaign. reddit users are an intelligent, thoughtful group, and reward those who engage them."
 msgstr "En god tittel er viktig for din kampanjes grad av suksess. reddit-brukere er en intelligent, tankefull gruppe, og belønner de som engasjerer dem."
 
-#: r2/templates/promotelinkbase.html:80
+#: r2/templates/promotelinkbase.html:82
 msgid "post type"
 msgstr "posttype"
 
-#: r2/templates/promotelinkbase.html:89
+#: r2/templates/promotelinkbase.html:91
 msgid "clicks through to your URL"
 msgstr "clicks through to your URL"
 
-#: r2/templates/promotelinkbase.html:99
+#: r2/templates/promotelinkbase.html:101
 msgid "clicks through to text you customize"
 msgstr "clicks through to text you customize"
 
-#: r2/templates/promotelinkbase.html:116
+#: r2/templates/promotelinkbase.html:118
 msgid "Provide the URL of your ad. No redirects please!"
 msgstr "Oppgi nettaddressen for annonsen din. Ingen videresending, takk!"
 
-#: r2/templates/promotelinkbase.html:120
+#: r2/templates/promotelinkbase.html:122
 msgid "Override display domain:"
 msgstr "Overstyr domenet som vises:"
 
-#: r2/templates/promotelinkbase.html:130
-msgid "Choose a different domain name to display on the site (the small grey text next to a link"
-msgstr "Velg ett annet domenenavn som skal vises på siden (den lille grå teksten ved siden av en lenke"
+#: r2/templates/promotelinkbase.html:132
+msgid "Choose a different domain name to display on the site (the small grey text next to a link)"
+msgstr "Choose a different domain name to display on the site (the small grey text next to a link)"
 
-#: r2/templates/promotelinkbase.html:145
+#: r2/templates/promotelinkbase.html:147
 msgid "thumbnail"
-msgstr "thumbnail"
+msgstr "miniatyrbilde"
 
-#: r2/templates/promotelinkbase.html:148
+#: r2/templates/promotelinkbase.html:150
 msgid "images will be resized if larger than 70 x 70 pixels"
 msgstr "bilder vil bli skalert om de er større en 70 x 70 piksler"
 
-#: r2/templates/promotelinkbase.html:151
+#: r2/templates/promotelinkbase.html:153
 msgid "upload header image:"
 msgstr "last opp header-bilete"
 
-#: r2/templates/promotelinkbase.html:178
+#: r2/templates/promotelinkbase.html:180
 msgid "disable comments"
 msgstr "skru av innlegg"
 
-#: r2/templates/promotelinkbase.html:182
+#: r2/templates/promotelinkbase.html:184
 msgid "send comments on my ad to my inbox"
 msgstr "send kommentarer på min reklame til min innboks"
 
-#: r2/templates/promotelinkbase.html:187
+#: r2/templates/promotelinkbase.html:189
 msgid "Comments are a great way to get feedback from customers, and the reddit community is known for being vocal in comment threads."
 msgstr "Kommentarer er en superb måte for å få tilbakemeldinger fra kunder, og reddit-samfunnet er kjent for å være vokale i kommentartråder."
 
-#: r2/templates/promotelinkbase.html:202
-msgid "width"
-msgstr "vidd"
+#: r2/templates/promotelinkbase.html:205
+msgid "autoplay"
+msgstr "autoplay"
 
-#: r2/templates/promotelinkbase.html:211
-msgid "height"
-msgstr "høgd"
-
-#: r2/templates/promotelinkbase.html:223
+#: r2/templates/promotelinkbase.html:209
 msgid "media override (adds an onclick to the link to generate a drop-down rather than a link out)"
 msgstr "media-overstyring (legger til onclick på lenken for å generere en rullegardinmeny i stedet for en lenke ut)"
 
-#: r2/templates/promotelinkbase.html:232
+#: r2/templates/promotelinkbase.html:221
+msgid "managed promotion"
+msgstr "managed promotion"
+
+#: r2/templates/promotelinkbase.html:224
+msgid "Managed promotions don't appear in the selfserve approval queues."
+msgstr "Managed promotions don't appear in the selfserve approval queues."
+
+#: r2/templates/promotelinkbase.html:231
 msgid "timing"
 msgstr "timing"
 
-#: r2/templates/promotelinkbase.html:262 r2/templates/promotelinkedit.html:147
+#: r2/templates/promotelinkbase.html:267 r2/templates/promotelinkedit.html:146
 msgid "duration"
 msgstr "varighet"
 
-#: r2/templates/promotelinkbase.html:295 r2/templates/promotelinkedit.html:149
+#: r2/templates/promotelinkbase.html:300 r2/templates/promotelinkedit.html:148
 msgid "priority"
 msgstr "prioritet"
 
-#: r2/templates/promotelinkbase.html:309
+#: r2/templates/promotelinkbase.html:314
 msgid "total budget"
 msgstr "totalt budsjett"
 
-#: r2/templates/promotelinkbase.html:323
+#: r2/templates/promotelinkbase.html:328
 #, python-format
 msgid "%(minimum)s minimum"
 msgstr "%(minimum)s minimum"
 
-#: r2/templates/promotelinkbase.html:334
+#: r2/templates/promotelinkbase.html:339
 msgid "price"
 msgstr "pris"
 
-#: r2/templates/promotelinkbase.html:342
+#: r2/templates/promotelinkbase.html:347
 msgid "if you modify the budget of this paid campaign you will need to reauthorize payment by clicking the \"pay\" button"
 msgstr "hvis du endrer budsjettet av denne betalte kampanjen trenger du å autorisere betaling på nytt med å trykke på \"betal\"-knappen"
 
-#: r2/templates/promotelinkbase.html:351 r2/templates/promotelinkedit.html:153
+#: r2/templates/promotelinkbase.html:356 r2/templates/promotelinkedit.html:152
 msgid "targeting"
 msgstr "målretter"
 
-#: r2/templates/promotelinkbase.html:362
-msgid "displayed on the home page to anyone"
-msgstr "displayed on the home page to anyone"
+#: r2/templates/promotelinkbase.html:369
+msgid "interests"
+msgstr "interests"
 
 #: r2/templates/promotelinkbase.html:370
-msgid "targeted"
-msgstr "targeted"
+msgid "targets a collection of similar subreddits"
+msgstr "targets a collection of similar subreddits"
 
-#: r2/templates/promotelinkbase.html:371
+#: r2/templates/promotelinkbase.html:383
 msgid "targets a subreddit and its subscribers"
 msgstr "targets a subreddit and its subscribers"
 
-#: r2/templates/promotelinkbase.html:386
+#: r2/templates/promotelinkbase.html:393
+msgid "interest audience group"
+msgstr "interest audience group"
+
+#: r2/templates/promotelinkbase.html:402
+msgid "subreddits included on the frontpage are based on users' subscriptions"
+msgstr "subreddits included on the frontpage are based on users' subscriptions"
+
+#: r2/templates/promotelinkbase.html:405
+msgid "includes these subreddits"
+msgstr "includes these subreddits"
+
+#: r2/templates/promotelinkbase.html:406
+msgid "and more!"
+msgstr "and more!"
+
+#: r2/templates/promotelinkbase.html:425
 msgid "location targeting is only available when targeting the frontpage"
 msgstr "geografisk målretting er bare tilgjengelig når du er rettet mot forsiden"
 
-#: r2/templates/promotelinkbase.html:399
+#: r2/templates/promotelinkbase.html:438
 msgid "region"
 msgstr "region"
 
-#: r2/templates/promotelinkbase.html:402
+#: r2/templates/promotelinkbase.html:441
 msgid "metro"
 msgstr "metro"
 
-#: r2/templates/promotelinkbase.html:414
+#: r2/templates/promotelinkbase.html:450
+msgid "subreddit targeting"
+msgstr "subreddit targeting"
+
+#: r2/templates/promotelinkbase.html:464
+msgid "link ids"
+msgstr "link ids"
+
+#: r2/templates/promotelinkbase.html:479
 msgid "bidding history"
 msgstr "bodhistorikk"
 
-#: r2/templates/promotelinkbase.html:444
+#: r2/templates/promotelinkbase.html:509
 msgid "promotion history"
 msgstr "fremjingshistorikk"
 
@@ -7533,47 +7667,47 @@ msgstr "creative dashboard"
 msgid "campaign dashboard"
 msgstr "kampanjedashbord"
 
-#: r2/templates/promotelinkedit.html:55
+#: r2/templates/promotelinkedit.html:53
 msgid "You don't have any campaigns for this link yet.  You should add one."
 msgstr "Du har ingen kampanjer for denne lenken ennå. Du burde legge en til."
 
-#: r2/templates/promotelinkedit.html:58
+#: r2/templates/promotelinkedit.html:56
 msgid "click to create a new campaign.  To edit an existing campaign in the table below, click the 'edit' button."
 msgstr "klikk for å opprette en ny kampanje. For å redigere en eksisterende kampanje i tabellen nedenfor, klikk på «rediger»-knappen"
 
-#: r2/templates/promotelinkedit.html:78
+#: r2/templates/promotelinkedit.html:76
 msgid "admin dashboard"
 msgstr "admin dashboard"
 
-#: r2/templates/promotelinkedit.html:126
+#: r2/templates/promotelinkedit.html:125
 msgid "Date when your sponsored link will start running.  We start new campaigns at midnight UTC+5"
 msgstr "Datoen for når din sponsede lenke vil starte. Vi starter nye kampanjer ved midnatt i UTC+5."
 
-#: r2/templates/promotelinkedit.html:127
+#: r2/templates/promotelinkedit.html:126
 msgid "Date when your sponsored link will end (at midnight UTC+5)"
 msgstr "Dato for når din sponsede lenke vil utløpe (ved midnatt, UTC+5)"
 
-#: r2/templates/promotelinkedit.html:128
+#: r2/templates/promotelinkedit.html:127
 msgid "name of the community that you are targeting. A blank entry here means that the ad is untargeted and will run site-wide "
 msgstr "navnet til samfunnet du har spesifisert. Ett blankt felt her indikerer at annonsen ikke er målrettet til et spesifikt samfunn, men til alle."
 
-#: r2/templates/promotelinkedit.html:136
+#: r2/templates/promotelinkedit.html:135
 msgid "You have too many campaigns for this link."
 msgstr "to har alt for mange kampanjar på den her lenkja."
 
-#: r2/templates/promotelinkedit.html:137
+#: r2/templates/promotelinkedit.html:136
 msgid "It's time to start fresh!"
 msgstr "På tide å starte med blanke ark!"
 
-#: r2/templates/promotelinknew.html:65
+#: r2/templates/promotelinknew.html:66
 msgid "create as user"
 msgstr "opprett som bruker"
 
-#: r2/templates/promotelinknew.html:72
+#: r2/templates/promotelinknew.html:73
 msgid "Create a promotion on another user's account."
 msgstr "Opprett en promotering på en annen brukers konto."
 
-#: r2/templates/reddit.html:160 r2/templates/reddit.html:171
+#: r2/templates/reddit.html:170 r2/templates/reddit.html:181
 msgid "close this window"
 msgstr "lukk det her vindauget"
 
@@ -7595,16 +7729,24 @@ msgstr "Privacy Policy {Genitive}"
 msgid "%(year)d reddit inc. All rights reserved."
 msgstr "%(year)d reddit inc. Alle rettar atterhaldne"
 
-#: r2/templates/redditheader.html:34
+#: r2/templates/redditheader.html:35
 msgid "jump to content"
 msgstr "hopp til innhaldet"
 
-#: r2/templates/redditheader.html:73
+#: r2/templates/redditheader.html:74
 #, python-format
 msgid "want to join? %(login_or_register)s in seconds"
 msgstr "vil du bli med? %(login_or_register)s på få sekund"
 
-#: r2/templates/redditheader.html:111
+#: r2/templates/redditheader.html:89
+msgid "new mail!"
+msgstr "new mail!"
+
+#: r2/templates/redditheader.html:94
+msgid "no new mail"
+msgstr "no new mail"
+
+#: r2/templates/redditheader.html:108
 msgid "mod messages"
 msgstr "mod-meldingar"
 
@@ -7666,7 +7808,7 @@ msgid "pay"
 msgstr "betal"
 
 #: r2/templates/renderablecampaign.html:86 r2/templates/subredditinfobar.html:49
-#: r2/templates/userlisting.html:64 r2/templates/usertableitem.html:77
+#: r2/templates/userlisting.html:64 r2/templates/usertableitem.html:80
 msgid "change"
 msgstr "endre"
 
@@ -7690,13 +7832,34 @@ msgstr "vis live"
 msgid "terminate"
 msgstr "avslutt"
 
-#: r2/templates/roadblocks.html:36
-msgid "create a roadblock"
-msgstr "opprett ei vegsperring"
+#: r2/templates/reportform.html:28
+msgid "why are you reporting this?"
+msgstr "why are you reporting this?"
 
-#: r2/templates/roadblocks.html:90
-msgid "existing roadblocks"
-msgstr "noverande vegsperringar"
+#: r2/templates/reportform.html:38
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:223
+msgid "vote manipulation"
+msgstr "stemmemanipulasjon"
+
+#: r2/templates/reportform.html:43
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:224
+msgid "personal information"
+msgstr "personlig informasjon"
+
+#: r2/templates/reportform.html:48
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:225
+msgid "sexualizing minors"
+msgstr "seksualisering av mindreårige"
+
+#: r2/templates/reportform.html:53
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:226
+msgid "breaking reddit"
+msgstr "forringe reddit"
+
+#: r2/templates/reportform.html:59
+#, python-format
+msgid "other (max %(num)s characters):"
+msgstr "other (max %(num)s characters):"
 
 #: r2/templates/rulespage.html:111
 msgid "here at reddit, we inscribe our rules on a brick. screw tablets."
@@ -7791,6 +7954,10 @@ msgstr "send den her lenkja til"
 #: r2/templates/sharelink.html:40
 msgid "(list of emails or usernames)"
 msgstr "(liste over epostar eller brukarnamn)"
+
+#: r2/templates/sharelink.html:59
+msgid "your name"
+msgstr "namnet ditt"
 
 #: r2/templates/sharelink.html:77
 msgid "your email"
@@ -8048,6 +8215,14 @@ msgstr "støv"
 msgid "%d more"
 msgstr "%d meir"
 
+#: r2/templates/unreadmessagessuggestions.html:26
+msgid "mark all as read"
+msgstr "mark all as read"
+
+#: r2/templates/unreadmessagessuggestions.html:27
+msgid "(this may take a while)"
+msgstr "(this may take a while)"
+
 #: r2/templates/userawards.html:39
 msgid "Ongoing awards, and their most recent winners:"
 msgstr "Pågåande utmerkingar og dei siste vinnarane:"
@@ -8128,20 +8303,20 @@ msgstr "hopp til"
 msgid "show all"
 msgstr "vis alle"
 
-#: r2/templates/usertableitem.html:55
+#: r2/templates/usertableitem.html:58
 msgid "can't remove"
 msgstr "kan ikkje fjerne"
 
-#: r2/templates/usertableitem.html:81
+#: r2/templates/usertableitem.html:84
 #, python-format
 msgid "%(time)s days left"
 msgstr "%(time)s dager igjen"
 
-#: r2/templates/usertableitem.html:82
+#: r2/templates/usertableitem.html:85
 msgid "make permanent"
 msgstr "omgjør til permanent"
 
-#: r2/templates/usertableitem.html:82
+#: r2/templates/usertableitem.html:85
 msgid "made permanent"
 msgstr "omgjort til permanent"
 
@@ -8198,6 +8373,14 @@ msgstr "lastar opp"
 #: r2/templates/utils.html:551
 msgid "last edited"
 msgstr "sist endra"
+
+#: r2/templates/utils.html:570
+msgid "Adult content: Not Safe For Work"
+msgstr "Vaksent innhald: Ikkje trygt på jobben (NSFW)"
+
+#: r2/templates/utils.html:571
+msgid "NSFW"
+msgstr "NSFW"
 
 #: r2/templates/welcomebar.html:27
 msgid "learn more"
@@ -8386,7 +8569,7 @@ msgid "done"
 msgstr "ferdig"
 
 #: r2/templates/wikipagesettings.html:83
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:4
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:7
 msgid "save settings"
 msgstr "lagre innstillingane"
 
@@ -8638,82 +8821,79 @@ msgstr "det er for mange utestående invitasjoner"
 msgid "that user is already a contributor"
 msgstr "den brukeren er allerede en bidragsyter"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/__init__.py:179
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/__init__.py:186
 msgid "Manage live threads"
 msgstr "Manage live threads"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/__init__.py:181
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/__init__.py:188
 msgid "Manage settings and contributors of live threads I contribute to."
 msgstr "Manage settings and contributors of live threads I contribute to."
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:236
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:238
 msgid "this thread has been banned"
 msgstr "this thread has been banned"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:862
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:51
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatehome.html:1
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:923
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:56
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatehome.html:3
 msgid "reddit live"
 msgstr "reddit live"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:885
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:946
 msgid "live threads"
 msgstr "livestrømmer"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:888
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:949
 msgid "closed threads"
 msgstr "stengte tråder"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:894
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:952
+msgid "most active threads"
+msgstr "most active threads"
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:958
 msgid "reported threads"
 msgstr "raporterte tråder"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:923
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/controllers.py:988
 msgid "create live thread"
 msgstr "create live thread"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:59
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:60
+msgid "active"
+msgstr "active"
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:68
 msgid "closed"
 msgstr "stengt"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:94
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:103
 msgid "[live]"
 msgstr "[live]"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:109
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:118
 msgid "updates"
 msgstr "oppdateringer"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:122
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:131
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatereportedeventrow.html:5
 msgid "contributors"
 msgstr "bidragsytere"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:176
-msgid "vote manipulation"
-msgstr "stemmemanipulasjon"
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:147
+#, python-format
+msgid "real-time updates on %(short_description)s"
+msgstr "real-time updates on %(short_description)s"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:177
-msgid "personal information"
-msgstr "personlig informasjon"
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:178
-msgid "sexualizing minors"
-msgstr "seksualisering av mindreårige"
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:179
-msgid "breaking reddit"
-msgstr "forringe reddit"
-
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:286
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:337
 msgid "invite contributor"
 msgstr "inviter bidragsyter"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:290
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:341
 msgid "invited contributors"
 msgstr "inviterte bidragsytere"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:304
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/pages.py:355
 msgid "current contributors"
 msgstr "nåværende bidragsytere"
 
@@ -8749,7 +8929,13 @@ msgstr "close live thread"
 msgid "permanently close the live thread"
 msgstr "permanently close the live thread"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/init.js:111
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/event.js:32
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:47
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:8
+msgid "resources"
+msgstr "resources"
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/init.js:115
 msgid "popup notifications"
 msgstr "popup-notifikasjoner"
 
@@ -8757,15 +8943,15 @@ msgstr "popup-notifikasjoner"
 msgid "strike"
 msgstr "stryk"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:189
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:191
 msgid "striking…"
 msgstr "stryker…"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:192
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:194
 msgid "stricken"
 msgstr "strøket"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:198
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:200
 msgid "deleting…"
 msgstr "sletter…"
 
@@ -8774,7 +8960,7 @@ msgid "submitting report…"
 msgstr "sender rapport…"
 
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/report.js:60
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:89
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:95
 #, python-format
 msgid "you reported this live thread for: %(violation)s"
 msgstr "you reported this live thread for: %(violation)s"
@@ -8808,7 +8994,7 @@ msgstr[0] "frakoblet. prøver igjen om %(delay)s sekund..."
 msgstr[1] "frakoblet. prøver igjen om %(delay)s sekunder..."
 
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/public/static/js/liveupdate/statusBar.js:120
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:12
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateevent.html:18
 #, python-format
 msgid "%(num)s viewer"
 msgid_plural "%(num)s viewers"
@@ -8857,74 +9043,95 @@ msgstr "frakoblet"
 msgid "make update"
 msgstr "lag oppdatering"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:45
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:51
 msgid "comment threads on reddit linking to this page"
 msgstr "comment threads on reddit linking to this page"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:50
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:56
 msgid "updated by"
 msgstr "oppdatert av"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:59
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:65
 #, python-format
 msgid "&hellip; and %(count)s more &raquo;"
 msgstr "&hellip; og %(count)s flere &raquo;"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:67
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:73
 msgid "unban"
 msgstr "fjern utestengelse"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:68
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:74
 #, python-format
 msgid "banned by: %(user)s"
 msgstr "utelukket av: %(user)s"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:70
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:76
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatereportedeventrow.html:13
 msgid "ban"
 msgstr "Verb: utestengt"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:73
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:79
 msgid "report a rule violation"
 msgstr "raporter et regelbrudd"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:76
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:82
 #, python-format
 msgid "uh oh! how does this live thread break %(reddits_rules)s?"
 msgstr "uh oh! how does this live thread break %(reddits_rules)s?"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:77
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:83
 msgid "reddit's rules"
 msgstr "reddits regler"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:86
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:92
 msgid "oops, never mind"
 msgstr "Whoops, glem det"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:7
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:8
+msgid "information and links that are useful at any point"
+msgstr "information and links that are useful at any point"
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:26
 msgid "close the live thread"
 msgstr "close the live thread"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:8
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:27
 msgid "this will mark the thread as complete and prevent further updates from being added. it cannot be undone."
 msgstr "this will mark the thread as complete and prevent further updates from being added. it cannot be undone."
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:10
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:29
 msgid "close thread permanently"
 msgstr "close thread permanently"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatehome.html:3
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatefocusapp.html:6
+#, python-format
+msgid "below is a single update from a live thread. [see the rest of the thread](/live/%(event_id)s)."
+msgstr "below is a single update from a live thread. [see the rest of the thread](/live/%(event_id)s)."
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatehome.html:5
+msgid "follow live events as they happen"
+msgstr "follow live events as they happen"
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatehome.html:7
 msgid "make a new live thread"
 msgstr "make a new live thread"
 
-#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatehome.html:5
-msgid "or check out /r/live for more info"
-msgstr "or check out /r/live for more info"
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatehome.html:9
+msgid "[read the FAQ](/r/live/wiki/index) or [check out /r/live for more info](/r/live)"
+msgstr "[read the FAQ](/r/live/wiki/index) or [check out /r/live for more info](/r/live)"
 
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateinvitedcontributorlisting.html:6
 msgid "invite"
 msgstr "Noun: invitasjon\n"
 "Verb: inviter"
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatensfwembed.html:8
+msgid "this thread is NSFW"
+msgstr "this thread is NSFW"
+
+#: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdatensfwembed.html:10
+msgid "visit the thread directly to see its content"
+msgstr "visit the thread directly to see its content"
 
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateotherdiscussions.html:15
 msgid "see more"
@@ -8935,8 +9142,8 @@ msgid "no discussions yet. [start one]({url})"
 msgstr "ingen diskusjoner enda [start en]({url})"
 
 #: ../../reddit-plugin-liveupdate/reddit_liveupdate/templates/liveupdateutils.html:31
-msgid "information and resources that are useful at any point"
-msgstr "informasjon og resurser som er nyttige når som helst"
+msgid "one or two sentences (120 characters) saying what this thread is about"
+msgstr "one or two sentences (120 characters) saying what this thread is about"
 
 #: ../../reddit-plugin-betamode/reddit_betamode/betamode.py:198
 msgid "disabling beta"
@@ -8973,29 +9180,17 @@ msgstr "du kan slå av betaen på hvilket som helst tidspunkt ved å velge «sl�
 msgid "we'd love to hear your feedback on this beta at [%(feedback_title)s](%(feedback_url)s)."
 msgstr "vi setter stor pris på tilbakemeldingene dine, spesielt rundt denne betaen på [%(feedback_title)s](%(feedback_url)s)."
 
-#: ../../reddit-plugin-gold/reddit_gold/controllers.py:34
+#: ../../reddit-plugin-gold/reddit_gold/controllers.py:20
 msgid "gold"
 msgstr "gull"
 
-#: ../../reddit-plugin-gold/reddit_gold/controllers.py:37
+#: ../../reddit-plugin-gold/reddit_gold/controllers.py:23
 msgid "gold partners"
 msgstr "gullpartnere"
 
-#: ../../reddit-plugin-gold/reddit_gold/controllers.py:44
-msgid "gold app beta"
-msgstr "gold app beta"
-
-#: ../../reddit-plugin-gold/reddit_gold/controllers.py:58
+#: ../../reddit-plugin-gold/reddit_gold/controllers.py:37
 msgid "sorry, we're out of codes!"
 msgstr "beklager, vi er tom for koder!"
-
-#: ../../reddit-plugin-gold/reddit_gold/templates/goldappbetapage.html:22
-msgid "Android"
-msgstr "Android"
-
-#: ../../reddit-plugin-gold/reddit_gold/templates/goldappbetapage.html:23
-msgid "iOS"
-msgstr "iOS"
 
 #: ../../reddit-plugin-gold/reddit_gold/templates/goldinfopage.html:25
 msgid "New!"
