@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-10-12 23:07+0000\n"
-"PO-Revision-Date: 2016-10-12 19:36-0400\n"
+"POT-Creation-Date: 2016-11-10 20:54+0000\n"
+"PO-Revision-Date: 2016-11-10 16:00-0500\n"
 "Last-Translator: reddit <ricky@reddit.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "無効な色です"
 msgid "unknown or missing dressings"
 msgstr "着衣がみあたりません"
 
-#: ../../gold/reddit_gold/controllers.py:40 r2/models/subreddit.py:331
+#: ../../gold/reddit_gold/controllers.py:40 r2/models/subreddit.py:332
 msgid "gold"
 msgstr "金"
 
@@ -163,11 +163,11 @@ msgstr "Snooを公開する"
 
 #: ../../gold/reddit_gold/templates/snoovatar.html:57
 msgid "main color"
-msgstr ""
+msgstr "メインカラー"
 
 #: ../../gold/reddit_gold/templates/snoovatar.html:64
 msgid "alt color"
-msgstr ""
+msgstr "代替カラー"
 
 #: ../../gold/reddit_gold/templates/snoovatar.html:68
 msgid "save changes"
@@ -249,11 +249,11 @@ msgstr "チーム"
 msgid "alien"
 msgstr "エイリアン"
 
-#: ../../about/reddit_about/pages.py:64 r2/lib/menus.py:531
+#: ../../about/reddit_about/pages.py:64 r2/lib/menus.py:534
 msgid "sorted by"
 msgstr "並べ替え"
 
-#: ../../about/reddit_about/pages.py:86 r2/lib/menus.py:169
+#: ../../about/reddit_about/pages.py:86 r2/lib/menus.py:172
 msgid "overview"
 msgstr "概要"
 
@@ -278,17 +278,17 @@ msgid "manage ads"
 msgstr "広告を管理する"
 
 #: ../../about/reddit_about/public/static/js/advertising/advertising.js:21
-#: r2/templates/accountrecovery.html:31 r2/templates/login.html:102
-#: r2/templates/login.html:106 r2/templates/newsletter.html:55
+#: r2/templates/accountrecovery.html:31 r2/templates/login.html:101
+#: r2/templates/login.html:105 r2/templates/newsletter.html:55
 #: r2/templates/newsletterbar.html:40 r2/templates/prefupdate.html:46
 #: r2/templates/prefupdate.html:63 r2/templates/prefupdate.html:114
-#: r2/templates/register.html:102 r2/templates/register.html:106
+#: r2/templates/register.html:101 r2/templates/register.html:105
 msgid "email"
 msgstr "メール"
 
 #: ../../about/reddit_about/templates/about.html:43
 #: ../../about/reddit_about/templates/about.html:69
-#: r2/controllers/listingcontroller.py:881
+#: r2/controllers/listingcontroller.py:933
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "%(user)s 人の投稿"
@@ -397,171 +397,171 @@ msgstr "使えるカラーについて"
 msgid "invalid site path/name"
 msgstr ""
 
-#: r2/controllers/api.py:228 r2/controllers/api.py:254 r2/controllers/api.py:4641
-#: r2/controllers/api.py:4711 r2/controllers/listingcontroller.py:796
+#: r2/controllers/api.py:200 r2/controllers/api.py:226 r2/controllers/api.py:4662
+#: r2/controllers/api.py:4732 r2/controllers/listingcontroller.py:848
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:453
+#: r2/controllers/api.py:423
 msgid "your message has been delivered"
 msgstr "メッセージを送りました"
 
-#: r2/controllers/api.py:732
+#: r2/controllers/api.py:702
 msgid "no title found"
 msgstr "タイトルが見つかりませんでした"
 
-#: r2/controllers/api.py:1327 r2/controllers/api.py:2667 r2/controllers/api.py:3007
-#: r2/controllers/api.py:3358 r2/controllers/api.py:4433 r2/controllers/api.py:4489
-#: r2/controllers/api.py:4543 r2/controllers/api.py:4776 r2/controllers/api.py:4781
-#: r2/controllers/api.py:5025 r2/controllers/api.py:5063 r2/controllers/api.py:5081
-#: r2/lib/pages/pages.py:6189 ../../liveupdate/reddit_liveupdate/controllers.py:486
+#: r2/controllers/api.py:1318 r2/controllers/api.py:2685 r2/controllers/api.py:3025
+#: r2/controllers/api.py:3379 r2/controllers/api.py:4454 r2/controllers/api.py:4510
+#: r2/controllers/api.py:4564 r2/controllers/api.py:4797 r2/controllers/api.py:4802
+#: r2/controllers/api.py:5046 r2/controllers/api.py:5084 r2/controllers/api.py:5102
+#: r2/lib/pages/pages.py:6337 ../../liveupdate/reddit_liveupdate/controllers.py:481
 msgid "saved"
 msgstr "保存済み"
 
-#: r2/controllers/api.py:1397
+#: r2/controllers/api.py:1388
 msgid "all other sessions have been logged out"
 msgstr "他のセッションをすべてログアウトしました"
 
-#: r2/controllers/api.py:1502
+#: r2/controllers/api.py:1496
 msgid "an email will be sent to the email address shortly"
-msgstr ""
+msgstr "間もなくメールアドレスにメールが送信されます。"
 
-#: r2/controllers/api.py:1506
+#: r2/controllers/api.py:1500
 msgid "email address added, try again tomorrow to reset your password"
-msgstr ""
+msgstr "メールアドレスが追加されました。明日パスワードのリセットをもう一度やり直してください。"
 
-#: r2/controllers/api.py:1528
+#: r2/controllers/api.py:1522
 msgid "you should be getting a verification email shortly."
 msgstr "まもなく登録確認メールが届きます"
 
-#: r2/controllers/api.py:1531 r2/controllers/api.py:1545
+#: r2/controllers/api.py:1525 r2/controllers/api.py:1539
 msgid "your email has been updated"
 msgstr "メールアドレスが更新されました"
 
-#: r2/controllers/api.py:1583
+#: r2/controllers/api.py:1579
 msgid "your password has been updated"
 msgstr "パスワードが更新されました"
 
-#: r2/controllers/api.py:1687
+#: r2/controllers/api.py:1683
 msgid "Success! Your preferences have been updated"
-msgstr ""
+msgstr "成功！あなたの設定情報は保存されました。"
 
-#: r2/controllers/api.py:2014 r2/lib/menus.py:175
-#: ../../liveupdate/reddit_liveupdate/pages.py:80
+#: r2/controllers/api.py:2032 r2/lib/menus.py:178
+#: ../../liveupdate/reddit_liveupdate/pages.py:79
 msgid "reported"
 msgstr "報告したもの"
 
-#: r2/controllers/api.py:2449
+#: r2/controllers/api.py:2467
 msgid "replied"
 msgstr "返信済み"
 
-#: r2/controllers/api.py:2650
+#: r2/controllers/api.py:2668
 msgid "validation errors"
 msgstr "検証エラー"
 
-#: r2/controllers/api.py:2784 r2/controllers/api.py:2817 r2/controllers/api.py:2850
-#: r2/controllers/listingcontroller.py:1035 r2/lib/menus.py:174
+#: r2/controllers/api.py:2802 r2/controllers/api.py:2835 r2/controllers/api.py:2868
+#: r2/controllers/listingcontroller.py:1087 r2/lib/menus.py:177
 #: r2/public/static/js/reddit.js:272 r2/templates/deleteduserinterstitial.html:31
-#: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:566
+#: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:572
 #: r2/templates/subredditstylesheetbase.html:45
 #: r2/templates/subredditstylesheetbase.html:72
 #: ../../liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:203
 msgid "deleted"
 msgstr "削除したもの"
 
-#: r2/controllers/api.py:2927
+#: r2/controllers/api.py:2945
 msgid "bad image name"
 msgstr "画像名が正しくありません"
 
-#: r2/controllers/api.py:2933
+#: r2/controllers/api.py:2951
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "画像が多すぎます (%d 件のみ取得できます)"
 
-#: r2/controllers/api.py:2938 r2/controllers/api.py:2962
+#: r2/controllers/api.py:2956 r2/controllers/api.py:2980
 msgid "Invalid image or general image error"
 msgstr "無効な画像、または画像エラー"
 
-#: r2/controllers/api.py:2943
+#: r2/controllers/api.py:2961
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "必須 %dx%d ピクセル"
 
-#: r2/controllers/api.py:2947
+#: r2/controllers/api.py:2965
 msgid "10:3 aspect ratio required"
-msgstr ""
+msgstr "10:3のアスペクト比であることが必要とされています。"
 
-#: r2/controllers/api.py:2950
+#: r2/controllers/api.py:2968
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "最大 %dx%d ピクセル"
 
-#: r2/controllers/api.py:2953
+#: r2/controllers/api.py:2971
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "最小 %dx%d ピクセル"
 
-#: r2/controllers/api.py:4053
+#: r2/controllers/api.py:4074
 msgid "an email will be sent to that account's address shortly"
 msgstr "そのアカウントのメールアドレスに間もなくメッセージをお送りします"
 
-#: r2/controllers/api.py:4056
+#: r2/controllers/api.py:4077
 msgid "try again tomorrow"
 msgstr "また明日試してみて下さい"
 
-#: r2/controllers/api.py:4133
+#: r2/controllers/api.py:4154
 msgid "your account has been recovered"
-msgstr ""
+msgstr "あなたのアカウントは復元されました。"
 
-#: r2/controllers/api.py:4213
+#: r2/controllers/api.py:4234
 msgid "password updated"
 msgstr "パスワードが更新されました"
 
-#: r2/controllers/api.py:4501 r2/controllers/api.py:4732
+#: r2/controllers/api.py:4522 r2/controllers/api.py:4753
 msgid "invalid css class"
 msgstr "CSS class が無効"
 
-#: r2/controllers/api.py:4504 r2/controllers/api.py:4735
+#: r2/controllers/api.py:4525 r2/controllers/api.py:4756
 msgid "too many css classes"
 msgstr "css classの数が多すぎます"
 
-#: r2/controllers/api.py:4756
+#: r2/controllers/api.py:4777
 msgid "max flair templates reached"
 msgstr "flairのテンプレート数が上限に達しています"
 
-#: r2/controllers/api.py:5077
+#: r2/controllers/api.py:5098
 msgid "no gold to take"
 msgstr "あげるゴールドはない"
 
-#: r2/controllers/api.py:5381 r2/lib/errors.py:153
+#: r2/controllers/api.py:5425 r2/lib/errors.py:153
 msgid "this app can not be modified from this interface"
-msgstr ""
+msgstr "このアプリケーションにこのインターフェースから変更を加えることができません。"
 
-#: r2/controllers/api.py:5388 r2/lib/errors.py:135
+#: r2/controllers/api.py:5432 r2/lib/errors.py:135
 msgid "invalid client id"
 msgstr "無効なクライアント ID"
 
-#: r2/controllers/api.py:5391
+#: r2/controllers/api.py:5435
 msgid "cannot update deleted app"
 msgstr "削除されたアプリはアップデート出来ません"
 
-#: r2/controllers/api.py:5394
+#: r2/controllers/api.py:5438
 msgid "app does not belong to you"
 msgstr "あなたのアプリではありません"
 
-#: r2/controllers/api.py:5402
+#: r2/controllers/api.py:5446
 msgid "application updated"
 msgstr "アプリが更新されました"
 
-#: r2/controllers/api.py:5415
+#: r2/controllers/api.py:5459
 msgid "application created"
 msgstr "アプリを作りました"
 
-#: r2/controllers/api.py:5450
+#: r2/controllers/api.py:5494
 msgid "developer added"
 msgstr "開発者を追加しました"
 
-#: r2/controllers/api_docs.py:253
+#: r2/controllers/api_docs.py:250
 msgid "api documentation"
 msgstr "APIドキュメント"
 
@@ -573,19 +573,19 @@ msgstr "reddit用ボタン"
 msgid "reddit widget"
 msgstr "reddit用ウィジェット"
 
-#: r2/controllers/embed.py:71 r2/lib/pages/pages.py:1271
-#: r2/templates/printablebuttons.html:122
+#: r2/controllers/embed.py:71 r2/lib/pages/pages.py:1313
+#: r2/templates/printablebuttons.html:128
 msgid "help"
 msgstr "ヘルプ"
 
 #: r2/controllers/error.py:147
 #, python-format
 msgid "bad request (%(domain)s)"
-msgstr ""
+msgstr "無効なリクエスト(%(domain)s)"
 
 #: r2/controllers/error.py:148
 msgid "you sent an invalid request"
-msgstr ""
+msgstr "あなたが送ったリクエストは無効です。"
 
 #: r2/controllers/error.py:158
 #, python-format
@@ -608,272 +608,276 @@ msgstr "指定されたページは存在しません"
 msgid "unavailable"
 msgstr "利用不可"
 
-#: r2/controllers/error.py:227 r2/controllers/front.py:1689
-#: r2/templates/login.html:117 r2/templates/loginformwide.html:48
-#: r2/templates/register.html:117
+#: r2/controllers/error.py:227 r2/controllers/front.py:1725
+#: r2/templates/login.html:116 r2/templates/loginformwide.html:48
+#: r2/templates/register.html:116
 msgid "reset password"
 msgstr "パスワードをリセットする"
 
-#: r2/controllers/error.py:237 r2/controllers/listingcontroller.py:998
+#: r2/controllers/error.py:237 r2/controllers/listingcontroller.py:1050
 #: r2/templates/banneduserinterstitial.html:32
 #: r2/templates/intimeoutinterstitial.html:31
 #: r2/templates/intimeoutinterstitial.html:37
 msgid "suspended"
-msgstr ""
+msgstr "中断されました。"
 
-#: r2/controllers/front.py:208 r2/lib/pages/pages.py:6176
+#: r2/controllers/front.py:210 r2/lib/pages/pages.py:6324
 msgid "explore"
 msgstr "探索する"
 
-#: r2/controllers/front.py:464
+#: r2/controllers/front.py:470
 msgid "no comments (yet)"
 msgstr "(まだ) コメントはありません"
 
-#: r2/controllers/front.py:466
+#: r2/controllers/front.py:472
 #, python-format
 msgid "all %d comments"
 msgstr "全 %d 件のコメント"
 
-#: r2/controllers/front.py:468
+#: r2/controllers/front.py:474
 #, python-format
 msgid "top %d comments"
 msgstr "上位 %d 件のコメント"
 
-#: r2/controllers/front.py:559
+#: r2/controllers/front.py:593
 #, python-format
 msgid "show all %d"
 msgstr "全て表示する %d"
 
-#: r2/controllers/front.py:561
+#: r2/controllers/front.py:595
 #, python-format
 msgid "show %d"
 msgstr "表示する %d"
 
-#: r2/controllers/front.py:578 r2/controllers/front.py:580
+#: r2/controllers/front.py:612 r2/controllers/front.py:614
 msgid "create a subreddit"
 msgstr "subredditを作成"
 
-#: r2/controllers/front.py:684 r2/controllers/front.py:690
-#: r2/controllers/listingcontroller.py:844 r2/controllers/listingcontroller.py:859
-#: r2/controllers/listingcontroller.py:1173
-#: r2/controllers/listingcontroller.py:1184 r2/lib/menus.py:182 r2/lib/menus.py:432
-#: r2/lib/menus.py:655 r2/lib/pages/pages.py:4936 r2/lib/pages/pages.py:4945
+#: r2/controllers/front.py:718 r2/controllers/front.py:724
+#: r2/controllers/listingcontroller.py:896 r2/controllers/listingcontroller.py:911
+#: r2/controllers/listingcontroller.py:1225
+#: r2/controllers/listingcontroller.py:1236 r2/lib/menus.py:185 r2/lib/menus.py:435
+#: r2/lib/menus.py:651 r2/lib/pages/pages.py:5068 r2/lib/pages/pages.py:5077
 #: r2/templates/createsubreddit.html:273 r2/templates/createsubreddit.html:284
 #: r2/templates/createsubreddit.html:295
 msgid "all"
 msgstr "すべて"
 
-#: r2/controllers/front.py:706
+#: r2/controllers/front.py:740
 msgid "admins*"
 msgstr "管理者*"
 
-#: r2/controllers/front.py:709
+#: r2/controllers/front.py:743
 msgid "filter by action"
 msgstr "アクションでフィルタする"
 
-#: r2/controllers/front.py:711
+#: r2/controllers/front.py:745
 msgid "filter by moderator"
 msgstr "モデレーターで絞り込む"
 
-#: r2/controllers/front.py:893
+#: r2/controllers/front.py:927
 msgid "posts and comments"
-msgstr ""
+msgstr "投稿とコメント"
 
-#: r2/controllers/front.py:894 r2/controllers/front.py:1210
-#: r2/controllers/front.py:1229 r2/lib/permissions.py:92
+#: r2/controllers/front.py:928 r2/controllers/front.py:1246
+#: r2/controllers/front.py:1265 r2/lib/permissions.py:92
 msgid "posts"
 msgstr "投稿"
 
-#: r2/controllers/front.py:895 r2/controllers/listingcontroller.py:1760
-#: r2/lib/pages/pages.py:5816 r2/templates/createsubreddit.html:289
+#: r2/controllers/front.py:929 r2/controllers/listingcontroller.py:1812
+#: r2/lib/pages/pages.py:5957 r2/templates/createsubreddit.html:289
 #: r2/templates/link.xml:93
 msgid "comments"
 msgstr "個のコメント"
 
-#: r2/controllers/front.py:897
+#: r2/controllers/front.py:931
 msgid "show"
 msgstr "表示"
 
-#: r2/controllers/front.py:985
+#: r2/controllers/front.py:1019
 msgid "Posts & Comments"
-msgstr ""
+msgstr "投稿＆コメント"
 
-#: r2/controllers/front.py:986
+#: r2/controllers/front.py:1020
 msgid "Posts only"
-msgstr ""
+msgstr "投稿のみ"
 
-#: r2/controllers/front.py:987
+#: r2/controllers/front.py:1021
 msgid "Comments only"
-msgstr ""
+msgstr "コメントのみ"
 
-#: r2/controllers/front.py:989
+#: r2/controllers/front.py:1023
 #, python-format
 msgid "Rules for r/%(subreddit)s"
-msgstr ""
+msgstr "%(subreddit)sのルール"
 
-#: r2/controllers/front.py:1027 r2/lib/menus.py:159
+#: r2/controllers/front.py:1061 r2/lib/menus.py:162
 msgid "awards"
 msgstr "アワード"
 
-#: r2/controllers/front.py:1066
+#: r2/controllers/front.py:1100
 msgid "other discussions"
 msgstr "その他のディスカッション"
 
-#: r2/controllers/front.py:1115
+#: r2/controllers/front.py:1149
 msgid "search results"
 msgstr "検索結果"
 
-#: r2/controllers/front.py:1252 r2/controllers/front.py:1261
-#: r2/controllers/listingcontroller.py:1521 r2/lib/menus.py:94
+#: r2/controllers/front.py:1288 r2/controllers/front.py:1297
+#: r2/controllers/listingcontroller.py:1573 r2/lib/menus.py:94
 #: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:859
 msgid "subreddits"
 msgstr "subreddit"
 
-#: r2/controllers/front.py:1283
+#: r2/controllers/front.py:1319
 #, python-format
 msgid "search results - %(query)s"
-msgstr ""
+msgstr "%(query)sの検索結果"
 
-#: r2/controllers/front.py:1403
+#: r2/controllers/front.py:1439
 msgid "seen it"
 msgstr "見ました"
 
-#: r2/controllers/front.py:1419 r2/models/subreddit.py:2458
+#: r2/controllers/front.py:1455 r2/models/subreddit.py:2484
 #: r2/templates/multiinfobar.html:34
 #, python-format
 msgid "%s subreddits"
 msgstr "%s subreddits"
 
-#: r2/controllers/front.py:1442 r2/lib/menus.py:81
+#: r2/controllers/front.py:1478 r2/lib/menus.py:81
 #: r2/templates/accountrecovery.html:65 r2/templates/fraudform.html:42
 #: r2/templates/newlink.html:264 r2/templates/reportform.html:65
 #: r2/templates/usertableitem.html:79
 msgid "submit"
 msgstr "投稿"
 
-#: r2/controllers/front.py:1498 r2/lib/menus.py:88
+#: r2/controllers/front.py:1534 r2/lib/menus.py:88
 msgid "contact us"
 msgstr "お問い合わせ"
 
-#: r2/controllers/front.py:1511
+#: r2/controllers/front.py:1547
 msgid "Claimed! Enjoy your reddit gold membership."
 msgstr "主張！あなたのredditのゴールドメンバーシップをお楽しみください。"
 
-#: r2/controllers/front.py:1515
+#: r2/controllers/front.py:1551
 msgid "Your gold creddits have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "あなたの金のcredditsが主張されている！今誰かのuserpageに行って、彼らにプレゼントを与える！"
 
-#: r2/controllers/front.py:1518
+#: r2/controllers/front.py:1554
 msgid "Thanks for buying reddit gold! Your transaction has been completed."
 msgstr "redditの金を購入してくれてありがとう！トランザクションが完了しました。"
 
-#: r2/controllers/front.py:1521
+#: r2/controllers/front.py:1557
 msgid "Thanks for buying reddit gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "redditゴールドの購入ありがとうございます！あなたの処理は無事完了し、メールが送信されました。以下でアカウントにログインし詳細を確認できます："
 
-#: r2/controllers/front.py:1527
+#: r2/controllers/front.py:1563
 #, python-format
 msgid "Thanks for buying reddit gold! Your transaction is being processed. If you have any questions please email us at %(gold_email)s"
 msgstr "reddit goldの購入ありがとうございます！ あなたのお支払いは現在処理中です。何か質問があれば %(gold_email)s までメールをお送りください。"
 
-#: r2/controllers/front.py:1534 r2/controllers/front.py:1866
+#: r2/controllers/front.py:1570 r2/controllers/front.py:1915
 msgid "thanks"
 msgstr "ありがとう！"
 
-#: r2/controllers/front.py:1551
+#: r2/controllers/front.py:1587
 msgid "claim this award?"
 msgstr "この報酬を要求しますか？"
 
-#: r2/controllers/front.py:1574
+#: r2/controllers/front.py:1610
 msgid "award claim"
 msgstr "報酬の要求権"
 
-#: r2/controllers/front.py:1578 r2/templates/gilding.html:26
+#: r2/controllers/front.py:1614 r2/templates/gilding.html:26
 msgid "gilding"
 msgstr "金メッキ"
 
-#: r2/controllers/front.py:1611 r2/templates/admininterstitial.html:48
-#: r2/templates/login.html:88 r2/templates/login.html:90
-#: r2/templates/login.html:190 r2/templates/loginformwide.html:39
+#: r2/controllers/front.py:1647 r2/templates/admininterstitial.html:48
+#: r2/templates/login.html:87 r2/templates/login.html:89
+#: r2/templates/login.html:189 r2/templates/loginformwide.html:39
 #: r2/templates/prefdeactivate.html:73 r2/templates/prefsecurity.html:40
-#: r2/templates/prefsecurity.html:59 r2/templates/register.html:88
-#: r2/templates/register.html:90 r2/templates/register.html:190
+#: r2/templates/prefsecurity.html:59 r2/templates/register.html:87
+#: r2/templates/register.html:89 r2/templates/register.html:189
 msgid "password"
 msgstr "パスワード"
 
-#: r2/controllers/front.py:1631 r2/controllers/front.py:1670
+#: r2/controllers/front.py:1667 r2/controllers/front.py:1706
 msgid "verify email"
 msgstr "メールアドレスを確認する"
 
-#: r2/controllers/front.py:1706
+#: r2/controllers/front.py:1742
 msgid "account recovery token expired"
-msgstr ""
+msgstr "アカウント復元のためのトークンの期限が切れました。"
 
-#: r2/controllers/front.py:1711
+#: r2/controllers/front.py:1747
 msgid "recover account"
-msgstr ""
+msgstr "アカウントを復元する。"
 
-#: r2/controllers/front.py:1727
+#: r2/controllers/front.py:1763
 msgid "incorrect message token"
 msgstr "不正なメッセージトークンです"
 
-#: r2/controllers/front.py:1736
+#: r2/controllers/front.py:1772
 msgid "emails unsubscribed"
 msgstr "Eメールの購読を解除"
 
-#: r2/controllers/front.py:1818 r2/lib/pages/pages.py:1028
+#: r2/controllers/front.py:1820
+msgid "advertising preferences (reddit.com)"
+msgstr ""
+
+#: r2/controllers/front.py:1867 r2/lib/pages/pages.py:1035
 #: r2/templates/admininterstitial.html:79
 msgid "turn admin on"
 msgstr "管理モードオン"
 
-#: r2/controllers/front.py:1836 r2/controllers/post.py:154
+#: r2/controllers/front.py:1885 r2/controllers/post.py:153
 msgid "opt out"
 msgstr "参加しない"
 
-#: r2/controllers/front.py:1836 r2/controllers/post.py:165
+#: r2/controllers/front.py:1885 r2/controllers/post.py:164
 msgid "welcome back"
 msgstr "おかえり！"
 
-#: r2/controllers/front.py:1915 r2/controllers/front.py:2003
-#: r2/controllers/front.py:2042 r2/lib/menus.py:93 r2/templates/creditgild.html:31
+#: r2/controllers/front.py:1964 r2/controllers/front.py:2052
+#: r2/controllers/front.py:2091 r2/lib/menus.py:93 r2/templates/creditgild.html:31
 #: r2/templates/gold.html:27 r2/templates/goldpayment.html:37
-#: r2/templates/goldthanks.html:26 r2/templates/prefoptions.html:419
+#: r2/templates/goldthanks.html:26 r2/templates/prefoptions.html:427
 msgid "reddit gold"
 msgstr "reddit gold"
 
-#: r2/controllers/front.py:2052 r2/templates/gilding.html:76
+#: r2/controllers/front.py:2101 r2/templates/gilding.html:76
 msgid "purchase creddits"
 msgstr "購入creddits"
 
-#: r2/controllers/front.py:2062 r2/controllers/ipn.py:1146
+#: r2/controllers/front.py:2111 r2/controllers/ipn.py:1146
 msgid "reddit gold subscription"
 msgstr "reddit ゴールド登録"
 
-#: r2/controllers/front.py:2076
+#: r2/controllers/front.py:2125
 msgid "You don't have an email address associated \n"
 "                        with your account!"
 msgstr ""
 
-#: r2/controllers/front.py:2078
+#: r2/controllers/front.py:2127
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
-#: r2/controllers/front.py:2090 r2/controllers/front.py:2100
+#: r2/controllers/front.py:2139 r2/controllers/front.py:2149
 msgid "Success!"
-msgstr ""
+msgstr "成功！"
 
-#: r2/controllers/front.py:2094
+#: r2/controllers/front.py:2143
 msgid "You have updated your preferences."
-msgstr ""
+msgstr "あなたは設定情報を更新しました。"
 
-#: r2/controllers/front.py:2097
+#: r2/controllers/front.py:2146
 msgid "Please check your inbox to verify \n"
 "                       your email address."
 msgstr ""
 
-#: r2/controllers/front.py:2110
+#: r2/controllers/front.py:2159
 msgid "Get messages to my email inbox!"
-msgstr ""
+msgstr "メッセージを私のメールアドレス宛てに送ってください。"
 
 #: r2/controllers/ipn.py:345
 msgid "Your gold gift code has been generated!"
@@ -1069,17 +1073,19 @@ msgstr ""
 #, python-format
 msgid "Your Reddit Gold subscription has been renewed for 1 month for %(price)s.\n\n"
 "This subscription will renew automatically monthly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
-msgstr ""
+msgstr "あなたのredditゴールド会員メンバーシップは%(price)sで１ヶ月分自動更新されました。\n\n"
+"このサブスクリプションはあなたが解約するまで毎月自動的に更新され続けます。解約は%(subscr_url)sにていつでもすることができます。\n\n"
 
 #: r2/controllers/ipn.py:1414
 #, python-format
 msgid "Your Reddit Gold subscription has been renewed for 1 year for %(price)s.\n\n"
 "This subscription will renew automatically yearly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
-msgstr ""
+msgstr "あなたのredditゴールド会員メンバーシップは%(price)sで一年間分自動更新されました。\n\n"
+"このサブスクリプションはあなたが解約するまで毎月自動的に更新され続けます。解約は%(subscr_url)sにていつでもすることができます。\n\n"
 
 #: r2/controllers/ipn.py:1419
 msgid "Reddit Gold Subscription"
-msgstr ""
+msgstr "Redditゴールドメンバーシップ"
 
 #: r2/controllers/ipn.py:1420
 #, python-format
@@ -1087,141 +1093,141 @@ msgid "If you cancel, you will not be billed for any additional months of servic
 "If you have any questions, please contact %(gold_email)s."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:638
+#: r2/controllers/listingcontroller.py:690
 msgid "newest submissions"
 msgstr "最新の投稿"
 
-#: r2/controllers/listingcontroller.py:666
+#: r2/controllers/listingcontroller.py:718
 msgid "rising submissions"
 msgstr "上昇している投稿"
 
-#: r2/controllers/listingcontroller.py:719
+#: r2/controllers/listingcontroller.py:771
 msgid "top scoring links"
 msgstr "トップのリンク"
 
-#: r2/controllers/listingcontroller.py:723
+#: r2/controllers/listingcontroller.py:775
 msgid "most controversial links"
 msgstr "論争中のリンク"
 
-#: r2/controllers/listingcontroller.py:737
+#: r2/controllers/listingcontroller.py:789
 msgid "promoted links"
 msgstr "おすすめのリンク"
 
-#: r2/controllers/listingcontroller.py:741
+#: r2/controllers/listingcontroller.py:793
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "広告をご希望ですか? [ここをクリック!](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:776
+#: r2/controllers/listingcontroller.py:828
 msgid "you're really bored now, eh?"
 msgstr "マジで飽きてるみたいだね？"
 
-#: r2/controllers/listingcontroller.py:852
+#: r2/controllers/listingcontroller.py:904
 msgid "filter by subreddit"
 msgstr "subredditでフィルタ"
 
-#: r2/controllers/listingcontroller.py:866
+#: r2/controllers/listingcontroller.py:918
 msgid "filter by category"
 msgstr "カテゴリでフィルタ"
 
-#: r2/controllers/listingcontroller.py:872
+#: r2/controllers/listingcontroller.py:924
 msgid "gildings received"
 msgstr "ギルディングを受けとりました。"
 
-#: r2/controllers/listingcontroller.py:873
+#: r2/controllers/listingcontroller.py:925
 msgid "gildings given"
 msgstr "ギルディングを送りました。"
 
-#: r2/controllers/listingcontroller.py:879
+#: r2/controllers/listingcontroller.py:931
 #, python-format
 msgid "overview for %(user)s"
 msgstr "%(user)sのページ"
 
-#: r2/controllers/listingcontroller.py:880
+#: r2/controllers/listingcontroller.py:932
 #, python-format
 msgid "comments by %(user)s"
 msgstr "%(user)s のコメント"
 
-#: r2/controllers/listingcontroller.py:882
+#: r2/controllers/listingcontroller.py:934
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "%(user)s がギルド"
 
-#: r2/controllers/listingcontroller.py:883
+#: r2/controllers/listingcontroller.py:935
 #, python-format
 msgid "upvoted by %(user)s"
 msgstr "%(user)s がアップヴォート"
 
-#: r2/controllers/listingcontroller.py:884
+#: r2/controllers/listingcontroller.py:936
 #, python-format
 msgid "downvoted by %(user)s"
 msgstr "%(user)s がダウンヴォート"
 
-#: r2/controllers/listingcontroller.py:885
+#: r2/controllers/listingcontroller.py:937
 #, python-format
 msgid "saved by %(user)s"
 msgstr "%(user)sが保存"
 
-#: r2/controllers/listingcontroller.py:886
+#: r2/controllers/listingcontroller.py:938
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "%(user)s が非表示"
 
-#: r2/controllers/listingcontroller.py:887
+#: r2/controllers/listingcontroller.py:939
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "%(user)s がプロモート"
 
-#: r2/controllers/listingcontroller.py:889
+#: r2/controllers/listingcontroller.py:941
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "%(user)s がギルド"
 
-#: r2/controllers/listingcontroller.py:891
+#: r2/controllers/listingcontroller.py:943
 #, python-format
 msgid "profile for %(user)s"
 msgstr "%(user)sのプロフィール"
 
-#: r2/controllers/listingcontroller.py:1008 r2/lib/menus.py:106
-#: r2/templates/printablebuttons.html:579 r2/templates/printablebuttons.html:586
+#: r2/controllers/listingcontroller.py:1060 r2/lib/menus.py:106
+#: r2/templates/printablebuttons.html:585 r2/templates/printablebuttons.html:592
 msgid "blocked"
 msgstr "ブロック済み"
 
-#: r2/controllers/listingcontroller.py:1174
-#: r2/controllers/listingcontroller.py:1185 r2/templates/printablebuttons.html:606
+#: r2/controllers/listingcontroller.py:1226
+#: r2/controllers/listingcontroller.py:1237 r2/templates/printablebuttons.html:612
 msgid "unread"
 msgstr "未読"
 
-#: r2/controllers/listingcontroller.py:1176
+#: r2/controllers/listingcontroller.py:1228
 msgid "comment replies"
 msgstr "投稿に返信"
 
-#: r2/controllers/listingcontroller.py:1177
+#: r2/controllers/listingcontroller.py:1229
 msgid "post replies"
 msgstr "返事を投稿する"
 
-#: r2/controllers/listingcontroller.py:1178
+#: r2/controllers/listingcontroller.py:1230
 msgid "username mentions"
 msgstr "ユーザー名の言及"
 
-#: r2/controllers/listingcontroller.py:1192 r2/templates/redditheader.html:114
+#: r2/controllers/listingcontroller.py:1244 r2/templates/redditheader.html:114
 #: r2/templates/redditheader.html:119
 msgid "messages"
 msgstr "メッセージ"
 
-#: r2/controllers/listingcontroller.py:1664
+#: r2/controllers/listingcontroller.py:1716
 msgid "subreddits: "
 msgstr "subreddit"
 
-#: r2/controllers/listingcontroller.py:1807
+#: r2/controllers/listingcontroller.py:1859
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "ユーザをブロックしてあなたにメッセージできなくするには、受け取ったメッセージの下にある「ユーザをブロックする」ボタンをクリックしてください。"
 
-#: r2/controllers/listingcontroller.py:2070 r2/lib/menus.py:58
+#: r2/controllers/listingcontroller.py:2122 r2/lib/menus.py:58
 msgid "gilded"
 msgstr "ゴールド"
 
-#: r2/controllers/listingcontroller.py:2084
+#: r2/controllers/listingcontroller.py:2136
 #, python-format
 msgid "gildings in this subreddit have paid for %(time)s of server time"
 msgstr "このサブレディットのゴールド贈呈は、サーバー時間 %(time)s のために支払われました。"
@@ -1244,24 +1250,25 @@ msgstr "[削除済みアカウント]"
 msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr ""
 
-#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:6266
+#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:6414
+#: r2/templates/personalizedads.html:53
 msgid "privacy policy"
 msgstr "プライバシーポリシー"
 
-#: r2/controllers/policies.py:48 r2/lib/pages/pages.py:6267
+#: r2/controllers/policies.py:48 r2/lib/pages/pages.py:6415
 msgid "user agreement"
 msgstr "利用規約"
 
-#: r2/controllers/policies.py:51 r2/lib/pages/pages.py:6268
+#: r2/controllers/policies.py:51 r2/lib/pages/pages.py:6416
 #: r2/templates/newlink.html:251 r2/templates/usertext.html:159
 msgid "content policy"
 msgstr "コンテンツポリシー"
 
-#: r2/controllers/post.py:78
+#: r2/controllers/post.py:77
 msgid "over 18?"
 msgstr "18歳以上ですか?"
 
-#: r2/controllers/post.py:96 r2/templates/quarantineinterstitial.html:34
+#: r2/controllers/post.py:95 r2/templates/quarantineinterstitial.html:34
 #: r2/templates/subreddit.html:91
 msgid "quarantined"
 msgstr "隔離"
@@ -1282,7 +1289,7 @@ msgstr ""
 msgid "promoted post inventory"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:427 r2/lib/menus.py:184
+#: r2/controllers/promotecontroller.py:427 r2/lib/menus.py:187
 msgid "unapproved campaigns"
 msgstr ""
 
@@ -1314,7 +1321,7 @@ msgstr "有効なスポンサードリンク"
 msgid "edited live promoted links"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:435 r2/lib/menus.py:181
+#: r2/controllers/promotecontroller.py:435 r2/lib/menus.py:184
 msgid "all promoted links"
 msgstr "全てのプロモートされているリンク"
 
@@ -1380,24 +1387,24 @@ msgstr "キャンペーンの開始日を%(date)s以降に変更して下さい"
 msgid "image must be a jpg or png"
 msgstr ""
 
-#: r2/controllers/reddit_base.py:1636 r2/lib/pages/pages.py:4458
-#: r2/models/modaction.py:109 r2/templates/bannedinterstitial.html:33
+#: r2/controllers/reddit_base.py:1625 r2/lib/pages/pages.py:4590
+#: r2/models/modaction.py:111 r2/templates/bannedinterstitial.html:33
 #: r2/templates/subreddit.html:74 r2/templates/subredditinfobar.html:168
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "投稿禁止ユーザ"
 
-#: r2/controllers/reddit_base.py:1658
+#: r2/controllers/reddit_base.py:1647
 msgid "gold members only"
 msgstr ""
 
-#: r2/controllers/reddit_base.py:1668 r2/templates/createsubreddit.html:141
+#: r2/controllers/reddit_base.py:1657 r2/templates/createsubreddit.html:141
 #: r2/templates/multiinfobar.html:40 r2/templates/privateinterstitial.html:37
 #: r2/templates/searchresultsubreddit.html:98 r2/templates/subreddit.html:87
 msgid "private"
 msgstr "非公開"
 
-#: r2/controllers/reddit_base.py:1768
+#: r2/controllers/reddit_base.py:1757
 msgid "search failed"
 msgstr "検索出来ませんでした"
 
@@ -1427,7 +1434,7 @@ msgid "viewing revision from %s"
 msgstr "%sのリビジョンを表示"
 
 #: r2/controllers/wiki.py:169 r2/controllers/wiki.py:170
-#: r2/lib/template_helpers.py:839
+#: r2/lib/template_helpers.py:879
 #, python-format
 msgid "%s ago"
 msgstr "%s前"
@@ -1512,19 +1519,19 @@ msgstr "制御文字は使えません"
 msgid "the stylesheet is too big. maximum size: %(size)d KiB"
 msgstr "スタイルシートが長すぎます。サイズの上限: %(size)d KiB"
 
-#: r2/lib/emailer.py:377 r2/models/link.py:2587
+#: r2/lib/emailer.py:402 r2/models/link.py:2685
 msgid "comment reply"
 msgstr "コメントの返信"
 
-#: r2/lib/emailer.py:379 r2/models/link.py:2589
+#: r2/lib/emailer.py:404 r2/models/link.py:2687
 msgid "post reply"
 msgstr " 返事を投稿する"
 
-#: r2/lib/emailer.py:381
+#: r2/lib/emailer.py:406
 msgid "username notification"
 msgstr "ユーザー名通知"
 
-#: r2/lib/emailer.py:383 r2/lib/strings.py:260 r2/lib/pages/pages.py:1634
+#: r2/lib/emailer.py:408 r2/lib/strings.py:260 r2/lib/pages/pages.py:1689
 #: r2/templates/messagecompose.html:98
 msgid "message"
 msgid_plural "messages"
@@ -1757,7 +1764,7 @@ msgstr ""
 msgid "that subreddit is private"
 msgstr ""
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3306
+#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3286
 msgid "that name isn't going to work"
 msgstr "その名前は使えません"
 
@@ -2487,7 +2494,7 @@ msgstr "月別インプレッション数"
 msgid "clicks by month"
 msgstr "月別のクリック数"
 
-#: r2/lib/jsontemplates.py:747 r2/templates/link.xml:63
+#: r2/lib/jsontemplates.py:748 r2/templates/link.xml:63
 #: r2/templates/usertext.html:137
 msgid "[removed]"
 msgstr "[削除されました]"
@@ -2516,7 +2523,7 @@ msgstr "down順"
 msgid "top"
 msgstr "トップ"
 
-#: r2/lib/menus.py:55 r2/templates/searchresultlink.html:122
+#: r2/lib/menus.py:55 r2/templates/searchresultlink.html:125
 #: r2/templates/subredditbar.html:54
 msgid "more"
 msgstr "もっと"
@@ -2533,7 +2540,7 @@ msgstr "論争中"
 msgid "best"
 msgstr "ベスト"
 
-#: r2/lib/menus.py:60 r2/lib/menus.py:433
+#: r2/lib/menus.py:60 r2/lib/menus.py:436
 msgid "random"
 msgstr "ランダム"
 
@@ -2582,9 +2589,10 @@ msgstr "直近1年"
 msgid "all time"
 msgstr "全部"
 
-#: r2/lib/menus.py:76 r2/models/rules.py:33 r2/templates/preffeeds.html:119
-#: r2/templates/printablebuttons.html:42 r2/templates/printablebuttons.html:237
-#: ../../liveupdate/reddit_liveupdate/pages.py:256
+#: r2/lib/menus.py:76 r2/models/rules.py:33
+#: r2/public/static/js/link-websockets.js:254 r2/templates/preffeeds.html:119
+#: r2/templates/printablebuttons.html:42 r2/templates/printablebuttons.html:243
+#: ../../liveupdate/reddit_liveupdate/pages.py:237
 msgid "spam"
 msgstr "迷惑投稿"
 
@@ -2592,7 +2600,7 @@ msgstr "迷惑投稿"
 msgid "autobanned"
 msgstr "自動差し止めました"
 
-#: r2/lib/menus.py:80 r2/lib/pages/pages.py:1479 r2/lib/pages/pages.py:1502
+#: r2/lib/menus.py:80 r2/lib/pages/pages.py:1534 r2/lib/pages/pages.py:1557
 msgid "preferences"
 msgstr "個人設定"
 
@@ -2621,7 +2629,7 @@ msgstr "各種ボタン"
 msgid "widget"
 msgstr "ウィジェット"
 
-#: r2/lib/menus.py:91 r2/lib/pages/pages.py:1280
+#: r2/lib/menus.py:91 r2/lib/pages/pages.py:1322
 msgid "mobile website"
 msgstr ""
 
@@ -2674,318 +2682,322 @@ msgstr ""
 msgid "security"
 msgstr "セキュリティ"
 
-#: r2/lib/menus.py:112 r2/templates/messagecompose.html:35
+#: r2/lib/menus.py:112
+msgid "personalized ads"
+msgstr ""
+
+#: r2/lib/menus.py:115 r2/templates/messagecompose.html:35
 #: r2/templates/moderatormessagecompose.html:32 r2/templates/profilebar.html:176
 msgid "send a private message"
 msgstr "プライベートメッセージを送る"
 
-#: r2/lib/menus.py:113
+#: r2/lib/menus.py:116
 msgid "inbox"
 msgstr "受信箱"
 
-#: r2/lib/menus.py:114
+#: r2/lib/menus.py:117
 msgid "sent"
 msgstr "送信済み"
 
-#: r2/lib/menus.py:117
+#: r2/lib/menus.py:120
 msgid "comments {toolbar}"
 msgstr "個のコメント"
 
-#: r2/lib/menus.py:118 r2/templates/prefoptions.html:358
+#: r2/lib/menus.py:121 r2/templates/prefoptions.html:358
 #: r2/templates/prefoptions.html:367
 msgid "details"
 msgstr "詳細"
 
-#: r2/lib/menus.py:119
+#: r2/lib/menus.py:122
 #, python-format
 msgid "other discussions (%(num)s)"
 msgstr "その他のディスカッション (%(num)s)"
 
-#: r2/lib/menus.py:120 r2/lib/pages/trafficpages.py:65
+#: r2/lib/menus.py:123 r2/lib/pages/trafficpages.py:65
 msgid "traffic stats"
 msgstr "アクセス状況統計"
 
-#: r2/lib/menus.py:121 r2/models/modaction.py:179
+#: r2/lib/menus.py:124 r2/models/modaction.py:183
 #: r2/templates/subredditstylesheet.html:43
 msgid "stylesheet"
 msgstr "スタイルシート"
 
-#: r2/lib/menus.py:124
+#: r2/lib/menus.py:127
 msgid "home"
 msgstr "ホーム"
 
-#: r2/lib/menus.py:125 r2/lib/pages/pages.py:1259
+#: r2/lib/menus.py:128 r2/lib/pages/pages.py:1301
 msgid "about"
 msgstr "情報"
 
-#: r2/lib/menus.py:126
+#: r2/lib/menus.py:129
 msgid "edit subscriptions"
 msgstr "購読管理"
 
-#: r2/lib/menus.py:127 r2/lib/pages/pages.py:2615
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:2754
 msgid "subreddit settings"
 msgstr "subredditの設定"
 
-#: r2/lib/menus.py:128
+#: r2/lib/menus.py:131
 msgid "edit stylesheet"
 msgstr "スタイルシートを編集"
 
-#: r2/lib/menus.py:129 r2/public/static/js/messagecompose.js:186
+#: r2/lib/menus.py:132 r2/public/static/js/messagecompose.js:186
 msgid "rules"
 msgstr ""
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:960
+#: r2/lib/menus.py:133 r2/lib/pages/pages.py:966
 msgid "moderators"
 msgstr "調停者"
 
-#: r2/lib/menus.py:131
+#: r2/lib/menus.py:134
 msgid "moderator mail"
 msgstr "モデレーターメール"
 
-#: r2/lib/menus.py:132
+#: r2/lib/menus.py:135
 msgid "approved submitters"
 msgstr ""
 
-#: r2/lib/menus.py:133 r2/lib/menus.py:134 r2/models/listing.py:209
+#: r2/lib/menus.py:136 r2/lib/menus.py:137 r2/models/listing.py:209
 msgid "ban users"
 msgstr "特定ユーザによる投稿を禁止する"
 
-#: r2/lib/menus.py:135 r2/models/listing.py:240
+#: r2/lib/menus.py:138 r2/models/listing.py:240
 msgid "mute users"
 msgstr "ユーザーをミュート"
 
-#: r2/lib/menus.py:136 r2/models/modaction.py:82
+#: r2/lib/menus.py:139 r2/models/modaction.py:82
 msgid "edit flair"
 msgstr "flair を編集"
 
-#: r2/lib/menus.py:137 r2/templates/preffeeds.html:125
+#: r2/lib/menus.py:140 r2/templates/preffeeds.html:125
 msgid "moderation log"
 msgstr "モデレーションログ"
 
-#: r2/lib/menus.py:138
+#: r2/lib/menus.py:141
 msgid "moderation queue"
 msgstr "モデレーションキュー"
 
-#: r2/lib/menus.py:139 r2/templates/preffeeds.html:128
+#: r2/lib/menus.py:142 r2/templates/preffeeds.html:128
 msgid "unmoderated posts"
 msgstr ""
 
-#: r2/lib/menus.py:140 r2/templates/preffeeds.html:122
+#: r2/lib/menus.py:143 r2/templates/preffeeds.html:122
 msgid "edited"
 msgstr "編集済み"
 
-#: r2/lib/menus.py:141
+#: r2/lib/menus.py:144
 msgid "employee"
 msgstr "従業員"
 
-#: r2/lib/menus.py:142
+#: r2/lib/menus.py:145
 msgid "automoderator config"
 msgstr "automoderator設定"
 
-#: r2/lib/menus.py:143
+#: r2/lib/menus.py:146
 msgid "get started with automoderator"
 msgstr ""
 
-#: r2/lib/menus.py:145
+#: r2/lib/menus.py:148
 msgid "ban wiki contributors"
 msgstr "wikiの貢献者を禁止する"
 
-#: r2/lib/menus.py:146
+#: r2/lib/menus.py:149
 msgid "add wiki contributors"
 msgstr "wikの貢献者を追加する"
 
-#: r2/lib/menus.py:148
+#: r2/lib/menus.py:151
 msgid "recent wiki revisions"
 msgstr "最近のwikiリビジョン"
 
-#: r2/lib/menus.py:149
+#: r2/lib/menus.py:152
 msgid "wiki page list"
 msgstr "wikiページリスト"
 
-#: r2/lib/menus.py:151
+#: r2/lib/menus.py:154
 msgid "popular"
 msgstr "人気"
 
-#: r2/lib/menus.py:152 r2/public/static/js/sponsored.js:88
-#: r2/public/static/js/sponsored.js:98 r2/templates/createsubreddit.html:681
+#: r2/lib/menus.py:155 r2/public/static/js/sponsored.js:88
+#: r2/public/static/js/sponsored.js:98 r2/templates/createsubreddit.html:694
 #: r2/templates/listingchooser.html:62
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "作成"
 
-#: r2/lib/menus.py:153 r2/lib/pages/pages.py:3253
+#: r2/lib/menus.py:156 r2/lib/pages/pages.py:3392
 msgid "my subreddits"
 msgstr "自分のsubreddit"
 
-#: r2/lib/menus.py:154
+#: r2/lib/menus.py:157
 msgid "quarantine"
 msgstr "隔離"
 
-#: r2/lib/menus.py:155
+#: r2/lib/menus.py:158
 msgid "featured"
 msgstr ""
 
-#: r2/lib/menus.py:157
+#: r2/lib/menus.py:160
 msgid "help translate"
 msgstr "翻訳ボランティアに立候補する"
 
-#: r2/lib/menus.py:158 r2/templates/subredditstylesheet.html:78
+#: r2/lib/menus.py:161 r2/templates/subredditstylesheet.html:78
 msgid "errors"
 msgstr "エラー"
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:163
 msgid "ads"
 msgstr "広告"
 
-#: r2/lib/menus.py:161
+#: r2/lib/menus.py:164
 msgid "promoted"
 msgstr "スポンサードリンク"
 
-#: r2/lib/menus.py:162
+#: r2/lib/menus.py:165
 msgid "sponsor"
 msgstr "スポンサー"
 
-#: r2/lib/menus.py:163
+#: r2/lib/menus.py:166
 msgid "reporters"
 msgstr "リポーター\n\n"
 "報告者"
 
-#: r2/lib/menus.py:164 r2/templates/preffeeds.html:116
+#: r2/lib/menus.py:167 r2/templates/preffeeds.html:116
 msgid "reports"
 msgstr "報告"
 
-#: r2/lib/menus.py:165
+#: r2/lib/menus.py:168
 msgid "reported authors"
 msgstr "報告した作者"
 
-#: r2/lib/menus.py:166
+#: r2/lib/menus.py:169
 msgid "info"
 msgstr "情報"
 
-#: r2/lib/menus.py:167 r2/templates/multiinfobar.html:113
-#: r2/templates/printablebuttons.html:347
+#: r2/lib/menus.py:170 r2/templates/multiinfobar.html:113
+#: r2/templates/printablebuttons.html:353
 msgid "share"
 msgstr "シェアする"
 
-#: r2/lib/menus.py:170 r2/templates/searchresultlink.html:99
+#: r2/lib/menus.py:173 r2/templates/searchresultlink.html:102
 msgid "submitted"
 msgstr "投稿したもの"
 
-#: r2/lib/menus.py:171
+#: r2/lib/menus.py:174
 msgid "upvoted"
 msgstr "賛成された"
 
-#: r2/lib/menus.py:172
+#: r2/lib/menus.py:175
 msgid "downvoted"
 msgstr ""
 
-#: r2/lib/menus.py:173
+#: r2/lib/menus.py:176
 msgid "hidden {toolbar}"
 msgstr "非表示にしたもの"
 
-#: r2/lib/menus.py:176
+#: r2/lib/menus.py:179
 msgid "voting"
 msgstr "投票"
 
-#: r2/lib/menus.py:178
+#: r2/lib/menus.py:181
 msgid "advertising"
 msgstr "広告"
 
-#: r2/lib/menus.py:179
+#: r2/lib/menus.py:182
 msgid "create promotion"
 msgstr "紹介を作る"
 
-#: r2/lib/menus.py:180
+#: r2/lib/menus.py:183
 msgid "my promoted links"
 msgstr "自分がプロモートしたリンク"
 
-#: r2/lib/menus.py:183
+#: r2/lib/menus.py:186
 msgid "unseen"
 msgstr "見ませんでした"
 
-#: r2/lib/menus.py:185
+#: r2/lib/menus.py:188
 msgid "inventory"
 msgstr "インベントリー"
 
-#: r2/lib/menus.py:186 ../../liveupdate/reddit_liveupdate/pages.py:68
+#: r2/lib/menus.py:189 ../../liveupdate/reddit_liveupdate/pages.py:67
 #: ../../liveupdate/reddit_liveupdate/public/static/js/liveupdate/statusBar.js:62
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateevent.html:9
 msgid "live"
 msgstr "ライブ"
 
-#: r2/lib/menus.py:187
+#: r2/lib/menus.py:190
 msgid "unpaid"
 msgstr "未払い"
 
-#: r2/lib/menus.py:188
+#: r2/lib/menus.py:191
 msgid "pending"
 msgstr "待っています"
 
-#: r2/lib/menus.py:189 r2/templates/renderablecampaign.html:195
+#: r2/lib/menus.py:192 r2/templates/renderablecampaign.html:195
 msgid "rejected"
 msgstr "拒否済み"
 
-#: r2/lib/menus.py:190 r2/templates/renderablecampaign.html:181
+#: r2/lib/menus.py:193 r2/templates/renderablecampaign.html:181
 msgid "edited live"
 msgstr ""
 
-#: r2/lib/menus.py:191
+#: r2/lib/menus.py:194
 msgid "external promos"
 msgstr ""
 
-#: r2/lib/menus.py:193
+#: r2/lib/menus.py:196
 msgid "sitewide"
 msgstr "サイトワイド"
 
-#: r2/lib/menus.py:194
+#: r2/lib/menus.py:197
 msgid "languages"
 msgstr "言語"
 
-#: r2/lib/menus.py:195 r2/lib/pages/trafficpages.py:273
+#: r2/lib/menus.py:198 r2/lib/pages/trafficpages.py:273
 msgid "adverts"
 msgstr "広告"
 
-#: r2/lib/menus.py:197
+#: r2/lib/menus.py:200
 msgid "whitelist"
 msgstr "ホワイトリスト"
 
-#: r2/lib/menus.py:198
+#: r2/lib/menus.py:201
 msgid "live (beta)"
 msgstr ""
 
 #. TRANSLATORS: This refers to /r/mod
-#: r2/lib/menus.py:429
+#: r2/lib/menus.py:432
 msgid "mod"
 msgstr "mod"
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:431
+#: r2/lib/menus.py:434
 msgid "front"
 msgstr "フロント"
 
 #. TRANSLATORS: Gold feature, "myrandom", a random subreddit from your
 #. subscriptions
-#: r2/lib/menus.py:435
+#: r2/lib/menus.py:438
 msgid "myrandom"
 msgstr "マイランダム"
 
-#: r2/lib/menus.py:613
+#: r2/lib/menus.py:616
 msgid "(suggested)"
 msgstr "(提案されたアイデア)"
 
-#: r2/lib/menus.py:651
+#: r2/lib/menus.py:647
 msgid "kind"
 msgstr "種類"
 
-#: r2/lib/menus.py:664
+#: r2/lib/menus.py:660
 msgid "links from"
 msgstr "投稿時期:"
 
-#: r2/lib/menus.py:674
+#: r2/lib/menus.py:670
 msgid "comments from"
 msgstr ""
 
-#: r2/lib/menus.py:679
+#: r2/lib/menus.py:675
 msgid "links and comments from"
 msgstr ""
 
@@ -3013,7 +3025,7 @@ msgstr "設定"
 msgid "edit settings, sidebar, css, images, and AutoModerator config"
 msgstr ""
 
-#: r2/lib/permissions.py:84 r2/templates/printablebuttons.html:87
+#: r2/lib/permissions.py:84 r2/templates/printablebuttons.html:93
 msgid "flair"
 msgstr "フレアー"
 
@@ -3042,14 +3054,14 @@ msgid "discovery"
 msgstr "発見"
 
 #: r2/lib/recommender.py:58 r2/lib/strings.py:254 r2/lib/strings.py:259
-#: r2/lib/template_helpers.py:440 r2/templates/searchresultlink.html:94
+#: r2/lib/template_helpers.py:457 r2/templates/searchresultlink.html:97
 #: r2/templates/subredditstylesheet.html:106
-#: ../../liveupdate/reddit_liveupdate/pages.py:504
+#: ../../liveupdate/reddit_liveupdate/pages.py:485
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "個のコメント"
 
-#: r2/lib/strings.py:56 r2/lib/template_helpers.py:319
+#: r2/lib/strings.py:56 r2/lib/template_helpers.py:329
 msgid "submitting..."
 msgstr "送信中..."
 
@@ -3396,8 +3408,9 @@ msgstr "redditの/r/allからの内容の表示します、以下のsubredditを
 msgid "Filtering /r/all is a feature only available to [reddit gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
 msgstr "/r/allのフィルタリングは[reddit gold](/gold/about) の登録者のみ利用できる機能です。 /r/allからフィルタされていない結果を表示しています。"
 
-#: r2/lib/strings.py:255 r2/templates/comment.htmllite:59
-#: r2/templates/linkinfobar.html:50 r2/templates/searchresultlink.html:91
+#: r2/lib/strings.py:255 r2/public/static/js/link-websockets.js:238
+#: r2/templates/comment.htmllite:59 r2/templates/linkinfobar.html:50
+#: r2/templates/searchresultlink.html:94
 msgid "point"
 msgid_plural "points"
 msgstr[0] "ポイント"
@@ -3465,7 +3478,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "時間"
 
-#: r2/lib/strings.py:276 r2/lib/pages/pages.py:545 r2/lib/pages/pages.py:5606
+#: r2/lib/strings.py:276 r2/lib/pages/pages.py:546 r2/lib/pages/pages.py:5745
 #: r2/public/static/js/sponsored.js:1833 r2/public/static/js/sponsored.js:2278
 #: r2/templates/intimeoutinterstitial.html:41 r2/templates/reddittraffic.html:98
 msgid "day"
@@ -3542,47 +3555,48 @@ msgstr "紹介したリンクのアクセス状況を閲覧できます。"
 msgid "you have been added to the list of users able to seesee [traffic for the promoted post \"%(title)s\"](%(traffic_url)s)."
 msgstr ""
 
-#: r2/lib/template_helpers.py:318
+#: r2/lib/template_helpers.py:328
 msgid "fetching title..."
 msgstr "タイトル取得中..."
 
-#: r2/lib/template_helpers.py:320
+#: r2/lib/template_helpers.py:330
 msgid "loading..."
 msgstr "ロード中..."
 
-#: r2/lib/template_helpers.py:436
+#: r2/lib/template_helpers.py:453
 msgid "comment {verb}"
 msgstr "コメント"
 
-#: r2/lib/template_helpers.py:491
+#: r2/lib/template_helpers.py:508
 msgid "child"
 msgid_plural "children"
 msgstr[0] "子コメント"
 
-#: r2/lib/template_helpers.py:673 r2/lib/template_helpers.py:739
+#: r2/lib/template_helpers.py:713 r2/lib/template_helpers.py:779
 msgid "friend"
 msgstr "友達"
 
-#: r2/lib/template_helpers.py:680
+#: r2/lib/template_helpers.py:720
 msgid "submitter"
 msgstr "投稿者"
 
-#: r2/lib/template_helpers.py:694
+#: r2/lib/template_helpers.py:734
 msgid "reddit admin, speaking officially"
 msgstr "redditのアドミン、公式に言えば"
 
-#: r2/lib/template_helpers.py:732
+#: r2/lib/template_helpers.py:772
 #, python-format
 msgid "moderator of /r/%(reddit)s, speaking officially"
 msgstr "正式に言えば /r/%(reddit)s のモデレーター"
 
-#: r2/lib/template_helpers.py:746
+#: r2/lib/template_helpers.py:786
 #, python-format
 msgid "%(user)s just celebrated a reddit birthday!"
 msgstr "%(user)s は reddit の誕生日を祝いました！"
 
-#: r2/lib/template_helpers.py:811 r2/lib/template_helpers.py:835
-#: r2/public/static/js/timetext.js:41 r2/public/static/js/timetext.js:98
+#: r2/lib/template_helpers.py:851 r2/lib/template_helpers.py:875
+#: r2/public/static/js/link-websockets.js:251 r2/public/static/js/timetext.js:41
+#: r2/public/static/js/timetext.js:98
 msgid "just now"
 msgstr "たった今 "
 
@@ -3602,8 +3616,8 @@ msgstr "このサブレディットにはメモはありません。"
 msgid "No notes for this user"
 msgstr "このユーザに関する情報はありません。"
 
-#: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:175
-#: r2/templates/createsubreddit.html:433
+#: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:179
+#: r2/templates/createsubreddit.html:446
 msgid "domain"
 msgstr "ドメイン"
 
@@ -3615,445 +3629,441 @@ msgstr "IPアドレス"
 msgid "user"
 msgstr "ユーザ"
 
-#: r2/lib/pages/pages.py:189
+#: r2/lib/pages/pages.py:190
 #, python-format
 msgid "%d %b %Y"
 msgstr "%Y年%b月%d日"
 
-#: r2/lib/pages/pages.py:380
-msgid "imgur.com domain listings (including this one) are currently disabled to speed up vote processing."
-msgstr "現在、imgur.com ドメインの一覧（これも含む）は、投票処理のスピードを上げるため参照できません。"
-
-#: r2/lib/pages/pages.py:586
+#: r2/lib/pages/pages.py:587
 msgid "wiki tools"
 msgstr "wikiツール"
 
-#: r2/lib/pages/pages.py:712
+#: r2/lib/pages/pages.py:713
 msgid "moderation tools"
 msgstr "モデレーション合計"
 
-#: r2/lib/pages/pages.py:790
+#: r2/lib/pages/pages.py:791
 msgid "these subreddits"
 msgstr "これらのsubreddit"
 
-#: r2/lib/pages/pages.py:804
+#: r2/lib/pages/pages.py:805
 msgid "this subreddit is archived and no longer accepting submissions."
 msgstr "このsubredditはアーカイブされており、今はもう投稿を受け付けていません。"
 
-#: r2/lib/pages/pages.py:806
+#: r2/lib/pages/pages.py:807
 msgid "Submissions disabled"
 msgstr "Submission 無効"
 
-#: r2/lib/pages/pages.py:813
+#: r2/lib/pages/pages.py:814
 msgid "Only approved users may post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:816
+#: r2/lib/pages/pages.py:817
 msgid "Anyone can view or comment, but only Reddit Gold members can post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:819
+#: r2/lib/pages/pages.py:820
 msgid "Submissions restricted"
 msgstr "Submission制限"
 
-#: r2/lib/pages/pages.py:912
+#: r2/lib/pages/pages.py:913
 msgid "Create your own subreddit"
 msgstr "subredditを作成する"
 
-#: r2/lib/pages/pages.py:936
+#: r2/lib/pages/pages.py:942
 #, python-format
 msgid "...and %d more"
 msgstr "...他に %d です。"
 
-#: r2/lib/pages/pages.py:938
+#: r2/lib/pages/pages.py:944
 msgid "about moderation team"
 msgstr "モデレーションチームについて"
 
-#: r2/lib/pages/pages.py:943
+#: r2/lib/pages/pages.py:949
 msgid "message the admins"
 msgstr "メッセージ管理者"
 
-#: r2/lib/pages/pages.py:945 r2/templates/privateinterstitial.html:53
+#: r2/lib/pages/pages.py:951 r2/templates/privateinterstitial.html:53
 msgid "message the moderators"
 msgstr "モデレーターにメッセージを送る"
 
-#: r2/lib/pages/pages.py:969 r2/templates/redditheader.html:63
+#: r2/lib/pages/pages.py:974 r2/templates/redditheader.html:63
 msgid "Join our Secret Santa tradition"
 msgstr ""
 
-#: r2/lib/pages/pages.py:983
+#: r2/lib/pages/pages.py:990
 msgid "Recently viewed links"
 msgstr "最近見たリンク"
 
-#: r2/lib/pages/pages.py:1021
+#: r2/lib/pages/pages.py:1028
 msgid "turn admin off"
 msgstr "管理モードオフ"
 
-#: r2/lib/pages/pages.py:1265
+#: r2/lib/pages/pages.py:1307
 msgid "FAQ"
 msgstr "よくある質問"
 
-#: r2/lib/pages/pages.py:1276
+#: r2/lib/pages/pages.py:1318
 msgid "Reddit for iPhone"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1278
+#: r2/lib/pages/pages.py:1320
 msgid "Reddit for Android"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1283
+#: r2/lib/pages/pages.py:1325
 msgid "apps & tools"
 msgstr "アプリとツール"
 
-#: r2/lib/pages/pages.py:1289
+#: r2/lib/pages/pages.py:1331
 msgid "redditgifts"
 msgstr "redditgifts"
 
-#: r2/lib/pages/pages.py:1291
+#: r2/lib/pages/pages.py:1333
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1631
+#: r2/lib/pages/pages.py:1686
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s　メール"
 
-#: r2/lib/pages/pages.py:1725
+#: r2/lib/pages/pages.py:1745
+msgid "ads preferences"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1798
 msgid "sign up or log in"
 msgstr "登録またはログイン"
 
-#: r2/lib/pages/pages.py:1805
+#: r2/lib/pages/pages.py:1878
 msgid "request for permission"
 msgstr "許可をリクエストする"
 
-#: r2/lib/pages/pages.py:1807
+#: r2/lib/pages/pages.py:1880
 msgid "permission"
 msgstr "権限"
 
-#: r2/lib/pages/pages.py:1842 r2/templates/searchform.html:74
+#: r2/lib/pages/pages.py:1915 r2/templates/searchform.html:74
 msgid "enable NSFW results"
 msgstr "閲覧注意とされた結果を含める"
 
-#: r2/lib/pages/pages.py:1865
+#: r2/lib/pages/pages.py:1938
 msgid "bummer"
 msgstr "あらまあ！"
 
-#: r2/lib/pages/pages.py:1877
+#: r2/lib/pages/pages.py:1950
 msgid "this page is no longer available due to a copyright claim."
 msgstr "著作権に関するクレームにより、このページはもう表示出来ません"
 
-#: r2/lib/pages/pages.py:2175
+#: r2/lib/pages/pages.py:2248
 msgid "comments disabled"
 msgstr "コメント無効"
 
-#: r2/lib/pages/pages.py:2616
+#: r2/lib/pages/pages.py:2755
 #, python-format
 msgid "about %(site)s"
 msgstr "%(site)s について"
 
-#: r2/lib/pages/pages.py:2639
+#: r2/lib/pages/pages.py:2778
 msgid "search subreddits by name"
 msgstr "subredditの名前で探索"
 
-#: r2/lib/pages/pages.py:2683
+#: r2/lib/pages/pages.py:2822
 #, python-format
 msgid "your front page subreddits (%s)"
 msgstr "フロントページのsubreddit (%s)"
 
-#: r2/lib/pages/pages.py:2771 r2/templates/createsubreddit.html:442
+#: r2/lib/pages/pages.py:2910 r2/templates/createsubreddit.html:455
 #: r2/templates/spotlightlisting.html:62
 msgid "what's this?"
 msgstr "これは何ですか？"
 
-#: r2/lib/pages/pages.py:2772
+#: r2/lib/pages/pages.py:2911
 msgid "trophy case"
 msgstr "トロフィーケース"
 
-#: r2/lib/pages/pages.py:2782
+#: r2/lib/pages/pages.py:2921
 msgid "public multireddits"
 msgstr "公開中のマルチレディット"
 
-#: r2/lib/pages/pages.py:2789
+#: r2/lib/pages/pages.py:2928
 msgid "hidden multireddits"
 msgstr "非公開のマルチレディット"
 
-#: r2/lib/pages/pages.py:2809
+#: r2/lib/pages/pages.py:2948
 msgid "moderator of"
 msgstr "次のモデレーターです"
 
-#: r2/lib/pages/pages.py:2873
+#: r2/lib/pages/pages.py:3012
 msgid "less than a day"
 msgstr "一日以内"
 
-#: r2/lib/pages/pages.py:2889
+#: r2/lib/pages/pages.py:3028
 #, python-format
 msgid "%(creddits)s gold creddit to give"
 msgid_plural "%(creddits)s gold creddits to give"
 msgstr[0] "与えるための%(creddits)sのゴールドクレジット"
 
-#: r2/lib/pages/pages.py:2896
+#: r2/lib/pages/pages.py:3035
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] ""
 
-#: r2/lib/pages/pages.py:2905
+#: r2/lib/pages/pages.py:3044
 #, python-format
 msgid "give reddit gold to %(user)s to show your appreciation"
 msgstr "あなたの評価の証として、reddit goldを%(user)sに贈る"
 
-#: r2/lib/pages/pages.py:2909
+#: r2/lib/pages/pages.py:3048
 msgid "get extra features and help support reddit with a reddit gold subscription"
 msgstr "reddit goldの登録で、追加機能をゲットして、redditの支援に協力しよう！"
 
-#: r2/lib/pages/pages.py:2913
+#: r2/lib/pages/pages.py:3052
 msgid "renew your reddit gold"
 msgstr "redditゴールドを更新する"
 
-#: r2/lib/pages/pages.py:2923
+#: r2/lib/pages/pages.py:3062
 #, python-format
 msgid "you have helped pay for *%(time)s* of reddit server time."
 msgstr "reddit サーバー時間の *%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:2924
+#: r2/lib/pages/pages.py:3063
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of reddit server time."
 msgstr "/u/%(user)s は reddit サーバー時間の *%%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:2927
+#: r2/lib/pages/pages.py:3066
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of reddit server time."
 msgstr "あなたのためのギフトは reddit サーバー時間の *%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:2929
+#: r2/lib/pages/pages.py:3068
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of reddit server time."
 msgstr "/u/%(user)s のためのギフトは reddit サーバー時間の *%%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:3009
+#: r2/lib/pages/pages.py:3148
 msgid "reddit is a platform for internet communities"
 msgstr "redditはインターネットコミュニティのためのプラットフォームです。"
 
-#: r2/lib/pages/pages.py:3010
+#: r2/lib/pages/pages.py:3149
 msgid "where your votes shape what the world is talking about."
 msgstr "あなたの投票が、世界でかわされる話題を決めるのです。"
 
-#: r2/lib/pages/pages.py:3324 r2/lib/pages/pages.py:3438
+#: r2/lib/pages/pages.py:3463 r2/lib/pages/pages.py:3577
 msgid "add subreddit"
 msgstr "subredditを追加"
 
-#: r2/lib/pages/pages.py:3362
+#: r2/lib/pages/pages.py:3501
 #, python-format
 msgid "raise it to %s"
 msgstr "%sに上がります"
 
-#: r2/lib/pages/pages.py:3364 r2/lib/pages/pages.py:3373
+#: r2/lib/pages/pages.py:3503 r2/lib/pages/pages.py:3512
 #, python-format
 msgid "%s visible"
 msgstr "%sが見えます"
 
-#: r2/lib/pages/pages.py:3371
+#: r2/lib/pages/pages.py:3510
 #, python-format
 msgid "%(bonus)s bonus subreddits"
 msgstr "%(bonus)sのボーナスsubreddit"
 
-#: r2/lib/pages/pages.py:3764
+#: r2/lib/pages/pages.py:3903
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "クレジットカードのゴールド登録があります。あなたのカード (末尾 %(last4)s) は %(date)s に %(amount)s 請求されます。"
 
-#: r2/lib/pages/pages.py:3936
-msgid "try entering those letters again"
-msgstr "もう一度入力してみてください"
-
-#: r2/lib/pages/pages.py:4015 r2/templates/searchform.html:62
+#: r2/lib/pages/pages.py:4147 r2/templates/searchform.html:62
 #: r2/templates/sponsorlookupuser.html:32
 msgid "search"
 msgstr "検索"
 
-#: r2/lib/pages/pages.py:4399 r2/lib/pages/pages.py:4508
+#: r2/lib/pages/pages.py:4531 r2/lib/pages/pages.py:4640
 msgid "added"
 msgstr "追加済み"
 
-#: r2/lib/pages/pages.py:4467 r2/models/modaction.py:143
-#: r2/templates/printablebuttons.html:596
+#: r2/lib/pages/pages.py:4599 r2/models/modaction.py:145
+#: r2/templates/printablebuttons.html:602
 msgid "muted"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4485
+#: r2/lib/pages/pages.py:4617
 msgid "invited"
 msgstr "招待済み"
 
-#: r2/lib/pages/pages.py:4546
+#: r2/lib/pages/pages.py:4678
 msgid "grant flair"
 msgstr "flairを与える"
 
-#: r2/lib/pages/pages.py:4548
+#: r2/lib/pages/pages.py:4680
 msgid "user flair templates"
 msgstr "ユーザー flair テンプレート"
 
-#: r2/lib/pages/pages.py:4550
+#: r2/lib/pages/pages.py:4682
 msgid "link flair templates"
 msgstr "リンク flair テンプレート"
 
-#: r2/lib/pages/pages.py:4929 r2/templates/flairpane.html:76
+#: r2/lib/pages/pages.py:5061 r2/templates/flairpane.html:76
 msgid "none"
 msgstr "なし"
 
-#: r2/lib/pages/pages.py:5071
+#: r2/lib/pages/pages.py:5203
 msgid "suggestions:"
 msgstr "提案:"
 
-#: r2/lib/pages/pages.py:5081
+#: r2/lib/pages/pages.py:5213
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
 msgstr ""
 
-#: r2/lib/pages/pages.py:5808
+#: r2/lib/pages/pages.py:5949
 msgid "start date"
 msgstr "開始日時"
 
-#: r2/lib/pages/pages.py:5809
+#: r2/lib/pages/pages.py:5950
 msgid "end date"
 msgstr "終了日時"
 
-#: r2/lib/pages/pages.py:5811 r2/templates/createsubreddit.html:267
+#: r2/lib/pages/pages.py:5952 r2/templates/createsubreddit.html:267
 msgid "links"
 msgstr "リンク"
 
-#: r2/lib/pages/pages.py:5813 r2/lib/pages/pages.py:5832
+#: r2/lib/pages/pages.py:5954 r2/lib/pages/pages.py:5973
 #: r2/templates/promotedlinktraffic.html:41 r2/templates/timeserieschart.html:37
 msgid "date"
 msgstr "日付"
 
-#: r2/lib/pages/pages.py:5816 r2/templates/promotedlinktraffic.html:129
+#: r2/lib/pages/pages.py:5957 r2/templates/promotedlinktraffic.html:129
 #: r2/templates/refundpage.html:41 r2/templates/sponsorlookupuser.html:34
 msgid "id"
 msgstr "ID"
 
-#: r2/lib/pages/pages.py:5816 r2/lib/pages/pages.py:5835
+#: r2/lib/pages/pages.py:5957 r2/lib/pages/pages.py:5976
 #: r2/templates/promotelinkbase.html:966
 msgid "owner"
 msgstr "所有者"
 
-#: r2/lib/pages/pages.py:5816 r2/templates/newlink.html:102
+#: r2/lib/pages/pages.py:5957 r2/templates/newlink.html:102
 #: r2/templates/newlink.html:186 r2/templates/promotelinkbase.html:127
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5817
+#: r2/lib/pages/pages.py:5958
 msgid "upvotes"
 msgstr "賛成"
 
-#: r2/lib/pages/pages.py:5817
+#: r2/lib/pages/pages.py:5958
 msgid "downvotes"
 msgstr "反対"
 
-#: r2/lib/pages/pages.py:5817 r2/lib/pages/trafficpages.py:287
+#: r2/lib/pages/pages.py:5958 r2/lib/pages/trafficpages.py:287
 #: r2/lib/pages/trafficpages.py:918 r2/templates/promotedlinktraffic.html:46
 #: r2/templates/promotedlinktraffic.html:141
 msgid "clicks"
 msgstr "クリック数"
 
-#: r2/lib/pages/pages.py:5817 r2/lib/pages/trafficpages.py:284
+#: r2/lib/pages/pages.py:5958 r2/lib/pages/trafficpages.py:284
 #: r2/lib/pages/trafficpages.py:408 r2/lib/pages/trafficpages.py:917
 #: r2/templates/adverttrafficsummary.html:36
 #: r2/templates/promotedlinktraffic.html:45 r2/templates/promotelinkbase.html:778
 msgid "impressions"
 msgstr "インプレッション"
 
-#: r2/lib/pages/pages.py:5830
+#: r2/lib/pages/pages.py:5971
 msgid "campaigns"
 msgstr "キャンペーン"
 
-#: r2/lib/pages/pages.py:5835 r2/templates/promotepost.html:13
+#: r2/lib/pages/pages.py:5976 r2/templates/promotepost.html:13
 msgid "link id"
 msgstr "リンクID"
 
-#: r2/lib/pages/pages.py:5835
+#: r2/lib/pages/pages.py:5976
 msgid "campaign id"
 msgstr "キャンペーンID"
 
-#: r2/lib/pages/pages.py:5835 r2/templates/promotedlinktraffic.html:134
+#: r2/lib/pages/pages.py:5976 r2/templates/promotedlinktraffic.html:134
 #: r2/templates/refundpage.html:53
 msgid "target"
 msgstr "ターゲット"
 
-#: r2/lib/pages/pages.py:5836 r2/templates/promotelinkedit.html:169
-msgid "bid"
-msgstr "ビッド"
+#: r2/lib/pages/pages.py:5977
+msgid "total_budget_pennies"
+msgstr ""
 
-#: r2/lib/pages/pages.py:5836
+#: r2/lib/pages/pages.py:5977
 msgid "frontpage clicks"
 msgstr "フロントページのクリック数"
 
-#: r2/lib/pages/pages.py:5836
+#: r2/lib/pages/pages.py:5978
 msgid "frontpage impressions"
 msgstr "フロントページのインプレッション数"
 
-#: r2/lib/pages/pages.py:5837
+#: r2/lib/pages/pages.py:5978
 msgid "subreddit clicks"
 msgstr "subredditクリック数"
 
-#: r2/lib/pages/pages.py:5837
+#: r2/lib/pages/pages.py:5979
 msgid "subreddit impressions"
 msgstr "subredditインプレッション数"
 
-#: r2/lib/pages/pages.py:5838 r2/lib/pages/trafficpages.py:414
+#: r2/lib/pages/pages.py:5979 r2/lib/pages/trafficpages.py:414
 msgid "total clicks"
 msgstr "クリックの合計"
 
-#: r2/lib/pages/pages.py:5838
+#: r2/lib/pages/pages.py:5980
 msgid "total impressions"
 msgstr "合計インプレッション数"
 
-#: r2/lib/pages/pages.py:6041 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:6189 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "アカウント アクティビティ"
 
-#: r2/lib/pages/pages.py:6174
+#: r2/lib/pages/pages.py:6322
 msgid "subscribed"
 msgstr "購読済み"
 
-#: r2/lib/pages/pages.py:6175 r2/templates/preffeeds.html:57
+#: r2/lib/pages/pages.py:6323 r2/templates/preffeeds.html:57
 msgid "your front page"
 msgstr "あなたのフロントページ"
 
-#: r2/lib/pages/pages.py:6178 r2/lib/pages/pages.py:6183
+#: r2/lib/pages/pages.py:6326 r2/lib/pages/pages.py:6331
 #: r2/templates/preffeeds.html:80 r2/templates/preffeeds.html:103
 msgid "everything"
 msgstr "全て"
 
-#: r2/lib/pages/pages.py:6181 r2/lib/pages/pages.py:6184
+#: r2/lib/pages/pages.py:6329 r2/lib/pages/pages.py:6332
 msgid "from all subreddits"
 msgstr "全部のsubredditより"
 
-#: r2/lib/pages/pages.py:6186
+#: r2/lib/pages/pages.py:6334
 msgid "moderating"
 msgstr "モデレーティング"
 
-#: r2/lib/pages/pages.py:6187
+#: r2/lib/pages/pages.py:6335
 msgid "subreddits you mod"
 msgstr "あなたがモデレートしているsubreddit"
 
-#: r2/lib/pages/pages.py:6193
+#: r2/lib/pages/pages.py:6341
 msgid "gold perks"
 msgstr "金の特典."
 
-#: r2/lib/pages/pages.py:6207
+#: r2/lib/pages/pages.py:6355
 msgid "explore multis"
 msgstr "マルチレディットを探す"
 
-#: r2/lib/pages/pages.py:6341
+#: r2/lib/pages/pages.py:6489
 msgid "your subscribed subreddits"
 msgstr "購読済みのサブレディット"
 
-#: r2/lib/pages/pages.py:6454
+#: r2/lib/pages/pages.py:6602
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "この紹介リンクは都市レベルで設定されるため、あなたの現在地を基準にして表示されることがあります。([learn more](%(link)s))"
 
-#: r2/lib/pages/pages.py:6458
+#: r2/lib/pages/pages.py:6606
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "この紹介リンクは国レベルで設定されるため、あなたの現在地を基準にして表示されることがあります。([参考](%(link)s))"
@@ -4149,9 +4159,9 @@ msgstr "使った/費やした"
 msgid "view"
 msgstr "閲覧"
 
-#: r2/lib/pages/wiki.py:116 r2/templates/paymentform.html:225
-#: r2/templates/prefapps.html:90 r2/templates/printablebuttons.html:337
-#: r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:496
+#: r2/lib/pages/wiki.py:116 r2/templates/paymentform.html:217
+#: r2/templates/prefapps.html:90 r2/templates/printablebuttons.html:343
+#: r2/templates/printablebuttons.html:381 r2/templates/printablebuttons.html:502
 #: r2/templates/renderablecampaign.html:201 r2/templates/wrappeduser.html:88
 #: ../../liveupdate/reddit_liveupdate/permissions.py:24
 msgid "edit"
@@ -4162,7 +4172,7 @@ msgid "talk"
 msgstr "トーク"
 
 #: r2/lib/pages/wiki.py:120 r2/lib/pages/wiki.py:190
-#: ../../liveupdate/reddit_liveupdate/pages.py:129
+#: ../../liveupdate/reddit_liveupdate/pages.py:128
 #: ../../liveupdate/reddit_liveupdate/permissions.py:19
 msgid "settings"
 msgstr "設定"
@@ -4224,108 +4234,108 @@ msgstr "議論はこのwikiページへのサイト全体のリンクです。"
 msgid "Submit a link to this wiki page or see other discussions about this wiki page."
 msgstr "このwikiページにリンクを投稿するか、このwikiページについての他の議論を見ましょう。"
 
-#: r2/lib/validator/validator.py:2107
+#: r2/lib/validator/validator.py:2087
 #, python-format
 msgid "%(min)d to any"
 msgstr "%(min)d～任意"
 
-#: r2/lib/validator/validator.py:2109
+#: r2/lib/validator/validator.py:2089
 #, python-format
 msgid "any to %(max)d"
 msgstr "任意～%(max)d"
 
-#: r2/lib/validator/validator.py:2111
+#: r2/lib/validator/validator.py:2091
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)dから%(max)dまで"
 
-#: r2/lib/validator/validator.py:2829
+#: r2/lib/validator/validator.py:2809
 msgid "please provide a first name"
 msgstr "名を入力してください"
 
-#: r2/lib/validator/validator.py:2831
+#: r2/lib/validator/validator.py:2811
 msgid "please provide a last name"
 msgstr "姓を入力してください"
 
-#: r2/lib/validator/validator.py:2833
+#: r2/lib/validator/validator.py:2813
 msgid "please provide an address"
 msgstr "住所を記入してください"
 
-#: r2/lib/validator/validator.py:2835
+#: r2/lib/validator/validator.py:2815
 msgid "please provide your city"
 msgstr "都市を記入してください"
 
-#: r2/lib/validator/validator.py:2837
+#: r2/lib/validator/validator.py:2817
 msgid "please provide your state"
 msgstr "州、又は都道府県を記入してください"
 
-#: r2/lib/validator/validator.py:2839
+#: r2/lib/validator/validator.py:2819
 msgid "please provide your zip or post code"
 msgstr "郵便番号を記入してください"
 
-#: r2/lib/validator/validator.py:2841
+#: r2/lib/validator/validator.py:2821
 msgid "please provide your country"
 msgstr "あなたの国を提供してください"
 
-#: r2/lib/validator/validator.py:2858
+#: r2/lib/validator/validator.py:2838
 #, python-format
 msgid "max length %d characters"
 msgstr "最大%d文字"
 
-#: r2/lib/validator/validator.py:2880
+#: r2/lib/validator/validator.py:2860
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "クレジットカード番号は13-16桁で入力してください"
 
-#: r2/lib/validator/validator.py:2885
+#: r2/lib/validator/validator.py:2865
 msgid "dates should be YYYY-MM"
 msgstr "日付は　年（４桁）・月（２桁）という形式で入力してください"
 
-#: r2/lib/validator/validator.py:2893
+#: r2/lib/validator/validator.py:2873
 msgid "month must be in the range 01..12"
 msgstr "月は01..12の範囲でなければなりません"
 
-#: r2/lib/validator/validator.py:2896
+#: r2/lib/validator/validator.py:2876
 msgid "expiration date must be in the future"
 msgstr "有効期限は未来でなければなりません"
 
-#: r2/lib/validator/validator.py:2901
+#: r2/lib/validator/validator.py:2881
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "セキュリティーコードは3-4桁で入力してください"
 
-#: r2/lib/validator/validator.py:2939
+#: r2/lib/validator/validator.py:2919
 msgid "a user by name"
 msgstr "という名のユーザ"
 
-#: r2/lib/validator/validator.py:2954
+#: r2/lib/validator/validator.py:2934
 msgid "a [fullname](#fullname) of a link"
 msgstr "リンクの[正式な名前](#fullname)"
 
-#: r2/lib/validator/validator.py:3056
+#: r2/lib/validator/validator.py:3036
 msgid "an app"
 msgstr "アプリ"
 
-#: r2/lib/validator/validator.py:3073
+#: r2/lib/validator/validator.py:3053
 msgid "an app developed by the user"
 msgstr "ユーザーに開発されたアプリ"
 
-#: r2/lib/validator/validator.py:3296
+#: r2/lib/validator/validator.py:3276
 msgid "no spaces allowed"
 msgstr "空白は許可されません"
 
-#: r2/lib/validator/validator.py:3298
+#: r2/lib/validator/validator.py:3278
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "無効な文字: '%s'"
 
-#: r2/lib/validator/validator.py:3300
+#: r2/lib/validator/validator.py:3280
 msgid "can't start with a '_'"
 msgstr "'_' で始めることはできません"
 
-#: r2/lib/validator/validator.py:3302
+#: r2/lib/validator/validator.py:3282
 msgid "that name is too short"
 msgstr "名前が短すぎます"
 
-#: r2/lib/validator/validator.py:3304
+#: r2/lib/validator/validator.py:3284
 msgid "that name is too long"
 msgstr "名前が長すぎます"
 
@@ -4426,122 +4436,122 @@ msgid_plural "redditors have gifted %(months)d months of reddit gold to %(recipi
 msgstr[0] "この投稿の %(recipient)s に対して、レディターが reddit ゴールドを贈りました。\n"
 "この投稿の %(recipient)s に対して、レディターたちが %(months)d か月分の reddit ゴールドを贈りました。"
 
-#: r2/models/link.py:1004
+#: r2/models/link.py:1056
 #, python-format
 msgid "by %(author)s to %(reddit)s"
 msgstr "%(reddit)sへ%(author)sが"
 
-#: r2/models/link.py:1007 r2/templates/adminnotessidebar.html:47
+#: r2/models/link.py:1059 r2/templates/adminnotessidebar.html:47
 #, python-format
 msgid "by %(author)s"
 msgstr "%(author)sによる"
 
-#: r2/models/link.py:1017
+#: r2/models/link.py:1069
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr "%(when)s %(lastedited)s に投稿した %(score)s"
 
-#: r2/models/link.py:1026
+#: r2/models/link.py:1078
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(reddit)s"
 msgstr "%(author)s が %(reddit)s に  %(when)s  %(lastedited)s 投稿"
 
-#: r2/models/link.py:1034
+#: r2/models/link.py:1086
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "%(author)s が %(when)s  %(lastedited)s 投稿"
 
-#: r2/models/link.py:1044
+#: r2/models/link.py:1096
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "%(score)s  %(when)s  %(lastedited)s 投稿"
 
-#: r2/models/link.py:1052
+#: r2/models/link.py:1104
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(reddit)s"
 msgstr "%(author)s が %(reddit)s に %(when)s 投稿"
 
-#: r2/models/link.py:1059
+#: r2/models/link.py:1111
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr "%(author)s が %(when)s 投稿"
 
-#: r2/models/link.py:1966
+#: r2/models/link.py:2056
 #, python-format
 msgid "%(link)s by %(author)s [promoted post]"
 msgstr ""
 
-#: r2/models/link.py:1968
+#: r2/models/link.py:2058
 #, python-format
 msgid "%(link)s by %(author)s in %(subreddit)s"
 msgstr "%(subreddit)s 内の %(author)s によるリンク %(link)s"
 
-#: r2/models/link.py:1995
+#: r2/models/link.py:2085
 msgid "comment score below threshold"
 msgstr "スコアが基準値未満のコメント"
 
-#: r2/models/link.py:2000
+#: r2/models/link.py:2090
 msgid "blocked user"
 msgstr "ブロックされたユーザ"
 
-#: r2/models/link.py:2591
+#: r2/models/link.py:2689
 msgid "username mention"
 msgstr "ユーザー名の言及"
 
-#: r2/models/link.py:2594 r2/models/link.py:2656
+#: r2/models/link.py:2692 r2/models/link.py:2754
 #, python-format
 msgid "from %(author)s via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2608
+#: r2/models/link.py:2706
 msgid "[message from blocked subreddit]"
 msgstr "[ブロックされているサブレディットからのメッセージ]"
 
-#: r2/models/link.py:2628 r2/models/link.py:2634
+#: r2/models/link.py:2726 r2/models/link.py:2732
 #, python-format
 msgid "subreddit message via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2638 r2/models/link.py:2661
+#: r2/models/link.py:2736 r2/models/link.py:2759
 #, python-format
 msgid "to %(dest)s via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2642 r2/models/link.py:2667
+#: r2/models/link.py:2740 r2/models/link.py:2765
 #, python-format
 msgid "from %(author)s via %(subreddit)s to %(dest)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2659
+#: r2/models/link.py:2757
 #, python-format
 msgid "to %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2664
+#: r2/models/link.py:2762
 #, python-format
 msgid "from %(author)s to %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2683
+#: r2/models/link.py:2781
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "%(when)s %(author)s から送信"
 
-#: r2/models/link.py:2685
+#: r2/models/link.py:2783
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "%(when)s  %(dest)s に送信"
 
-#: r2/models/link.py:2687
+#: r2/models/link.py:2785
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "%(when)s %(author)s から %(dest)s へ送信"
 
-#: r2/models/link.py:2711
+#: r2/models/link.py:2809
 msgid "[message from blocked user]"
 msgstr "[ブロックしたユーザからのメッセージ]"
 
-#: r2/models/link.py:2712
+#: r2/models/link.py:2810
 msgid "[unblock user to see this message]"
 msgstr "[このメッセージを表示するにはユーザに対するブロックを解除してください]"
 
@@ -4724,10 +4734,6 @@ msgstr ""
 msgid "[selfserve] a user has committed fraud"
 msgstr ""
 
-#: r2/models/mail_queue.py:379
-msgid "[reddit] message notification"
-msgstr "[reddit]メッセージ通知"
-
 #: r2/models/mail_queue.py:380
 msgid "[reddit] Ads Alert"
 msgstr ""
@@ -4796,7 +4802,7 @@ msgstr "投稿者を除名する"
 msgid "edit settings"
 msgstr "設定を編集する"
 
-#: r2/models/modaction.py:83 r2/templates/printablebuttons.html:112
+#: r2/models/modaction.py:83 r2/templates/printablebuttons.html:118
 msgid "distinguish"
 msgstr "区別する"
 
@@ -4832,8 +4838,8 @@ msgstr "wiki校正ページ"
 msgid "wiki page permissions"
 msgstr "wikiページ権限"
 
-#: r2/models/modaction.py:92 r2/models/modaction.py:202
-#: r2/templates/printablebuttons.html:222
+#: r2/models/modaction.py:92 r2/models/modaction.py:206
+#: r2/templates/printablebuttons.html:228
 msgid "ignore reports"
 msgstr "報告を無視する"
 
@@ -4845,7 +4851,7 @@ msgstr "報告を無視しない"
 msgid "permissions"
 msgstr "権限"
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:136
+#: r2/models/modaction.py:95 r2/models/modaction.py:138
 msgid "set suggested sort"
 msgstr ""
 
@@ -4873,11 +4879,11 @@ msgstr ""
 msgid "unlock post"
 msgstr ""
 
-#: r2/models/modaction.py:102 r2/templates/printablebuttons.html:596
+#: r2/models/modaction.py:102 r2/templates/printablebuttons.html:602
 msgid "mute user"
 msgstr ""
 
-#: r2/models/modaction.py:103 r2/templates/printablebuttons.html:593
+#: r2/models/modaction.py:103 r2/templates/printablebuttons.html:599
 msgid "unmute user"
 msgstr ""
 
@@ -4893,334 +4899,351 @@ msgstr ""
 msgid "delete rule"
 msgstr ""
 
-#: r2/models/modaction.py:110
+#: r2/models/modaction.py:107
+msgid "mark spoiler"
+msgstr ""
+
+#: r2/models/modaction.py:108
+msgid "unmark spoiler"
+msgstr ""
+
+#: r2/models/modaction.py:112
 msgid "wiki banned"
 msgstr "禁止されたwiki"
 
-#: r2/models/modaction.py:111
+#: r2/models/modaction.py:113
 msgid "unbanned from wiki"
 msgstr "wikiからの禁止を解除"
 
-#: r2/models/modaction.py:112
+#: r2/models/modaction.py:114
 msgid "added wiki contributor"
 msgstr "追加されたwiki貢献者"
 
-#: r2/models/modaction.py:113
+#: r2/models/modaction.py:115
 msgid "removed wiki contributor"
 msgstr "削除されたwiki貢献者"
 
-#: r2/models/modaction.py:114
+#: r2/models/modaction.py:116
 msgid "unbanned"
 msgstr "排除を解除しました"
 
-#: r2/models/modaction.py:115 r2/models/modaction.py:117
+#: r2/models/modaction.py:117 r2/models/modaction.py:119
 #: r2/templates/linkcommentssettings.html:119 r2/templates/printablebuttons.html:45
-#: r2/templates/printablebuttons.html:258 r2/templates/trophycase.html:48
+#: r2/templates/printablebuttons.html:264 r2/templates/trophycase.html:48
 msgid "removed"
 msgstr "削除済み"
 
-#: r2/models/modaction.py:116 r2/models/modaction.py:118 r2/models/modaction.py:152
-#: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:261
+#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/models/modaction.py:156
+#: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:267
 #: r2/templates/renderablecampaign.html:193 r2/templates/subredditinfobar.html:138
 msgid "approved"
 msgstr "承認済み"
 
-#: r2/models/modaction.py:119
+#: r2/models/modaction.py:121
 msgid "added moderator"
 msgstr "モデレーターを追加しました"
 
-#: r2/models/modaction.py:120
+#: r2/models/modaction.py:122
 msgid "removed moderator"
 msgstr "モデレーターを除去しました"
 
-#: r2/models/modaction.py:121
+#: r2/models/modaction.py:123
 msgid "invited moderator"
 msgstr "招待されたモデレーター"
 
-#: r2/models/modaction.py:122
+#: r2/models/modaction.py:124
 msgid "uninvited moderator"
 msgstr "招待されていないモデレーター"
 
-#: r2/models/modaction.py:123
+#: r2/models/modaction.py:125
 msgid "accepted moderator invitation"
 msgstr "承認されたモデレーターの招待"
 
-#: r2/models/modaction.py:124
+#: r2/models/modaction.py:126
 msgid "added approved contributor"
 msgstr "承認済み貢献者が追加されました"
 
-#: r2/models/modaction.py:125
+#: r2/models/modaction.py:127
 msgid "removed approved contributor"
 msgstr "承認済み貢献者が削除されました"
 
-#: r2/models/modaction.py:126
+#: r2/models/modaction.py:128
 msgid "edited settings"
 msgstr "設定が編集されました"
 
-#: r2/models/modaction.py:127
+#: r2/models/modaction.py:129
 msgid "edited flair"
 msgstr "編集した flair"
 
-#: r2/models/modaction.py:128
+#: r2/models/modaction.py:130
 msgid "edited wiki page"
 msgstr "編集されたwikiページ"
 
-#: r2/models/modaction.py:129
+#: r2/models/modaction.py:131
 msgid "changed wiki page permission level"
 msgstr "wikiページの許可レベルを変更"
 
-#: r2/models/modaction.py:130
+#: r2/models/modaction.py:132
 msgid "changed wiki page listing preference"
 msgstr "変更されたウィキページのリスト表示設定"
 
-#: r2/models/modaction.py:131
+#: r2/models/modaction.py:133
 msgid "distinguished"
 msgstr "区別済み"
 
-#: r2/models/modaction.py:132
+#: r2/models/modaction.py:134
 msgid "marked nsfw"
 msgstr "閲覧注意にしました"
 
-#: r2/models/modaction.py:133
+#: r2/models/modaction.py:135
 msgid "ignored reports"
 msgstr "無視された報告"
 
-#: r2/models/modaction.py:134
+#: r2/models/modaction.py:136
 msgid "unignored reports"
 msgstr "無視されなかった報告"
 
-#: r2/models/modaction.py:135
+#: r2/models/modaction.py:137
 msgid "changed permissions on"
 msgstr "以下で権限が変更されました："
 
-#: r2/models/modaction.py:137
+#: r2/models/modaction.py:139
 msgid "stickied"
 msgstr "スティッキーされました"
 
-#: r2/models/modaction.py:138
+#: r2/models/modaction.py:140
 msgid "unstickied"
 msgstr "スティッキー解除されました"
 
-#: r2/models/modaction.py:139
+#: r2/models/modaction.py:141
 msgid "set contest mode on"
 msgstr ""
 
-#: r2/models/modaction.py:140
+#: r2/models/modaction.py:142
 msgid "unset contest mode on"
 msgstr ""
 
-#: r2/models/modaction.py:141 r2/templates/lockedinterstitial.html:31
+#: r2/models/modaction.py:143 r2/templates/lockedinterstitial.html:31
 #: r2/templates/printablebuttons.html:73
 msgid "locked"
 msgstr ""
 
-#: r2/models/modaction.py:142 r2/templates/printablebuttons.html:76
+#: r2/models/modaction.py:144 r2/templates/printablebuttons.html:76
 msgid "unlocked"
 msgstr ""
 
-#: r2/models/modaction.py:144 r2/templates/printablebuttons.html:593
+#: r2/models/modaction.py:146 r2/templates/printablebuttons.html:599
 msgid "unmuted"
 msgstr ""
 
-#: r2/models/modaction.py:145
+#: r2/models/modaction.py:147
 msgid "created rule"
 msgstr ""
 
-#: r2/models/modaction.py:146
+#: r2/models/modaction.py:148
 msgid "edited rule"
 msgstr ""
 
-#: r2/models/modaction.py:147
+#: r2/models/modaction.py:149
 msgid "deleted rule"
 msgstr ""
 
+#: r2/models/modaction.py:150
+msgid "marked spoiler"
+msgstr ""
+
 #: r2/models/modaction.py:151
+msgid "unmarked spoiler"
+msgstr ""
+
+#: r2/models/modaction.py:155
 msgid "unspam"
 msgstr "アンスパム"
 
-#: r2/models/modaction.py:154
+#: r2/models/modaction.py:158
 msgid "confirmed spam"
 msgstr "確認済みのスパム"
 
-#: r2/models/modaction.py:155
+#: r2/models/modaction.py:159
 msgid "removed not spam"
 msgstr "削除されないスパム"
 
-#: r2/models/modaction.py:156
+#: r2/models/modaction.py:160
 msgid "removed spam"
 msgstr "スパムを削除しました"
 
-#: r2/models/modaction.py:158
+#: r2/models/modaction.py:162
 msgid "removed self"
 msgstr "自分自身を除名しました"
 
-#: r2/models/modaction.py:160 r2/templates/createsubreddit.html:72
+#: r2/models/modaction.py:164 r2/templates/createsubreddit.html:72
 #: r2/templates/newlink.html:153 r2/templates/newlink.html:177
 #: r2/templates/promotelinkbase.html:78
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "タイトル"
 
-#: r2/models/modaction.py:161 r2/templates/createsubreddit.html:86
+#: r2/models/modaction.py:165 r2/templates/createsubreddit.html:86
 #: r2/templates/prefapps.html:147 r2/templates/prefapps.html:342
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:31
 msgid "description"
 msgstr "説明"
 
-#: r2/models/modaction.py:162 r2/templates/createsubreddit.html:103
+#: r2/models/modaction.py:166 r2/templates/createsubreddit.html:103
 msgid "sidebar"
 msgstr "サイドバー"
 
-#: r2/models/modaction.py:163 r2/templates/createsubreddit.html:121
+#: r2/models/modaction.py:167 r2/templates/createsubreddit.html:121
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "言語"
 
-#: r2/models/modaction.py:164 r2/templates/createsubreddit.html:132
+#: r2/models/modaction.py:168 r2/templates/createsubreddit.html:132
 msgid "type"
 msgstr "タイプ"
 
-#: r2/models/modaction.py:165
+#: r2/models/modaction.py:169
 msgid "link type"
 msgstr "リンクの種類"
 
-#: r2/models/modaction.py:166
+#: r2/models/modaction.py:170
 msgid "submit link button label"
 msgstr "リンク投稿ラベル"
 
-#: r2/models/modaction.py:167
+#: r2/models/modaction.py:171
 msgid "submit text post button label"
 msgstr "テキスト投稿送信ボタンラベル"
 
-#: r2/models/modaction.py:168
+#: r2/models/modaction.py:172
 msgid "comment score hide period"
 msgstr "コメントスコアを"
 
-#: r2/models/modaction.py:169
+#: r2/models/modaction.py:173
 msgid "toggle viewers must be over 18"
 msgstr "18以上にしなければならない事をトグルする"
 
-#: r2/models/modaction.py:170
+#: r2/models/modaction.py:174
 msgid "toggle allow in default/trending lists"
 msgstr "デフォルト/トレンド のリストを入れ替え可能にする"
 
-#: r2/models/modaction.py:171
+#: r2/models/modaction.py:175
 msgid "toggle show thumbnail images of content"
 msgstr "コンテンツのサムネイル表示を切り替える"
 
-#: r2/models/modaction.py:172
+#: r2/models/modaction.py:176
 msgid "toggle public traffic stats page"
 msgstr "公開アクセス状況ページを切り替え"
 
-#: r2/models/modaction.py:173
+#: r2/models/modaction.py:177
 msgid "toggle collapse deleted/removed comments"
 msgstr ""
 
-#: r2/models/modaction.py:174
+#: r2/models/modaction.py:178
 msgid "toggle exclude banned users' posts from modqueue"
 msgstr "modqueueからサイト全体で禁止されたユーザーの除外切り替え"
 
-#: r2/models/modaction.py:176
+#: r2/models/modaction.py:180
 msgid "toggle show sidebar from cname"
 msgstr "cnameからサイドバーの表示を切り替える"
 
-#: r2/models/modaction.py:177
+#: r2/models/modaction.py:181
 msgid "toggle custom CSS from cname"
 msgstr "cname からカスタム CSS を切り替える"
 
-#: r2/models/modaction.py:178
+#: r2/models/modaction.py:182
 msgid "header title"
 msgstr "ヘッダーのタイトル"
 
-#: r2/models/modaction.py:180
+#: r2/models/modaction.py:184
 msgid "delete header image"
 msgstr "ヘッダーの画像を削除する"
 
-#: r2/models/modaction.py:181
+#: r2/models/modaction.py:185
 msgid "delete image"
 msgstr "画像を削除する"
 
-#: r2/models/modaction.py:182
+#: r2/models/modaction.py:186
 msgid "delete icon image"
 msgstr "アイコン画像を削除する"
 
-#: r2/models/modaction.py:183
+#: r2/models/modaction.py:187
 msgid "delete banner image"
 msgstr "バナー画像を削除する"
 
-#: r2/models/modaction.py:184 r2/templates/createsubreddit.html:497
+#: r2/models/modaction.py:188 r2/templates/createsubreddit.html:510
 msgid "upload header image"
 msgstr "ヘッダーの画像をアップロードする"
 
-#: r2/models/modaction.py:185
+#: r2/models/modaction.py:189
 msgid "upload icon image"
 msgstr "アイコン画像をアップロードする"
 
-#: r2/models/modaction.py:186
+#: r2/models/modaction.py:190
 msgid "upload banner image"
 msgstr "バナー画像をアップロードする"
 
-#: r2/models/modaction.py:187
+#: r2/models/modaction.py:191
 msgid "upload image"
 msgstr "画像をアップロードする"
 
-#: r2/models/modaction.py:189
+#: r2/models/modaction.py:193
 msgid "add/edit flair"
 msgstr "flairを追加・編集する"
 
-#: r2/models/modaction.py:190
+#: r2/models/modaction.py:194
 msgid "delete flair"
 msgstr "flairを削除する"
 
-#: r2/models/modaction.py:191
+#: r2/models/modaction.py:195
 msgid "edit by csv"
 msgstr "csvによる編集"
 
-#: r2/models/modaction.py:192
+#: r2/models/modaction.py:196
 msgid "toggle flair enabled"
 msgstr "フレアーの有効を切り替える"
 
-#: r2/models/modaction.py:193
+#: r2/models/modaction.py:197
 msgid "toggle user flair position"
 msgstr "ユーザーのフレアーポジションを切り替える"
 
-#: r2/models/modaction.py:194
+#: r2/models/modaction.py:198
 msgid "toggle link flair position"
 msgstr "リンクのフレアーポジションを切り替える"
 
-#: r2/models/modaction.py:195
+#: r2/models/modaction.py:199
 msgid "toggle user assigned flair enabled"
 msgstr "有効なフレアを割り当てられたユーザーを切り替える"
 
-#: r2/models/modaction.py:196
+#: r2/models/modaction.py:200
 msgid "toggle submitter assigned link flair enabled"
 msgstr "有効なリンクフレアーを割り当てられた投稿者を切り替える"
 
-#: r2/models/modaction.py:197
+#: r2/models/modaction.py:201
 msgid "add/edit flair templates"
 msgstr "flairのテンプレートを追加・編集する"
 
-#: r2/models/modaction.py:198
+#: r2/models/modaction.py:202
 msgid "delete flair template"
 msgstr "flairのテンプレートを削除する"
 
-#: r2/models/modaction.py:199
+#: r2/models/modaction.py:203
 msgid "clear flair templates"
 msgstr "flairのテンプレートを全て消去する"
 
-#: r2/models/modaction.py:201 r2/templates/createsubreddit.html:533
-#: r2/templates/createsubreddit.html:539 r2/templates/filteredinfobar.html:39
-#: r2/templates/multiinfobar.html:125 r2/templates/prefapps.html:79
-#: r2/templates/printablebuttons.html:45 r2/templates/printablebuttons.html:238
-#: r2/templates/trophycase.html:48 r2/templates/usertableitem.html:59
+#: r2/models/modaction.py:205 r2/public/static/js/link-websockets.js:255
+#: r2/templates/createsubreddit.html:546 r2/templates/createsubreddit.html:552
+#: r2/templates/filteredinfobar.html:39 r2/templates/multiinfobar.html:125
+#: r2/templates/prefapps.html:79 r2/templates/printablebuttons.html:45
+#: r2/templates/printablebuttons.html:244 r2/templates/trophycase.html:48
+#: r2/templates/usertableitem.html:59
 msgid "remove"
 msgstr "削除する"
 
-#: r2/models/modaction.py:204
+#: r2/models/modaction.py:208
 msgid "set permissions on moderator"
 msgstr "モデレーターに権限を設定"
 
-#: r2/models/modaction.py:205
+#: r2/models/modaction.py:209
 msgid "set permissions on moderator invitation"
 msgstr "モデレーターの招待に権限を設定"
 
@@ -5266,19 +5289,19 @@ msgstr ""
 msgid "interest: %s"
 msgstr ""
 
-#: r2/models/rules.py:34 ../../liveupdate/reddit_liveupdate/pages.py:257
+#: r2/models/rules.py:34 ../../liveupdate/reddit_liveupdate/pages.py:238
 msgid "vote manipulation"
 msgstr "投票操作"
 
-#: r2/models/rules.py:35 ../../liveupdate/reddit_liveupdate/pages.py:258
+#: r2/models/rules.py:35 ../../liveupdate/reddit_liveupdate/pages.py:239
 msgid "personal information"
 msgstr "個人情報"
 
-#: r2/models/rules.py:36 ../../liveupdate/reddit_liveupdate/pages.py:259
+#: r2/models/rules.py:36 ../../liveupdate/reddit_liveupdate/pages.py:240
 msgid "sexualizing minors"
 msgstr "児童ポルノ"
 
-#: r2/models/rules.py:37 ../../liveupdate/reddit_liveupdate/pages.py:260
+#: r2/models/rules.py:37 ../../liveupdate/reddit_liveupdate/pages.py:241
 msgid "breaking reddit"
 msgstr "redditの構成の破壊"
 
@@ -5294,90 +5317,90 @@ msgstr ""
 msgid "Threatening, harassing, or inciting violence"
 msgstr ""
 
-#: r2/models/subreddit.py:319
+#: r2/models/subreddit.py:320
 msgid "red"
 msgstr ""
 
-#: r2/models/subreddit.py:320
+#: r2/models/subreddit.py:321
 msgid "orangered"
 msgstr "橙色"
 
-#: r2/models/subreddit.py:321
+#: r2/models/subreddit.py:322
 msgid "orange"
 msgstr "オレンジ色"
 
-#: r2/models/subreddit.py:322
+#: r2/models/subreddit.py:323
 msgid "mango"
 msgstr ""
 
-#: r2/models/subreddit.py:323
+#: r2/models/subreddit.py:324
 msgid "lime"
 msgstr "黄緑色"
 
-#: r2/models/subreddit.py:324
+#: r2/models/subreddit.py:325
 msgid "green"
 msgstr "緑"
 
-#: r2/models/subreddit.py:325
+#: r2/models/subreddit.py:326
 msgid "mint"
 msgstr ""
 
-#: r2/models/subreddit.py:326
+#: r2/models/subreddit.py:327
 msgid "teal"
 msgstr ""
 
-#: r2/models/subreddit.py:327
+#: r2/models/subreddit.py:328
 msgid "blue"
 msgstr "青色"
 
-#: r2/models/subreddit.py:328
+#: r2/models/subreddit.py:329
 msgid "alien blue"
 msgstr "alien blue"
 
-#: r2/models/subreddit.py:329
+#: r2/models/subreddit.py:330
 msgid "pink"
 msgstr ""
 
-#: r2/models/subreddit.py:330
+#: r2/models/subreddit.py:331
 msgid "purple"
 msgstr ""
 
-#: r2/models/subreddit.py:332
+#: r2/models/subreddit.py:333
 msgid "brown"
 msgstr ""
 
-#: r2/models/subreddit.py:333
+#: r2/models/subreddit.py:334
 msgid "pale grey"
 msgstr ""
 
-#: r2/models/subreddit.py:334
+#: r2/models/subreddit.py:335
 msgid "grey"
 msgstr ""
 
-#: r2/models/subreddit.py:335
+#: r2/models/subreddit.py:336
 msgid "dark grey"
 msgstr ""
 
-#: r2/models/subreddit.py:336
+#: r2/models/subreddit.py:337
 msgid "semi black"
 msgstr ""
 
-#: r2/models/subreddit.py:1842 r2/models/subreddit.py:1884
+#: r2/models/subreddit.py:1868 r2/models/subreddit.py:1910
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (フィルタ済み)"
 
-#: r2/models/subreddit.py:2095
+#: r2/models/subreddit.py:2121
 #, python-format
 msgid "posts from %s"
 msgstr "%s からの投稿"
 
-#: r2/models/subreddit.py:2457
+#: r2/models/subreddit.py:2483
 #, python-format
 msgid "%s subreddits curated by /u/%s"
 msgstr "%s /u/%s が主催する subreddit"
 
-#: r2/models/subreddit.py:2783
+#: r2/models/subreddit.py:2809
 #, python-format
 msgid "%(domain)s on %(reddit.com)s"
 msgstr " %(reddit.com)s の %(domain)s"
@@ -5688,35 +5711,91 @@ msgstr ""
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "エラーが発生しました。後でもう一度試してみてください。(ステータス: %(status)s)"
 
-#: r2/public/static/js/jquery.reddit.js:345 r2/public/static/js/saved.js:166
-#: r2/public/static/js/saved.js:181 r2/templates/printablebuttons.html:352
-#: r2/templates/printablebuttons.html:465
+#: r2/public/static/js/jquery.reddit.js:352 r2/public/static/js/saved.js:166
+#: r2/public/static/js/saved.js:181 r2/templates/printablebuttons.html:358
+#: r2/templates/printablebuttons.html:471
 msgid "unsave"
 msgstr "保存解除"
 
-#: r2/public/static/js/link-websockets.js:125
+#: r2/public/static/js/link-websockets.js:128
 msgid "Show 1 new comment"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:127
+#: r2/public/static/js/link-websockets.js:130
 #, python-format
 msgid "Show %(count)s new comments"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:133
+#: r2/public/static/js/link-websockets.js:136
 #, python-format
 msgid "%(count)s comment"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:135
+#: r2/public/static/js/link-websockets.js:138
 #, python-format
 msgid "%(count)s comments"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:137
+#: r2/public/static/js/link-websockets.js:140
 #, python-format
 msgid "all %(count)s comments"
 msgstr ""
+
+#: r2/public/static/js/link-websockets.js:237
+#, python-format
+msgid "%(num)s %(point)s"
+msgstr ""
+
+#: r2/public/static/js/link-websockets.js:238
+msgid "points"
+msgstr ""
+
+#: r2/public/static/js/link-websockets.js:252
+#: r2/templates/printablebuttons.html:461 r2/templates/printablebuttons.html:564
+msgid "permalink"
+msgstr "固定リンク"
+
+#: r2/public/static/js/link-websockets.js:253
+#: r2/templates/printablebuttons.html:495
+msgid "parent"
+msgstr "親コメント"
+
+#: r2/public/static/js/link-websockets.js:256 r2/templates/printablebuttons.html:68
+#: r2/templates/promotelinkbase.html:959 r2/templates/subredditreportform.html:46
+#: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:92
+msgid "report"
+msgstr "問題を報告"
+
+#: r2/public/static/js/link-websockets.js:257
+#: r2/templates/printablebuttons.html:221
+msgid "give gold"
+msgstr "goldを贈る"
+
+#: r2/public/static/js/link-websockets.js:258 r2/templates/morechildren.html:38
+msgid "reply"
+msgid_plural "replies"
+msgstr[0] "返事"
+
+#: r2/public/static/js/link-websockets.js:259 r2/public/static/js/ui.js:1070
+#: r2/templates/goldsubscription.html:47 r2/templates/printablebuttons.html:681
+#: r2/templates/printablebuttons.html:703
+msgid "are you sure?"
+msgstr "本当にいいですか?"
+
+#: r2/public/static/js/link-websockets.js:260 r2/public/static/js/ui.js:1071
+#: r2/templates/fraudform.html:32 r2/templates/goldsubscription.html:50
+#: r2/templates/optout.html:37 r2/templates/optout.html:53
+#: r2/templates/printablebuttons.html:683 r2/templates/printablebuttons.html:732
+msgid "yes"
+msgstr "はい"
+
+#: r2/public/static/js/link-websockets.js:261 r2/public/static/js/ui.js:1072
+#: r2/templates/fraudform.html:37 r2/templates/goldsubscription.html:53
+#: r2/templates/optout.html:40 r2/templates/optout.html:56
+#: r2/templates/printablebuttons.html:177 r2/templates/printablebuttons.html:685
+#: r2/templates/printablebuttons.html:735
+msgid "no"
+msgstr "いいえ"
 
 #: r2/public/static/js/login.js:115
 msgid "You need to be logged in to upvote things."
@@ -5880,7 +5959,7 @@ msgid "send"
 msgstr "送信"
 
 #: r2/public/static/js/post-sharing.js:87 r2/templates/fraudform.html:45
-#: r2/templates/linkcommentssettings.html:75 r2/templates/printablebuttons.html:399
+#: r2/templates/linkcommentssettings.html:75 r2/templates/printablebuttons.html:405
 #: r2/templates/promotelinkedit.html:133 r2/templates/renderablecampaign.html:258
 #: r2/templates/reportform.html:68 r2/templates/rules.html:134
 #: r2/templates/subredditreportform.html:43
@@ -5922,7 +6001,7 @@ msgstr ""
 msgid "please wait a few seconds and try again."
 msgstr "数秒待ってからもう一度お試しください。"
 
-#: r2/public/static/js/reddit.js:115 r2/public/static/js/ui.js:604
+#: r2/public/static/js/reddit.js:115 r2/public/static/js/ui.js:590
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "エラーが発生しました(ステータス： %(status)s)"
@@ -5947,8 +6026,8 @@ msgstr "カテゴリーなし"
 #: r2/public/static/js/sponsored.js:98 r2/templates/flairlistrow.html:45
 #: r2/templates/flairselector.html:51 r2/templates/moderatorpermissions.html:52
 #: r2/templates/prefupdate.html:53 r2/templates/prefupdate.html:147
-#: r2/templates/prefupdate.html:186 r2/templates/printablebuttons.html:354
-#: r2/templates/printablebuttons.html:469 r2/templates/promotelinkedit.html:237
+#: r2/templates/prefupdate.html:204 r2/templates/printablebuttons.html:360
+#: r2/templates/printablebuttons.html:475 r2/templates/promotelinkedit.html:237
 #: r2/templates/subredditstylesheet.html:68
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatecontributorpermissions.html:29
 msgid "save"
@@ -6121,32 +6200,13 @@ msgstr ""
 msgid "switch to mobile version"
 msgstr ""
 
-#: r2/public/static/js/ui.js:885 r2/public/static/js/ui.js:939
+#: r2/public/static/js/ui.js:871 r2/public/static/js/ui.js:925
 msgid "full permissions"
 msgstr "フル権限"
 
-#: r2/public/static/js/ui.js:988
+#: r2/public/static/js/ui.js:974
 msgid "no permissions"
 msgstr "権限なし"
-
-#: r2/public/static/js/ui.js:1084 r2/templates/goldsubscription.html:47
-#: r2/templates/printablebuttons.html:675 r2/templates/printablebuttons.html:697
-msgid "are you sure?"
-msgstr "本当にいいですか?"
-
-#: r2/public/static/js/ui.js:1085 r2/templates/fraudform.html:32
-#: r2/templates/goldsubscription.html:50 r2/templates/optout.html:37
-#: r2/templates/optout.html:53 r2/templates/printablebuttons.html:677
-#: r2/templates/printablebuttons.html:726
-msgid "yes"
-msgstr "はい"
-
-#: r2/public/static/js/ui.js:1086 r2/templates/fraudform.html:37
-#: r2/templates/goldsubscription.html:53 r2/templates/optout.html:40
-#: r2/templates/optout.html:56 r2/templates/printablebuttons.html:171
-#: r2/templates/printablebuttons.html:679 r2/templates/printablebuttons.html:729
-msgid "no"
-msgstr "いいえ"
 
 #: r2/public/static/js/uibase.js:74
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:66
@@ -6167,36 +6227,44 @@ msgstr ""
 msgid "You have unsaved changes!"
 msgstr ""
 
-#: r2/public/static/js/expando/nsfwflow.js:42
+#: r2/public/static/js/expando/interstitial.js:46
 msgid "We will ask before showing NSFW media."
 msgstr ""
 
-#: r2/public/static/js/expando/nsfwflow.js:78
-msgid "Click to see NSFW"
-msgstr ""
-
-#: r2/public/static/js/expando/nsfwflow.js:111
+#: r2/public/static/js/expando/interstitial.js:116
 msgid "Always show NSFW media?"
 msgstr ""
 
-#: r2/public/static/js/expando/nsfwflow.js:112
+#: r2/public/static/js/expando/interstitial.js:117
 msgid "Ok, we changed your preferences to always show NSFW media."
 msgstr ""
 
-#: r2/public/static/js/expando/nsfwflow.js:113
+#: r2/public/static/js/expando/interstitial.js:118
 msgid "Undo"
 msgstr ""
 
-#: r2/public/static/js/expando/nsfwflow.js:116
+#: r2/public/static/js/expando/interstitial.js:121
 msgid "Your account is set up to always show this content in the future."
 msgstr ""
 
-#: r2/public/static/js/expando/nsfwflow.js:117
+#: r2/public/static/js/expando/interstitial.js:122
 msgid "Change your preferences to hide NSFW media?"
 msgstr ""
 
-#: r2/public/static/js/expando/nsfwflow.js:118
+#: r2/public/static/js/expando/interstitial.js:123
 msgid "Hide NSFW"
+msgstr ""
+
+#: r2/public/static/js/expando/interstitial.js:125
+msgid "Click to see NSFW"
+msgstr ""
+
+#: r2/public/static/js/expando/interstitial.js:126
+msgid "Click to see spoiler"
+msgstr ""
+
+#: r2/public/static/js/expando/interstitial.js:127
+msgid "Click to see NSFW spoiler"
 msgstr ""
 
 #: r2/templates/accountrecovery.html:29
@@ -6232,10 +6300,10 @@ msgstr ""
 msgid "new password"
 msgstr "新しいパスワード"
 
-#: r2/templates/accountrecovery.html:59 r2/templates/login.html:95
-#: r2/templates/login.html:98 r2/templates/login.html:201
-#: r2/templates/prefupdate.html:180 r2/templates/register.html:95
-#: r2/templates/register.html:98 r2/templates/register.html:201
+#: r2/templates/accountrecovery.html:59 r2/templates/login.html:94
+#: r2/templates/login.html:97 r2/templates/login.html:200
+#: r2/templates/prefupdate.html:180 r2/templates/register.html:94
+#: r2/templates/register.html:97 r2/templates/register.html:200
 #: r2/templates/resetpassword.html:46
 msgid "verify password"
 msgstr "パスワード(確認用に再入力)"
@@ -6294,7 +6362,7 @@ msgid "timings"
 msgstr "タイミング"
 
 #: r2/templates/adminbar.html:61 r2/templates/exploreitem.html:43
-#: r2/templates/printablebuttons.html:362
+#: r2/templates/printablebuttons.html:368
 msgid "hide"
 msgstr "非表示"
 
@@ -6412,7 +6480,7 @@ msgstr ""
 msgid "This account has been %(suspended_link)s"
 msgstr ""
 
-#: r2/templates/base.html:65
+#: r2/templates/base.html:68
 msgid "/* Custom css: use this block to insert special translation-dependent css in the page header */"
 msgstr "/* カスタム CSS: ページのヘッダーに言語依存の CSS を挿入するには、このブロックを使用してください */"
 
@@ -6534,18 +6602,6 @@ msgstr "コードを見る"
 msgid "hide code"
 msgstr "コードを隠す"
 
-#: r2/templates/captcha.html:49
-msgid "(sorry)"
-msgstr "(ごめんなさい)"
-
-#: r2/templates/captcha.html:49
-msgid "are you human?"
-msgstr "キミ、ロボットダッタリシテ？"
-
-#: r2/templates/captcha.html:75
-msgid "human?"
-msgstr "アナタ、チキュウジンジャナイ?"
-
 #: r2/templates/clickgadget.html:31
 msgid "clear"
 msgstr "クリアー"
@@ -6579,7 +6635,7 @@ msgstr ""
 msgid "stickied comment"
 msgstr ""
 
-#: r2/templates/comment.html:132 r2/templates/link.html:292
+#: r2/templates/comment.html:132 r2/templates/link.html:323
 #, python-format
 msgid "category: %s"
 msgstr "カテゴリー: %s"
@@ -6595,6 +6651,10 @@ msgstr "前"
 #: r2/templates/comment.xml:57
 msgid "on"
 msgstr "で"
+
+#: r2/templates/commentspreviewpane.html:26 r2/templates/seocommentspage.html:27
+msgid "More comments"
+msgstr ""
 
 #: r2/templates/commentvisitsbox.html:31
 msgid "Highlight comments posted since previous visit:"
@@ -6813,141 +6873,145 @@ msgstr "視聴者さんは18以上にしなければなりません"
 msgid "allow this subreddit to be included /r/all as well as the default and trending lists"
 msgstr "このsubredditを /r/all はもちろんデフォルトとトレンドのリストにも含める"
 
-#: r2/templates/createsubreddit.html:337
+#: r2/templates/createsubreddit.html:338
+msgid "enable marking posts as containing spoilers"
+msgstr ""
+
+#: r2/templates/createsubreddit.html:350
 msgid "show thumbnail images of content"
 msgstr "コンテンツのサムネイルを表示する"
 
-#: r2/templates/createsubreddit.html:348
+#: r2/templates/createsubreddit.html:361
 msgid "expand media previews on comments pages"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:359
+#: r2/templates/createsubreddit.html:372
 msgid "allow image uploads and links to image hosting sites"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:371
+#: r2/templates/createsubreddit.html:384
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr "サイト全体で禁止されたユーザーによる投稿をモデレートキュー/未モデレーションから除外する"
 
-#: r2/templates/createsubreddit.html:379
+#: r2/templates/createsubreddit.html:392
 msgid "make the traffic stats page available to everyone"
 msgstr "トラフィック統計ページをすべての人が利用できるようにする"
 
-#: r2/templates/createsubreddit.html:390
+#: r2/templates/createsubreddit.html:403
 msgid "collapse deleted and removed comments"
 msgstr "削除・除去されたコメントを折りたたむ"
 
-#: r2/templates/createsubreddit.html:402
+#: r2/templates/createsubreddit.html:415
 msgid "hide ads (only available for gold only subreddits)"
 msgstr "広告を隠す(ゴールドメンバーのみのサブレディットだけが利用可能)"
 
-#: r2/templates/createsubreddit.html:409
+#: r2/templates/createsubreddit.html:422
 msgid "suggested comment sort"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:409
+#: r2/templates/createsubreddit.html:422
 msgid "(all comment threads will use this sorting method by default)"
 msgstr "(全てのコメントスレッドはデフォルトでこのソート方法を利用しています)"
 
-#: r2/templates/createsubreddit.html:411
+#: r2/templates/createsubreddit.html:424
 msgid "none (recommended for most subreddits)"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:420
+#: r2/templates/createsubreddit.html:433
 msgid "Minutes to hide comment scores:"
 msgstr "コメントスコアを非表示にする時間（分）:"
 
-#: r2/templates/createsubreddit.html:442 r2/templates/usertext.html:155
+#: r2/templates/createsubreddit.html:455 r2/templates/usertext.html:155
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "ヘルプ非表示"
 
-#: r2/templates/createsubreddit.html:446
+#: r2/templates/createsubreddit.html:459
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.reddit.com. You will be able to access your reddit through your domain."
 msgstr "ドメインを持っている？ここにそれを入力したあと、自分のDNSプロパイダーのところへ行き、rhs.reddit.comに自分のドメインのエイリアスのCNAMEレコードを追加します。"
 
-#: r2/templates/createsubreddit.html:453
+#: r2/templates/createsubreddit.html:466
 msgid "look and feel"
 msgstr "外見"
 
-#: r2/templates/createsubreddit.html:460
+#: r2/templates/createsubreddit.html:473
 msgid "subreddit name to use as theme"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:468
+#: r2/templates/createsubreddit.html:481
 msgid "There is a newer version of your subreddit theme available. Update to the latest version?"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:473
+#: r2/templates/createsubreddit.html:486
 msgid "update theme"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:483
+#: r2/templates/createsubreddit.html:496
 msgid "edit the stylesheet"
 msgstr "スタイルシートを編集する"
 
-#: r2/templates/createsubreddit.html:487
+#: r2/templates/createsubreddit.html:500
 msgid "leaves this page"
 msgstr "このページを離れる"
 
-#: r2/templates/createsubreddit.html:507
+#: r2/templates/createsubreddit.html:520
 msgid "restore default header"
 msgstr "ディフォルトのヘッダーに戻す"
 
-#: r2/templates/createsubreddit.html:527
+#: r2/templates/createsubreddit.html:540
 msgid "related subreddits"
 msgstr "関連のあるサブレディット"
 
-#: r2/templates/createsubreddit.html:529
+#: r2/templates/createsubreddit.html:542
 msgid "similar or related subreddits."
 msgstr "似ているか関連しているサブレディット"
 
-#: r2/templates/createsubreddit.html:605
+#: r2/templates/createsubreddit.html:618
 msgid "mobile look and feel"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:609
+#: r2/templates/createsubreddit.html:622
 msgid "icon image"
 msgstr "アイコン画像"
 
-#: r2/templates/createsubreddit.html:609
+#: r2/templates/createsubreddit.html:622
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:618
+#: r2/templates/createsubreddit.html:631
 msgid "remove custom icon image"
 msgstr "カスタムアイコン画像を削除する"
 
-#: r2/templates/createsubreddit.html:627
+#: r2/templates/createsubreddit.html:640
 msgid "header image"
 msgstr "ヘッダー画像"
 
-#: r2/templates/createsubreddit.html:627
+#: r2/templates/createsubreddit.html:640
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:628
+#: r2/templates/createsubreddit.html:641
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:628
+#: r2/templates/createsubreddit.html:641
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:637
+#: r2/templates/createsubreddit.html:650
 msgid "remove custom header image"
 msgstr "カスタムヘッダー画像を削除する"
 
-#: r2/templates/createsubreddit.html:647
+#: r2/templates/createsubreddit.html:660
 msgid "color"
 msgstr "配色"
 
-#: r2/templates/createsubreddit.html:647
+#: r2/templates/createsubreddit.html:660
 msgid "used as a thematic color for your subreddit on mobile"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:678 r2/templates/flairpane.html:88
-#: r2/templates/prefoptions.html:475
+#: r2/templates/createsubreddit.html:691 r2/templates/flairpane.html:88
+#: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:483
 msgid "save options"
 msgstr "オプションを保存する"
 
@@ -7377,7 +7441,7 @@ msgstr "クレジットカード"
 msgid "Stripe is PCI compliant and your credit card information is sent directly to them."
 msgstr "StripeはPCIコンプライアンスであり、あなたのクレジットカード情報は彼らに直接送られました。"
 
-#: r2/templates/goldpayment.html:175 r2/templates/paymentform.html:130
+#: r2/templates/goldpayment.html:175 r2/templates/paymentform.html:122
 msgid "card number"
 msgstr "カードナンバー"
 
@@ -7385,7 +7449,7 @@ msgstr "カードナンバー"
 msgid "cvc"
 msgstr "cvc"
 
-#: r2/templates/goldpayment.html:183 r2/templates/paymentform.html:131
+#: r2/templates/goldpayment.html:183 r2/templates/paymentform.html:123
 msgid "expiration date"
 msgstr "有効期限"
 
@@ -7397,7 +7461,7 @@ msgstr "住所欄1"
 msgid "address line 2"
 msgstr "住所欄2"
 
-#: r2/templates/goldpayment.html:212 r2/templates/paymentform.html:125
+#: r2/templates/goldpayment.html:212 r2/templates/paymentform.html:117
 msgid "city"
 msgstr "都市"
 
@@ -7405,12 +7469,12 @@ msgstr "都市"
 msgid "state/province"
 msgstr "府県"
 
-#: r2/templates/goldpayment.html:220 r2/templates/paymentform.html:128
+#: r2/templates/goldpayment.html:220 r2/templates/paymentform.html:120
 #: r2/templates/promotelinkbase.html:926
 msgid "country"
 msgstr "国"
 
-#: r2/templates/goldpayment.html:224 r2/templates/paymentform.html:127
+#: r2/templates/goldpayment.html:224 r2/templates/paymentform.html:119
 msgid "zip"
 msgstr "郵便番号"
 
@@ -7537,19 +7601,19 @@ msgstr ""
 msgid "suggested sort set"
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:94 r2/templates/printablebuttons.html:501
+#: r2/templates/linkcommentssettings.html:94 r2/templates/printablebuttons.html:507
 msgid "disable inbox replies"
 msgstr "インボックスへの返信を無効にする"
 
-#: r2/templates/linkcommentssettings.html:94 r2/templates/printablebuttons.html:501
+#: r2/templates/linkcommentssettings.html:94 r2/templates/printablebuttons.html:507
 msgid "inbox replies disabled"
 msgstr "インボックスへの返信は無効です"
 
-#: r2/templates/linkcommentssettings.html:98 r2/templates/printablebuttons.html:505
+#: r2/templates/linkcommentssettings.html:98 r2/templates/printablebuttons.html:511
 msgid "enable inbox replies"
 msgstr "インボックスへの返信を有効にする"
 
-#: r2/templates/linkcommentssettings.html:98 r2/templates/printablebuttons.html:505
+#: r2/templates/linkcommentssettings.html:98 r2/templates/printablebuttons.html:511
 msgid "inbox replies enabled"
 msgstr "インボックスへの返信は有効です"
 
@@ -7696,96 +7760,96 @@ msgstr ""
 msgid "New comments can no longer be added."
 msgstr ""
 
-#: r2/templates/login.html:36 r2/templates/register.html:36
+#: r2/templates/login.html:35 r2/templates/register.html:35
 msgid "You are logged in. Go use the site!"
 msgstr ""
 
-#: r2/templates/login.html:40 r2/templates/register.html:40
+#: r2/templates/login.html:39 r2/templates/register.html:39
 msgid "You need to login to do that."
 msgstr "それを行うにはログインが必要です"
 
-#: r2/templates/login.html:71 r2/templates/login.html:80
-#: r2/templates/login.html:164 r2/templates/loginformwide.html:38
+#: r2/templates/login.html:70 r2/templates/login.html:79
+#: r2/templates/login.html:163 r2/templates/loginformwide.html:38
 #: r2/templates/password.html:38 r2/templates/prefdeactivate.html:70
-#: r2/templates/register.html:71 r2/templates/register.html:80
-#: r2/templates/register.html:164 r2/templates/userlisting.html:161
+#: r2/templates/register.html:70 r2/templates/register.html:79
+#: r2/templates/register.html:163 r2/templates/userlisting.html:161
 msgid "username"
 msgstr "ユーザ名"
 
-#: r2/templates/login.html:75 r2/templates/register.html:75
+#: r2/templates/login.html:74 r2/templates/register.html:74
 msgid "choose a username"
 msgstr "ユーザ名を決めてください"
 
-#: r2/templates/login.html:102 r2/templates/login.html:179
-#: r2/templates/prefdeactivate.html:62 r2/templates/register.html:102
-#: r2/templates/register.html:179
+#: r2/templates/login.html:101 r2/templates/login.html:178
+#: r2/templates/prefdeactivate.html:62 r2/templates/register.html:101
+#: r2/templates/register.html:178
 msgid "optional"
 msgstr "省略可能"
 
-#: r2/templates/login.html:114 r2/templates/login.html:210
-#: r2/templates/loginformwide.html:47 r2/templates/register.html:114
-#: r2/templates/register.html:210
+#: r2/templates/login.html:113 r2/templates/login.html:209
+#: r2/templates/loginformwide.html:47 r2/templates/register.html:113
+#: r2/templates/register.html:209
 msgid "remember me"
 msgstr "ログイン情報を覚えておく"
 
-#: r2/templates/login.html:128 r2/templates/register.html:128
+#: r2/templates/login.html:127 r2/templates/register.html:127
 msgid "get the best of reddit emailed to you once a week."
 msgstr "週ごとにベストサブレディットをメールで受け取る"
 
-#: r2/templates/login.html:129 r2/templates/register.html:129
+#: r2/templates/login.html:128 r2/templates/register.html:128
 #: r2/templates/welcomebar.html:27
 msgid "learn more"
 msgstr "更に知る"
 
-#: r2/templates/login.html:137 r2/templates/login.html:223
-#: r2/templates/register.html:137 r2/templates/register.html:223
+#: r2/templates/login.html:136 r2/templates/login.html:222
+#: r2/templates/register.html:136 r2/templates/register.html:222
 msgid "sign up"
 msgstr ""
 
-#: r2/templates/login.html:137 r2/templates/login.html:223
-#: r2/templates/login.html:246 r2/templates/register.html:137
-#: r2/templates/register.html:223 r2/templates/register.html:246
+#: r2/templates/login.html:136 r2/templates/login.html:222
+#: r2/templates/login.html:245 r2/templates/register.html:136
+#: r2/templates/register.html:222 r2/templates/register.html:245
 msgid "log in"
 msgstr ""
 
-#: r2/templates/login.html:169 r2/templates/register.html:169
+#: r2/templates/login.html:168 r2/templates/register.html:168
 msgid "try another"
 msgstr "別の方法で試みる"
 
-#: r2/templates/login.html:170 r2/templates/register.html:170
+#: r2/templates/login.html:169 r2/templates/register.html:169
 msgid "available!"
 msgstr "利用可能です！"
 
-#: r2/templates/login.html:179 r2/templates/register.html:179
+#: r2/templates/login.html:178 r2/templates/register.html:178
 msgid "account recovery email"
 msgstr "アカウント回復メール"
 
-#: r2/templates/login.html:183 r2/templates/register.html:183
+#: r2/templates/login.html:182 r2/templates/register.html:182
 msgid "we only send email at your request"
 msgstr "私たちはあなたのリクエストに従いメールを送信します。"
 
-#: r2/templates/login.html:216 r2/templates/register.html:216
+#: r2/templates/login.html:215 r2/templates/register.html:215
 msgid "recover password"
 msgstr "パスワードを再設定する"
 
-#: r2/templates/login.html:242 r2/templates/register.html:242
+#: r2/templates/login.html:241 r2/templates/register.html:241
 msgid "create a new account"
 msgstr "新しいアカウントを作る"
 
-#: r2/templates/login.html:252 r2/templates/register.html:252
+#: r2/templates/login.html:251 r2/templates/register.html:251
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr ""
 
-#: r2/templates/login.html:253 r2/templates/register.html:253
+#: r2/templates/login.html:252 r2/templates/register.html:252
 msgid "Terms"
 msgstr ""
 
-#: r2/templates/login.html:254 r2/templates/register.html:254
+#: r2/templates/login.html:253 r2/templates/register.html:253
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
-#: r2/templates/login.html:255 r2/templates/register.html:255
+#: r2/templates/login.html:254 r2/templates/register.html:254
 msgid "Content Policy"
 msgstr ""
 
@@ -7860,7 +7924,7 @@ msgstr "あなたはもうモデレーターではありません"
 msgid "stop being a moderator?"
 msgstr "モデレーターをやめますか?"
 
-#: r2/templates/modlisting.html:45 r2/templates/printablebuttons.html:405
+#: r2/templates/modlisting.html:45 r2/templates/printablebuttons.html:411
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatecontributorlisting.html:25
 msgid "accept"
 msgstr "承認する"
@@ -7891,11 +7955,6 @@ msgstr "サブレディットをフィルターします。"
 msgid "load more comments"
 msgstr "コメントをもっと表示する"
 
-#: r2/templates/morechildren.html:38
-msgid "reply"
-msgid_plural "replies"
-msgstr[0] "返事"
-
 #: r2/templates/moremessages.html:38
 msgid "[+] load the full conversation."
 msgstr "[+] メールのやりとりを全て表示する"
@@ -7909,7 +7968,7 @@ msgstr "このスレッドの続きを見る"
 msgid "curated by /u/%s"
 msgstr "キュレーター /u/%s"
 
-#: r2/templates/multiinfobar.html:43 r2/templates/printablebuttons.html:363
+#: r2/templates/multiinfobar.html:43 r2/templates/printablebuttons.html:369
 msgid "hidden"
 msgstr "非表示にしたもの"
 
@@ -7922,7 +7981,7 @@ msgid "rename"
 msgstr "リネーム"
 
 #: r2/templates/multiinfobar.html:53 r2/templates/printablebuttons.html:36
-#: r2/templates/printablebuttons.html:566 r2/templates/renderablecampaign.html:207
+#: r2/templates/printablebuttons.html:572 r2/templates/renderablecampaign.html:207
 #: r2/templates/rules.html:132 r2/templates/wikipagesettings.html:76
 #: ../../liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:129
 msgid "delete"
@@ -8029,8 +8088,8 @@ msgid "text"
 msgstr "文章"
 
 #: r2/templates/newlink.html:165 r2/templates/newlink.html:207
-#: r2/templates/paymentform.html:123 r2/templates/paymentform.html:129
-#: r2/templates/paymentform.html:207
+#: r2/templates/paymentform.html:115 r2/templates/paymentform.html:121
+#: r2/templates/paymentform.html:199
 msgid "(optional)"
 msgstr "(省略可能)"
 
@@ -8266,48 +8325,48 @@ msgstr "新しい支払いプロフィールを作成してください。"
 msgid "NOTE: your card will not be charged until the campaign has been queued for promotion."
 msgstr "注意: あなたのカードは、キャンペーンがプロモーションへのキューに入るまで請求されません。"
 
-#: r2/templates/paymentform.html:121
+#: r2/templates/paymentform.html:113
 msgid "first name"
 msgstr "名"
 
-#: r2/templates/paymentform.html:122
+#: r2/templates/paymentform.html:114
 msgid "last name"
 msgstr "姓"
 
-#: r2/templates/paymentform.html:123
+#: r2/templates/paymentform.html:115
 msgid "company"
 msgstr "会社"
 
-#: r2/templates/paymentform.html:124
+#: r2/templates/paymentform.html:116
 msgid "address"
 msgstr "住所"
 
-#: r2/templates/paymentform.html:126
+#: r2/templates/paymentform.html:118
 msgid "state"
 msgstr "州、又は都道府県"
 
-#: r2/templates/paymentform.html:129
+#: r2/templates/paymentform.html:121
 msgid "phone"
 msgstr "電話番号"
 
-#: r2/templates/paymentform.html:130
+#: r2/templates/paymentform.html:122
 msgid "(14-17 digits)"
 msgstr "(14-17桁)"
 
-#: r2/templates/paymentform.html:132
+#: r2/templates/paymentform.html:124
 msgid "CCV"
 msgstr "セキュリティコード"
 
-#: r2/templates/paymentform.html:132
+#: r2/templates/paymentform.html:124
 msgid "(3 or 4 digits)"
 msgstr "(3-4桁)"
 
-#: r2/templates/paymentform.html:215
+#: r2/templates/paymentform.html:207
 #, python-format
 msgid "By submitting payment you agree to the %(rules)s."
 msgstr ""
 
-#: r2/templates/paymentform.html:222
+#: r2/templates/paymentform.html:214
 msgid "authorize payment"
 msgstr "支払いを許可する"
 
@@ -8318,6 +8377,72 @@ msgstr "あなたは単独のコメントのスレッドを見ています。"
 #: r2/templates/permalinkmessage.html:26
 msgid "view the rest of the comments"
 msgstr "残りのコメントをみる"
+
+#: r2/templates/personalizedads.html:26
+msgid "your ads preferences have been updated"
+msgstr ""
+
+#: r2/templates/personalizedads.html:30 r2/templates/personalizedads.html:66
+msgid "Reddit Personalized Ads"
+msgstr ""
+
+#: r2/templates/personalizedads.html:32
+msgid "Personalized ads, sometimes referred to as interest or behavior targeted ads, are delivered to you by Reddit based on what we think you may like. You can adjust how we personalize advertisements for you by adjusting your ads preferences below."
+msgstr ""
+
+#: r2/templates/personalizedads.html:34
+msgid "Your preferences are managed by a browser cookie, so, if you clear your cookies or visit from another browser, you will need to readjust your preferences."
+msgstr ""
+
+#: r2/templates/personalizedads.html:36
+msgid "When you log-out of your Reddit account from this browser or if you do not have a Reddit account, we will still respect your preferences."
+msgstr ""
+
+#: r2/templates/personalizedads.html:40
+msgid "With personalized ads on"
+msgstr ""
+
+#: r2/templates/personalizedads.html:41
+msgid "Ads you see on Reddit will be delivered based on your prior use of our Services, including post clicks, sub-reddit visits, votes, and other information associated with your account."
+msgstr ""
+
+#: r2/templates/personalizedads.html:43
+msgid "For example: If you frequently visit gaming subreddits, you're more likely to see an ad for a game rather than an ad for celebrity news."
+msgstr ""
+
+#: r2/templates/personalizedads.html:46
+msgid "With personalized ads off"
+msgstr ""
+
+#: r2/templates/personalizedads.html:48
+msgid "You will still see the same number of ads in the same places."
+msgstr ""
+
+#: r2/templates/personalizedads.html:49
+msgid "Your ads may be less relevant and interesting to you."
+msgstr ""
+
+#: r2/templates/personalizedads.html:51
+#, python-format
+msgid "Does not apply to ads served by other companies on Reddit, whose opt-outs may be located at the websites listed in the %(privacy_policy)s."
+msgstr ""
+
+#: r2/templates/personalizedads.html:73
+msgid "(privacy policy)"
+msgstr ""
+
+#: r2/templates/personalizedads.html:88
+#, python-format
+msgid "For information about how to opt out of behavioral advertising from third-party advertisers and ad networks, please visit the opt-out pages for the %(digital_advertising_alliance)s and the %(network_advertising_initiative)s."
+msgstr ""
+
+#: r2/templates/personalizedads.html:90
+msgid "Digital Advertising Alliance"
+msgstr ""
+
+#: r2/templates/personalizedads.html:94
+msgid "Network Advertising Initiative"
+msgstr ""
 
 #: r2/templates/prefapps.html:62 r2/templates/prefapps.html:102
 msgid "web app"
@@ -8880,86 +9005,94 @@ msgstr "検索エンジンにマイユーザープロフィールのインデッ
 msgid "allow reddit to log my outbound clicks for personalization"
 msgstr ""
 
-#: r2/templates/prefoptions.html:375
-msgid "beta options"
+#: r2/templates/prefoptions.html:376
+msgid "advertising options"
 msgstr ""
 
-#: r2/templates/prefoptions.html:377
-msgid "I would like to beta test features for reddit"
+#: r2/templates/prefoptions.html:378
+msgid "set personalized ads preferences"
 msgstr ""
 
 #: r2/templates/prefoptions.html:383
+msgid "beta options"
+msgstr ""
+
+#: r2/templates/prefoptions.html:385
+msgid "I would like to beta test features for reddit"
+msgstr ""
+
+#: r2/templates/prefoptions.html:391
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_sr_link)s automatically."
 msgstr ""
 
-#: r2/templates/prefoptions.html:385
+#: r2/templates/prefoptions.html:393
 msgid "details on the /r/{beta_sr} wiki"
 msgstr ""
 
-#: r2/templates/prefoptions.html:393 r2/templates/prefoptions.html:416
+#: r2/templates/prefoptions.html:401 r2/templates/prefoptions.html:424
 msgid "gold options"
 msgstr "ゴールドに関するオプション"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:403
 msgid "hide ads"
 msgstr ""
 
-#: r2/templates/prefoptions.html:397
+#: r2/templates/prefoptions.html:405
 msgid "remember what links I've visited"
 msgstr "自分がどんなリンクを訪れたか記憶させておく"
 
-#: r2/templates/prefoptions.html:398
+#: r2/templates/prefoptions.html:406
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "コンピューター間であっても、既読のリンクを記憶し、マークします。"
 
-#: r2/templates/prefoptions.html:400 r2/templates/prefoptions.html:418
+#: r2/templates/prefoptions.html:408 r2/templates/prefoptions.html:426
 msgid "highlight new comments"
 msgstr "新しいコメントをハイライトする"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:410
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "48時間内のあなたの訪問先を記憶し、どのコメントをまだ見ていないか表示します。"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:413
 msgid "show gold expiration"
 msgstr ""
 
-#: r2/templates/prefoptions.html:407
+#: r2/templates/prefoptions.html:415
 msgid "show how much gold you have remaining on your userpage"
 msgstr ""
 
-#: r2/templates/prefoptions.html:411
+#: r2/templates/prefoptions.html:419
 #, python-format
 msgid "use a %(creddit_link)s to automatically renew my gold if it expires"
 msgstr "自分のゴールドの期間が満了したとき、自動的に延長するために 1 %(creddit_link)s を使用する"
 
-#: r2/templates/prefoptions.html:421
+#: r2/templates/prefoptions.html:429
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in subreddits you moderate"
 msgstr ""
 
-#: r2/templates/prefoptions.html:429
+#: r2/templates/prefoptions.html:437
 msgid "reddit themes"
 msgstr ""
 
-#: r2/templates/prefoptions.html:433
+#: r2/templates/prefoptions.html:441
 msgid "reddit themes change the appearance of reddit.  They are used anywhere another custom theme is not present."
 msgstr ""
 
-#: r2/templates/prefoptions.html:437
+#: r2/templates/prefoptions.html:445
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr ""
 
-#: r2/templates/prefoptions.html:441
+#: r2/templates/prefoptions.html:449
 msgid "use reddit theme"
 msgstr ""
 
-#: r2/templates/prefoptions.html:442
+#: r2/templates/prefoptions.html:450
 msgid "hover to preview"
 msgstr ""
 
-#: r2/templates/prefoptions.html:461
+#: r2/templates/prefoptions.html:469
 msgid "warning: use non-featured themes at your own risk"
 msgstr ""
 
@@ -9081,21 +9214,15 @@ msgstr "賛成投票"
 msgid "downvote"
 msgstr "反対投票"
 
-#: r2/templates/printablebuttons.html:42 r2/templates/printablebuttons.html:255
+#: r2/templates/printablebuttons.html:42 r2/templates/printablebuttons.html:261
 msgid "spammed"
 msgstr "被スパム"
 
-#: r2/templates/printablebuttons.html:52 r2/templates/printablebuttons.html:244
+#: r2/templates/printablebuttons.html:52 r2/templates/printablebuttons.html:250
 #: r2/templates/renderablecampaign.html:240
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatereportedeventrow.html:12
 msgid "approve"
 msgstr "承認する"
-
-#: r2/templates/printablebuttons.html:68 r2/templates/promotelinkbase.html:959
-#: r2/templates/subredditreportform.html:46
-#: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:92
-msgid "report"
-msgstr "問題を報告"
 
 #: r2/templates/printablebuttons.html:73
 msgid "lock"
@@ -9105,7 +9232,7 @@ msgstr ""
 msgid "unlock"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:79
+#: r2/templates/printablebuttons.html:79 r2/templates/printablebuttons.html:85
 msgid "marked"
 msgstr "マーク済み"
 
@@ -9113,146 +9240,142 @@ msgstr "マーク済み"
 msgid "un-nsfw"
 msgstr "閲覧注意を解除する"
 
-#: r2/templates/printablebuttons.html:82
+#: r2/templates/printablebuttons.html:82 r2/templates/printablebuttons.html:88
 msgid "unmarked"
 msgstr "目印を解除する"
 
-#: r2/templates/printablebuttons.html:92
+#: r2/templates/printablebuttons.html:85
+msgid "spoiler"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:88
+msgid "unspoiler"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:98
 msgid "retry thumb"
 msgstr "サムネイルを再試行"
 
-#: r2/templates/printablebuttons.html:92
+#: r2/templates/printablebuttons.html:98
 msgid "check back in a few minutes"
 msgstr "数分後にもう一度試してください。"
 
-#: r2/templates/printablebuttons.html:112
+#: r2/templates/printablebuttons.html:118
 msgid "undistinguish"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:127
+#: r2/templates/printablebuttons.html:133
 msgid "distinguish this?"
 msgstr "これを区別できますか？"
 
-#: r2/templates/printablebuttons.html:137
+#: r2/templates/printablebuttons.html:143
 msgid "yes & sticky"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:164
+#: r2/templates/printablebuttons.html:170
 msgid "undistinguish this?"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:189
+#: r2/templates/printablebuttons.html:195
 msgid "undistinguishing..."
 msgstr ""
 
-#: r2/templates/printablebuttons.html:191
+#: r2/templates/printablebuttons.html:197
 msgid "distinguishing..."
 msgstr "区別しています..."
 
-#: r2/templates/printablebuttons.html:212
+#: r2/templates/printablebuttons.html:218
 msgid "give reddit gold in appreciation of this post."
 msgstr "このポストへのお礼として reddit ゴールドをプレゼントします。"
 
-#: r2/templates/printablebuttons.html:215
-msgid "give gold"
-msgstr "goldを贈る"
-
-#: r2/templates/printablebuttons.html:242
+#: r2/templates/printablebuttons.html:248
 msgid "reapprove"
 msgstr "もう一度承認する"
 
-#: r2/templates/printablebuttons.html:283
+#: r2/templates/printablebuttons.html:289
 msgid "click to show report reasons"
 msgstr "クリックで報告の理由を表示"
 
-#: r2/templates/printablebuttons.html:297
+#: r2/templates/printablebuttons.html:303
 msgid "moderator reports:"
 msgstr "モデレータの報告:"
 
-#: r2/templates/printablebuttons.html:303 r2/templates/printablebuttons.html:316
+#: r2/templates/printablebuttons.html:309 r2/templates/printablebuttons.html:322
 msgid "<no reason>"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:310
+#: r2/templates/printablebuttons.html:316
 msgid "user reports:"
 msgstr "ユーザーの報告:"
 
-#: r2/templates/printablebuttons.html:342
+#: r2/templates/printablebuttons.html:348
 msgid "source"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:358
+#: r2/templates/printablebuttons.html:364
 msgid "unhide"
 msgstr "非表示解除"
 
-#: r2/templates/printablebuttons.html:359
+#: r2/templates/printablebuttons.html:365
 msgid "unhidden"
 msgstr "非表示を解除しました"
 
-#: r2/templates/printablebuttons.html:399 r2/templates/renderablecampaign.html:243
+#: r2/templates/printablebuttons.html:405 r2/templates/renderablecampaign.html:243
 msgid "reject"
 msgstr "拒否する"
 
-#: r2/templates/printablebuttons.html:406 r2/templates/printablebuttons.html:411
-#: r2/templates/printablebuttons.html:417
+#: r2/templates/printablebuttons.html:412 r2/templates/printablebuttons.html:417
+#: r2/templates/printablebuttons.html:423
 msgid "accepted"
 msgstr "承認済み"
 
-#: r2/templates/printablebuttons.html:410
+#: r2/templates/printablebuttons.html:416
 msgid "low quality"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:416
+#: r2/templates/printablebuttons.html:422
 msgid "high quality"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:426
+#: r2/templates/printablebuttons.html:432
 msgid "fraud"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:433
+#: r2/templates/printablebuttons.html:439
 msgid "traffic"
 msgstr "アクセス状況"
 
-#: r2/templates/printablebuttons.html:455 r2/templates/printablebuttons.html:558
-msgid "permalink"
-msgstr "固定リンク"
-
-#: r2/templates/printablebuttons.html:475 r2/templates/printablebuttons.html:547
+#: r2/templates/printablebuttons.html:481 r2/templates/printablebuttons.html:553
 #: r2/templates/starkcomment.html:31
 msgid "context"
 msgstr "元の投稿"
 
-#: r2/templates/printablebuttons.html:479 r2/templates/printablebuttons.html:551
+#: r2/templates/printablebuttons.html:485 r2/templates/printablebuttons.html:557
 msgid "full comments"
 msgstr "全てのコメント"
 
-#: r2/templates/printablebuttons.html:489
-msgid "parent"
-msgstr "親コメント"
-
-#: r2/templates/printablebuttons.html:520 r2/templates/printablebuttons.html:522
-#: r2/templates/printablebuttons.html:614
+#: r2/templates/printablebuttons.html:526 r2/templates/printablebuttons.html:528
+#: r2/templates/printablebuttons.html:620
 msgid "reply {verb}"
 msgstr "返事を書く"
 
-#: r2/templates/printablebuttons.html:576
+#: r2/templates/printablebuttons.html:582
 msgid "unblock subreddit"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:576
+#: r2/templates/printablebuttons.html:582
 msgid "unblocked"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:579
+#: r2/templates/printablebuttons.html:585
 msgid "block subreddit"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:586
+#: r2/templates/printablebuttons.html:592
 msgid "block user"
 msgstr "ユーザをブロックする"
 
-#: r2/templates/printablebuttons.html:604
+#: r2/templates/printablebuttons.html:610
 msgid "mark unread"
 msgstr "未読にする"
 
@@ -9853,6 +9976,10 @@ msgstr "このリンクへのキャンペーンが多すぎます。"
 msgid "It's time to start fresh!"
 msgstr "やり直すときです！"
 
+#: r2/templates/promotelinkedit.html:169
+msgid "bid"
+msgstr "ビッド"
+
 #: r2/templates/promotelinkedit.html:174
 msgid "payment mismatch"
 msgstr ""
@@ -10220,16 +10347,16 @@ msgstr ""
 msgid "limit my search to %(path)s"
 msgstr "%(path)sへの検索制限"
 
-#: r2/templates/searchresultlink.html:100
+#: r2/templates/searchresultlink.html:103
 msgid "by"
 msgstr ""
 
-#: r2/templates/searchresultlink.html:102
+#: r2/templates/searchresultlink.html:105
 #, python-format
 msgid "to %s"
 msgstr ""
 
-#: r2/templates/searchresultlink.html:123
+#: r2/templates/searchresultlink.html:126
 msgid "less"
 msgstr ""
 
@@ -10248,13 +10375,9 @@ msgstr ""
 msgid "search in %(subreddit)s"
 msgstr ""
 
-#: r2/templates/seocommentspage.html:27
-msgid "More comments"
-msgstr ""
-
 #: r2/templates/seocommentspage.html:35
 #, python-format
-msgid "More from r/%(subreddit)s"
+msgid "More from %(subreddit)s"
 msgstr ""
 
 #: r2/templates/seocommentspage.html:39
@@ -10774,6 +10897,14 @@ msgstr ""
 msgid "Quarantined"
 msgstr ""
 
+#: r2/templates/utils.html:733
+msgid "Spoiler content"
+msgstr ""
+
+#: r2/templates/utils.html:734
+msgid "SPOILER"
+msgstr ""
+
 #: r2/templates/widgetdemopanel.html:116
 #, python-format
 msgid "get live %(site)s headlines on your site"
@@ -11018,71 +11149,71 @@ msgstr ""
 msgid "Manage settings and contributors of live threads I contribute to."
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:258
+#: ../../liveupdate/reddit_liveupdate/controllers.py:259
 msgid "this thread has been banned"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:977
-#: ../../liveupdate/reddit_liveupdate/pages.py:60
+#: ../../liveupdate/reddit_liveupdate/controllers.py:972
+#: ../../liveupdate/reddit_liveupdate/pages.py:59
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatehome.html:3
 msgid "reddit live"
 msgstr "redditライブ"
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1000
+#: ../../liveupdate/reddit_liveupdate/controllers.py:995
 msgid "live threads"
 msgstr "ライブスレッド"
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1003
+#: ../../liveupdate/reddit_liveupdate/controllers.py:998
 msgid "closed threads"
 msgstr "スレッドを閉じる"
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1006
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1001
 msgid "most active threads"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1012
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1007
 msgid "reported threads"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1042
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1037
 msgid "create live thread"
 msgstr "ライブスレッドを作成"
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:64
+#: ../../liveupdate/reddit_liveupdate/pages.py:63
 msgid "active"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:72
+#: ../../liveupdate/reddit_liveupdate/pages.py:71
 msgid "closed"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:107
+#: ../../liveupdate/reddit_liveupdate/pages.py:106
 msgid "[live]"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:122
+#: ../../liveupdate/reddit_liveupdate/pages.py:121
 msgid "updates"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:135
+#: ../../liveupdate/reddit_liveupdate/pages.py:134
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatereportedeventrow.html:5
 msgid "contributors"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:151
+#: ../../liveupdate/reddit_liveupdate/pages.py:150
 #, python-format
 msgid "real-time updates on %(short_description)s"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:384
+#: ../../liveupdate/reddit_liveupdate/pages.py:365
 msgid "invite contributor"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:388
+#: ../../liveupdate/reddit_liveupdate/pages.py:369
 msgid "invited contributors"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:402
+#: ../../liveupdate/reddit_liveupdate/pages.py:383
 msgid "current contributors"
 msgstr ""
 
