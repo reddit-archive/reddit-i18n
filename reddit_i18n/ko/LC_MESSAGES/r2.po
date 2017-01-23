@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-11-10 20:54+0000\n"
-"PO-Revision-Date: 2016-11-10 16:01-0500\n"
+"POT-Creation-Date: 2017-01-23 19:24+0000\n"
+"PO-Revision-Date: 2017-01-23 14:36-0500\n"
 "Last-Translator: reddit <ricky@reddit.com>\n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Crowdin-File: reddit_r2pot.pot\n"
 "Language: ko_KR\n"
 
-#: ../../gold/reddit_gold/__init__.py:49 r2/lib/errors.py:131
+#: ../../gold/reddit_gold/__init__.py:49 r2/lib/errors.py:132
 msgid "invalid color"
 msgstr "잘못된 색상"
 
@@ -27,7 +27,7 @@ msgstr "잘못된 색상"
 msgid "unknown or missing dressings"
 msgstr ""
 
-#: ../../gold/reddit_gold/controllers.py:40 r2/models/subreddit.py:332
+#: ../../gold/reddit_gold/controllers.py:40 r2/models/subreddit.py:331
 msgid "gold"
 msgstr "골드"
 
@@ -247,11 +247,11 @@ msgstr "팀"
 msgid "alien"
 msgstr "외계인"
 
-#: ../../about/reddit_about/pages.py:64 r2/lib/menus.py:534
+#: ../../about/reddit_about/pages.py:64 r2/lib/menus.py:540
 msgid "sorted by"
 msgstr "정렬"
 
-#: ../../about/reddit_about/pages.py:86 r2/lib/menus.py:172
+#: ../../about/reddit_about/pages.py:86 r2/lib/menus.py:174
 msgid "overview"
 msgstr "활동 한 눈에 보기"
 
@@ -276,17 +276,17 @@ msgid "manage ads"
 msgstr "광고 관리"
 
 #: ../../about/reddit_about/public/static/js/advertising/advertising.js:21
-#: r2/templates/accountrecovery.html:31 r2/templates/login.html:101
-#: r2/templates/login.html:105 r2/templates/newsletter.html:55
+#: r2/templates/accountrecovery.html:31 r2/templates/login.html:104
+#: r2/templates/login.html:108 r2/templates/newsletter.html:55
 #: r2/templates/newsletterbar.html:40 r2/templates/prefupdate.html:46
 #: r2/templates/prefupdate.html:63 r2/templates/prefupdate.html:114
-#: r2/templates/register.html:101 r2/templates/register.html:105
+#: r2/templates/register.html:104 r2/templates/register.html:108
 msgid "email"
 msgstr "메일 주소"
 
 #: ../../about/reddit_about/templates/about.html:43
 #: ../../about/reddit_about/templates/about.html:69
-#: r2/controllers/listingcontroller.py:933
+#: r2/controllers/listingcontroller.py:923
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "%(user)s님께서 올리신 링크"
@@ -395,70 +395,78 @@ msgstr "컬러 가이드"
 msgid "invalid site path/name"
 msgstr ""
 
-#: r2/controllers/api.py:200 r2/controllers/api.py:226 r2/controllers/api.py:4662
-#: r2/controllers/api.py:4732 r2/controllers/listingcontroller.py:848
+#: r2/controllers/api.py:214 r2/controllers/api.py:240 r2/controllers/api.py:4863
+#: r2/controllers/api.py:4933 r2/controllers/listingcontroller.py:839
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:423
+#: r2/controllers/api.py:437
 msgid "your message has been delivered"
 msgstr "메시지가 전송되었습니다"
 
-#: r2/controllers/api.py:702
+#: r2/controllers/api.py:712
 msgid "no title found"
 msgstr "제목이 없습니다"
 
-#: r2/controllers/api.py:1318 r2/controllers/api.py:2685 r2/controllers/api.py:3025
-#: r2/controllers/api.py:3379 r2/controllers/api.py:4454 r2/controllers/api.py:4510
-#: r2/controllers/api.py:4564 r2/controllers/api.py:4797 r2/controllers/api.py:4802
-#: r2/controllers/api.py:5046 r2/controllers/api.py:5084 r2/controllers/api.py:5102
-#: r2/lib/pages/pages.py:6337 ../../liveupdate/reddit_liveupdate/controllers.py:481
+#: r2/controllers/api.py:1353 r2/controllers/api.py:2838 r2/controllers/api.py:3180
+#: r2/controllers/api.py:3544 r2/controllers/api.py:4655 r2/controllers/api.py:4711
+#: r2/controllers/api.py:4765 r2/controllers/api.py:4998 r2/controllers/api.py:5003
+#: r2/controllers/api.py:5247 r2/controllers/api.py:5285 r2/controllers/api.py:5303
+#: r2/lib/pages/pages.py:6296 ../../liveupdate/reddit_liveupdate/controllers.py:497
 msgid "saved"
 msgstr "보관했습니다"
 
-#: r2/controllers/api.py:1388
+#: r2/controllers/api.py:1423
 msgid "all other sessions have been logged out"
 msgstr "모든 세션이 로그아웃 되었습니다."
 
-#: r2/controllers/api.py:1496
+#: r2/controllers/api.py:1531
 msgid "an email will be sent to the email address shortly"
 msgstr ""
 
-#: r2/controllers/api.py:1500
+#: r2/controllers/api.py:1535
 msgid "email address added, try again tomorrow to reset your password"
 msgstr ""
 
-#: r2/controllers/api.py:1522
+#: r2/controllers/api.py:1555
 msgid "you should be getting a verification email shortly."
 msgstr "인증 메일이 발송되었습니다."
 
-#: r2/controllers/api.py:1525 r2/controllers/api.py:1539
+#: r2/controllers/api.py:1558 r2/controllers/api.py:1572
 msgid "your email has been updated"
 msgstr "메일 주소 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:1579
+#: r2/controllers/api.py:1612
 msgid "your password has been updated"
 msgstr "비밀번호 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:1683
+#: r2/controllers/api.py:1719
+msgid "Error: unknown email_type was supplied"
+msgstr ""
+
+#: r2/controllers/api.py:1728
 msgid "Success! Your preferences have been updated"
 msgstr ""
 
-#: r2/controllers/api.py:2032 r2/lib/menus.py:178
-#: ../../liveupdate/reddit_liveupdate/pages.py:79
+#: r2/controllers/api.py:2077 r2/lib/menus.py:180
+#: ../../liveupdate/reddit_liveupdate/pages.py:80
 msgid "reported"
 msgstr "신고가 접수 됐습니다"
 
-#: r2/controllers/api.py:2467
+#: r2/controllers/api.py:2127 r2/lib/pages/pages.py:4486 r2/lib/pages/pages.py:4606
+msgid "added"
+msgstr "추가했습니다"
+
+#: r2/controllers/api.py:2616
 msgid "replied"
 msgstr "답변함"
 
-#: r2/controllers/api.py:2668
+#: r2/controllers/api.py:2821
 msgid "validation errors"
 msgstr "링크를 검증하는 과정에 오류가 발생했습니다 ??? validating what? links? emails?"
 
-#: r2/controllers/api.py:2802 r2/controllers/api.py:2835 r2/controllers/api.py:2868
-#: r2/controllers/listingcontroller.py:1087 r2/lib/menus.py:177
+#: r2/controllers/api.py:2955 r2/controllers/api.py:2988 r2/controllers/api.py:3021
+#: r2/controllers/listingcontroller.py:1077 r2/lib/menus.py:179
 #: r2/public/static/js/reddit.js:272 r2/templates/deleteduserinterstitial.html:31
 #: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:572
 #: r2/templates/subredditstylesheetbase.html:45
@@ -467,99 +475,103 @@ msgstr "링크를 검증하는 과정에 오류가 발생했습니다 ??? valida
 msgid "deleted"
 msgstr "삭제되었습니다"
 
-#: r2/controllers/api.py:2945
+#: r2/controllers/api.py:3098
 msgid "bad image name"
 msgstr "그림파일 이름 관련 오류가 발생했습니다. 그림파일 이름을 확인하십시오"
 
-#: r2/controllers/api.py:2951
+#: r2/controllers/api.py:3104
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "그림이 너무 많습니다 (한 번에 그림 %d 개 만 올릴 수 있습니다)"
 
-#: r2/controllers/api.py:2956 r2/controllers/api.py:2980
+#: r2/controllers/api.py:3109 r2/controllers/api.py:5771
+msgid "Dimensions are too large"
+msgstr ""
+
+#: r2/controllers/api.py:3111 r2/controllers/api.py:3135
 msgid "Invalid image or general image error"
 msgstr "이미지가 올바르지 않거나 오류입니다"
 
-#: r2/controllers/api.py:2961
+#: r2/controllers/api.py:3116
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "%dx%d 픽셀이어야 합니다"
 
-#: r2/controllers/api.py:2965
+#: r2/controllers/api.py:3120
 msgid "10:3 aspect ratio required"
 msgstr ""
 
-#: r2/controllers/api.py:2968
+#: r2/controllers/api.py:3123
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "최대 %dx%d 픽셀"
 
-#: r2/controllers/api.py:2971
+#: r2/controllers/api.py:3126
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "최소 %dx%d 픽셀"
 
-#: r2/controllers/api.py:4074
+#: r2/controllers/api.py:4259
 msgid "an email will be sent to that account's address shortly"
 msgstr "잠시 후에 입력하신 주소로 메일을 보내드리도록 하겠습니다"
 
-#: r2/controllers/api.py:4077
+#: r2/controllers/api.py:4262
 msgid "try again tomorrow"
 msgstr "내일 다시 시도하세요"
 
-#: r2/controllers/api.py:4154
+#: r2/controllers/api.py:4355
 msgid "your account has been recovered"
 msgstr ""
 
-#: r2/controllers/api.py:4234
+#: r2/controllers/api.py:4435
 msgid "password updated"
 msgstr "비밀번호가 변경되었습니다."
 
-#: r2/controllers/api.py:4522 r2/controllers/api.py:4753
+#: r2/controllers/api.py:4723 r2/controllers/api.py:4954
 msgid "invalid css class"
 msgstr "CSS 클래스가 올바르지 않습니다"
 
-#: r2/controllers/api.py:4525 r2/controllers/api.py:4756
+#: r2/controllers/api.py:4726 r2/controllers/api.py:4957
 msgid "too many css classes"
 msgstr "CSS 클래스가 너무 많습니다"
 
-#: r2/controllers/api.py:4777
+#: r2/controllers/api.py:4978
 msgid "max flair templates reached"
 msgstr "플레어 템플릿을 더 추가할 수 없습니다"
 
-#: r2/controllers/api.py:5098
+#: r2/controllers/api.py:5299
 msgid "no gold to take"
 msgstr "가져갈 골드 없음"
 
-#: r2/controllers/api.py:5425 r2/lib/errors.py:153
+#: r2/controllers/api.py:5650 r2/lib/errors.py:154
 msgid "this app can not be modified from this interface"
 msgstr ""
 
-#: r2/controllers/api.py:5432 r2/lib/errors.py:135
+#: r2/controllers/api.py:5657 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "올바르지 않은 클라이언트 아이디"
 
-#: r2/controllers/api.py:5435
+#: r2/controllers/api.py:5660
 msgid "cannot update deleted app"
 msgstr "삭제된 앱을 업데이트 할 수 없습니다."
 
-#: r2/controllers/api.py:5438
+#: r2/controllers/api.py:5663
 msgid "app does not belong to you"
 msgstr "앱에 대한 소유권이 없습니다."
 
-#: r2/controllers/api.py:5446
+#: r2/controllers/api.py:5671
 msgid "application updated"
 msgstr "어플리케이션이 업데이트되었습니다."
 
-#: r2/controllers/api.py:5459
+#: r2/controllers/api.py:5684
 msgid "application created"
 msgstr "어플리케이션이 만들어졌습니다."
 
-#: r2/controllers/api.py:5494
+#: r2/controllers/api.py:5719
 msgid "developer added"
 msgstr "개발자가 추가되었습니다."
 
-#: r2/controllers/api_docs.py:250
+#: r2/controllers/api_docs.py:255
 msgid "api documentation"
 msgstr "API 문서"
 
@@ -571,7 +583,7 @@ msgstr "레딧 단추"
 msgid "reddit widget"
 msgstr "레딧 위짓"
 
-#: r2/controllers/embed.py:71 r2/lib/pages/pages.py:1313
+#: r2/controllers/embed.py:71 r2/lib/pages/pages.py:1288
 #: r2/templates/printablebuttons.html:128
 msgid "help"
 msgstr "도움말"
@@ -606,274 +618,278 @@ msgstr "요청하신 페이지가 존재하지 않습니다"
 msgid "unavailable"
 msgstr "존재하지않습니다"
 
-#: r2/controllers/error.py:227 r2/controllers/front.py:1725
-#: r2/templates/login.html:116 r2/templates/loginformwide.html:48
-#: r2/templates/register.html:116
+#: r2/controllers/error.py:227 r2/controllers/front.py:1764
+#: r2/templates/login.html:119 r2/templates/loginformwide.html:48
+#: r2/templates/register.html:119
 msgid "reset password"
 msgstr "비밀번호 초기화하기"
 
-#: r2/controllers/error.py:237 r2/controllers/listingcontroller.py:1050
+#: r2/controllers/error.py:237 r2/controllers/listingcontroller.py:1040
 #: r2/templates/banneduserinterstitial.html:32
 #: r2/templates/intimeoutinterstitial.html:31
 #: r2/templates/intimeoutinterstitial.html:37
 msgid "suspended"
 msgstr ""
 
-#: r2/controllers/front.py:210 r2/lib/pages/pages.py:6324
+#: r2/controllers/front.py:211 r2/lib/pages/pages.py:6283
 msgid "explore"
 msgstr "둘러보기"
 
-#: r2/controllers/front.py:470
+#: r2/controllers/front.py:475
 msgid "no comments (yet)"
 msgstr "아직 댓글 없음"
 
-#: r2/controllers/front.py:472
+#: r2/controllers/front.py:477
 #, python-format
 msgid "all %d comments"
 msgstr "댓글 %d개"
 
-#: r2/controllers/front.py:474
+#: r2/controllers/front.py:479
 #, python-format
 msgid "top %d comments"
 msgstr "댓글 상위 %d개"
 
-#: r2/controllers/front.py:593
+#: r2/controllers/front.py:624
 #, python-format
 msgid "show all %d"
 msgstr "전체 %d개 보기"
 
-#: r2/controllers/front.py:595
+#: r2/controllers/front.py:626
 #, python-format
 msgid "show %d"
 msgstr "%d개 보기"
 
-#: r2/controllers/front.py:612 r2/controllers/front.py:614
+#: r2/controllers/front.py:643 r2/controllers/front.py:645
 msgid "create a subreddit"
 msgstr "서브레딧 만들기"
 
-#: r2/controllers/front.py:718 r2/controllers/front.py:724
-#: r2/controllers/listingcontroller.py:896 r2/controllers/listingcontroller.py:911
-#: r2/controllers/listingcontroller.py:1225
-#: r2/controllers/listingcontroller.py:1236 r2/lib/menus.py:185 r2/lib/menus.py:435
-#: r2/lib/menus.py:651 r2/lib/pages/pages.py:5068 r2/lib/pages/pages.py:5077
+#: r2/controllers/front.py:751 r2/controllers/front.py:757
+#: r2/controllers/listingcontroller.py:886 r2/controllers/listingcontroller.py:901
+#: r2/controllers/listingcontroller.py:1215
+#: r2/controllers/listingcontroller.py:1226 r2/lib/menus.py:187 r2/lib/menus.py:441
+#: r2/lib/menus.py:696 r2/lib/pages/pages.py:5034 r2/lib/pages/pages.py:5043
 #: r2/templates/createsubreddit.html:273 r2/templates/createsubreddit.html:284
 #: r2/templates/createsubreddit.html:295
 msgid "all"
 msgstr "모두"
 
-#: r2/controllers/front.py:740
+#: r2/controllers/front.py:773
 msgid "admins*"
 msgstr "관리자"
 
-#: r2/controllers/front.py:743
+#: r2/controllers/front.py:776
 msgid "filter by action"
 msgstr "행동으로 구분하기"
 
-#: r2/controllers/front.py:745
+#: r2/controllers/front.py:778
 msgid "filter by moderator"
 msgstr "관리자별로 구분하기"
 
-#: r2/controllers/front.py:927
+#: r2/controllers/front.py:960
 msgid "posts and comments"
 msgstr ""
 
-#: r2/controllers/front.py:928 r2/controllers/front.py:1246
-#: r2/controllers/front.py:1265 r2/lib/permissions.py:92
+#: r2/controllers/front.py:961 r2/controllers/front.py:1277
+#: r2/controllers/front.py:1296 r2/lib/permissions.py:92
 msgid "posts"
 msgstr "글"
 
-#: r2/controllers/front.py:929 r2/controllers/listingcontroller.py:1812
-#: r2/lib/pages/pages.py:5957 r2/templates/createsubreddit.html:289
+#: r2/controllers/front.py:962 r2/controllers/listingcontroller.py:1803
+#: r2/lib/pages/pages.py:5916 r2/templates/createsubreddit.html:289
 #: r2/templates/link.xml:93
 msgid "comments"
 msgstr "댓글"
 
-#: r2/controllers/front.py:931
+#: r2/controllers/front.py:964
 msgid "show"
 msgstr "보기"
 
-#: r2/controllers/front.py:1019
+#: r2/controllers/front.py:1052
 msgid "Posts & Comments"
 msgstr ""
 
-#: r2/controllers/front.py:1020
+#: r2/controllers/front.py:1053
 msgid "Posts only"
 msgstr ""
 
-#: r2/controllers/front.py:1021
+#: r2/controllers/front.py:1054
 msgid "Comments only"
 msgstr ""
 
-#: r2/controllers/front.py:1023
+#: r2/controllers/front.py:1056
 #, python-format
 msgid "Rules for r/%(subreddit)s"
 msgstr ""
 
-#: r2/controllers/front.py:1061 r2/lib/menus.py:162
+#: r2/controllers/front.py:1094 r2/lib/menus.py:164
 msgid "awards"
 msgstr "상"
 
-#: r2/controllers/front.py:1100
+#: r2/controllers/front.py:1133
 msgid "other discussions"
 msgstr "다른 토론"
 
-#: r2/controllers/front.py:1149
+#: r2/controllers/front.py:1182
 msgid "search results"
 msgstr "검색 결과"
 
-#: r2/controllers/front.py:1288 r2/controllers/front.py:1297
-#: r2/controllers/listingcontroller.py:1573 r2/lib/menus.py:94
-#: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:859
+#: r2/controllers/front.py:1319 r2/controllers/front.py:1328
+#: r2/controllers/listingcontroller.py:1564 r2/lib/menus.py:94
+#: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:912
 msgid "subreddits"
 msgstr "하위 레딧"
 
-#: r2/controllers/front.py:1319
+#: r2/controllers/front.py:1350
 #, python-format
 msgid "search results - %(query)s"
 msgstr ""
 
-#: r2/controllers/front.py:1439
+#: r2/controllers/front.py:1470
 msgid "seen it"
 msgstr "본 링크입니다 ???"
 
-#: r2/controllers/front.py:1455 r2/models/subreddit.py:2484
+#: r2/controllers/front.py:1486 r2/models/subreddit.py:2537
 #: r2/templates/multiinfobar.html:34
 #, python-format
 msgid "%s subreddits"
 msgstr "%s 개의 서브레딧이 있습니다."
 
-#: r2/controllers/front.py:1478 r2/lib/menus.py:81
+#: r2/controllers/front.py:1509 r2/lib/menus.py:81
 #: r2/templates/accountrecovery.html:65 r2/templates/fraudform.html:42
-#: r2/templates/newlink.html:264 r2/templates/reportform.html:65
+#: r2/templates/newlink.html:319 r2/templates/reportform.html:65
 #: r2/templates/usertableitem.html:79
 msgid "submit"
 msgstr "올리기"
 
-#: r2/controllers/front.py:1534 r2/lib/menus.py:88
+#: r2/controllers/front.py:1565 r2/lib/menus.py:88
 msgid "contact us"
 msgstr "문의하기"
 
-#: r2/controllers/front.py:1547
+#: r2/controllers/front.py:1578
 msgid "Claimed! Enjoy your reddit gold membership."
 msgstr "등록되었습니다! 레딧 골드 멤버십을 즐기세요."
 
-#: r2/controllers/front.py:1551
+#: r2/controllers/front.py:1582
 msgid "Your gold creddits have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "골드 크레딧이 충전되었습니다! 다른 사용자의 사용자 페이지에 가서 선물을 주세요!"
 
-#: r2/controllers/front.py:1554
+#: r2/controllers/front.py:1585
 msgid "Thanks for buying reddit gold! Your transaction has been completed."
 msgstr "레딧 골드를 구입해 주셔서 감사합니다! 결제가 완료되었습니다."
 
-#: r2/controllers/front.py:1557
+#: r2/controllers/front.py:1588
 msgid "Thanks for buying reddit gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "레딧 골드를 구입해 주셔서 감사합니다! 결제가 완료되었으며 정보를 메일로 발송해 드렸습니다. 자세한 내용은 아래 계정에서 확인 가능하십니다:"
 
-#: r2/controllers/front.py:1563
+#: r2/controllers/front.py:1594
 #, python-format
 msgid "Thanks for buying reddit gold! Your transaction is being processed. If you have any questions please email us at %(gold_email)s"
 msgstr "레딧 골드를 구입해 주셔서 감사합니다! 결제를 처리중입니다. 궁금하신 게 있으시면 %(gold_email)s 로 문의해 주세요."
 
-#: r2/controllers/front.py:1570 r2/controllers/front.py:1915
+#: r2/controllers/front.py:1601 r2/controllers/front.py:1988
 msgid "thanks"
 msgstr "감사합니다"
 
-#: r2/controllers/front.py:1587
+#: r2/controllers/front.py:1618
 msgid "claim this award?"
 msgstr "이 상을 받으시겠습니까?"
 
-#: r2/controllers/front.py:1610
+#: r2/controllers/front.py:1641
 msgid "award claim"
 msgstr "상 받기"
 
-#: r2/controllers/front.py:1614 r2/templates/gilding.html:26
+#: r2/controllers/front.py:1645 r2/templates/gilding.html:26
 msgid "gilding"
 msgstr "글라이딩"
 
-#: r2/controllers/front.py:1647 r2/templates/admininterstitial.html:48
-#: r2/templates/login.html:87 r2/templates/login.html:89
-#: r2/templates/login.html:189 r2/templates/loginformwide.html:39
+#: r2/controllers/front.py:1678 r2/templates/admininterstitial.html:48
+#: r2/templates/login.html:90 r2/templates/login.html:92
+#: r2/templates/login.html:195 r2/templates/loginformwide.html:39
 #: r2/templates/prefdeactivate.html:73 r2/templates/prefsecurity.html:40
-#: r2/templates/prefsecurity.html:59 r2/templates/register.html:87
-#: r2/templates/register.html:89 r2/templates/register.html:189
+#: r2/templates/prefsecurity.html:59 r2/templates/register.html:90
+#: r2/templates/register.html:92 r2/templates/register.html:195
 msgid "password"
 msgstr "비밀번호"
 
-#: r2/controllers/front.py:1667 r2/controllers/front.py:1706
+#: r2/controllers/front.py:1698 r2/controllers/front.py:1745
 msgid "verify email"
 msgstr "이메일 인증"
 
-#: r2/controllers/front.py:1742
+#: r2/controllers/front.py:1781
 msgid "account recovery token expired"
 msgstr ""
 
-#: r2/controllers/front.py:1747
+#: r2/controllers/front.py:1786
 msgid "recover account"
 msgstr ""
 
-#: r2/controllers/front.py:1763
+#: r2/controllers/front.py:1798
 msgid "incorrect message token"
 msgstr "잘못된 메시지 토큰"
 
-#: r2/controllers/front.py:1772
+#: r2/controllers/front.py:1811
+msgid "invalid email_type provided"
+msgstr ""
+
+#: r2/controllers/front.py:1824
 msgid "emails unsubscribed"
 msgstr "이메일 구독취소됨"
 
-#: r2/controllers/front.py:1820
+#: r2/controllers/front.py:1893
 msgid "advertising preferences (reddit.com)"
 msgstr ""
 
-#: r2/controllers/front.py:1867 r2/lib/pages/pages.py:1035
+#: r2/controllers/front.py:1940 r2/lib/pages/pages.py:1045
 #: r2/templates/admininterstitial.html:79
 msgid "turn admin on"
 msgstr "관리자 사용"
 
-#: r2/controllers/front.py:1885 r2/controllers/post.py:153
+#: r2/controllers/front.py:1958 r2/controllers/post.py:153
 msgid "opt out"
 msgstr "이메일을 받고 싶지 않다 ??? what is this"
 
-#: r2/controllers/front.py:1885 r2/controllers/post.py:164
+#: r2/controllers/front.py:1958 r2/controllers/post.py:164
 msgid "welcome back"
 msgstr "안녕하십니까?"
 
-#: r2/controllers/front.py:1964 r2/controllers/front.py:2052
-#: r2/controllers/front.py:2091 r2/lib/menus.py:93 r2/templates/creditgild.html:31
+#: r2/controllers/front.py:2037 r2/controllers/front.py:2125
+#: r2/controllers/front.py:2164 r2/lib/menus.py:93 r2/templates/creditgild.html:31
 #: r2/templates/gold.html:27 r2/templates/goldpayment.html:37
-#: r2/templates/goldthanks.html:26 r2/templates/prefoptions.html:427
+#: r2/templates/goldthanks.html:26 r2/templates/prefoptions.html:437
 msgid "reddit gold"
 msgstr "레딧 골드"
 
-#: r2/controllers/front.py:2101 r2/templates/gilding.html:76
+#: r2/controllers/front.py:2174 r2/templates/gilding.html:76
 msgid "purchase creddits"
 msgstr "크레딧 사기"
 
-#: r2/controllers/front.py:2111 r2/controllers/ipn.py:1146
+#: r2/controllers/front.py:2184 r2/controllers/ipn.py:1147
 msgid "reddit gold subscription"
 msgstr "Reddit Gold 구독"
 
-#: r2/controllers/front.py:2125
+#: r2/controllers/front.py:2198
 msgid "You don't have an email address associated \n"
 "                        with your account!"
 msgstr ""
 
-#: r2/controllers/front.py:2127
+#: r2/controllers/front.py:2200
 msgid "Error"
 msgstr ""
 
-#: r2/controllers/front.py:2139 r2/controllers/front.py:2149
+#: r2/controllers/front.py:2212 r2/controllers/front.py:2222
 msgid "Success!"
 msgstr ""
 
-#: r2/controllers/front.py:2143
+#: r2/controllers/front.py:2216
 msgid "You have updated your preferences."
 msgstr ""
 
-#: r2/controllers/front.py:2146
+#: r2/controllers/front.py:2219
 msgid "Please check your inbox to verify \n"
 "                       your email address."
 msgstr ""
 
-#: r2/controllers/front.py:2159
+#: r2/controllers/front.py:2232
 msgid "Get messages to my email inbox!"
 msgstr ""
 
@@ -1000,242 +1016,247 @@ msgstr "연결 오류"
 msgid "error"
 msgstr "오류"
 
-#: r2/controllers/ipn.py:1034
+#: r2/controllers/ipn.py:1035
 msgid "error: address verification failed"
 msgstr "오류: 주소 확인 실패"
 
-#: r2/controllers/ipn.py:1038
+#: r2/controllers/ipn.py:1039
 msgid "error: cvc check failed"
 msgstr "오류: CVC 확인 실패"
 
-#: r2/controllers/ipn.py:1083
+#: r2/controllers/ipn.py:1084
 msgid "your gold subscription has been cancelled"
 msgstr "당신의 골드 구독이 취소되었습니다"
 
-#: r2/controllers/ipn.py:1084
+#: r2/controllers/ipn.py:1085
 #, python-format
 msgid "if you have any questions please email %(email)s"
 msgstr "궁금한 점이 있으시다면 %(email)s로 연락하십시오."
 
-#: r2/controllers/ipn.py:1111
+#: r2/controllers/ipn.py:1112
 msgid "something bad happened, try again later"
 msgstr "뭔가 안 좋은 일이 일어났군요, 나중에 다시 시도해 보세요."
 
-#: r2/controllers/ipn.py:1120
+#: r2/controllers/ipn.py:1121
 msgid "your account already has a gold subscription"
 msgstr "이 계정은 이미 레딧 골드를 구독하고 있습니다."
 
-#: r2/controllers/ipn.py:1126
+#: r2/controllers/ipn.py:1127
 msgid "stop trying to trick the form"
 msgstr "입력 양식을 속이려고 하지 마세요"
 
-#: r2/controllers/ipn.py:1145
+#: r2/controllers/ipn.py:1146
 msgid "subscription created"
 msgstr "구독 생성됨"
 
-#: r2/controllers/ipn.py:1147
+#: r2/controllers/ipn.py:1148
 msgid "Your subscription is being processed and reddit gold will be delivered shortly."
 msgstr "구독이 완료되었습니다. 레딧 골드가 곧 지급될 예정입니다."
 
-#: r2/controllers/ipn.py:1155
+#: r2/controllers/ipn.py:1156
 msgid "payment submitted"
 msgstr "결제 전송됨"
 
-#: r2/controllers/ipn.py:1156
+#: r2/controllers/ipn.py:1157
 msgid "reddit gold payment"
 msgstr "레딧 금화 지불"
 
-#: r2/controllers/ipn.py:1157
+#: r2/controllers/ipn.py:1158
 msgid "Your payment is being processed and reddit gold will be delivered shortly."
 msgstr "지불이 완료되었습니다. 레딧 골드가 곧 지급될 예정입니다."
 
-#: r2/controllers/ipn.py:1174
+#: r2/controllers/ipn.py:1175
 msgid "your payment details have been updated"
 msgstr "지불 상세 정보가 업데이드되었습니다"
 
-#: r2/controllers/ipn.py:1186
+#: r2/controllers/ipn.py:1187
 msgid "your subscription has been cancelled"
 msgstr "당신의 구독이 취소되었습니다"
 
-#: r2/controllers/ipn.py:1398
+#: r2/controllers/ipn.py:1399
 #, python-format
 msgid "You have created a yearly Reddit Gold subscription for %(price)s per year.\n\n"
 "This subscription will renew automatically yearly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1403
+#: r2/controllers/ipn.py:1404
 #, python-format
 msgid "You have created a monthly Reddit Gold subscription for %(price)s per month.\n\n"
 "This subscription will renew automatically monthly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1409
+#: r2/controllers/ipn.py:1410
 #, python-format
 msgid "Your Reddit Gold subscription has been renewed for 1 month for %(price)s.\n\n"
 "This subscription will renew automatically monthly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1414
+#: r2/controllers/ipn.py:1415
 #, python-format
 msgid "Your Reddit Gold subscription has been renewed for 1 year for %(price)s.\n\n"
 "This subscription will renew automatically yearly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1419
+#: r2/controllers/ipn.py:1420
 msgid "Reddit Gold Subscription"
 msgstr ""
 
-#: r2/controllers/ipn.py:1420
+#: r2/controllers/ipn.py:1421
 #, python-format
 msgid "If you cancel, you will not be billed for any additional months of service, and service will continue until the end of the billing period. If you cancel, you will not receive a refund for any service already paid for.\n\n"
 "If you have any questions, please contact %(gold_email)s."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:690
+#: r2/controllers/listingcontroller.py:673
 msgid "newest submissions"
 msgstr "최신 링크"
 
-#: r2/controllers/listingcontroller.py:718
+#: r2/controllers/listingcontroller.py:702
 msgid "rising submissions"
 msgstr "뜨는 게시물"
 
-#: r2/controllers/listingcontroller.py:771
+#: r2/controllers/listingcontroller.py:761
 msgid "top scoring links"
 msgstr "고득점 링크"
 
-#: r2/controllers/listingcontroller.py:775
+#: r2/controllers/listingcontroller.py:765
 msgid "most controversial links"
 msgstr "화제가 되는 링크"
 
-#: r2/controllers/listingcontroller.py:789
+#: r2/controllers/listingcontroller.py:780
 msgid "promoted links"
 msgstr "홍보 링크"
 
-#: r2/controllers/listingcontroller.py:793
+#: r2/controllers/listingcontroller.py:784
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "광고를 하고 싶으신가요? [클릭하세요](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:828
+#: r2/controllers/listingcontroller.py:819
 msgid "you're really bored now, eh?"
 msgstr "많이 심심한가 보시내요?"
 
-#: r2/controllers/listingcontroller.py:904
+#: r2/controllers/listingcontroller.py:894
 msgid "filter by subreddit"
 msgstr "서브레딧으로 검색 결과 제한"
 
-#: r2/controllers/listingcontroller.py:918
+#: r2/controllers/listingcontroller.py:908
 msgid "filter by category"
 msgstr "분류에 따라 필터"
 
-#: r2/controllers/listingcontroller.py:924
+#: r2/controllers/listingcontroller.py:914
 msgid "gildings received"
 msgstr "받은 골드"
 
-#: r2/controllers/listingcontroller.py:925
+#: r2/controllers/listingcontroller.py:915
 msgid "gildings given"
 msgstr "준 골드"
 
-#: r2/controllers/listingcontroller.py:931
+#: r2/controllers/listingcontroller.py:921
 #, python-format
 msgid "overview for %(user)s"
 msgstr "%(user)s님의 활동 한 눈에 보기"
 
-#: r2/controllers/listingcontroller.py:932
+#: r2/controllers/listingcontroller.py:922
 #, python-format
 msgid "comments by %(user)s"
 msgstr "%(user)s님께서 남기신 댓글"
 
-#: r2/controllers/listingcontroller.py:934
+#: r2/controllers/listingcontroller.py:924
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "%(user)s 에 의해 골드를 받음"
 
-#: r2/controllers/listingcontroller.py:935
+#: r2/controllers/listingcontroller.py:925
 #, python-format
 msgid "upvoted by %(user)s"
 msgstr "%(user)s 에 의해 추천됨"
 
-#: r2/controllers/listingcontroller.py:936
+#: r2/controllers/listingcontroller.py:926
 #, python-format
 msgid "downvoted by %(user)s"
 msgstr "%(user)s 에 의해 비추천됨"
 
-#: r2/controllers/listingcontroller.py:937
+#: r2/controllers/listingcontroller.py:927
 #, python-format
 msgid "saved by %(user)s"
 msgstr "%(user)s 에 의해 보관됨"
 
-#: r2/controllers/listingcontroller.py:938
+#: r2/controllers/listingcontroller.py:928
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "%(user)s님께서 숨긴 링크"
 
-#: r2/controllers/listingcontroller.py:939
+#: r2/controllers/listingcontroller.py:929
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "%(user)s님이 홍보"
 
-#: r2/controllers/listingcontroller.py:941
+#: r2/controllers/listingcontroller.py:931
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "%(user)s 에 의해 받은 금화들"
 
-#: r2/controllers/listingcontroller.py:943
+#: r2/controllers/listingcontroller.py:933
 #, python-format
 msgid "profile for %(user)s"
 msgstr "%(user)s님의 프로필"
 
-#: r2/controllers/listingcontroller.py:1060 r2/lib/menus.py:106
+#: r2/controllers/listingcontroller.py:1050 r2/lib/menus.py:106
 #: r2/templates/printablebuttons.html:585 r2/templates/printablebuttons.html:592
 msgid "blocked"
 msgstr "차단됨"
 
-#: r2/controllers/listingcontroller.py:1226
-#: r2/controllers/listingcontroller.py:1237 r2/templates/printablebuttons.html:612
+#: r2/controllers/listingcontroller.py:1216
+#: r2/controllers/listingcontroller.py:1227 r2/templates/printablebuttons.html:612
 msgid "unread"
 msgstr "읽지 않음"
 
-#: r2/controllers/listingcontroller.py:1228
+#: r2/controllers/listingcontroller.py:1218
 msgid "comment replies"
 msgstr "댓글"
 
-#: r2/controllers/listingcontroller.py:1229
+#: r2/controllers/listingcontroller.py:1219
 msgid "post replies"
 msgstr "댓글 쓰기"
 
-#: r2/controllers/listingcontroller.py:1230
+#: r2/controllers/listingcontroller.py:1220
 msgid "username mentions"
 msgstr "아이디 언급"
 
-#: r2/controllers/listingcontroller.py:1244 r2/templates/redditheader.html:114
+#: r2/controllers/listingcontroller.py:1234 r2/templates/redditheader.html:114
 #: r2/templates/redditheader.html:119
 msgid "messages"
 msgstr "메세지"
 
-#: r2/controllers/listingcontroller.py:1716
+#: r2/controllers/listingcontroller.py:1707
 msgid "subreddits: "
 msgstr "서브레딧:"
 
-#: r2/controllers/listingcontroller.py:1859
+#: r2/controllers/listingcontroller.py:1851
+#: r2/controllers/listingcontroller.py:2015
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "사용자를 차단하려면 원치 않는 사용자가 보낸 메시지 하단에 위치한 '사용자 차단' 버튼을 누르십시오."
 
-#: r2/controllers/listingcontroller.py:2122 r2/lib/menus.py:58
+#: r2/controllers/listingcontroller.py:2020
+msgid "Trusted users will always be able to send you PMs."
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:2178 r2/lib/menus.py:58
 msgid "gilded"
 msgstr "골드"
 
-#: r2/controllers/listingcontroller.py:2136
+#: r2/controllers/listingcontroller.py:2192
 #, python-format
 msgid "gildings in this subreddit have paid for %(time)s of server time"
 msgstr "이 서브레딧이 한 길딩은 %(time)s 만큼의 레딧 서버 유지비를 지불했습니다."
 
-#: r2/controllers/multi.py:323
+#: r2/controllers/multi.py:324
 #, python-format
 msgid "copied from %(source)s"
 msgstr "%(source)s에서 복사됨"
 
-#: r2/controllers/oauth2.py:140
+#: r2/controllers/oauth2.py:142
 msgid "this app has not been approved for use with employee accounts"
 msgstr "이 프로그램은 직원 계정에서 사용할 수 없습니다."
 
@@ -1248,17 +1269,17 @@ msgstr "[계정 삭제됨]"
 msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "%(author)s의 \"%(title)s\" 토론에서의 댓글"
 
-#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:6414
+#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:6373
 #: r2/templates/personalizedads.html:53
 msgid "privacy policy"
 msgstr "개인정보 보호정책"
 
-#: r2/controllers/policies.py:48 r2/lib/pages/pages.py:6415
+#: r2/controllers/policies.py:48 r2/lib/pages/pages.py:6374
 msgid "user agreement"
 msgstr "사용자 이용약관"
 
-#: r2/controllers/policies.py:51 r2/lib/pages/pages.py:6416
-#: r2/templates/newlink.html:251 r2/templates/usertext.html:159
+#: r2/controllers/policies.py:51 r2/lib/pages/pages.py:6375
+#: r2/templates/newlink.html:306 r2/templates/usertext.html:159
 msgid "content policy"
 msgstr "콘텐츠 정책"
 
@@ -1287,7 +1308,7 @@ msgstr ""
 msgid "promoted post inventory"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:427 r2/lib/menus.py:187
+#: r2/controllers/promotecontroller.py:427 r2/lib/menus.py:189
 msgid "unapproved campaigns"
 msgstr ""
 
@@ -1319,7 +1340,7 @@ msgstr "실시간 홍보 링크"
 msgid "edited live promoted links"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:435 r2/lib/menus.py:184
+#: r2/controllers/promotecontroller.py:435 r2/lib/menus.py:186
 msgid "all promoted links"
 msgstr "모든 홍보 링크"
 
@@ -1367,42 +1388,42 @@ msgstr "환불이 성공적으로 되었습니다"
 msgid "refund not needed"
 msgstr "환불이 필요치 않습니다"
 
-#: r2/controllers/promotecontroller.py:1775
+#: r2/controllers/promotecontroller.py:1833
 msgid "failed to authenticate card. sorry."
 msgstr "카드를 인증하지 못하였습니다.  죄송합니다."
 
-#: r2/controllers/promotecontroller.py:1807
+#: r2/controllers/promotecontroller.py:1865
 #, python-format
 msgid "please change campaign start date to %(date)s or earlier"
 msgstr "캠페인 시작 날짜를 %(date)s 또는 그 앞으로 바꿔주세요"
 
-#: r2/controllers/promotecontroller.py:1814
+#: r2/controllers/promotecontroller.py:1872
 #, python-format
 msgid "please change campaign start date to %(date)s or later"
 msgstr "광고 시작 날짜를 %(date)s 또는 그 후로 변경해 주십시오."
 
-#: r2/controllers/promotecontroller.py:1917
+#: r2/controllers/promotecontroller.py:1975
 msgid "image must be a jpg or png"
 msgstr ""
 
-#: r2/controllers/reddit_base.py:1625 r2/lib/pages/pages.py:4590
-#: r2/models/modaction.py:111 r2/templates/bannedinterstitial.html:33
+#: r2/controllers/reddit_base.py:1574 r2/lib/pages/pages.py:4556
+#: r2/models/modaction.py:113 r2/templates/bannedinterstitial.html:33
 #: r2/templates/subreddit.html:74 r2/templates/subredditinfobar.html:168
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "탈퇴당한 사용자입니다"
 
-#: r2/controllers/reddit_base.py:1647
+#: r2/controllers/reddit_base.py:1596
 msgid "gold members only"
 msgstr "오직 골드 회원만"
 
-#: r2/controllers/reddit_base.py:1657 r2/templates/createsubreddit.html:141
+#: r2/controllers/reddit_base.py:1606 r2/templates/createsubreddit.html:141
 #: r2/templates/multiinfobar.html:40 r2/templates/privateinterstitial.html:37
 #: r2/templates/searchresultsubreddit.html:98 r2/templates/subreddit.html:87
 msgid "private"
 msgstr "비밀 레딧"
 
-#: r2/controllers/reddit_base.py:1757
+#: r2/controllers/reddit_base.py:1721
 msgid "search failed"
 msgstr "검색 실패"
 
@@ -1432,7 +1453,7 @@ msgid "viewing revision from %s"
 msgstr "개정판 %s 열람 중"
 
 #: r2/controllers/wiki.py:169 r2/controllers/wiki.py:170
-#: r2/lib/template_helpers.py:879
+#: r2/lib/template_helpers.py:864
 #, python-format
 msgid "%s ago"
 msgstr "%s 전에"
@@ -1517,11 +1538,11 @@ msgstr "제어 문자는 허용되지 않습니다"
 msgid "the stylesheet is too big. maximum size: %(size)d KiB"
 msgstr "스타일시트가 너무 큽니다. 최대 크기: %(size)d KiB"
 
-#: r2/lib/emailer.py:402 r2/models/link.py:2685
+#: r2/lib/emailer.py:402 r2/models/link.py:2677
 msgid "comment reply"
 msgstr "덧글 답변"
 
-#: r2/lib/emailer.py:404 r2/models/link.py:2687
+#: r2/lib/emailer.py:404 r2/models/link.py:2679
 msgid "post reply"
 msgstr "답변 등록"
 
@@ -1529,7 +1550,7 @@ msgstr "답변 등록"
 msgid "username notification"
 msgstr "사용자 이름 알림"
 
-#: r2/lib/emailer.py:408 r2/lib/strings.py:260 r2/lib/pages/pages.py:1689
+#: r2/lib/emailer.py:408 r2/lib/strings.py:272 r2/lib/pages/pages.py:1624
 #: r2/templates/messagecompose.html:98
 msgid "message"
 msgid_plural "messages"
@@ -1646,610 +1667,626 @@ msgstr "해당 비밀번호가 옳지 않습니다"
 msgid "wrong password"
 msgstr "비밀번호가 틀립니다"
 
-#: r2/lib/errors.py:59 r2/public/static/js/login.js:375
+#: r2/lib/errors.py:59
+msgid "incorrect username or password"
+msgstr ""
+
+#: r2/lib/errors.py:60 r2/public/static/js/login.js:377
 msgid "passwords do not match"
 msgstr "입력하신 비밀번호가 일치하지 않습니다"
 
-#: r2/lib/errors.py:60
+#: r2/lib/errors.py:61
 msgid "new and old passwords must not match"
 msgstr ""
 
-#: r2/lib/errors.py:61
+#: r2/lib/errors.py:62
 msgid "please enter a name"
 msgstr "이름을 입력하십시오"
 
-#: r2/lib/errors.py:62
+#: r2/lib/errors.py:63
 msgid "please enter an email address"
 msgstr "이메일 주소를 입력하십시오"
 
-#: r2/lib/errors.py:63
+#: r2/lib/errors.py:64
 msgid "no email address for that user"
 msgstr "입력하신 사용자의 이메일 주소정보가 없습니다"
 
-#: r2/lib/errors.py:64
+#: r2/lib/errors.py:65
 msgid "no verified email address for that user"
 msgstr "이 사용자를 위한 확인된 이메일 주소가 없습니다."
 
-#: r2/lib/errors.py:65
+#: r2/lib/errors.py:66
 msgid "send it to whom?"
 msgstr "누구한테 보낼까요?"
 
-#: r2/lib/errors.py:66
+#: r2/lib/errors.py:67
 msgid "please enter a subject"
 msgstr "제목을 입력하십시오"
 
-#: r2/lib/errors.py:67
+#: r2/lib/errors.py:68
 msgid "that user doesn't exist"
 msgstr "존재하지 않는 아이디입니다"
 
-#: r2/lib/errors.py:68
+#: r2/lib/errors.py:69
 msgid "please enter a username"
 msgstr "아이디를 입력하십시오"
 
-#: r2/lib/errors.py:69
+#: r2/lib/errors.py:70
 msgid "that preference isn't valid"
 msgstr "이 설정은 유효하지 않습니다"
 
-#: r2/lib/errors.py:70
+#: r2/lib/errors.py:71
 #, python-format
 msgid "'%(choice)s' is not a user preference field"
 msgstr "'%(choice)s'는 존재하는 설정 속성이 아닙니다."
 
-#: r2/lib/errors.py:71
+#: r2/lib/errors.py:72
 msgid "that language is not available"
 msgstr "이 언어는 사용할 수 없습니다"
 
-#: r2/lib/errors.py:72
+#: r2/lib/errors.py:73
 #, python-format
 msgid "that number isn't in the right range (%(range)s)"
 msgstr "숫자가 허용된 범위를 벗어났습니다 (%(range)s)"
 
-#: r2/lib/errors.py:73
+#: r2/lib/errors.py:74
 msgid "you used a character here that we can't handle"
 msgstr "허용되지 않는 문자를 사용하였습니다"
 
-#: r2/lib/errors.py:74
+#: r2/lib/errors.py:75
 #, python-format
 msgid "your budget must be at least $%(min)d and no more than $%(max)d."
 msgstr "당신의 예산은 최소한 $%(min)d 이상이고 $%(max)d 미만이어야 합니다."
 
-#: r2/lib/errors.py:75
+#: r2/lib/errors.py:76
 #, python-format
 msgid "your %(cost_basis)s bid must be at least $%(min)s and no more than $%(max)s."
 msgstr ""
 
-#: r2/lib/errors.py:76
+#: r2/lib/errors.py:77
 msgid "your campaign must be capable of delivering 1,000 impressions per day; please adjust your bid or schedule accordingly."
 msgstr ""
 
-#: r2/lib/errors.py:77
+#: r2/lib/errors.py:78
 msgid "that link has already been submitted"
 msgstr "누가 이미 올린 링크입니다"
 
-#: r2/lib/errors.py:78
+#: r2/lib/errors.py:79
 msgid "that subreddit already exists"
 msgstr "이미 존재하는 서브레딧입니다"
 
-#: r2/lib/errors.py:79
+#: r2/lib/errors.py:80
 msgid "that subreddit doesn't exist"
 msgstr "존재하지 않는 서브레딧입니다"
 
-#: r2/lib/errors.py:80
+#: r2/lib/errors.py:81
 msgid "you aren't allowed to post there."
 msgstr "등록할 권한이 없습니다"
 
-#: r2/lib/errors.py:82
+#: r2/lib/errors.py:83
 msgid "Image submissions aren't allowed in this subreddit"
 msgstr ""
 
-#: r2/lib/errors.py:83
+#: r2/lib/errors.py:84
 msgid "you aren't allowed access to this subreddit"
 msgstr "이 서브레딧에 접근하도록 허락되지 않았습니다"
 
-#: r2/lib/errors.py:84
+#: r2/lib/errors.py:85
 msgid "you must specify a subreddit"
 msgstr "서브레딧을 입력하세요"
 
-#: r2/lib/errors.py:85
+#: r2/lib/errors.py:86
 msgid "this subreddit has chosen to disable their ads at this time"
 msgstr "이 서브레딧은 현재 광고를 중지하기로 결정했습니다"
 
-#: r2/lib/errors.py:86
+#: r2/lib/errors.py:87
 msgid "this link already has a promoted post"
 msgstr ""
 
-#: r2/lib/errors.py:87
+#: r2/lib/errors.py:88
 msgid "that subreddit is private"
 msgstr ""
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3286
+#: r2/lib/errors.py:89 r2/lib/validator/validator.py:3285
 msgid "that name isn't going to work"
 msgstr "사용 하실 수 없는 이름입니다"
 
-#: r2/lib/errors.py:89
+#: r2/lib/errors.py:90
 msgid "that subreddit can't be used as a theme"
 msgstr ""
 
-#: r2/lib/errors.py:90
+#: r2/lib/errors.py:91
 msgid "that collection doesn't exist"
 msgstr "해당 모음이 존재하지 않습니다"
 
-#: r2/lib/errors.py:91
+#: r2/lib/errors.py:92
 msgid "that interest isn't supported"
 msgstr ""
 
-#: r2/lib/errors.py:92
+#: r2/lib/errors.py:93
 msgid "that target type is not valid"
 msgstr "타깃 종류가 유효하지 않습니다"
 
-#: r2/lib/errors.py:93
+#: r2/lib/errors.py:94
 msgid "targeting too many subreddits"
 msgstr ""
 
-#: r2/lib/errors.py:94
+#: r2/lib/errors.py:95
 msgid "that version range is not valid"
 msgstr "이 버전 범위는 유효하지 않음"
 
-#: r2/lib/errors.py:95
+#: r2/lib/errors.py:96
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
 msgstr "너무 잦은 시도. %(time)s 후에 다시 시도하여 주십시오."
 
-#: r2/lib/errors.py:96
+#: r2/lib/errors.py:97
 msgid "you are doing that too much. try again later."
 msgstr "너무 자주 하시고 계십니다. 잠시 후에 다시 시도하세요."
 
-#: r2/lib/errors.py:97
+#: r2/lib/errors.py:98
 msgid "your session has expired"
 msgstr "시간이 많이 지나서 로그인이 만료되었습니다  ???"
 
-#: r2/lib/errors.py:98
+#: r2/lib/errors.py:99
 msgid "you must accept the terms first"
 msgstr "이용약관에 먼저 동의에 하셔야 합니다"
 
-#: r2/lib/errors.py:102
+#: r2/lib/errors.py:103
 msgid "that option is not valid"
 msgstr "선택 할 수 없는 설정입니다"
 
-#: r2/lib/errors.py:103
+#: r2/lib/errors.py:104
 msgid "that email is invalid"
 msgstr "이메일 주소가 유효하지 않습니다"
 
-#: r2/lib/errors.py:104
+#: r2/lib/errors.py:105
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
 msgstr "다음 메일 주소가 잘 못 됐습니다: %(emails)s"
 
-#: r2/lib/errors.py:105
+#: r2/lib/errors.py:106
 msgid "please enter at least one email address"
 msgstr "이메일 주소를 한 개 이상 입력하십시오"
 
-#: r2/lib/errors.py:106
+#: r2/lib/errors.py:107
 #, python-format
 msgid "please only share to %(num)s emails at a time."
 msgstr "한 번에 이메일을 %(num)s 개 이상 보낼 수 없습니다"
 
-#: r2/lib/errors.py:107
+#: r2/lib/errors.py:108
 msgid "where should we send that weekly newsletter?"
 msgstr "주간 뉴스레터를 어디로 보낼까요?"
 
-#: r2/lib/errors.py:108
+#: r2/lib/errors.py:109
 msgid "advertisers are required to supply an email"
 msgstr "광고주는 이메일 주소를 제공해야 합니다"
 
-#: r2/lib/errors.py:109
+#: r2/lib/errors.py:110
 msgid "That email could not be added. Check your email for an existing confirmation email."
 msgstr "이 이메일 주소를 추가할 수 없습니다. 이메일 인증을 위해 수신함을 확인하시기 바랍니다."
 
-#: r2/lib/errors.py:110
+#: r2/lib/errors.py:111
 #, python-format
 msgid "that subreddit has already been oversold on %(start)s to %(end)s. Please pick another subreddit or date."
 msgstr ""
 
-#: r2/lib/errors.py:111
+#: r2/lib/errors.py:112
 #, python-format
 msgid "We have insufficient inventory to fulfill your requested budget, target, and dates. Only %(available)s impressions available on %(target)s from %(start)s to %(end)s."
 msgstr ""
 
-#: r2/lib/errors.py:112
+#: r2/lib/errors.py:113
 msgid "please provide a date of the form mm/dd/yyyy"
 msgstr "날짜를 입력하여 주십시오(월/일/년)"
 
-#: r2/lib/errors.py:113
+#: r2/lib/errors.py:114
 msgid "the dates need to be in order and not identical"
 msgstr "날짜는 순서대로 입력해야 하며, 중복될 수 없습니다."
 
-#: r2/lib/errors.py:114
+#: r2/lib/errors.py:115
 #, python-format
 msgid "please enter a date %(day)s or earlier"
 msgstr "%(day)s 이전의 날짜를 입력해 주세요"
 
-#: r2/lib/errors.py:115
+#: r2/lib/errors.py:116
 #, python-format
 msgid "please enter a date %(day)s or later"
 msgstr "%(day)s 이후의 날짜를 입력해 주세요"
 
-#: r2/lib/errors.py:116
+#: r2/lib/errors.py:117
 msgid "start date cannot be changed"
 msgstr "시작일은 변경할 수 없습니다"
 
-#: r2/lib/errors.py:117
+#: r2/lib/errors.py:118
 msgid "this campaign was created prior to auction and cannot be edited"
 msgstr ""
 
-#: r2/lib/errors.py:118
+#: r2/lib/errors.py:119
 #, python-format
 msgid "address problem: %(message)s"
 msgstr "주소 오류: %(message)s"
 
-#: r2/lib/errors.py:119
+#: r2/lib/errors.py:120
 #, python-format
 msgid "card problem: %(message)s"
 msgstr "카드번호 오류: %(message)s"
 
-#: r2/lib/errors.py:120 r2/public/static/js/errors.js:5
+#: r2/lib/errors.py:121 r2/public/static/js/errors.js:5
 #, python-format
 msgid "this is too long (max: %(max_length)s)"
 msgstr "길이 초과입니다 (최대 길이: %(max_length)s)"
 
-#: r2/lib/errors.py:121 r2/public/static/js/errors.js:4
+#: r2/lib/errors.py:122 r2/public/static/js/errors.js:4
 msgid "we need something here"
 msgstr "여기 뭔가가 필요해요"
 
-#: r2/lib/errors.py:122 r2/public/static/js/errors.js:6
+#: r2/lib/errors.py:123 r2/public/static/js/errors.js:6
 #, python-format
 msgid "this is too short (min: %(min_length)s)"
 msgstr "너무 짧습니다 (최소 길이: %(min_length)s)"
 
-#: r2/lib/errors.py:123
+#: r2/lib/errors.py:124
 msgid "we've never seen that code before"
 msgstr "처음 보는 코드네요"
 
-#: r2/lib/errors.py:124
+#: r2/lib/errors.py:125
 msgid "that code has already been claimed -- perhaps by you?"
 msgstr "이미 사용된 코드입니다."
 
-#: r2/lib/errors.py:125
+#: r2/lib/errors.py:126
 msgid "that subreddit doesn't allow text posts"
 msgstr "이 서브레딧에는 텍스트 게시물을 올릴 수 없습니다"
 
-#: r2/lib/errors.py:126
+#: r2/lib/errors.py:127
 msgid "that subreddit only allows text posts"
 msgstr "이 서브레딧에는 텍스트 게시물만 올릴 수 있습니다"
 
-#: r2/lib/errors.py:127
+#: r2/lib/errors.py:128
 msgid "that's a piece of history now; it's too late to reply to it"
 msgstr "이 글은 이제 역사의 일부입니다. 댓글을 달 수 없습니다."
 
-#: r2/lib/errors.py:128
+#: r2/lib/errors.py:129
 msgid "Comments are locked."
 msgstr "댓글이 잠겼습니다."
 
-#: r2/lib/errors.py:129
+#: r2/lib/errors.py:130
 msgid "invalid css name"
 msgstr "잘못된 css 이름"
 
-#: r2/lib/errors.py:130
+#: r2/lib/errors.py:131
 msgid "invalid css"
 msgstr "유효하지 않은 CSS 입니다"
 
-#: r2/lib/errors.py:132
+#: r2/lib/errors.py:133
 msgid "invalid revision ID"
 msgstr "올바르지 않은 revision 아이디"
 
-#: r2/lib/errors.py:133
+#: r2/lib/errors.py:134
 msgid "too many flair css classes"
 msgstr "너무 많은 플레어 css 클래스"
 
-#: r2/lib/errors.py:134
+#: r2/lib/errors.py:135
 msgid "not a valid flair target"
 msgstr "유효한 플레어 대상이 아닙니다"
 
-#: r2/lib/errors.py:136
+#: r2/lib/errors.py:137
 msgid "invalid redirect_uri parameter"
 msgstr "redirect_uri 변수가 유효하지 않습니다"
 
-#: r2/lib/errors.py:137
+#: r2/lib/errors.py:138
 msgid "invalid response type"
 msgstr ""
 
-#: r2/lib/errors.py:138
+#: r2/lib/errors.py:139
 msgid "invalid scope requested"
 msgstr "범위가 유효하지 않습니다"
 
-#: r2/lib/errors.py:139
+#: r2/lib/errors.py:140
 msgid "invalid refresh token"
 msgstr "올바르지 않은 새로고침 토큰"
 
-#: r2/lib/errors.py:140
+#: r2/lib/errors.py:141
 msgid "access denied by the user"
 msgstr "사용자에 의해 접근이 거부되었습니다"
 
-#: r2/lib/errors.py:141
+#: r2/lib/errors.py:142
 msgid "refresh tokens are not allowed for this response_type"
 msgstr ""
 
-#: r2/lib/errors.py:142
+#: r2/lib/errors.py:143
 msgid "confidential clients can not request tokens directly"
 msgstr ""
 
-#: r2/lib/errors.py:143
+#: r2/lib/errors.py:144
 msgid "please confirm the form"
 msgstr "양식 확인 바랍니다."
 
-#: r2/lib/errors.py:144
+#: r2/lib/errors.py:145
 msgid "conflict error while saving"
 msgstr "저장하는 중에 충돌 에러 발생"
 
-#: r2/lib/errors.py:145
+#: r2/lib/errors.py:146
 msgid "cannot perform this action via the API"
 msgstr "API를 통해 행동을 행할수 없습니다"
 
-#: r2/lib/errors.py:146
+#: r2/lib/errors.py:147
 #, python-format
 msgid "%(domain)s is not allowed on reddit: %(reason)s"
 msgstr "%(domain)s 은/는 레딧에서 허용되지 않습니다: %(reason)s"
 
-#: r2/lib/errors.py:147
+#: r2/lib/errors.py:148
 msgid "you must enable two-factor authentication"
 msgstr "이중 인증을 활성화해주십시오."
 
-#: r2/lib/errors.py:148
+#: r2/lib/errors.py:149
 msgid "two-factor authentication is already enabled"
 msgstr "2단계 잠금이 이미 활성화되어 있습니다."
 
-#: r2/lib/errors.py:149
+#: r2/lib/errors.py:150
 msgid "image problem"
 msgstr "이미지 문제"
 
-#: r2/lib/errors.py:150 r2/public/static/js/newlink-image-upload.js:466
+#: r2/lib/errors.py:151 r2/public/static/js/newlink-image-upload.js:466
 msgid "That file type is not allowed"
 msgstr ""
 
-#: r2/lib/errors.py:151
+#: r2/lib/errors.py:152
 msgid "already added"
 msgstr "이미 추가되었습니다"
 
-#: r2/lib/errors.py:152
+#: r2/lib/errors.py:153
 msgid "too many developers"
 msgstr "개발자가 너무 많습니다"
 
-#: r2/lib/errors.py:154
+#: r2/lib/errors.py:155
 msgid "you cannot add this account from this interface"
 msgstr ""
 
-#: r2/lib/errors.py:155
+#: r2/lib/errors.py:156
 msgid "invalid modhash"
 msgstr ""
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "that user is already a moderator"
 msgstr "이 사용자는 이미 관리자입니다"
 
-#: r2/lib/errors.py:157
+#: r2/lib/errors.py:158
 msgid "You can't perform that action because that user is a moderator."
 msgstr "이 사용자는 관리자이기 때문에 작업을 수행할 수 없습니다."
 
-#: r2/lib/errors.py:158
+#: r2/lib/errors.py:159
 msgid "there is no pending invite for that subreddit"
 msgstr "해당 서브레딧에 대기 중인 초청장이 없습니다"
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "you cannot edit the budget of a live ad"
 msgstr "실행중인 광고의 예산을 고칠 수 없습니다"
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 msgid "you have too many campaigns for that promotion"
 msgstr ""
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 msgid "that jsonp callback contains invalid characters"
 msgstr "이 jsonp 콜백은 올바르지 않은 문자를 포함합니다"
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "permissions don't apply to that type of user"
 msgstr "그런 사용자에게는 허가가 주어지지 않습니다."
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "invalid permissions string"
 msgstr "잘못된 권한 문자열"
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "invalid multi path"
 msgstr "올바르지 않은 멀티 경로"
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 #, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 msgid "that multireddit doesn't exist"
 msgstr "Multireddit이 존재하지 않습니다."
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "that multireddit already exists"
 msgstr "이미 존재하는 Multireddit입니다."
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 msgid "you can't change that multireddit"
 msgstr "바꿀 수 없는 Multireddit입니다."
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 msgid "no more space for subreddits in that multireddit"
 msgstr "더 이상 멀티레딧에 서브레딧을 추가할 공간이 없습니다."
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 #, python-format
 msgid "can't add special subreddit %(path)s"
 msgstr ""
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 #, python-format
 msgid "maximum %(max)s subreddits"
 msgstr ""
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 msgid "unable to parse JSON data"
 msgstr "JSON 데이터를 파싱할 수 없습니다."
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 msgid "unexpected JSON structure"
 msgstr "옳지않은 JSON 구조입니다."
 
-#: r2/lib/errors.py:174
+#: r2/lib/errors.py:175
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr "JSON missing key: \"%(key)s\""
 
-#: r2/lib/errors.py:175
+#: r2/lib/errors.py:176
 msgid "can't change post type"
 msgstr "게시물 종류를 바꿀 수 없습니다."
 
-#: r2/lib/errors.py:176
+#: r2/lib/errors.py:177
 msgid "invalid location"
 msgstr "인식 불가능한 위치"
 
-#: r2/lib/errors.py:177
+#: r2/lib/errors.py:178
 msgid "invalid values for frequency cap"
 msgstr ""
 
-#: r2/lib/errors.py:178
+#: r2/lib/errors.py:179
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
-#: r2/lib/errors.py:179
+#: r2/lib/errors.py:180
 msgid "that user is banned from the subreddit"
 msgstr "해당사용자는 서브레딧에서 차단되었습니다"
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "You can't do that while suspended."
 msgstr ""
 
-#: r2/lib/errors.py:181
+#: r2/lib/errors.py:182
 msgid "You must reset your password before doing that."
 msgstr ""
 
-#: r2/lib/errors.py:182
+#: r2/lib/errors.py:183
 msgid "you must have an active reddit gold subscription to do that"
 msgstr "레딧 골드 구독자에게 한정된 기능입니다."
 
-#: r2/lib/errors.py:183
+#: r2/lib/errors.py:184
 msgid "insufficient creddits"
 msgstr "크레딧이 부족합니다"
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "gilding is not allowed in this subreddit"
 msgstr ""
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 msgid "unable to scrape provided url"
 msgstr ""
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 msgid "can't send a message from a subreddit to another subreddit"
 msgstr "한 서브레딧에서 다른 서브레딧으로 메시지를 보내실 수 없습니다"
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "can't send message to that user"
 msgstr "메시지를 전송할 수 없습니다"
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "you must be in admin mode for this"
 msgstr "해당 작업을 위해선 관리자 모드가 필요합니다."
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 #, python-format
 msgid "to convert an existing subreddit to gold only, send a message to %(admin_modmail)s"
 msgstr "기존의 서브레딧을 골드 전용으로 전환하려면, %(admin_modmail)s에게 메시지를 보내십시오."
 
-#: r2/lib/errors.py:191
+#: r2/lib/errors.py:192
 msgid "this subreddit must be 'gold only' to select this"
 msgstr ""
 
-#: r2/lib/errors.py:192
-msgid "your account is too new to create a subreddit. please contact the admins to request an exemption."
-msgstr "계정이 생성된지 얼마 지나지 않아 서브레딧을 만들 수 없습니다. 레딧 운영진에게 허가를 요청하십시오."
-
 #: r2/lib/errors.py:193
+msgid "your account is too new or you do not have enough karma to create a subreddit. please contact the admins to request an exemption."
+msgstr ""
+
+#: r2/lib/errors.py:194
 msgid "you must select at least one mobile OS to target"
 msgstr ""
 
-#: r2/lib/errors.py:194 r2/templates/promotelinkbase.html:597
+#: r2/lib/errors.py:195 r2/templates/promotelinkbase.html:650
 msgid "you must select at least one device per OS to target"
 msgstr ""
 
-#: r2/lib/errors.py:195
+#: r2/lib/errors.py:196
 msgid "You have been muted from this subreddit."
 msgstr "당신은 이 서브레딧에서 뮤트 처리되었습니다."
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "This user has been muted from the subreddit."
 msgstr "이 유저는 서브레딧에서 뮤트 처리되었습니다."
 
-#: r2/lib/errors.py:197 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:198 r2/public/static/js/errors.js:7
 msgid "A subreddit rule by that name already exists."
 msgstr ""
 
-#: r2/lib/errors.py:198
+#: r2/lib/errors.py:199
 msgid "No subreddit rule by that name exists."
 msgstr ""
 
-#: r2/lib/errors.py:199 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:200 r2/public/static/js/errors.js:8
 msgid "This subreddit already has the maximum number of rules."
 msgstr ""
 
-#: r2/lib/errors.py:200
+#: r2/lib/errors.py:201
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr ""
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 msgid "Cannot access this comment."
 msgstr ""
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 msgid "Cannot access this post."
 msgstr ""
 
-#: r2/lib/errors.py:203
+#: r2/lib/errors.py:204
 msgid "No conversation id passed."
 msgstr ""
 
-#: r2/lib/errors.py:204
+#: r2/lib/errors.py:205
 msgid "No conversation found."
 msgstr ""
 
-#: r2/lib/errors.py:205
+#: r2/lib/errors.py:206
 msgid "Invalid conversation id."
 msgstr ""
 
-#: r2/lib/errors.py:206
+#: r2/lib/errors.py:207
 msgid "The subreddit does not have this feature enabled."
 msgstr ""
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "Could not find thing object, it does not exist."
 msgstr ""
 
-#: r2/lib/errors.py:208
+#: r2/lib/errors.py:209
 msgid "Failed to save modmail conversation."
 msgstr ""
 
-#: r2/lib/errors.py:209
+#: r2/lib/errors.py:210
 msgid "Failed to save modmail message."
 msgstr ""
 
-#: r2/lib/errors.py:210
+#: r2/lib/errors.py:211
 msgid "Conversation not archivable."
 msgstr ""
 
-#: r2/lib/errors.py:211
+#: r2/lib/errors.py:212
 msgid "You do not have the correct moderator permissions."
 msgstr ""
 
-#: r2/lib/errors.py:212
+#: r2/lib/errors.py:213
 msgid "The requested subreddit was not found."
+msgstr ""
+
+#: r2/lib/errors.py:215
+msgid "You can't add a blocked user as a trusted user."
+msgstr ""
+
+#: r2/lib/errors.py:217
+msgid "You can't add yourself as a trusted user."
+msgstr ""
+
+#: r2/lib/errors.py:218
+msgid "You have already added this user as a trusted user."
 msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
@@ -2492,7 +2529,7 @@ msgstr "월간 조회수"
 msgid "clicks by month"
 msgstr "월간 클릭수"
 
-#: r2/lib/jsontemplates.py:748 r2/templates/link.xml:63
+#: r2/lib/jsontemplates.py:749 r2/templates/link.xml:63
 #: r2/templates/usertext.html:137
 msgid "[removed]"
 msgstr "[삭제됨]"
@@ -2522,7 +2559,6 @@ msgid "top"
 msgstr "고득점"
 
 #: r2/lib/menus.py:55 r2/templates/searchresultlink.html:125
-#: r2/templates/subredditbar.html:54
 msgid "more"
 msgstr "더 보기"
 
@@ -2538,7 +2574,7 @@ msgstr "화제"
 msgid "best"
 msgstr "최고 인기"
 
-#: r2/lib/menus.py:60 r2/lib/menus.py:436
+#: r2/lib/menus.py:60 r2/lib/menus.py:442
 msgid "random"
 msgstr "랜덤"
 
@@ -2588,9 +2624,9 @@ msgid "all time"
 msgstr "시간과 상관 없이"
 
 #: r2/lib/menus.py:76 r2/models/rules.py:33
-#: r2/public/static/js/link-websockets.js:254 r2/templates/preffeeds.html:119
+#: r2/public/static/js/link-websockets.js:259 r2/templates/preffeeds.html:119
 #: r2/templates/printablebuttons.html:42 r2/templates/printablebuttons.html:243
-#: ../../liveupdate/reddit_liveupdate/pages.py:237
+#: ../../liveupdate/reddit_liveupdate/pages.py:256
 msgid "spam"
 msgstr "스팸"
 
@@ -2598,7 +2634,7 @@ msgstr "스팸"
 msgid "autobanned"
 msgstr "자동차단됨"
 
-#: r2/lib/menus.py:80 r2/lib/pages/pages.py:1534 r2/lib/pages/pages.py:1557
+#: r2/lib/menus.py:80 r2/lib/pages/pages.py:1463 r2/lib/pages/pages.py:1486
 msgid "preferences"
 msgstr "사용자설정"
 
@@ -2611,7 +2647,7 @@ msgstr "위키"
 msgid "blog"
 msgstr "블로그"
 
-#: r2/lib/menus.py:84 r2/templates/utils.html:572
+#: r2/lib/menus.py:84 r2/templates/utils.html:570
 msgid "logout"
 msgstr "로그아웃"
 
@@ -2627,7 +2663,7 @@ msgstr "레딧 단추"
 msgid "widget"
 msgstr "레딧 위짓"
 
-#: r2/lib/menus.py:91 r2/lib/pages/pages.py:1322
+#: r2/lib/menus.py:91 r2/lib/pages/pages.py:1297
 msgid "mobile website"
 msgstr ""
 
@@ -2651,7 +2687,7 @@ msgstr "투명성 보고서"
 msgid "source code"
 msgstr "소스 코드"
 
-#: r2/lib/menus.py:102 r2/templates/newlink.html:236
+#: r2/lib/menus.py:102 r2/templates/newlink.html:291
 #: r2/templates/promotelinkbase.html:254
 msgid "options"
 msgstr "설정"
@@ -2669,332 +2705,360 @@ msgid "friends"
 msgstr "친구"
 
 #: r2/lib/menus.py:107
-msgid "password/email"
-msgstr "비밀번호/이메일 정보"
+msgid "messaging preferences"
+msgstr ""
 
 #: r2/lib/menus.py:108
-msgid "deactivate"
+msgid "trusted users"
 msgstr ""
 
 #: r2/lib/menus.py:109
+msgid "password/email"
+msgstr "비밀번호/이메일 정보"
+
+#: r2/lib/menus.py:110
+msgid "deactivate"
+msgstr ""
+
+#: r2/lib/menus.py:111
 msgid "security"
 msgstr "보안"
 
-#: r2/lib/menus.py:112
+#: r2/lib/menus.py:114
 msgid "personalized ads"
 msgstr ""
 
-#: r2/lib/menus.py:115 r2/templates/messagecompose.html:35
-#: r2/templates/moderatormessagecompose.html:32 r2/templates/profilebar.html:176
+#: r2/lib/menus.py:117 r2/templates/messagecompose.html:35
+#: r2/templates/moderatormessagecompose.html:32 r2/templates/profilebar.html:185
 msgid "send a private message"
 msgstr "개인 메시지 보내기"
 
-#: r2/lib/menus.py:116
+#: r2/lib/menus.py:118
 msgid "inbox"
 msgstr "받은 메세지"
 
-#: r2/lib/menus.py:117
+#: r2/lib/menus.py:119
 msgid "sent"
 msgstr "보낸 메세지"
 
-#: r2/lib/menus.py:120
+#: r2/lib/menus.py:122
 msgid "comments {toolbar}"
 msgstr "댓글"
 
-#: r2/lib/menus.py:121 r2/templates/prefoptions.html:358
-#: r2/templates/prefoptions.html:367
+#: r2/lib/menus.py:123 r2/templates/prefoptions.html:368
+#: r2/templates/prefoptions.html:377
 msgid "details"
 msgstr "추가정보"
 
-#: r2/lib/menus.py:122
+#: r2/lib/menus.py:124
 #, python-format
 msgid "other discussions (%(num)s)"
 msgstr "다른 토론 (%(num)s)"
 
-#: r2/lib/menus.py:123 r2/lib/pages/trafficpages.py:65
+#: r2/lib/menus.py:125 r2/lib/pages/trafficpages.py:65
 msgid "traffic stats"
 msgstr "트래픽 정보"
 
-#: r2/lib/menus.py:124 r2/models/modaction.py:183
+#: r2/lib/menus.py:126 r2/models/modaction.py:186
 #: r2/templates/subredditstylesheet.html:43
 msgid "stylesheet"
 msgstr "스타일 시트"
 
-#: r2/lib/menus.py:127
+#: r2/lib/menus.py:129
 msgid "home"
 msgstr "홈"
 
-#: r2/lib/menus.py:128 r2/lib/pages/pages.py:1301
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1276
 msgid "about"
 msgstr "에 대해"
 
-#: r2/lib/menus.py:129
+#: r2/lib/menus.py:131
 msgid "edit subscriptions"
 msgstr "구독 수정"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:2754
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2668
 msgid "subreddit settings"
 msgstr "서브레딧 설정"
 
-#: r2/lib/menus.py:131
+#: r2/lib/menus.py:133
 msgid "edit stylesheet"
 msgstr "스타일시트 편집"
 
-#: r2/lib/menus.py:132 r2/public/static/js/messagecompose.js:186
+#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:186
 msgid "rules"
 msgstr ""
 
-#: r2/lib/menus.py:133 r2/lib/pages/pages.py:966
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:976
 msgid "moderators"
 msgstr "운영자"
 
-#: r2/lib/menus.py:134
+#: r2/lib/menus.py:136
 msgid "moderator mail"
 msgstr "관리자 이메일"
 
-#: r2/lib/menus.py:135
+#: r2/lib/menus.py:137
 msgid "approved submitters"
 msgstr ""
 
-#: r2/lib/menus.py:136 r2/lib/menus.py:137 r2/models/listing.py:209
+#: r2/lib/menus.py:138 r2/lib/menus.py:139 r2/models/listing.py:234
 msgid "ban users"
 msgstr "사용자 탈퇴 시키기"
 
-#: r2/lib/menus.py:138 r2/models/listing.py:240
+#: r2/lib/menus.py:140 r2/models/listing.py:265
 msgid "mute users"
 msgstr "사용자 뮤트"
 
-#: r2/lib/menus.py:139 r2/models/modaction.py:82
+#: r2/lib/menus.py:141 r2/models/modaction.py:83
 msgid "edit flair"
 msgstr "플레어 편집하기"
 
-#: r2/lib/menus.py:140 r2/templates/preffeeds.html:125
+#: r2/lib/menus.py:142 r2/templates/preffeeds.html:125
 msgid "moderation log"
 msgstr "관리자 로그"
 
-#: r2/lib/menus.py:141
+#: r2/lib/menus.py:143
 msgid "moderation queue"
 msgstr "승인 대기열"
 
-#: r2/lib/menus.py:142 r2/templates/preffeeds.html:128
+#: r2/lib/menus.py:144 r2/templates/preffeeds.html:128
 msgid "unmoderated posts"
 msgstr ""
 
-#: r2/lib/menus.py:143 r2/templates/preffeeds.html:122
+#: r2/lib/menus.py:145 r2/templates/preffeeds.html:122
 msgid "edited"
 msgstr "수정됨"
 
-#: r2/lib/menus.py:144
+#: r2/lib/menus.py:146
 msgid "employee"
 msgstr "직원"
 
-#: r2/lib/menus.py:145
+#: r2/lib/menus.py:147
 msgid "automoderator config"
 msgstr "자동관리자 설정"
 
-#: r2/lib/menus.py:146
+#: r2/lib/menus.py:148
 msgid "get started with automoderator"
 msgstr ""
 
-#: r2/lib/menus.py:148
+#: r2/lib/menus.py:150
 msgid "ban wiki contributors"
 msgstr "최근 위키 변경 사항"
 
-#: r2/lib/menus.py:149
+#: r2/lib/menus.py:151
 msgid "add wiki contributors"
 msgstr "위키 페이지 목록"
 
-#: r2/lib/menus.py:151
+#: r2/lib/menus.py:153
 msgid "recent wiki revisions"
 msgstr "최근 위키 변경 사항"
 
-#: r2/lib/menus.py:152
+#: r2/lib/menus.py:154
 msgid "wiki page list"
 msgstr "위키 페이지 목록"
 
-#: r2/lib/menus.py:154
+#: r2/lib/menus.py:156
 msgid "popular"
 msgstr "인기 레딧"
 
-#: r2/lib/menus.py:155 r2/public/static/js/sponsored.js:88
-#: r2/public/static/js/sponsored.js:98 r2/templates/createsubreddit.html:694
+#: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:88
+#: r2/public/static/js/sponsored.js:98 r2/templates/createsubreddit.html:721
 #: r2/templates/listingchooser.html:62
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "만들기"
 
-#: r2/lib/menus.py:156 r2/lib/pages/pages.py:3392
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:3316
 msgid "my subreddits"
 msgstr "나의 서브레딧들"
 
-#: r2/lib/menus.py:157
+#: r2/lib/menus.py:159
 msgid "quarantine"
 msgstr "격리 조치됨"
 
-#: r2/lib/menus.py:158
+#: r2/lib/menus.py:160
 msgid "featured"
 msgstr ""
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:162
 msgid "help translate"
 msgstr "번역을 도와주세요!"
 
-#: r2/lib/menus.py:161 r2/templates/subredditstylesheet.html:78
+#: r2/lib/menus.py:163 r2/templates/subredditstylesheet.html:78
 msgid "errors"
 msgstr "에러"
 
-#: r2/lib/menus.py:163
+#: r2/lib/menus.py:165
 msgid "ads"
 msgstr "광고"
 
-#: r2/lib/menus.py:164
+#: r2/lib/menus.py:166 r2/templates/link.html:93
 msgid "promoted"
 msgstr "프로모션"
 
-#: r2/lib/menus.py:165
+#: r2/lib/menus.py:167
 msgid "sponsor"
 msgstr "후원자"
 
-#: r2/lib/menus.py:166
+#: r2/lib/menus.py:168
 msgid "reporters"
 msgstr "신고한 사용자"
 
-#: r2/lib/menus.py:167 r2/templates/preffeeds.html:116
+#: r2/lib/menus.py:169 r2/templates/preffeeds.html:116
 msgid "reports"
 msgstr "보고"
 
-#: r2/lib/menus.py:168
+#: r2/lib/menus.py:170
 msgid "reported authors"
 msgstr "신고 당한 사용자"
 
-#: r2/lib/menus.py:169
+#: r2/lib/menus.py:171
 msgid "info"
 msgstr "정보"
 
-#: r2/lib/menus.py:170 r2/templates/multiinfobar.html:113
+#: r2/lib/menus.py:172 r2/templates/multiinfobar.html:113
 #: r2/templates/printablebuttons.html:353
 msgid "share"
 msgstr "추천하기"
 
-#: r2/lib/menus.py:173 r2/templates/searchresultlink.html:102
+#: r2/lib/menus.py:175 r2/templates/searchresultlink.html:102
 msgid "submitted"
 msgstr "올린 링크"
 
-#: r2/lib/menus.py:174
+#: r2/lib/menus.py:176
 msgid "upvoted"
 msgstr "업보트됨"
 
-#: r2/lib/menus.py:175
+#: r2/lib/menus.py:177
 msgid "downvoted"
 msgstr "다운보트됨"
 
-#: r2/lib/menus.py:176
+#: r2/lib/menus.py:178
 msgid "hidden {toolbar}"
 msgstr "숨긴 링크"
 
-#: r2/lib/menus.py:179
+#: r2/lib/menus.py:181
 msgid "voting"
 msgstr "투표"
 
-#: r2/lib/menus.py:181
+#: r2/lib/menus.py:183
 msgid "advertising"
 msgstr "광고"
 
-#: r2/lib/menus.py:182
+#: r2/lib/menus.py:184
 msgid "create promotion"
 msgstr "홍보 생성"
 
-#: r2/lib/menus.py:183
+#: r2/lib/menus.py:185
 msgid "my promoted links"
 msgstr "내 홍보 링크"
 
-#: r2/lib/menus.py:186
+#: r2/lib/menus.py:188
 msgid "unseen"
 msgstr "미확인"
 
-#: r2/lib/menus.py:188
+#: r2/lib/menus.py:190
 msgid "inventory"
 msgstr "목록"
 
-#: r2/lib/menus.py:189 ../../liveupdate/reddit_liveupdate/pages.py:67
+#: r2/lib/menus.py:191 ../../liveupdate/reddit_liveupdate/pages.py:68
 #: ../../liveupdate/reddit_liveupdate/public/static/js/liveupdate/statusBar.js:62
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateevent.html:9
 msgid "live"
 msgstr "사용중"
 
-#: r2/lib/menus.py:190
+#: r2/lib/menus.py:192
 msgid "unpaid"
 msgstr "미지불"
 
-#: r2/lib/menus.py:191
+#: r2/lib/menus.py:193
 msgid "pending"
 msgstr "대기중"
 
-#: r2/lib/menus.py:192 r2/templates/renderablecampaign.html:195
+#: r2/lib/menus.py:194 r2/templates/renderablecampaign.html:195
 msgid "rejected"
 msgstr "거부됨"
 
-#: r2/lib/menus.py:193 r2/templates/renderablecampaign.html:181
+#: r2/lib/menus.py:195 r2/templates/renderablecampaign.html:181
 msgid "edited live"
 msgstr ""
 
-#: r2/lib/menus.py:194
+#: r2/lib/menus.py:196
 msgid "external promos"
 msgstr ""
 
-#: r2/lib/menus.py:196
+#: r2/lib/menus.py:198
 msgid "sitewide"
 msgstr "사이트 전체"
 
-#: r2/lib/menus.py:197
+#: r2/lib/menus.py:199
 msgid "languages"
 msgstr "언어"
 
-#: r2/lib/menus.py:198 r2/lib/pages/trafficpages.py:273
+#: r2/lib/menus.py:200 r2/lib/pages/trafficpages.py:273
 msgid "adverts"
 msgstr "광고"
 
-#: r2/lib/menus.py:200
+#: r2/lib/menus.py:202
 msgid "whitelist"
 msgstr "화이트리스트"
 
-#: r2/lib/menus.py:201
+#: r2/lib/menus.py:203
 msgid "live (beta)"
 msgstr ""
 
+#: r2/lib/menus.py:204
+msgid "slow"
+msgstr ""
+
+#: r2/lib/menus.py:205
+msgid "medium"
+msgstr ""
+
+#: r2/lib/menus.py:206
+msgid "fast"
+msgstr ""
+
+#: r2/lib/menus.py:207
+msgid "manual"
+msgstr ""
+
 #. TRANSLATORS: This refers to /r/mod
-#: r2/lib/menus.py:432
+#: r2/lib/menus.py:438
 msgid "mod"
 msgstr "관리"
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:434
+#: r2/lib/menus.py:440
 msgid "front"
 msgstr "프론트"
 
 #. TRANSLATORS: Gold feature, "myrandom", a random subreddit from your
 #. subscriptions
-#: r2/lib/menus.py:438
+#: r2/lib/menus.py:444
 msgid "myrandom"
 msgstr "구독한 하위 레딧에서 랜덤 포스트"
 
-#: r2/lib/menus.py:616
+#: r2/lib/menus.py:622
 msgid "(suggested)"
 msgstr "(제안)"
 
-#: r2/lib/menus.py:647
+#: r2/lib/menus.py:640
+msgid "comment refresh"
+msgstr ""
+
+#: r2/lib/menus.py:692
 msgid "kind"
 msgstr "종류"
 
-#: r2/lib/menus.py:660
+#: r2/lib/menus.py:705
 msgid "links from"
 msgstr "다음 기간 중에 올라온 링크만 보기:"
 
-#: r2/lib/menus.py:670
+#: r2/lib/menus.py:715
 msgid "comments from"
 msgstr ""
 
-#: r2/lib/menus.py:675
+#: r2/lib/menus.py:720
 msgid "links and comments from"
 msgstr ""
 
@@ -3050,15 +3114,15 @@ msgstr "위키 및 위키 접근 권한 관리하기"
 msgid "discovery"
 msgstr "발견"
 
-#: r2/lib/recommender.py:58 r2/lib/strings.py:254 r2/lib/strings.py:259
-#: r2/lib/template_helpers.py:457 r2/templates/searchresultlink.html:97
+#: r2/lib/recommender.py:58 r2/lib/strings.py:266 r2/lib/strings.py:271
+#: r2/lib/template_helpers.py:463 r2/templates/searchresultlink.html:97
 #: r2/templates/subredditstylesheet.html:106
-#: ../../liveupdate/reddit_liveupdate/pages.py:485
+#: ../../liveupdate/reddit_liveupdate/pages.py:505
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "댓글"
 
-#: r2/lib/strings.py:56 r2/lib/template_helpers.py:329
+#: r2/lib/strings.py:56 r2/lib/template_helpers.py:331
 msgid "submitting..."
 msgstr "올리는 중..."
 
@@ -3072,304 +3136,318 @@ msgstr "%(thing)s %(num)d"
 msgid "%(num)d %(point)s"
 msgstr "%(num)d %(point)s"
 
-#: r2/lib/strings.py:65
+#: r2/lib/strings.py:65 r2/public/static/js/link-websockets.js:242
+#, python-format
+msgid "%(num)s %(point)s"
+msgstr ""
+
+#: r2/lib/strings.py:68
 #, python-format
 msgid "%(num)d %(time)s"
 msgstr "%(num)d %(time)s "
 
-#: r2/lib/strings.py:68
+#: r2/lib/strings.py:71
 #, python-format
 msgid "%(num)5.3f %(thing)s"
 msgstr "%(thing)s %(num)5.3f"
 
-#: r2/lib/strings.py:70
+#: r2/lib/strings.py:73
 #, python-format
 msgid "that link has already been submitted, but you can try to [submit it again](%s)."
 msgstr "누가 이미 올린 링크입니다. 하지만 다시 시도 하실 수는 있습니다 [다시 올려보기](%s)"
 
-#: r2/lib/strings.py:72
+#: r2/lib/strings.py:75
 #, python-format
 msgid "that link has been submitted to multiple subreddits. you can try to [submit it again](%s)."
 msgstr ""
 
-#: r2/lib/strings.py:74
+#: r2/lib/strings.py:77
 msgid "your account has been deactivated, but we won't judge you for it."
 msgstr ""
 
-#: r2/lib/strings.py:76
+#: r2/lib/strings.py:79
 #, python-format
 msgid "Log in or sign up to connect your reddit account with %(app)s."
 msgstr "로그인 또는 가입하여 레딧 계정을 %(app)s와 연결하세요."
 
-#: r2/lib/strings.py:79
+#: r2/lib/strings.py:82
 #, python-format
 msgid "I understand and agree that registration on or use of this site constitutes agreement to its %(user_agreement)s and %(privacy_policy)s."
 msgstr "본 사이트에 등록하고 이용함으로써 %(user_agreement)s 및 %(privacy_policy)s에 동의한다는 것을 알고 있습니다"
 
-#: r2/lib/strings.py:81
+#: r2/lib/strings.py:84
 #, python-format
 msgid "to view reddit with only submissions from your friends, use [reddit.com/r/friends](%s)"
 msgstr "친구 분들께서 올린 링크만 보시려면 [reddit.com/r/friends](%s)으로 가십시오"
 
-#: r2/lib/strings.py:83
+#: r2/lib/strings.py:86
 msgid "your subreddit has been created"
 msgstr "서브레딧이 생성되었습니다."
 
-#: r2/lib/strings.py:85
+#: r2/lib/strings.py:88
 #, python-format
 msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "더욱 많은 정보를 얻으시려면 [%(link)s](%(link)s) 을 방문하세요"
 
-#: r2/lib/strings.py:88
+#: r2/lib/strings.py:91
 msgid "you have not subscribed to any subreddits."
 msgstr "구독 중인 서브레딧이 없습니다."
 
-#: r2/lib/strings.py:89
+#: r2/lib/strings.py:92
 msgid "below are the subreddits you have subscribed to."
 msgstr "다음은 당신이 구독중인 서브레딧입니다."
 
-#: r2/lib/strings.py:90
+#: r2/lib/strings.py:93
 msgid "below are the subreddits that you are an approved submitter on."
 msgstr "아래는 당신이 승인된 게시자인 서브레딧입니다"
 
-#: r2/lib/strings.py:91
+#: r2/lib/strings.py:94
 msgid "below are the subreddits that you have moderator access to."
 msgstr "아래는 당신이 관리자 권한을 가진 서브레딧입니다"
 
-#: r2/lib/strings.py:94
+#: r2/lib/strings.py:97
 msgid "click the `subscribe` or `unsubscribe` buttons to choose which subreddits appear on your front page."
 msgstr "'구독' 또는 '구독 취소' 버튼을 클릭하여 당신의 첫 페이지에 나타날 서브레딧을 고르세요."
 
-#: r2/lib/strings.py:96
+#: r2/lib/strings.py:99
 #, python-format
 msgid "you're searching within the [%(reddit_name)s](%(reddit_link)s) subreddit. you can also search within [all subreddits](%(all_reddits_link)s)"
 msgstr ""
 
-#: r2/lib/strings.py:99
+#: r2/lib/strings.py:102
 #, python-format
 msgid "%(author)s comments on %(title)s"
 msgstr "%(author)s 님께서 %(title)s에 단 댓글"
 
-#: r2/lib/strings.py:100
+#: r2/lib/strings.py:103
 #, python-format
 msgid "%(title)s : %(site)s"
 msgstr "%(title)s : %(site)s"
 
-#: r2/lib/strings.py:101
+#: r2/lib/strings.py:104
 #, python-format
 msgid "%(score)s points and %(num_comments)s comments so far on reddit"
 msgstr ""
 
-#: r2/lib/strings.py:103
+#: r2/lib/strings.py:106
 msgid "You are submitting a link. The key to a successful submission is interesting content and a descriptive title."
 msgstr "링크를 포스팅하고 있습니다. 좋은 포스트는 흥미있는 이야기와 좋은 설명을 가진 제목을 가지고 있습니다."
 
-#: r2/lib/strings.py:104
+#: r2/lib/strings.py:107
 msgid "You are submitting a text-based post. Speak your mind. A title is required, but expanding further in the text field is not. Beginning your title with \"vote up if\" is violation of intergalactic law."
 msgstr "텍스트를 포스팅하고 있습니다. 마음에 있는 이야기를 털어놓으세요. 제목은 필수지만, 텍스트 상자에 더 설명하는 것은 선택사항입니다. \"vote up if\"로 시작하는 제목은 금지이지 말입니다."
 
-#: r2/lib/strings.py:105
+#: r2/lib/strings.py:108
 msgid "Submit a new link"
 msgstr "새 링크 게시하기"
 
-#: r2/lib/strings.py:106
+#: r2/lib/strings.py:109
 msgid "Submit a new text post"
 msgstr "새 글 게시하기"
 
-#: r2/lib/strings.py:107
+#: r2/lib/strings.py:110
 msgid "we're going to need to verify your email address for you to proceed."
 msgstr "계속하기 위해서 이메일 주소 확인이 필요합니다"
 
-#: r2/lib/strings.py:108
+#: r2/lib/strings.py:111
 msgid "you'll be able to submit more frequently once you verify your email address"
 msgstr "이메일 주소를 인증하면 더 자주 레딧에 글을 등록할 수 있습니다"
 
-#: r2/lib/strings.py:109
+#: r2/lib/strings.py:112
 msgid "your email address has been verified"
 msgstr "이메일 주소가 확인되었습니다."
 
-#: r2/lib/strings.py:110
+#: r2/lib/strings.py:113
 msgid "Verification failed.  Please try that again"
 msgstr "이메일 주소 확인이 실패했습니다. 다시 시도해 주세요"
 
-#: r2/lib/strings.py:111
+#: r2/lib/strings.py:114
 msgid "The email verification link you've followed is for a different user. Please log out and switch to that user or try again below."
 msgstr ""
 
-#: r2/lib/strings.py:112
+#: r2/lib/strings.py:115
 msgid "Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. Try again in a little bit -- but please don't mash reload; that only makes the problem worse."
 msgstr "저희 검색기계들이 너무 많은 정보를 받고있어서 당신의 요청을 처리하지 못합니다. :( 불편을 끼처드려 죄송합니다. 조금 있다가 다시 시도해 보세요-- 바로 새로고침은 하지 말아주세요; 상황만 더 나빠집니다."
 
-#: r2/lib/strings.py:113
+#: r2/lib/strings.py:116
 #, python-format
 msgid "I couldn't understand your query, so I simplified it and searched for \"%(clean_query)s\" instead."
 msgstr "검색어를 이해하지 못했습니다. 간단하게 \"%(clean_query)s\" 로 대신해 봤습니다."
 
-#: r2/lib/strings.py:114
+#: r2/lib/strings.py:117
 msgid "I couldn't understand your search query. Please try again."
 msgstr "당신의 검색 쿼리를 이해하지 못했습니다. 다시 해 주세요."
 
-#: r2/lib/strings.py:115
+#: r2/lib/strings.py:118
 #, python-format
 msgid "You may also want to check the [search help page](%(search_help)s) for more information."
 msgstr ""
 
-#: r2/lib/strings.py:116
+#: r2/lib/strings.py:119
 msgid "reddit uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the commenting wiki page](/wiki/commenting) for more detailed help and solutions to common issues."
 msgstr ""
 
-#: r2/lib/strings.py:117
+#: r2/lib/strings.py:120
 msgid "Reddit is in \"emergency read-only mode\" right now. :( You won't be able to log in. We're sorry and are working frantically to fix the problem."
 msgstr ""
 
-#: r2/lib/strings.py:118
+#: r2/lib/strings.py:121
 msgid "this page is temporarily in read-only mode due to heavy traffic."
 msgstr "트래픽이 너무 많은 관계로 이 페이지는 일시적으로 오직 읽기만 가능합니다"
 
-#: r2/lib/strings.py:119
+#: r2/lib/strings.py:122
 msgid "Your account has been permanently [suspended](https://reddit.zendesk.com/hc/en-us/articles/205687686) from Reddit."
 msgstr ""
 
-#: r2/lib/strings.py:120
+#: r2/lib/strings.py:123
 #, python-format
 msgid "Your account has been [suspended](https://reddit.zendesk.com/hc/en-us/articles/205687686) from Reddit for %(days)s."
 msgstr ""
 
-#: r2/lib/strings.py:121
+#: r2/lib/strings.py:124
+msgid "Your account has been permanently [suspended](https://reddit.zendesk.com/hc/en-us/articles/205687686) from Reddit. [Appeal](/appeal_suspension) suspension."
+msgstr ""
+
+#: r2/lib/strings.py:128
+#, python-format
+msgid "Your account has been [suspended](https://reddit.zendesk.com/hc/en-us/articles/205687686) from Reddit for %(days)s. [Appeal](/appeal_suspension) suspension."
+msgstr ""
+
+#: r2/lib/strings.py:133
 msgid "Your account has been locked due to possible password compromise, please [reset your password](/prefs/update) to continue using Reddit."
 msgstr ""
 
-#: r2/lib/strings.py:124
+#: r2/lib/strings.py:136
 msgid "You sent us a postcard! (Or something similar.) When we run out of room on our refrigerator, we might one day auction off the stuff that people sent in. Is it okay if we include your thing?"
 msgstr "오호! 엽서 (아님 비슷한..)를 보내주셨네요! 저희 냉장고에 붙여놓을 공간이 모자르게 되면 보내주신 엽서들을 경매에 부칠 수 있는데요, 고객님의 엽서도 경매 리스트에 넣어도 될까요?"
 
-#: r2/lib/strings.py:125
+#: r2/lib/strings.py:137
 #, python-format
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to reddit gold, it goes up to %(goldmax)d.)"
 msgstr "죄송합니다, 최대 코멘트 숫자는 %(max)d입니다. (그러나 레딧골드회원이시면 %(goldmax)d까지 올릴 수 있습니다.)"
 
-#: r2/lib/strings.py:126
+#: r2/lib/strings.py:138
 #, python-format
 msgid "Sorry, the maximum number of comments is %d."
 msgstr "죄송합니다, 최대 코멘트 갯수는 %d입니다."
 
-#: r2/lib/strings.py:133
+#: r2/lib/strings.py:145
 msgid "***WARNING: Responding to this message will reveal your username to the gildee.***\n\n"
 msgstr ""
 
-#: r2/lib/strings.py:134
+#: r2/lib/strings.py:146
 msgid "Thanks for claiming a reddit gold code.\n\n"
 msgstr "레딧 골드 코드를 사용해주셔서 감사합니다.\n\n"
 
-#: r2/lib/strings.py:135
+#: r2/lib/strings.py:147
 #, python-format
 msgid "You're about to set up an ongoing, autorenewing subscription to reddit gold for yourself (%(user)s). \n\n"
 "You'll pay **%(price)s** for this, **monthly**. \n\n"
 ">This subscription will renew automatically each month until you cancel. You may cancel at any time. If you cancel, you will not be billed for any additional months of service, and service will continue until the end of the billing period. If you cancel, you will not receive a refund for any service already paid for. Receipts will be delivered via private message in your account."
 msgstr ""
 
-#: r2/lib/strings.py:136
+#: r2/lib/strings.py:148
 #, python-format
 msgid "You're about to set up an ongoing, autorenewing subscription to reddit gold for yourself (%(user)s). \n\n"
 "You'll pay **%(price)s** for this, **yearly**. \n\n"
 ">This subscription will renew automatically each year until you cancel. You may cancel at any time. If you cancel, you will not be billed for any additional years of service, and service will continue until the end of the billing period. If you cancel, you will not receive a refund for any service already paid for. Receipts will be delivered via private message in your account."
 msgstr ""
 
-#: r2/lib/strings.py:137
+#: r2/lib/strings.py:149
 #, python-format
 msgid "You're about to make a one-time purchase of %(amount)s of reddit gold for yourself (%(user)s). You'll pay a total of %(price)s for this."
 msgstr ""
 
-#: r2/lib/strings.py:138
+#: r2/lib/strings.py:150
 #, python-format
 msgid "You're about to purchase %(amount)s. They work like gift certificates: each creddit you have will allow you to give one month of reddit gold to someone else. You'll pay a total of %(price)s for this."
 msgstr ""
 
-#: r2/lib/strings.py:139
+#: r2/lib/strings.py:151
 #, python-format
 msgid "You're about to purchase %(amount)s of reddit gold in the form of a gift code. The recipient (or you) will be able to claim the code to redeem that gold to their account. You'll pay a total of %(price)s for this."
 msgstr ""
 
-#: r2/lib/strings.py:140
+#: r2/lib/strings.py:152
 #, python-format
 msgid "You're about to give %(amount)s of reddit gold to %(recipient)s, who will be told that it came from you. You'll pay a total of %(price)s for this."
 msgstr ""
 
-#: r2/lib/strings.py:141
+#: r2/lib/strings.py:153
 #, python-format
 msgid "You're about to give %(amount)s of reddit gold to %(recipient)s. It will be an anonymous gift. You'll pay a total of %(price)s for this."
 msgstr ""
 
-#: r2/lib/strings.py:142
+#: r2/lib/strings.py:154
 #, python-format
 msgid "Want to say thanks to *%(recipient)s* for this comment? Give them a month of [reddit gold](/gold/about)."
 msgstr "이 댓글로 *%(recipient)s*에게 감사 인사를 하시겠습니까? [레딧 골드](/gold/about) 1개월분 선물하기"
 
-#: r2/lib/strings.py:143
+#: r2/lib/strings.py:155
 #, python-format
 msgid "Want to say thanks to *%(recipient)s* for this submission? Give them a month of [reddit gold](/gold/about)."
 msgstr ""
 
-#: r2/lib/strings.py:144
+#: r2/lib/strings.py:156
 #, python-format
 msgid "You're about to give *%(recipient)s* a month of [reddit gold](/gold/about) for this comment:"
 msgstr ""
 
-#: r2/lib/strings.py:145
+#: r2/lib/strings.py:157
 #, python-format
 msgid "You're about to give *%(recipient)s* a month of [reddit gold](/gold/about) for this submission:"
 msgstr ""
 
-#: r2/lib/strings.py:146
+#: r2/lib/strings.py:158
 #, python-format
 msgid "You'll pay a total of %(price)s for this."
 msgstr ""
 
-#: r2/lib/strings.py:147 r2/templates/archivedinterstitial.html:35
+#: r2/lib/strings.py:159 r2/templates/archivedinterstitial.html:35
 msgid "This is an archived post. You won't be able to vote or comment."
 msgstr ""
 
-#: r2/lib/strings.py:148
+#: r2/lib/strings.py:160
 msgid "This post is locked. You won't be able to comment."
 msgstr ""
 
-#: r2/lib/strings.py:149
+#: r2/lib/strings.py:161
 msgid "This page shows a history of recent activity on your account. If you notice unusual activity, you should change your password immediately. Location information is guessed from your computer's IP address and may be wildly wrong, especially for visits from mobile devices."
 msgstr ""
 
-#: r2/lib/strings.py:150
+#: r2/lib/strings.py:162
 #, python-format
 msgid "You are currently accessing reddit from this IP address: %(address)s."
 msgstr "현재 레딧에 접속중인 IP 주소 : %(address)s"
 
-#: r2/lib/strings.py:151
+#: r2/lib/strings.py:163
 msgid "\n"
 "These apps are authorized to access your account. Signing out of all sessions\n"
 "will revoke access from all apps. You may also revoke access from individual\n"
 "apps below.\n"
 msgstr ""
 
-#: r2/lib/strings.py:157
+#: r2/lib/strings.py:169
 #, python-format
 msgid "Below you will see your promotion's impression and click traffic per %(interval)s of promotion.  Please note that these traffic totals will lag behind by two to three hours, and that totals will be preliminary until 24 hours after the link has finished its run."
 msgstr ""
 
-#: r2/lib/strings.py:158
+#: r2/lib/strings.py:170
 #, python-format
 msgid "Traffic processing is currently running slow. The latest data available is from %(date)s. This page will be updated as new data becomes available."
 msgstr "트래픽 처리가 현재 늦어지고 있습니다. 최신 데이터는 %(date)s 입니다. 새로운 데이터가 입수되는 대로 이 페이지는 업데이트될 것입니다."
 
-#: r2/lib/strings.py:159
+#: r2/lib/strings.py:171
 #, python-format
 msgid "Traffic processing occurs on an hourly basis. The latest data available is from %(date)s. This page will be updated as new data becomes available."
 msgstr "트래픽 처리는 매 시간마다 처리됩니다. 가장 최근 데이터는 %(date)s 입니다. 새로운 데이터가 입수되는 대로 이 페이지는 업데이트 됩니다."
 
-#: r2/lib/strings.py:160
+#: r2/lib/strings.py:172
 #, python-format
 msgid "Questions? Email self serve support: %(email)s"
 msgstr ""
 
-#: r2/lib/strings.py:162
+#: r2/lib/strings.py:174
 #, python-format
 msgid "\n"
 "Below are the traffic statistics for your subreddit. Each graph represents one of the following over the interval specified.\n\n"
@@ -3379,129 +3457,131 @@ msgid "\n"
 "Note: there are a couple of places outside of your subreddit where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr ""
 
-#: r2/lib/strings.py:172
+#: r2/lib/strings.py:184
 msgid "multireddit of your subscriptions"
 msgstr "당신의 구독사항의 멀티레딧"
 
-#: r2/lib/strings.py:173
+#: r2/lib/strings.py:185
 msgid "multireddit of subreddits you moderate"
 msgstr "당신의 관리하는 서브레딧들의 멀티레딧"
 
-#: r2/lib/strings.py:175
+#: r2/lib/strings.py:187
 msgid "/r/all displays content from all of reddit, including subreddits you aren't subscribed to. Some subreddits have chosen to exclude themselves from /r/all."
 msgstr ""
 
-#: r2/lib/strings.py:176
-msgid "Displaying content from /r/all of reddit, except the following subreddits:"
-msgstr "다음 서브레딧을 제외하고 r/all에서의 콘텐츠를 표시합니다:"
+#: r2/lib/strings.py:188
+#, python-format
+msgid "Displaying content from %(subreddit)s, except the following subreddits:"
+msgstr ""
 
-#: r2/lib/strings.py:177
+#: r2/lib/strings.py:189
 msgid "Filtering /r/all is a feature only available to [reddit gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
 msgstr "/r/all 를 필터링하는 기능은 [레딧 골드](/gold/about) 회원에게만 제공됩니다. /r/all 결과 전부 표시중."
 
-#: r2/lib/strings.py:255 r2/public/static/js/link-websockets.js:238
+#: r2/lib/strings.py:267 r2/public/static/js/link-websockets.js:243
 #: r2/templates/comment.htmllite:59 r2/templates/linkinfobar.html:50
 #: r2/templates/searchresultlink.html:94
 msgid "point"
 msgid_plural "points"
 msgstr[0] "점"
 
-#: r2/lib/strings.py:258 r2/templates/link.xml:91
+#: r2/lib/strings.py:270 r2/templates/link.xml:91
 #: r2/templates/promotelinkbase.html:107
 msgid "link"
 msgid_plural "links"
 msgstr[0] "링크"
 
-#: r2/lib/strings.py:261 r2/lib/pages/admin_pages.py:99
-#: r2/lib/pages/trafficpages.py:969 r2/templates/sitewidetraffic.html:36
+#: r2/lib/strings.py:273 r2/lib/pages/admin_pages.py:99
+#: r2/lib/pages/trafficpages.py:969 r2/templates/allminusinfobar.html:35
+#: r2/templates/filteredinfobar.html:36 r2/templates/sitewidetraffic.html:36
 #: r2/templates/subreddittrafficreport.html:42
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "하위 레딧"
 
-#: r2/lib/strings.py:262
+#: r2/lib/strings.py:274
 msgid "creddit"
 msgid_plural "creddits"
 msgstr[0] "크레딧"
 
-#: r2/lib/strings.py:265
+#: r2/lib/strings.py:277
 msgid "reader"
 msgid_plural "readers"
 msgstr[0] "읽는 사람"
 
-#: r2/lib/strings.py:266 r2/templates/searchresultsubreddit.html:62
+#: r2/lib/strings.py:278 r2/templates/searchresultsubreddit.html:62
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "구독자"
 
-#: r2/lib/strings.py:267 r2/templates/subreddit.html:80
+#: r2/lib/strings.py:279 r2/templates/subreddit.html:80
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "승인된 투고자"
 
-#: r2/lib/strings.py:268 r2/templates/subreddit.html:77
+#: r2/lib/strings.py:280 r2/templates/subreddit.html:77
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "운영자"
 
-#: r2/lib/strings.py:269
+#: r2/lib/strings.py:281
 msgid "user here now"
 msgid_plural "users here now"
 msgstr[0] "현재 접속자"
 
-#: r2/lib/strings.py:272
+#: r2/lib/strings.py:284
 msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] "천분의 일 초"
 
-#: r2/lib/strings.py:273
+#: r2/lib/strings.py:285
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "초"
 
-#: r2/lib/strings.py:274
+#: r2/lib/strings.py:286
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "분"
 
-#: r2/lib/strings.py:275
+#: r2/lib/strings.py:287
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "시간"
 
-#: r2/lib/strings.py:276 r2/lib/pages/pages.py:546 r2/lib/pages/pages.py:5745
+#: r2/lib/strings.py:288 r2/lib/pages/pages.py:540 r2/lib/pages/pages.py:5704
 #: r2/public/static/js/sponsored.js:1833 r2/public/static/js/sponsored.js:2278
 #: r2/templates/intimeoutinterstitial.html:41 r2/templates/reddittraffic.html:98
 msgid "day"
 msgid_plural "days"
 msgstr[0] "일"
 
-#: r2/lib/strings.py:277 r2/templates/archivedinterstitial.html:40
+#: r2/lib/strings.py:289 r2/templates/archivedinterstitial.html:40
 #: r2/templates/goldpayment.html:191
 msgid "month"
 msgid_plural "months"
 msgstr[0] "달"
 
-#: r2/lib/strings.py:278 r2/templates/goldpayment.html:196
+#: r2/lib/strings.py:290 r2/templates/goldpayment.html:196
 msgid "year"
 msgid_plural "years"
 msgstr[0] "년"
 
-#: r2/lib/system_messages.py:35
+#: r2/lib/system_messages.py:34
 msgid "you are a moderator"
 msgstr "당신은 이 레딧의 관리자이십니다"
 
-#: r2/lib/system_messages.py:36
+#: r2/lib/system_messages.py:35
 #, python-format
 msgid "you have been added as a moderator to [%(title)s](%(url)s)."
 msgstr "[ %(title)s ]( %(url)s )의 관리자 목록에 추가되셨습니다"
 
-#: r2/lib/system_messages.py:41
+#: r2/lib/system_messages.py:40
 #, python-format
 msgid "invitation to moderate %(url)s"
 msgstr "%(url)s 을 관리할 것을 요청하는 초대장"
 
-#: r2/lib/system_messages.py:42
+#: r2/lib/system_messages.py:41
 #, python-format
 msgid "**gadzooks! you are invited to become a moderator of [%(title)s](%(url)s)!**\n\n"
 "*to accept*, visit the [moderators page for %(url)s](%(url)s/about/moderators) and click \"accept\".\n\n"
@@ -3510,84 +3590,83 @@ msgstr "**앗싸!  [%(title)s](%(url)s) 의 관리자로 초청을 받으셨습�
 "*수락하시려면*, [%(url)s 의 관리자 페이지](%(url)s/about/moderators) 로 가셔서 \"수락\"를 클릭하세요.\n\n"
 "*그렇지 않고*, 예기치 않게 이 메시지를 받으셨다면, 이 초청장을 무시하거나 신고하실 수 있습니다."
 
-#: r2/lib/system_messages.py:47
+#: r2/lib/system_messages.py:46
 msgid "moderator invited"
 msgstr "관리자 초청됨"
 
-#: r2/lib/system_messages.py:48
+#: r2/lib/system_messages.py:47
 #, python-format
 msgid "%(user)s has been invited by %(author)s to moderate %(url)s."
 msgstr "%(url)s 관리를 위해 %(user)s 이/가 %(author)s 에게서 초청을 받았습니다."
 
-#: r2/lib/system_messages.py:53
+#: r2/lib/system_messages.py:52
 msgid "moderator added"
 msgstr "관리자가 추가되었습니다."
 
-#: r2/lib/system_messages.py:54
+#: r2/lib/system_messages.py:53
 #, python-format
 msgid "%(user)s has accepted an invitation to become moderator of %(url)s."
 msgstr "%(user)s 이/가 %(url)s 관리자 초청을 수락했습니다."
 
-#: r2/lib/system_messages.py:59
+#: r2/lib/system_messages.py:58
 msgid "you are an approved submitter"
 msgstr "당신은 승인된 투고자입니다"
 
-#: r2/lib/system_messages.py:60
+#: r2/lib/system_messages.py:59
 #, python-format
 msgid "you have been added as an approved submitter to [%(title)s](%(url)s)."
 msgstr "[%(title)s](%(url)s)의 승인된 투고자로 승인되었습니다."
 
-#: r2/lib/system_messages.py:65
+#: r2/lib/system_messages.py:64
 msgid "you can view traffic on a promoted link"
 msgstr "홍보된 링크의 트래픽을 볼 수 있습니다"
 
-#: r2/lib/system_messages.py:66
+#: r2/lib/system_messages.py:65
 #, python-format
 msgid "you have been added to the list of users able to seesee [traffic for the promoted post \"%(title)s\"](%(traffic_url)s)."
 msgstr ""
 
-#: r2/lib/template_helpers.py:328
+#: r2/lib/template_helpers.py:330
 msgid "fetching title..."
 msgstr "제목 불러오는 중..."
 
-#: r2/lib/template_helpers.py:330
+#: r2/lib/template_helpers.py:332
 msgid "loading..."
 msgstr "로딩 중..."
 
-#: r2/lib/template_helpers.py:453
+#: r2/lib/template_helpers.py:459
 msgid "comment {verb}"
 msgstr "댓글 달기"
 
-#: r2/lib/template_helpers.py:508
+#: r2/lib/template_helpers.py:514
 msgid "child"
 msgid_plural "children"
 msgstr[0] "개 답글"
 
-#: r2/lib/template_helpers.py:713 r2/lib/template_helpers.py:779
+#: r2/lib/template_helpers.py:724 r2/lib/template_helpers.py:790
 msgid "friend"
 msgstr "친구"
 
-#: r2/lib/template_helpers.py:720
+#: r2/lib/template_helpers.py:731
 msgid "submitter"
 msgstr "투고자"
 
-#: r2/lib/template_helpers.py:734
+#: r2/lib/template_helpers.py:745
 msgid "reddit admin, speaking officially"
 msgstr "공석의 레딧 운영자"
 
-#: r2/lib/template_helpers.py:772
+#: r2/lib/template_helpers.py:783
 #, python-format
 msgid "moderator of /r/%(reddit)s, speaking officially"
 msgstr "/r/%(reddit)s의 관리자, 공식적인 발언입니다"
 
-#: r2/lib/template_helpers.py:786
+#: r2/lib/template_helpers.py:797
 #, python-format
 msgid "%(user)s just celebrated a reddit birthday!"
 msgstr "%(user)s 가 reddit 생일을 맞았습니다!"
 
-#: r2/lib/template_helpers.py:851 r2/lib/template_helpers.py:875
-#: r2/public/static/js/link-websockets.js:251 r2/public/static/js/timetext.js:41
-#: r2/public/static/js/timetext.js:98
+#: r2/lib/template_helpers.py:860 r2/public/static/js/link-websockets.js:256
+#: r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "방금 전"
 
@@ -3607,8 +3686,8 @@ msgstr "이 서브레딧에 대한 노트가 없음"
 msgid "No notes for this user"
 msgstr "이 사용자에 대한 노트가 없음"
 
-#: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:179
-#: r2/templates/createsubreddit.html:446
+#: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:182
+#: r2/templates/createsubreddit.html:444
 msgid "domain"
 msgstr "도메인"
 
@@ -3616,11 +3695,11 @@ msgstr "도메인"
 msgid "IP address"
 msgstr "IP 주소"
 
-#: r2/lib/pages/admin_pages.py:100 r2/models/listing.py:165
+#: r2/lib/pages/admin_pages.py:100 r2/models/listing.py:173
 msgid "user"
 msgstr "사용자"
 
-#: r2/lib/pages/pages.py:190
+#: r2/lib/pages/pages.py:194
 #, python-format
 msgid "%d %b %Y"
 msgstr "%Y년 %b월 %d일"
@@ -3633,428 +3712,423 @@ msgstr "위키 도구"
 msgid "moderation tools"
 msgstr "운영자 도구"
 
-#: r2/lib/pages/pages.py:791
+#: r2/lib/pages/pages.py:801
 msgid "these subreddits"
 msgstr "이 서브레딧들"
 
-#: r2/lib/pages/pages.py:805
+#: r2/lib/pages/pages.py:815
 msgid "this subreddit is archived and no longer accepting submissions."
 msgstr "이 레딧은 기록만 남아있기 때문에 더 이상 링크를 올리실 수 없습니다."
 
-#: r2/lib/pages/pages.py:807
+#: r2/lib/pages/pages.py:817
 msgid "Submissions disabled"
 msgstr "등록이 비활성화됨"
 
-#: r2/lib/pages/pages.py:814
+#: r2/lib/pages/pages.py:824
 msgid "Only approved users may post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:817
+#: r2/lib/pages/pages.py:827
 msgid "Anyone can view or comment, but only Reddit Gold members can post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:820
+#: r2/lib/pages/pages.py:830
 msgid "Submissions restricted"
 msgstr "등록이 제한됨"
 
-#: r2/lib/pages/pages.py:913
+#: r2/lib/pages/pages.py:923
 msgid "Create your own subreddit"
 msgstr "서브레딧 만들기"
 
-#: r2/lib/pages/pages.py:942
+#: r2/lib/pages/pages.py:952
 #, python-format
 msgid "...and %d more"
 msgstr "...그리고 %d개 더"
 
-#: r2/lib/pages/pages.py:944
+#: r2/lib/pages/pages.py:954
 msgid "about moderation team"
 msgstr "관리 팀에 대하여"
 
-#: r2/lib/pages/pages.py:949
+#: r2/lib/pages/pages.py:959 r2/templates/createsubreddit.html:621
 msgid "message the admins"
 msgstr "운영자들에게 메시지 보내기"
 
-#: r2/lib/pages/pages.py:951 r2/templates/privateinterstitial.html:53
+#: r2/lib/pages/pages.py:961 r2/templates/privateinterstitial.html:53
 msgid "message the moderators"
 msgstr "관리자들에게 메시지 보내기"
 
-#: r2/lib/pages/pages.py:974 r2/templates/redditheader.html:63
+#: r2/lib/pages/pages.py:984 r2/templates/redditheader.html:63
 msgid "Join our Secret Santa tradition"
 msgstr ""
 
-#: r2/lib/pages/pages.py:990
+#: r2/lib/pages/pages.py:1000
 msgid "Recently viewed links"
 msgstr "최근 본 링크"
 
-#: r2/lib/pages/pages.py:1028
+#: r2/lib/pages/pages.py:1038
 msgid "turn admin off"
 msgstr "관리자 사용안함"
 
-#: r2/lib/pages/pages.py:1307
+#: r2/lib/pages/pages.py:1282
 msgid "FAQ"
 msgstr "자주 묻는 질문 및 답변"
 
-#: r2/lib/pages/pages.py:1318
+#: r2/lib/pages/pages.py:1293
 msgid "Reddit for iPhone"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1320
+#: r2/lib/pages/pages.py:1295
 msgid "Reddit for Android"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1325
+#: r2/lib/pages/pages.py:1300
 msgid "apps & tools"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1331
+#: r2/lib/pages/pages.py:1306
 msgid "redditgifts"
 msgstr "레딧선물"
 
-#: r2/lib/pages/pages.py:1333
+#: r2/lib/pages/pages.py:1308
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1686
+#: r2/lib/pages/pages.py:1621
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s 메일"
 
-#: r2/lib/pages/pages.py:1745
+#: r2/lib/pages/pages.py:1680
 msgid "ads preferences"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1798
+#: r2/lib/pages/pages.py:1733
 msgid "sign up or log in"
 msgstr "가입 또는 로그인"
 
-#: r2/lib/pages/pages.py:1878
+#: r2/lib/pages/pages.py:1815
 msgid "request for permission"
 msgstr "권한 요청"
 
-#: r2/lib/pages/pages.py:1880
+#: r2/lib/pages/pages.py:1817
 msgid "permission"
 msgstr "허가"
 
-#: r2/lib/pages/pages.py:1915 r2/templates/searchform.html:74
+#: r2/lib/pages/pages.py:1852 r2/templates/searchform.html:74
 msgid "enable NSFW results"
 msgstr "청소년 이용불가 컨텐츠 보기"
 
-#: r2/lib/pages/pages.py:1938
+#: r2/lib/pages/pages.py:1875
 msgid "bummer"
 msgstr "이런"
 
-#: r2/lib/pages/pages.py:1950
+#: r2/lib/pages/pages.py:1887
 msgid "this page is no longer available due to a copyright claim."
 msgstr "저작권 주장 때문에 더 이상 볼 수 없는 페이지입니다."
 
-#: r2/lib/pages/pages.py:2248
+#: r2/lib/pages/pages.py:2168
 msgid "comments disabled"
 msgstr "댓글 비활성화됨"
 
-#: r2/lib/pages/pages.py:2755
+#: r2/lib/pages/pages.py:2669
 #, python-format
 msgid "about %(site)s"
 msgstr "%(site)s에 대하여"
 
-#: r2/lib/pages/pages.py:2778
+#: r2/lib/pages/pages.py:2692
 msgid "search subreddits by name"
 msgstr "이름으로 서브레딧 찾기"
 
-#: r2/lib/pages/pages.py:2822
+#: r2/lib/pages/pages.py:2736
 #, python-format
 msgid "your front page subreddits (%s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2910 r2/templates/createsubreddit.html:455
-#: r2/templates/spotlightlisting.html:62
+#: r2/lib/pages/pages.py:2824 r2/templates/createsubreddit.html:453
 msgid "what's this?"
 msgstr "이건 뭐죠?"
 
-#: r2/lib/pages/pages.py:2911
+#: r2/lib/pages/pages.py:2825
 msgid "trophy case"
 msgstr "트로피 케이스"
 
-#: r2/lib/pages/pages.py:2921
+#: r2/lib/pages/pages.py:2835
 msgid "public multireddits"
 msgstr "공용 멀티레딧"
 
-#: r2/lib/pages/pages.py:2928
+#: r2/lib/pages/pages.py:2842
 msgid "hidden multireddits"
 msgstr "숨겨진 멀티레딧"
 
-#: r2/lib/pages/pages.py:2948
+#: r2/lib/pages/pages.py:2864
 msgid "moderator of"
 msgstr "관리자"
 
-#: r2/lib/pages/pages.py:3012
+#: r2/lib/pages/pages.py:2931
 msgid "less than a day"
 msgstr "하루도 안됀"
 
-#: r2/lib/pages/pages.py:3028
+#: r2/lib/pages/pages.py:2947
 #, python-format
 msgid "%(creddits)s gold creddit to give"
 msgid_plural "%(creddits)s gold creddits to give"
 msgstr[0] "선물할 수 있는 %(creddits)s 골드 크레딧"
 
-#: r2/lib/pages/pages.py:3035
+#: r2/lib/pages/pages.py:2954
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] ""
 
-#: r2/lib/pages/pages.py:3044
+#: r2/lib/pages/pages.py:2963
 #, python-format
 msgid "give reddit gold to %(user)s to show your appreciation"
 msgstr "%(user)s에게 레딧 골드 주기"
 
-#: r2/lib/pages/pages.py:3048
+#: r2/lib/pages/pages.py:2967
 msgid "get extra features and help support reddit with a reddit gold subscription"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3052
+#: r2/lib/pages/pages.py:2971
 msgid "renew your reddit gold"
 msgstr "레딧 골드 갱신"
 
-#: r2/lib/pages/pages.py:3062
+#: r2/lib/pages/pages.py:2986
 #, python-format
 msgid "you have helped pay for *%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3063
+#: r2/lib/pages/pages.py:2987
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3066
+#: r2/lib/pages/pages.py:2990
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3068
+#: r2/lib/pages/pages.py:2992
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3148
+#: r2/lib/pages/pages.py:3072
 msgid "reddit is a platform for internet communities"
 msgstr "레딧은 인터넷 커뮤니티를 위한 플랫폼입니다."
 
-#: r2/lib/pages/pages.py:3149
+#: r2/lib/pages/pages.py:3073
 msgid "where your votes shape what the world is talking about."
 msgstr "여러분들이 투표를 통해 세상의 화두를 이끌어갈 수 있는 곳입니다."
 
-#: r2/lib/pages/pages.py:3463 r2/lib/pages/pages.py:3577
+#: r2/lib/pages/pages.py:3387 r2/lib/pages/pages.py:3511
 msgid "add subreddit"
 msgstr "서브레딧 추가"
 
-#: r2/lib/pages/pages.py:3501
+#: r2/lib/pages/pages.py:3425
 #, python-format
 msgid "raise it to %s"
 msgstr "%s로 올리기"
 
-#: r2/lib/pages/pages.py:3503 r2/lib/pages/pages.py:3512
+#: r2/lib/pages/pages.py:3427 r2/lib/pages/pages.py:3436
 #, python-format
 msgid "%s visible"
 msgstr "%s 보임"
 
-#: r2/lib/pages/pages.py:3510
+#: r2/lib/pages/pages.py:3434
 #, python-format
 msgid "%(bonus)s bonus subreddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3903
+#: r2/lib/pages/pages.py:3837
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "신용카드로 골드를 구독하고 있습니다. 당신의 카드 (%(last4)s에 만료)는 %(date)s에 %(amount)s 만큼을 청구할 것입니다."
 
-#: r2/lib/pages/pages.py:4147 r2/templates/searchform.html:62
+#: r2/lib/pages/pages.py:4094 r2/templates/searchform.html:62
 #: r2/templates/sponsorlookupuser.html:32
 msgid "search"
 msgstr "검색"
 
-#: r2/lib/pages/pages.py:4531 r2/lib/pages/pages.py:4640
-msgid "added"
-msgstr "추가했습니다"
-
-#: r2/lib/pages/pages.py:4599 r2/models/modaction.py:145
+#: r2/lib/pages/pages.py:4565 r2/models/modaction.py:147
 #: r2/templates/printablebuttons.html:602
 msgid "muted"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4617
+#: r2/lib/pages/pages.py:4583
 msgid "invited"
 msgstr "초대됨"
 
-#: r2/lib/pages/pages.py:4678
+#: r2/lib/pages/pages.py:4644
 msgid "grant flair"
 msgstr "플레어 주기"
 
-#: r2/lib/pages/pages.py:4680
+#: r2/lib/pages/pages.py:4646
 msgid "user flair templates"
 msgstr "사용자 플레어 템플릿"
 
-#: r2/lib/pages/pages.py:4682
+#: r2/lib/pages/pages.py:4648
 msgid "link flair templates"
 msgstr "링크 플레어 템플릿"
 
-#: r2/lib/pages/pages.py:5061 r2/templates/flairpane.html:76
+#: r2/lib/pages/pages.py:5027 r2/templates/flairpane.html:76
 msgid "none"
 msgstr "없음"
 
-#: r2/lib/pages/pages.py:5203
+#: r2/lib/pages/pages.py:5169
 msgid "suggestions:"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5213
+#: r2/lib/pages/pages.py:5179
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
 msgstr ""
 
-#: r2/lib/pages/pages.py:5949
+#: r2/lib/pages/pages.py:5908
 msgid "start date"
 msgstr "시작일"
 
-#: r2/lib/pages/pages.py:5950
+#: r2/lib/pages/pages.py:5909
 msgid "end date"
 msgstr "종료일"
 
-#: r2/lib/pages/pages.py:5952 r2/templates/createsubreddit.html:267
+#: r2/lib/pages/pages.py:5911 r2/templates/createsubreddit.html:267
 msgid "links"
 msgstr "링크"
 
-#: r2/lib/pages/pages.py:5954 r2/lib/pages/pages.py:5973
+#: r2/lib/pages/pages.py:5913 r2/lib/pages/pages.py:5932
 #: r2/templates/promotedlinktraffic.html:41 r2/templates/timeserieschart.html:37
 msgid "date"
 msgstr "날자"
 
-#: r2/lib/pages/pages.py:5957 r2/templates/promotedlinktraffic.html:129
+#: r2/lib/pages/pages.py:5916 r2/templates/promotedlinktraffic.html:129
 #: r2/templates/refundpage.html:41 r2/templates/sponsorlookupuser.html:34
 msgid "id"
 msgstr "아이디"
 
-#: r2/lib/pages/pages.py:5957 r2/lib/pages/pages.py:5976
-#: r2/templates/promotelinkbase.html:966
+#: r2/lib/pages/pages.py:5916 r2/lib/pages/pages.py:5935
+#: r2/templates/promotelinkbase.html:1019
 msgid "owner"
 msgstr "소유자"
 
-#: r2/lib/pages/pages.py:5957 r2/templates/newlink.html:102
-#: r2/templates/newlink.html:186 r2/templates/promotelinkbase.html:127
+#: r2/lib/pages/pages.py:5916 r2/templates/newlink.html:157
+#: r2/templates/newlink.html:241 r2/templates/promotelinkbase.html:127
 msgid "url"
 msgstr "URL"
 
-#: r2/lib/pages/pages.py:5958
+#: r2/lib/pages/pages.py:5917
 msgid "upvotes"
 msgstr "추천"
 
-#: r2/lib/pages/pages.py:5958
+#: r2/lib/pages/pages.py:5917
 msgid "downvotes"
 msgstr "비추천"
 
-#: r2/lib/pages/pages.py:5958 r2/lib/pages/trafficpages.py:287
+#: r2/lib/pages/pages.py:5917 r2/lib/pages/trafficpages.py:287
 #: r2/lib/pages/trafficpages.py:918 r2/templates/promotedlinktraffic.html:46
 #: r2/templates/promotedlinktraffic.html:141
 msgid "clicks"
 msgstr "클릭수"
 
-#: r2/lib/pages/pages.py:5958 r2/lib/pages/trafficpages.py:284
+#: r2/lib/pages/pages.py:5917 r2/lib/pages/trafficpages.py:284
 #: r2/lib/pages/trafficpages.py:408 r2/lib/pages/trafficpages.py:917
 #: r2/templates/adverttrafficsummary.html:36
-#: r2/templates/promotedlinktraffic.html:45 r2/templates/promotelinkbase.html:778
+#: r2/templates/promotedlinktraffic.html:45 r2/templates/promotelinkbase.html:831
 msgid "impressions"
 msgstr "느낌 ???"
 
-#: r2/lib/pages/pages.py:5971
+#: r2/lib/pages/pages.py:5930
 msgid "campaigns"
 msgstr "캠페인"
 
-#: r2/lib/pages/pages.py:5976 r2/templates/promotepost.html:13
+#: r2/lib/pages/pages.py:5935 r2/templates/promotepost.html:13
 msgid "link id"
 msgstr "링크 번호"
 
-#: r2/lib/pages/pages.py:5976
+#: r2/lib/pages/pages.py:5935
 msgid "campaign id"
 msgstr "광고 번호"
 
-#: r2/lib/pages/pages.py:5976 r2/templates/promotedlinktraffic.html:134
+#: r2/lib/pages/pages.py:5935 r2/templates/promotedlinktraffic.html:134
 #: r2/templates/refundpage.html:53
 msgid "target"
 msgstr "타겟"
 
-#: r2/lib/pages/pages.py:5977
+#: r2/lib/pages/pages.py:5936
 msgid "total_budget_pennies"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5977
+#: r2/lib/pages/pages.py:5936
 msgid "frontpage clicks"
 msgstr "대문 클릭수"
 
-#: r2/lib/pages/pages.py:5978
+#: r2/lib/pages/pages.py:5937
 msgid "frontpage impressions"
 msgstr "대문에 대한 인상"
 
-#: r2/lib/pages/pages.py:5978
+#: r2/lib/pages/pages.py:5937
 msgid "subreddit clicks"
 msgstr "서브레딧 클릭수"
 
-#: r2/lib/pages/pages.py:5979
+#: r2/lib/pages/pages.py:5938
 msgid "subreddit impressions"
 msgstr "서브레딧에 대한 인상"
 
-#: r2/lib/pages/pages.py:5979 r2/lib/pages/trafficpages.py:414
+#: r2/lib/pages/pages.py:5938 r2/lib/pages/trafficpages.py:414
 msgid "total clicks"
 msgstr "총 클릭수"
 
-#: r2/lib/pages/pages.py:5980
+#: r2/lib/pages/pages.py:5939
 msgid "total impressions"
 msgstr "종합적 인상"
 
-#: r2/lib/pages/pages.py:6189 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:6148 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "계정 활동"
 
-#: r2/lib/pages/pages.py:6322
+#: r2/lib/pages/pages.py:6281
 msgid "subscribed"
 msgstr "구독된"
 
-#: r2/lib/pages/pages.py:6323 r2/templates/preffeeds.html:57
+#: r2/lib/pages/pages.py:6282 r2/templates/preffeeds.html:57
 msgid "your front page"
 msgstr "당신의 대문"
 
-#: r2/lib/pages/pages.py:6326 r2/lib/pages/pages.py:6331
+#: r2/lib/pages/pages.py:6285 r2/lib/pages/pages.py:6290
 #: r2/templates/preffeeds.html:80 r2/templates/preffeeds.html:103
 msgid "everything"
 msgstr "모든것"
 
-#: r2/lib/pages/pages.py:6329 r2/lib/pages/pages.py:6332
+#: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
 msgid "from all subreddits"
 msgstr "모든 서브레딧에서"
 
-#: r2/lib/pages/pages.py:6334
+#: r2/lib/pages/pages.py:6293
 msgid "moderating"
 msgstr "관리하는"
 
-#: r2/lib/pages/pages.py:6335
+#: r2/lib/pages/pages.py:6294
 msgid "subreddits you mod"
 msgstr "관리 중인 서브레딧"
 
-#: r2/lib/pages/pages.py:6341
+#: r2/lib/pages/pages.py:6300
 msgid "gold perks"
 msgstr "골드 perks"
 
-#: r2/lib/pages/pages.py:6355
+#: r2/lib/pages/pages.py:6314
 msgid "explore multis"
 msgstr "멀티 탐색하기"
 
-#: r2/lib/pages/pages.py:6489
+#: r2/lib/pages/pages.py:6448
 msgid "your subscribed subreddits"
 msgstr "당신이 구독한 서브레딧"
 
-#: r2/lib/pages/pages.py:6602
+#: r2/lib/pages/pages.py:6561
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6606
+#: r2/lib/pages/pages.py:6565
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
@@ -4103,7 +4177,7 @@ msgstr "일일 총 클릭수"
 msgid "ad totals"
 msgstr "총 광고"
 
-#: r2/lib/pages/trafficpages.py:328 r2/models/promo.py:362
+#: r2/lib/pages/trafficpages.py:328 r2/models/promo.py:360
 msgid "frontpage"
 msgstr "대문"
 
@@ -4163,7 +4237,7 @@ msgid "talk"
 msgstr "대화"
 
 #: r2/lib/pages/wiki.py:120 r2/lib/pages/wiki.py:190
-#: ../../liveupdate/reddit_liveupdate/pages.py:128
+#: ../../liveupdate/reddit_liveupdate/pages.py:129
 #: ../../liveupdate/reddit_liveupdate/permissions.py:19
 msgid "settings"
 msgstr "설정"
@@ -4225,108 +4299,108 @@ msgstr ""
 msgid "Submit a link to this wiki page or see other discussions about this wiki page."
 msgstr ""
 
-#: r2/lib/validator/validator.py:2087
+#: r2/lib/validator/validator.py:2086
 #, python-format
 msgid "%(min)d to any"
 msgstr "%(min)d 이상"
 
-#: r2/lib/validator/validator.py:2089
+#: r2/lib/validator/validator.py:2088
 #, python-format
 msgid "any to %(max)d"
 msgstr "%(max)d 이하"
 
-#: r2/lib/validator/validator.py:2091
+#: r2/lib/validator/validator.py:2090
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)d 이상 %(max)d 이하"
 
-#: r2/lib/validator/validator.py:2809
+#: r2/lib/validator/validator.py:2808
 msgid "please provide a first name"
 msgstr "이름을 입력하여 주십시오"
 
-#: r2/lib/validator/validator.py:2811
+#: r2/lib/validator/validator.py:2810
 msgid "please provide a last name"
 msgstr "성을 입력하여 주십시오"
 
-#: r2/lib/validator/validator.py:2813
+#: r2/lib/validator/validator.py:2812
 msgid "please provide an address"
 msgstr "주소를 입력하여 주십시오"
 
-#: r2/lib/validator/validator.py:2815
+#: r2/lib/validator/validator.py:2814
 msgid "please provide your city"
 msgstr "시를 입력하여 주십시오"
 
-#: r2/lib/validator/validator.py:2817
+#: r2/lib/validator/validator.py:2816
 msgid "please provide your state"
 msgstr "주를 입력하여 주십시오"
 
-#: r2/lib/validator/validator.py:2819
+#: r2/lib/validator/validator.py:2818
 msgid "please provide your zip or post code"
 msgstr "우편번호를 입력하여 주십시오"
 
-#: r2/lib/validator/validator.py:2821
+#: r2/lib/validator/validator.py:2820
 msgid "please provide your country"
 msgstr "국적을 적어주세요."
 
-#: r2/lib/validator/validator.py:2838
+#: r2/lib/validator/validator.py:2837
 #, python-format
 msgid "max length %d characters"
 msgstr "최대 %d개 문자"
 
-#: r2/lib/validator/validator.py:2860
+#: r2/lib/validator/validator.py:2859
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "신용카드번호는 13~16자리이어야 합니다"
 
-#: r2/lib/validator/validator.py:2865
+#: r2/lib/validator/validator.py:2864
 msgid "dates should be YYYY-MM"
 msgstr "날짜 형식은 YYYY-MM 입니다"
 
-#: r2/lib/validator/validator.py:2873
+#: r2/lib/validator/validator.py:2872
 msgid "month must be in the range 01..12"
 msgstr "월 표시는 01..12 범위 안에 있어야 합니다"
 
-#: r2/lib/validator/validator.py:2876
+#: r2/lib/validator/validator.py:2875
 msgid "expiration date must be in the future"
 msgstr "만료 기한을 지금보다 미래로 설정하셔야 합니다"
 
-#: r2/lib/validator/validator.py:2881
+#: r2/lib/validator/validator.py:2880
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "카드인증코드는 3 또는 4자리 입니다"
 
-#: r2/lib/validator/validator.py:2919
+#: r2/lib/validator/validator.py:2918
 msgid "a user by name"
 msgstr "이름에 따른 사용자"
 
-#: r2/lib/validator/validator.py:2934
+#: r2/lib/validator/validator.py:2933
 msgid "a [fullname](#fullname) of a link"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3036
+#: r2/lib/validator/validator.py:3035
 msgid "an app"
 msgstr "앱"
 
-#: r2/lib/validator/validator.py:3053
+#: r2/lib/validator/validator.py:3052
 msgid "an app developed by the user"
 msgstr "유저가 개발한 앱"
 
-#: r2/lib/validator/validator.py:3276
+#: r2/lib/validator/validator.py:3275
 msgid "no spaces allowed"
 msgstr "띄어쓰기 금지"
 
-#: r2/lib/validator/validator.py:3278
+#: r2/lib/validator/validator.py:3277
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "잘못된 문자입니다: '%s'"
 
-#: r2/lib/validator/validator.py:3280
+#: r2/lib/validator/validator.py:3279
 msgid "can't start with a '_'"
 msgstr "'_'로 시작할 수 없습니다"
 
-#: r2/lib/validator/validator.py:3282
+#: r2/lib/validator/validator.py:3281
 msgid "that name is too short"
 msgstr "이름이 너무 짧습니다."
 
-#: r2/lib/validator/validator.py:3284
+#: r2/lib/validator/validator.py:3283
 msgid "that name is too long"
 msgstr "이름이 너무 깁니다."
 
@@ -4368,929 +4442,949 @@ msgstr "당신의 레딧 골드 구독기간이 곧 만료됩니다!"
 msgid "Your subscription to reddit gold will be expiring soon."
 msgstr "당신 레딧 골드 구독기간이 곧 완료됩니다."
 
-#: r2/models/builder.py:306
+#: r2/models/builder.py:312
 msgid "a moderator"
 msgstr "관리자"
 
-#: r2/models/builder.py:309
+#: r2/models/builder.py:315
 #, python-format
 msgid "approved by %(who)s at %(when)s"
 msgstr ""
 
-#: r2/models/builder.py:313
+#: r2/models/builder.py:319
 #, python-format
 msgid "approved by %s"
 msgstr "%s에게 승인됨"
 
-#: r2/models/gold.py:546 r2/templates/comment.html:91
+#: r2/models/gold.py:547 r2/templates/comment.html:106
 #: r2/templates/comment.htmllite:47 r2/templates/comment.xml:31
 #: r2/templates/comment.xml:32 r2/templates/comment.xml:35 r2/templates/link.xml:40
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateaccount.html:4
 msgid "[deleted]"
 msgstr "[삭제된 글] "
 
-#: r2/models/gold.py:550
+#: r2/models/gold.py:551
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this comment."
 msgid_plural "redditors have gifted you %(months)d months of reddit gold for this comment."
 msgstr[0] "다른 레디터가 이 댓글에 대한 답례로 %(months)d개월치의 레딧 골드를 선물하였습니다."
 
-#: r2/models/gold.py:558
+#: r2/models/gold.py:559
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this submission."
 msgid_plural "redditors have gifted you %(months)d months of reddit gold for this submission."
 msgstr[0] ""
 
-#: r2/models/gold.py:567
+#: r2/models/gold.py:568
 #, python-format
 msgid "you have gifted reddit gold to %(recipient)s for this comment."
 msgid_plural "you and other redditors have gifted %(months)d months of reddit gold to %(recipient)s for this comment."
 msgstr[0] "당신과 다른 레디터가 이 댓글에 대한 답례로 %(months)d개월치의 레딧 골드를 %(recipient)s에게 선물했습니다."
 
-#: r2/models/gold.py:575
+#: r2/models/gold.py:576
 #, python-format
 msgid "you have gifted reddit gold to %(recipient)s for this submission."
 msgid_plural "you and other redditors have gifted %(months)d months of reddit gold to %(recipient)s for this submission."
 msgstr[0] ""
 
-#: r2/models/gold.py:584
+#: r2/models/gold.py:585
 #, python-format
 msgid "a redditor has gifted reddit gold to %(recipient)s for this comment."
 msgid_plural "redditors have gifted %(months)d months of reddit gold to %(recipient)s for this comment."
 msgstr[0] "레디터들께서 이 댓글에 대한 답례로 %(months)d개월치의 레딧 골드를 %(recipient)s에게 선물했습니다."
 
-#: r2/models/gold.py:592
+#: r2/models/gold.py:593
 #, python-format
 msgid "a redditor has gifted reddit gold to %(recipient)s for this submission."
 msgid_plural "redditors have gifted %(months)d months of reddit gold to %(recipient)s for this submission."
 msgstr[0] ""
 
-#: r2/models/link.py:1056
+#: r2/models/link.py:1074
 #, python-format
 msgid "by %(author)s to %(reddit)s"
 msgstr "%(author)s가 %(reddit)s로"
 
-#: r2/models/link.py:1059 r2/templates/adminnotessidebar.html:47
+#: r2/models/link.py:1077 r2/templates/adminnotessidebar.html:47
 #, python-format
 msgid "by %(author)s"
 msgstr "%(author)s가"
 
-#: r2/models/link.py:1069
+#: r2/models/link.py:1081
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr ""
 
-#: r2/models/link.py:1078
+#: r2/models/link.py:1085
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(reddit)s"
 msgstr ""
 
-#: r2/models/link.py:1086
+#: r2/models/link.py:1088
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr ""
 
-#: r2/models/link.py:1096
+#: r2/models/link.py:1093
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr ""
 
-#: r2/models/link.py:1104
+#: r2/models/link.py:1096
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(reddit)s"
 msgstr "%(when)s 전 %(author)s님이 %(reddit)s에 등록함"
 
-#: r2/models/link.py:1111
+#: r2/models/link.py:1099
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr ""
 
-#: r2/models/link.py:2056
+#: r2/models/link.py:2058
 #, python-format
 msgid "%(link)s by %(author)s [promoted post]"
 msgstr ""
 
-#: r2/models/link.py:2058
+#: r2/models/link.py:2060
 #, python-format
 msgid "%(link)s by %(author)s in %(subreddit)s"
 msgstr ""
 
-#: r2/models/link.py:2085
+#: r2/models/link.py:2087
 msgid "comment score below threshold"
 msgstr "설정하신 최소 댓글 점수에 못 미쳐 숨긴 글"
 
-#: r2/models/link.py:2090
+#: r2/models/link.py:2092
 msgid "blocked user"
 msgstr "차단된 사용자"
 
-#: r2/models/link.py:2689
+#: r2/models/link.py:2681
 msgid "username mention"
 msgstr "아이디 언급"
 
-#: r2/models/link.py:2692 r2/models/link.py:2754
+#: r2/models/link.py:2684 r2/models/link.py:2746
 #, python-format
 msgid "from %(author)s via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2706
+#: r2/models/link.py:2698
 msgid "[message from blocked subreddit]"
 msgstr ""
 
-#: r2/models/link.py:2726 r2/models/link.py:2732
+#: r2/models/link.py:2718 r2/models/link.py:2724
 #, python-format
 msgid "subreddit message via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2736 r2/models/link.py:2759
+#: r2/models/link.py:2728 r2/models/link.py:2751
 #, python-format
 msgid "to %(dest)s via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2740 r2/models/link.py:2765
+#: r2/models/link.py:2732 r2/models/link.py:2757
 #, python-format
 msgid "from %(author)s via %(subreddit)s to %(dest)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2757
+#: r2/models/link.py:2749
 #, python-format
 msgid "to %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2762
+#: r2/models/link.py:2754
 #, python-format
 msgid "from %(author)s to %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2781
+#: r2/models/link.py:2773
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2783
+#: r2/models/link.py:2775
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2785
+#: r2/models/link.py:2777
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2809
+#: r2/models/link.py:2801
 msgid "[message from blocked user]"
 msgstr "[차단된 유저의 메세지]"
 
-#: r2/models/link.py:2810
+#: r2/models/link.py:2802
 msgid "[unblock user to see this message]"
 msgstr "[이 메세지를 보시려면 유저 블록을 푸세요]"
 
-#: r2/models/listing.py:165
+#: r2/models/listing.py:173
 msgid "note"
 msgstr "메모"
 
-#: r2/models/listing.py:165
+#: r2/models/listing.py:173
 msgid "friendship"
 msgstr "우정"
 
-#: r2/models/listing.py:169
+#: r2/models/listing.py:177
 msgid "add a friend"
 msgstr "친구 추가하기"
 
-#: r2/models/listing.py:182
+#: r2/models/listing.py:194
+msgid "Trusted users"
+msgstr ""
+
+#: r2/models/listing.py:207
 msgid "blocked users"
 msgstr "차단된 사용자"
 
-#: r2/models/listing.py:213
+#: r2/models/listing.py:238
 #, python-format
 msgid "users banned from /r/%(subreddit)s"
 msgstr "/r/%(subreddit)s에서 차단된 사용자"
 
-#: r2/models/listing.py:244
+#: r2/models/listing.py:269
 #, python-format
 msgid "users muted from /r/%(subreddit)s"
 msgstr ""
 
-#: r2/models/listing.py:262
+#: r2/models/listing.py:287
 msgid "ban wiki contibutors"
 msgstr "위키 기여자 차단"
 
-#: r2/models/listing.py:266
+#: r2/models/listing.py:291
 #, python-format
 msgid "wiki contibutors banned from /r/%(subreddit)s"
 msgstr "/r/%(subreddit)s 에서 차단된 위키 기여자"
 
-#: r2/models/listing.py:274
+#: r2/models/listing.py:299
 #, python-format
 msgid "approved submitters for /r/%(subreddit)s"
 msgstr "/r/%(subreddit)s 의 승인된 게시자"
 
-#: r2/models/listing.py:279
+#: r2/models/listing.py:304
 msgid "add approved submitter"
 msgstr "승인된 투고자 등록"
 
-#: r2/models/listing.py:286
+#: r2/models/listing.py:311
 #, python-format
 msgid "approved wiki contributors for /r/%(subreddit)s"
 msgstr "/r/%(subreddit)s 의 승인된 위키 기여자"
 
-#: r2/models/listing.py:291
+#: r2/models/listing.py:316
 msgid "add approved wiki contributor"
 msgstr "승인된 위키 편집자 추가하기"
 
-#: r2/models/listing.py:295 r2/models/modaction.py:76
+#: r2/models/listing.py:320 r2/models/modaction.py:77
 msgid "invite moderator"
 msgstr "관리자 초청하기"
 
-#: r2/models/listing.py:296 r2/templates/modlisting.html:33
+#: r2/models/listing.py:321 r2/templates/modlisting.html:33
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
 msgstr "당신은 이 레딧의 관리자입니다. %(action)s"
 
-#: r2/models/listing.py:312
+#: r2/models/listing.py:337
 #, python-format
 msgid "invited moderators for %(subreddit)s"
 msgstr "%(subreddit)s 의 초대된 관리자"
 
-#: r2/models/listing.py:317
+#: r2/models/listing.py:342
 msgid "force add moderator"
 msgstr "관리자 강제로 추가"
 
-#: r2/models/listing.py:333
+#: r2/models/listing.py:358
 #, python-format
 msgid "moderators of /r/%(subreddit)s"
 msgstr "/r/%(subreddit)s 의 관리자"
 
-#: r2/models/mail_queue.py:354
+#: r2/models/mail_queue.py:356
 #, python-format
 msgid "[reddit] %(user)s has shared a link with you"
 msgstr "[레딧]%(user)s님께서 보낸 링크입니다"
 
-#: r2/models/mail_queue.py:355
+#: r2/models/mail_queue.py:357
 #, python-format
 msgid "[feedback] feedback from '%(user)s'"
 msgstr "[피드백] '%(user)s'님의 피드백"
 
-#: r2/models/mail_queue.py:356
+#: r2/models/mail_queue.py:358
 #, python-format
 msgid "[advertising] feedback from '%(user)s'"
 msgstr ""
 
-#: r2/models/mail_queue.py:357
+#: r2/models/mail_queue.py:359
 msgid "[reddit] email removal notice"
 msgstr "[레딧] 이메일 리스트에서 삭제 공고"
 
-#: r2/models/mail_queue.py:358
+#: r2/models/mail_queue.py:360
 msgid "[reddit] email addition notice"
 msgstr "[레딧] 이메일 리스트에 추가 공고"
 
-#: r2/models/mail_queue.py:359
+#: r2/models/mail_queue.py:361
 msgid "[reddit] reset your password"
 msgstr "[레딧] 비밀번호를 초기화하세요."
 
-#: r2/models/mail_queue.py:360
+#: r2/models/mail_queue.py:362
 msgid "[reddit] verify your email address"
 msgstr "[reddit] 이메일 주소 인증"
 
-#: r2/models/mail_queue.py:361
+#: r2/models/mail_queue.py:363
 msgid "[reddit] your budget has been accepted"
 msgstr ""
 
-#: r2/models/mail_queue.py:362
+#: r2/models/mail_queue.py:364
 msgid "[reddit] your promotion has been accepted"
 msgstr "[레딧] 고객님의 광고가 승인되었습니다"
 
-#: r2/models/mail_queue.py:363
+#: r2/models/mail_queue.py:365
 msgid "[reddit] your promotion has been rejected"
 msgstr "[레딧] 고객님의 광고가 거절되었습니다"
 
-#: r2/models/mail_queue.py:364
+#: r2/models/mail_queue.py:366
 msgid "[reddit] your promotion has been charged"
 msgstr "[레딧] 고객님의 광고가 지불되었습니다"
 
-#: r2/models/mail_queue.py:365
+#: r2/models/mail_queue.py:367
 msgid "[reddit] your promotion is now live"
 msgstr "[레딧] 당신의 프로모션은 현재 나오고 있습니다"
 
-#: r2/models/mail_queue.py:366
+#: r2/models/mail_queue.py:368
 msgid "[reddit] your promotion has finished"
 msgstr "[레딧] 고객님의 광고가 종료되었습니다"
 
-#: r2/models/mail_queue.py:367
+#: r2/models/mail_queue.py:369
 msgid "[reddit] your promotion has been created"
 msgstr "[레딧] 고객님의 광고가 생성되었습니다"
 
-#: r2/models/mail_queue.py:368
+#: r2/models/mail_queue.py:370
 msgid "[reddit] your promotion edit is being approved"
 msgstr ""
 
-#: r2/models/mail_queue.py:369
+#: r2/models/mail_queue.py:371
 msgid "[reddit] hey, nerd!"
 msgstr "[레딧] 야 "
 
-#: r2/models/mail_queue.py:370
+#: r2/models/mail_queue.py:372
 msgid "[reddit] reddit gold activation link"
 msgstr "[레딧] 레딧 골드 활성화 링크"
 
-#: r2/models/mail_queue.py:371
+#: r2/models/mail_queue.py:373
 msgid "[reddit] your password has been changed"
 msgstr "[레딧] 비밀번호가 변경되었습니다."
 
-#: r2/models/mail_queue.py:372
+#: r2/models/mail_queue.py:374
 msgid "[reddit] your email address has been changed"
 msgstr "[레딧] 이메일 주소가 변경되었습니다."
 
-#: r2/models/mail_queue.py:373
+#: r2/models/mail_queue.py:375
 msgid "[reddit] your campaign didn't get enough impressions"
 msgstr ""
 
-#: r2/models/mail_queue.py:374
+#: r2/models/mail_queue.py:376
 msgid "[reddit] your payment has been voided"
 msgstr ""
 
-#: r2/models/mail_queue.py:375
+#: r2/models/mail_queue.py:377
 msgid "[reddit] your reddit gold gift code"
 msgstr "[레딧] 레딧 골드 기프트 코드"
 
-#: r2/models/mail_queue.py:376
+#: r2/models/mail_queue.py:378
 msgid "[selfserve] suspicious payment alert"
 msgstr ""
 
-#: r2/models/mail_queue.py:377
+#: r2/models/mail_queue.py:379
 msgid "[selfserve] fraud alert"
 msgstr ""
 
-#: r2/models/mail_queue.py:378
+#: r2/models/mail_queue.py:380
 msgid "[selfserve] a user has committed fraud"
 msgstr ""
 
-#: r2/models/mail_queue.py:380
+#: r2/models/mail_queue.py:382
 msgid "[reddit] Ads Alert"
 msgstr ""
 
-#: r2/models/mail_queue.py:381
+#: r2/models/mail_queue.py:383
 msgid "[selfserve] your promotion has been extended"
 msgstr ""
 
-#: r2/models/mail_queue.py:382
+#: r2/models/mail_queue.py:384
 msgid "[reddit] a promotion has been transferred to             your account"
 msgstr ""
 
-#: r2/models/mail_queue.py:384
+#: r2/models/mail_queue.py:386
 msgid "[reddit] your promotion campaign has been             rejected"
 msgstr ""
 
-#: r2/models/modaction.py:68
+#: r2/models/mail_queue.py:388
+msgid "[reddit] SECURITY ALERT"
+msgstr ""
+
+#: r2/models/mail_queue.py:389
+msgid "[reddit] Legal user export complete"
+msgstr ""
+
+#: r2/models/modaction.py:69
 msgid "ban user"
 msgstr "사용자 차단"
 
-#: r2/models/modaction.py:69
+#: r2/models/modaction.py:70
 msgid "unban user"
 msgstr "사용자 차단 해제"
 
-#: r2/models/modaction.py:70
+#: r2/models/modaction.py:71
 msgid "remove post"
 msgstr "링크 삭제"
 
-#: r2/models/modaction.py:71
+#: r2/models/modaction.py:72
 msgid "approve post"
 msgstr "링크 승인"
 
-#: r2/models/modaction.py:72
+#: r2/models/modaction.py:73
 msgid "remove comment"
 msgstr "댓글 삭제"
 
-#: r2/models/modaction.py:73
+#: r2/models/modaction.py:74
 msgid "approve comment"
 msgstr "댓글 승인"
 
-#: r2/models/modaction.py:74
+#: r2/models/modaction.py:75
 msgid "add moderator"
 msgstr "레딧 운영자 추가하기"
 
-#: r2/models/modaction.py:75
+#: r2/models/modaction.py:76
 msgid "remove moderator"
 msgstr "관리자 삭제"
 
-#: r2/models/modaction.py:77
+#: r2/models/modaction.py:78
 msgid "uninvite moderator"
 msgstr "관리자 초청 취소하기"
 
-#: r2/models/modaction.py:78
+#: r2/models/modaction.py:79
 msgid "accept moderator invite"
 msgstr "관리자 초청 수락하기"
 
-#: r2/models/modaction.py:79
+#: r2/models/modaction.py:80
 msgid "add contributor"
 msgstr "회원 추가하기"
 
-#: r2/models/modaction.py:80
+#: r2/models/modaction.py:81
 msgid "remove contributor"
 msgstr "회원 삭제"
 
-#: r2/models/modaction.py:81
+#: r2/models/modaction.py:82
 msgid "edit settings"
 msgstr "설정 편집"
 
-#: r2/models/modaction.py:83 r2/templates/printablebuttons.html:118
+#: r2/models/modaction.py:84 r2/templates/printablebuttons.html:118
 msgid "distinguish"
 msgstr "구별하요"
 
-#: r2/models/modaction.py:84
+#: r2/models/modaction.py:85
 msgid "mark nsfw"
 msgstr "nsfw(안전하지 않은 게시물) 표시"
 
-#: r2/models/modaction.py:85
+#: r2/models/modaction.py:86
 msgid "ban from wiki"
 msgstr "위키로부터 차단하기"
 
-#: r2/models/modaction.py:86
+#: r2/models/modaction.py:87
 msgid "unban from wiki"
 msgstr "위키로부터 차단 해제"
 
-#: r2/models/modaction.py:87
+#: r2/models/modaction.py:88
 msgid "add wiki contributor"
 msgstr "위키 기고자 추가"
 
-#: r2/models/modaction.py:88
+#: r2/models/modaction.py:89
 msgid "delist/relist wiki pages"
 msgstr ""
 
-#: r2/models/modaction.py:89
+#: r2/models/modaction.py:90
 msgid "remove wiki contributor"
 msgstr "위키 기고자 제거"
 
-#: r2/models/modaction.py:90
+#: r2/models/modaction.py:91
 msgid "wiki revise page"
 msgstr "위키 수정 페이지"
 
-#: r2/models/modaction.py:91
+#: r2/models/modaction.py:92
 msgid "wiki page permissions"
 msgstr "위키 페이지 권한"
 
-#: r2/models/modaction.py:92 r2/models/modaction.py:206
+#: r2/models/modaction.py:93 r2/models/modaction.py:209
 #: r2/templates/printablebuttons.html:228
 msgid "ignore reports"
 msgstr "신고 무시"
 
-#: r2/models/modaction.py:93
+#: r2/models/modaction.py:94
 msgid "unignore reports"
 msgstr "신고 무시 해제"
 
-#: r2/models/modaction.py:94
+#: r2/models/modaction.py:95
 msgid "permissions"
 msgstr "권한"
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:138
+#: r2/models/modaction.py:96 r2/models/modaction.py:140
 msgid "set suggested sort"
 msgstr ""
 
-#: r2/models/modaction.py:96
+#: r2/models/modaction.py:97
 msgid "sticky post"
 msgstr "게시물 고정"
 
-#: r2/models/modaction.py:97
+#: r2/models/modaction.py:98
 msgid "unsticky post"
 msgstr "게시물 고정 해제"
 
-#: r2/models/modaction.py:98
+#: r2/models/modaction.py:99
 msgid "set contest mode"
 msgstr ""
 
-#: r2/models/modaction.py:99
+#: r2/models/modaction.py:100
 msgid "unset contest mode"
 msgstr ""
 
-#: r2/models/modaction.py:100
+#: r2/models/modaction.py:101
 msgid "lock post"
 msgstr ""
 
-#: r2/models/modaction.py:101
+#: r2/models/modaction.py:102
 msgid "unlock post"
 msgstr ""
 
-#: r2/models/modaction.py:102 r2/templates/printablebuttons.html:602
+#: r2/models/modaction.py:103 r2/templates/printablebuttons.html:602
 msgid "mute user"
 msgstr ""
 
-#: r2/models/modaction.py:103 r2/templates/printablebuttons.html:599
+#: r2/models/modaction.py:104 r2/templates/printablebuttons.html:599
 msgid "unmute user"
 msgstr ""
 
-#: r2/models/modaction.py:104
+#: r2/models/modaction.py:105
 msgid "create rule"
 msgstr ""
 
-#: r2/models/modaction.py:105
+#: r2/models/modaction.py:106
 msgid "edit rule"
 msgstr ""
 
-#: r2/models/modaction.py:106
+#: r2/models/modaction.py:107
 msgid "delete rule"
 msgstr ""
 
-#: r2/models/modaction.py:107
+#: r2/models/modaction.py:108
 msgid "mark spoiler"
 msgstr ""
 
-#: r2/models/modaction.py:108
+#: r2/models/modaction.py:109
 msgid "unmark spoiler"
 msgstr ""
 
-#: r2/models/modaction.py:112
+#: r2/models/modaction.py:110
+msgid "enroll in new modmail"
+msgstr ""
+
+#: r2/models/modaction.py:114
 msgid "wiki banned"
 msgstr "위키 차단됨"
 
-#: r2/models/modaction.py:113
+#: r2/models/modaction.py:115
 msgid "unbanned from wiki"
 msgstr "위키로부터 차단 해제됨"
 
-#: r2/models/modaction.py:114
+#: r2/models/modaction.py:116
 msgid "added wiki contributor"
 msgstr "추가된 위키 기고자 "
 
-#: r2/models/modaction.py:115
+#: r2/models/modaction.py:117
 msgid "removed wiki contributor"
 msgstr "제거된 위키 기고자"
 
-#: r2/models/modaction.py:116
+#: r2/models/modaction.py:118
 msgid "unbanned"
 msgstr "탈퇴목록에서 뺐습니다"
 
-#: r2/models/modaction.py:117 r2/models/modaction.py:119
+#: r2/models/modaction.py:119 r2/models/modaction.py:121
 #: r2/templates/linkcommentssettings.html:119 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:264 r2/templates/trophycase.html:48
 msgid "removed"
 msgstr "제거됨"
 
-#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/models/modaction.py:156
+#: r2/models/modaction.py:120 r2/models/modaction.py:122 r2/models/modaction.py:159
 #: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:267
 #: r2/templates/renderablecampaign.html:193 r2/templates/subredditinfobar.html:138
 msgid "approved"
 msgstr "승인됨"
 
-#: r2/models/modaction.py:121
+#: r2/models/modaction.py:123
 msgid "added moderator"
 msgstr "관리자에 의해 추가됨"
 
-#: r2/models/modaction.py:122
+#: r2/models/modaction.py:124
 msgid "removed moderator"
 msgstr "관리자에 의해 삭제됨"
 
-#: r2/models/modaction.py:123
+#: r2/models/modaction.py:125
 msgid "invited moderator"
 msgstr "초청된 관리자"
 
-#: r2/models/modaction.py:124
+#: r2/models/modaction.py:126
 msgid "uninvited moderator"
 msgstr "초청되지 않은 관리자"
 
-#: r2/models/modaction.py:125
+#: r2/models/modaction.py:127
 msgid "accepted moderator invitation"
 msgstr "괸라자 초청이 수락됐습니다"
 
-#: r2/models/modaction.py:126
+#: r2/models/modaction.py:128
 msgid "added approved contributor"
 msgstr "승인된 회원을 추가했습니다"
 
-#: r2/models/modaction.py:127
+#: r2/models/modaction.py:129
 msgid "removed approved contributor"
 msgstr "승인된 회원을 삭제했습니다"
 
-#: r2/models/modaction.py:128
+#: r2/models/modaction.py:130
 msgid "edited settings"
 msgstr "설정을 수정했습니다"
 
-#: r2/models/modaction.py:129
+#: r2/models/modaction.py:131
 msgid "edited flair"
 msgstr "편집된 플레어"
 
-#: r2/models/modaction.py:130
+#: r2/models/modaction.py:132
 msgid "edited wiki page"
 msgstr "위키 페이지 편집됨"
 
-#: r2/models/modaction.py:131
+#: r2/models/modaction.py:133
 msgid "changed wiki page permission level"
 msgstr "위키 페이지 권한 레벨 변경됨"
 
-#: r2/models/modaction.py:132
+#: r2/models/modaction.py:134
 msgid "changed wiki page listing preference"
 msgstr ""
 
-#: r2/models/modaction.py:133
+#: r2/models/modaction.py:135
 msgid "distinguished"
 msgstr "구별되었습니다"
 
-#: r2/models/modaction.py:134
+#: r2/models/modaction.py:136
 msgid "marked nsfw"
 msgstr "표시된 nsfw(안전하지 않은 게시물)"
 
-#: r2/models/modaction.py:135
+#: r2/models/modaction.py:137
 msgid "ignored reports"
 msgstr "무시된 신고"
 
-#: r2/models/modaction.py:136
+#: r2/models/modaction.py:138
 msgid "unignored reports"
 msgstr "무시되지 않은 신고"
 
-#: r2/models/modaction.py:137
+#: r2/models/modaction.py:139
 msgid "changed permissions on"
 msgstr ""
 
-#: r2/models/modaction.py:139
+#: r2/models/modaction.py:141
 msgid "stickied"
 msgstr "고정되었습니다"
 
-#: r2/models/modaction.py:140
+#: r2/models/modaction.py:142
 msgid "unstickied"
 msgstr "고정이 해제되었습니다"
 
-#: r2/models/modaction.py:141
+#: r2/models/modaction.py:143
 msgid "set contest mode on"
 msgstr ""
 
-#: r2/models/modaction.py:142
+#: r2/models/modaction.py:144
 msgid "unset contest mode on"
 msgstr ""
 
-#: r2/models/modaction.py:143 r2/templates/lockedinterstitial.html:31
+#: r2/models/modaction.py:145 r2/templates/lockedinterstitial.html:31
 #: r2/templates/printablebuttons.html:73
 msgid "locked"
 msgstr ""
 
-#: r2/models/modaction.py:144 r2/templates/printablebuttons.html:76
+#: r2/models/modaction.py:146 r2/templates/printablebuttons.html:76
 msgid "unlocked"
 msgstr ""
 
-#: r2/models/modaction.py:146 r2/templates/printablebuttons.html:599
+#: r2/models/modaction.py:148 r2/templates/printablebuttons.html:599
 msgid "unmuted"
 msgstr ""
 
-#: r2/models/modaction.py:147
+#: r2/models/modaction.py:149
 msgid "created rule"
 msgstr ""
 
-#: r2/models/modaction.py:148
+#: r2/models/modaction.py:150
 msgid "edited rule"
 msgstr ""
 
-#: r2/models/modaction.py:149
+#: r2/models/modaction.py:151
 msgid "deleted rule"
 msgstr ""
 
-#: r2/models/modaction.py:150
+#: r2/models/modaction.py:152
 msgid "marked spoiler"
 msgstr ""
 
-#: r2/models/modaction.py:151
+#: r2/models/modaction.py:153
 msgid "unmarked spoiler"
 msgstr ""
 
-#: r2/models/modaction.py:155
+#: r2/models/modaction.py:154
+msgid "enrolled in new modmail"
+msgstr ""
+
+#: r2/models/modaction.py:158
 msgid "unspam"
 msgstr "스팸신고 취소"
 
-#: r2/models/modaction.py:158
+#: r2/models/modaction.py:161
 msgid "confirmed spam"
 msgstr "확인된 스팸"
 
-#: r2/models/modaction.py:159
+#: r2/models/modaction.py:162
 msgid "removed not spam"
 msgstr "스팸 아닌 것으로 제거된 스팸"
 
-#: r2/models/modaction.py:160
+#: r2/models/modaction.py:163
 msgid "removed spam"
 msgstr "제거된 스팸"
 
-#: r2/models/modaction.py:162
+#: r2/models/modaction.py:165
 msgid "removed self"
 msgstr "제거된 "
 
-#: r2/models/modaction.py:164 r2/templates/createsubreddit.html:72
-#: r2/templates/newlink.html:153 r2/templates/newlink.html:177
+#: r2/models/modaction.py:167 r2/templates/createsubreddit.html:72
+#: r2/templates/newlink.html:208 r2/templates/newlink.html:232
 #: r2/templates/promotelinkbase.html:78
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "제목"
 
-#: r2/models/modaction.py:165 r2/templates/createsubreddit.html:86
+#: r2/models/modaction.py:168 r2/templates/createsubreddit.html:86
 #: r2/templates/prefapps.html:147 r2/templates/prefapps.html:342
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:31
 msgid "description"
 msgstr "설명"
 
-#: r2/models/modaction.py:166 r2/templates/createsubreddit.html:103
+#: r2/models/modaction.py:169 r2/templates/createsubreddit.html:103
 msgid "sidebar"
 msgstr "사이드 바"
 
-#: r2/models/modaction.py:167 r2/templates/createsubreddit.html:121
+#: r2/models/modaction.py:170 r2/templates/createsubreddit.html:121
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "언어"
 
-#: r2/models/modaction.py:168 r2/templates/createsubreddit.html:132
+#: r2/models/modaction.py:171 r2/templates/createsubreddit.html:132
 msgid "type"
 msgstr "유형"
 
-#: r2/models/modaction.py:169
+#: r2/models/modaction.py:172
 msgid "link type"
 msgstr "링크 종류"
 
-#: r2/models/modaction.py:170
+#: r2/models/modaction.py:173
 msgid "submit link button label"
 msgstr ""
 
-#: r2/models/modaction.py:171
+#: r2/models/modaction.py:174
 msgid "submit text post button label"
 msgstr ""
 
-#: r2/models/modaction.py:172
+#: r2/models/modaction.py:175
 msgid "comment score hide period"
 msgstr ""
 
-#: r2/models/modaction.py:173
+#: r2/models/modaction.py:176
 msgid "toggle viewers must be over 18"
 msgstr "만 19세 이상이 되어야 한다는 페이지 토글"
 
-#: r2/models/modaction.py:174
+#: r2/models/modaction.py:177
 msgid "toggle allow in default/trending lists"
 msgstr ""
 
-#: r2/models/modaction.py:175
+#: r2/models/modaction.py:178
 msgid "toggle show thumbnail images of content"
 msgstr "내용의 섬네일 표시하기 / 숨기기"
 
-#: r2/models/modaction.py:176
+#: r2/models/modaction.py:179
 msgid "toggle public traffic stats page"
 msgstr ""
 
-#: r2/models/modaction.py:177
+#: r2/models/modaction.py:180
 msgid "toggle collapse deleted/removed comments"
 msgstr ""
 
-#: r2/models/modaction.py:178
+#: r2/models/modaction.py:181
 msgid "toggle exclude banned users' posts from modqueue"
 msgstr ""
 
-#: r2/models/modaction.py:180
+#: r2/models/modaction.py:183
 msgid "toggle show sidebar from cname"
 msgstr ""
 
-#: r2/models/modaction.py:181
+#: r2/models/modaction.py:184
 msgid "toggle custom CSS from cname"
 msgstr ""
 
-#: r2/models/modaction.py:182
+#: r2/models/modaction.py:185
 msgid "header title"
 msgstr "헤더 타이틀"
 
-#: r2/models/modaction.py:184
+#: r2/models/modaction.py:187
 msgid "delete header image"
 msgstr "헤더 이미지 삭제하기"
 
-#: r2/models/modaction.py:185
+#: r2/models/modaction.py:188
 msgid "delete image"
 msgstr "이미지 삭제"
 
-#: r2/models/modaction.py:186
+#: r2/models/modaction.py:189
 msgid "delete icon image"
 msgstr "아이콘 이미지 삭제"
 
-#: r2/models/modaction.py:187
+#: r2/models/modaction.py:190
 msgid "delete banner image"
 msgstr "배너 이미지 삭제"
 
-#: r2/models/modaction.py:188 r2/templates/createsubreddit.html:510
+#: r2/models/modaction.py:191 r2/templates/createsubreddit.html:508
 msgid "upload header image"
 msgstr "헤더 이미지 등록"
 
-#: r2/models/modaction.py:189
+#: r2/models/modaction.py:192
 msgid "upload icon image"
 msgstr "아이콘 이미지 업로드"
 
-#: r2/models/modaction.py:190
+#: r2/models/modaction.py:193
 msgid "upload banner image"
 msgstr "배너 이미지 업로드"
 
-#: r2/models/modaction.py:191
+#: r2/models/modaction.py:194
 msgid "upload image"
 msgstr "이미지 업로드"
 
-#: r2/models/modaction.py:193
+#: r2/models/modaction.py:196
 msgid "add/edit flair"
 msgstr "플레어 추가하기 / 편집하기"
 
-#: r2/models/modaction.py:194
+#: r2/models/modaction.py:197
 msgid "delete flair"
 msgstr "플레어 삭제하기"
 
-#: r2/models/modaction.py:195
+#: r2/models/modaction.py:198
 msgid "edit by csv"
 msgstr "csv로 작성됨"
 
-#: r2/models/modaction.py:196
+#: r2/models/modaction.py:199
 msgid "toggle flair enabled"
 msgstr "플레어 허용 / 차단하기"
 
-#: r2/models/modaction.py:197
+#: r2/models/modaction.py:200
 msgid "toggle user flair position"
 msgstr "사용자 플레어 위치 조정하기"
 
-#: r2/models/modaction.py:198
+#: r2/models/modaction.py:201
 msgid "toggle link flair position"
 msgstr "링크 플레어 위치 조정하기"
 
-#: r2/models/modaction.py:199
+#: r2/models/modaction.py:202
 msgid "toggle user assigned flair enabled"
 msgstr "플레어 허용 / 차단하기"
 
-#: r2/models/modaction.py:200
+#: r2/models/modaction.py:203
 msgid "toggle submitter assigned link flair enabled"
 msgstr ""
 
-#: r2/models/modaction.py:201
+#: r2/models/modaction.py:204
 msgid "add/edit flair templates"
 msgstr "플레어 템플릿 추가하기 / 편집하기"
 
-#: r2/models/modaction.py:202
+#: r2/models/modaction.py:205
 msgid "delete flair template"
 msgstr "플레어 템플릿 삭제하기"
 
-#: r2/models/modaction.py:203
+#: r2/models/modaction.py:206
 msgid "clear flair templates"
 msgstr "플레어 템플릿 비우기"
 
-#: r2/models/modaction.py:205 r2/public/static/js/link-websockets.js:255
-#: r2/templates/createsubreddit.html:546 r2/templates/createsubreddit.html:552
-#: r2/templates/filteredinfobar.html:39 r2/templates/multiinfobar.html:125
+#: r2/models/modaction.py:208 r2/public/static/js/link-websockets.js:260
+#: r2/templates/createsubreddit.html:544 r2/templates/createsubreddit.html:550
+#: r2/templates/filteredinfobar.html:43 r2/templates/multiinfobar.html:125
 #: r2/templates/prefapps.html:79 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:244 r2/templates/trophycase.html:48
 #: r2/templates/usertableitem.html:59
 msgid "remove"
 msgstr "제거하기"
 
-#: r2/models/modaction.py:208
+#: r2/models/modaction.py:211
 msgid "set permissions on moderator"
 msgstr "관리자 권한 설정하기"
 
-#: r2/models/modaction.py:209
+#: r2/models/modaction.py:212
 msgid "set permissions on moderator invitation"
 msgstr "권리자 초청에 대한 권한 설정하기"
 
-#: r2/models/promo.py:77
+#: r2/models/promo.py:75
 msgid "highest"
 msgstr "최고"
 
-#: r2/models/promo.py:82
+#: r2/models/promo.py:80
 msgid "standard"
 msgstr "일반"
 
-#: r2/models/promo.py:88
+#: r2/models/promo.py:86
 msgid "remnant"
 msgstr "잔여"
 
-#: r2/models/promo.py:89
+#: r2/models/promo.py:87
 msgid "lower priority, impressions are not guaranteed"
 msgstr ""
 
-#: r2/models/promo.py:95
+#: r2/models/promo.py:93
 msgid "house"
 msgstr "하우스"
 
-#: r2/models/promo.py:96
+#: r2/models/promo.py:94
 msgid "non-CPM, displays in all unsold impressions"
 msgstr ""
 
-#: r2/models/promo.py:102 r2/templates/promotelinkbase.html:1041
+#: r2/models/promo.py:100 r2/templates/promotelinkbase.html:1094
 msgid "auction"
 msgstr ""
 
-#: r2/models/promo.py:103
+#: r2/models/promo.py:101
 msgid "auction priority; all self-serve are auction priority"
 msgstr ""
 
-#: r2/models/promo.py:359
+#: r2/models/promo.py:357
 #, python-format
 msgid "collection: %(name)s"
 msgstr ""
 
-#: r2/models/promo.py:364
+#: r2/models/promo.py:362
 #, python-format
 msgid "interest: %s"
 msgstr ""
 
-#: r2/models/rules.py:34 ../../liveupdate/reddit_liveupdate/pages.py:238
+#: r2/models/rules.py:34 ../../liveupdate/reddit_liveupdate/pages.py:257
 msgid "vote manipulation"
 msgstr ""
 
-#: r2/models/rules.py:35 ../../liveupdate/reddit_liveupdate/pages.py:239
+#: r2/models/rules.py:35 ../../liveupdate/reddit_liveupdate/pages.py:258
 msgid "personal information"
 msgstr ""
 
-#: r2/models/rules.py:36 ../../liveupdate/reddit_liveupdate/pages.py:240
+#: r2/models/rules.py:36 ../../liveupdate/reddit_liveupdate/pages.py:259
 msgid "sexualizing minors"
 msgstr ""
 
-#: r2/models/rules.py:37 ../../liveupdate/reddit_liveupdate/pages.py:241
+#: r2/models/rules.py:37 ../../liveupdate/reddit_liveupdate/pages.py:260
 msgid "breaking reddit"
 msgstr ""
 
@@ -5306,90 +5400,90 @@ msgstr ""
 msgid "Threatening, harassing, or inciting violence"
 msgstr ""
 
-#: r2/models/subreddit.py:320
+#: r2/models/subreddit.py:319
 msgid "red"
 msgstr ""
 
-#: r2/models/subreddit.py:321
+#: r2/models/subreddit.py:320
 msgid "orangered"
 msgstr ""
 
-#: r2/models/subreddit.py:322
+#: r2/models/subreddit.py:321
 msgid "orange"
 msgstr "오렌지"
 
-#: r2/models/subreddit.py:323
+#: r2/models/subreddit.py:322
 msgid "mango"
 msgstr "망고"
 
-#: r2/models/subreddit.py:324
+#: r2/models/subreddit.py:323
 msgid "lime"
 msgstr "라임"
 
-#: r2/models/subreddit.py:325
+#: r2/models/subreddit.py:324
 msgid "green"
 msgstr "초록"
 
-#: r2/models/subreddit.py:326
+#: r2/models/subreddit.py:325
 msgid "mint"
 msgstr "민트"
 
-#: r2/models/subreddit.py:327
+#: r2/models/subreddit.py:326
 msgid "teal"
 msgstr ""
 
-#: r2/models/subreddit.py:328
+#: r2/models/subreddit.py:327
 msgid "blue"
 msgstr "파랑"
 
-#: r2/models/subreddit.py:329
+#: r2/models/subreddit.py:328
 msgid "alien blue"
 msgstr "외계 파랑"
 
-#: r2/models/subreddit.py:330
+#: r2/models/subreddit.py:329
 msgid "pink"
 msgstr ""
 
-#: r2/models/subreddit.py:331
+#: r2/models/subreddit.py:330
 msgid "purple"
 msgstr ""
 
-#: r2/models/subreddit.py:333
+#: r2/models/subreddit.py:332
 msgid "brown"
 msgstr ""
 
-#: r2/models/subreddit.py:334
+#: r2/models/subreddit.py:333
 msgid "pale grey"
 msgstr ""
 
-#: r2/models/subreddit.py:335
+#: r2/models/subreddit.py:334
 msgid "grey"
 msgstr ""
 
-#: r2/models/subreddit.py:336
+#: r2/models/subreddit.py:335
 msgid "dark grey"
 msgstr ""
 
-#: r2/models/subreddit.py:337
+#: r2/models/subreddit.py:336
 msgid "semi black"
 msgstr ""
 
-#: r2/models/subreddit.py:1868 r2/models/subreddit.py:1910
+#: r2/models/subreddit.py:1918 r2/models/subreddit.py:1961
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (결과 제한됨)"
 
-#: r2/models/subreddit.py:2121
+#: r2/models/subreddit.py:2174
 #, python-format
 msgid "posts from %s"
 msgstr "%s 로부터의 게시글"
 
-#: r2/models/subreddit.py:2483
+#: r2/models/subreddit.py:2536
 #, python-format
 msgid "%s subreddits curated by /u/%s"
 msgstr ""
 
-#: r2/models/subreddit.py:2809
+#: r2/models/subreddit.py:2862
 #, python-format
 msgid "%(domain)s on %(reddit.com)s"
 msgstr "%(reddit.com)s 의 %(domain)s"
@@ -5706,79 +5800,74 @@ msgstr "오류가 발생했습니다. 나중에 다시 시도해 보시면 어�
 msgid "unsave"
 msgstr "보관목록에서 빼기"
 
-#: r2/public/static/js/link-websockets.js:128
+#: r2/public/static/js/link-websockets.js:131
 msgid "Show 1 new comment"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:130
+#: r2/public/static/js/link-websockets.js:133
 #, python-format
 msgid "Show %(count)s new comments"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:136
+#: r2/public/static/js/link-websockets.js:139
 #, python-format
 msgid "%(count)s comment"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:138
+#: r2/public/static/js/link-websockets.js:141
 #, python-format
 msgid "%(count)s comments"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:140
+#: r2/public/static/js/link-websockets.js:143
 #, python-format
 msgid "all %(count)s comments"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:237
-#, python-format
-msgid "%(num)s %(point)s"
-msgstr ""
-
-#: r2/public/static/js/link-websockets.js:238
+#: r2/public/static/js/link-websockets.js:243
 msgid "points"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:252
+#: r2/public/static/js/link-websockets.js:257
 #: r2/templates/printablebuttons.html:461 r2/templates/printablebuttons.html:564
 msgid "permalink"
 msgstr "댓글 주소로 가기"
 
-#: r2/public/static/js/link-websockets.js:253
+#: r2/public/static/js/link-websockets.js:258
 #: r2/templates/printablebuttons.html:495
 msgid "parent"
 msgstr "윗글 보기"
 
-#: r2/public/static/js/link-websockets.js:256 r2/templates/printablebuttons.html:68
-#: r2/templates/promotelinkbase.html:959 r2/templates/subredditreportform.html:46
+#: r2/public/static/js/link-websockets.js:261 r2/templates/printablebuttons.html:68
+#: r2/templates/promotelinkbase.html:1012 r2/templates/subredditreportform.html:46
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:92
 msgid "report"
 msgstr "신고하기"
 
-#: r2/public/static/js/link-websockets.js:257
+#: r2/public/static/js/link-websockets.js:262
 #: r2/templates/printablebuttons.html:221
 msgid "give gold"
 msgstr "골드 주기"
 
-#: r2/public/static/js/link-websockets.js:258 r2/templates/morechildren.html:38
+#: r2/public/static/js/link-websockets.js:263 r2/templates/morechildren.html:38
 msgid "reply"
 msgid_plural "replies"
 msgstr[0] "개 답글"
 
-#: r2/public/static/js/link-websockets.js:259 r2/public/static/js/ui.js:1070
+#: r2/public/static/js/link-websockets.js:264 r2/public/static/js/ui.js:1075
 #: r2/templates/goldsubscription.html:47 r2/templates/printablebuttons.html:681
 #: r2/templates/printablebuttons.html:703
 msgid "are you sure?"
 msgstr "정말 신고하시겠습니까?"
 
-#: r2/public/static/js/link-websockets.js:260 r2/public/static/js/ui.js:1071
+#: r2/public/static/js/link-websockets.js:265 r2/public/static/js/ui.js:1076
 #: r2/templates/fraudform.html:32 r2/templates/goldsubscription.html:50
 #: r2/templates/optout.html:37 r2/templates/optout.html:53
 #: r2/templates/printablebuttons.html:683 r2/templates/printablebuttons.html:732
 msgid "yes"
 msgstr "예"
 
-#: r2/public/static/js/link-websockets.js:261 r2/public/static/js/ui.js:1072
+#: r2/public/static/js/link-websockets.js:266 r2/public/static/js/ui.js:1077
 #: r2/templates/fraudform.html:37 r2/templates/goldsubscription.html:53
 #: r2/templates/optout.html:40 r2/templates/optout.html:56
 #: r2/templates/printablebuttons.html:177 r2/templates/printablebuttons.html:685
@@ -5818,39 +5907,39 @@ msgstr "해당 작업을 수행하려면 로그인해야 합니다."
 msgid "try using our secure login form."
 msgstr "저희들의 보안 로그인 양식을 사용해보세요"
 
-#: r2/public/static/js/login.js:324
+#: r2/public/static/js/login.js:326
 msgid "Password is strong"
 msgstr "강력한 비밀번호"
 
-#: r2/public/static/js/login.js:326
+#: r2/public/static/js/login.js:328
 msgid "Password is good"
 msgstr "좋은 비밀번호"
 
-#: r2/public/static/js/login.js:328
+#: r2/public/static/js/login.js:330
 msgid "Password is fair"
 msgstr "보통 비밀번호"
 
-#: r2/public/static/js/login.js:330
+#: r2/public/static/js/login.js:332
 msgid "Password is weak"
 msgstr "취약한 비밀번호"
 
-#: r2/public/static/js/multi.js:517
+#: r2/public/static/js/multi.js:519
 msgid "awesomeness goes here"
 msgstr ""
 
-#: r2/public/static/js/multi.js:518
+#: r2/public/static/js/multi.js:520
 msgid "add a subreddit to your multi."
 msgstr "멀티에 서브레딧 추가하기"
 
-#: r2/public/static/js/multi.js:571
+#: r2/public/static/js/multi.js:573
 msgid "categorize"
 msgstr "분류"
 
-#: r2/public/static/js/multi.js:587
+#: r2/public/static/js/multi.js:589
 msgid "open this multi"
 msgstr "이 멀티 열기"
 
-#: r2/public/static/js/multi.js:591
+#: r2/public/static/js/multi.js:593
 msgid "create a new multi"
 msgstr "새 멀티 만들기"
 
@@ -5990,7 +6079,7 @@ msgstr ""
 msgid "please wait a few seconds and try again."
 msgstr "몇초만 기다리시고 다시 시도해보세요"
 
-#: r2/public/static/js/reddit.js:115 r2/public/static/js/ui.js:590
+#: r2/public/static/js/reddit.js:115 r2/public/static/js/ui.js:595
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "오류가 발생했습니다 (상태: %(status)s)"
@@ -6177,23 +6266,23 @@ msgid "view subreddit traffic"
 msgstr "서브레딧 트래픽 보기"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
-#: r2/templates/userlisting.html:167
+#: r2/templates/userlisting.html:170
 msgid "go"
 msgstr "가요"
 
-#: r2/public/static/js/ui.js:152
+#: r2/public/static/js/ui.js:157
 msgid "get reddit mobile"
 msgstr ""
 
-#: r2/public/static/js/ui.js:158
+#: r2/public/static/js/ui.js:163
 msgid "switch to mobile version"
 msgstr "모바일 버전으로 바꾸기"
 
-#: r2/public/static/js/ui.js:871 r2/public/static/js/ui.js:925
+#: r2/public/static/js/ui.js:876 r2/public/static/js/ui.js:930
 msgid "full permissions"
 msgstr "모든 권한"
 
-#: r2/public/static/js/ui.js:974
+#: r2/public/static/js/ui.js:979
 msgid "no permissions"
 msgstr "권한 없음"
 
@@ -6289,10 +6378,10 @@ msgstr ""
 msgid "new password"
 msgstr "새로운 비밀번호"
 
-#: r2/templates/accountrecovery.html:59 r2/templates/login.html:94
-#: r2/templates/login.html:97 r2/templates/login.html:200
-#: r2/templates/prefupdate.html:180 r2/templates/register.html:94
-#: r2/templates/register.html:97 r2/templates/register.html:200
+#: r2/templates/accountrecovery.html:59 r2/templates/login.html:97
+#: r2/templates/login.html:100 r2/templates/login.html:208
+#: r2/templates/prefupdate.html:180 r2/templates/register.html:97
+#: r2/templates/register.html:100 r2/templates/register.html:208
 #: r2/templates/resetpassword.html:46
 msgid "verify password"
 msgstr "비밀번호 확인"
@@ -6412,15 +6501,11 @@ msgstr "상위 광고"
 msgid "ad"
 msgstr "광고"
 
-#: r2/templates/allinfobar.html:37
+#: r2/templates/allinfobar.html:29
 msgid "Exclude your subscribed subreddits"
 msgstr "구독된 서브레딧 제외하기"
 
-#: r2/templates/allinfobar.html:42
-msgid "Exclude custom subreddits"
-msgstr ""
-
-#: r2/templates/allinfobar.html:47
+#: r2/templates/allinfobar.html:35
 msgid "See gilded comments and submissions"
 msgstr ""
 
@@ -6469,7 +6554,7 @@ msgstr ""
 msgid "This account has been %(suspended_link)s"
 msgstr ""
 
-#: r2/templates/base.html:68
+#: r2/templates/base.html:65
 msgid "/* Custom css: use this block to insert special translation-dependent css in the page header */"
 msgstr ".link .entry .comments:after { content: \" 개\" } .link .entry .comments.empty:after { content: \"\" } .linkinfo .details .score:after, .linkinfo .details .upvotes:after, .linkinfo .details .downvotes:after { content: \" 점\";}  .raisedbox .karma:after,  .raisedbox .comment-karma:after {   content: \" 점\";   }  "
 
@@ -6595,41 +6680,41 @@ msgstr "코드 숨기기"
 msgid "clear"
 msgstr "삭제"
 
-#: r2/templates/comment.html:86
+#: r2/templates/comment.html:101
 msgid "deleted comment from"
 msgstr "님께서 보낸 댓글 지우기 ??? word order problem"
 
-#: r2/templates/comment.html:101
+#: r2/templates/comment.html:116
 msgid "scores for stickied comments are visible to mods only"
 msgstr ""
 
-#: r2/templates/comment.html:103
+#: r2/templates/comment.html:118
 msgid "scores are not shown for comments in contest mode"
 msgstr ""
 
-#: r2/templates/comment.html:105
+#: r2/templates/comment.html:120
 #, python-format
 msgid "this subreddit hides comment scores for %d minutes"
 msgstr ""
 
-#: r2/templates/comment.html:110 r2/templates/comment.htmllite:57
+#: r2/templates/comment.html:125 r2/templates/comment.htmllite:57
 msgid "score hidden"
 msgstr "숨겨진 추천수"
 
-#: r2/templates/comment.html:122
+#: r2/templates/comment.html:137
 msgid "selected by this subreddit's moderators"
 msgstr ""
 
-#: r2/templates/comment.html:122
+#: r2/templates/comment.html:137
 msgid "stickied comment"
 msgstr ""
 
-#: r2/templates/comment.html:132 r2/templates/link.html:323
+#: r2/templates/comment.html:147 r2/templates/link.html:313
 #, python-format
 msgid "category: %s"
 msgstr "분류: %s"
 
-#: r2/templates/comment.html:143
+#: r2/templates/comment.html:158
 msgid "show replies"
 msgstr "댓글 보이기"
 
@@ -6641,8 +6726,12 @@ msgstr "전"
 msgid "on"
 msgstr "에"
 
-#: r2/templates/commentspreviewpane.html:26 r2/templates/seocommentspage.html:27
+#: r2/templates/commentspreviewpane.html:48 r2/templates/seocommentspage.html:27
 msgid "More comments"
+msgstr ""
+
+#: r2/templates/commentspreviewpane.html:48
+msgid "Add comment"
 msgstr ""
 
 #: r2/templates/commentvisitsbox.html:31
@@ -6757,7 +6846,7 @@ msgstr ""
 msgid "only reddit gold members can view and submit"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:189 r2/templates/prefoptions.html:327
+#: r2/templates/createsubreddit.html:189 r2/templates/prefoptions.html:339
 msgid "content options"
 msgstr "내용 설정"
 
@@ -6861,145 +6950,162 @@ msgstr "이용자 연령 18세 이상으로 제한"
 msgid "allow this subreddit to be included /r/all as well as the default and trending lists"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:338
+#: r2/templates/createsubreddit.html:337
 msgid "enable marking posts as containing spoilers"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:350
+#: r2/templates/createsubreddit.html:348
 msgid "show thumbnail images of content"
 msgstr "내용에 섬네일 보이기"
 
-#: r2/templates/createsubreddit.html:361
+#: r2/templates/createsubreddit.html:359
 msgid "expand media previews on comments pages"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:372
+#: r2/templates/createsubreddit.html:370
 msgid "allow image uploads and links to image hosting sites"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:384
+#: r2/templates/createsubreddit.html:382
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:392
+#: r2/templates/createsubreddit.html:390
 msgid "make the traffic stats page available to everyone"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:403
+#: r2/templates/createsubreddit.html:401
 msgid "collapse deleted and removed comments"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:415
+#: r2/templates/createsubreddit.html:413
 msgid "hide ads (only available for gold only subreddits)"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:422
+#: r2/templates/createsubreddit.html:420
 msgid "suggested comment sort"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:422
+#: r2/templates/createsubreddit.html:420
 msgid "(all comment threads will use this sorting method by default)"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:424
+#: r2/templates/createsubreddit.html:422
 msgid "none (recommended for most subreddits)"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:433
+#: r2/templates/createsubreddit.html:431
 msgid "Minutes to hide comment scores:"
 msgstr "댓글 점수를 숨기는 시간:"
 
-#: r2/templates/createsubreddit.html:455 r2/templates/usertext.html:155
+#: r2/templates/createsubreddit.html:453 r2/templates/usertext.html:155
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "도움말 숨기기"
 
-#: r2/templates/createsubreddit.html:459
+#: r2/templates/createsubreddit.html:457
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.reddit.com. You will be able to access your reddit through your domain."
 msgstr "혹시 도메인을 가지고 계세요?  여기에 주소를 입력하시고 호스트의 DNS 설정에서 CNAME 기록을 rhs.reddit.com으로 설정해 주세요. 고객님의 도메인에서 바로 레딧을 접속하실 수 있습니다."
 
-#: r2/templates/createsubreddit.html:466
+#: r2/templates/createsubreddit.html:464
 msgid "look and feel"
 msgstr "외형"
 
-#: r2/templates/createsubreddit.html:473
+#: r2/templates/createsubreddit.html:471
 msgid "subreddit name to use as theme"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:481
+#: r2/templates/createsubreddit.html:479
 msgid "There is a newer version of your subreddit theme available. Update to the latest version?"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:486
+#: r2/templates/createsubreddit.html:484
 msgid "update theme"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:496
+#: r2/templates/createsubreddit.html:494
 msgid "edit the stylesheet"
 msgstr "스타일시트 편집"
 
-#: r2/templates/createsubreddit.html:500
+#: r2/templates/createsubreddit.html:498
 msgid "leaves this page"
 msgstr "이 페이지 나가기"
 
-#: r2/templates/createsubreddit.html:520
+#: r2/templates/createsubreddit.html:518
 msgid "restore default header"
 msgstr "기본 헤더 복원"
 
-#: r2/templates/createsubreddit.html:540
+#: r2/templates/createsubreddit.html:538
 msgid "related subreddits"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:542
+#: r2/templates/createsubreddit.html:540
 msgid "similar or related subreddits."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:618
+#: r2/templates/createsubreddit.html:616
+msgid "new modmail enrollment"
+msgstr ""
+
+#: r2/templates/createsubreddit.html:620
+msgid "You have enrolled in the new modmail, if you wish to unenroll please"
+msgstr ""
+
+#: r2/templates/createsubreddit.html:626
+msgid "Once chosen this can not be undone, please make sure your entire team is ready."
+msgstr ""
+
+#: r2/templates/createsubreddit.html:635
+msgid "Enroll"
+msgstr ""
+
+#: r2/templates/createsubreddit.html:645
 msgid "mobile look and feel"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:622
+#: r2/templates/createsubreddit.html:649
 msgid "icon image"
 msgstr "아이콘 이미지"
 
-#: r2/templates/createsubreddit.html:622
+#: r2/templates/createsubreddit.html:649
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:631
+#: r2/templates/createsubreddit.html:658
 msgid "remove custom icon image"
 msgstr "사용자 정의 아이콘 이미지 제거"
 
-#: r2/templates/createsubreddit.html:640
+#: r2/templates/createsubreddit.html:667
 msgid "header image"
 msgstr "헤더 이미지"
 
-#: r2/templates/createsubreddit.html:640
+#: r2/templates/createsubreddit.html:667
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:641
+#: r2/templates/createsubreddit.html:668
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:641
+#: r2/templates/createsubreddit.html:668
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:650
+#: r2/templates/createsubreddit.html:677
 msgid "remove custom header image"
 msgstr "사용자 지정 헤더 이미지 제거"
 
-#: r2/templates/createsubreddit.html:660
+#: r2/templates/createsubreddit.html:687
 msgid "color"
 msgstr "색상"
 
-#: r2/templates/createsubreddit.html:660
+#: r2/templates/createsubreddit.html:687
 msgid "used as a thematic color for your subreddit on mobile"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:691 r2/templates/flairpane.html:88
-#: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:483
+#: r2/templates/createsubreddit.html:718 r2/templates/flairpane.html:88
+#: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:493
+#: r2/templates/usermessagingprefs.html:26
 msgid "save options"
 msgstr "설정 저장하기"
 
@@ -7046,7 +7152,7 @@ msgstr "적용"
 
 #: r2/templates/exploreitemlisting.html:62 r2/templates/listing.html:43
 #: r2/templates/promotedlinktraffic.html:104 r2/templates/searchlisting.html:51
-#: r2/templates/tablelisting.html:49 r2/templates/userlisting.html:136
+#: r2/templates/tablelisting.html:49 r2/templates/userlisting.html:139
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:9
 msgid "view more:"
 msgstr "더 보기"
@@ -7063,22 +7169,17 @@ msgstr "현재 제시할 수 있는 제안이 없습니다."
 msgid "try again"
 msgstr "다시 시도하기"
 
-#: r2/templates/filteredinfobar.html:32
-#, python-format
-msgid "Displaying content from %s, except the following subreddits: "
-msgstr ""
-
-#: r2/templates/filteredinfobar.html:45
+#: r2/templates/filteredinfobar.html:49
 msgid "filter subreddit"
 msgstr ""
 
-#: r2/templates/filteredinfobar.html:45 r2/templates/modlisting.html:55
+#: r2/templates/filteredinfobar.html:49 r2/templates/modlisting.html:55
 #: r2/templates/subredditselector.html:33 r2/templates/userlisting.html:96
 #: r2/templates/wikipagesettings.html:67
 msgid "add"
 msgstr "추가하기"
 
-#: r2/templates/filteredinfobar.html:49
+#: r2/templates/filteredinfobar.html:54
 #, python-format
 msgid "View unfiltered %s"
 msgstr ""
@@ -7105,16 +7206,16 @@ msgstr "CSS 클래스"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:46
 #: r2/templates/promotedlinktraffic.html:106 r2/templates/searchlisting.html:53
-#: r2/templates/spotlightlisting.html:56 r2/templates/tablelisting.html:53
-#: r2/templates/userlisting.html:140
+#: r2/templates/spotlightlisting.html:52 r2/templates/tablelisting.html:53
+#: r2/templates/userlisting.html:143
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:11
 msgid "prev"
 msgstr "전 페이지"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:54
 #: r2/templates/promotedlinktraffic.html:112 r2/templates/promotelinknew.html:57
-#: r2/templates/searchlisting.html:59 r2/templates/spotlightlisting.html:57
-#: r2/templates/tablelisting.html:59 r2/templates/userlisting.html:146
+#: r2/templates/searchlisting.html:59 r2/templates/spotlightlisting.html:53
+#: r2/templates/tablelisting.html:59 r2/templates/userlisting.html:149
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:17
 msgid "next"
 msgstr "다음 페이지"
@@ -7458,7 +7559,7 @@ msgid "state/province"
 msgstr "시/도"
 
 #: r2/templates/goldpayment.html:220 r2/templates/paymentform.html:120
-#: r2/templates/promotelinkbase.html:926
+#: r2/templates/promotelinkbase.html:979
 msgid "country"
 msgstr "국가"
 
@@ -7561,12 +7662,8 @@ msgstr "언어별 트래픽"
 msgid "Sorry, this content is unavailable"
 msgstr ""
 
-#: r2/templates/link.html:90
-msgid "Sponsored: content promoted by our advertisers"
-msgstr ""
-
-#: r2/templates/link.html:91
-msgid "sponsored"
+#: r2/templates/link.html:92
+msgid "Promoted: content promoted by our advertisers"
 msgstr ""
 
 #: r2/templates/linkcommentssettings.html:41
@@ -7757,10 +7854,10 @@ msgid "You need to login to do that."
 msgstr "해당 작업을 수행하려면 로그인해야 합니다."
 
 #: r2/templates/login.html:70 r2/templates/login.html:79
-#: r2/templates/login.html:163 r2/templates/loginformwide.html:38
+#: r2/templates/login.html:169 r2/templates/loginformwide.html:38
 #: r2/templates/password.html:38 r2/templates/prefdeactivate.html:70
 #: r2/templates/register.html:70 r2/templates/register.html:79
-#: r2/templates/register.html:163 r2/templates/userlisting.html:161
+#: r2/templates/register.html:169 r2/templates/userlisting.html:164
 msgid "username"
 msgstr "사용하실 아이디"
 
@@ -7768,76 +7865,71 @@ msgstr "사용하실 아이디"
 msgid "choose a username"
 msgstr "레딧에서 사용할 이름을 정하세요."
 
-#: r2/templates/login.html:101 r2/templates/login.html:178
-#: r2/templates/prefdeactivate.html:62 r2/templates/register.html:101
-#: r2/templates/register.html:178
+#: r2/templates/login.html:104 r2/templates/login.html:184
+#: r2/templates/prefdeactivate.html:62 r2/templates/register.html:104
+#: r2/templates/register.html:184
 msgid "optional"
 msgstr "선택사항"
 
-#: r2/templates/login.html:113 r2/templates/login.html:209
-#: r2/templates/loginformwide.html:47 r2/templates/register.html:113
-#: r2/templates/register.html:209
+#: r2/templates/login.html:116 r2/templates/login.html:217
+#: r2/templates/loginformwide.html:47 r2/templates/register.html:116
+#: r2/templates/register.html:217
 msgid "remember me"
 msgstr "이 컴퓨터에서 나를 기억하기"
 
-#: r2/templates/login.html:127 r2/templates/register.html:127
-msgid "get the best of reddit emailed to you once a week."
-msgstr "매주 레딧 최고의 컨텐츠를 이메일로 받아보기"
+#: r2/templates/login.html:133 r2/templates/register.html:133
+msgid "email me updates"
+msgstr ""
 
-#: r2/templates/login.html:128 r2/templates/register.html:128
-#: r2/templates/welcomebar.html:27
-msgid "learn more"
-msgstr "더 알아보기"
-
-#: r2/templates/login.html:136 r2/templates/login.html:222
-#: r2/templates/register.html:136 r2/templates/register.html:222
+#: r2/templates/login.html:142 r2/templates/login.html:230
+#: r2/templates/register.html:142 r2/templates/register.html:230
 msgid "sign up"
 msgstr "회원 가입"
 
-#: r2/templates/login.html:136 r2/templates/login.html:222
-#: r2/templates/login.html:245 r2/templates/register.html:136
-#: r2/templates/register.html:222 r2/templates/register.html:245
+#: r2/templates/login.html:142 r2/templates/login.html:230
+#: r2/templates/login.html:253 r2/templates/register.html:142
+#: r2/templates/register.html:230 r2/templates/register.html:253
 msgid "log in"
 msgstr "로그인하기"
 
-#: r2/templates/login.html:168 r2/templates/register.html:168
+#: r2/templates/login.html:174 r2/templates/register.html:174
 msgid "try another"
 msgstr "다른 -----something---로 다시 시도해보세요"
 
-#: r2/templates/login.html:169 r2/templates/register.html:169
+#: r2/templates/login.html:175 r2/templates/register.html:175
 msgid "available!"
 msgstr "사용 가능합니다!"
 
-#: r2/templates/login.html:178 r2/templates/register.html:178
+#: r2/templates/login.html:184 r2/templates/register.html:184
 msgid "account recovery email"
 msgstr "비밀번호 분실 시 필요한 메일 계정"
 
-#: r2/templates/login.html:182 r2/templates/register.html:182
+#: r2/templates/login.html:188 r2/templates/register.html:188
 msgid "we only send email at your request"
 msgstr "이메일은 요청하실 경우에만 발송합니다"
 
-#: r2/templates/login.html:215 r2/templates/register.html:215
+#: r2/templates/login.html:223 r2/templates/register.html:223
 msgid "recover password"
 msgstr "비밀번호 되찾기"
 
-#: r2/templates/login.html:241 r2/templates/register.html:241
+#: r2/templates/login.html:249 r2/templates/register.html:249
 msgid "create a new account"
 msgstr "새 계정 만들기"
 
-#: r2/templates/login.html:251 r2/templates/register.html:251
+#: r2/templates/login.html:259 r2/templates/register.html:259
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr ""
 
-#: r2/templates/login.html:252 r2/templates/register.html:252
+#: r2/templates/login.html:260 r2/templates/register.html:260
 msgid "Terms"
 msgstr "이용약관"
 
-#: r2/templates/login.html:253 r2/templates/register.html:253
+#: r2/templates/login.html:261 r2/templates/register.html:261
 msgid "Privacy Policy"
 msgstr "개인 정보 취급 방침"
 
-#: r2/templates/login.html:254 r2/templates/register.html:254
+#: r2/templates/login.html:262 r2/templates/register.html:262
 msgid "Content Policy"
 msgstr "콘텐츠 정책"
 
@@ -7882,7 +7974,8 @@ msgid "subject"
 msgstr "제목"
 
 #: r2/templates/messagenotificationemailsunsubscribe.html:26
-msgid "Thanks! You're unsubscribed from all message notification emails."
+#, python-format
+msgid "Thanks! You're unsubscribed from all %(email_type_name)s notification emails."
 msgstr ""
 
 #: r2/templates/modaction.html:49
@@ -7947,7 +8040,7 @@ msgstr "댓글 더 보기"
 msgid "[+] load the full conversation."
 msgstr "[+] 나머지 대화 보기"
 
-#: r2/templates/morerecursion.html:27
+#: r2/templates/morerecursion.html:40
 msgid "continue this thread"
 msgstr "이 대화 더 보기"
 
@@ -8049,65 +8142,65 @@ msgstr "랜덤 서브레딧 찾아보기"
 msgid "see the suggestions again"
 msgstr "추천 다시 보기"
 
-#: r2/templates/newlink.html:38
+#: r2/templates/newlink.html:39
 msgid "reddit"
 msgstr "레딧"
 
-#: r2/templates/newlink.html:41
+#: r2/templates/newlink.html:42
 #, python-format
 msgid "submit to %(sr)s"
 msgstr "%(sr)s으로 게시물 올리기"
 
-#: r2/templates/newlink.html:83
+#: r2/templates/newlink.html:138
 msgid "Choose File"
 msgstr ""
 
-#: r2/templates/newlink.html:126
+#: r2/templates/newlink.html:181
 msgid "image"
 msgstr ""
 
-#: r2/templates/newlink.html:155
+#: r2/templates/newlink.html:210
 msgid "use suggested title"
 msgstr ""
 
-#: r2/templates/newlink.html:165 r2/templates/newlink.html:207
+#: r2/templates/newlink.html:220 r2/templates/newlink.html:262
 #: r2/templates/promotelinkbase.html:121 r2/templates/promotelinkbase.html:154
 msgid "text"
 msgstr "텍스트"
 
-#: r2/templates/newlink.html:165 r2/templates/newlink.html:207
+#: r2/templates/newlink.html:220 r2/templates/newlink.html:262
 #: r2/templates/paymentform.html:115 r2/templates/paymentform.html:121
 #: r2/templates/paymentform.html:199
 msgid "(optional)"
 msgstr "(선택사항)"
 
-#: r2/templates/newlink.html:192
+#: r2/templates/newlink.html:247
 msgid "suggest title"
 msgstr "제목 제안"
 
-#: r2/templates/newlink.html:219
+#: r2/templates/newlink.html:274
 msgid "choose a subreddit"
 msgstr "서브레딧을 고르세요."
 
-#: r2/templates/newlink.html:226
+#: r2/templates/newlink.html:281
 #, python-format
 msgid "submitting to %(sr)s"
 msgstr ""
 
-#: r2/templates/newlink.html:239
+#: r2/templates/newlink.html:294
 msgid "send replies to my inbox"
 msgstr "받은 메시지함에 답장하기"
 
-#: r2/templates/newlink.html:249
+#: r2/templates/newlink.html:304
 #, python-format
 msgid "please be mindful of reddit's %(content_policy)s and practice %(good_reddiquette)s."
 msgstr ""
 
-#: r2/templates/newlink.html:255
+#: r2/templates/newlink.html:310
 msgid "good reddiquette"
 msgstr "좋은 레디켓"
 
-#: r2/templates/newlink.html:261
+#: r2/templates/newlink.html:316
 msgid "*required"
 msgstr ""
 
@@ -8897,190 +8990,198 @@ msgid "notify me when people say my username"
 msgstr "다른 사람이 내 사용자명을 부를 때 알리기"
 
 #: r2/templates/prefoptions.html:283
-msgid "send messages as emails"
-msgstr ""
-
-#: r2/templates/prefoptions.html:283
-msgid "requires a verified email"
-msgstr "확인된 이메일 주소가 필요합니다"
-
-#: r2/templates/prefoptions.html:286
-msgid "(not available for your account yet! coming soon.)"
-msgstr ""
-
-#: r2/templates/prefoptions.html:290
 msgid "enable threaded modmail display"
 msgstr ""
 
-#: r2/templates/prefoptions.html:294
+#: r2/templates/prefoptions.html:287
 msgid "send message notifications in my browser"
 msgstr ""
 
-#: r2/templates/prefoptions.html:303 r2/templates/widgetdemopanel.html:198
+#: r2/templates/prefoptions.html:297
+msgid "Control who can send me messages"
+msgstr ""
+
+#: r2/templates/prefoptions.html:302
+msgid "email options"
+msgstr ""
+
+#: r2/templates/prefoptions.html:304
+msgid "send messages as emails"
+msgstr ""
+
+#: r2/templates/prefoptions.html:304 r2/templates/prefoptions.html:311
+msgid "requires a verified email"
+msgstr "확인된 이메일 주소가 필요합니다"
+
+#: r2/templates/prefoptions.html:307
+msgid "(not available for your account yet! coming soon.)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:311
+msgid "send email digests"
+msgstr ""
+
+#: r2/templates/prefoptions.html:315 r2/templates/widgetdemopanel.html:198
 msgid "display options"
 msgstr "스타일 설정"
 
-#: r2/templates/prefoptions.html:305
+#: r2/templates/prefoptions.html:317
 msgid "allow subreddits to show me custom themes"
 msgstr "서브레딧 자체 스킨을 보이도록 허용"
 
-#: r2/templates/prefoptions.html:308
+#: r2/templates/prefoptions.html:320
 msgid "(you can also choose which subreddit themes to disable on an individual level)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:312
+#: r2/templates/prefoptions.html:324
 msgid "show user flair"
 msgstr "사용자 플레어 보기"
 
-#: r2/templates/prefoptions.html:314
+#: r2/templates/prefoptions.html:326
 msgid "show link flair"
 msgstr "링크 플레어 보이기"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:329
 msgid "show self-serve advertising tab on front page"
 msgstr ""
 
-#: r2/templates/prefoptions.html:322
+#: r2/templates/prefoptions.html:334
 msgid "show legacy search page"
 msgstr ""
 
-#: r2/templates/prefoptions.html:329
+#: r2/templates/prefoptions.html:341
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "나이가 만18세 이상이며, 성인 콘텐츠를 볼 수 있습니다."
 
-#: r2/templates/prefoptions.html:330
+#: r2/templates/prefoptions.html:342
 msgid "required to view some subreddits"
 msgstr ""
 
-#: r2/templates/prefoptions.html:332
+#: r2/templates/prefoptions.html:344
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "NSFW게시물(안전하지 않은 게시물)을 표시하기"
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:346
 msgid "enable private RSS feeds"
 msgstr "개인적인 RSS를 활성화합니다"
 
-#: r2/templates/prefoptions.html:336
+#: r2/templates/prefoptions.html:348
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(설정에 있는 'RSS피드'에서 가능)"
 
-#: r2/templates/prefoptions.html:338
-msgid "change links into Reddit affiliate links"
-msgstr ""
-
-#: r2/templates/prefoptions.html:341
+#: r2/templates/prefoptions.html:351
 msgid "privacy options"
 msgstr "계정 정보 공개 설정"
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:353
 msgid "make my votes public"
 msgstr "내가 링크에 매긴 점수를 공개하고 싶다 links only or comments as well"
 
-#: r2/templates/prefoptions.html:350
+#: r2/templates/prefoptions.html:360
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "%(link1)s와 %(link2)s를 모두에게 공개"
 
-#: r2/templates/prefoptions.html:353
+#: r2/templates/prefoptions.html:363
 msgid "allow my data to be used for research purposes"
 msgstr "연구 목적으로 내 데이터가 사용되는것을 허락함"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:373
 msgid "don't allow search engines to index my user profile"
 msgstr "검색엔진이 나의 유저 프로필을 검색하는것을 허락하지 않음"
 
-#: r2/templates/prefoptions.html:371
+#: r2/templates/prefoptions.html:381
 msgid "allow reddit to log my outbound clicks for personalization"
 msgstr ""
 
-#: r2/templates/prefoptions.html:376
+#: r2/templates/prefoptions.html:386
 msgid "advertising options"
 msgstr ""
 
-#: r2/templates/prefoptions.html:378
+#: r2/templates/prefoptions.html:388
 msgid "set personalized ads preferences"
 msgstr ""
 
-#: r2/templates/prefoptions.html:383
+#: r2/templates/prefoptions.html:393
 msgid "beta options"
 msgstr ""
 
-#: r2/templates/prefoptions.html:385
+#: r2/templates/prefoptions.html:395
 msgid "I would like to beta test features for reddit"
 msgstr ""
 
-#: r2/templates/prefoptions.html:391
+#: r2/templates/prefoptions.html:401
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_sr_link)s automatically."
 msgstr ""
 
-#: r2/templates/prefoptions.html:393
+#: r2/templates/prefoptions.html:403
 msgid "details on the /r/{beta_sr} wiki"
 msgstr ""
 
-#: r2/templates/prefoptions.html:401 r2/templates/prefoptions.html:424
+#: r2/templates/prefoptions.html:411 r2/templates/prefoptions.html:434
 msgid "gold options"
 msgstr "골드 옵션"
 
-#: r2/templates/prefoptions.html:403
+#: r2/templates/prefoptions.html:413
 msgid "hide ads"
 msgstr "광고 숨기기"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:415
 msgid "remember what links I've visited"
 msgstr "내가 방문했던 링크 기억하기"
 
-#: r2/templates/prefoptions.html:406
+#: r2/templates/prefoptions.html:416
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "당신이 모든 컴퓨터에서 읽은 게시물을 저장합니다."
 
-#: r2/templates/prefoptions.html:408 r2/templates/prefoptions.html:426
+#: r2/templates/prefoptions.html:418 r2/templates/prefoptions.html:436
 msgid "highlight new comments"
 msgstr "새로운 댓글 표시하기"
 
-#: r2/templates/prefoptions.html:410
+#: r2/templates/prefoptions.html:420
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "회원님의 방문을 48시간동안 기억하고 아직 보시지 않은 댓글을 보여드리겠습니다."
 
-#: r2/templates/prefoptions.html:413
+#: r2/templates/prefoptions.html:423
 msgid "show gold expiration"
 msgstr ""
 
-#: r2/templates/prefoptions.html:415
+#: r2/templates/prefoptions.html:425
 msgid "show how much gold you have remaining on your userpage"
-msgstr ""
-
-#: r2/templates/prefoptions.html:419
-#, python-format
-msgid "use a %(creddit_link)s to automatically renew my gold if it expires"
 msgstr ""
 
 #: r2/templates/prefoptions.html:429
 #, python-format
+msgid "use a %(creddit_link)s to automatically renew my gold if it expires"
+msgstr ""
+
+#: r2/templates/prefoptions.html:439
+#, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in subreddits you moderate"
 msgstr ""
 
-#: r2/templates/prefoptions.html:437
+#: r2/templates/prefoptions.html:447
 msgid "reddit themes"
 msgstr "레딧 테마"
 
-#: r2/templates/prefoptions.html:441
+#: r2/templates/prefoptions.html:451
 msgid "reddit themes change the appearance of reddit.  They are used anywhere another custom theme is not present."
 msgstr ""
 
-#: r2/templates/prefoptions.html:445
+#: r2/templates/prefoptions.html:455
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "참고: 보안상의 이유로 이 문서는 테마의 영향을 받지 않습니다"
 
-#: r2/templates/prefoptions.html:449
+#: r2/templates/prefoptions.html:459
 msgid "use reddit theme"
 msgstr "레딧 테마 사용"
 
-#: r2/templates/prefoptions.html:450
+#: r2/templates/prefoptions.html:460
 msgid "hover to preview"
 msgstr ""
 
-#: r2/templates/prefoptions.html:469
+#: r2/templates/prefoptions.html:479
 msgid "warning: use non-featured themes at your own risk"
 msgstr "경고: 비추천 테마의 사용은 자기 자신이 책임져야 합니다"
 
@@ -9383,44 +9484,52 @@ msgstr "+ 친구"
 msgid "- friends"
 msgstr "- 친구"
 
-#: r2/templates/profilebar.html:54 r2/templates/redditheader.html:107
+#: r2/templates/profilebar.html:52
+msgid "+ trust"
+msgstr ""
+
+#: r2/templates/profilebar.html:52
+msgid "- trust"
+msgstr ""
+
+#: r2/templates/profilebar.html:63 r2/templates/redditheader.html:107
 msgid "post karma"
 msgstr ""
 
-#: r2/templates/profilebar.html:59
+#: r2/templates/profilebar.html:68
 msgid "comment karma"
 msgstr "댓글 카르마"
 
-#: r2/templates/profilebar.html:79
+#: r2/templates/profilebar.html:88
 msgid "really obscure karma from before it was cool to track per-subreddit"
 msgstr ""
 
-#: r2/templates/profilebar.html:105
+#: r2/templates/profilebar.html:114
 msgid "View/edit my snoovatar"
 msgstr ""
 
-#: r2/templates/profilebar.html:107
+#: r2/templates/profilebar.html:116
 #, python-format
 msgid "%(username)s's snoovatar"
 msgstr ""
 
-#: r2/templates/profilebar.html:122
+#: r2/templates/profilebar.html:131
 msgid "of reddit gold remaining"
 msgstr " 만큼의 레딧 골드가 남음"
 
-#: r2/templates/profilebar.html:124
+#: r2/templates/profilebar.html:133
 msgid "view gold features/benefits"
 msgstr ""
 
-#: r2/templates/profilebar.html:130
+#: r2/templates/profilebar.html:139
 msgid "Recurring Paypal subscription"
 msgstr "페이팔로 자동이체하기"
 
-#: r2/templates/profilebar.html:140
+#: r2/templates/profilebar.html:149
 msgid "manage recurring subscription"
 msgstr ""
 
-#: r2/templates/profilebar.html:181
+#: r2/templates/profilebar.html:190
 msgid "redditor for"
 msgstr "동안 레디터"
 
@@ -9448,39 +9557,39 @@ msgstr ""
 msgid "%(count)d approved campaign%(plural)s"
 msgstr ""
 
-#: r2/templates/promotedlink.html:127
+#: r2/templates/promotedlink.html:116
 msgid "deleted promoted post"
 msgstr ""
 
-#: r2/templates/promotedlink.html:129
+#: r2/templates/promotedlink.html:118
 msgid "external promoted post"
 msgstr ""
 
-#: r2/templates/promotedlink.html:131
+#: r2/templates/promotedlink.html:120
 msgid "unpaid promoted post"
 msgstr ""
 
-#: r2/templates/promotedlink.html:133
+#: r2/templates/promotedlink.html:122
 msgid "waiting approval"
 msgstr ""
 
-#: r2/templates/promotedlink.html:135
+#: r2/templates/promotedlink.html:124
 msgid "rejected promoted post"
 msgstr ""
 
-#: r2/templates/promotedlink.html:137 r2/templates/promotedlink.html:146
+#: r2/templates/promotedlink.html:126 r2/templates/promotedlink.html:135
 msgid "promoted by"
 msgstr ""
 
-#: r2/templates/promotedlink.html:139 r2/templates/promotedlink.html:149
+#: r2/templates/promotedlink.html:128 r2/templates/promotedlink.html:138
 msgid "promoted post"
 msgstr ""
 
-#: r2/templates/promotedlink.html:141
+#: r2/templates/promotedlink.html:130
 msgid "accepted promoted post"
 msgstr ""
 
-#: r2/templates/promotedlink.html:143
+#: r2/templates/promotedlink.html:132
 msgid "edited live promoted post"
 msgstr ""
 
@@ -9500,12 +9609,12 @@ msgstr ""
 msgid "Campaigns created before September 12, 2012 don't have traffic data"
 msgstr "2012년 9월 12일 이전에 생성된 광고는 트래픽 데이터가 없습니다"
 
-#: r2/templates/promotedlinktraffic.html:132 r2/templates/promotelinkbase.html:357
+#: r2/templates/promotedlinktraffic.html:132 r2/templates/promotelinkbase.html:410
 #: r2/templates/promotelinkedit.html:161
 msgid "start"
 msgstr "시작"
 
-#: r2/templates/promotedlinktraffic.html:133 r2/templates/promotelinkbase.html:370
+#: r2/templates/promotedlinktraffic.html:133 r2/templates/promotelinkbase.html:423
 #: r2/templates/promotelinkedit.html:162
 msgid "end"
 msgstr "끝"
@@ -9514,7 +9623,7 @@ msgstr "끝"
 msgid "location"
 msgstr "위치"
 
-#: r2/templates/promotedlinktraffic.html:136 r2/templates/promotelinkbase.html:758
+#: r2/templates/promotedlinktraffic.html:136 r2/templates/promotelinkbase.html:811
 #: r2/templates/refundpage.html:57
 msgid "budget"
 msgstr "예산"
@@ -9628,291 +9737,291 @@ msgstr ""
 msgid "Comments are a great way to get feedback from customers, and the reddit community is known for being vocal in comment threads."
 msgstr "댓글은 고객의 피드백을 얻기 위한 좋은 방법이며, 레딧은 댓글을 통해 의견을 나누는 수단으로 널리 알려져 있습니다."
 
-#: r2/templates/promotelinkbase.html:305
+#: r2/templates/promotelinkbase.html:358
 msgid "autoplay"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:309
+#: r2/templates/promotelinkbase.html:362
 msgid "media override (adds an onclick to the link to generate a drop-down rather than a link out)"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:317
+#: r2/templates/promotelinkbase.html:370
 msgid "assign to user"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:325
+#: r2/templates/promotelinkbase.html:378
 msgid "User to assign as this promotion's author."
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:334
+#: r2/templates/promotelinkbase.html:387
 msgid "managed promotion"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:337
+#: r2/templates/promotelinkbase.html:390
 msgid "Managed promotions don't appear in the selfserve approval queues."
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:344
+#: r2/templates/promotelinkbase.html:397
 msgid "scheduling"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:380
+#: r2/templates/promotelinkbase.html:433
 msgid "duration"
 msgstr "지속 시간"
 
-#: r2/templates/promotelinkbase.html:390
+#: r2/templates/promotelinkbase.html:443
 #, python-format
 msgid "automatically extend up to %(days)s days if unspent budget remains"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:408
+#: r2/templates/promotelinkbase.html:461
 msgid "Every reddit ad is approved by a person on the reddit ads team. You are creating an ad outside of our business hours. We'll be back to reviewing ads on Monday morning. If your ad has a Monday start date, it will launch at 9am PST / 12pm EST on Monday."
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:425
+#: r2/templates/promotelinkbase.html:478
 msgid "all platforms"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:436
+#: r2/templates/promotelinkbase.html:489
 msgid "desktop only"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:448
+#: r2/templates/promotelinkbase.html:501
 msgid "mobile web only"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:461
+#: r2/templates/promotelinkbase.html:514
 msgid "native mobile only"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:470
+#: r2/templates/promotelinkbase.html:523
 msgid "iOS"
 msgstr "iOS"
 
-#: r2/templates/promotelinkbase.html:474
+#: r2/templates/promotelinkbase.html:527
 msgid "Android"
 msgstr "Android"
 
-#: r2/templates/promotelinkbase.html:478
+#: r2/templates/promotelinkbase.html:531
 msgid "you must select at least one mobile OS"
 msgstr "적어도 하나의 모바일 운영 체제를 선택해야 합니다."
 
-#: r2/templates/promotelinkbase.html:491
+#: r2/templates/promotelinkbase.html:544
 msgid "All"
 msgstr "모두"
 
-#: r2/templates/promotelinkbase.html:499
+#: r2/templates/promotelinkbase.html:552
 msgid "Filter by device and OS"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:508
+#: r2/templates/promotelinkbase.html:561
 msgid "iPhone"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:512
+#: r2/templates/promotelinkbase.html:565
 msgid "iPad"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:516
+#: r2/templates/promotelinkbase.html:569
 msgid "iPod"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:523 r2/templates/promotelinkbase.html:565
+#: r2/templates/promotelinkbase.html:576 r2/templates/promotelinkbase.html:618
 msgid "Min"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:524
+#: r2/templates/promotelinkbase.html:577
 msgid "iOS min"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:535 r2/templates/promotelinkbase.html:577
+#: r2/templates/promotelinkbase.html:588 r2/templates/promotelinkbase.html:630
 msgid "Max"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:536
+#: r2/templates/promotelinkbase.html:589
 msgid "iOS max"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:554
+#: r2/templates/promotelinkbase.html:607
 msgid "Android Phone"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:558
+#: r2/templates/promotelinkbase.html:611
 msgid "Android Tablet"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:566
+#: r2/templates/promotelinkbase.html:619
 msgid "android min"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:578
+#: r2/templates/promotelinkbase.html:631
 msgid "Android max"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:594
+#: r2/templates/promotelinkbase.html:647
 msgid "you must select valid versions to target"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:604 r2/templates/promotelinkedit.html:175
+#: r2/templates/promotelinkbase.html:657 r2/templates/promotelinkedit.html:175
 msgid "platform"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:623
+#: r2/templates/promotelinkbase.html:676
 msgid "no frequency cap"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:635
+#: r2/templates/promotelinkbase.html:688
 msgid "frequency capped"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:646
+#: r2/templates/promotelinkbase.html:699
 msgid "cap per 24 hours"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:658
+#: r2/templates/promotelinkbase.html:711
 #, python-format
 msgid "Example: Display this flight no more than %i times per user per 24 hours."
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:662
+#: r2/templates/promotelinkbase.html:715
 #, python-format
 msgid "frequency must be at least %i per 24 hours"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:669
+#: r2/templates/promotelinkbase.html:722
 msgid "frequency"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:703 r2/templates/promotelinkedit.html:164
+#: r2/templates/promotelinkbase.html:756 r2/templates/promotelinkedit.html:164
 msgid "priority"
 msgstr "우선순위"
 
-#: r2/templates/promotelinkbase.html:710
+#: r2/templates/promotelinkbase.html:763
 msgid "pricing"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:718
+#: r2/templates/promotelinkbase.html:771
 msgid "price basis"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:761 r2/templates/promotelinkedit.html:166
+#: r2/templates/promotelinkbase.html:814 r2/templates/promotelinkedit.html:166
 msgid "total budget"
 msgstr "총 예산"
 
-#: r2/templates/promotelinkbase.html:773
+#: r2/templates/promotelinkbase.html:826
 #, python-format
 msgid "%(minimum)s minimum"
 msgstr "%(minimum)s 최소"
 
-#: r2/templates/promotelinkbase.html:784
+#: r2/templates/promotelinkbase.html:837
 msgid "price"
 msgstr "가격"
 
-#: r2/templates/promotelinkbase.html:791
+#: r2/templates/promotelinkbase.html:844
 msgid "deliver as fast as possible"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:805
+#: r2/templates/promotelinkbase.html:858
 msgid "if you modify the budget of this paid campaign you will need to reauthorize payment by clicking the \"pay\" button"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:808
+#: r2/templates/promotelinkbase.html:861
 msgid "the budget for campaigns cannot be adjusted once the campaign has gone live"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:817 r2/templates/promotelinkedit.html:171
+#: r2/templates/promotelinkbase.html:870 r2/templates/promotelinkedit.html:171
 msgid "targeting"
 msgstr "을 목표로 하는"
 
-#: r2/templates/promotelinkbase.html:831
+#: r2/templates/promotelinkbase.html:884
 msgid "interests"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:832
+#: r2/templates/promotelinkbase.html:885
 msgid "targets users based on their interests"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:846
+#: r2/templates/promotelinkbase.html:899
 msgid "collections"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:847
+#: r2/templates/promotelinkbase.html:900
 msgid "targets a collection of similar subreddits"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:860
+#: r2/templates/promotelinkbase.html:913
 msgid "targets a subreddit and its users"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:871
+#: r2/templates/promotelinkbase.html:924
 msgid "interest topic"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:885
+#: r2/templates/promotelinkbase.html:938
 msgid "subreddit collection"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:894
+#: r2/templates/promotelinkbase.html:947
 msgid "subreddits included on the frontpage are based on users' subscriptions"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:897
+#: r2/templates/promotelinkbase.html:950
 msgid "includes these subreddits"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:898
+#: r2/templates/promotelinkbase.html:951
 msgid "and more!"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:915
+#: r2/templates/promotelinkbase.html:968
 msgid "changing the target for a live campaign requires reapproval."
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:916
+#: r2/templates/promotelinkbase.html:969
 msgid "while your campaign is awaiting reapproval, it will not be displayed."
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:922
+#: r2/templates/promotelinkbase.html:975
 msgid "location targeting is only available when targeting the frontpage"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:935
+#: r2/templates/promotelinkbase.html:988
 msgid "region"
 msgstr "지역"
 
-#: r2/templates/promotelinkbase.html:938
+#: r2/templates/promotelinkbase.html:991
 msgid "metro"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:947
+#: r2/templates/promotelinkbase.html:1000
 msgid "subreddit targeting"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:961
+#: r2/templates/promotelinkbase.html:1014
 msgid "link ids"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:976
+#: r2/templates/promotelinkbase.html:1029
 msgid "spend history"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:1006
+#: r2/templates/promotelinkbase.html:1059
 msgid "promotion history"
 msgstr "프로모션 기록"
 
-#: r2/templates/promotelinkbase.html:1050
+#: r2/templates/promotelinkbase.html:1103
 msgid "fixed CPM"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:1056
+#: r2/templates/promotelinkbase.html:1109
 msgid "campaign type"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:1071
+#: r2/templates/promotelinkbase.html:1124
 msgid "enable moat"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:1074
+#: r2/templates/promotelinkbase.html:1127
 msgid "Enable moat viewablility tracking."
 msgstr ""
 
@@ -10399,69 +10508,16 @@ msgstr "최고의 서브레딧"
 msgid "make report"
 msgstr "신고하기"
 
-#: r2/templates/spotlightlisting.html:67
-#, python-format
-msgid "This promoted post is an advertisement generated with our %(self_serve_advertisement_tool)s."
-msgstr ""
-
-#: r2/templates/spotlightlisting.html:68
-msgid "self-serve advertisement tool"
-msgstr "셀프 광고 도구"
-
-#: r2/templates/spotlightlisting.html:73
-#, python-format
-msgid "Use of this tool is open to all members of reddit.com, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr ""
-
-#: r2/templates/spotlightlisting.html:74
-msgid "Get started"
-msgstr "시작하기"
-
-#: r2/templates/spotlightlisting.html:81
-#, python-format
-msgid "This is a new ad format that we are currently testing. We often try new types of ads in a limited capacity. If you have feedback, please let us know in the %(subreddit)s."
-msgstr ""
-
-#: r2/templates/spotlightlisting.html:88
-msgid "This area shows new and upcoming links. Vote on links here to help them become popular, and click the forwards and backwards buttons to view more. "
-msgstr "이 상자는 사용자 분들이 새로 올린 링크를 보여 주는 곳입니다. 링크 왼쪽에 보이는 위 아래 방향 화살표를 누르시면 링크에 가산점 혹은 감산점이 부여되어 글의 인기도에 영향을 미치게됩니다. 이 상자의 오른쪽 상단에 보이는 < 혹은 > 단추를 누르시면 더 많은 글을 보실 수 있습니다."
-
-#: r2/templates/spotlightlisting.html:93
-msgid "here"
-msgstr "여기"
-
-#: r2/templates/spotlightlisting.html:93
-msgid "This element has been disabled."
-msgstr "이 기능을 끄셨습니다"
-
-#: r2/templates/spotlightlisting.html:95
-#, python-format
-msgid "Click %(here)s to disable this feature."
-msgstr "%(here)s를 누르시면 이 기능을 끄실 수 있습니다"
-
-#: r2/templates/spotlightlisting.html:101
-msgid "Enter a keyword or topic to discover new subreddits around your interests. Be specific!"
-msgstr "관심 분야에 관한 새로운 서브레딧을 발견하시려면 키워드나 주제를 입력하세요. 구체적으로 쓰셔야 합니다."
-
-#: r2/templates/spotlightlisting.html:104
-#, python-format
-msgid "You can access this tool at any time on the %(reddits)s page."
-msgstr "이 도구는 항상 %(reddits)s 페이지에서 이용하실 수 있습니다."
-
 #: r2/templates/subreddit.html:82
 msgid "not approved"
 msgstr "승인되지않은"
 
-#: r2/templates/subreddit.html:95 r2/templates/utils.html:722
+#: r2/templates/subreddit.html:95 r2/templates/utils.html:716
 msgid "NSFW"
 msgstr "NSFW"
 
 #: r2/templates/subreddit.xml:48
 msgid "[link]"
-msgstr ""
-
-#: r2/templates/subredditbar.html:41
-msgid "community"
 msgstr ""
 
 #: r2/templates/subredditfacets.html:29
@@ -10636,7 +10692,7 @@ msgstr "찾을 수 없습니다"
 msgid "unsubscribe"
 msgstr "구독취소"
 
-#: r2/templates/tablelisting.html:51 r2/templates/userlisting.html:138
+#: r2/templates/tablelisting.html:51 r2/templates/userlisting.html:141
 msgid "first"
 msgstr "처음"
 
@@ -10668,7 +10724,7 @@ msgstr "하지만 만약에 당신이 저희에게 돈을 더 내시면, 새로�
 msgid "claim"
 msgstr "요구하기"
 
-#: r2/templates/trendingsubredditsbar.html:27
+#: r2/templates/trendingsubredditsbar.html:31
 msgid "trending subreddits"
 msgstr "최근 뜨는 서브레딧"
 
@@ -10776,17 +10832,38 @@ msgstr ""
 msgid "note to include in ban PM"
 msgstr ""
 
-#: r2/templates/userlisting.html:130
+#: r2/templates/userlisting.html:133
 msgid "No items found"
 msgstr "찾을 수 없습니다"
 
-#: r2/templates/userlisting.html:159
+#: r2/templates/userlisting.html:162
 msgid "jump to"
 msgstr "건너뛰기"
 
-#: r2/templates/userlisting.html:175
+#: r2/templates/userlisting.html:178
 msgid "show all"
 msgstr "모두 보이기"
+
+#: r2/templates/usermessagingprefs.html:9
+msgid "Everyone, except blocked users."
+msgstr ""
+
+#: r2/templates/usermessagingprefs.html:10
+msgid "Only trusted users."
+msgstr ""
+
+#: r2/templates/usermessagingprefs.html:24
+msgid "Admins and moderators of subreddits you have participated in will always be able to message you."
+msgstr ""
+
+#: r2/templates/usermessagingprefs.html:31
+msgid "Messaging preferences"
+msgstr ""
+
+#: r2/templates/usermessagingprefs.html:35
+#, python-format
+msgid "Show private messages from: %(choices)s"
+msgstr ""
 
 #: r2/templates/usertableitem.html:51
 msgid "send message"
@@ -10848,49 +10925,53 @@ msgstr ""
 msgid "formatting help"
 msgstr "서식 도움"
 
-#: r2/templates/utils.html:243 r2/templates/utils.html:360
+#: r2/templates/utils.html:241 r2/templates/utils.html:358
 msgid "upload"
 msgstr "올리기"
 
-#: r2/templates/utils.html:310
+#: r2/templates/utils.html:308
 msgid "click to upload"
 msgstr ""
 
-#: r2/templates/utils.html:315
+#: r2/templates/utils.html:313
 msgid "select"
 msgstr ""
 
-#: r2/templates/utils.html:348
+#: r2/templates/utils.html:346
 msgid "Type: "
 msgstr "입력하세요:"
 
-#: r2/templates/utils.html:358
+#: r2/templates/utils.html:356
 msgid "uploading"
 msgstr "올리고 있는 중"
 
-#: r2/templates/utils.html:702
+#: r2/templates/utils.html:696
 msgid "last edited"
 msgstr "최근에 작성된"
 
-#: r2/templates/utils.html:721
+#: r2/templates/utils.html:715
 msgid "Adult content: Not Safe For Work"
 msgstr "성인 컨텐츠: Not Safe For Work"
 
-#: r2/templates/utils.html:727
+#: r2/templates/utils.html:721
 msgid "Quarantined content: Content may be highly offensive"
 msgstr ""
 
-#: r2/templates/utils.html:728
+#: r2/templates/utils.html:722
 msgid "Quarantined"
 msgstr ""
 
-#: r2/templates/utils.html:733
+#: r2/templates/utils.html:727
 msgid "Spoiler content"
 msgstr ""
 
-#: r2/templates/utils.html:734
+#: r2/templates/utils.html:728
 msgid "SPOILER"
 msgstr ""
+
+#: r2/templates/welcomebar.html:27
+msgid "learn more"
+msgstr "더 알아보기"
 
 #: r2/templates/widgetdemopanel.html:116
 #, python-format
@@ -11128,79 +11209,79 @@ msgstr ""
 msgid "that user is already a contributor"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/__init__.py:192
+#: ../../liveupdate/reddit_liveupdate/__init__.py:198
 msgid "Manage live threads"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/__init__.py:194
+#: ../../liveupdate/reddit_liveupdate/__init__.py:200
 msgid "Manage settings and contributors of live threads I contribute to."
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:259
+#: ../../liveupdate/reddit_liveupdate/controllers.py:263
 msgid "this thread has been banned"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:972
-#: ../../liveupdate/reddit_liveupdate/pages.py:59
+#: ../../liveupdate/reddit_liveupdate/controllers.py:988
+#: ../../liveupdate/reddit_liveupdate/pages.py:60
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatehome.html:3
 msgid "reddit live"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:995
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1038
 msgid "live threads"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:998
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1041
 msgid "closed threads"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1001
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1044
 msgid "most active threads"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1007
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1050
 msgid "reported threads"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/controllers.py:1037
+#: ../../liveupdate/reddit_liveupdate/controllers.py:1080
 msgid "create live thread"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:63
+#: ../../liveupdate/reddit_liveupdate/pages.py:64
 msgid "active"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:71
+#: ../../liveupdate/reddit_liveupdate/pages.py:72
 msgid "closed"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:106
+#: ../../liveupdate/reddit_liveupdate/pages.py:107
 msgid "[live]"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:121
+#: ../../liveupdate/reddit_liveupdate/pages.py:122
 msgid "updates"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:134
+#: ../../liveupdate/reddit_liveupdate/pages.py:135
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatereportedeventrow.html:5
 msgid "contributors"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:150
+#: ../../liveupdate/reddit_liveupdate/pages.py:151
 #, python-format
 msgid "real-time updates on %(short_description)s"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:365
+#: ../../liveupdate/reddit_liveupdate/pages.py:384
 msgid "invite contributor"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:369
+#: ../../liveupdate/reddit_liveupdate/pages.py:388
 msgid "invited contributors"
 msgstr ""
 
-#: ../../liveupdate/reddit_liveupdate/pages.py:383
+#: ../../liveupdate/reddit_liveupdate/pages.py:402
 msgid "current contributors"
 msgstr ""
 
