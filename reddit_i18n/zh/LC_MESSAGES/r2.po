@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reddit\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-01-23 19:24+0000\n"
-"PO-Revision-Date: 2017-01-23 14:31-0500\n"
+"POT-Creation-Date: 2017-04-24 20:54+0000\n"
+"PO-Revision-Date: 2017-04-24 18:49-0400\n"
 "Last-Translator: reddit <ricky@reddit.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "無效的顏色"
 msgid "unknown or missing dressings"
 msgstr ""
 
-#: ../../gold/reddit_gold/controllers.py:40 r2/models/subreddit.py:331
+#: ../../gold/reddit_gold/controllers.py:40 r2/models/subreddit.py:386
 msgid "gold"
 msgstr "金幣"
 
@@ -54,8 +54,7 @@ msgstr "購買 reddit 金幣"
 
 #: ../../gold/reddit_gold/templates/goldinfopage.html:51
 #: ../../gold/reddit_gold/templates/goldinfopage.html:118
-#: r2/templates/gold.html:211 r2/templates/listingsuggestions.html:29
-#: r2/templates/unreadmessagessuggestions.html:24
+#: r2/templates/gold.html:211 r2/templates/unreadmessagessuggestions.html:24
 msgid "or"
 msgstr "或"
 
@@ -237,7 +236,7 @@ msgid "these are our core values"
 msgstr "這些都是我們的核心價值觀"
 
 #: ../../about/reddit_about/about.py:125 ../../about/reddit_about/pages.py:27
-#: r2/lib/menus.py:99
+#: r2/lib/menus.py:97
 msgid "values"
 msgstr "價值觀"
 
@@ -249,11 +248,11 @@ msgstr "團隊"
 msgid "alien"
 msgstr "外星人"
 
-#: ../../about/reddit_about/pages.py:64 r2/lib/menus.py:540
+#: ../../about/reddit_about/pages.py:64 r2/lib/menus.py:547
 msgid "sorted by"
 msgstr "排序依據"
 
-#: ../../about/reddit_about/pages.py:86 r2/lib/menus.py:174
+#: ../../about/reddit_about/pages.py:86 r2/lib/menus.py:173
 msgid "overview"
 msgstr "總覽"
 
@@ -271,7 +270,7 @@ msgstr "最好的做法"
 
 #: ../../about/reddit_about/pages.py:90
 msgid "help center"
-msgstr "支援中心"
+msgstr "幫助中心"
 
 #: ../../about/reddit_about/pages.py:91
 msgid "manage ads"
@@ -288,7 +287,7 @@ msgstr "電子郵件"
 
 #: ../../about/reddit_about/templates/about.html:43
 #: ../../about/reddit_about/templates/about.html:69
-#: r2/controllers/listingcontroller.py:923
+#: r2/controllers/listingcontroller.py:889
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "由 %(user)s 發表"
@@ -299,7 +298,7 @@ msgstr "reddit 如何運作"
 
 #: ../../about/reddit_about/templates/about.html:82
 msgid "**redditors vote** on which stories and discussions are important. the hottest stories rise to the top, while cooler stories sink."
-msgstr "**使用者投票** 給他們認為重要的文章與討論串。熱門的文章會往上升，而冷門的文章會往下沈。"
+msgstr "**redditors 投票** 給他們認為重要的文章與討論串。熱門的文章會往上升, 而冷門的文章會往下沈。"
 
 #: ../../about/reddit_about/templates/about.html:83
 msgid "**comments can be posted on every story** on reddit. comments add information, context, and humor."
@@ -367,7 +366,7 @@ msgstr "歷程"
 #: ../../about/reddit_about/templates/advertising.html:59
 #: ../../about/reddit_about/templates/advertising.html:138
 msgid "create an ad"
-msgstr "創造一則廣告"
+msgstr "建立一則廣告"
 
 #: ../../about/reddit_about/templates/advertising.html:61
 msgid "budget larger than $30k?"
@@ -397,78 +396,82 @@ msgstr "顏色指南"
 msgid "invalid site path/name"
 msgstr ""
 
-#: r2/controllers/api.py:214 r2/controllers/api.py:240 r2/controllers/api.py:4863
-#: r2/controllers/api.py:4933 r2/controllers/listingcontroller.py:839
+#: r2/controllers/api.py:261 r2/controllers/api.py:287 r2/controllers/api.py:5058
+#: r2/controllers/api.py:5128 r2/controllers/listingcontroller.py:801
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:437
+#: r2/controllers/api.py:484
 msgid "your message has been delivered"
 msgstr "您的訊息已經送出"
 
-#: r2/controllers/api.py:712
+#: r2/controllers/api.py:847
 msgid "no title found"
 msgstr "找不到標題"
 
-#: r2/controllers/api.py:1353 r2/controllers/api.py:2838 r2/controllers/api.py:3180
-#: r2/controllers/api.py:3544 r2/controllers/api.py:4655 r2/controllers/api.py:4711
-#: r2/controllers/api.py:4765 r2/controllers/api.py:4998 r2/controllers/api.py:5003
-#: r2/controllers/api.py:5247 r2/controllers/api.py:5285 r2/controllers/api.py:5303
-#: r2/lib/pages/pages.py:6296 ../../liveupdate/reddit_liveupdate/controllers.py:497
+#: r2/controllers/api.py:1496 r2/controllers/api.py:3011 r2/controllers/api.py:3353
+#: r2/controllers/api.py:3735 r2/controllers/api.py:4850 r2/controllers/api.py:4906
+#: r2/controllers/api.py:4960 r2/controllers/api.py:5193 r2/controllers/api.py:5198
+#: r2/controllers/api.py:5478 r2/controllers/api.py:5516 r2/controllers/api.py:5534
+#: r2/lib/pages/pages.py:6543 ../../liveupdate/reddit_liveupdate/controllers.py:497
 msgid "saved"
 msgstr "已儲存"
 
-#: r2/controllers/api.py:1423
+#: r2/controllers/api.py:1567
 msgid "all other sessions have been logged out"
 msgstr "所有其他的工作階段都已經登出"
 
-#: r2/controllers/api.py:1531
+#: r2/controllers/api.py:1676
 msgid "an email will be sent to the email address shortly"
 msgstr ""
 
-#: r2/controllers/api.py:1535
+#: r2/controllers/api.py:1680
 msgid "email address added, try again tomorrow to reset your password"
 msgstr ""
 
-#: r2/controllers/api.py:1555
+#: r2/controllers/api.py:1700
 msgid "you should be getting a verification email shortly."
 msgstr "您不久後應該會收到一封認證信。"
 
-#: r2/controllers/api.py:1558 r2/controllers/api.py:1572
+#: r2/controllers/api.py:1703 r2/controllers/api.py:1717
 msgid "your email has been updated"
 msgstr "已更新您的電子郵件地址"
 
-#: r2/controllers/api.py:1612
+#: r2/controllers/api.py:1757
 msgid "your password has been updated"
 msgstr "已更新您的密碼"
 
-#: r2/controllers/api.py:1719
+#: r2/controllers/api.py:1875
 msgid "Error: unknown email_type was supplied"
 msgstr ""
 
-#: r2/controllers/api.py:1728
+#: r2/controllers/api.py:1884
 msgid "Success! Your preferences have been updated"
 msgstr ""
 
-#: r2/controllers/api.py:2077 r2/lib/menus.py:180
+#: r2/controllers/api.py:2216
+msgid "you are reporting too much, try again later"
+msgstr ""
+
+#: r2/controllers/api.py:2261 r2/lib/menus.py:179
 #: ../../liveupdate/reddit_liveupdate/pages.py:80
 msgid "reported"
 msgstr "檢舉過的"
 
-#: r2/controllers/api.py:2127 r2/lib/pages/pages.py:4486 r2/lib/pages/pages.py:4606
+#: r2/controllers/api.py:2311 r2/lib/pages/pages.py:4705 r2/lib/pages/pages.py:4829
 msgid "added"
 msgstr "加入時間"
 
-#: r2/controllers/api.py:2616
+#: r2/controllers/api.py:2788
 msgid "replied"
 msgstr "已回應"
 
-#: r2/controllers/api.py:2821
+#: r2/controllers/api.py:2994
 msgid "validation errors"
 msgstr "驗證錯誤"
 
-#: r2/controllers/api.py:2955 r2/controllers/api.py:2988 r2/controllers/api.py:3021
-#: r2/controllers/listingcontroller.py:1077 r2/lib/menus.py:179
+#: r2/controllers/api.py:3128 r2/controllers/api.py:3161 r2/controllers/api.py:3194
+#: r2/controllers/listingcontroller.py:1096 r2/lib/menus.py:178
 #: r2/public/static/js/reddit.js:272 r2/templates/deleteduserinterstitial.html:31
 #: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:572
 #: r2/templates/subredditstylesheetbase.html:45
@@ -477,103 +480,103 @@ msgstr "驗證錯誤"
 msgid "deleted"
 msgstr "已刪除"
 
-#: r2/controllers/api.py:3098
+#: r2/controllers/api.py:3271
 msgid "bad image name"
 msgstr "無效的圖片名稱"
 
-#: r2/controllers/api.py:3104
+#: r2/controllers/api.py:3277
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "圖片太多（最多 %d 張）"
 
-#: r2/controllers/api.py:3109 r2/controllers/api.py:5771
+#: r2/controllers/api.py:3282 r2/controllers/api.py:6095
 msgid "Dimensions are too large"
 msgstr ""
 
-#: r2/controllers/api.py:3111 r2/controllers/api.py:3135
+#: r2/controllers/api.py:3284 r2/controllers/api.py:3308
 msgid "Invalid image or general image error"
 msgstr "圖片無效或無法處理"
 
-#: r2/controllers/api.py:3116
+#: r2/controllers/api.py:3289
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "像素必須是 %d x %d"
 
-#: r2/controllers/api.py:3120
+#: r2/controllers/api.py:3293
 msgid "10:3 aspect ratio required"
 msgstr ""
 
-#: r2/controllers/api.py:3123
+#: r2/controllers/api.py:3296
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "最大 %d x %d 畫素"
 
-#: r2/controllers/api.py:3126
+#: r2/controllers/api.py:3299
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "最小 %d x %d 畫素"
 
-#: r2/controllers/api.py:4259
+#: r2/controllers/api.py:4441
 msgid "an email will be sent to that account's address shortly"
 msgstr "一封電子郵件將會被送到該帳號所登記的電子郵件信箱"
 
-#: r2/controllers/api.py:4262
+#: r2/controllers/api.py:4444
 msgid "try again tomorrow"
 msgstr "請明天再試"
 
-#: r2/controllers/api.py:4355
+#: r2/controllers/api.py:4537
 msgid "your account has been recovered"
 msgstr ""
 
-#: r2/controllers/api.py:4435
+#: r2/controllers/api.py:4617
 msgid "password updated"
 msgstr "密碼已更新"
 
-#: r2/controllers/api.py:4723 r2/controllers/api.py:4954
+#: r2/controllers/api.py:4918 r2/controllers/api.py:5149
 msgid "invalid css class"
 msgstr "無效的CSS class"
 
-#: r2/controllers/api.py:4726 r2/controllers/api.py:4957
+#: r2/controllers/api.py:4921 r2/controllers/api.py:5152
 msgid "too many css classes"
 msgstr "太多CSS class"
 
-#: r2/controllers/api.py:4978
+#: r2/controllers/api.py:5173
 msgid "max flair templates reached"
 msgstr "已達到標籤範本數量上限"
 
-#: r2/controllers/api.py:5299
+#: r2/controllers/api.py:5530
 msgid "no gold to take"
 msgstr "不會得到金幣"
 
-#: r2/controllers/api.py:5650 r2/lib/errors.py:154
+#: r2/controllers/api.py:5974 r2/lib/errors.py:155
 msgid "this app can not be modified from this interface"
 msgstr ""
 
-#: r2/controllers/api.py:5657 r2/lib/errors.py:136
+#: r2/controllers/api.py:5981 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "不適用的客戶端id"
 
-#: r2/controllers/api.py:5660
+#: r2/controllers/api.py:5984
 msgid "cannot update deleted app"
 msgstr "無法更新刪除的應用程式"
 
-#: r2/controllers/api.py:5663
+#: r2/controllers/api.py:5987
 msgid "app does not belong to you"
 msgstr "這應用程式不屬於你的"
 
-#: r2/controllers/api.py:5671
+#: r2/controllers/api.py:5995
 msgid "application updated"
 msgstr "應用程式已更新"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:6008
 msgid "application created"
 msgstr "應用程式已經建立"
 
-#: r2/controllers/api.py:5719
+#: r2/controllers/api.py:6043
 msgid "developer added"
 msgstr "由開發者新增"
 
-#: r2/controllers/api_docs.py:255
+#: r2/controllers/api_docs.py:251
 msgid "api documentation"
 msgstr "API 文件"
 
@@ -585,10 +588,10 @@ msgstr "reddit 按鈕"
 msgid "reddit widget"
 msgstr "reddit 小工具"
 
-#: r2/controllers/embed.py:71 r2/lib/pages/pages.py:1288
+#: r2/controllers/embed.py:71 r2/lib/pages/pages.py:1361
 #: r2/templates/printablebuttons.html:128
 msgid "help"
-msgstr "說明"
+msgstr "幫助"
 
 #: r2/controllers/error.py:147
 #, python-format
@@ -620,191 +623,191 @@ msgstr "您要求的網頁不存在"
 msgid "unavailable"
 msgstr "無法使用"
 
-#: r2/controllers/error.py:227 r2/controllers/front.py:1764
+#: r2/controllers/error.py:227 r2/controllers/front.py:1818
 #: r2/templates/login.html:119 r2/templates/loginformwide.html:48
 #: r2/templates/register.html:119
 msgid "reset password"
 msgstr "重設密碼"
 
-#: r2/controllers/error.py:237 r2/controllers/listingcontroller.py:1040
+#: r2/controllers/error.py:237 r2/controllers/listingcontroller.py:1052
 #: r2/templates/banneduserinterstitial.html:32
 #: r2/templates/intimeoutinterstitial.html:31
 #: r2/templates/intimeoutinterstitial.html:37
 msgid "suspended"
 msgstr ""
 
-#: r2/controllers/front.py:211 r2/lib/pages/pages.py:6283
+#: r2/controllers/front.py:212 r2/lib/pages/pages.py:6530
 msgid "explore"
 msgstr "探索"
 
-#: r2/controllers/front.py:475
+#: r2/controllers/front.py:504
 msgid "no comments (yet)"
 msgstr "(目前) 沒有留言"
 
-#: r2/controllers/front.py:477
+#: r2/controllers/front.py:506
 #, python-format
 msgid "all %d comments"
 msgstr "所有 %d 則留言"
 
-#: r2/controllers/front.py:479
+#: r2/controllers/front.py:508
 #, python-format
 msgid "top %d comments"
 msgstr "頭 %d 則留言"
 
-#: r2/controllers/front.py:624
+#: r2/controllers/front.py:633
 #, python-format
 msgid "show all %d"
 msgstr "顯示所有%d"
 
-#: r2/controllers/front.py:626
+#: r2/controllers/front.py:635
 #, python-format
 msgid "show %d"
 msgstr "顯示%d"
 
-#: r2/controllers/front.py:643 r2/controllers/front.py:645
+#: r2/controllers/front.py:652 r2/controllers/front.py:654
 msgid "create a subreddit"
 msgstr "建立看板"
 
-#: r2/controllers/front.py:751 r2/controllers/front.py:757
-#: r2/controllers/listingcontroller.py:886 r2/controllers/listingcontroller.py:901
-#: r2/controllers/listingcontroller.py:1215
-#: r2/controllers/listingcontroller.py:1226 r2/lib/menus.py:187 r2/lib/menus.py:441
-#: r2/lib/menus.py:696 r2/lib/pages/pages.py:5034 r2/lib/pages/pages.py:5043
-#: r2/templates/createsubreddit.html:273 r2/templates/createsubreddit.html:284
-#: r2/templates/createsubreddit.html:295
+#: r2/controllers/front.py:763 r2/controllers/front.py:769
+#: r2/controllers/listingcontroller.py:847 r2/controllers/listingcontroller.py:867
+#: r2/controllers/listingcontroller.py:1260
+#: r2/controllers/listingcontroller.py:1271 r2/lib/menus.py:186 r2/lib/menus.py:440
+#: r2/lib/menus.py:703 r2/lib/pages/pages.py:5267 r2/lib/pages/pages.py:5276
+#: r2/templates/createsubreddit.html:295 r2/templates/createsubreddit.html:306
+#: r2/templates/createsubreddit.html:317
 msgid "all"
 msgstr "所有"
 
-#: r2/controllers/front.py:773
+#: r2/controllers/front.py:785
 msgid "admins*"
 msgstr "管理員*"
 
-#: r2/controllers/front.py:776
+#: r2/controllers/front.py:788
 msgid "filter by action"
 msgstr "依行動篩選"
 
-#: r2/controllers/front.py:778
+#: r2/controllers/front.py:790
 msgid "filter by moderator"
-msgstr "依版主篩選"
+msgstr "依板主篩選"
 
-#: r2/controllers/front.py:960
+#: r2/controllers/front.py:972
 msgid "posts and comments"
 msgstr ""
 
-#: r2/controllers/front.py:961 r2/controllers/front.py:1277
-#: r2/controllers/front.py:1296 r2/lib/permissions.py:92
+#: r2/controllers/front.py:973 r2/controllers/front.py:1307
+#: r2/controllers/front.py:1326 r2/lib/permissions.py:92
 msgid "posts"
 msgstr "貼文"
 
-#: r2/controllers/front.py:962 r2/controllers/listingcontroller.py:1803
-#: r2/lib/pages/pages.py:5916 r2/templates/createsubreddit.html:289
+#: r2/controllers/front.py:974 r2/controllers/listingcontroller.py:1869
+#: r2/lib/pages/pages.py:6154 r2/templates/createsubreddit.html:311
 #: r2/templates/link.xml:93
 msgid "comments"
 msgstr "留言"
 
-#: r2/controllers/front.py:964
+#: r2/controllers/front.py:976
 msgid "show"
 msgstr "顯示"
 
-#: r2/controllers/front.py:1052
+#: r2/controllers/front.py:1069
 msgid "Posts & Comments"
 msgstr ""
 
-#: r2/controllers/front.py:1053
+#: r2/controllers/front.py:1070
 msgid "Posts only"
 msgstr ""
 
-#: r2/controllers/front.py:1054
+#: r2/controllers/front.py:1071
 msgid "Comments only"
 msgstr ""
 
-#: r2/controllers/front.py:1056
+#: r2/controllers/front.py:1073
 #, python-format
-msgid "Rules for r/%(subreddit)s"
+msgid "Rules for %(subreddit)s"
 msgstr ""
 
-#: r2/controllers/front.py:1094 r2/lib/menus.py:164
+#: r2/controllers/front.py:1113 r2/lib/menus.py:163
 msgid "awards"
 msgstr "獎牌"
 
-#: r2/controllers/front.py:1133
+#: r2/controllers/front.py:1152
 msgid "other discussions"
 msgstr "其他討論"
 
-#: r2/controllers/front.py:1182
+#: r2/controllers/front.py:1204
 msgid "search results"
 msgstr "搜尋結果"
 
-#: r2/controllers/front.py:1319 r2/controllers/front.py:1328
-#: r2/controllers/listingcontroller.py:1564 r2/lib/menus.py:94
+#: r2/controllers/front.py:1349 r2/controllers/front.py:1361
+#: r2/controllers/listingcontroller.py:1609 r2/lib/menus.py:94
 #: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:912
 msgid "subreddits"
 msgstr "看板"
 
-#: r2/controllers/front.py:1350
+#: r2/controllers/front.py:1383
 #, python-format
 msgid "search results - %(query)s"
 msgstr ""
 
-#: r2/controllers/front.py:1470
+#: r2/controllers/front.py:1517
 msgid "seen it"
 msgstr "看過"
 
-#: r2/controllers/front.py:1486 r2/models/subreddit.py:2537
+#: r2/controllers/front.py:1533 r2/models/subreddit.py:3011
 #: r2/templates/multiinfobar.html:34
 #, python-format
 msgid "%s subreddits"
 msgstr "%s 看板"
 
-#: r2/controllers/front.py:1509 r2/lib/menus.py:81
+#: r2/controllers/front.py:1563 r2/lib/menus.py:81
 #: r2/templates/accountrecovery.html:65 r2/templates/fraudform.html:42
-#: r2/templates/newlink.html:319 r2/templates/reportform.html:65
+#: r2/templates/newlink.html:332 r2/templates/reportform.html:65
 #: r2/templates/usertableitem.html:79
 msgid "submit"
 msgstr "送出"
 
-#: r2/controllers/front.py:1565 r2/lib/menus.py:88
+#: r2/controllers/front.py:1619 r2/lib/menus.py:88
 msgid "contact us"
 msgstr "聯絡我們"
 
-#: r2/controllers/front.py:1578
+#: r2/controllers/front.py:1632
 msgid "Claimed! Enjoy your reddit gold membership."
 msgstr "已成功成為 reddit 黃金會員！享受吧。"
 
-#: r2/controllers/front.py:1582
+#: r2/controllers/front.py:1636
 msgid "Your gold creddits have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "已成功領取 creddit 代幣！現在就造訪某人的個人頁面，送給他們一份大禮吧！"
 
-#: r2/controllers/front.py:1585
+#: r2/controllers/front.py:1639
 msgid "Thanks for buying reddit gold! Your transaction has been completed."
 msgstr "感謝購買 reddit 金幣！您的交易已經完成。"
 
-#: r2/controllers/front.py:1588
+#: r2/controllers/front.py:1642
 msgid "Thanks for buying reddit gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "感謝您購買 reddit 金幣！您的交易已經完成，並以電子郵件寄送給您。您可以登入您的帳號，查看詳細資訊："
 
-#: r2/controllers/front.py:1594
+#: r2/controllers/front.py:1648
 #, python-format
 msgid "Thanks for buying reddit gold! Your transaction is being processed. If you have any questions please email us at %(gold_email)s"
 msgstr "感謝您購買 reddit 金幣！您的交易正在處理中。如果您有任何疑問，請寄送電子郵件至 %(gold_email)s"
 
-#: r2/controllers/front.py:1601 r2/controllers/front.py:1988
+#: r2/controllers/front.py:1655 r2/controllers/front.py:2042
 msgid "thanks"
 msgstr "謝謝"
 
-#: r2/controllers/front.py:1618
+#: r2/controllers/front.py:1672
 msgid "claim this award?"
 msgstr "您要領取這面獎牌嗎？"
 
-#: r2/controllers/front.py:1641
+#: r2/controllers/front.py:1695
 msgid "award claim"
 msgstr "領取獎牌"
 
-#: r2/controllers/front.py:1645 r2/templates/gilding.html:26
+#: r2/controllers/front.py:1699 r2/templates/gilding.html:26
 msgid "gilding"
 msgstr "贈送金幣"
 
-#: r2/controllers/front.py:1678 r2/templates/admininterstitial.html:48
+#: r2/controllers/front.py:1732 r2/templates/admininterstitial.html:48
 #: r2/templates/login.html:90 r2/templates/login.html:92
 #: r2/templates/login.html:195 r2/templates/loginformwide.html:39
 #: r2/templates/prefdeactivate.html:73 r2/templates/prefsecurity.html:40
@@ -813,85 +816,85 @@ msgstr "贈送金幣"
 msgid "password"
 msgstr "密碼"
 
-#: r2/controllers/front.py:1698 r2/controllers/front.py:1745
+#: r2/controllers/front.py:1752 r2/controllers/front.py:1799
 msgid "verify email"
 msgstr "驗證電子信箱"
 
-#: r2/controllers/front.py:1781
+#: r2/controllers/front.py:1835
 msgid "account recovery token expired"
 msgstr ""
 
-#: r2/controllers/front.py:1786
+#: r2/controllers/front.py:1840
 msgid "recover account"
 msgstr ""
 
-#: r2/controllers/front.py:1798
+#: r2/controllers/front.py:1852
 msgid "incorrect message token"
 msgstr "不正確的訊息憑證"
 
-#: r2/controllers/front.py:1811
+#: r2/controllers/front.py:1865
 msgid "invalid email_type provided"
 msgstr ""
 
-#: r2/controllers/front.py:1824
+#: r2/controllers/front.py:1878
 msgid "emails unsubscribed"
 msgstr "已取消訂閱郵件"
 
-#: r2/controllers/front.py:1893
+#: r2/controllers/front.py:1947
 msgid "advertising preferences (reddit.com)"
-msgstr ""
+msgstr "廣告選項 (reddit.com)"
 
-#: r2/controllers/front.py:1940 r2/lib/pages/pages.py:1045
+#: r2/controllers/front.py:1994 r2/lib/pages/pages.py:1118
 #: r2/templates/admininterstitial.html:79
 msgid "turn admin on"
 msgstr "打開管理權限"
 
-#: r2/controllers/front.py:1958 r2/controllers/post.py:153
+#: r2/controllers/front.py:2012 r2/controllers/post.py:153
 msgid "opt out"
 msgstr "退出"
 
-#: r2/controllers/front.py:1958 r2/controllers/post.py:164
+#: r2/controllers/front.py:2012 r2/controllers/post.py:164
 msgid "welcome back"
 msgstr "歡迎回來"
 
-#: r2/controllers/front.py:2037 r2/controllers/front.py:2125
-#: r2/controllers/front.py:2164 r2/lib/menus.py:93 r2/templates/creditgild.html:31
+#: r2/controllers/front.py:2091 r2/controllers/front.py:2179
+#: r2/controllers/front.py:2218 r2/lib/menus.py:93 r2/templates/creditgild.html:31
 #: r2/templates/gold.html:27 r2/templates/goldpayment.html:37
-#: r2/templates/goldthanks.html:26 r2/templates/prefoptions.html:437
+#: r2/templates/goldthanks.html:26 r2/templates/prefoptions.html:441
 msgid "reddit gold"
 msgstr "reddit 金幣"
 
-#: r2/controllers/front.py:2174 r2/templates/gilding.html:76
+#: r2/controllers/front.py:2228 r2/templates/gilding.html:76
 msgid "purchase creddits"
 msgstr "購買 creddit 額度"
 
-#: r2/controllers/front.py:2184 r2/controllers/ipn.py:1147
+#: r2/controllers/front.py:2238 r2/controllers/ipn.py:1148
 msgid "reddit gold subscription"
 msgstr "購買reddit 黃金"
 
-#: r2/controllers/front.py:2198
+#: r2/controllers/front.py:2252
 msgid "You don't have an email address associated \n"
 "                        with your account!"
 msgstr ""
 
-#: r2/controllers/front.py:2200
+#: r2/controllers/front.py:2254
 msgid "Error"
 msgstr ""
 
-#: r2/controllers/front.py:2212 r2/controllers/front.py:2222
+#: r2/controllers/front.py:2266 r2/controllers/front.py:2276
 msgid "Success!"
 msgstr ""
 
-#: r2/controllers/front.py:2216
+#: r2/controllers/front.py:2270
 msgid "You have updated your preferences."
 msgstr ""
 
-#: r2/controllers/front.py:2219
+#: r2/controllers/front.py:2273
 msgid "Please check your inbox to verify \n"
 "                       your email address."
 msgstr ""
 
-#: r2/controllers/front.py:2232
+#: r2/controllers/front.py:2286
 msgid "Get messages to my email inbox!"
 msgstr ""
 
@@ -1018,248 +1021,247 @@ msgstr "鏈接錯誤"
 msgid "error"
 msgstr "錯誤"
 
-#: r2/controllers/ipn.py:1035
+#: r2/controllers/ipn.py:1036
 msgid "error: address verification failed"
 msgstr "錯誤：郵件地址驗證失敗"
 
-#: r2/controllers/ipn.py:1039
+#: r2/controllers/ipn.py:1040
 msgid "error: cvc check failed"
 msgstr "錯誤： CVC驗證失敗"
 
-#: r2/controllers/ipn.py:1084
+#: r2/controllers/ipn.py:1085
 msgid "your gold subscription has been cancelled"
 msgstr "您的黃金會員資格申請已被取消"
 
-#: r2/controllers/ipn.py:1085
+#: r2/controllers/ipn.py:1086
 #, python-format
 msgid "if you have any questions please email %(email)s"
 msgstr "如果您有任何問題請寄信到%(email)s"
 
-#: r2/controllers/ipn.py:1112
+#: r2/controllers/ipn.py:1113
 msgid "something bad happened, try again later"
 msgstr "出現了狀況、請稍候再試"
 
-#: r2/controllers/ipn.py:1121
+#: r2/controllers/ipn.py:1122
 msgid "your account already has a gold subscription"
 msgstr "您的賬户上已經有金幣訂閱。"
 
-#: r2/controllers/ipn.py:1127
+#: r2/controllers/ipn.py:1128
 msgid "stop trying to trick the form"
 msgstr "別再騙表格"
 
-#: r2/controllers/ipn.py:1146
+#: r2/controllers/ipn.py:1147
 msgid "subscription created"
 msgstr "訂閱成功"
 
-#: r2/controllers/ipn.py:1148
+#: r2/controllers/ipn.py:1149
 msgid "Your subscription is being processed and reddit gold will be delivered shortly."
 msgstr "您的訂閱正在處理中，Reddit 金幣將會被遞送。"
 
-#: r2/controllers/ipn.py:1156
+#: r2/controllers/ipn.py:1157
 msgid "payment submitted"
 msgstr "付款成功"
 
-#: r2/controllers/ipn.py:1157
+#: r2/controllers/ipn.py:1158
 msgid "reddit gold payment"
 msgstr "Reddit 金幣付款"
 
-#: r2/controllers/ipn.py:1158
+#: r2/controllers/ipn.py:1159
 msgid "Your payment is being processed and reddit gold will be delivered shortly."
 msgstr "您的付款正在處理中，Reddit 金幣將會被遞送。"
 
-#: r2/controllers/ipn.py:1175
+#: r2/controllers/ipn.py:1176
 msgid "your payment details have been updated"
 msgstr "你的付款資料已經更新"
 
-#: r2/controllers/ipn.py:1187
+#: r2/controllers/ipn.py:1188
 msgid "your subscription has been cancelled"
 msgstr "你的訂月已經取消"
 
-#: r2/controllers/ipn.py:1399
+#: r2/controllers/ipn.py:1400
 #, python-format
 msgid "You have created a yearly Reddit Gold subscription for %(price)s per year.\n\n"
 "This subscription will renew automatically yearly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1404
+#: r2/controllers/ipn.py:1405
 #, python-format
 msgid "You have created a monthly Reddit Gold subscription for %(price)s per month.\n\n"
 "This subscription will renew automatically monthly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1410
+#: r2/controllers/ipn.py:1411
 #, python-format
 msgid "Your Reddit Gold subscription has been renewed for 1 month for %(price)s.\n\n"
 "This subscription will renew automatically monthly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1415
+#: r2/controllers/ipn.py:1416
 #, python-format
 msgid "Your Reddit Gold subscription has been renewed for 1 year for %(price)s.\n\n"
 "This subscription will renew automatically yearly until you cancel. You may cancel your subscription at any time by visiting %(subscr_url)s.\n\n"
 msgstr ""
 
-#: r2/controllers/ipn.py:1420
+#: r2/controllers/ipn.py:1421
 msgid "Reddit Gold Subscription"
 msgstr ""
 
-#: r2/controllers/ipn.py:1421
+#: r2/controllers/ipn.py:1422
 #, python-format
 msgid "If you cancel, you will not be billed for any additional months of service, and service will continue until the end of the billing period. If you cancel, you will not receive a refund for any service already paid for.\n\n"
 "If you have any questions, please contact %(gold_email)s."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:673
+#: r2/controllers/listingcontroller.py:652
 msgid "newest submissions"
-msgstr "最新發文"
+msgstr "最新的發文"
 
-#: r2/controllers/listingcontroller.py:702
+#: r2/controllers/listingcontroller.py:672
 msgid "rising submissions"
-msgstr "往上升的發文"
+msgstr "好評上升中的發文"
 
-#: r2/controllers/listingcontroller.py:761
+#: r2/controllers/listingcontroller.py:724
 msgid "top scoring links"
 msgstr "最高分鏈接"
 
-#: r2/controllers/listingcontroller.py:765
+#: r2/controllers/listingcontroller.py:728
 msgid "most controversial links"
 msgstr "最具爭議鏈接"
 
-#: r2/controllers/listingcontroller.py:780
+#: r2/controllers/listingcontroller.py:743
 msgid "promoted links"
 msgstr "推廣連結"
 
-#: r2/controllers/listingcontroller.py:784
+#: r2/controllers/listingcontroller.py:747
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "想要發廣告嗎? [點擊這裡!](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:819
+#: r2/controllers/listingcontroller.py:782
 msgid "you're really bored now, eh?"
 msgstr "您現在很悶吧？"
 
-#: r2/controllers/listingcontroller.py:894
+#: r2/controllers/listingcontroller.py:860
 msgid "filter by subreddit"
 msgstr "依看板篩選"
 
-#: r2/controllers/listingcontroller.py:908
+#: r2/controllers/listingcontroller.py:874
 msgid "filter by category"
 msgstr "類別過濾"
 
-#: r2/controllers/listingcontroller.py:914
+#: r2/controllers/listingcontroller.py:880
 msgid "gildings received"
 msgstr "贈送的金幣已被收到"
 
-#: r2/controllers/listingcontroller.py:915
+#: r2/controllers/listingcontroller.py:881
 msgid "gildings given"
 msgstr "贈送的金幣已經發送了"
 
-#: r2/controllers/listingcontroller.py:921
+#: r2/controllers/listingcontroller.py:887
 #, python-format
 msgid "overview for %(user)s"
 msgstr "%(user)s 總覽"
 
-#: r2/controllers/listingcontroller.py:922
+#: r2/controllers/listingcontroller.py:888
 #, python-format
 msgid "comments by %(user)s"
 msgstr "%(user)s 的留言"
 
-#: r2/controllers/listingcontroller.py:924
+#: r2/controllers/listingcontroller.py:890
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "%(user)s 贈送了金幣給您"
 
-#: r2/controllers/listingcontroller.py:925
+#: r2/controllers/listingcontroller.py:891
 #, python-format
 msgid "upvoted by %(user)s"
-msgstr "被%(user)s推了"
+msgstr "%(user)s 給予了好評"
 
-#: r2/controllers/listingcontroller.py:926
+#: r2/controllers/listingcontroller.py:892
 #, python-format
 msgid "downvoted by %(user)s"
-msgstr "被%(user)s噓了"
+msgstr "%(user)s 給予了負評"
 
-#: r2/controllers/listingcontroller.py:927
+#: r2/controllers/listingcontroller.py:893
 #, python-format
 msgid "saved by %(user)s"
 msgstr "%(user)s 儲存的發文"
 
-#: r2/controllers/listingcontroller.py:928
+#: r2/controllers/listingcontroller.py:894
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "被 %(user)s 隱藏"
 
-#: r2/controllers/listingcontroller.py:929
+#: r2/controllers/listingcontroller.py:895
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "宣傳者為 %(user)s"
 
-#: r2/controllers/listingcontroller.py:931
+#: r2/controllers/listingcontroller.py:897
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "金幣是 %(user)s 贈送的"
 
-#: r2/controllers/listingcontroller.py:933
+#: r2/controllers/listingcontroller.py:899
 #, python-format
 msgid "profile for %(user)s"
 msgstr "%(user)s 的個人檔案"
 
-#: r2/controllers/listingcontroller.py:1050 r2/lib/menus.py:106
+#: r2/controllers/listingcontroller.py:1062 r2/lib/menus.py:105
 #: r2/templates/printablebuttons.html:585 r2/templates/printablebuttons.html:592
 msgid "blocked"
 msgstr "已阻擋"
 
-#: r2/controllers/listingcontroller.py:1216
-#: r2/controllers/listingcontroller.py:1227 r2/templates/printablebuttons.html:612
+#: r2/controllers/listingcontroller.py:1261
+#: r2/controllers/listingcontroller.py:1272 r2/templates/printablebuttons.html:612
 msgid "unread"
 msgstr "未讀"
 
-#: r2/controllers/listingcontroller.py:1218
+#: r2/controllers/listingcontroller.py:1263
 msgid "comment replies"
 msgstr "留言回覆"
 
-#: r2/controllers/listingcontroller.py:1219
+#: r2/controllers/listingcontroller.py:1264
 msgid "post replies"
 msgstr "貼文回覆"
 
-#: r2/controllers/listingcontroller.py:1220
+#: r2/controllers/listingcontroller.py:1265
 msgid "username mentions"
 msgstr "用戶名被提及"
 
-#: r2/controllers/listingcontroller.py:1234 r2/templates/redditheader.html:114
+#: r2/controllers/listingcontroller.py:1279 r2/templates/redditheader.html:114
 #: r2/templates/redditheader.html:119
 msgid "messages"
 msgstr "信息"
 
-#: r2/controllers/listingcontroller.py:1707
+#: r2/controllers/listingcontroller.py:1751
 msgid "subreddits: "
 msgstr "看板："
 
-#: r2/controllers/listingcontroller.py:1851
-#: r2/controllers/listingcontroller.py:2015
+#: r2/controllers/listingcontroller.py:1917
+#: r2/controllers/listingcontroller.py:2081
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
-msgstr "To block a user click 'block user'  below a message from a user you wish to block from messaging you.\n"
-"要禁止用戶, 在欲禁止用戶的消息下面點擊'禁止用戶'."
+msgstr "如要封鎖一名會員，點擊該名會員的一條訊息下方的「封鎖會員」即可封鎖他日後發給您的訊息。"
 
-#: r2/controllers/listingcontroller.py:2020
+#: r2/controllers/listingcontroller.py:2086
 msgid "Trusted users will always be able to send you PMs."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:2178 r2/lib/menus.py:58
+#: r2/controllers/listingcontroller.py:2241 r2/lib/menus.py:58
 msgid "gilded"
-msgstr "精選"
+msgstr "含金文章"
 
-#: r2/controllers/listingcontroller.py:2192
+#: r2/controllers/listingcontroller.py:2255
 #, python-format
 msgid "gildings in this subreddit have paid for %(time)s of server time"
 msgstr "本討論板贈送的金幣已經在伺服器時間：%(time)s 發送出去了"
 
-#: r2/controllers/multi.py:324
+#: r2/controllers/multi.py:313
 #, python-format
 msgid "copied from %(source)s"
 msgstr "從%(source)s複製"
 
-#: r2/controllers/oauth2.py:142
+#: r2/controllers/oauth2.py:140
 msgid "this app has not been approved for use with employee accounts"
 msgstr "此應用程式尚未許可給員工帳號使用"
 
@@ -1272,19 +1274,23 @@ msgstr "[已被刪除的帳號]"
 msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "%(author)s在%(title)s的推文"
 
-#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:6373
+#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:6620
 #: r2/templates/personalizedads.html:53
 msgid "privacy policy"
 msgstr "隱私權條款"
 
-#: r2/controllers/policies.py:48 r2/lib/pages/pages.py:6374
+#: r2/controllers/policies.py:48 r2/lib/pages/pages.py:6621
 msgid "user agreement"
 msgstr "使用者協議"
 
-#: r2/controllers/policies.py:51 r2/lib/pages/pages.py:6375
-#: r2/templates/newlink.html:306 r2/templates/usertext.html:159
+#: r2/controllers/policies.py:51 r2/lib/pages/pages.py:6622
+#: r2/templates/newlink.html:319 r2/templates/usertext.html:159
 msgid "content policy"
 msgstr "內容政策"
+
+#: r2/controllers/policies.py:54 r2/lib/pages/pages.py:6623
+msgid "healthy communities"
+msgstr ""
 
 #: r2/controllers/post.py:77
 msgid "over 18?"
@@ -1295,138 +1301,142 @@ msgstr "已滿18歲？?"
 msgid "quarantined"
 msgstr "已隔離"
 
-#: r2/controllers/promotecontroller.py:269
+#: r2/controllers/promotecontroller.py:274
 msgid "create promoted post"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:285
+#: r2/controllers/promotecontroller.py:290
 msgid "edit promoted post"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:371
+#: r2/controllers/promotecontroller.py:376
 msgid "promoted post report"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:402
+#: r2/controllers/promotecontroller.py:409
 msgid "promoted post inventory"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:427 r2/lib/menus.py:189
+#: r2/controllers/promotecontroller.py:444 r2/lib/menus.py:188
 msgid "unapproved campaigns"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:428
+#: r2/controllers/promotecontroller.py:445
 msgid "externally promoted links"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:429
+#: r2/controllers/promotecontroller.py:446
 msgid "unapproved promoted links"
 msgstr "不允許張貼的廣告連結"
 
-#: r2/controllers/promotecontroller.py:430
+#: r2/controllers/promotecontroller.py:447
 msgid "accepted promoted links"
 msgstr "合格的廣告連結"
 
-#: r2/controllers/promotecontroller.py:431
+#: r2/controllers/promotecontroller.py:448
 msgid "unpaid promoted links"
 msgstr "尚未支付的廣告連結"
 
-#: r2/controllers/promotecontroller.py:432
+#: r2/controllers/promotecontroller.py:449
 msgid "rejected promoted links"
 msgstr "已被拒絕的廣告連結"
 
-#: r2/controllers/promotecontroller.py:433
+#: r2/controllers/promotecontroller.py:450
 msgid "live promoted links"
 msgstr "實況贊助連結"
 
-#: r2/controllers/promotecontroller.py:434
+#: r2/controllers/promotecontroller.py:451
 msgid "edited live promoted links"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:435 r2/lib/menus.py:186
+#: r2/controllers/promotecontroller.py:452 r2/lib/menus.py:185
 msgid "all promoted links"
 msgstr "所有宣傳的鏈接"
 
-#: r2/controllers/promotecontroller.py:462
+#: r2/controllers/promotecontroller.py:479
 msgid "promoted by you"
 msgstr "你幫忙宣傳的"
 
-#: r2/controllers/promotecontroller.py:526
+#: r2/controllers/promotecontroller.py:543
 msgid "promoted links by platform"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:527
+#: r2/controllers/promotecontroller.py:544
 msgid "underdelivered promoted links"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:528
+#: r2/controllers/promotecontroller.py:545
 msgid "reported promoted links"
 msgstr "已回報贊助連結"
 
-#: r2/controllers/promotecontroller.py:529
+#: r2/controllers/promotecontroller.py:546
+msgid "reported promoted links created externally"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:547
 msgid "house promoted links"
 msgstr "家庭宣傳連結"
 
-#: r2/controllers/promotecontroller.py:530
+#: r2/controllers/promotecontroller.py:548
 msgid "fraud suspected promoted links"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:536
+#: r2/controllers/promotecontroller.py:554
 msgid "promos on reddit"
 msgstr "在 reddit 上宣傳"
 
-#: r2/controllers/promotecontroller.py:837
+#: r2/controllers/promotecontroller.py:864
 msgid "target oversold, can't freebie"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:867
+#: r2/controllers/promotecontroller.py:894
 msgid "fraudnot fraud"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:901
+#: r2/controllers/promotecontroller.py:928
 msgid "refund succeeded"
 msgstr "退款成功"
 
-#: r2/controllers/promotecontroller.py:903
+#: r2/controllers/promotecontroller.py:930
 msgid "refund not needed"
 msgstr "不需要退款"
 
-#: r2/controllers/promotecontroller.py:1833
+#: r2/controllers/promotecontroller.py:1865
 msgid "failed to authenticate card. sorry."
 msgstr "抱歉，卡片認證失敗。"
 
-#: r2/controllers/promotecontroller.py:1865
+#: r2/controllers/promotecontroller.py:1897
 #, python-format
 msgid "please change campaign start date to %(date)s or earlier"
 msgstr "請更改活動開始日至%(date)s或是更早之前的日期"
 
-#: r2/controllers/promotecontroller.py:1872
+#: r2/controllers/promotecontroller.py:1904
 #, python-format
 msgid "please change campaign start date to %(date)s or later"
 msgstr "請更改活動開始日至%(date)s或更晚的日期"
 
-#: r2/controllers/promotecontroller.py:1975
+#: r2/controllers/promotecontroller.py:2007
 msgid "image must be a jpg or png"
-msgstr ""
+msgstr "圖像格或必須為 jpg 或 png"
 
-#: r2/controllers/reddit_base.py:1574 r2/lib/pages/pages.py:4556
-#: r2/models/modaction.py:113 r2/templates/bannedinterstitial.html:33
+#: r2/controllers/reddit_base.py:1623 r2/lib/pages/pages.py:4775
+#: r2/models/modaction.py:116 r2/templates/bannedinterstitial.html:33
 #: r2/templates/subreddit.html:74 r2/templates/subredditinfobar.html:168
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "已禁止"
 
-#: r2/controllers/reddit_base.py:1596
+#: r2/controllers/reddit_base.py:1649
 msgid "gold members only"
 msgstr "僅黃金會員可瀏覽"
 
-#: r2/controllers/reddit_base.py:1606 r2/templates/createsubreddit.html:141
+#: r2/controllers/reddit_base.py:1663 r2/templates/createsubreddit.html:156
 #: r2/templates/multiinfobar.html:40 r2/templates/privateinterstitial.html:37
 #: r2/templates/searchresultsubreddit.html:98 r2/templates/subreddit.html:87
 msgid "private"
 msgstr "私人"
 
-#: r2/controllers/reddit_base.py:1721
+#: r2/controllers/reddit_base.py:1789
 msgid "search failed"
 msgstr "搜尋失敗"
 
@@ -1456,7 +1466,7 @@ msgid "viewing revision from %s"
 msgstr "查看%s的版本"
 
 #: r2/controllers/wiki.py:169 r2/controllers/wiki.py:170
-#: r2/lib/template_helpers.py:864
+#: r2/lib/template_helpers.py:881
 #, python-format
 msgid "%s ago"
 msgstr "%s前"
@@ -1489,7 +1499,7 @@ msgstr ""
 msgid "Wiki error"
 msgstr "維基錯誤"
 
-#: r2/controllers/wiki.py:393
+#: r2/controllers/wiki.py:396
 msgid "You are doing that too much, please try again later."
 msgstr "你嘗試太多次了，請稍後再試。"
 
@@ -1541,11 +1551,11 @@ msgstr "控制符不被允許"
 msgid "the stylesheet is too big. maximum size: %(size)d KiB"
 msgstr "此樣式表容量太大。最大容量：%(size)d KiB"
 
-#: r2/lib/emailer.py:402 r2/models/link.py:2677
+#: r2/lib/emailer.py:402 r2/models/link.py:2774
 msgid "comment reply"
 msgstr "回覆留言"
 
-#: r2/lib/emailer.py:404 r2/models/link.py:2679
+#: r2/lib/emailer.py:404 r2/models/link.py:2776
 msgid "post reply"
 msgstr "新增回應"
 
@@ -1553,7 +1563,7 @@ msgstr "新增回應"
 msgid "username notification"
 msgstr "使用者名稱通知"
 
-#: r2/lib/emailer.py:408 r2/lib/strings.py:272 r2/lib/pages/pages.py:1624
+#: r2/lib/emailer.py:408 r2/lib/strings.py:273 r2/lib/pages/pages.py:1697
 #: r2/templates/messagecompose.html:98
 msgid "message"
 msgid_plural "messages"
@@ -1623,7 +1633,7 @@ msgstr "這個使用者名稱被一個已刪除的帳號用掉了"
 
 #: r2/lib/errors.py:47
 msgid "you can't send to a user that you have blocked"
-msgstr "您不能傳送給您封鎖的使用者"
+msgstr "您不能傳送給您封鎖的會員"
 
 #: r2/lib/errors.py:48
 msgid "id not specified"
@@ -1790,7 +1800,7 @@ msgstr ""
 msgid "that subreddit is private"
 msgstr ""
 
-#: r2/lib/errors.py:89 r2/lib/validator/validator.py:3285
+#: r2/lib/errors.py:89 r2/lib/validator/validator.py:3314
 msgid "that name isn't going to work"
 msgstr "這個名字行不通"
 
@@ -2002,294 +2012,306 @@ msgid "confidential clients can not request tokens directly"
 msgstr ""
 
 #: r2/lib/errors.py:144
+msgid "This contains offensive content"
+msgstr ""
+
+#: r2/lib/errors.py:145
 msgid "please confirm the form"
 msgstr "請確認這個表單"
 
-#: r2/lib/errors.py:145
+#: r2/lib/errors.py:146
 msgid "conflict error while saving"
 msgstr "儲存時發生說明錯誤"
 
-#: r2/lib/errors.py:146
+#: r2/lib/errors.py:147
 msgid "cannot perform this action via the API"
 msgstr "無法透過 API 執行此動作"
 
-#: r2/lib/errors.py:147
+#: r2/lib/errors.py:148
 #, python-format
 msgid "%(domain)s is not allowed on reddit: %(reason)s"
 msgstr "%(domain)s 網域禁止於 reddit 上使用：%(reason)s"
 
-#: r2/lib/errors.py:148
+#: r2/lib/errors.py:149
 msgid "you must enable two-factor authentication"
 msgstr "您必須啟用兩段式驗證"
 
-#: r2/lib/errors.py:149
+#: r2/lib/errors.py:150
 msgid "two-factor authentication is already enabled"
 msgstr "二段驗證已經啟用了"
 
-#: r2/lib/errors.py:150
+#: r2/lib/errors.py:151
 msgid "image problem"
 msgstr "圖片問題"
 
-#: r2/lib/errors.py:151 r2/public/static/js/newlink-image-upload.js:466
+#: r2/lib/errors.py:152 r2/public/static/js/newlink-image-upload.js:466
 msgid "That file type is not allowed"
-msgstr ""
+msgstr "不允許此文件格式"
 
-#: r2/lib/errors.py:152
+#: r2/lib/errors.py:153
 msgid "already added"
 msgstr "已被新增"
 
-#: r2/lib/errors.py:153
+#: r2/lib/errors.py:154
 msgid "too many developers"
 msgstr "過多的開發人員"
 
-#: r2/lib/errors.py:155
+#: r2/lib/errors.py:156
 msgid "you cannot add this account from this interface"
 msgstr ""
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "invalid modhash"
 msgstr ""
 
-#: r2/lib/errors.py:157
-msgid "that user is already a moderator"
-msgstr "該使用者已經是版主"
-
 #: r2/lib/errors.py:158
+msgid "that user is already a moderator"
+msgstr "該會員已經是板主"
+
+#: r2/lib/errors.py:159
 msgid "You can't perform that action because that user is a moderator."
 msgstr "因為此用戶為版主，您無法執行此動作。"
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "there is no pending invite for that subreddit"
 msgstr "沒有未處理看板邀請"
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 msgid "you cannot edit the budget of a live ad"
 msgstr ""
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 msgid "you have too many campaigns for that promotion"
 msgstr ""
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "that jsonp callback contains invalid characters"
 msgstr ""
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "permissions don't apply to that type of user"
 msgstr "權限不適用於該類型使用者"
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "invalid permissions string"
 msgstr "無效的權限字串"
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 msgid "invalid multi path"
 msgstr "無效的看板群組路徑"
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 #, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "that multireddit doesn't exist"
 msgstr "此看板群組不存在"
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 msgid "that multireddit already exists"
 msgstr "此看板群組已經存在"
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 msgid "you can't change that multireddit"
 msgstr "您無法變更此看板群組"
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 msgid "no more space for subreddits in that multireddit"
 msgstr "此看板群組已無空間容納新看板"
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 #, python-format
 msgid "can't add special subreddit %(path)s"
 msgstr ""
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 #, python-format
 msgid "maximum %(max)s subreddits"
-msgstr ""
+msgstr "最多 %(max)s 看板"
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 msgid "unable to parse JSON data"
 msgstr "無法解讀 JSON 資料"
 
-#: r2/lib/errors.py:174
+#: r2/lib/errors.py:175
 msgid "unexpected JSON structure"
 msgstr "未預期的 JSON 架構"
 
-#: r2/lib/errors.py:175
+#: r2/lib/errors.py:176
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr ""
 
-#: r2/lib/errors.py:176
+#: r2/lib/errors.py:177
 msgid "can't change post type"
 msgstr "無法改變貼文種類"
 
-#: r2/lib/errors.py:177
+#: r2/lib/errors.py:178
 msgid "invalid location"
 msgstr "無效位置"
 
-#: r2/lib/errors.py:178
+#: r2/lib/errors.py:179
 msgid "invalid values for frequency cap"
 msgstr "頻率上限為無效值"
 
-#: r2/lib/errors.py:179
+#: r2/lib/errors.py:180
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "that user is banned from the subreddit"
 msgstr "此用戶在此子分類禁言。"
 
-#: r2/lib/errors.py:181
-msgid "You can't do that while suspended."
-msgstr ""
-
 #: r2/lib/errors.py:182
-msgid "You must reset your password before doing that."
-msgstr ""
+msgid "You can't do that while suspended."
+msgstr "您被停權時不能這樣做。"
 
 #: r2/lib/errors.py:183
+msgid "You must reset your password before doing that."
+msgstr "在進一步動作前，您必須先重設密碼。"
+
+#: r2/lib/errors.py:184
 msgid "you must have an active reddit gold subscription to do that"
 msgstr "您要升級至黃金會員才能執行此動作。"
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "insufficient creddits"
 msgstr "代幣不足"
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 msgid "gilding is not allowed in this subreddit"
 msgstr "在此子分類無貼文獎勵金幣。"
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 msgid "unable to scrape provided url"
 msgstr "無法擷取您提供的網址。"
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "can't send a message from a subreddit to another subreddit"
 msgstr ""
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "can't send message to that user"
 msgstr ""
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 msgid "you must be in admin mode for this"
 msgstr ""
 
-#: r2/lib/errors.py:190
+#: r2/lib/errors.py:191
 #, python-format
 msgid "to convert an existing subreddit to gold only, send a message to %(admin_modmail)s"
 msgstr ""
 
-#: r2/lib/errors.py:192
+#: r2/lib/errors.py:193
 msgid "this subreddit must be 'gold only' to select this"
 msgstr ""
 
-#: r2/lib/errors.py:193
-msgid "your account is too new or you do not have enough karma to create a subreddit. please contact the admins to request an exemption."
+#: r2/lib/errors.py:194
+msgid "Your account is too new, you do not have enough karma to create a subreddit, or you are otherwise unable to create a subreddit. Please contact the admins to request an exemption."
 msgstr ""
 
-#: r2/lib/errors.py:194
+#: r2/lib/errors.py:195
 msgid "you must select at least one mobile OS to target"
 msgstr ""
 
-#: r2/lib/errors.py:195 r2/templates/promotelinkbase.html:650
+#: r2/lib/errors.py:196 r2/templates/promotelinkbase.html:650
 msgid "you must select at least one device per OS to target"
 msgstr ""
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "You have been muted from this subreddit."
 msgstr ""
 
-#: r2/lib/errors.py:197
+#: r2/lib/errors.py:198
 msgid "This user has been muted from the subreddit."
 msgstr ""
 
-#: r2/lib/errors.py:198 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:199 r2/public/static/js/errors.js:7
 msgid "A subreddit rule by that name already exists."
 msgstr ""
 
-#: r2/lib/errors.py:199
+#: r2/lib/errors.py:200
 msgid "No subreddit rule by that name exists."
 msgstr ""
 
-#: r2/lib/errors.py:200 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:201 r2/public/static/js/errors.js:8
 msgid "This subreddit already has the maximum number of rules."
 msgstr ""
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr ""
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 msgid "Cannot access this comment."
 msgstr ""
 
-#: r2/lib/errors.py:203
+#: r2/lib/errors.py:204
 msgid "Cannot access this post."
 msgstr ""
 
-#: r2/lib/errors.py:204
+#: r2/lib/errors.py:205
 msgid "No conversation id passed."
 msgstr ""
 
-#: r2/lib/errors.py:205
-msgid "No conversation found."
-msgstr ""
-
 #: r2/lib/errors.py:206
+msgid "No conversation found."
+msgstr "找不到對話。"
+
+#: r2/lib/errors.py:207
 msgid "Invalid conversation id."
 msgstr ""
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "The subreddit does not have this feature enabled."
 msgstr ""
 
-#: r2/lib/errors.py:208
+#: r2/lib/errors.py:209
 msgid "Could not find thing object, it does not exist."
 msgstr ""
 
-#: r2/lib/errors.py:209
+#: r2/lib/errors.py:210
 msgid "Failed to save modmail conversation."
 msgstr ""
 
-#: r2/lib/errors.py:210
+#: r2/lib/errors.py:211
 msgid "Failed to save modmail message."
 msgstr ""
 
-#: r2/lib/errors.py:211
+#: r2/lib/errors.py:212
 msgid "Conversation not archivable."
 msgstr ""
 
-#: r2/lib/errors.py:212
+#: r2/lib/errors.py:213
 msgid "You do not have the correct moderator permissions."
 msgstr ""
 
-#: r2/lib/errors.py:213
+#: r2/lib/errors.py:214
 msgid "The requested subreddit was not found."
 msgstr ""
 
 #: r2/lib/errors.py:215
-msgid "You can't add a blocked user as a trusted user."
+msgid "This thread has been marked unrepliable."
 msgstr ""
 
 #: r2/lib/errors.py:217
+msgid "You can't add a blocked user as a trusted user."
+msgstr "您不能將一位已封鎖的會員新增為信任的會員。"
+
+#: r2/lib/errors.py:219
 msgid "You can't add yourself as a trusted user."
 msgstr ""
 
-#: r2/lib/errors.py:218
+#: r2/lib/errors.py:220
 msgid "You have already added this user as a trusted user."
+msgstr ""
+
+#: r2/lib/errors.py:222
+msgid "This creative in managed in the new reddit ads site"
 msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
@@ -2532,7 +2554,7 @@ msgstr "每月曝光次數"
 msgid "clicks by month"
 msgstr "每月點擊數"
 
-#: r2/lib/jsontemplates.py:749 r2/templates/link.xml:63
+#: r2/lib/jsontemplates.py:812 r2/templates/link.xml:63
 #: r2/templates/usertext.html:137
 msgid "[removed]"
 msgstr "[已移除]"
@@ -2577,7 +2599,7 @@ msgstr "具爭議的"
 msgid "best"
 msgstr "最佳"
 
-#: r2/lib/menus.py:60 r2/lib/menus.py:442
+#: r2/lib/menus.py:60 r2/lib/menus.py:441
 msgid "random"
 msgstr "隨機"
 
@@ -2589,7 +2611,7 @@ msgstr "問與答"
 msgid "saved {toolbar}"
 msgstr "已儲存"
 
-#: r2/lib/menus.py:63
+#: r2/lib/menus.py:63 r2/templates/utils.html:799
 msgid "recommended"
 msgstr "推薦給您"
 
@@ -2626,9 +2648,10 @@ msgstr "去年"
 msgid "all time"
 msgstr "任何時間"
 
-#: r2/lib/menus.py:76 r2/models/rules.py:33
-#: r2/public/static/js/link-websockets.js:259 r2/templates/preffeeds.html:119
-#: r2/templates/printablebuttons.html:42 r2/templates/printablebuttons.html:243
+#: r2/lib/menus.py:76 r2/models/modaction.py:122 r2/models/modaction.py:125
+#: r2/models/rules.py:37 r2/public/static/js/link-websockets.js:260
+#: r2/templates/preffeeds.html:119 r2/templates/printablebuttons.html:42
+#: r2/templates/printablebuttons.html:243
 #: ../../liveupdate/reddit_liveupdate/pages.py:256
 msgid "spam"
 msgstr "垃圾訊息"
@@ -2637,12 +2660,12 @@ msgstr "垃圾訊息"
 msgid "autobanned"
 msgstr "自動阻擋"
 
-#: r2/lib/menus.py:80 r2/lib/pages/pages.py:1463 r2/lib/pages/pages.py:1486
+#: r2/lib/menus.py:80 r2/lib/pages/pages.py:1530 r2/lib/pages/pages.py:1555
 msgid "preferences"
 msgstr "偏好設定"
 
 #: r2/lib/menus.py:82 r2/lib/permissions.py:97
-#: r2/templates/createsubreddit.html:223
+#: r2/templates/createsubreddit.html:245
 msgid "wiki"
 msgstr "維基"
 
@@ -2650,7 +2673,7 @@ msgstr "維基"
 msgid "blog"
 msgstr "網誌"
 
-#: r2/lib/menus.py:84 r2/templates/utils.html:570
+#: r2/lib/menus.py:84 r2/templates/utils.html:647
 msgid "logout"
 msgstr "登出"
 
@@ -2666,7 +2689,7 @@ msgstr "按鈕"
 msgid "widget"
 msgstr "小工具"
 
-#: r2/lib/menus.py:91 r2/lib/pages/pages.py:1297
+#: r2/lib/menus.py:91 r2/lib/pages/pages.py:1370
 msgid "mobile website"
 msgstr ""
 
@@ -2679,389 +2702,381 @@ msgid "site rules"
 msgstr "網站規定"
 
 #: r2/lib/menus.py:96
-msgid "jobs"
-msgstr "工作"
-
-#: r2/lib/menus.py:97
-msgid "transparency"
-msgstr "透明度"
-
-#: r2/lib/menus.py:98
 msgid "source code"
 msgstr "原始碼"
 
-#: r2/lib/menus.py:102 r2/templates/newlink.html:291
+#: r2/lib/menus.py:98
+msgid "mod guidelines"
+msgstr ""
+
+#: r2/lib/menus.py:101 r2/templates/newlink.html:304
 #: r2/templates/promotelinkbase.html:254
 msgid "options"
 msgstr "選項"
 
-#: r2/lib/menus.py:103
+#: r2/lib/menus.py:102
 msgid "apps"
 msgstr "應用程式"
 
-#: r2/lib/menus.py:104
+#: r2/lib/menus.py:103
 msgid "RSS feeds"
-msgstr "RSS 饋送"
+msgstr "RSS 訂閱"
 
-#: r2/lib/menus.py:105
+#: r2/lib/menus.py:104
 msgid "friends"
 msgstr "朋友"
 
-#: r2/lib/menus.py:107
+#: r2/lib/menus.py:106
 msgid "messaging preferences"
 msgstr ""
 
-#: r2/lib/menus.py:108
+#: r2/lib/menus.py:107
 msgid "trusted users"
-msgstr ""
+msgstr "信任的會員"
 
-#: r2/lib/menus.py:109
+#: r2/lib/menus.py:108
 msgid "password/email"
 msgstr "密碼/電郵"
 
-#: r2/lib/menus.py:110
+#: r2/lib/menus.py:109
 msgid "deactivate"
 msgstr ""
 
-#: r2/lib/menus.py:111
+#: r2/lib/menus.py:110
 msgid "security"
 msgstr "安全"
 
-#: r2/lib/menus.py:114
+#: r2/lib/menus.py:113
 msgid "personalized ads"
-msgstr ""
+msgstr "個人化廣告"
 
-#: r2/lib/menus.py:117 r2/templates/messagecompose.html:35
+#: r2/lib/menus.py:116 r2/templates/messagecompose.html:35
 #: r2/templates/moderatormessagecompose.html:32 r2/templates/profilebar.html:185
 msgid "send a private message"
 msgstr "傳送一個私人訊息"
 
-#: r2/lib/menus.py:118
+#: r2/lib/menus.py:117
 msgid "inbox"
 msgstr "收件匣"
 
-#: r2/lib/menus.py:119
+#: r2/lib/menus.py:118
 msgid "sent"
 msgstr "寄件備份"
 
-#: r2/lib/menus.py:122
+#: r2/lib/menus.py:121
 msgid "comments {toolbar}"
 msgstr "留言"
 
-#: r2/lib/menus.py:123 r2/templates/prefoptions.html:368
-#: r2/templates/prefoptions.html:377
+#: r2/lib/menus.py:122 r2/templates/prefoptions.html:372
+#: r2/templates/prefoptions.html:381
 msgid "details"
 msgstr "詳細內容"
 
-#: r2/lib/menus.py:124
+#: r2/lib/menus.py:123
 #, python-format
 msgid "other discussions (%(num)s)"
 msgstr "其他討論串 (%(num)s)"
 
-#: r2/lib/menus.py:125 r2/lib/pages/trafficpages.py:65
+#: r2/lib/menus.py:124 r2/lib/pages/trafficpages.py:65
 msgid "traffic stats"
 msgstr "流量狀況"
 
-#: r2/lib/menus.py:126 r2/models/modaction.py:186
+#: r2/lib/menus.py:125 r2/models/modaction.py:191
 #: r2/templates/subredditstylesheet.html:43
 msgid "stylesheet"
 msgstr "樣式表"
 
-#: r2/lib/menus.py:129
+#. TRANSLATORS: This refers to the user's front page
+#: r2/lib/menus.py:128 r2/lib/menus.py:439 r2/lib/pages/pages.py:6528
 msgid "home"
 msgstr "首頁"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1276
+#: r2/lib/menus.py:129 r2/lib/pages/pages.py:1344 r2/lib/pages/pages.py:1349
 msgid "about"
 msgstr "關於"
 
-#: r2/lib/menus.py:131
+#: r2/lib/menus.py:130
 msgid "edit subscriptions"
 msgstr "編輯訂閱"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2668
+#: r2/lib/menus.py:131 r2/lib/pages/pages.py:2790
 msgid "subreddit settings"
 msgstr "看板設定"
 
-#: r2/lib/menus.py:133
+#: r2/lib/menus.py:132
 msgid "edit stylesheet"
 msgstr "編輯樣式表"
 
-#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:186
+#: r2/lib/menus.py:133 r2/public/static/js/messagecompose.js:186
 msgid "rules"
-msgstr ""
+msgstr "守則"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:976
+#: r2/lib/menus.py:134 r2/lib/pages/pages.py:1044
 msgid "moderators"
-msgstr "版主"
+msgstr "板主"
+
+#: r2/lib/menus.py:135
+msgid "moderator mail"
+msgstr "板主信箱"
 
 #: r2/lib/menus.py:136
-msgid "moderator mail"
-msgstr "版主信箱"
-
-#: r2/lib/menus.py:137
 msgid "approved submitters"
-msgstr ""
+msgstr "合格發文者"
 
-#: r2/lib/menus.py:138 r2/lib/menus.py:139 r2/models/listing.py:234
+#: r2/lib/menus.py:137 r2/lib/menus.py:138 r2/models/listing.py:243
 msgid "ban users"
 msgstr "禁止使用者"
 
-#: r2/lib/menus.py:140 r2/models/listing.py:265
+#: r2/lib/menus.py:139 r2/models/listing.py:274
 msgid "mute users"
 msgstr "禁言使用者"
 
-#: r2/lib/menus.py:141 r2/models/modaction.py:83
+#: r2/lib/menus.py:140 r2/models/modaction.py:86
 msgid "edit flair"
 msgstr "編輯標籤"
 
-#: r2/lib/menus.py:142 r2/templates/preffeeds.html:125
+#: r2/lib/menus.py:141 r2/templates/preffeeds.html:125
 msgid "moderation log"
 msgstr "版面管理記錄"
 
-#: r2/lib/menus.py:143
+#: r2/lib/menus.py:142
 msgid "moderation queue"
 msgstr "版面管理佇列"
 
-#: r2/lib/menus.py:144 r2/templates/preffeeds.html:128
+#: r2/lib/menus.py:143 r2/templates/preffeeds.html:128
 msgid "unmoderated posts"
 msgstr ""
 
-#: r2/lib/menus.py:145 r2/templates/preffeeds.html:122
+#: r2/lib/menus.py:144 r2/templates/preffeeds.html:122
 msgid "edited"
 msgstr "已編輯"
 
-#: r2/lib/menus.py:146
+#: r2/lib/menus.py:145
 msgid "employee"
 msgstr "員工"
 
-#: r2/lib/menus.py:147
+#: r2/lib/menus.py:146
 msgid "automoderator config"
-msgstr "自動版主設定"
+msgstr "自動板主設定"
 
-#: r2/lib/menus.py:148
+#: r2/lib/menus.py:147
 msgid "get started with automoderator"
 msgstr ""
 
-#: r2/lib/menus.py:150
+#: r2/lib/menus.py:149
 msgid "ban wiki contributors"
 msgstr "禁止維基投稿者"
 
-#: r2/lib/menus.py:151
+#: r2/lib/menus.py:150
 msgid "add wiki contributors"
 msgstr "新增維基投稿者"
 
-#: r2/lib/menus.py:153
+#: r2/lib/menus.py:152
 msgid "recent wiki revisions"
 msgstr "最近維基修正"
 
-#: r2/lib/menus.py:154
+#: r2/lib/menus.py:153
 msgid "wiki page list"
 msgstr "維基網頁清單"
 
-#: r2/lib/menus.py:156
+#: r2/lib/menus.py:155
 msgid "popular"
 msgstr "熱門"
 
-#: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:88
-#: r2/public/static/js/sponsored.js:98 r2/templates/createsubreddit.html:721
+#: r2/lib/menus.py:156 r2/public/static/js/sponsored.js:88
+#: r2/public/static/js/sponsored.js:98 r2/templates/createsubreddit.html:743
 #: r2/templates/listingchooser.html:62
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "建立"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:3316
+#: r2/lib/menus.py:157 r2/lib/pages/pages.py:3474
 msgid "my subreddits"
 msgstr "我的看板"
 
-#: r2/lib/menus.py:159
+#: r2/lib/menus.py:158
 msgid "quarantine"
 msgstr "隔離"
 
-#: r2/lib/menus.py:160
+#: r2/lib/menus.py:159
 msgid "featured"
 msgstr ""
 
-#: r2/lib/menus.py:162
+#: r2/lib/menus.py:161
 msgid "help translate"
 msgstr "幫忙翻譯"
 
-#: r2/lib/menus.py:163 r2/templates/subredditstylesheet.html:78
+#: r2/lib/menus.py:162 r2/templates/subredditstylesheet.html:78
 msgid "errors"
 msgstr "錯誤"
 
-#: r2/lib/menus.py:165
+#: r2/lib/menus.py:164
 msgid "ads"
 msgstr "廣告"
 
-#: r2/lib/menus.py:166 r2/templates/link.html:93
+#: r2/lib/menus.py:165 r2/templates/link.html:93
 msgid "promoted"
-msgstr "宣傳過的"
+msgstr "推廣內容"
 
-#: r2/lib/menus.py:167
+#: r2/lib/menus.py:166
 msgid "sponsor"
 msgstr "贊助"
 
-#: r2/lib/menus.py:168
+#: r2/lib/menus.py:167
 msgid "reporters"
 msgstr "檢舉者"
 
-#: r2/lib/menus.py:169 r2/templates/preffeeds.html:116
+#: r2/lib/menus.py:168 r2/templates/preffeeds.html:116
 msgid "reports"
 msgstr "檢舉"
 
-#: r2/lib/menus.py:170
+#: r2/lib/menus.py:169
 msgid "reported authors"
 msgstr "遭檢舉的發文者"
 
-#: r2/lib/menus.py:171
+#: r2/lib/menus.py:170
 msgid "info"
 msgstr "資訊"
 
-#: r2/lib/menus.py:172 r2/templates/multiinfobar.html:113
+#: r2/lib/menus.py:171 r2/templates/multiinfobar.html:113
 #: r2/templates/printablebuttons.html:353
 msgid "share"
 msgstr "分享"
 
-#: r2/lib/menus.py:175 r2/templates/searchresultlink.html:102
+#: r2/lib/menus.py:174 r2/templates/searchresultlink.html:102
 msgid "submitted"
 msgstr "已發送"
 
-#: r2/lib/menus.py:176
+#: r2/lib/menus.py:175
 msgid "upvoted"
-msgstr "推"
+msgstr "好評"
+
+#: r2/lib/menus.py:176
+msgid "downvoted"
+msgstr "負評"
 
 #: r2/lib/menus.py:177
-msgid "downvoted"
-msgstr "噓"
-
-#: r2/lib/menus.py:178
 msgid "hidden {toolbar}"
 msgstr "隱藏的"
 
-#: r2/lib/menus.py:181
+#: r2/lib/menus.py:180
 msgid "voting"
 msgstr "投票"
 
-#: r2/lib/menus.py:183
+#: r2/lib/menus.py:182
 msgid "advertising"
 msgstr "廣告"
 
-#: r2/lib/menus.py:184
+#: r2/lib/menus.py:183
 msgid "create promotion"
 msgstr "建立新宣傳"
 
-#: r2/lib/menus.py:185
+#: r2/lib/menus.py:184
 msgid "my promoted links"
 msgstr "我宣傳的連結"
 
-#: r2/lib/menus.py:188
+#: r2/lib/menus.py:187
 msgid "unseen"
 msgstr "未讀"
 
-#: r2/lib/menus.py:190
+#: r2/lib/menus.py:189
 msgid "inventory"
 msgstr "物品欄"
 
-#: r2/lib/menus.py:191 ../../liveupdate/reddit_liveupdate/pages.py:68
+#: r2/lib/menus.py:190 ../../liveupdate/reddit_liveupdate/pages.py:68
 #: ../../liveupdate/reddit_liveupdate/public/static/js/liveupdate/statusBar.js:62
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateevent.html:9
 msgid "live"
 msgstr "已上線宣傳"
 
-#: r2/lib/menus.py:192
+#: r2/lib/menus.py:191
 msgid "unpaid"
 msgstr "未付款宣傳"
 
-#: r2/lib/menus.py:193
+#: r2/lib/menus.py:192
 msgid "pending"
 msgstr "等待中宣傳"
 
-#: r2/lib/menus.py:194 r2/templates/renderablecampaign.html:195
+#: r2/lib/menus.py:193 r2/templates/renderablecampaign.html:195
 msgid "rejected"
 msgstr "遭拒絕宣傳"
 
-#: r2/lib/menus.py:195 r2/templates/renderablecampaign.html:181
+#: r2/lib/menus.py:194 r2/templates/renderablecampaign.html:181
 msgid "edited live"
 msgstr ""
 
-#: r2/lib/menus.py:196
+#: r2/lib/menus.py:195
 msgid "external promos"
 msgstr ""
 
-#: r2/lib/menus.py:198
+#: r2/lib/menus.py:197
 msgid "sitewide"
 msgstr "全站"
 
-#: r2/lib/menus.py:199
+#: r2/lib/menus.py:198
 msgid "languages"
 msgstr "語言"
 
-#: r2/lib/menus.py:200 r2/lib/pages/trafficpages.py:273
+#: r2/lib/menus.py:199 r2/lib/pages/trafficpages.py:273
 msgid "adverts"
 msgstr "廣告"
 
-#: r2/lib/menus.py:202
+#: r2/lib/menus.py:201
 msgid "whitelist"
 msgstr "白名單"
 
-#: r2/lib/menus.py:203
+#: r2/lib/menus.py:202
 msgid "live (beta)"
 msgstr ""
 
-#: r2/lib/menus.py:204
+#: r2/lib/menus.py:203
 msgid "slow"
-msgstr ""
+msgstr "慢"
+
+#: r2/lib/menus.py:204
+msgid "medium"
+msgstr "普通"
 
 #: r2/lib/menus.py:205
-msgid "medium"
-msgstr ""
+msgid "fast"
+msgstr "快"
 
 #: r2/lib/menus.py:206
-msgid "fast"
-msgstr ""
-
-#: r2/lib/menus.py:207
 msgid "manual"
 msgstr ""
 
 #. TRANSLATORS: This refers to /r/mod
-#: r2/lib/menus.py:438
+#: r2/lib/menus.py:437
 msgid "mod"
 msgstr "mod"
 
-#. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:440
-msgid "front"
-msgstr "首頁"
-
 #. TRANSLATORS: Gold feature, "myrandom", a random subreddit from your
 #. subscriptions
-#: r2/lib/menus.py:444
+#: r2/lib/menus.py:443
 msgid "myrandom"
 msgstr "myrandom"
 
-#: r2/lib/menus.py:622
+#: r2/lib/menus.py:629
 msgid "(suggested)"
 msgstr "(已建議)"
 
-#: r2/lib/menus.py:640
+#: r2/lib/menus.py:647
 msgid "comment refresh"
-msgstr ""
+msgstr "刷新留言"
 
-#: r2/lib/menus.py:692
+#: r2/lib/menus.py:699
 msgid "kind"
 msgstr "種類"
 
-#: r2/lib/menus.py:705
+#: r2/lib/menus.py:712
 msgid "links from"
 msgstr "連結發表時間"
 
-#: r2/lib/menus.py:715
+#: r2/lib/menus.py:722
 msgid "comments from"
 msgstr ""
 
-#: r2/lib/menus.py:720
+#: r2/lib/menus.py:727
 msgid "links and comments from"
 msgstr ""
 
@@ -3087,7 +3102,7 @@ msgstr "配置"
 
 #: r2/lib/permissions.py:81
 msgid "edit settings, sidebar, css, images, and AutoModerator config"
-msgstr "編輯設定, 側欄, Css, 圖片還有自動版主設定"
+msgstr "編輯設定、側欄、css、圖片以及自動板主設定"
 
 #: r2/lib/permissions.py:84 r2/templates/printablebuttons.html:93
 msgid "flair"
@@ -3103,11 +3118,11 @@ msgstr "郵件"
 
 #: r2/lib/permissions.py:89
 msgid "read and reply to moderator mail"
-msgstr "閱讀並回覆至版主信箱"
+msgstr "閱讀並回覆至板主信箱"
 
 #: r2/lib/permissions.py:93
 msgid "use the approve, remove, spam, distinguish, and nsfw buttons"
-msgstr ""
+msgstr "使用批准、移除、垃圾訊息、區分以及 nsfw 按鈕。"
 
 #: r2/lib/permissions.py:98
 msgid "manage the wiki and access to the wiki"
@@ -3117,15 +3132,15 @@ msgstr "維基管理和存取"
 msgid "discovery"
 msgstr "發現"
 
-#: r2/lib/recommender.py:58 r2/lib/strings.py:266 r2/lib/strings.py:271
-#: r2/lib/template_helpers.py:463 r2/templates/searchresultlink.html:97
+#: r2/lib/recommender.py:58 r2/lib/strings.py:267 r2/lib/strings.py:272
+#: r2/lib/template_helpers.py:480 r2/templates/searchresultlink.html:97
 #: r2/templates/subredditstylesheet.html:106
 #: ../../liveupdate/reddit_liveupdate/pages.py:505
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "留言"
 
-#: r2/lib/strings.py:56 r2/lib/template_helpers.py:331
+#: r2/lib/strings.py:56 r2/lib/template_helpers.py:342
 msgid "submitting..."
 msgstr "發送中..."
 
@@ -3139,7 +3154,7 @@ msgstr "%(num)d %(thing)s"
 msgid "%(num)d %(point)s"
 msgstr "%(num)d %(point)s"
 
-#: r2/lib/strings.py:65 r2/public/static/js/link-websockets.js:242
+#: r2/lib/strings.py:65 r2/public/static/js/link-websockets.js:243
 #, python-format
 msgid "%(num)s %(point)s"
 msgstr ""
@@ -3209,13 +3224,13 @@ msgid "below are the subreddits that you have moderator access to."
 msgstr "下列為您擁有版主存取權的版面。"
 
 #: r2/lib/strings.py:97
-msgid "click the `subscribe` or `unsubscribe` buttons to choose which subreddits appear on your front page."
-msgstr "請按「訂閱」或「取消訂閱」按鈕，選擇您的首頁上要顯示哪些看板。"
+msgid "click the `subscribe` or `unsubscribe` buttons to choose which subreddits appear on the home feed."
+msgstr ""
 
 #: r2/lib/strings.py:99
 #, python-format
 msgid "you're searching within the [%(reddit_name)s](%(reddit_link)s) subreddit. you can also search within [all subreddits](%(all_reddits_link)s)"
-msgstr ""
+msgstr "您正在於 [%(reddit_name)s](%(reddit_link)s) 看板內搜尋，您亦可以於 [所有看板](%(all_reddits_link)s) 中搜尋"
 
 #: r2/lib/strings.py:102
 #, python-format
@@ -3234,11 +3249,11 @@ msgstr "到目前為止你獲得了%(score)s點還發了%(num_comments)s篇留�
 
 #: r2/lib/strings.py:106
 msgid "You are submitting a link. The key to a successful submission is interesting content and a descriptive title."
-msgstr "你正要發表一個連結。一篇成功的連結文章，關鍵在於有趣的內容和清楚的標題。"
+msgstr "您正要發表一個連結。一篇成功的連結文章，關鍵在於有趣的內容和清楚的標題。"
 
 #: r2/lib/strings.py:107
 msgid "You are submitting a text-based post. Speak your mind. A title is required, but expanding further in the text field is not. Beginning your title with \"vote up if\" is violation of intergalactic law."
-msgstr "你正要發表以文字為主的文章，請暢所欲言。發文時必須註明標題，但不一定要在文字欄位中長篇大論。使用「如果你...請幫我加分」作為標題，是違反銀河法規的。"
+msgstr "你正要發表以文字為主的文章，請暢所欲言。發文時必須註明標題，但不一定要在文字欄位中長篇大論。使用「如果你…請給予好評」作為標題，是違反守則。"
 
 #: r2/lib/strings.py:108
 msgid "Submit a new link"
@@ -3266,7 +3281,7 @@ msgstr "驗證失敗。請重試"
 
 #: r2/lib/strings.py:114
 msgid "The email verification link you've followed is for a different user. Please log out and switch to that user or try again below."
-msgstr ""
+msgstr "這個電子信箱確認連結是給別的帳戶使用的，請登出切換成該帳戶或稍後再試一次。"
 
 #: r2/lib/strings.py:115
 msgid "Our search machines are under too much load to handle your request right now. :( Sorry for the inconvenience. Try again in a little bit -- but please don't mash reload; that only makes the problem worse."
@@ -3292,7 +3307,7 @@ msgstr "reddit 使用稍微自訂過的 [Markdown](http://daringfireball.net/pro
 
 #: r2/lib/strings.py:120
 msgid "Reddit is in \"emergency read-only mode\" right now. :( You won't be able to log in. We're sorry and are working frantically to fix the problem."
-msgstr ""
+msgstr "Reddit 目前正處於「緊急唯讀模式」。:( 此期間內您將無法登入。很抱歉，我們正積極修復問題中。"
 
 #: r2/lib/strings.py:121
 msgid "this page is temporarily in read-only mode due to heavy traffic."
@@ -3408,7 +3423,7 @@ msgstr ""
 
 #: r2/lib/strings.py:159 r2/templates/archivedinterstitial.html:35
 msgid "This is an archived post. You won't be able to vote or comment."
-msgstr ""
+msgstr "此為已歸檔的貼文。您不能於此貼文評分或留言。"
 
 #: r2/lib/strings.py:160
 msgid "This post is locked. You won't be able to comment."
@@ -3481,108 +3496,112 @@ msgstr ""
 msgid "Filtering /r/all is a feature only available to [reddit gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
 msgstr "過濾 /r/all 僅供擁有 [reddit 金幣](/gold/about)的訂閱者使用。目前顯示來自於 /r/all 未過濾的帖子。"
 
-#: r2/lib/strings.py:267 r2/public/static/js/link-websockets.js:243
+#: r2/lib/strings.py:190
+msgid "Comment may be offensive"
+msgstr ""
+
+#: r2/lib/strings.py:268 r2/public/static/js/link-websockets.js:244
 #: r2/templates/comment.htmllite:59 r2/templates/linkinfobar.html:50
 #: r2/templates/searchresultlink.html:94
 msgid "point"
 msgid_plural "points"
 msgstr[0] "指標"
 
-#: r2/lib/strings.py:270 r2/templates/link.xml:91
+#: r2/lib/strings.py:271 r2/templates/link.xml:91
 #: r2/templates/promotelinkbase.html:107
 msgid "link"
 msgid_plural "links"
 msgstr[0] "連結"
 
-#: r2/lib/strings.py:273 r2/lib/pages/admin_pages.py:99
-#: r2/lib/pages/trafficpages.py:969 r2/templates/allminusinfobar.html:35
-#: r2/templates/filteredinfobar.html:36 r2/templates/sitewidetraffic.html:36
+#: r2/lib/strings.py:274 r2/lib/pages/admin_pages.py:99
+#: r2/lib/pages/trafficpages.py:972 r2/templates/allminusinfobar.html:35
+#: r2/templates/filteredinfobar.html:37 r2/templates/sitewidetraffic.html:36
 #: r2/templates/subreddittrafficreport.html:42
 msgid "subreddit"
 msgid_plural "subreddits"
 msgstr[0] "reddit 版面"
 
-#: r2/lib/strings.py:274
+#: r2/lib/strings.py:275
 msgid "creddit"
 msgid_plural "creddits"
 msgstr[0] "creddits"
 
-#: r2/lib/strings.py:277
+#: r2/lib/strings.py:278
 msgid "reader"
 msgid_plural "readers"
 msgstr[0] "讀者"
 
-#: r2/lib/strings.py:278 r2/templates/searchresultsubreddit.html:62
+#: r2/lib/strings.py:279 r2/templates/searchresultsubreddit.html:62
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "訂閱者"
 
-#: r2/lib/strings.py:279 r2/templates/subreddit.html:80
+#: r2/lib/strings.py:280 r2/templates/subreddit.html:80
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "合格發文者"
 
-#: r2/lib/strings.py:280 r2/templates/subreddit.html:77
+#: r2/lib/strings.py:281 r2/templates/subreddit.html:77 r2/templates/utils.html:811
 msgid "moderator"
 msgid_plural "moderators"
-msgstr[0] "版主"
+msgstr[0] "板主"
 
-#: r2/lib/strings.py:281
+#: r2/lib/strings.py:282
 msgid "user here now"
 msgid_plural "users here now"
 msgstr[0] "人在這裡"
 
-#: r2/lib/strings.py:284
+#: r2/lib/strings.py:285
 msgid "milliseconds"
 msgid_plural "milliseconds"
 msgstr[0] "毫秒"
 
-#: r2/lib/strings.py:285
+#: r2/lib/strings.py:286
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "秒"
 
-#: r2/lib/strings.py:286
+#: r2/lib/strings.py:287
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "分"
 
-#: r2/lib/strings.py:287
+#: r2/lib/strings.py:288
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "小時"
 
-#: r2/lib/strings.py:288 r2/lib/pages/pages.py:540 r2/lib/pages/pages.py:5704
+#: r2/lib/strings.py:289 r2/lib/pages/pages.py:571 r2/lib/pages/pages.py:5942
 #: r2/public/static/js/sponsored.js:1833 r2/public/static/js/sponsored.js:2278
 #: r2/templates/intimeoutinterstitial.html:41 r2/templates/reddittraffic.html:98
 msgid "day"
 msgid_plural "days"
 msgstr[0] "天"
 
-#: r2/lib/strings.py:289 r2/templates/archivedinterstitial.html:40
+#: r2/lib/strings.py:290 r2/templates/archivedinterstitial.html:40
 #: r2/templates/goldpayment.html:191
 msgid "month"
 msgid_plural "months"
 msgstr[0] "月"
 
-#: r2/lib/strings.py:290 r2/templates/goldpayment.html:196
+#: r2/lib/strings.py:291 r2/templates/goldpayment.html:196
 msgid "year"
 msgid_plural "years"
 msgstr[0] "年"
 
 #: r2/lib/system_messages.py:34
 msgid "you are a moderator"
-msgstr "你是個版主"
+msgstr "您是板主"
 
 #: r2/lib/system_messages.py:35
 #, python-format
 msgid "you have been added as a moderator to [%(title)s](%(url)s)."
-msgstr "你已經成為 [%(title)s](%(url)s) 的版主。"
+msgstr "您已經成為 [%(title)s](%(url)s) 的板主。"
 
 #: r2/lib/system_messages.py:40
 #, python-format
 msgid "invitation to moderate %(url)s"
-msgstr "邀請成為版主 %(url)s"
+msgstr "邀請成為板主 %(url)s"
 
 #: r2/lib/system_messages.py:41
 #, python-format
@@ -3590,12 +3609,12 @@ msgid "**gadzooks! you are invited to become a moderator of [%(title)s](%(url)s)
 "*to accept*, visit the [moderators page for %(url)s](%(url)s/about/moderators) and click \"accept\".\n\n"
 "*otherwise,* if you did not expect to receive this, you can simply ignore this invitation or report it."
 msgstr "**我的天啊！您受邀擔任 [%(title)s](%(url)s) 的版主！**\n\n"
-"*如果您要接受*，請造訪 [%(url)s 的版主頁面](%(url)s/about/moderators)，按下「接受」。\n\n"
+"*如果您要接受*，請造訪 [%(url)s 的板主頁面](%(url)s/about/moderators)，按下「接受」。\n\n"
 "*不過*，如果您認為其中可能有問題，可以忽略這則邀請或提出檢舉。"
 
 #: r2/lib/system_messages.py:46
 msgid "moderator invited"
-msgstr "受邀的版主"
+msgstr "受邀的板主"
 
 #: r2/lib/system_messages.py:47
 #, python-format
@@ -3604,12 +3623,12 @@ msgstr "%(user)s 已受到 %(author)s 的邀請管理 %(url)s。"
 
 #: r2/lib/system_messages.py:52
 msgid "moderator added"
-msgstr "新增的版主"
+msgstr "新增的板主"
 
 #: r2/lib/system_messages.py:53
 #, python-format
 msgid "%(user)s has accepted an invitation to become moderator of %(url)s."
-msgstr "%(user)s 已經接受邀請，成為 %(url)s 的版主。"
+msgstr "%(user)s 已經接受邀請，成為 %(url)s 的板主。"
 
 #: r2/lib/system_messages.py:58
 msgid "you are an approved submitter"
@@ -3629,46 +3648,46 @@ msgstr "你可以觀查一個宣傳連結的流量"
 msgid "you have been added to the list of users able to seesee [traffic for the promoted post \"%(title)s\"](%(traffic_url)s)."
 msgstr ""
 
-#: r2/lib/template_helpers.py:330
+#: r2/lib/template_helpers.py:341
 msgid "fetching title..."
-msgstr "正在取得標題"
+msgstr "正在取得標題…"
 
-#: r2/lib/template_helpers.py:332
+#: r2/lib/template_helpers.py:343
 msgid "loading..."
-msgstr "載入中"
+msgstr "載入中…"
 
-#: r2/lib/template_helpers.py:459
+#: r2/lib/template_helpers.py:476
 msgid "comment {verb}"
 msgstr "留言"
 
-#: r2/lib/template_helpers.py:514
+#: r2/lib/template_helpers.py:531
 msgid "child"
 msgid_plural "children"
 msgstr[0] "下層留言"
 
-#: r2/lib/template_helpers.py:724 r2/lib/template_helpers.py:790
+#: r2/lib/template_helpers.py:741 r2/lib/template_helpers.py:807
 msgid "friend"
 msgstr "朋友"
 
-#: r2/lib/template_helpers.py:731
+#: r2/lib/template_helpers.py:748
 msgid "submitter"
 msgstr "原發文者"
 
-#: r2/lib/template_helpers.py:745
+#: r2/lib/template_helpers.py:762
 msgid "reddit admin, speaking officially"
 msgstr "reddit 管理人員，正式發言"
 
-#: r2/lib/template_helpers.py:783
+#: r2/lib/template_helpers.py:800
 #, python-format
-msgid "moderator of /r/%(reddit)s, speaking officially"
-msgstr "/r/%(reddit)s 的版主，正式發言"
+msgid "moderator of %(reddit)s, speaking officially"
+msgstr ""
 
-#: r2/lib/template_helpers.py:797
+#: r2/lib/template_helpers.py:814
 #, python-format
 msgid "%(user)s just celebrated a reddit birthday!"
 msgstr ""
 
-#: r2/lib/template_helpers.py:860 r2/public/static/js/link-websockets.js:256
+#: r2/lib/template_helpers.py:877 r2/public/static/js/link-websockets.js:257
 #: r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "剛剛"
@@ -3689,8 +3708,8 @@ msgstr ""
 msgid "No notes for this user"
 msgstr ""
 
-#: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:182
-#: r2/templates/createsubreddit.html:444
+#: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:187
+#: r2/templates/createsubreddit.html:466
 msgid "domain"
 msgstr "網域"
 
@@ -3698,440 +3717,444 @@ msgstr "網域"
 msgid "IP address"
 msgstr "IP 地址"
 
-#: r2/lib/pages/admin_pages.py:100 r2/models/listing.py:173
+#: r2/lib/pages/admin_pages.py:100 r2/models/listing.py:182
 msgid "user"
 msgstr "使用者"
 
-#: r2/lib/pages/pages.py:194
+#: r2/lib/pages/pages.py:199
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:587
+#: r2/lib/pages/pages.py:618
 msgid "wiki tools"
 msgstr "維基工具"
 
-#: r2/lib/pages/pages.py:713
+#: r2/lib/pages/pages.py:751
 msgid "moderation tools"
 msgstr "版面管理工具"
 
-#: r2/lib/pages/pages.py:801
+#: r2/lib/pages/pages.py:856
 msgid "these subreddits"
 msgstr "這些subreddit"
 
-#: r2/lib/pages/pages.py:815
+#: r2/lib/pages/pages.py:873
 msgid "this subreddit is archived and no longer accepting submissions."
 msgstr "本看板已經歸檔，不再接受發文。"
 
-#: r2/lib/pages/pages.py:817
+#: r2/lib/pages/pages.py:875
 msgid "Submissions disabled"
-msgstr "停止發文"
+msgstr "禁止發文"
 
-#: r2/lib/pages/pages.py:824
+#: r2/lib/pages/pages.py:882
 msgid "Only approved users may post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:827
+#: r2/lib/pages/pages.py:885
 msgid "Anyone can view or comment, but only Reddit Gold members can post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:830
+#: r2/lib/pages/pages.py:888
 msgid "Submissions restricted"
 msgstr "限制發文"
 
-#: r2/lib/pages/pages.py:923
+#: r2/lib/pages/pages.py:990
 msgid "Create your own subreddit"
 msgstr "建立您自己的看板"
 
-#: r2/lib/pages/pages.py:952
+#: r2/lib/pages/pages.py:1020
 #, python-format
 msgid "...and %d more"
 msgstr "...及 %d 更多"
 
-#: r2/lib/pages/pages.py:954
+#: r2/lib/pages/pages.py:1022
 msgid "about moderation team"
 msgstr "關於管理員團隊"
 
-#: r2/lib/pages/pages.py:959 r2/templates/createsubreddit.html:621
+#: r2/lib/pages/pages.py:1027 r2/templates/createsubreddit.html:643
 msgid "message the admins"
 msgstr "傳信給管理員們"
 
-#: r2/lib/pages/pages.py:961 r2/templates/privateinterstitial.html:53
+#: r2/lib/pages/pages.py:1029 r2/templates/privateinterstitial.html:53
 msgid "message the moderators"
 msgstr "寄送訊息給版主"
 
-#: r2/lib/pages/pages.py:984 r2/templates/redditheader.html:63
+#: r2/lib/pages/pages.py:1052 r2/templates/redditheader.html:63
 msgid "Join our Secret Santa tradition"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1000
+#: r2/lib/pages/pages.py:1073
 msgid "Recently viewed links"
 msgstr "最近瀏覽連結"
 
-#: r2/lib/pages/pages.py:1038
+#: r2/lib/pages/pages.py:1111
 msgid "turn admin off"
 msgstr "關掉管理權限"
 
-#: r2/lib/pages/pages.py:1282
+#: r2/lib/pages/pages.py:1347
+msgid "careers"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1355
 msgid "FAQ"
 msgstr "常見問題"
 
-#: r2/lib/pages/pages.py:1293
+#: r2/lib/pages/pages.py:1366
 msgid "Reddit for iPhone"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1295
+#: r2/lib/pages/pages.py:1368
 msgid "Reddit for Android"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1300
+#: r2/lib/pages/pages.py:1373
 msgid "apps & tools"
 msgstr "應用程式 & 工具"
 
-#: r2/lib/pages/pages.py:1306
+#: r2/lib/pages/pages.py:1379
 msgid "redditgifts"
 msgstr "reddit禮物"
 
-#: r2/lib/pages/pages.py:1308
+#: r2/lib/pages/pages.py:1381
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1621
+#: r2/lib/pages/pages.py:1690
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s 郵件"
 
-#: r2/lib/pages/pages.py:1680
+#: r2/lib/pages/pages.py:1753
 msgid "ads preferences"
-msgstr ""
+msgstr "廣告設定"
 
-#: r2/lib/pages/pages.py:1733
+#: r2/lib/pages/pages.py:1805
 msgid "sign up or log in"
 msgstr "註冊或登入"
 
-#: r2/lib/pages/pages.py:1815
+#: r2/lib/pages/pages.py:1887
 msgid "request for permission"
 msgstr "要求許可"
 
-#: r2/lib/pages/pages.py:1817
+#: r2/lib/pages/pages.py:1889
 msgid "permission"
 msgstr "全縣"
 
-#: r2/lib/pages/pages.py:1852 r2/templates/searchform.html:74
+#: r2/lib/pages/pages.py:1925 r2/templates/searchform.html:74
 msgid "enable NSFW results"
-msgstr "啟用 NSFW 產物"
+msgstr "顯示 NSFW 結果"
 
-#: r2/lib/pages/pages.py:1875
+#: r2/lib/pages/pages.py:1948
 msgid "bummer"
 msgstr "糟糕"
 
-#: r2/lib/pages/pages.py:1887
+#: r2/lib/pages/pages.py:1960
 msgid "this page is no longer available due to a copyright claim."
 msgstr "由於版權申訴，本頁面已經無法使用。"
 
-#: r2/lib/pages/pages.py:2168
+#: r2/lib/pages/pages.py:2264
 msgid "comments disabled"
 msgstr "留言已停用"
 
-#: r2/lib/pages/pages.py:2669
+#: r2/lib/pages/pages.py:2791
 #, python-format
 msgid "about %(site)s"
 msgstr "關於 %(site)s"
 
-#: r2/lib/pages/pages.py:2692
+#: r2/lib/pages/pages.py:2815
 msgid "search subreddits by name"
 msgstr "依名稱搜尋看板"
 
-#: r2/lib/pages/pages.py:2736
+#: r2/lib/pages/pages.py:2859
 #, python-format
-msgid "your front page subreddits (%s)"
-msgstr "您的首頁看板 (%s)"
+msgid "home feed subreddits (%s)"
+msgstr ""
 
-#: r2/lib/pages/pages.py:2824 r2/templates/createsubreddit.html:453
+#: r2/lib/pages/pages.py:2947 r2/templates/createsubreddit.html:475
 msgid "what's this?"
 msgstr "這是什麼?"
 
-#: r2/lib/pages/pages.py:2825
+#: r2/lib/pages/pages.py:2948
 msgid "trophy case"
 msgstr "獎品展示櫃"
 
-#: r2/lib/pages/pages.py:2835
+#: r2/lib/pages/pages.py:2958
 msgid "public multireddits"
 msgstr "公開看板群組"
 
-#: r2/lib/pages/pages.py:2842
+#: r2/lib/pages/pages.py:2965
 msgid "hidden multireddits"
+msgstr "隱藏的看板群組"
+
+#: r2/lib/pages/pages.py:2988
+msgid "creator of"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2864
+#: r2/lib/pages/pages.py:3013
 msgid "moderator of"
 msgstr "版主"
 
-#: r2/lib/pages/pages.py:2931
+#: r2/lib/pages/pages.py:3089
 msgid "less than a day"
 msgstr "少於一天"
 
-#: r2/lib/pages/pages.py:2947
+#: r2/lib/pages/pages.py:3105
 #, python-format
 msgid "%(creddits)s gold creddit to give"
 msgid_plural "%(creddits)s gold creddits to give"
 msgstr[0] "可花 %(creddits)s 代幣"
 
-#: r2/lib/pages/pages.py:2954
+#: r2/lib/pages/pages.py:3112
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] ""
 
-#: r2/lib/pages/pages.py:2963
+#: r2/lib/pages/pages.py:3121
 #, python-format
 msgid "give reddit gold to %(user)s to show your appreciation"
 msgstr "贈送 %(user)s reddit 金幣以表達您的讚賞"
 
-#: r2/lib/pages/pages.py:2967
+#: r2/lib/pages/pages.py:3125
 msgid "get extra features and help support reddit with a reddit gold subscription"
 msgstr "購買reddit 金幣以獲得額外的功能與協助"
 
-#: r2/lib/pages/pages.py:2971
+#: r2/lib/pages/pages.py:3129
 msgid "renew your reddit gold"
 msgstr "更新您的 reddit 金幣"
 
-#: r2/lib/pages/pages.py:2986
+#: r2/lib/pages/pages.py:3144
 #, python-format
 msgid "you have helped pay for *%(time)s* of reddit server time."
 msgstr "你剛幫付了我們 *%(time)s* 的 reddit 伺服器時數。"
 
-#: r2/lib/pages/pages.py:2987
+#: r2/lib/pages/pages.py:3145
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of reddit server time."
 msgstr "/u/%(user)s 幫忙付了 *%%(time)s* 的伺服器時數。"
 
-#: r2/lib/pages/pages.py:2990
+#: r2/lib/pages/pages.py:3148
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2992
+#: r2/lib/pages/pages.py:3150
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of reddit server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3072
+#: r2/lib/pages/pages.py:3230
 msgid "reddit is a platform for internet communities"
 msgstr "reddit 是一個網路社群平台"
 
-#: r2/lib/pages/pages.py:3073
+#: r2/lib/pages/pages.py:3231
 msgid "where your votes shape what the world is talking about."
 msgstr "在這裡，您對每則發言的評分，將會影響全世界的話題。"
 
-#: r2/lib/pages/pages.py:3387 r2/lib/pages/pages.py:3511
+#: r2/lib/pages/pages.py:3552 r2/lib/pages/pages.py:3686
 msgid "add subreddit"
 msgstr "添加看板"
 
-#: r2/lib/pages/pages.py:3425
-#, python-format
-msgid "raise it to %s"
-msgstr "提高至 %s"
-
-#: r2/lib/pages/pages.py:3427 r2/lib/pages/pages.py:3436
-#, python-format
-msgid "%s visible"
-msgstr "%s 可見"
-
-#: r2/lib/pages/pages.py:3434
+#: r2/lib/pages/pages.py:3594
 #, python-format
 msgid "%(bonus)s bonus subreddits"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3837
+#: r2/lib/pages/pages.py:3597 r2/lib/pages/pages.py:3604
+#, python-format
+msgid "%s visible"
+msgstr "%s 可見"
+
+#: r2/lib/pages/pages.py:3601
+#, python-format
+msgid "raise it to %s"
+msgstr "提高至 %s"
+
+#: r2/lib/pages/pages.py:4012
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr ""
 
-#: r2/lib/pages/pages.py:4094 r2/templates/searchform.html:62
+#: r2/lib/pages/pages.py:4275 r2/templates/searchform.html:62
 #: r2/templates/sponsorlookupuser.html:32
 msgid "search"
 msgstr "搜尋"
 
-#: r2/lib/pages/pages.py:4565 r2/models/modaction.py:147
+#: r2/lib/pages/pages.py:4784 r2/models/modaction.py:152
 #: r2/templates/printablebuttons.html:602
 msgid "muted"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4583
+#: r2/lib/pages/pages.py:4802
 msgid "invited"
 msgstr "已邀請"
 
-#: r2/lib/pages/pages.py:4644
+#: r2/lib/pages/pages.py:4863
 msgid "grant flair"
 msgstr "賦予標籤"
 
-#: r2/lib/pages/pages.py:4646
+#: r2/lib/pages/pages.py:4865
 msgid "user flair templates"
 msgstr "使用者標籤範本"
 
-#: r2/lib/pages/pages.py:4648
+#: r2/lib/pages/pages.py:4867
 msgid "link flair templates"
 msgstr "連結標籤範本"
 
-#: r2/lib/pages/pages.py:5027 r2/templates/flairpane.html:76
+#: r2/lib/pages/pages.py:5260 r2/templates/flairpane.html:76
 msgid "none"
 msgstr "無"
 
-#: r2/lib/pages/pages.py:5169
+#: r2/lib/pages/pages.py:5402
 msgid "suggestions:"
 msgstr "建議："
 
-#: r2/lib/pages/pages.py:5179
+#: r2/lib/pages/pages.py:5412
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
-msgstr ""
+msgstr "於此頁面建立您的廣告。有任何疑惑？到 [幫助中心](%(help_center)s) 或 [/r/selfserve](%(selfserve)s) 看看吧。"
 
-#: r2/lib/pages/pages.py:5908
+#: r2/lib/pages/pages.py:6146
 msgid "start date"
 msgstr "開始日期"
 
-#: r2/lib/pages/pages.py:5909
+#: r2/lib/pages/pages.py:6147
 msgid "end date"
 msgstr "結束日期"
 
-#: r2/lib/pages/pages.py:5911 r2/templates/createsubreddit.html:267
+#: r2/lib/pages/pages.py:6149 r2/templates/createsubreddit.html:289
 msgid "links"
 msgstr "連結"
 
-#: r2/lib/pages/pages.py:5913 r2/lib/pages/pages.py:5932
+#: r2/lib/pages/pages.py:6151 r2/lib/pages/pages.py:6170
 #: r2/templates/promotedlinktraffic.html:41 r2/templates/timeserieschart.html:37
 msgid "date"
 msgstr "日期"
 
-#: r2/lib/pages/pages.py:5916 r2/templates/promotedlinktraffic.html:129
+#: r2/lib/pages/pages.py:6154 r2/templates/promotedlinktraffic.html:129
 #: r2/templates/refundpage.html:41 r2/templates/sponsorlookupuser.html:34
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5916 r2/lib/pages/pages.py:5935
+#: r2/lib/pages/pages.py:6154 r2/lib/pages/pages.py:6173
 #: r2/templates/promotelinkbase.html:1019
 msgid "owner"
 msgstr "所有者"
 
-#: r2/lib/pages/pages.py:5916 r2/templates/newlink.html:157
-#: r2/templates/newlink.html:241 r2/templates/promotelinkbase.html:127
+#: r2/lib/pages/pages.py:6154 r2/templates/newlink.html:158
+#: r2/templates/newlink.html:242 r2/templates/promotelinkbase.html:127
 msgid "url"
 msgstr "網址"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:6155
 msgid "upvotes"
-msgstr "推"
+msgstr "好評"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:6155
 msgid "downvotes"
-msgstr "噓"
+msgstr "負評"
 
-#: r2/lib/pages/pages.py:5917 r2/lib/pages/trafficpages.py:287
-#: r2/lib/pages/trafficpages.py:918 r2/templates/promotedlinktraffic.html:46
+#: r2/lib/pages/pages.py:6155 r2/lib/pages/trafficpages.py:287
+#: r2/lib/pages/trafficpages.py:921 r2/templates/promotedlinktraffic.html:46
 #: r2/templates/promotedlinktraffic.html:141
 msgid "clicks"
 msgstr "點擊"
 
-#: r2/lib/pages/pages.py:5917 r2/lib/pages/trafficpages.py:284
-#: r2/lib/pages/trafficpages.py:408 r2/lib/pages/trafficpages.py:917
+#: r2/lib/pages/pages.py:6155 r2/lib/pages/trafficpages.py:284
+#: r2/lib/pages/trafficpages.py:411 r2/lib/pages/trafficpages.py:920
 #: r2/templates/adverttrafficsummary.html:36
 #: r2/templates/promotedlinktraffic.html:45 r2/templates/promotelinkbase.html:831
 msgid "impressions"
 msgstr "印象"
 
-#: r2/lib/pages/pages.py:5930
+#: r2/lib/pages/pages.py:6168
 msgid "campaigns"
 msgstr "活動"
 
-#: r2/lib/pages/pages.py:5935 r2/templates/promotepost.html:13
+#: r2/lib/pages/pages.py:6173 r2/templates/promotepost.html:13
 msgid "link id"
 msgstr "連結 id"
 
-#: r2/lib/pages/pages.py:5935
+#: r2/lib/pages/pages.py:6173
 msgid "campaign id"
 msgstr "活動 id"
 
-#: r2/lib/pages/pages.py:5935 r2/templates/promotedlinktraffic.html:134
+#: r2/lib/pages/pages.py:6173 r2/templates/promotedlinktraffic.html:134
 #: r2/templates/refundpage.html:53
 msgid "target"
 msgstr "目標"
 
-#: r2/lib/pages/pages.py:5936
+#: r2/lib/pages/pages.py:6174
 msgid "total_budget_pennies"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5936
+#: r2/lib/pages/pages.py:6174
 msgid "frontpage clicks"
 msgstr "頭版點擊"
 
-#: r2/lib/pages/pages.py:5937
+#: r2/lib/pages/pages.py:6175
 msgid "frontpage impressions"
 msgstr "頭版印象"
 
-#: r2/lib/pages/pages.py:5937
+#: r2/lib/pages/pages.py:6175
 msgid "subreddit clicks"
 msgstr "看板點擊"
 
-#: r2/lib/pages/pages.py:5938
+#: r2/lib/pages/pages.py:6176
 msgid "subreddit impressions"
 msgstr "看板印象"
 
-#: r2/lib/pages/pages.py:5938 r2/lib/pages/trafficpages.py:414
+#: r2/lib/pages/pages.py:6176 r2/lib/pages/trafficpages.py:417
 msgid "total clicks"
 msgstr "總共點閱率"
 
-#: r2/lib/pages/pages.py:5939
+#: r2/lib/pages/pages.py:6177
 msgid "total impressions"
 msgstr "總曝光次數"
 
-#: r2/lib/pages/pages.py:6148 r2/templates/accountactivitybox.html:24
+#: r2/lib/pages/pages.py:6386 r2/templates/accountactivitybox.html:24
 msgid "account activity"
 msgstr "帳號活動"
 
-#: r2/lib/pages/pages.py:6281
-msgid "subscribed"
-msgstr "已訂閱"
+#: r2/lib/pages/pages.py:6529
+msgid "the home feed"
+msgstr ""
 
-#: r2/lib/pages/pages.py:6282 r2/templates/preffeeds.html:57
-msgid "your front page"
-msgstr "您的首頁"
-
-#: r2/lib/pages/pages.py:6285 r2/lib/pages/pages.py:6290
+#: r2/lib/pages/pages.py:6532 r2/lib/pages/pages.py:6537
 #: r2/templates/preffeeds.html:80 r2/templates/preffeeds.html:103
 msgid "everything"
 msgstr "全部"
 
-#: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
+#: r2/lib/pages/pages.py:6535 r2/lib/pages/pages.py:6538
 msgid "from all subreddits"
 msgstr "來自所有看板"
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6540
 msgid "moderating"
 msgstr "正管理著"
 
-#: r2/lib/pages/pages.py:6294
+#: r2/lib/pages/pages.py:6541
 msgid "subreddits you mod"
 msgstr "您擔任版主的看板"
 
-#: r2/lib/pages/pages.py:6300
+#: r2/lib/pages/pages.py:6547
 msgid "gold perks"
 msgstr "金幣利益"
 
-#: r2/lib/pages/pages.py:6314
+#: r2/lib/pages/pages.py:6561
 msgid "explore multis"
 msgstr "探索看板群組"
 
-#: r2/lib/pages/pages.py:6448
+#: r2/lib/pages/pages.py:6699
 msgid "your subscribed subreddits"
 msgstr "你已訂閱的看板"
 
-#: r2/lib/pages/pages.py:6561
+#: r2/lib/pages/pages.py:6795
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6565
+#: r2/lib/pages/pages.py:6799
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
@@ -4141,7 +4164,7 @@ msgstr ""
 msgid "uniques by %s"
 msgstr "%s 的不重複造訪數"
 
-#: r2/lib/pages/trafficpages.py:140 r2/lib/pages/trafficpages.py:970
+#: r2/lib/pages/trafficpages.py:140 r2/lib/pages/trafficpages.py:973
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34 r2/templates/reddittraffic.html:99
 #: r2/templates/sitewidetraffic.html:37 r2/templates/subreddittrafficreport.html:43
@@ -4153,7 +4176,7 @@ msgstr "不重複訪客"
 msgid "pageviews by %s"
 msgstr "%s 的頁面瀏覽數"
 
-#: r2/lib/pages/trafficpages.py:143 r2/lib/pages/trafficpages.py:971
+#: r2/lib/pages/trafficpages.py:143 r2/lib/pages/trafficpages.py:974
 #: r2/templates/languagetrafficsummary.html:35 r2/templates/reddittraffic.html:100
 #: r2/templates/sitewidetraffic.html:38 r2/templates/subreddittrafficreport.html:44
 msgid "pageviews"
@@ -4180,46 +4203,46 @@ msgstr "每日總計點擊數"
 msgid "ad totals"
 msgstr "廣告總計數"
 
-#: r2/lib/pages/trafficpages.py:328 r2/models/promo.py:360
+#: r2/lib/pages/trafficpages.py:331 r2/models/promo.py:360
 msgid "frontpage"
 msgstr "首頁"
 
-#: r2/lib/pages/trafficpages.py:407
+#: r2/lib/pages/trafficpages.py:410
 #, python-format
 msgid "impressions by %s"
 msgstr "每%s曝光次數"
 
-#: r2/lib/pages/trafficpages.py:411
+#: r2/lib/pages/trafficpages.py:414
 msgid "unique clicks"
 msgstr "不重複點擊"
 
-#: r2/lib/pages/trafficpages.py:413
+#: r2/lib/pages/trafficpages.py:416
 #, python-format
 msgid "clicks by %s"
 msgstr "%s 的點擊數"
 
-#: r2/lib/pages/trafficpages.py:461
+#: r2/lib/pages/trafficpages.py:464
 msgid "subscriptions by day"
 msgstr "每日訂閱數"
 
-#: r2/lib/pages/trafficpages.py:462
+#: r2/lib/pages/trafficpages.py:465
 msgid "subscriptions"
 msgstr "訂閱"
 
-#: r2/lib/pages/trafficpages.py:756 r2/templates/promotedlinktraffic.html:63
+#: r2/lib/pages/trafficpages.py:759 r2/templates/promotedlinktraffic.html:63
 msgid "total"
 msgstr "總計"
 
-#: r2/lib/pages/trafficpages.py:916
+#: r2/lib/pages/trafficpages.py:919
 msgid "date and time (UTC)"
 msgstr "日期與時間(UTC)"
 
-#: r2/lib/pages/trafficpages.py:919
+#: r2/lib/pages/trafficpages.py:922
 msgid "click-through rate (%)"
 msgstr "點閱率 (%)"
 
-#: r2/lib/pages/trafficpages.py:926 r2/templates/promotedlinktraffic.html:43
-#: r2/templates/promotedlinktraffic.html:137 r2/templates/promotelinkedit.html:167
+#: r2/lib/pages/trafficpages.py:929 r2/templates/promotedlinktraffic.html:43
+#: r2/templates/promotedlinktraffic.html:137 r2/templates/promotelinkedit.html:174
 msgid "spent"
 msgstr "已支付"
 
@@ -4275,135 +4298,135 @@ msgstr "本頁面受到限制，只有版主才能編輯。"
 msgid "revisions"
 msgstr "修訂"
 
-#: r2/lib/pages/wiki.py:202
+#: r2/lib/pages/wiki.py:204
 #, python-format
-msgid "Viewing recent revisions for /r/%s"
+msgid "Viewing recent revisions for %s"
 msgstr ""
 
-#: r2/lib/pages/wiki.py:208
+#: r2/lib/pages/wiki.py:213
 #, python-format
-msgid "Viewing pages for /r/%s"
-msgstr ""
-
-#: r2/lib/pages/wiki.py:209
-msgid "Below is a list of pages in this wiki visible to you in this subreddit."
+msgid "Viewing pages for %s"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:215
+msgid "Below is a list of pages in this wiki visible to you in this subreddit."
+msgstr ""
+
+#: r2/lib/pages/wiki.py:221
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:53
 msgid "discussions"
 msgstr "討論"
 
-#: r2/lib/pages/wiki.py:216
+#: r2/lib/pages/wiki.py:222
 msgid "Discussions are site-wide links to this wiki page."
 msgstr ""
 
-#: r2/lib/pages/wiki.py:217
+#: r2/lib/pages/wiki.py:223
 msgid "Submit a link to this wiki page or see other discussions about this wiki page."
 msgstr ""
 
-#: r2/lib/validator/validator.py:2086
+#: r2/lib/validator/validator.py:2094
 #, python-format
 msgid "%(min)d to any"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2088
+#: r2/lib/validator/validator.py:2096
 #, python-format
 msgid "any to %(max)d"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2090
+#: r2/lib/validator/validator.py:2098
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)d 至 %(max)d"
 
-#: r2/lib/validator/validator.py:2808
+#: r2/lib/validator/validator.py:2827
 msgid "please provide a first name"
 msgstr "請提供名字"
 
-#: r2/lib/validator/validator.py:2810
+#: r2/lib/validator/validator.py:2829
 msgid "please provide a last name"
 msgstr "請提供姓"
 
-#: r2/lib/validator/validator.py:2812
+#: r2/lib/validator/validator.py:2831
 msgid "please provide an address"
 msgstr "請輸入地址"
 
-#: r2/lib/validator/validator.py:2814
+#: r2/lib/validator/validator.py:2833
 msgid "please provide your city"
 msgstr "請輸入城市"
 
-#: r2/lib/validator/validator.py:2816
+#: r2/lib/validator/validator.py:2835
 msgid "please provide your state"
 msgstr "請提供您所處的州"
 
-#: r2/lib/validator/validator.py:2818
+#: r2/lib/validator/validator.py:2837
 msgid "please provide your zip or post code"
 msgstr "請輸入您的郵遞區號"
 
-#: r2/lib/validator/validator.py:2820
+#: r2/lib/validator/validator.py:2839
 msgid "please provide your country"
 msgstr "請提供你的國家"
 
-#: r2/lib/validator/validator.py:2837
+#: r2/lib/validator/validator.py:2856
 #, python-format
 msgid "max length %d characters"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2859
+#: r2/lib/validator/validator.py:2878
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "信用卡號碼應包含13到16個數字"
 
-#: r2/lib/validator/validator.py:2864
+#: r2/lib/validator/validator.py:2883
 msgid "dates should be YYYY-MM"
 msgstr "日期格式應該符合 YYYY-MM"
 
-#: r2/lib/validator/validator.py:2872
+#: r2/lib/validator/validator.py:2891
 msgid "month must be in the range 01..12"
 msgstr "月份必須在 01 到 12 之間"
 
-#: r2/lib/validator/validator.py:2875
+#: r2/lib/validator/validator.py:2894
 msgid "expiration date must be in the future"
 msgstr "有效日期必須是未來的日期"
 
-#: r2/lib/validator/validator.py:2880
+#: r2/lib/validator/validator.py:2899
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "信用卡確認碼應該是3或4個數字"
 
-#: r2/lib/validator/validator.py:2918
+#: r2/lib/validator/validator.py:2937
 msgid "a user by name"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2933
+#: r2/lib/validator/validator.py:2952
 msgid "a [fullname](#fullname) of a link"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3035
+#: r2/lib/validator/validator.py:3054
 msgid "an app"
 msgstr "應用程式"
 
-#: r2/lib/validator/validator.py:3052
+#: r2/lib/validator/validator.py:3071
 msgid "an app developed by the user"
 msgstr "由使用者開發的應用程式"
 
-#: r2/lib/validator/validator.py:3275
+#: r2/lib/validator/validator.py:3304
 msgid "no spaces allowed"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3277
+#: r2/lib/validator/validator.py:3306
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "無效字母: '%s'"
 
-#: r2/lib/validator/validator.py:3279
+#: r2/lib/validator/validator.py:3308
 msgid "can't start with a '_'"
 msgstr "不能以 '_' 開始"
 
-#: r2/lib/validator/validator.py:3281
+#: r2/lib/validator/validator.py:3310
 msgid "that name is too short"
 msgstr "名字太短"
 
-#: r2/lib/validator/validator.py:3283
+#: r2/lib/validator/validator.py:3312
 msgid "that name is too long"
 msgstr "名字太長"
 
@@ -4423,43 +4446,43 @@ msgstr ""
 msgid "the starting point revision for this edit"
 msgstr ""
 
-#: r2/models/admintools.py:304
+#: r2/models/admintools.py:326
 #, python-format
 msgid "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, or suggestions about reddit gold, please write to us at %(gold_email)s. Your feedback would be much appreciated.\n\n"
 "Thank you for your past patronage."
 msgstr ""
 
-#: r2/models/admintools.py:325
+#: r2/models/admintools.py:347
 msgid "Your reddit gold subscription has expired."
 msgstr "你的reddit 金幣已到期。"
 
-#: r2/models/admintools.py:326
+#: r2/models/admintools.py:348
 msgid "Your subscription to reddit gold has expired."
-msgstr ""
+msgstr "您的reddit gold訂閱已經到期。"
 
-#: r2/models/admintools.py:338
+#: r2/models/admintools.py:360
 msgid "Your reddit gold subscription is about to expire!"
-msgstr ""
+msgstr "您的reddit gold訂閱即將到期！"
 
-#: r2/models/admintools.py:340
+#: r2/models/admintools.py:362
 msgid "Your subscription to reddit gold will be expiring soon."
-msgstr ""
+msgstr "您的reddit gold訂閱即將到期。"
 
-#: r2/models/builder.py:312
+#: r2/models/builder.py:337
 msgid "a moderator"
 msgstr "版主"
 
-#: r2/models/builder.py:315
+#: r2/models/builder.py:340
 #, python-format
 msgid "approved by %(who)s at %(when)s"
-msgstr ""
+msgstr "於 %(when)s 由 %(who)s 核准"
 
-#: r2/models/builder.py:319
+#: r2/models/builder.py:344
 #, python-format
 msgid "approved by %s"
 msgstr "由 %s 核准"
 
-#: r2/models/gold.py:547 r2/templates/comment.html:106
+#: r2/models/gold.py:547 r2/templates/comment.html:107
 #: r2/templates/comment.htmllite:47 r2/templates/comment.xml:31
 #: r2/templates/comment.xml:32 r2/templates/comment.xml:35 r2/templates/link.xml:40
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateaccount.html:4
@@ -4476,7 +4499,7 @@ msgstr[0] "reddit 網友因為這篇留言而送給您 %(months)d 個月份的 r
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this submission."
 msgid_plural "redditors have gifted you %(months)d months of reddit gold for this submission."
-msgstr[0] ""
+msgstr[0] "redditor對您這篇發文給予了 %(months)d 月的reddit gold。"
 
 #: r2/models/gold.py:568
 #, python-format
@@ -4502,203 +4525,213 @@ msgid "a redditor has gifted reddit gold to %(recipient)s for this submission."
 msgid_plural "redditors have gifted %(months)d months of reddit gold to %(recipient)s for this submission."
 msgstr[0] ""
 
-#: r2/models/link.py:1074
+#: r2/models/link.py:1093
 #, python-format
 msgid "by %(author)s to %(reddit)s"
 msgstr "由 %(author)s 發表至 %(reddit)s"
 
-#: r2/models/link.py:1077 r2/templates/adminnotessidebar.html:47
+#: r2/models/link.py:1096 r2/templates/adminnotessidebar.html:47
 #, python-format
 msgid "by %(author)s"
 msgstr "由 %(author)s 發表"
 
-#: r2/models/link.py:1081
+#: r2/models/link.py:1100
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr ""
 
-#: r2/models/link.py:1085
+#: r2/models/link.py:1104
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(reddit)s"
-msgstr ""
+msgstr "%(author)s 於 %(when)s %(lastedited)s 發表至 %(reddit)s"
 
-#: r2/models/link.py:1088
+#: r2/models/link.py:1107
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
-msgstr ""
+msgstr "%(author)s 於 %(when)s %(lastedited)s 發表"
 
-#: r2/models/link.py:1093
+#: r2/models/link.py:1112
 #, python-format
 msgid "%(score)s submitted %(when)s"
-msgstr ""
+msgstr "於%(when)s提交了%(score)s"
 
-#: r2/models/link.py:1096
+#: r2/models/link.py:1115
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(reddit)s"
-msgstr ""
+msgstr "%(author)s 於 %(when)s 發表至 %(reddit)s"
 
-#: r2/models/link.py:1099
+#: r2/models/link.py:1118
 #, python-format
 msgid "submitted %(when)s by %(author)s"
+msgstr "%(author)s 於 %(when)s 發表"
+
+#: r2/models/link.py:1581
+#, python-format
+msgid "submitted %(when)s by Reddit"
 msgstr ""
 
-#: r2/models/link.py:2058
+#: r2/models/link.py:1601
+#, python-format
+msgid "submitted %(when)s by %(link_subreddit)s"
+msgstr ""
+
+#: r2/models/link.py:2137
 #, python-format
 msgid "%(link)s by %(author)s [promoted post]"
-msgstr ""
+msgstr "%(link)s 由 %(author)s 發佈 [推廣貼文]"
 
-#: r2/models/link.py:2060
+#: r2/models/link.py:2139
 #, python-format
 msgid "%(link)s by %(author)s in %(subreddit)s"
-msgstr ""
+msgstr "%(link)s 由 %(author)s 於 %(subreddit)s 發佈"
 
-#: r2/models/link.py:2087
+#: r2/models/link.py:2166
 msgid "comment score below threshold"
 msgstr "留言分數低於臨界標準"
 
-#: r2/models/link.py:2092
+#: r2/models/link.py:2171
 msgid "blocked user"
-msgstr "封鎖的使用者"
+msgstr "已封鎖的會員"
 
-#: r2/models/link.py:2681
+#: r2/models/link.py:2778
 msgid "username mention"
 msgstr "使用者名稱提及"
 
-#: r2/models/link.py:2684 r2/models/link.py:2746
+#: r2/models/link.py:2781 r2/models/link.py:2844
 #, python-format
 msgid "from %(author)s via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2698
+#: r2/models/link.py:2795
 msgid "[message from blocked subreddit]"
-msgstr ""
+msgstr "[來自封鎖了的看板的訊息]"
 
-#: r2/models/link.py:2718 r2/models/link.py:2724
+#: r2/models/link.py:2816 r2/models/link.py:2822
 #, python-format
 msgid "subreddit message via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2728 r2/models/link.py:2751
+#: r2/models/link.py:2826 r2/models/link.py:2849
 #, python-format
 msgid "to %(dest)s via %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2732 r2/models/link.py:2757
+#: r2/models/link.py:2830 r2/models/link.py:2855
 #, python-format
 msgid "from %(author)s via %(subreddit)s to %(dest)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2749
+#: r2/models/link.py:2847
 #, python-format
 msgid "to %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2754
+#: r2/models/link.py:2852
 #, python-format
 msgid "from %(author)s to %(subreddit)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2773
+#: r2/models/link.py:2871
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2775
+#: r2/models/link.py:2873
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2777
+#: r2/models/link.py:2875
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2801
+#: r2/models/link.py:2899
 msgid "[message from blocked user]"
-msgstr "[從被封鎖的使用者傳來的訊息]"
+msgstr "[來自被封鎖的會員傳來的訊息]"
 
-#: r2/models/link.py:2802
+#: r2/models/link.py:2900
 msgid "[unblock user to see this message]"
-msgstr "[取消封鎖使用者以查看訊息]"
+msgstr "[取消封鎖會員以查看訊息]"
 
-#: r2/models/listing.py:173
+#: r2/models/listing.py:182
 msgid "note"
 msgstr "註記"
 
-#: r2/models/listing.py:173
+#: r2/models/listing.py:182
 msgid "friendship"
 msgstr "友情"
 
-#: r2/models/listing.py:177
+#: r2/models/listing.py:186
 msgid "add a friend"
 msgstr "新增朋友"
 
-#: r2/models/listing.py:194
+#: r2/models/listing.py:203
 msgid "Trusted users"
 msgstr ""
 
-#: r2/models/listing.py:207
+#: r2/models/listing.py:216
 msgid "blocked users"
-msgstr "封鎖的使用者"
+msgstr "已封鎖的會員"
 
-#: r2/models/listing.py:238
+#: r2/models/listing.py:247
 #, python-format
-msgid "users banned from /r/%(subreddit)s"
+msgid "users banned from %(subreddit)s"
 msgstr ""
 
-#: r2/models/listing.py:269
+#: r2/models/listing.py:278
 #, python-format
-msgid "users muted from /r/%(subreddit)s"
+msgid "users muted from %(subreddit)s"
 msgstr ""
 
-#: r2/models/listing.py:287
+#: r2/models/listing.py:296
 msgid "ban wiki contibutors"
 msgstr ""
 
-#: r2/models/listing.py:291
+#: r2/models/listing.py:300
 #, python-format
-msgid "wiki contibutors banned from /r/%(subreddit)s"
+msgid "wiki contibutors banned from %(subreddit)s"
 msgstr ""
 
-#: r2/models/listing.py:299
+#: r2/models/listing.py:308
 #, python-format
-msgid "approved submitters for /r/%(subreddit)s"
+msgid "approved submitters for %(subreddit)s"
 msgstr ""
 
-#: r2/models/listing.py:304
+#: r2/models/listing.py:313
 msgid "add approved submitter"
 msgstr "新增合格發文者"
 
-#: r2/models/listing.py:311
+#: r2/models/listing.py:320
 #, python-format
-msgid "approved wiki contributors for /r/%(subreddit)s"
+msgid "approved wiki contributors for %(subreddit)s"
 msgstr ""
 
-#: r2/models/listing.py:316
+#: r2/models/listing.py:325
 msgid "add approved wiki contributor"
 msgstr ""
 
-#: r2/models/listing.py:320 r2/models/modaction.py:77
+#: r2/models/listing.py:329 r2/models/modaction.py:80
 msgid "invite moderator"
 msgstr "邀請版主"
 
-#: r2/models/listing.py:321 r2/templates/modlisting.html:33
+#: r2/models/listing.py:330 r2/templates/modlisting.html:33
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
 msgstr "您是此看板的版主。%(action)s"
 
-#: r2/models/listing.py:337
+#: r2/models/listing.py:346
 #, python-format
 msgid "invited moderators for %(subreddit)s"
 msgstr ""
 
-#: r2/models/listing.py:342
+#: r2/models/listing.py:351
 msgid "force add moderator"
 msgstr ""
 
-#: r2/models/listing.py:358
+#: r2/models/listing.py:373
 #, python-format
-msgid "moderators of /r/%(subreddit)s"
+msgid "moderators of %(subreddit)s"
 msgstr ""
 
 #: r2/models/mail_queue.py:356
@@ -4714,7 +4747,7 @@ msgstr "[意見] 來自 %(user)s 的意見"
 #: r2/models/mail_queue.py:358
 #, python-format
 msgid "[advertising] feedback from '%(user)s'"
-msgstr ""
+msgstr "[advertising] 來自 '%(user)s' 的意見回饋"
 
 #: r2/models/mail_queue.py:359
 msgid "[reddit] email removal notice"
@@ -4828,508 +4861,516 @@ msgstr ""
 msgid "[reddit] Legal user export complete"
 msgstr ""
 
-#: r2/models/modaction.py:69
+#: r2/models/modaction.py:70
 msgid "ban user"
 msgstr "禁止使用者"
 
-#: r2/models/modaction.py:70
+#: r2/models/modaction.py:71
 msgid "unban user"
 msgstr "取消禁止使用者"
 
-#: r2/models/modaction.py:71
+#: r2/models/modaction.py:72
+msgid "spam post"
+msgstr ""
+
+#: r2/models/modaction.py:73
 msgid "remove post"
 msgstr "移除發文"
 
-#: r2/models/modaction.py:72
+#: r2/models/modaction.py:74
 msgid "approve post"
 msgstr "核准發文"
 
-#: r2/models/modaction.py:73
+#: r2/models/modaction.py:75
+msgid "spam comment"
+msgstr ""
+
+#: r2/models/modaction.py:76
 msgid "remove comment"
 msgstr "移除留言"
 
-#: r2/models/modaction.py:74
+#: r2/models/modaction.py:77
 msgid "approve comment"
 msgstr "核准留言"
 
-#: r2/models/modaction.py:75
+#: r2/models/modaction.py:78
 msgid "add moderator"
 msgstr "新增版主"
 
-#: r2/models/modaction.py:76
+#: r2/models/modaction.py:79
 msgid "remove moderator"
 msgstr "移除版主"
 
-#: r2/models/modaction.py:78
+#: r2/models/modaction.py:81
 msgid "uninvite moderator"
 msgstr "取消邀請版主"
 
-#: r2/models/modaction.py:79
+#: r2/models/modaction.py:82
 msgid "accept moderator invite"
 msgstr "接受版主邀請"
 
-#: r2/models/modaction.py:80
+#: r2/models/modaction.py:83
 msgid "add contributor"
 msgstr "新增投稿者"
 
-#: r2/models/modaction.py:81
+#: r2/models/modaction.py:84
 msgid "remove contributor"
 msgstr "移除投稿者"
 
-#: r2/models/modaction.py:82
+#: r2/models/modaction.py:85
 msgid "edit settings"
 msgstr "修改設定"
 
-#: r2/models/modaction.py:84 r2/templates/printablebuttons.html:118
+#: r2/models/modaction.py:87 r2/templates/printablebuttons.html:118
 msgid "distinguish"
 msgstr "區分"
 
-#: r2/models/modaction.py:85
+#: r2/models/modaction.py:88
 msgid "mark nsfw"
-msgstr "標記為不適合公開閱覽"
+msgstr "標記為 nsfw"
 
-#: r2/models/modaction.py:86
+#: r2/models/modaction.py:89
 msgid "ban from wiki"
 msgstr ""
 
-#: r2/models/modaction.py:87
+#: r2/models/modaction.py:90
 msgid "unban from wiki"
 msgstr ""
 
-#: r2/models/modaction.py:88
+#: r2/models/modaction.py:91
 msgid "add wiki contributor"
 msgstr "新增維基投稿者"
 
-#: r2/models/modaction.py:89
+#: r2/models/modaction.py:92
 msgid "delist/relist wiki pages"
 msgstr ""
 
-#: r2/models/modaction.py:90
+#: r2/models/modaction.py:93
 msgid "remove wiki contributor"
 msgstr "移除維基投稿者"
 
-#: r2/models/modaction.py:91
+#: r2/models/modaction.py:94
 msgid "wiki revise page"
 msgstr ""
 
-#: r2/models/modaction.py:92
+#: r2/models/modaction.py:95
 msgid "wiki page permissions"
 msgstr ""
 
-#: r2/models/modaction.py:93 r2/models/modaction.py:209
+#: r2/models/modaction.py:96 r2/models/modaction.py:214
 #: r2/templates/printablebuttons.html:228
 msgid "ignore reports"
 msgstr "忽略檢舉"
 
-#: r2/models/modaction.py:94
+#: r2/models/modaction.py:97
 msgid "unignore reports"
 msgstr "取消忽略檢舉"
 
-#: r2/models/modaction.py:95
+#: r2/models/modaction.py:98
 msgid "permissions"
 msgstr "權限"
 
-#: r2/models/modaction.py:96 r2/models/modaction.py:140
+#: r2/models/modaction.py:99 r2/models/modaction.py:145
 msgid "set suggested sort"
-msgstr ""
+msgstr "設定建議的排序方式"
 
-#: r2/models/modaction.py:97
+#: r2/models/modaction.py:100
 msgid "sticky post"
 msgstr "將文章置頂"
 
-#: r2/models/modaction.py:98
+#: r2/models/modaction.py:101
 msgid "unsticky post"
 msgstr "取消文章置頂"
 
-#: r2/models/modaction.py:99
+#: r2/models/modaction.py:102
 msgid "set contest mode"
 msgstr ""
 
-#: r2/models/modaction.py:100
+#: r2/models/modaction.py:103
 msgid "unset contest mode"
 msgstr ""
 
-#: r2/models/modaction.py:101
+#: r2/models/modaction.py:104
 msgid "lock post"
 msgstr "鎖定文章"
 
-#: r2/models/modaction.py:102
+#: r2/models/modaction.py:105
 msgid "unlock post"
 msgstr "解除封鎖此文"
 
-#: r2/models/modaction.py:103 r2/templates/printablebuttons.html:602
+#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:602
 msgid "mute user"
-msgstr ""
+msgstr "禁言會員"
 
-#: r2/models/modaction.py:104 r2/templates/printablebuttons.html:599
+#: r2/models/modaction.py:107 r2/templates/printablebuttons.html:599
 msgid "unmute user"
-msgstr ""
-
-#: r2/models/modaction.py:105
-msgid "create rule"
-msgstr ""
-
-#: r2/models/modaction.py:106
-msgid "edit rule"
-msgstr ""
-
-#: r2/models/modaction.py:107
-msgid "delete rule"
-msgstr ""
+msgstr "取消禁言會員"
 
 #: r2/models/modaction.py:108
-msgid "mark spoiler"
-msgstr ""
+msgid "create rule"
+msgstr "建立守則"
 
 #: r2/models/modaction.py:109
-msgid "unmark spoiler"
-msgstr ""
+msgid "edit rule"
+msgstr "編輯守則"
 
 #: r2/models/modaction.py:110
+msgid "delete rule"
+msgstr "刪除守則"
+
+#: r2/models/modaction.py:111
+msgid "mark spoiler"
+msgstr "標記為劇透"
+
+#: r2/models/modaction.py:112
+msgid "unmark spoiler"
+msgstr "取消標記為劇透"
+
+#: r2/models/modaction.py:113
 msgid "enroll in new modmail"
 msgstr ""
 
-#: r2/models/modaction.py:114
+#: r2/models/modaction.py:117
 msgid "wiki banned"
 msgstr ""
 
-#: r2/models/modaction.py:115
+#: r2/models/modaction.py:118
 msgid "unbanned from wiki"
 msgstr ""
 
-#: r2/models/modaction.py:116
+#: r2/models/modaction.py:119
 msgid "added wiki contributor"
 msgstr "已新增的維基投稿者"
 
-#: r2/models/modaction.py:117
+#: r2/models/modaction.py:120
 msgid "removed wiki contributor"
 msgstr "已移除的維基投稿者"
 
-#: r2/models/modaction.py:118
+#: r2/models/modaction.py:121
 msgid "unbanned"
 msgstr "已取消禁止"
 
-#: r2/models/modaction.py:119 r2/models/modaction.py:121
+#: r2/models/modaction.py:123 r2/models/modaction.py:126
 #: r2/templates/linkcommentssettings.html:119 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:264 r2/templates/trophycase.html:48
 msgid "removed"
 msgstr "已移除"
 
-#: r2/models/modaction.py:120 r2/models/modaction.py:122 r2/models/modaction.py:159
+#: r2/models/modaction.py:124 r2/models/modaction.py:127 r2/models/modaction.py:164
 #: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:267
 #: r2/templates/renderablecampaign.html:193 r2/templates/subredditinfobar.html:138
 msgid "approved"
 msgstr "已核准"
 
-#: r2/models/modaction.py:123
+#: r2/models/modaction.py:128
 msgid "added moderator"
 msgstr "已新增的版主"
 
-#: r2/models/modaction.py:124
+#: r2/models/modaction.py:129
 msgid "removed moderator"
 msgstr "已移除的版主"
 
-#: r2/models/modaction.py:125
+#: r2/models/modaction.py:130
 msgid "invited moderator"
 msgstr "受邀請的版主"
 
-#: r2/models/modaction.py:126
+#: r2/models/modaction.py:131
 msgid "uninvited moderator"
 msgstr "未受邀請的版主"
 
-#: r2/models/modaction.py:127
+#: r2/models/modaction.py:132
 msgid "accepted moderator invitation"
 msgstr "已接受版主邀請"
 
-#: r2/models/modaction.py:128
+#: r2/models/modaction.py:133
 msgid "added approved contributor"
 msgstr "已新增的合格投稿者"
 
-#: r2/models/modaction.py:129
+#: r2/models/modaction.py:134
 msgid "removed approved contributor"
 msgstr "已移除的合格投稿者"
 
-#: r2/models/modaction.py:130
+#: r2/models/modaction.py:135
 msgid "edited settings"
 msgstr "編輯設定"
 
-#: r2/models/modaction.py:131
+#: r2/models/modaction.py:136
 msgid "edited flair"
 msgstr "已編輯的標籤"
 
-#: r2/models/modaction.py:132
+#: r2/models/modaction.py:137
 msgid "edited wiki page"
 msgstr "已編輯維基頁面"
 
-#: r2/models/modaction.py:133
+#: r2/models/modaction.py:138
 msgid "changed wiki page permission level"
 msgstr ""
 
-#: r2/models/modaction.py:134
+#: r2/models/modaction.py:139
 msgid "changed wiki page listing preference"
 msgstr ""
 
-#: r2/models/modaction.py:135
+#: r2/models/modaction.py:140
 msgid "distinguished"
 msgstr ""
 
-#: r2/models/modaction.py:136
+#: r2/models/modaction.py:141
 msgid "marked nsfw"
 msgstr "已標記為不適合公開閱覽"
 
-#: r2/models/modaction.py:137
+#: r2/models/modaction.py:142
 msgid "ignored reports"
 msgstr "已忽略的檢舉"
 
-#: r2/models/modaction.py:138
+#: r2/models/modaction.py:143
 msgid "unignored reports"
 msgstr "已取消忽略的檢舉"
 
-#: r2/models/modaction.py:139
+#: r2/models/modaction.py:144
 msgid "changed permissions on"
 msgstr ""
 
-#: r2/models/modaction.py:141
+#: r2/models/modaction.py:146
 msgid "stickied"
 msgstr "已置頂"
 
-#: r2/models/modaction.py:142
+#: r2/models/modaction.py:147
 msgid "unstickied"
 msgstr "已取消置頂"
 
-#: r2/models/modaction.py:143
+#: r2/models/modaction.py:148
 msgid "set contest mode on"
 msgstr ""
 
-#: r2/models/modaction.py:144
+#: r2/models/modaction.py:149
 msgid "unset contest mode on"
 msgstr ""
 
-#: r2/models/modaction.py:145 r2/templates/lockedinterstitial.html:31
+#: r2/models/modaction.py:150 r2/templates/lockedinterstitial.html:31
 #: r2/templates/printablebuttons.html:73
 msgid "locked"
 msgstr "已鎖定"
 
-#: r2/models/modaction.py:146 r2/templates/printablebuttons.html:76
+#: r2/models/modaction.py:151 r2/templates/printablebuttons.html:76
 msgid "unlocked"
 msgstr ""
 
-#: r2/models/modaction.py:148 r2/templates/printablebuttons.html:599
+#: r2/models/modaction.py:153 r2/templates/printablebuttons.html:599
 msgid "unmuted"
 msgstr ""
 
-#: r2/models/modaction.py:149
+#: r2/models/modaction.py:154
 msgid "created rule"
 msgstr ""
 
-#: r2/models/modaction.py:150
+#: r2/models/modaction.py:155
 msgid "edited rule"
 msgstr ""
 
-#: r2/models/modaction.py:151
+#: r2/models/modaction.py:156
 msgid "deleted rule"
 msgstr ""
 
-#: r2/models/modaction.py:152
+#: r2/models/modaction.py:157
 msgid "marked spoiler"
 msgstr ""
 
-#: r2/models/modaction.py:153
+#: r2/models/modaction.py:158
 msgid "unmarked spoiler"
 msgstr ""
 
-#: r2/models/modaction.py:154
+#: r2/models/modaction.py:159
 msgid "enrolled in new modmail"
 msgstr ""
 
-#: r2/models/modaction.py:158
+#: r2/models/modaction.py:163
 msgid "unspam"
 msgstr "非垃圾訊息"
 
-#: r2/models/modaction.py:161
+#: r2/models/modaction.py:166
 msgid "confirmed spam"
 msgstr "確認為垃圾訊息"
 
-#: r2/models/modaction.py:162
+#: r2/models/modaction.py:167
 msgid "removed not spam"
 msgstr "已移除的非垃圾訊息"
 
-#: r2/models/modaction.py:163
+#: r2/models/modaction.py:168
 msgid "removed spam"
 msgstr "已移除的垃圾訊息"
 
-#: r2/models/modaction.py:165
+#: r2/models/modaction.py:170
 msgid "removed self"
 msgstr "自刪"
 
-#: r2/models/modaction.py:167 r2/templates/createsubreddit.html:72
-#: r2/templates/newlink.html:208 r2/templates/newlink.html:232
+#: r2/models/modaction.py:172 r2/templates/createsubreddit.html:73
+#: r2/templates/newlink.html:209 r2/templates/newlink.html:233
 #: r2/templates/promotelinkbase.html:78
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "標題"
 
-#: r2/models/modaction.py:168 r2/templates/createsubreddit.html:86
+#: r2/models/modaction.py:173 r2/templates/createsubreddit.html:88
 #: r2/templates/prefapps.html:147 r2/templates/prefapps.html:342
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:31
 msgid "description"
 msgstr "說明"
 
-#: r2/models/modaction.py:169 r2/templates/createsubreddit.html:103
+#: r2/models/modaction.py:174 r2/templates/createsubreddit.html:106
 msgid "sidebar"
 msgstr "側邊欄"
 
-#: r2/models/modaction.py:170 r2/templates/createsubreddit.html:121
+#: r2/models/modaction.py:175 r2/templates/createsubreddit.html:130
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "語言"
 
-#: r2/models/modaction.py:171 r2/templates/createsubreddit.html:132
+#: r2/models/modaction.py:176 r2/templates/createsubreddit.html:141
 msgid "type"
 msgstr "類型"
 
-#: r2/models/modaction.py:172
+#: r2/models/modaction.py:177
 msgid "link type"
 msgstr "鏈結類型"
 
-#: r2/models/modaction.py:173
+#: r2/models/modaction.py:178
 msgid "submit link button label"
 msgstr ""
 
-#: r2/models/modaction.py:174
+#: r2/models/modaction.py:179
 msgid "submit text post button label"
 msgstr ""
 
-#: r2/models/modaction.py:175
+#: r2/models/modaction.py:180
 msgid "comment score hide period"
 msgstr "留言分數隱藏時間"
 
-#: r2/models/modaction.py:176
+#: r2/models/modaction.py:181
 msgid "toggle viewers must be over 18"
 msgstr ""
 
-#: r2/models/modaction.py:177
+#: r2/models/modaction.py:182
 msgid "toggle allow in default/trending lists"
 msgstr ""
 
-#: r2/models/modaction.py:178
+#: r2/models/modaction.py:183
 msgid "toggle show thumbnail images of content"
 msgstr ""
 
-#: r2/models/modaction.py:179
+#: r2/models/modaction.py:184
 msgid "toggle public traffic stats page"
 msgstr "切換公開流量統計頁面"
 
-#: r2/models/modaction.py:180
+#: r2/models/modaction.py:185
 msgid "toggle collapse deleted/removed comments"
 msgstr ""
 
-#: r2/models/modaction.py:181
+#: r2/models/modaction.py:186
 msgid "toggle exclude banned users' posts from modqueue"
 msgstr ""
 
-#: r2/models/modaction.py:183
+#: r2/models/modaction.py:188
 msgid "toggle show sidebar from cname"
 msgstr ""
 
-#: r2/models/modaction.py:184
+#: r2/models/modaction.py:189
 msgid "toggle custom CSS from cname"
 msgstr ""
 
-#: r2/models/modaction.py:185
+#: r2/models/modaction.py:190
 msgid "header title"
 msgstr "標頭標題"
 
-#: r2/models/modaction.py:187
+#: r2/models/modaction.py:192
 msgid "delete header image"
 msgstr "刪除標頭圖片"
 
-#: r2/models/modaction.py:188
+#: r2/models/modaction.py:193
 msgid "delete image"
 msgstr "刪除圖片"
 
-#: r2/models/modaction.py:189
+#: r2/models/modaction.py:194
 msgid "delete icon image"
 msgstr "刪除圖示圖片"
 
-#: r2/models/modaction.py:190
+#: r2/models/modaction.py:195
 msgid "delete banner image"
 msgstr "刪除橫幅圖片"
 
-#: r2/models/modaction.py:191 r2/templates/createsubreddit.html:508
+#: r2/models/modaction.py:196 r2/templates/createsubreddit.html:530
 msgid "upload header image"
 msgstr "上傳標頭圖片"
 
-#: r2/models/modaction.py:192
+#: r2/models/modaction.py:197
 msgid "upload icon image"
 msgstr "上傳圖示圖片"
 
-#: r2/models/modaction.py:193
+#: r2/models/modaction.py:198
 msgid "upload banner image"
 msgstr "上傳橫幅圖片"
 
-#: r2/models/modaction.py:194
+#: r2/models/modaction.py:199
 msgid "upload image"
 msgstr "上傳影像"
 
-#: r2/models/modaction.py:196
+#: r2/models/modaction.py:201
 msgid "add/edit flair"
 msgstr "新增或編輯標籤"
 
-#: r2/models/modaction.py:197
+#: r2/models/modaction.py:202
 msgid "delete flair"
 msgstr "刪除標籤"
 
-#: r2/models/modaction.py:198
+#: r2/models/modaction.py:203
 msgid "edit by csv"
 msgstr "CSV編輯"
 
-#: r2/models/modaction.py:199
+#: r2/models/modaction.py:204
 msgid "toggle flair enabled"
 msgstr ""
 
-#: r2/models/modaction.py:200
+#: r2/models/modaction.py:205
 msgid "toggle user flair position"
 msgstr "切換使用者標籤位置"
 
-#: r2/models/modaction.py:201
+#: r2/models/modaction.py:206
 msgid "toggle link flair position"
 msgstr "切換連結標籤位置"
 
-#: r2/models/modaction.py:202
+#: r2/models/modaction.py:207
 msgid "toggle user assigned flair enabled"
 msgstr ""
 
-#: r2/models/modaction.py:203
+#: r2/models/modaction.py:208
 msgid "toggle submitter assigned link flair enabled"
 msgstr ""
 
-#: r2/models/modaction.py:204
+#: r2/models/modaction.py:209
 msgid "add/edit flair templates"
 msgstr "新增或編輯標籤範本"
 
-#: r2/models/modaction.py:205
+#: r2/models/modaction.py:210
 msgid "delete flair template"
 msgstr "刪除標籤範本"
 
-#: r2/models/modaction.py:206
+#: r2/models/modaction.py:211
 msgid "clear flair templates"
 msgstr "清除標籤範本"
 
-#: r2/models/modaction.py:208 r2/public/static/js/link-websockets.js:260
-#: r2/templates/createsubreddit.html:544 r2/templates/createsubreddit.html:550
-#: r2/templates/filteredinfobar.html:43 r2/templates/multiinfobar.html:125
+#: r2/models/modaction.py:213 r2/public/static/js/link-websockets.js:261
+#: r2/templates/createsubreddit.html:566 r2/templates/createsubreddit.html:572
+#: r2/templates/filteredinfobar.html:49 r2/templates/multiinfobar.html:133
 #: r2/templates/prefapps.html:79 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:244 r2/templates/trophycase.html:48
 #: r2/templates/usertableitem.html:59
 msgid "remove"
 msgstr "移除"
 
-#: r2/models/modaction.py:211
+#: r2/models/modaction.py:216
 msgid "set permissions on moderator"
 msgstr "設定版主權限"
 
-#: r2/models/modaction.py:212
+#: r2/models/modaction.py:217
 msgid "set permissions on moderator invitation"
 msgstr "設定版主邀請權限"
 
@@ -5375,118 +5416,118 @@ msgstr ""
 msgid "interest: %s"
 msgstr ""
 
-#: r2/models/rules.py:34 ../../liveupdate/reddit_liveupdate/pages.py:257
-msgid "vote manipulation"
-msgstr ""
-
-#: r2/models/rules.py:35 ../../liveupdate/reddit_liveupdate/pages.py:258
-msgid "personal information"
-msgstr ""
-
-#: r2/models/rules.py:36 ../../liveupdate/reddit_liveupdate/pages.py:259
-msgid "sexualizing minors"
-msgstr ""
-
-#: r2/models/rules.py:37 ../../liveupdate/reddit_liveupdate/pages.py:260
-msgid "breaking reddit"
-msgstr ""
-
-#: r2/models/rules.py:41
+#: r2/models/rules.py:33
 msgid "Spam"
 msgstr ""
 
-#: r2/models/rules.py:42
-msgid "Personal and confidential information"
-msgstr ""
-
-#: r2/models/rules.py:43
+#: r2/models/rules.py:34
 msgid "Threatening, harassing, or inciting violence"
 msgstr ""
 
-#: r2/models/subreddit.py:319
+#: r2/models/rules.py:38 ../../liveupdate/reddit_liveupdate/pages.py:257
+msgid "vote manipulation"
+msgstr ""
+
+#: r2/models/rules.py:39 ../../liveupdate/reddit_liveupdate/pages.py:258
+msgid "personal information"
+msgstr ""
+
+#: r2/models/rules.py:40 ../../liveupdate/reddit_liveupdate/pages.py:259
+msgid "sexualizing minors"
+msgstr ""
+
+#: r2/models/rules.py:41 ../../liveupdate/reddit_liveupdate/pages.py:260
+msgid "breaking reddit"
+msgstr ""
+
+#: r2/models/rules.py:46
+msgid "Personal and confidential information"
+msgstr ""
+
+#: r2/models/subreddit.py:374
 msgid "red"
 msgstr ""
 
-#: r2/models/subreddit.py:320
+#: r2/models/subreddit.py:375
 msgid "orangered"
 msgstr ""
 
-#: r2/models/subreddit.py:321
+#: r2/models/subreddit.py:376
 msgid "orange"
 msgstr ""
 
-#: r2/models/subreddit.py:322
+#: r2/models/subreddit.py:377
 msgid "mango"
 msgstr ""
 
-#: r2/models/subreddit.py:323
+#: r2/models/subreddit.py:378
 msgid "lime"
 msgstr ""
 
-#: r2/models/subreddit.py:324
+#: r2/models/subreddit.py:379
 msgid "green"
 msgstr "綠色"
 
-#: r2/models/subreddit.py:325
+#: r2/models/subreddit.py:380
 msgid "mint"
 msgstr ""
 
-#: r2/models/subreddit.py:326
+#: r2/models/subreddit.py:381
 msgid "teal"
 msgstr ""
 
-#: r2/models/subreddit.py:327
+#: r2/models/subreddit.py:382
 msgid "blue"
 msgstr "藍色"
 
-#: r2/models/subreddit.py:328
+#: r2/models/subreddit.py:383
 msgid "alien blue"
 msgstr "外星人藍"
 
-#: r2/models/subreddit.py:329
+#: r2/models/subreddit.py:384
 msgid "pink"
 msgstr ""
 
-#: r2/models/subreddit.py:330
+#: r2/models/subreddit.py:385
 msgid "purple"
 msgstr ""
 
-#: r2/models/subreddit.py:332
+#: r2/models/subreddit.py:387
 msgid "brown"
 msgstr ""
 
-#: r2/models/subreddit.py:333
+#: r2/models/subreddit.py:388
 msgid "pale grey"
 msgstr ""
 
-#: r2/models/subreddit.py:334
+#: r2/models/subreddit.py:389
 msgid "grey"
 msgstr ""
 
-#: r2/models/subreddit.py:335
+#: r2/models/subreddit.py:390
 msgid "dark grey"
 msgstr ""
 
-#: r2/models/subreddit.py:336
+#: r2/models/subreddit.py:391
 msgid "semi black"
 msgstr ""
 
-#: r2/models/subreddit.py:1918 r2/models/subreddit.py:1961
+#: r2/models/subreddit.py:2272 r2/models/subreddit.py:2350
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (filtered)"
 
-#: r2/models/subreddit.py:2174
+#: r2/models/subreddit.py:2619
 #, python-format
 msgid "posts from %s"
 msgstr ""
 
-#: r2/models/subreddit.py:2536
+#: r2/models/subreddit.py:3010
 #, python-format
 msgid "%s subreddits curated by /u/%s"
 msgstr ""
 
-#: r2/models/subreddit.py:2862
+#: r2/models/subreddit.py:3336
 #, python-format
 msgid "%(domain)s on %(reddit.com)s"
 msgstr ""
@@ -5499,211 +5540,227 @@ msgstr "任何範圍"
 msgid "Endpoint is accessible with any combination of other OAuth 2 scopes."
 msgstr ""
 
-#: r2/models/token.py:126
+#: r2/models/token.py:128
+msgid "Sponsor admin related actions"
+msgstr ""
+
+#: r2/models/token.py:129
+msgid "Sponsor admin only functionality and scope"
+msgstr ""
+
+#: r2/models/token.py:135
 msgid "Update account information"
 msgstr "更新帳號資訊"
 
-#: r2/models/token.py:127
+#: r2/models/token.py:136
 msgid "Update preferences and related account information. Will not have access to your email or password."
 msgstr "更新偏好設定與相關帳號資訊。不會存取你的email或密碼"
 
-#: r2/models/token.py:133
+#: r2/models/token.py:142
 msgid "Spend reddit gold creddits"
 msgstr ""
 
-#: r2/models/token.py:134
+#: r2/models/token.py:143
 msgid "Spend my reddit gold creddits on giving gold to other users."
 msgstr ""
 
-#: r2/models/token.py:139
+#: r2/models/token.py:148
 msgid "Edit Posts"
 msgstr "編輯文章"
 
-#: r2/models/token.py:140
+#: r2/models/token.py:149
 msgid "Edit and delete my comments and submissions."
 msgstr ""
 
-#: r2/models/token.py:144
+#: r2/models/token.py:153
+msgid "My Email Address"
+msgstr ""
+
+#: r2/models/token.py:154
+msgid "Access my verified email address."
+msgstr ""
+
+#: r2/models/token.py:159
 msgid "Manage My Flair"
 msgstr ""
 
-#: r2/models/token.py:145
+#: r2/models/token.py:160
 msgid "Select my subreddit flair. Change link flair on my submissions."
 msgstr ""
 
-#: r2/models/token.py:150
+#: r2/models/token.py:165
 msgid "History"
 msgstr "歷史"
 
-#: r2/models/token.py:151
+#: r2/models/token.py:166
 msgid "Access my voting history and comments or submissions I've saved or hidden."
 msgstr ""
 
-#: r2/models/token.py:157
+#: r2/models/token.py:172
 msgid "My Identity"
 msgstr "我的認證資訊"
 
-#: r2/models/token.py:158
+#: r2/models/token.py:173
 msgid "Access my reddit username and signup date."
 msgstr "存取我的reddit使用者名稱與註冊日期"
 
-#: r2/models/token.py:162
+#: r2/models/token.py:177
 msgid "Approve submitters and ban users"
 msgstr ""
 
-#: r2/models/token.py:163
+#: r2/models/token.py:178
 msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from subreddits I moderate."
 msgstr ""
 
-#: r2/models/token.py:170
+#: r2/models/token.py:185
 msgid "Moderate Flair"
 msgstr "管理標籤"
 
-#: r2/models/token.py:171
+#: r2/models/token.py:186
 msgid "Manage and assign flair in subreddits I moderate."
 msgstr "在我擔任版主的看板中管理和指派標籤。"
 
-#: r2/models/token.py:176
+#: r2/models/token.py:191
 msgid "New Modmail"
 msgstr ""
 
-#: r2/models/token.py:177
+#: r2/models/token.py:192
 msgid "Access and manage modmail via mod.reddit.com."
 msgstr ""
 
-#: r2/models/token.py:182
+#: r2/models/token.py:197
 msgid "Moderate Posts"
 msgstr "版主發文"
 
-#: r2/models/token.py:183
+#: r2/models/token.py:198
 msgid "Approve, remove, mark nsfw, and distinguish content in subreddits I moderate."
-msgstr ""
+msgstr "批准、移除、標記為 nsfw 以及區分我所管理的看板內的內容。"
 
-#: r2/models/token.py:189
+#: r2/models/token.py:204
 msgid "Moderate Subreddit Configuration"
 msgstr ""
 
-#: r2/models/token.py:190
+#: r2/models/token.py:205
 msgid "Manage the configuration, sidebar, and CSS of subreddits I moderate."
 msgstr "管理我擔任版主的看板的配置、側邊欄和 CSS。"
 
-#: r2/models/token.py:196
+#: r2/models/token.py:211
 msgid "Moderation Log"
 msgstr "版面管理記錄"
 
-#: r2/models/token.py:197
+#: r2/models/token.py:212
 msgid "Access the moderation log in subreddits I moderate."
 msgstr "存取我擔任版主的看板的版面管理記錄。"
 
-#: r2/models/token.py:202
+#: r2/models/token.py:217
 msgid "Invite or remove other moderators"
 msgstr ""
 
-#: r2/models/token.py:203
+#: r2/models/token.py:218
 msgid "Invite or remove other moderators from subreddits I moderate."
 msgstr ""
 
-#: r2/models/token.py:209
+#: r2/models/token.py:224
 msgid "Make changes to your subreddit moderator and contributor status"
 msgstr ""
 
-#: r2/models/token.py:211
+#: r2/models/token.py:226
 msgid "Accept invitations to moderate a subreddit. Remove myself as a moderator or contributor of subreddits I moderate or contribute to."
 msgstr ""
 
-#: r2/models/token.py:219
+#: r2/models/token.py:234
 msgid "Subreddit Traffic"
 msgstr "看板流量"
 
-#: r2/models/token.py:220
+#: r2/models/token.py:235
 msgid "Access traffic stats in subreddits I moderate."
 msgstr "存取我擔任版主的看板的流量統計資料。"
 
-#: r2/models/token.py:224
+#: r2/models/token.py:239
 msgid "Moderate Wiki"
 msgstr ""
 
-#: r2/models/token.py:225
+#: r2/models/token.py:240
 msgid "Change editors and visibility of wiki pages in subreddits I moderate."
 msgstr ""
 
-#: r2/models/token.py:231
+#: r2/models/token.py:246
 msgid "My Subreddits"
 msgstr "我的看板"
 
-#: r2/models/token.py:232
+#: r2/models/token.py:247
 msgid "Access the list of subreddits I moderate, contribute to, and subscribe to."
 msgstr ""
 
-#: r2/models/token.py:238
+#: r2/models/token.py:253
 msgid "Private Messages"
 msgstr "私人訊息"
 
-#: r2/models/token.py:239
+#: r2/models/token.py:254
 msgid "Access my inbox and send private messages to other users."
 msgstr "存取我的收件匣，並寄送私人訊息給其他使用者。"
 
-#: r2/models/token.py:244
+#: r2/models/token.py:259
 msgid "Read Content"
 msgstr "閱讀內容"
 
-#: r2/models/token.py:245
+#: r2/models/token.py:260
 msgid "Access posts and comments through my account."
 msgstr "透過我的帳號存取發文和留言。"
 
-#: r2/models/token.py:249
+#: r2/models/token.py:264
 msgid "Report content"
 msgstr "檢舉內容"
 
-#: r2/models/token.py:250
+#: r2/models/token.py:265
 msgid "Report content for rules violations. Hide & show individual submissions."
 msgstr ""
 
-#: r2/models/token.py:255
+#: r2/models/token.py:270
 msgid "Save Content"
 msgstr "儲存內容"
 
-#: r2/models/token.py:256
+#: r2/models/token.py:271
 msgid "Save and unsave comments and submissions."
 msgstr "儲存和取消儲存留言與發文。"
 
-#: r2/models/token.py:260
+#: r2/models/token.py:275
 msgid "Submit Content"
 msgstr "發出內容"
 
-#: r2/models/token.py:261
+#: r2/models/token.py:276
 msgid "Submit links and comments from my account."
 msgstr "從我的帳號發表連結和留言。"
 
-#: r2/models/token.py:265
+#: r2/models/token.py:280
 msgid "Edit My Subscriptions"
 msgstr "編輯我的訂閱"
 
-#: r2/models/token.py:266
+#: r2/models/token.py:281
 msgid "Manage my subreddit subscriptions. Manage \"friends\" - users whose content I follow."
 msgstr ""
 
-#: r2/models/token.py:271
+#: r2/models/token.py:286 r2/templates/listing.html:75
 msgid "Vote"
-msgstr "投票"
+msgstr "評分"
 
-#: r2/models/token.py:273
+#: r2/models/token.py:288
 msgid "Submit and change my votes on comments and submissions."
 msgstr ""
 
-#: r2/models/token.py:277
+#: r2/models/token.py:292
 msgid "Wiki Editing"
 msgstr "百科編輯中"
 
-#: r2/models/token.py:278
+#: r2/models/token.py:293
 msgid "Edit wiki pages on my behalf"
 msgstr ""
 
-#: r2/models/token.py:282
+#: r2/models/token.py:297
 msgid "Read Wiki Pages"
 msgstr "閱讀百科頁面"
 
-#: r2/models/token.py:283
+#: r2/models/token.py:298
 msgid "Read wiki pages through my account"
 msgstr ""
 
@@ -5797,8 +5854,8 @@ msgstr ""
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "錯誤發生。請稍後再試一次！(狀態：%(status)s)"
 
-#: r2/public/static/js/jquery.reddit.js:352 r2/public/static/js/saved.js:166
-#: r2/public/static/js/saved.js:181 r2/templates/printablebuttons.html:358
+#: r2/public/static/js/jquery.reddit.js:352 r2/public/static/js/saved.js:174
+#: r2/public/static/js/saved.js:189 r2/templates/printablebuttons.html:358
 #: r2/templates/printablebuttons.html:471
 msgid "unsave"
 msgstr "取消儲存"
@@ -5827,50 +5884,50 @@ msgstr ""
 msgid "all %(count)s comments"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:243
+#: r2/public/static/js/link-websockets.js:244
 msgid "points"
 msgstr ""
 
-#: r2/public/static/js/link-websockets.js:257
+#: r2/public/static/js/link-websockets.js:258
 #: r2/templates/printablebuttons.html:461 r2/templates/printablebuttons.html:564
 msgid "permalink"
 msgstr "永久連結"
 
-#: r2/public/static/js/link-websockets.js:258
+#: r2/public/static/js/link-websockets.js:259
 #: r2/templates/printablebuttons.html:495
 msgid "parent"
 msgstr "上層留言"
 
-#: r2/public/static/js/link-websockets.js:261 r2/templates/printablebuttons.html:68
-#: r2/templates/promotelinkbase.html:1012 r2/templates/subredditreportform.html:46
+#: r2/public/static/js/link-websockets.js:262 r2/templates/printablebuttons.html:68
+#: r2/templates/promotelinkbase.html:1012 r2/templates/subredditreportform.html:43
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:92
 msgid "report"
 msgstr "檢舉"
 
-#: r2/public/static/js/link-websockets.js:262
+#: r2/public/static/js/link-websockets.js:263
 #: r2/templates/printablebuttons.html:221
 msgid "give gold"
 msgstr "贈送金幣"
 
-#: r2/public/static/js/link-websockets.js:263 r2/templates/morechildren.html:38
+#: r2/public/static/js/link-websockets.js:264 r2/templates/morechildren.html:38
 msgid "reply"
 msgid_plural "replies"
 msgstr[0] "回覆"
 
-#: r2/public/static/js/link-websockets.js:264 r2/public/static/js/ui.js:1075
+#: r2/public/static/js/link-websockets.js:265 r2/public/static/js/ui.js:1075
 #: r2/templates/goldsubscription.html:47 r2/templates/printablebuttons.html:681
 #: r2/templates/printablebuttons.html:703
 msgid "are you sure?"
 msgstr "你確定嗎？"
 
-#: r2/public/static/js/link-websockets.js:265 r2/public/static/js/ui.js:1076
+#: r2/public/static/js/link-websockets.js:266 r2/public/static/js/ui.js:1076
 #: r2/templates/fraudform.html:32 r2/templates/goldsubscription.html:50
 #: r2/templates/optout.html:37 r2/templates/optout.html:53
 #: r2/templates/printablebuttons.html:683 r2/templates/printablebuttons.html:732
 msgid "yes"
 msgstr "是"
 
-#: r2/public/static/js/link-websockets.js:266 r2/public/static/js/ui.js:1077
+#: r2/public/static/js/link-websockets.js:267 r2/public/static/js/ui.js:1077
 #: r2/templates/fraudform.html:37 r2/templates/goldsubscription.html:53
 #: r2/templates/optout.html:40 r2/templates/optout.html:56
 #: r2/templates/printablebuttons.html:177 r2/templates/printablebuttons.html:685
@@ -5880,15 +5937,15 @@ msgstr "否"
 
 #: r2/public/static/js/login.js:115
 msgid "You need to be logged in to upvote things."
-msgstr "您必須登入才能進行給推。"
+msgstr "您必須登入才能給予好評。"
 
 #: r2/public/static/js/login.js:120
 msgid "You need to be logged in to downvote things."
-msgstr "您必須登入才能進行給噓。"
+msgstr "您必須登入才能給予負評。"
 
 #: r2/public/static/js/login.js:125
 msgid "You need to be logged in to vote on things."
-msgstr "您必須登入才能進行投票。"
+msgstr "您必須登入才能給予評分。"
 
 #: r2/public/static/js/login.js:130
 msgid "You need to be logged in to give gold."
@@ -5926,23 +5983,23 @@ msgstr "密碼強度中"
 msgid "Password is weak"
 msgstr "密碼強度弱"
 
-#: r2/public/static/js/multi.js:519
+#: r2/public/static/js/multi.js:534
 msgid "awesomeness goes here"
 msgstr ""
 
-#: r2/public/static/js/multi.js:520
+#: r2/public/static/js/multi.js:535
 msgid "add a subreddit to your multi."
 msgstr "將看板新增至您的看板群組。"
 
-#: r2/public/static/js/multi.js:573
+#: r2/public/static/js/multi.js:588
 msgid "categorize"
 msgstr "分類"
 
-#: r2/public/static/js/multi.js:589
+#: r2/public/static/js/multi.js:604
 msgid "open this multi"
 msgstr "開啟此看板群組"
 
-#: r2/public/static/js/multi.js:593
+#: r2/public/static/js/multi.js:608
 msgid "create a new multi"
 msgstr "建立新的看板群組"
 
@@ -6041,9 +6098,9 @@ msgstr "發送"
 
 #: r2/public/static/js/post-sharing.js:87 r2/templates/fraudform.html:45
 #: r2/templates/linkcommentssettings.html:75 r2/templates/printablebuttons.html:405
-#: r2/templates/promotelinkedit.html:133 r2/templates/renderablecampaign.html:258
-#: r2/templates/reportform.html:68 r2/templates/rules.html:134
-#: r2/templates/subredditreportform.html:43
+#: r2/templates/promotelinkedit.html:140 r2/templates/renderablecampaign.html:258
+#: r2/templates/reportform.html:68 r2/templates/rules.html:144
+#: r2/templates/subredditreportform.html:40
 msgid "cancel"
 msgstr "取消"
 
@@ -6091,30 +6148,30 @@ msgstr "錯誤發生。(狀態：%(status)s)"
 msgid "File upload not supported in your browser."
 msgstr ""
 
-#: r2/public/static/js/saved.js:64
+#: r2/public/static/js/saved.js:72
 msgid "Invalid category name"
 msgstr ""
 
-#: r2/public/static/js/saved.js:120
+#: r2/public/static/js/saved.js:128
 msgid "save category"
 msgstr "儲存分類"
 
-#: r2/public/static/js/saved.js:121
+#: r2/public/static/js/saved.js:129
 msgid "no category"
 msgstr "沒有分類"
 
-#: r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161
+#: r2/public/static/js/saved.js:130 r2/public/static/js/saved.js:169
 #: r2/public/static/js/sponsored.js:98 r2/templates/flairlistrow.html:45
 #: r2/templates/flairselector.html:51 r2/templates/moderatorpermissions.html:52
 #: r2/templates/prefupdate.html:53 r2/templates/prefupdate.html:147
 #: r2/templates/prefupdate.html:204 r2/templates/printablebuttons.html:360
-#: r2/templates/printablebuttons.html:475 r2/templates/promotelinkedit.html:237
+#: r2/templates/printablebuttons.html:475 r2/templates/promotelinkedit.html:245
 #: r2/templates/subredditstylesheet.html:68
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatecontributorpermissions.html:29
 msgid "save"
 msgstr "儲存"
 
-#: r2/public/static/js/saved.js:123
+#: r2/public/static/js/saved.js:131
 msgid "new category"
 msgstr "新分類"
 
@@ -6271,7 +6328,7 @@ msgstr "檢視看板流量"
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
 #: r2/templates/userlisting.html:170
 msgid "go"
-msgstr "去"
+msgstr "前往"
 
 #: r2/public/static/js/ui.js:157
 msgid "get reddit mobile"
@@ -6289,13 +6346,18 @@ msgstr "完整權限"
 msgid "no permissions"
 msgstr "沒有權限"
 
-#: r2/public/static/js/uibase.js:74
+#: r2/public/static/js/uibase.js:82
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventapp.html:66
 #, python-format
 msgid "… and %(count)s more ⇒"
 msgstr ""
 
-#: r2/public/static/js/uibase.js:82
+#: r2/public/static/js/uibase.js:86
+#, python-format
+msgid "show %(count)s ⇒"
+msgstr ""
+
+#: r2/public/static/js/uibase.js:95
 msgid "⇐ less"
 msgstr ""
 
@@ -6310,15 +6372,15 @@ msgstr ""
 
 #: r2/public/static/js/expando/interstitial.js:46
 msgid "We will ask before showing NSFW media."
-msgstr ""
+msgstr "在顯示 NSFW 的圖像/影片前我們會先詢問您的意向。"
 
 #: r2/public/static/js/expando/interstitial.js:116
 msgid "Always show NSFW media?"
-msgstr ""
+msgstr "總是顯示 NSFW 的圖像/影片？"
 
 #: r2/public/static/js/expando/interstitial.js:117
 msgid "Ok, we changed your preferences to always show NSFW media."
-msgstr ""
+msgstr "沒問題，我們已更改您的偏好設定，現在總是顯示 NSFW 的圖像/影片。"
 
 #: r2/public/static/js/expando/interstitial.js:118
 msgid "Undo"
@@ -6330,15 +6392,15 @@ msgstr ""
 
 #: r2/public/static/js/expando/interstitial.js:122
 msgid "Change your preferences to hide NSFW media?"
-msgstr ""
+msgstr "更改您的偏好設定以隱藏 NSFW 的圖像/影片？"
 
 #: r2/public/static/js/expando/interstitial.js:123
 msgid "Hide NSFW"
-msgstr ""
+msgstr "隱藏 NSFW"
 
 #: r2/public/static/js/expando/interstitial.js:125
 msgid "Click to see NSFW"
-msgstr ""
+msgstr "點擊以查看 NSFW"
 
 #: r2/public/static/js/expando/interstitial.js:126
 msgid "Click to see spoiler"
@@ -6346,7 +6408,7 @@ msgstr ""
 
 #: r2/public/static/js/expando/interstitial.js:127
 msgid "Click to see NSFW spoiler"
-msgstr ""
+msgstr "點擊以查看 NSFW 劇透"
 
 #: r2/templates/accountrecovery.html:29
 #, python-format
@@ -6358,7 +6420,7 @@ msgstr ""
 #: r2/templates/prefsecurity.html:40 r2/templates/prefsecurity.html:45
 #: r2/templates/prefsecurity.html:59 r2/templates/prefsecurity.html:74
 #: r2/templates/prefupdate.html:87 r2/templates/prefupdate.html:164
-#: r2/templates/useriphistory.html:71
+#: r2/templates/useriphistory.html:70
 msgid "(required)"
 msgstr "(必填)"
 
@@ -6443,7 +6505,7 @@ msgid "timings"
 msgstr ""
 
 #: r2/templates/adminbar.html:61 r2/templates/exploreitem.html:43
-#: r2/templates/printablebuttons.html:368
+#: r2/templates/printablebuttons.html:368 r2/templates/recommendedlink.html:66
 msgid "hide"
 msgstr "隱藏"
 
@@ -6510,13 +6572,13 @@ msgstr "排除您已訂閱的看板"
 
 #: r2/templates/allinfobar.html:35
 msgid "See gilded comments and submissions"
-msgstr ""
+msgstr "查看受贈過金幣的留言及發文"
 
 #: r2/templates/apihelp.html:297
 msgid "This endpoint expects JSON data of this format"
 msgstr ""
 
-#: r2/templates/archivedinterstitial.html:31 r2/templates/createsubreddit.html:147
+#: r2/templates/archivedinterstitial.html:31 r2/templates/createsubreddit.html:162
 #: r2/templates/searchresultsubreddit.html:102
 msgid "archived"
 msgstr "已歸檔"
@@ -6683,41 +6745,45 @@ msgstr "隱藏程式碼"
 msgid "clear"
 msgstr "清除"
 
-#: r2/templates/comment.html:101
+#: r2/templates/comment.html:102
 msgid "deleted comment from"
 msgstr "刪除留言從"
 
-#: r2/templates/comment.html:116
+#: r2/templates/comment.html:117
 msgid "scores for stickied comments are visible to mods only"
 msgstr ""
 
-#: r2/templates/comment.html:118
+#: r2/templates/comment.html:119
 msgid "scores are not shown for comments in contest mode"
 msgstr ""
 
-#: r2/templates/comment.html:120
+#: r2/templates/comment.html:121
 #, python-format
 msgid "this subreddit hides comment scores for %d minutes"
 msgstr "本看板將留言分數隱藏 %d 分鐘"
 
-#: r2/templates/comment.html:125 r2/templates/comment.htmllite:57
+#: r2/templates/comment.html:126 r2/templates/comment.htmllite:57
 msgid "score hidden"
 msgstr "分數隱藏"
 
-#: r2/templates/comment.html:137
+#: r2/templates/comment.html:138
 msgid "selected by this subreddit's moderators"
 msgstr ""
 
-#: r2/templates/comment.html:137
+#: r2/templates/comment.html:138
 msgid "stickied comment"
 msgstr ""
 
-#: r2/templates/comment.html:147 r2/templates/link.html:313
+#: r2/templates/comment.html:148 r2/templates/link.html:315
 #, python-format
 msgid "category: %s"
 msgstr "分類: %s"
 
-#: r2/templates/comment.html:158
+#: r2/templates/comment.html:156
+msgid "Change preferences"
+msgstr ""
+
+#: r2/templates/comment.html:165
 msgid "show replies"
 msgstr "顯示回覆"
 
@@ -6775,339 +6841,347 @@ msgstr ""
 msgid "name"
 msgstr "名稱"
 
-#: r2/templates/createsubreddit.html:72
+#: r2/templates/createsubreddit.html:73
 msgid "e.g., books: made from trees or pixels. recommendations, news, or thoughts"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:86
+#: r2/templates/createsubreddit.html:88
 msgid "Appears in search results and social media links. 500 characters max."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:102
+#: r2/templates/createsubreddit.html:105
 #, python-format
 msgid "shown in the sidebar of your subreddit. %d characters max.config/sidebar"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:112
+#: r2/templates/createsubreddit.html:118
 msgid "text to show on submission page. 1024 characters max."
-msgstr ""
+msgstr "顯示在發文頁面的文字，最多1024個字元。"
 
-#: r2/templates/createsubreddit.html:112
+#: r2/templates/createsubreddit.html:118
 msgid "submission text"
 msgstr "發文文字"
 
-#: r2/templates/createsubreddit.html:135 r2/templates/multiinfobar.html:41
+#: r2/templates/createsubreddit.html:146
+msgid "profile subreddit"
+msgstr ""
+
+#: r2/templates/createsubreddit.html:147
+msgid "this is the subreddit for your profile page"
+msgstr ""
+
+#: r2/templates/createsubreddit.html:150 r2/templates/multiinfobar.html:41
 msgid "public"
 msgstr "公共"
 
-#: r2/templates/createsubreddit.html:136
+#: r2/templates/createsubreddit.html:151
 msgid "anyone can view and submit"
 msgstr "任何人都可以檢視並發文"
 
-#: r2/templates/createsubreddit.html:138
+#: r2/templates/createsubreddit.html:153
 #: r2/templates/searchresultsubreddit.html:100
 msgid "restricted"
 msgstr "被限制"
 
-#: r2/templates/createsubreddit.html:139
+#: r2/templates/createsubreddit.html:154
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "任何人都可以檢視，但只有某些受到核准者可以送出連結"
 
-#: r2/templates/createsubreddit.html:142
+#: r2/templates/createsubreddit.html:157
 msgid "only approved members can view and submit"
 msgstr "只有合格成員能夠檢視和發文"
 
-#: r2/templates/createsubreddit.html:148
+#: r2/templates/createsubreddit.html:163
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:154
+#: r2/templates/createsubreddit.html:169
 msgid "gold restricted"
 msgstr "金幣已限制"
 
-#: r2/templates/createsubreddit.html:155
+#: r2/templates/createsubreddit.html:170
 msgid "anyone can view, but only reddit gold members can submit or comment"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:161
+#: r2/templates/createsubreddit.html:176
 msgid "employees only"
 msgstr "僅限員工"
 
-#: r2/templates/createsubreddit.html:162
+#: r2/templates/createsubreddit.html:177
 msgid "only reddit employees can view; the employee list is pulled from live config"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:172
+#: r2/templates/createsubreddit.html:187
 msgid "If you switch this subreddit to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:177 r2/templates/goldonlyinterstitial.html:33
+#: r2/templates/createsubreddit.html:192 r2/templates/goldonlyinterstitial.html:33
 msgid "gold only"
 msgstr "僅限黃金會員"
 
-#: r2/templates/createsubreddit.html:178
+#: r2/templates/createsubreddit.html:193
 msgid "only reddit gold members can view and submit"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:189 r2/templates/prefoptions.html:339
+#: r2/templates/createsubreddit.html:205 r2/templates/prefoptions.html:343
 msgid "content options"
 msgstr "內容選項"
 
-#: r2/templates/createsubreddit.html:192
+#: r2/templates/createsubreddit.html:208
 msgid "any"
 msgstr "任何"
 
-#: r2/templates/createsubreddit.html:193
+#: r2/templates/createsubreddit.html:209
 msgid "any link type is allowed"
 msgstr "允許任何連結類型"
 
-#: r2/templates/createsubreddit.html:195
+#: r2/templates/createsubreddit.html:211
 msgid "links only"
 msgstr "僅限連結"
 
-#: r2/templates/createsubreddit.html:196
+#: r2/templates/createsubreddit.html:212
 msgid "only links to external sites are allowed"
 msgstr "只允許連結到外部網站的連結"
 
-#: r2/templates/createsubreddit.html:198
+#: r2/templates/createsubreddit.html:214
 msgid "text posts only"
 msgstr "僅限以文字發文"
 
-#: r2/templates/createsubreddit.html:199
+#: r2/templates/createsubreddit.html:215
 msgid "only text/self posts are allowed"
 msgstr "僅限以文字發文/自行發文"
 
-#: r2/templates/createsubreddit.html:206
+#: r2/templates/createsubreddit.html:222
 msgid "Custom label for submit link button (blank for default):"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:214
+#: r2/templates/createsubreddit.html:233
 msgid "Custom label for submit text post button (blank for default):"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:226
+#: r2/templates/createsubreddit.html:248
 msgid "disabled"
 msgstr "已停用"
 
-#: r2/templates/createsubreddit.html:227
+#: r2/templates/createsubreddit.html:249
 msgid "Wiki is disabled for all users except mods"
 msgstr "維基已停止提供版主以外的任何使用者使用"
 
-#: r2/templates/createsubreddit.html:229
+#: r2/templates/createsubreddit.html:251
 msgid "mod editing"
 msgstr "版主編輯中"
 
-#: r2/templates/createsubreddit.html:230
+#: r2/templates/createsubreddit.html:252
 msgid "Only mods, approved wiki contributors, or those on a page's edit list may edit"
 msgstr "只有版主、合格維基投稿者，或頁面編輯名單上的人可進行編輯"
 
-#: r2/templates/createsubreddit.html:232
+#: r2/templates/createsubreddit.html:254
 msgid "anyone"
 msgstr "任何人"
 
-#: r2/templates/createsubreddit.html:233
+#: r2/templates/createsubreddit.html:255
 msgid "Anyone who can submit to the subreddit may edit"
 msgstr "任何可以在本看板發文的使用者都可進行編輯"
 
-#: r2/templates/createsubreddit.html:240
+#: r2/templates/createsubreddit.html:262
 msgid "Subreddit karma required to edit and create wiki pages:"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:250
+#: r2/templates/createsubreddit.html:272
 msgid "Account age (days) required to edit and create wiki pages:"
 msgstr "編輯和建立維基頁面所需的帳號資歷 (天數)："
 
-#: r2/templates/createsubreddit.html:262
+#: r2/templates/createsubreddit.html:284
 msgid "spam filter strength"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:264
+#: r2/templates/createsubreddit.html:286
 msgid "high is the standard filter, low disables most filtering, all will filter every post initially and they will need to be approved manually to be visible."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:269 r2/templates/createsubreddit.html:280
-#: r2/templates/createsubreddit.html:291
+#: r2/templates/createsubreddit.html:291 r2/templates/createsubreddit.html:302
+#: r2/templates/createsubreddit.html:313
 msgid "low"
 msgstr "低"
 
-#: r2/templates/createsubreddit.html:271 r2/templates/createsubreddit.html:282
-#: r2/templates/createsubreddit.html:293
+#: r2/templates/createsubreddit.html:293 r2/templates/createsubreddit.html:304
+#: r2/templates/createsubreddit.html:315
 msgid "high"
 msgstr "高"
 
-#: r2/templates/createsubreddit.html:278
+#: r2/templates/createsubreddit.html:300
 msgid "self posts"
 msgstr "本版貼文"
 
-#: r2/templates/createsubreddit.html:303
+#: r2/templates/createsubreddit.html:325
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:12
 msgid "other options"
 msgstr "其他選項"
 
-#: r2/templates/createsubreddit.html:314
+#: r2/templates/createsubreddit.html:336
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateeventconfiguration.html:20
 msgid "viewers must be over eighteen years old"
 msgstr "未滿18歲請勿閱讀"
 
-#: r2/templates/createsubreddit.html:326
-msgid "allow this subreddit to be included /r/all as well as the default and trending lists"
+#: r2/templates/createsubreddit.html:348
+msgid "allow this subreddit to be included in /r/all, /r/popular, default, and trending lists"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:337
+#: r2/templates/createsubreddit.html:359
 msgid "enable marking posts as containing spoilers"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:348
+#: r2/templates/createsubreddit.html:370
 msgid "show thumbnail images of content"
 msgstr "顯示內容的縮圖影像"
 
-#: r2/templates/createsubreddit.html:359
+#: r2/templates/createsubreddit.html:381
 msgid "expand media previews on comments pages"
-msgstr ""
+msgstr "展開留言中的媒體預覽"
 
-#: r2/templates/createsubreddit.html:370
+#: r2/templates/createsubreddit.html:392
 msgid "allow image uploads and links to image hosting sites"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:382
+#: r2/templates/createsubreddit.html:404
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:390
+#: r2/templates/createsubreddit.html:412
 msgid "make the traffic stats page available to everyone"
 msgstr "讓所有人觀看流量統計頁面"
 
-#: r2/templates/createsubreddit.html:401
+#: r2/templates/createsubreddit.html:423
 msgid "collapse deleted and removed comments"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:413
+#: r2/templates/createsubreddit.html:435
 msgid "hide ads (only available for gold only subreddits)"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:420
+#: r2/templates/createsubreddit.html:442
 msgid "suggested comment sort"
-msgstr ""
+msgstr "建議的留言排序方式"
 
-#: r2/templates/createsubreddit.html:420
+#: r2/templates/createsubreddit.html:442
 msgid "(all comment threads will use this sorting method by default)"
-msgstr ""
+msgstr "(所有留言討論串將預設使用此排序方式)"
 
-#: r2/templates/createsubreddit.html:422
+#: r2/templates/createsubreddit.html:444
 msgid "none (recommended for most subreddits)"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:431
+#: r2/templates/createsubreddit.html:453
 msgid "Minutes to hide comment scores:"
 msgstr "留言分數的隱藏分鐘數："
 
-#: r2/templates/createsubreddit.html:453 r2/templates/usertext.html:155
+#: r2/templates/createsubreddit.html:475 r2/templates/usertext.html:155
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
-msgstr "隱藏說明"
+msgstr "隱藏幫助"
 
-#: r2/templates/createsubreddit.html:457
+#: r2/templates/createsubreddit.html:479
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.reddit.com. You will be able to access your reddit through your domain."
 msgstr "擁有一個網域? 在這裡輸入它並且去你的 DNS 供應商那新增一筆 CNAME 紀錄來指向你的網域到 rhs.reddit.com. 你將可透過你的網域來存取你的 reddit."
 
-#: r2/templates/createsubreddit.html:464
+#: r2/templates/createsubreddit.html:486
 msgid "look and feel"
 msgstr "看起來感覺"
 
-#: r2/templates/createsubreddit.html:471
+#: r2/templates/createsubreddit.html:493
 msgid "subreddit name to use as theme"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:479
+#: r2/templates/createsubreddit.html:501
 msgid "There is a newer version of your subreddit theme available. Update to the latest version?"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:484
+#: r2/templates/createsubreddit.html:506
 msgid "update theme"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:494
+#: r2/templates/createsubreddit.html:516
 msgid "edit the stylesheet"
 msgstr "編輯樣式表"
 
-#: r2/templates/createsubreddit.html:498
+#: r2/templates/createsubreddit.html:520
 msgid "leaves this page"
 msgstr "離開此頁面"
 
-#: r2/templates/createsubreddit.html:518
+#: r2/templates/createsubreddit.html:540
 msgid "restore default header"
 msgstr "恢復預設標頭"
 
-#: r2/templates/createsubreddit.html:538
+#: r2/templates/createsubreddit.html:560
 msgid "related subreddits"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:540
+#: r2/templates/createsubreddit.html:562
 msgid "similar or related subreddits."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:616
+#: r2/templates/createsubreddit.html:638
 msgid "new modmail enrollment"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:620
+#: r2/templates/createsubreddit.html:642
 msgid "You have enrolled in the new modmail, if you wish to unenroll please"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:626
+#: r2/templates/createsubreddit.html:648
 msgid "Once chosen this can not be undone, please make sure your entire team is ready."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:635
+#: r2/templates/createsubreddit.html:657
 msgid "Enroll"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:645
+#: r2/templates/createsubreddit.html:667
 msgid "mobile look and feel"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:649
+#: r2/templates/createsubreddit.html:671
 msgid "icon image"
 msgstr "圖示圖片"
 
-#: r2/templates/createsubreddit.html:649
+#: r2/templates/createsubreddit.html:671
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:658
+#: r2/templates/createsubreddit.html:680
 msgid "remove custom icon image"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:667
+#: r2/templates/createsubreddit.html:689
 msgid "header image"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:667
+#: r2/templates/createsubreddit.html:689
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:668
+#: r2/templates/createsubreddit.html:690
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:668
+#: r2/templates/createsubreddit.html:690
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:677
+#: r2/templates/createsubreddit.html:699
 msgid "remove custom header image"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:687
+#: r2/templates/createsubreddit.html:709
 msgid "color"
 msgstr "配色"
 
-#: r2/templates/createsubreddit.html:687
+#: r2/templates/createsubreddit.html:709
 msgid "used as a thematic color for your subreddit on mobile"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:718 r2/templates/flairpane.html:88
-#: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:493
+#: r2/templates/createsubreddit.html:740 r2/templates/flairpane.html:88
+#: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:497
 #: r2/templates/usermessagingprefs.html:26
 msgid "save options"
 msgstr "儲存選項"
@@ -7126,8 +7200,8 @@ msgstr ""
 
 #: r2/templates/errorpage.html:41
 #, python-format
-msgid "a message from the moderators of /r/%s"
-msgstr "來自 /r/%s 版主的訊息"
+msgid "a message from the moderators of %s"
+msgstr ""
 
 #: r2/templates/errorpage.html:48
 msgid "send a message to the moderators"
@@ -7147,18 +7221,18 @@ msgstr ""
 
 #: r2/templates/exploreitemlisting.html:48 r2/templates/printablebuttons.html:79
 msgid "nsfw"
-msgstr "不適合公開閱覽"
+msgstr "nsfw"
 
 #: r2/templates/exploreitemlisting.html:52
 msgid "apply"
 msgstr "套用"
 
-#: r2/templates/exploreitemlisting.html:62 r2/templates/listing.html:43
+#: r2/templates/exploreitemlisting.html:62 r2/templates/listing.html:44
 #: r2/templates/promotedlinktraffic.html:104 r2/templates/searchlisting.html:51
 #: r2/templates/tablelisting.html:49 r2/templates/userlisting.html:139
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdateutils.html:9
 msgid "view more:"
-msgstr "繼續閱讀："
+msgstr "閱讀更多："
 
 #: r2/templates/exploreitemlisting.html:63
 msgid "reload suggestions"
@@ -7172,17 +7246,17 @@ msgstr ""
 msgid "try again"
 msgstr "請再重試"
 
-#: r2/templates/filteredinfobar.html:49
+#: r2/templates/filteredinfobar.html:41
 msgid "filter subreddit"
 msgstr ""
 
-#: r2/templates/filteredinfobar.html:49 r2/templates/modlisting.html:55
-#: r2/templates/subredditselector.html:33 r2/templates/userlisting.html:96
+#: r2/templates/filteredinfobar.html:41 r2/templates/modlisting.html:55
+#: r2/templates/subredditselector.html:36 r2/templates/userlisting.html:96
 #: r2/templates/wikipagesettings.html:67
 msgid "add"
 msgstr "新增"
 
-#: r2/templates/filteredinfobar.html:54
+#: r2/templates/filteredinfobar.html:55
 #, python-format
 msgid "View unfiltered %s"
 msgstr ""
@@ -7207,7 +7281,7 @@ msgstr "標籤文字"
 msgid "css class"
 msgstr "css類別"
 
-#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:46
+#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
 #: r2/templates/promotedlinktraffic.html:106 r2/templates/searchlisting.html:53
 #: r2/templates/spotlightlisting.html:52 r2/templates/tablelisting.html:53
 #: r2/templates/userlisting.html:143
@@ -7215,7 +7289,7 @@ msgstr "css類別"
 msgid "prev"
 msgstr "上一頁"
 
-#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:54
+#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:55
 #: r2/templates/promotedlinktraffic.html:112 r2/templates/promotelinknew.html:57
 #: r2/templates/searchlisting.html:59 r2/templates/spotlightlisting.html:53
 #: r2/templates/tablelisting.html:59 r2/templates/userlisting.html:149
@@ -7671,23 +7745,23 @@ msgstr ""
 
 #: r2/templates/linkcommentssettings.html:41
 msgid "suggested sort cleared"
-msgstr ""
+msgstr "建議的留言排序方式已清除"
 
 #: r2/templates/linkcommentssettings.html:45
 msgid "clear suggested sort"
-msgstr ""
+msgstr "清除建議的留言排序方式"
 
 #: r2/templates/linkcommentssettings.html:47
 msgid "clear suggested sort?"
-msgstr ""
+msgstr "清除建議的留言排序方式？"
 
 #: r2/templates/linkcommentssettings.html:86
 msgid "set as suggested sort"
-msgstr ""
+msgstr "設定為建議的留言排序方式"
 
 #: r2/templates/linkcommentssettings.html:86
 msgid "suggested sort set"
-msgstr ""
+msgstr "建議的排序方式"
 
 #: r2/templates/linkcommentssettings.html:94 r2/templates/printablebuttons.html:507
 msgid "disable inbox replies"
@@ -7766,28 +7840,76 @@ msgstr "本文發表於"
 #: r2/templates/linkinfobar.html:52
 #, python-format
 msgid "%(percent)s upvoted"
-msgstr ""
+msgstr "%(percent)s 好評"
 
 #: r2/templates/linkinfopage.htmllite:31
 #, python-format
 msgid "comments from %(site)s"
 msgstr "來自 %(site)s 的留言"
 
-#: r2/templates/listing.html:64 r2/templates/searchlisting.html:68
+#: r2/templates/listing.html:68
+msgid "Funny alien holding a sign with a cat!"
+msgstr ""
+
+#: r2/templates/listing.html:69
+msgid "Welcome!"
+msgstr ""
+
+#: r2/templates/listing.html:70
+msgid "Reddit is home to many subreddit communities, dedicated to every topic imaginable"
+msgstr ""
+
+#: r2/templates/listing.html:74
+msgid "Funny alien being upvoted on the shoulders of other funny aliens!"
+msgstr ""
+
+#: r2/templates/listing.html:76
+msgid "Vote on posts, and help lift the best content to the top"
+msgstr ""
+
+#: r2/templates/listing.html:80
+msgid "Funny aliens conversing civilly."
+msgstr ""
+
+#: r2/templates/listing.html:81
+msgid "Subscribe"
+msgstr ""
+
+#: r2/templates/listing.html:82
+msgid "Subscribe to communities to fill your home feed with fresh posts"
+msgstr ""
+
+#: r2/templates/listing.html:85
+msgid "Explore Popular"
+msgstr ""
+
+#: r2/templates/listing.html:88 r2/templates/searchlisting.html:68
 #: r2/templates/subredditstylesheetsource.html:52 r2/templates/tablelisting.html:64
 msgid "there doesn't seem to be anything here"
 msgstr "看來目前還沒有人留言"
 
-#: r2/templates/listing.html:78
+#: r2/templates/listing.html:97
 msgid "Help us improve Reddit!"
-msgstr ""
+msgstr "幫助我們改進Reddit！"
 
-#: r2/templates/listing.html:84
+#: r2/templates/listing.html:98
 msgid "Answer a few questions"
 msgstr ""
 
-#: r2/templates/listing.html:88
+#: r2/templates/listing.html:99
 msgid "No thanks"
+msgstr ""
+
+#: r2/templates/listing.html:108
+msgid "Try Reddit's Fast, 5 Star App"
+msgstr ""
+
+#: r2/templates/listing.html:109
+msgid "Sure"
+msgstr ""
+
+#: r2/templates/listing.html:110
+msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
@@ -7805,23 +7927,6 @@ msgstr ""
 #: r2/templates/listingchooser.html:53
 msgid "to hide these samples, create a multi of your own:"
 msgstr "欲隱藏這些範例，請建立您自己的看板群組："
-
-#: r2/templates/listingsuggestions.html:30
-msgid "explore some new subreddits"
-msgstr ""
-
-#: r2/templates/listingsuggestions.html:32
-msgid "or try a multi:"
-msgstr ""
-
-#: r2/templates/listingsuggestions.html:38
-#, python-format
-msgid "or try a %(random_subreddit)s"
-msgstr ""
-
-#: r2/templates/listingsuggestions.html:39
-msgid "random subreddit"
-msgstr ""
 
 #: r2/templates/livecomments.html:24
 msgid "Show new comments!"
@@ -7928,7 +8033,8 @@ msgstr ""
 msgid "Terms"
 msgstr "任期"
 
-#: r2/templates/login.html:261 r2/templates/register.html:261
+#: r2/templates/login.html:261 r2/templates/redditfooter.html:54
+#: r2/templates/register.html:261
 msgid "Privacy Policy"
 msgstr "隱私權政策"
 
@@ -8066,7 +8172,7 @@ msgstr "重命名"
 
 #: r2/templates/multiinfobar.html:53 r2/templates/printablebuttons.html:36
 #: r2/templates/printablebuttons.html:572 r2/templates/renderablecampaign.html:207
-#: r2/templates/rules.html:132 r2/templates/wikipagesettings.html:76
+#: r2/templates/rules.html:142 r2/templates/wikipagesettings.html:76
 #: ../../liveupdate/reddit_liveupdate/public/static/js/liveupdate/listings.js:129
 msgid "delete"
 msgstr "刪除"
@@ -8108,102 +8214,114 @@ msgstr "編輯描述"
 msgid "%(count)s subreddits in this multi:"
 msgstr "本群組中有 %(count)s 個看板："
 
-#: r2/templates/multiinfobar.html:139 r2/templates/subredditinfobar.html:119
+#: r2/templates/multiinfobar.html:140 r2/templates/subredditinfobar.html:119
 #, python-format
 msgid "created by %(user)s"
 msgstr ""
 
-#: r2/templates/multiinfobar.html:143
+#: r2/templates/multiinfobar.html:144
 msgid "a multireddit for"
 msgstr "看板群組已經成立"
 
-#: r2/templates/multiinfobar.html:152
+#: r2/templates/multiinfobar.html:153
 msgid "people also added:"
 msgstr "訂閱這些看板的人也會訂閱："
 
-#: r2/templates/multiinfobar.html:156
+#: r2/templates/multiinfobar.html:157
 msgid "more suggestions"
 msgstr "更多建議"
 
-#: r2/templates/multiinfobar.html:160
+#: r2/templates/multiinfobar.html:161
 msgid "no more suggestions!"
 msgstr "沒有其他建議了！"
 
-#: r2/templates/multiinfobar.html:161
+#: r2/templates/multiinfobar.html:162
 msgid "would you like to..."
 msgstr "您是否想要..."
 
-#: r2/templates/multiinfobar.html:165
+#: r2/templates/multiinfobar.html:166
 msgid "check out subreddits by category"
 msgstr "依類別查看看板"
 
-#: r2/templates/multiinfobar.html:170
+#: r2/templates/multiinfobar.html:171
 msgid "explore a random subreddit"
 msgstr "探索隨機選取的看板"
 
-#: r2/templates/multiinfobar.html:175
+#: r2/templates/multiinfobar.html:176
 msgid "see the suggestions again"
 msgstr "再次查看建議"
 
-#: r2/templates/newlink.html:39
+#: r2/templates/newlink.html:40
 msgid "reddit"
 msgstr "reddit"
 
-#: r2/templates/newlink.html:42
+#: r2/templates/newlink.html:43
 #, python-format
 msgid "submit to %(sr)s"
 msgstr "發表至 %(sr)s"
 
-#: r2/templates/newlink.html:138
+#: r2/templates/newlink.html:139
 msgid "Choose File"
 msgstr ""
 
-#: r2/templates/newlink.html:181
+#: r2/templates/newlink.html:182
 msgid "image"
 msgstr ""
 
-#: r2/templates/newlink.html:210
+#: r2/templates/newlink.html:211
 msgid "use suggested title"
 msgstr ""
 
-#: r2/templates/newlink.html:220 r2/templates/newlink.html:262
+#: r2/templates/newlink.html:221 r2/templates/newlink.html:263
 #: r2/templates/promotelinkbase.html:121 r2/templates/promotelinkbase.html:154
 msgid "text"
 msgstr "文字"
 
-#: r2/templates/newlink.html:220 r2/templates/newlink.html:262
+#: r2/templates/newlink.html:221 r2/templates/newlink.html:263
 #: r2/templates/paymentform.html:115 r2/templates/paymentform.html:121
 #: r2/templates/paymentform.html:199
 msgid "(optional)"
 msgstr "(非必填項目)"
 
-#: r2/templates/newlink.html:247
+#: r2/templates/newlink.html:248
 msgid "suggest title"
 msgstr "建議標題"
 
-#: r2/templates/newlink.html:274
+#: r2/templates/newlink.html:277
+msgid "choose where to post"
+msgstr ""
+
+#: r2/templates/newlink.html:279
 msgid "choose a subreddit"
 msgstr "選擇看板"
 
-#: r2/templates/newlink.html:281
+#: r2/templates/newlink.html:283
+msgid "Your profile"
+msgstr ""
+
+#: r2/templates/newlink.html:285
+msgid "A subreddit:"
+msgstr ""
+
+#: r2/templates/newlink.html:294
 #, python-format
 msgid "submitting to %(sr)s"
 msgstr "正在發布到 %(sr)s"
 
-#: r2/templates/newlink.html:294
+#: r2/templates/newlink.html:307
 msgid "send replies to my inbox"
 msgstr "將回覆寄到我的收件匣"
 
-#: r2/templates/newlink.html:304
+#: r2/templates/newlink.html:317
 #, python-format
 msgid "please be mindful of reddit's %(content_policy)s and practice %(good_reddiquette)s."
 msgstr ""
 
-#: r2/templates/newlink.html:310
+#: r2/templates/newlink.html:323
 msgid "good reddiquette"
 msgstr "良好的 reddit 站規"
 
-#: r2/templates/newlink.html:316
+#: r2/templates/newlink.html:329
 msgid "*required"
 msgstr ""
 
@@ -8217,7 +8335,7 @@ msgstr "訂閱 reddit 官方簡報,"
 
 #: r2/templates/newsletter.html:44
 msgid "upvoted weekly"
-msgstr "每週精選"
+msgstr "每週好評文章"
 
 #: r2/templates/newsletter.html:47
 msgid "Enter your email to get the very best of reddit's content curated, packaged, and delivered to your inbox once a week. It's free and we'll never spam you."
@@ -8232,7 +8350,7 @@ msgid "enter your email"
 msgstr "輸入您的電子信箱"
 
 #: r2/templates/newsletter.html:70 r2/templates/newsletterbar.html:50
-#: r2/templates/subscribebutton.html:30
+#: r2/templates/subscribebutton.html:33
 msgid "subscribe"
 msgstr "訂閱"
 
@@ -8464,7 +8582,7 @@ msgstr "檢視完整留言"
 
 #: r2/templates/personalizedads.html:26
 msgid "your ads preferences have been updated"
-msgstr ""
+msgstr "您的廣告偏好設定已經更新"
 
 #: r2/templates/personalizedads.html:30 r2/templates/personalizedads.html:66
 msgid "Reddit Personalized Ads"
@@ -8476,11 +8594,11 @@ msgstr ""
 
 #: r2/templates/personalizedads.html:34
 msgid "Your preferences are managed by a browser cookie, so, if you clear your cookies or visit from another browser, you will need to readjust your preferences."
-msgstr ""
+msgstr "您的偏好設定是由瀏覽器的cookie所管理，所以當您清除了您的cookies或使用另一個瀏覽器時，您需要重新設定您的偏好設定。"
 
 #: r2/templates/personalizedads.html:36
 msgid "When you log-out of your Reddit account from this browser or if you do not have a Reddit account, we will still respect your preferences."
-msgstr ""
+msgstr "當您在此瀏覽器登出您的reddit帳號，或者您沒有reddit帳號時，我們會重設您的偏好設定。"
 
 #: r2/templates/personalizedads.html:40
 msgid "With personalized ads on"
@@ -8488,7 +8606,7 @@ msgstr ""
 
 #: r2/templates/personalizedads.html:41
 msgid "Ads you see on Reddit will be delivered based on your prior use of our Services, including post clicks, sub-reddit visits, votes, and other information associated with your account."
-msgstr ""
+msgstr "您於Reddit看到的廣告會根據您使用過我們的服務而定，包括點擊過的貼文、到訪過的看板、評分、以及您帳號內的一些其他資訊。"
 
 #: r2/templates/personalizedads.html:43
 msgid "For example: If you frequently visit gaming subreddits, you're more likely to see an ad for a game rather than an ad for celebrity news."
@@ -8705,11 +8823,11 @@ msgstr ""
 
 #: r2/templates/preffeeds.html:31
 msgid "Private RSS feeds"
-msgstr "私人 RSS 饋送"
+msgstr "私人 RSS 訂閱"
 
 #: r2/templates/preffeeds.html:33
 msgid "On this page are links to private RSS feeds so that you can get listings of your content (personalized front page, message panel, saved listing, etc.) without having to deal with cookies or other auth."
-msgstr "本頁面提供私人 RSS 饋送的連結，可讓您取得內容的清單 (個人化首頁、訊息面板、已儲存清單等)，而無需處理 cookie 或其他身份驗證。"
+msgstr "本頁面提供私人 RSS 訂閱的連結，可讓您存取您的內容 (個人化首頁、訊息面板、已儲存清單等)，而無需處理 cookie 或其他身份驗證。"
 
 #: r2/templates/preffeeds.html:34
 msgid "Keep in mind that these urls are intended to be private, so **share at your own risk.**"
@@ -8719,17 +8837,21 @@ msgstr "請記住這些網址僅供私人使用，因此**如欲分享請自行�
 msgid "All feeds are invalidated if you change your password, however."
 msgstr "不過，如果您更改密碼，所有的饋送都會變成無效。"
 
+#: r2/templates/preffeeds.html:57
+msgid "your front page"
+msgstr "您的首頁"
+
 #: r2/templates/preffeeds.html:60
 msgid "your saved links"
 msgstr "你儲存的連結"
 
 #: r2/templates/preffeeds.html:67
 msgid "links you've upvoted"
-msgstr ""
+msgstr "你給予過好評的連結"
 
 #: r2/templates/preffeeds.html:70
 msgid "links you've downvoted"
-msgstr ""
+msgstr "你給予過負評的連結"
 
 #: r2/templates/preffeeds.html:73
 msgid "links you've hidden"
@@ -8792,7 +8914,7 @@ msgid "location options"
 msgstr "地區設定"
 
 #: r2/templates/prefoptions.html:133
-msgid "use the global default subreddits for my front page"
+msgid "use the global default subreddits for the home feed"
 msgstr ""
 
 #: r2/templates/prefoptions.html:135
@@ -8809,7 +8931,7 @@ msgstr "媒體"
 
 #: r2/templates/prefoptions.html:149
 msgid "thumbnails"
-msgstr ""
+msgstr "縮略圖"
 
 #: r2/templates/prefoptions.html:151
 msgid "show thumbnails next to links"
@@ -8829,38 +8951,38 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:160
 msgid "media previews"
-msgstr ""
+msgstr "媒體預覽"
 
 #: r2/templates/prefoptions.html:161
 msgid "auto-expand media previews"
-msgstr ""
+msgstr "自動展開媒體預覽"
 
 #: r2/templates/prefoptions.html:162
 msgid "don't auto-expand media previews on comments pages"
-msgstr ""
+msgstr "不要展開留言中的媒體預覽"
 
 #: r2/templates/prefoptions.html:163
 msgid "expand media previews based on that subreddit's media preferences"
-msgstr ""
+msgstr "依照看板的媒體偏好設定決定是否展開媒體預覽"
 
 #: r2/templates/prefoptions.html:166
 msgid "NSFW content"
-msgstr ""
+msgstr "NSFW 內容"
 
 #: r2/templates/prefoptions.html:167
 msgid "hide images for NSFW/18+ content "
-msgstr ""
+msgstr "隱藏 NSFW/18+ 內容的圖片 "
 
 #: r2/templates/prefoptions.html:170
 msgid "(Don't show thumbnails or media previews for anything labeled NSFW)"
-msgstr ""
+msgstr "(不要顯示標記為 NSFW 內容的縮略圖或媒體預覽)"
 
 #: r2/templates/prefoptions.html:175
 msgid "link options"
 msgstr "連結選項"
 
 #: r2/templates/prefoptions.html:178
-msgid "show the spotlight box on the front page"
+msgid "show the spotlight box on the home feed"
 msgstr ""
 
 #: r2/templates/prefoptions.html:181
@@ -8868,12 +8990,12 @@ msgid "(it shows new and promoted links, and gives you a say in what's spam and 
 msgstr ""
 
 #: r2/templates/prefoptions.html:185
-msgid "show trending subreddits on the front page"
+msgid "show trending subreddits on the home feed"
 msgstr ""
 
 #: r2/templates/prefoptions.html:188
 msgid "(a list of popular and notable subreddits to check out)"
-msgstr ""
+msgstr "(一個列出熱門或值得查閱的看板清單)"
 
 #: r2/templates/prefoptions.html:192
 msgid "show me links I've recently viewed"
@@ -8893,7 +9015,7 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:200
 msgid "don't show me submissions after I've upvoted them"
-msgstr ""
+msgstr "不顯示我給予過好評的發文"
 
 #: r2/templates/prefoptions.html:202 r2/templates/prefoptions.html:206
 msgid "(except my own)"
@@ -8901,7 +9023,7 @@ msgstr "(除了我自己)"
 
 #: r2/templates/prefoptions.html:204
 msgid "don't show me submissions after I've downvoted them"
-msgstr ""
+msgstr "不顯示我給予過負評的發文"
 
 #: r2/templates/prefoptions.html:209
 #, python-format
@@ -8911,11 +9033,11 @@ msgstr "每次顯示 %(num)s 條連結"
 #: r2/templates/prefoptions.html:216
 #, python-format
 msgid "don't show me submissions with a score less than %(num)s"
-msgstr ""
+msgstr "不顯示評分低於 %(num)s 的發文"
 
 #: r2/templates/prefoptions.html:217
 msgid "(leave blank to show all submissions)"
-msgstr ""
+msgstr "(留空以顯示所有發文)"
 
 #: r2/templates/prefoptions.html:222
 msgid "comment options"
@@ -8924,23 +9046,23 @@ msgstr "留言選項"
 #: r2/templates/prefoptions.html:225
 #, python-format
 msgid "sort comments by %(sort)s"
-msgstr ""
+msgstr "留言排序方式根據 %(sort)s"
 
 #: r2/templates/prefoptions.html:228
 msgid "ignore suggested sorts"
-msgstr ""
+msgstr "忽略建議的排序方式"
 
 #: r2/templates/prefoptions.html:229
 msgid "(suggested sorts may be set by community moderators for specific threads or subreddits, like Q&As)"
-msgstr ""
+msgstr "(建議的排序方式可能會根據板主為特定的討論串或看板而改變，例如Q&As)"
 
 #: r2/templates/prefoptions.html:232
 msgid "show a dagger (†) on comments voted controversial"
-msgstr ""
+msgstr "於具爭議的留言上顯示匕首 (†)"
 
 #: r2/templates/prefoptions.html:233
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
-msgstr ""
+msgstr "(一個具爭議的的留言為好評及負評數都有一定數量的留言)"
 
 #: r2/templates/prefoptions.html:240
 #, python-format
@@ -8960,231 +9082,235 @@ msgstr "預設顯示 %(num)s 則留言"
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "此數字越小，您的留言頁面載入的速度就越快"
 
-#: r2/templates/prefoptions.html:259
+#: r2/templates/prefoptions.html:258
+msgid "don't show me racist or abusive comments"
+msgstr ""
+
+#: r2/templates/prefoptions.html:263
 msgid "messaging options"
 msgstr "訊息選項"
 
-#: r2/templates/prefoptions.html:261
+#: r2/templates/prefoptions.html:265
 msgid "show message conversations in the inbox"
 msgstr "在收件匣中顯示訊息對話"
 
-#: r2/templates/prefoptions.html:264
+#: r2/templates/prefoptions.html:268
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(僅適用於您造訪「訊息」面板時)"
 
-#: r2/templates/prefoptions.html:268
+#: r2/templates/prefoptions.html:272
 msgid "collapse messages after I've read them"
 msgstr "在我閱讀訊息後將訊息折疊"
 
-#: r2/templates/prefoptions.html:271
+#: r2/templates/prefoptions.html:275
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(否則您必須自行折疊)"
 
-#: r2/templates/prefoptions.html:275
+#: r2/templates/prefoptions.html:279
 msgid "mark messages as read when I open my inbox"
 msgstr "在我開啟收件匣時將訊息標示為已讀"
 
-#: r2/templates/prefoptions.html:278
+#: r2/templates/prefoptions.html:282
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:281
+#: r2/templates/prefoptions.html:285
 msgid "notify me when people say my username"
-msgstr ""
-
-#: r2/templates/prefoptions.html:283
-msgid "enable threaded modmail display"
-msgstr ""
+msgstr "有人提及我的使用者名稱時通知我"
 
 #: r2/templates/prefoptions.html:287
+msgid "enable threaded modmail display"
+msgstr "啟用討論串式的訊息顯示方式"
+
+#: r2/templates/prefoptions.html:291
 msgid "send message notifications in my browser"
 msgstr ""
 
-#: r2/templates/prefoptions.html:297
+#: r2/templates/prefoptions.html:301
 msgid "Control who can send me messages"
 msgstr ""
 
-#: r2/templates/prefoptions.html:302
+#: r2/templates/prefoptions.html:306
 msgid "email options"
-msgstr ""
+msgstr "電子郵件選項"
 
-#: r2/templates/prefoptions.html:304
+#: r2/templates/prefoptions.html:308
 msgid "send messages as emails"
-msgstr ""
+msgstr "以電子郵件發送訊息"
 
-#: r2/templates/prefoptions.html:304 r2/templates/prefoptions.html:311
+#: r2/templates/prefoptions.html:308 r2/templates/prefoptions.html:315
 msgid "requires a verified email"
 msgstr ""
 
-#: r2/templates/prefoptions.html:307
+#: r2/templates/prefoptions.html:311
 msgid "(not available for your account yet! coming soon.)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:311
+#: r2/templates/prefoptions.html:315
 msgid "send email digests"
-msgstr ""
+msgstr "發送電子郵件摘要"
 
-#: r2/templates/prefoptions.html:315 r2/templates/widgetdemopanel.html:198
+#: r2/templates/prefoptions.html:319 r2/templates/widgetdemopanel.html:198
 msgid "display options"
 msgstr "顯示選項"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:321
 msgid "allow subreddits to show me custom themes"
-msgstr ""
+msgstr "允許看板顯示自訂的主題"
 
-#: r2/templates/prefoptions.html:320
+#: r2/templates/prefoptions.html:324
 msgid "(you can also choose which subreddit themes to disable on an individual level)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:324
+#: r2/templates/prefoptions.html:328
 msgid "show user flair"
 msgstr "顯示使用者標籤"
 
-#: r2/templates/prefoptions.html:326
+#: r2/templates/prefoptions.html:330
 msgid "show link flair"
 msgstr "顯示連結標籤"
 
-#: r2/templates/prefoptions.html:329
-msgid "show self-serve advertising tab on front page"
+#: r2/templates/prefoptions.html:333
+msgid "show self-serve advertising tab on the front page"
 msgstr ""
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:338
 msgid "show legacy search page"
-msgstr ""
+msgstr "顯示舊版搜尋頁面"
 
-#: r2/templates/prefoptions.html:341
+#: r2/templates/prefoptions.html:345
 msgid "I am over eighteen years old and willing to view adult content"
-msgstr "我已經年滿十八歲，並願意觀看成人內容"
-
-#: r2/templates/prefoptions.html:342
-msgid "required to view some subreddits"
-msgstr ""
-
-#: r2/templates/prefoptions.html:344
-msgid "label posts that are not safe for work (NSFW)"
-msgstr ""
+msgstr "我已經年滿十八歲，並願意查覽成人內容"
 
 #: r2/templates/prefoptions.html:346
-msgid "enable private RSS feeds"
-msgstr "啟用私人 RSS 饋送"
+msgid "required to view some subreddits"
+msgstr "查看特定看板需選"
 
 #: r2/templates/prefoptions.html:348
-msgid "(available from the 'RSS feed' tab in prefs)"
-msgstr "(可以在偏好設定中的「RSS 饋送」索引標籤上找到)"
+msgid "label posts that are not safe for work (NSFW)"
+msgstr "為不適合公開閱覽 (NSFW) 的貼文附上標籤"
 
-#: r2/templates/prefoptions.html:351
+#: r2/templates/prefoptions.html:350
+msgid "enable private RSS feeds"
+msgstr "啟用私人 RSS 訂閱"
+
+#: r2/templates/prefoptions.html:352
+msgid "(available from the 'RSS feed' tab in prefs)"
+msgstr "(可以在偏好設定中的「RSS 訂閱」索引標籤上找到)"
+
+#: r2/templates/prefoptions.html:355
 msgid "privacy options"
 msgstr "隱私設定"
 
-#: r2/templates/prefoptions.html:353
+#: r2/templates/prefoptions.html:357
 msgid "make my votes public"
-msgstr "公開我的投票選項"
+msgstr "公開我的評分紀錄"
 
-#: r2/templates/prefoptions.html:360
+#: r2/templates/prefoptions.html:364
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "讓所有人看到%(link1)s和%(link2)s"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:367
 msgid "allow my data to be used for research purposes"
 msgstr "允許使用我的資料來進行研究"
 
-#: r2/templates/prefoptions.html:373
+#: r2/templates/prefoptions.html:377
 msgid "don't allow search engines to index my user profile"
 msgstr "不要讓搜尋引擎收集我的使用者個人檔案的資訊"
 
-#: r2/templates/prefoptions.html:381
+#: r2/templates/prefoptions.html:385
 msgid "allow reddit to log my outbound clicks for personalization"
 msgstr ""
 
-#: r2/templates/prefoptions.html:386
+#: r2/templates/prefoptions.html:390
 msgid "advertising options"
-msgstr ""
+msgstr "廣告選項"
 
-#: r2/templates/prefoptions.html:388
+#: r2/templates/prefoptions.html:392
 msgid "set personalized ads preferences"
-msgstr ""
+msgstr "設定個人化廣告偏好設定"
 
-#: r2/templates/prefoptions.html:393
+#: r2/templates/prefoptions.html:397
 msgid "beta options"
 msgstr "測試設定"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:399
 msgid "I would like to beta test features for reddit"
 msgstr "我想要測試 reddit 的新功能"
 
-#: r2/templates/prefoptions.html:401
+#: r2/templates/prefoptions.html:405
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_sr_link)s automatically."
 msgstr ""
 
-#: r2/templates/prefoptions.html:403
+#: r2/templates/prefoptions.html:407
 msgid "details on the /r/{beta_sr} wiki"
 msgstr ""
 
-#: r2/templates/prefoptions.html:411 r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:415 r2/templates/prefoptions.html:438
 msgid "gold options"
 msgstr "金幣選項"
 
-#: r2/templates/prefoptions.html:413
+#: r2/templates/prefoptions.html:417
 msgid "hide ads"
 msgstr "隱藏廣告"
 
-#: r2/templates/prefoptions.html:415
+#: r2/templates/prefoptions.html:419
 msgid "remember what links I've visited"
 msgstr ""
 
-#: r2/templates/prefoptions.html:416
+#: r2/templates/prefoptions.html:420
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr ""
 
-#: r2/templates/prefoptions.html:418 r2/templates/prefoptions.html:436
+#: r2/templates/prefoptions.html:422 r2/templates/prefoptions.html:440
 msgid "highlight new comments"
 msgstr "標記新的留言"
 
-#: r2/templates/prefoptions.html:420
+#: r2/templates/prefoptions.html:424
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "我們會記住您的造訪 48 小時，並向您顯示哪些留言您還沒有看過"
 
-#: r2/templates/prefoptions.html:423
+#: r2/templates/prefoptions.html:427
 msgid "show gold expiration"
 msgstr ""
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:429
 msgid "show how much gold you have remaining on your userpage"
 msgstr ""
 
-#: r2/templates/prefoptions.html:429
+#: r2/templates/prefoptions.html:433
 #, python-format
 msgid "use a %(creddit_link)s to automatically renew my gold if it expires"
 msgstr ""
 
-#: r2/templates/prefoptions.html:439
+#: r2/templates/prefoptions.html:443
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in subreddits you moderate"
 msgstr ""
 
-#: r2/templates/prefoptions.html:447
+#: r2/templates/prefoptions.html:451
 msgid "reddit themes"
 msgstr ""
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:455
 msgid "reddit themes change the appearance of reddit.  They are used anywhere another custom theme is not present."
 msgstr ""
 
-#: r2/templates/prefoptions.html:455
+#: r2/templates/prefoptions.html:459
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr ""
 
-#: r2/templates/prefoptions.html:459
+#: r2/templates/prefoptions.html:463
 msgid "use reddit theme"
 msgstr "使用 reddit 主題"
 
-#: r2/templates/prefoptions.html:460
+#: r2/templates/prefoptions.html:464
 msgid "hover to preview"
 msgstr ""
 
-#: r2/templates/prefoptions.html:479
+#: r2/templates/prefoptions.html:483
 msgid "warning: use non-featured themes at your own risk"
 msgstr ""
 
@@ -9253,7 +9379,7 @@ msgid "update your email"
 msgstr "更新您的電子郵件地址"
 
 #: r2/templates/prefupdate.html:87 r2/templates/prefupdate.html:164
-#: r2/templates/useriphistory.html:71
+#: r2/templates/useriphistory.html:70
 msgid "current password"
 msgstr "目前密碼"
 
@@ -9300,11 +9426,11 @@ msgstr "(您不需按下滑鼠就可取得這項資訊；下次把游標放在�
 
 #: r2/templates/printable.html:249
 msgid "upvote"
-msgstr "推"
+msgstr "好評"
 
 #: r2/templates/printable.html:251
 msgid "downvote"
-msgstr "噓"
+msgstr "負評"
 
 #: r2/templates/printablebuttons.html:42 r2/templates/printablebuttons.html:261
 msgid "spammed"
@@ -9330,7 +9456,7 @@ msgstr "標記"
 
 #: r2/templates/printablebuttons.html:82
 msgid "un-nsfw"
-msgstr "適合公開閱覽"
+msgstr "un-nsfw"
 
 #: r2/templates/printablebuttons.html:82 r2/templates/printablebuttons.html:88
 msgid "unmarked"
@@ -9465,7 +9591,7 @@ msgstr ""
 
 #: r2/templates/printablebuttons.html:592
 msgid "block user"
-msgstr "封鎖使用者"
+msgstr "封鎖會員"
 
 #: r2/templates/printablebuttons.html:610
 msgid "mark unread"
@@ -9613,16 +9739,16 @@ msgid "Campaigns created before September 12, 2012 don't have traffic data"
 msgstr ""
 
 #: r2/templates/promotedlinktraffic.html:132 r2/templates/promotelinkbase.html:410
-#: r2/templates/promotelinkedit.html:161
+#: r2/templates/promotelinkedit.html:168
 msgid "start"
 msgstr "開始"
 
 #: r2/templates/promotedlinktraffic.html:133 r2/templates/promotelinkbase.html:423
-#: r2/templates/promotelinkedit.html:162
+#: r2/templates/promotelinkedit.html:169
 msgid "end"
 msgstr "結束"
 
-#: r2/templates/promotedlinktraffic.html:135 r2/templates/promotelinkedit.html:172
+#: r2/templates/promotedlinktraffic.html:135 r2/templates/promotelinkedit.html:179
 msgid "location"
 msgstr "地點"
 
@@ -9865,7 +9991,7 @@ msgstr "Android 最高版本"
 msgid "you must select valid versions to target"
 msgstr "你必須選擇要指定的正確版本"
 
-#: r2/templates/promotelinkbase.html:657 r2/templates/promotelinkedit.html:175
+#: r2/templates/promotelinkbase.html:657 r2/templates/promotelinkedit.html:182
 msgid "platform"
 msgstr "平台"
 
@@ -9895,7 +10021,7 @@ msgstr ""
 msgid "frequency"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:756 r2/templates/promotelinkedit.html:164
+#: r2/templates/promotelinkbase.html:756 r2/templates/promotelinkedit.html:171
 msgid "priority"
 msgstr ""
 
@@ -9907,7 +10033,7 @@ msgstr ""
 msgid "price basis"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:814 r2/templates/promotelinkedit.html:166
+#: r2/templates/promotelinkbase.html:814 r2/templates/promotelinkedit.html:173
 msgid "total budget"
 msgstr ""
 
@@ -9932,7 +10058,7 @@ msgstr ""
 msgid "the budget for campaigns cannot be adjusted once the campaign has gone live"
 msgstr ""
 
-#: r2/templates/promotelinkbase.html:870 r2/templates/promotelinkedit.html:171
+#: r2/templates/promotelinkbase.html:870 r2/templates/promotelinkedit.html:178
 msgid "targeting"
 msgstr ""
 
@@ -10032,55 +10158,59 @@ msgstr ""
 msgid "creative dashboard"
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:48
+#: r2/templates/promotelinkedit.html:49
+msgid "this promotion is managed in the new campaign management UI."
+msgstr ""
+
+#: r2/templates/promotelinkedit.html:54
 msgid "this promotion is managed in adzerk"
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:61
+#: r2/templates/promotelinkedit.html:68
 msgid "campaign dashboard"
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:67
+#: r2/templates/promotelinkedit.html:74
 msgid "You don't have any campaigns for this link yet.  You should add one."
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:70
+#: r2/templates/promotelinkedit.html:77
 msgid "click to create a new campaign.  To edit an existing campaign in the table below, click the 'edit' button."
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:91
+#: r2/templates/promotelinkedit.html:98
 msgid "admin dashboard"
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:118
+#: r2/templates/promotelinkedit.html:125
 msgid "confirm"
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:142
+#: r2/templates/promotelinkedit.html:149
 msgid "Date when your promoted post will start running.  We start new campaigns at midnight UTC+5"
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:143
+#: r2/templates/promotelinkedit.html:150
 msgid "Date when your promoted post will end (at midnight UTC+5)"
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:144
+#: r2/templates/promotelinkedit.html:151
 msgid "name of the community that you are targeting. A blank entry here means that the ad is untargeted and will run site-wide "
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:152
+#: r2/templates/promotelinkedit.html:159
 msgid "You have too many campaigns for this link."
 msgstr ""
 
-#: r2/templates/promotelinkedit.html:153
+#: r2/templates/promotelinkedit.html:160
 msgid "It's time to start fresh!"
 msgstr "現在要重新開始!"
 
-#: r2/templates/promotelinkedit.html:169
+#: r2/templates/promotelinkedit.html:176
 msgid "bid"
 msgstr "競標"
 
-#: r2/templates/promotelinkedit.html:174
+#: r2/templates/promotelinkedit.html:181
 msgid "payment mismatch"
 msgstr ""
 
@@ -10166,6 +10296,26 @@ msgstr ""
 msgid "discussions in"
 msgstr ""
 
+#: r2/templates/recommendedlink.html:54
+msgid "+ follow"
+msgstr ""
+
+#: r2/templates/recommendedlink.html:54
+msgid "followed"
+msgstr ""
+
+#: r2/templates/recommendedlink.html:60
+msgid "+ subscribe"
+msgstr ""
+
+#: r2/templates/recommendedlink.html:60
+msgid "subscribed"
+msgstr "已訂閱"
+
+#: r2/templates/recommendedlink.html:66
+msgid "Hide recommendations for 7 days"
+msgstr ""
+
 #: r2/templates/redditfooter.html:47
 #, python-format
 msgid "Use of this site constitutes acceptance of our %(user_agreement)s and %(privacy_policy)s"
@@ -10175,16 +10325,12 @@ msgstr "使用本網站即代表您接受我們的 %(user_agreement)s 和 %(priv
 msgid "User Agreement {Genitive}"
 msgstr ""
 
-#: r2/templates/redditfooter.html:54
-msgid "Privacy Policy (updated)"
-msgstr ""
-
-#: r2/templates/redditfooter.html:59
+#: r2/templates/redditfooter.html:58
 #, python-format
 msgid "%(year)d reddit inc. All rights reserved."
 msgstr "%(year)d reddit inc. 股份有限公司 保留所有權利"
 
-#: r2/templates/redditfooter.html:67
+#: r2/templates/redditfooter.html:66
 #, python-format
 msgid "Advertise - %(category)s"
 msgstr ""
@@ -10348,51 +10494,60 @@ msgstr ""
 msgid "Rules that visitors must follow to participate. May be used as reasons to report or ban."
 msgstr ""
 
-#: r2/templates/rules.html:76
+#: r2/templates/rules.html:80
 msgid "Add a new rule."
 msgstr ""
 
-#: r2/templates/rules.html:77
+#: r2/templates/rules.html:81
 msgid "Add a rule"
 msgstr ""
 
-#: r2/templates/rules.html:80
+#: r2/templates/rules.html:84
 msgid "You have reached the maximum number of rules."
 msgstr ""
 
 #: r2/templates/rules.html:120
+msgid "Reported as:"
+msgstr ""
+
+#: r2/templates/rules.html:130
 msgid "Delete this rule."
 msgstr ""
 
-#: r2/templates/rules.html:123
+#: r2/templates/rules.html:133
 msgid "Edit this rule."
 msgstr ""
 
-#: r2/templates/rules.html:131
+#: r2/templates/rules.html:141
 msgid "Delete this rule?"
 msgstr ""
 
-#: r2/templates/rules.html:147
+#: r2/templates/rules.html:157
 msgid "Short name"
 msgstr ""
 
-#: r2/templates/rules.html:150 r2/templates/rules.html:189
+#: r2/templates/rules.html:160 r2/templates/rules.html:199
+#: r2/templates/rules.html:214
 msgid "remaining"
 msgstr ""
 
-#: r2/templates/rules.html:166
+#: r2/templates/rules.html:176
 msgid "Applies to"
 msgstr ""
 
-#: r2/templates/rules.html:186
+#: r2/templates/rules.html:196
+msgid "Violation reason"
+msgstr ""
+
+#: r2/templates/rules.html:211
 msgid "Full description of this rule"
 msgstr ""
 
-#: r2/templates/rules.html:201
+#: r2/templates/rules.html:226
 msgid "Cancel this action."
 msgstr ""
 
-#: r2/templates/rules.html:204
+#: r2/templates/rules.html:229
 msgid "Confirm this action."
 msgstr ""
 
@@ -10403,15 +10558,15 @@ msgstr ""
 
 #: r2/templates/searchform.html:35
 msgid "find submissions in \"subreddit\""
-msgstr ""
+msgstr "搜尋發文：於\"看板\""
 
 #: r2/templates/searchform.html:37
 msgid "find submissions by \"username\""
-msgstr "依「使用者名稱」尋找發文"
+msgstr "搜尋發文：根據\"使用者名稱\""
 
 #: r2/templates/searchform.html:39
 msgid "find submissions from \"example.com\""
-msgstr ""
+msgstr "搜尋發文：從\"example.com\""
 
 #: r2/templates/searchform.html:41
 msgid "search for \"text\" in url"
@@ -10427,7 +10582,7 @@ msgstr "包含 (或排除) 自己的文章"
 
 #: r2/templates/searchform.html:47
 msgid "include (or exclude) results marked as NSFW"
-msgstr "納入 (或排除) 標記為不適合公開閱覽的結果"
+msgstr "包含 (或排除) 標記為 NSFW 的結果"
 
 #: r2/templates/searchform.html:51
 msgid "see the search faq for details."
@@ -10515,9 +10670,9 @@ msgstr ""
 msgid "not approved"
 msgstr "未核准"
 
-#: r2/templates/subreddit.html:95 r2/templates/utils.html:716
+#: r2/templates/subreddit.html:95 r2/templates/utils.html:793
 msgid "NSFW"
-msgstr "不適合公開閱覽"
+msgstr "NSFW"
 
 #: r2/templates/subreddit.xml:48
 msgid "[link]"
@@ -10578,30 +10733,26 @@ msgstr ""
 msgid "View the community rules"
 msgstr ""
 
-#: r2/templates/subredditreportform.html:36
-msgid "What rule does this break?"
-msgstr ""
-
-#: r2/templates/subredditreportform.html:77
+#: r2/templates/subredditreportform.html:78
 #, python-format
 msgid "Reddit rule: %(rule_name)s"
 msgstr ""
 
-#: r2/templates/subredditreportform.html:86
-#: r2/templates/subredditreportform.html:105
+#: r2/templates/subredditreportform.html:87
+#: r2/templates/subredditreportform.html:106
 msgid "Reports go to community moderators anonymously"
 msgstr ""
 
-#: r2/templates/subredditreportform.html:107
+#: r2/templates/subredditreportform.html:108
 msgid "Reports go to Reddit admins"
 msgstr ""
 
-#: r2/templates/subredditreportform.html:121
+#: r2/templates/subredditreportform.html:122
 #, python-format
 msgid "Other (max %(num)s characters):"
 msgstr ""
 
-#: r2/templates/subredditselector.html:58
+#: r2/templates/subredditselector.html:61
 msgid "Type in a community and hit \"Enter.\" Press backspace to delete"
 msgstr ""
 
@@ -10691,7 +10842,15 @@ msgstr ""
 msgid "not found"
 msgstr ""
 
+#: r2/templates/subscribebutton.html:30
+msgid "follow"
+msgstr ""
+
 #: r2/templates/subscribebutton.html:31
+msgid "unfollow"
+msgstr ""
+
+#: r2/templates/subscribebutton.html:34
 msgid "unsubscribe"
 msgstr "停止訂閱"
 
@@ -10765,6 +10924,11 @@ msgstr "特別獎勵："
 
 #: r2/templates/userblockedinterstitial.html:30
 msgid "You've blocked this user. (Out of sight, out of mind.)"
+msgstr "您已經封鎖了這名會員。(眼不見為淨)"
+
+#: r2/templates/userinfowidget.html:49
+#, python-format
+msgid "%s Karma"
 msgstr ""
 
 #: r2/templates/useriphistory.html:33
@@ -10772,26 +10936,30 @@ msgid "Recent activity on your account"
 msgstr "您的帳號最近的活動"
 
 #: r2/templates/useriphistory.html:42
+msgid "User-Agent"
+msgstr ""
+
+#: r2/templates/useriphistory.html:43
 msgid "Location"
 msgstr "位置"
 
-#: r2/templates/useriphistory.html:43
+#: r2/templates/useriphistory.html:44
 msgid "Last Visit"
 msgstr "最近一次造訪"
 
-#: r2/templates/useriphistory.html:44
+#: r2/templates/useriphistory.html:45
 msgid "Organization"
 msgstr ""
 
-#: r2/templates/useriphistory.html:65
+#: r2/templates/useriphistory.html:64
 msgid "Log out of all other sessions"
 msgstr "登出所有其他的工作階段"
 
-#: r2/templates/useriphistory.html:76
+#: r2/templates/useriphistory.html:75
 msgid "clear sessions"
 msgstr "清除工作階段"
 
-#: r2/templates/useriphistory.html:84
+#: r2/templates/useriphistory.html:83
 msgid "Apps you have authorized"
 msgstr ""
 
@@ -10849,7 +11017,7 @@ msgstr ""
 
 #: r2/templates/usermessagingprefs.html:9
 msgid "Everyone, except blocked users."
-msgstr ""
+msgstr "所有人，除了已封鎖的會員。"
 
 #: r2/templates/usermessagingprefs.html:10
 msgid "Only trusted users."
@@ -10948,27 +11116,35 @@ msgstr ""
 msgid "uploading"
 msgstr "上傳中"
 
-#: r2/templates/utils.html:696
+#: r2/templates/utils.html:773
 msgid "last edited"
 msgstr "最後編輯"
 
-#: r2/templates/utils.html:715
+#: r2/templates/utils.html:792
 msgid "Adult content: Not Safe For Work"
 msgstr "成人內容：不適合公開閱覽"
 
-#: r2/templates/utils.html:721
+#: r2/templates/utils.html:798
+msgid "We think you'll like this community or user based on your recently viewed posts and subscriptions"
+msgstr ""
+
+#: r2/templates/utils.html:804
 msgid "Quarantined content: Content may be highly offensive"
 msgstr ""
 
-#: r2/templates/utils.html:722
+#: r2/templates/utils.html:805
 msgid "Quarantined"
 msgstr ""
 
-#: r2/templates/utils.html:727
+#: r2/templates/utils.html:810
+msgid "Moderator of subreddit"
+msgstr ""
+
+#: r2/templates/utils.html:816
 msgid "Spoiler content"
 msgstr ""
 
-#: r2/templates/utils.html:728
+#: r2/templates/utils.html:817
 msgid "SPOILER"
 msgstr ""
 
@@ -11020,11 +11196,11 @@ msgstr "儲存者為"
 
 #: r2/templates/widgetdemopanel.html:138
 msgid "upvoted by"
-msgstr ""
+msgstr "給予好評者為"
 
 #: r2/templates/widgetdemopanel.html:139
 msgid "downvoted by"
-msgstr ""
+msgstr "給予負評者為"
 
 #: r2/templates/widgetdemopanel.html:150
 msgid "listing options"
@@ -11540,7 +11716,7 @@ msgstr "邀請"
 
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatensfwembed.html:8
 msgid "this thread is NSFW"
-msgstr "本討論串不適合公開閱覽。"
+msgstr "本討論串為 NSFW"
 
 #: ../../liveupdate/reddit_liveupdate/templates/liveupdatensfwembed.html:10
 msgid "visit the thread directly to see its content"
